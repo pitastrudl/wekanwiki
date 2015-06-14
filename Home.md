@@ -1,4 +1,3 @@
-# What is Libreboard?
 ![Libreboard Logo](http://libreboard.com/logos/logo.png)  
 Libreboard is an open-source [kanban board][] which allows a card-based task and to-do management, similar to tools like [WorkFlowy] or [Trello].
 
