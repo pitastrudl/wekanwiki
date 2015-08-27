@@ -18,6 +18,6 @@ Libreboard started as a just for fun project to explore meteor and it's features
 [#97]: https://github.com/libreboard/libreboard/issues/97
 
 ## How can I contribute to Libreboard?
-We’re glad you’re interested in helping the LibreBoard project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [Contributing][] notes for more information how you can help improve and enhance Libreboard.
+We’re glad you’re interested in helping the Libreboard project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [Contributing][] notes for more information how you can help improve and enhance Libreboard.
 
 [contributing]: https://github.com/libreboard/libreboard/blob/master/Contributing.md
