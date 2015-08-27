@@ -1,13 +1,12 @@
-![Libreboard Logo](http://libreboard.com/logos/logo.png)  
-Libreboard is an open-source [kanban board][] which allows a card-based task and to-do management, similar to tools like [WorkFlowy] or [Trello].
+Wekan is an open-source [kanban board][] which allows a card-based task and to-do management, similar to tools like [WorkFlowy] or [Trello].
 
-Libreboard allows to create **Boards**, on which **Cards** can be move around between a number of **Columns**. Boards can have many members, allowing for easy collaboration, just add everyone that should be able to work with you on the board to it, and you are good to go! You can assign colored **Labels** to cards to facilitate grouping and filtering, additionally you can add members to a card, for example to assign a task to someone.
+Wekan allows to create **Boards**, on which **Cards** can be move around between a number of **Columns**. Boards can have many members, allowing for easy collaboration, just add everyone that should be able to work with you on the board to it, and you are good to go! You can assign colored **Labels** to cards to facilitate grouping and filtering, additionally you can add members to a card, for example to assign a task to someone.
 
-## What does the Libre stands for?
-Libreboard, as the name already suggests, is distributed under the [MIT License], allowing anyone to easily work with it and modify it. It is perfect for anyone that needs a slick kanban board but doesn't want to use third party services, which are out of user control. Libreboard can be hosted on your own server with very little effort, guaranteeing that you have all the time full control over your data and can make sure no one else has access to it and that it won't just vanish from one day to another, that is, if you do backups.
+## What is special about Wekan?
+Wekan is distributed under the [MIT License], allowing anyone to easily work with it and modify it. It is perfect for anyone that needs a slick kanban board but doesn't want to use third party services, which are out of user control. Wekan can be hosted on your own server with very little effort, guaranteeing that you have all the time full control over your data and can make sure no one else has access to it and that it won't just vanish from one day to another, that is, if you do backups.
 
 ## Getting started
-There are various ways to get started with Libreboard, you can dive right in and try it out on the [Libreboard website demo], use the [Sandstorm app demo], or [[install|Install]] it right away on your own server!
+There are various ways to get started with Wekan, you can dive right in and try it out on the [Wekan website demo], use the [Sandstorm app demo], or [[install|Install]] it right away on your own server!
 
 If you still have questions, check out the [[FAQ]]!
 
@@ -15,5 +14,5 @@ If you still have questions, check out the [[FAQ]]!
 [workflowy]: https://workflowy.com
 [trello]: https://trello.com
 [mit license]: https://github.com/libreboard/libreboard/blob/master/LICENSE
-[libreboard website demo]: http://newui.libreboard.com
+[wekan website demo]: http://newui.libreboard.com
 [sandstorm app demo]: https://demo.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h
