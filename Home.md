@@ -15,6 +15,6 @@ If you still have questions, check out the [[FAQ]]!
 [kanban board]: https://en.wikipedia.org/wiki/Kanban_board
 [workflowy]: https://workflowy.com
 [trello]: https://trello.com
-[mit license]: https://github.com/libreboard/libreboard/blob/master/LICENSE
+[mit license]: https://github.com/wekan/wekan/blob/master/LICENSE
 [wekan website demo]: http://newui.libreboard.com
 [sandstorm app demo]: https://demo.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h
