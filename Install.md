@@ -1,20 +1,20 @@
-Welcome to the guide how to install Libreboard on your own Server! There are various ways to do so, just choose one of the following options:
+Welcome to the guide how to install Wekan on your own Server! There are various ways to do so, just choose one of the following options:
 
 ## Install using Docker
 You can install using the official Docker repository located [here][docker-repo].
 
 ## Install with Sandstorm
 Sandstorm is a platform that you can install of your server and it lets you install a variety of apps easily, most of the with a one-click installation.  
-For instructions how to install Sandstorm, check out the [guide][sandstorm-guide] on their website! After you have installed Sandstorm, just go to the Admin panel and install the Libreboard app! That's all!
+For instructions how to install Sandstorm, check out the [guide][sandstorm-guide] on their website! After you have installed Sandstorm, just go to the Admin panel and install the Wekan app! That's all!
 
 ## Install manually
 This is the most complex way, suitable if you know what you are doing and want to have the most flexibility to adapt the installation to your needs. Let's go!
 
 ### Install Node.js
-If you haven't already, you need to install Node.js, given that we need a very recent version, make sure to either use the [custom packages][node-packages] (the ones of your OS are likely too old) or install the latest version from the Node.js [website][node-web].
+If you haven't already, you need to install Node.js, given that we need node version 0.10, make sure to either use the [custom packages][node-packages] (the ones of your OS are likely too old) or install the correct version from the Node.js [website][node-web].
 
 ### Install Meteor
-As you might have noticed already, Libreboard is built using the Meteor web framework, so we need to install this as well. This can be done easily using their install script ([read it][meteor-script] if you don't trust it):
+As you might have noticed already, Wekan is built using the Meteor web framework, so we need to install this as well. This can be done easily using their install script ([read it][meteor-script] if you don't trust it):
 
 ```sh
 # This will install Meteor to ~/.meteor
@@ -23,10 +23,10 @@ curl https://install.meteor.com/ | sh
 
 ### Install MongoDB
 
-In order to run Libreboard you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website] how to install it.
+In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website] how to install it.
 
-### Download and build Libreboard
-First we need to get the latest version of Lireboard and change to the cloned folder:
+### Download and build Wekan
+First we need to get the latest version of Wekan and change to the cloned folder:
 
 ```sh
 git clone https://github.com/libreboard/libreboard.git && cd libreboard
