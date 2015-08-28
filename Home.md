@@ -1,3 +1,4 @@
+![Wekan Logo](https://cloud.githubusercontent.com/assets/1730702/9509810/68ce5b08-4c64-11e5-864c-2ac487ba9ee3.png)  
 Wekan is an open-source [kanban board][] which allows a card-based task and to-do management, similar to tools like [WorkFlowy] or [Trello].
 
 Wekan allows to create **Boards**, on which **Cards** can be move around between a number of **Columns**. Boards can have many members, allowing for easy collaboration, just add everyone that should be able to work with you on the board to it, and you are good to go! You can assign colored **Labels** to cards to facilitate grouping and filtering, additionally you can add members to a card, for example to assign a task to someone.
