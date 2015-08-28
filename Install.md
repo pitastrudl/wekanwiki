@@ -29,7 +29,7 @@ In order to run Wekan you need to have MongoDB installed. You can either install
 First we need to get the latest version of Wekan and change to the cloned folder:
 
 ```sh
-git clone https://github.com/libreboard/libreboard.git && cd libreboard
+git clone https://github.com/wekan/wekan.git && cd wekan
 ```
 
 Now we need to build the meteor app:
@@ -48,7 +48,7 @@ cd .build/bundle/programs/server/ && sudo npm install
 Now we need to set some environment variables:
 
 ```sh
-export MONGO_URL='mongodb://127.0.0.1:27017/libreboard'
+export MONGO_URL='mongodb://127.0.0.1:27017/wekan'
 export ROOT_URL='https://example.com'
 export MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
 export PORT=8080
