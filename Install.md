@@ -11,7 +11,7 @@ For instructions how to install Sandstorm, check out the [guide][sandstorm-guide
 This is the most complex way, suitable if you know what you are doing and want to have the most flexibility to adapt the installation to your needs. Let's go!
 
 ### Install Node.js
-If you haven't already, you need to install Node.js, given that we need node version 0.10, make sure to either use the [custom packages][node-packages] (the ones of your OS are likely too old) or install the correct version from the Node.js [website][node-web].
+If you haven't already, you need to install Node.js, given that we need node version 0.10.40, make sure to either use the [custom packages][node-packages] (the ones of your OS are likely too old) or install the correct version from the Node.js [website][node-web].
 
 ### Install Meteor
 As you might have noticed already, Wekan is built using the Meteor web framework, so we need to install this as well. This can be done easily using their install script ([read it][meteor-script] if you don't trust it):
