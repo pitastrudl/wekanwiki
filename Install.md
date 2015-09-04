@@ -14,7 +14,7 @@ This is the best option currently if you want to get Wekan up and running on you
 Make sure Node.js is installed (currently Version 0.10.40 is required). If you don't have this version, you can use the [node packages][node-packages].
 
 ### Install MongoDB
-In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website] how to install it.
+In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website][] how to install it.
 
 ### Install a Wekan release
 Now you need to download the release you want to install, usually this is the latest release which you can find [here][latest-release] (you need the `.tar.gz` one).
