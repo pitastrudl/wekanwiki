@@ -7,7 +7,56 @@ You can install using the official Docker repository located [here][docker-repo]
 Sandstorm is a platform that you can install of your server and it lets you install a variety of apps easily, most of the with a one-click installation.  
 For instructions how to install Sandstorm, check out the [guide][sandstorm-guide] on their website! After you have installed Sandstorm, just go to the Admin panel and install the Wekan app! That's all!
 
-## Install manually
+## Install manually (Releases)
+This is the best option currently if you want to get Wekan up and running on your server with as few tools as possible.
+
+### Install Node.js
+Make sure Node.js is installed (currently Version 0.10.40 is required). If you don't have this version, you can use the [node packages][node-packages].
+
+### Install MongoDB
+In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website] how to install it.
+
+### Install a Wekan release
+Now you need to download the release you want to install, usually this is the latest release which you can find [here][latest-release] (you need the `.tar.gz` one).
+
+Extract it:
+
+```sh
+tar xzvf wekan-v0.9.0-rc1.tar.gz
+```
+
+Move to the server directory and install the dependencies:
+
+```sh
+cd bundle/programs/server/ && sudo npm install
+```
+
+Now go back to the base Wekan bundle directory:
+
+```sh
+cd ../../
+```
+
+Now we just need to make some settings through env variables:
+
+```sh
+export MONGO_URL='mongodb://127.0.0.1:27017/wekan'
+export ROOT_URL='https://example.com'
+export MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
+export PORT=8080
+```
+
+Now you are ready to run:
+
+```sh
+node main.js
+```
+
+Note that it is expected that this command will not exit, and this is not an error.
+
+[latest-release]: https://github.com/wekan/wekan/releases/latest
+
+## Install manually from Source
 This is the most complex way, suitable if you know what you are doing and want to have the most flexibility to adapt the installation to your needs. Let's go!
 
 ### Install Node.js
