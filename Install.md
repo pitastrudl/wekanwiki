@@ -112,7 +112,7 @@ node main.js
 
 Done!
 
-[docker-repo]: https://registry.hub.docker.com/u/ncarlier/libreboard/dockerfile/
+[docker-repo]: https://hub.docker.com/r/mquandalle/wekan/
 [sandstorm-guide]: https://sandstorm.io/install/
 [node-packages]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [node-web]: https://nodejs.org/download
