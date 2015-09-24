@@ -120,15 +120,15 @@ Wekan will automatically migrate your data on first launch. The way to upgrade d
 
 ## Docker
 
-If you installed wekan via Docker, you'll have one Docker container for the database and one container for the application. You'll need to stop the old application container, replace it by the new one and start it again.
+If you installed Wekan via Docker, you'll have one Docker container for the database and one container for the application. You'll need to stop the old application container, replace it by the new one and start it again.
 
 ## Sandstorm
 
-*Todo*
+Sandstorm updates work automatically. You need to go the the sandstom app market and click on the install button of Wekan. Then Sandstorm will tell you that this application is already installed on your server and ask you if you want to upgrade it.
 
 ## Raw installation
 
-If you installed wekan manually, you need to stop the Node.js server, download the wekan application and restart the Node.js server
+If you installed Wekan manually, you need to stop the Node.js server, download the wekan application and restart the Node.js server.
 
 [docker-repo]: https://hub.docker.com/r/mquandalle/wekan/
 [sandstorm-guide]: https://sandstorm.io/install/
