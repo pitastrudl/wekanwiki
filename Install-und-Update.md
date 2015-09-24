@@ -1,4 +1,4 @@
-Welcome to the guide how to install Wekan on your own Server! There are various ways to do so, just choose one of the following options:
+# Welcome to the guide how to install Wekan on your own Server! There are various ways to do so, just choose one of the following options:
 
 ## Install using Docker
 You can install using the official Docker repository located [here][docker-repo].
@@ -111,6 +111,22 @@ node main.js
 ```
 
 Done!
+
+# Update
+
+Wekan will automatically migrate your data on first launch. The way to upgrade depends on the installation method you have initially chosen:
+
+## Docker
+
+If you installed wekan via Docker, you'll have one Docker container for the database and one container for the application. You'll need to stop the old application container, replace it by the new one and start it again.
+
+## Sandstorm
+
+*Todo*
+
+## Raw installation
+
+If you installed wekan manually, you need to stop the Node.js server, download the wekan application and restart the Node.js server
 
 [docker-repo]: https://hub.docker.com/r/mquandalle/wekan/
 [sandstorm-guide]: https://sandstorm.io/install/
