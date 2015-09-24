@@ -1,4 +1,6 @@
-# Welcome to the guide how to install Wekan on your own Server! There are various ways to do so, just choose one of the following options:
+# Install
+
+Welcome to the guide how to install Wekan on your own Server! There are various ways to do so, just choose one of the following options:
 
 ## Install using Docker
 You can install using the official Docker repository located [here][docker-repo].
