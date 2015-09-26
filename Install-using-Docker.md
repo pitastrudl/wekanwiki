@@ -102,7 +102,9 @@ Add the following lines at the end just before `</VirtualHost>`:
         ProxyPassReverse "/" "http://127.0.0.1:8081"
 ```
 
-and reload Apache `sudo service apache2 reload`
+**Note:** if not already done, don't forget to enable your vhost `sudo a2ensite mytodo.org`
+
+Reload Apache `sudo service apache2 reload`
 
 [Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
 
