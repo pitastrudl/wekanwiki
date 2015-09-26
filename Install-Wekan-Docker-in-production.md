@@ -78,4 +78,17 @@ Reload Apache `sudo service apache2 reload`
 
 [Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
 
-## 4. Launch Wekan on boot
+## 4. Launch Wekan
+
+As `wekan` user and from `/home/wekan`, run `docker-compose up -d`
+
+## 5. Improvements to bring to this doc
+
+* Verify everything works
+* Find the suitable way to launch a docker-compose at boot. Maybe in [Using Compose in production](http://docs.docker.com/compose/production/)
+
+## 6. Tested on...
+
+This procedure has been tested on:
+
+* [VPS-SSD 2016 from OVH](https://www.ovh.com/fr/vps/vps-ssd.xml) with Ubuntu 14.04
