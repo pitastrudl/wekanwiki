@@ -68,8 +68,8 @@ Let say you have the following "mytodo.org" vhost configured in `/etc/apache2/si
 Add the following lines at the end just before `</VirtualHost>`:
 
 ```ApacheConf
-        ProxyPass        "/" "http://127.0.0.1:8081"
-        ProxyPassReverse "/" "http://127.0.0.1:8081"
+        ProxyPass        "/" "http://127.0.0.1:8081/"
+        ProxyPassReverse "/" "http://127.0.0.1:8081/"
 ```
 
 **Note:** if not already done, don't forget to enable your vhost `sudo a2ensite mytodo.org`
