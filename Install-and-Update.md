@@ -5,6 +5,9 @@ Welcome to the guide how to install Wekan on your own Server! There are various 
 ## Install using Docker
 You can install using the official Docker repository located [here][docker-repo].
 
+* [[Install Wekan Docker for testing|Install-Wekan-Docker-for-testing]]
+* [[Install Wekan Docker in production|Install-Wekan-Docker-in-production]]
+
 ## Install with Sandstorm
 Sandstorm is a platform that you can install of your server and it lets you install a variety of apps easily, most of the with a one-click installation.  
 For instructions how to install Sandstorm, check out the [guide][sandstorm-guide] on their website! After you have installed Sandstorm, just go to the Admin panel and install the Wekan app! That's all!
