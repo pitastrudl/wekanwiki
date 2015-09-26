@@ -7,7 +7,7 @@
 1. Say we want to save our Wekan data on the host in directory `/home/johndoe/wekan/data`
 1. In a given directory (say `/home/johndoe/wekan`), create a `docker-compose.yml` file with:
 
-```
+```yaml
 wekan:
   image: mquandalle/wekan
   links:
@@ -45,7 +45,7 @@ Your wekan data are in `/home/johndoe/wekan/data` and thus can be backed up.
 * Create the file `/home/wekan/docker-compose.yml` containing: 
 
 
-```
+```yaml
 wekan:
   image: mquandalle/wekan
   links:
@@ -67,7 +67,7 @@ wekandb:
 
 Let say you have the following vhost:
 
-```
+```ApacheConf
 <VirtualHost *:80>
         ServerName mytodo.org
         ServerAdmin webmaster@mytodo.org
@@ -97,7 +97,7 @@ Let say you have the following vhost:
 
 Add the following lines at the end just before `</VirtualHost>`:
 
-```
+```ApacheConf
         ProxyPass        "/" "http://127.0.0.1:8081"
         ProxyPassReverse "/" "http://127.0.0.1:8081"
 ```
