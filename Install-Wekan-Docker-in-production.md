@@ -28,7 +28,7 @@ wekandb:
      - /home/wekan/data:/data/db
 ```
 
-**Note:** we want to preserve the 80 port on the host, so we bind Wekan on port 8081, that next will be bound to a vhost in apache (thus on port 80)
+**Note:** we want to preserve the port 80 on the host, so we bind Wekan on port 8081. This port 8081 will next be bound to a vhost in apache (thus on port 80).
 
 ## 3. Configure Apache as a front-end proxy
 
