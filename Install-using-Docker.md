@@ -53,8 +53,6 @@ wekan:
   environment:
     - MONGO_URL=mongodb://wekandb/wekan
     - ROOT_URL=http://localhost:8081
-  ports:
-    - 80:8081
 
 wekandb:
    image: mongo
@@ -64,5 +62,8 @@ wekandb:
 
 ### 3. Configure Apache as a front-end proxy
 
+* Enable Mod_Proxy: `sudo a2enmod proxy proxy_http` then restart Apache `service apache2 restart`
+
+[Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
 
 ### 4. Launch Wekan on boot
