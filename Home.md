@@ -8,7 +8,7 @@ Wekan allows to create **Boards**, on which **Cards** can be move around between
 Wekan is distributed under the [MIT License], allowing anyone to easily work with it and modify it. It is perfect for anyone that needs a slick kanban board but doesn't want to use third party services, which are out of user control. Wekan can be hosted on your own server with very little effort, guaranteeing that you have all the time full control over your data and can make sure no one else has access to it and that it won't just vanish from one day to another, that is, if you do backups.
 
 ## Getting started
-There are various ways to get started with Wekan, you can dive right in and try it out on the [Wekan website demo], use the [Sandstorm app demo], or [[install|Install]] it right away on your own server!
+There are various ways to get started with Wekan, you can dive right in and try it out on the [Wekan website demo], use the [Sandstorm app demo], or [[install|Install-and-Update]] it right away on your own server!
 
 If you still have questions, check out the [[FAQ]]!
 
