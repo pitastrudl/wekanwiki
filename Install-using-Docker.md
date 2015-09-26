@@ -65,7 +65,7 @@ wekandb:
 * Enable Mod_Proxy: `sudo a2enmod proxy proxy_http` then restart Apache `service apache2 restart`
 * Configure your virtual host (vhost)
 
-Let say you have the following vhost:
+Let say you have the following vhost "mytodo.org":
 
 ```ApacheConf
 <VirtualHost *:80>
