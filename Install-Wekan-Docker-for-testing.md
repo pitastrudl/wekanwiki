@@ -22,7 +22,7 @@ wekandb:
      - /home/johndoe/wekan/data:/data/db
 ```
 
-Then, from the directory containing the `docker-composer.yml` (i.e. `/home/johndoe/wekan`), simply run `docker-compose up`. If you want it to be deamonized, you could run `docker-compose up -d`.
+Then, from the directory containing the `docker-compose.yml` (i.e. `/home/johndoe/wekan`), simply run `docker-compose up`. If you want it to be deamonized, you could run `docker-compose up -d`.
 
 Your wekan data are in `/home/johndoe/wekan/data` and thus can be backed up.
 
