@@ -13,7 +13,7 @@ Sandstorm is a platform that you can install of your server and it lets you inst
 For instructions how to install Sandstorm, check out the [guide][sandstorm-guide] on their website! After you have installed Sandstorm, just go to the Admin panel and install the Wekan app! That's all!
 
 ## Install manually (Releases)
-This is the best option currently if you want to get Wekan up and running on your server with as few tools as possible.
+This is the best option currently if you want to get Wekan up and running on your server with as few tools as possible. You can find a script which automates the procedure, at https://github.com/anselal/wekan.
 
 ### Install Node.js
 Make sure Node.js is installed (currently Version 0.10.40 is required). If you don't have this version, you can use the [node packages][node-packages].
