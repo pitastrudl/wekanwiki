@@ -32,7 +32,7 @@ wekandb:
 
 ## 3. Configure Apache as a front-end proxy
 
-* Enable Mod_Proxy: `sudo a2enmod proxy proxy_http` then restart Apache `service apache2 restart`
+* Enable Mod_Proxy: `sudo a2enmod proxy proxy_http proxy_wstunnel` then restart Apache `service apache2 restart`
 * Configure your virtual host (vhost)
 
 Let say you have the following "mytodo.org" vhost configured in `/etc/apache2/sites-available/mytodo.org.conf`:
@@ -68,6 +68,7 @@ Let say you have the following "mytodo.org" vhost configured in `/etc/apache2/si
 Add the following lines at the end just before `</VirtualHost>`:
 
 ```ApacheConf
+        ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:8081/$1"
         ProxyPass        "/" "http://127.0.0.1:8081/"
         ProxyPassReverse "/" "http://127.0.0.1:8081/"
 ```
