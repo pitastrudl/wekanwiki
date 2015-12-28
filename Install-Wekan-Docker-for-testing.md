@@ -26,5 +26,18 @@ Then, from the directory containing the `docker-compose.yml` (i.e. `/home/johndo
 
 Your wekan data are in `/home/johndoe/wekan/data` and thus can be backed up.
 
+**Note**
+If the default host port 80 has been used and you would like to set up Wekan for another port, say, 1234, the configuration above
+```
+  ports:
+    - 80:80
+```
+can be replaced by
+```
+  ports:
+    - 1234:80
+```
+with all the rest unchanged. 
+
 (This procedure has been tested on Linux Ubuntu 14.04.)
 
