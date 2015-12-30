@@ -30,6 +30,14 @@ wekandb:
 
 **Note:** we want to preserve the port 80 on the host, so we bind Wekan on port 8081. This port 8081 will next be bound to a vhost in apache (thus on port 80).
 
+**Note:** to start the wekan containers automatically on boot, use the `restart: always` policy. e.g.
+  ```
+  wekan:
+    image: mquandalle/wekan
+    restart: always
+    ...
+  ```
+
 ## 3. Configure Apache as a front-end proxy
 
 * Enable Mod_Proxy: `sudo a2enmod proxy proxy_http proxy_wstunnel` then restart Apache `service apache2 restart`
@@ -86,7 +94,7 @@ As `wekan` user and from `/home/wekan`, run `docker-compose up -d`
 ## 5. Improvements to bring to this doc
 
 * Verify everything works
-* Find the suitable way to launch a docker-compose at boot. Maybe in [Using Compose in production](http://docs.docker.com/compose/production/)
+
 
 ## 6. Tested on...
 
