@@ -27,13 +27,13 @@ Now you need to download the release you want to install, usually this is the la
 Extract it:
 
 ```sh
-tar xzvf wekan-v0.9.0-rc1.tar.gz
+tar xzvf wekan-VERSION.tar.gz
 ```
 
 Move to the server directory and install the dependencies:
 
 ```sh
-cd bundle/programs/server/ && sudo npm install
+cd wekan-VERSION && sudo npm install
 ```
 
 Now go back to the base Wekan bundle directory:
