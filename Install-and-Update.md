@@ -1,6 +1,23 @@
 # Install
+_Note: Developers looking to contribute to Wekan should follow the instructions on the [Contributors][contributors-page] to setup a development environment._
 
-Welcome to the guide how to install Wekan on your own Server! There are various ways to do so, just choose one of the following options:
+### Installing a new instance of Wekan
+There are several options for deploying Wekan. Docker and sandstorm are by far the easiest, but manual installations are supported for those who prefer to customize their installation.
+
+* [Installing with Docker](#install-using-docker)
+* [Installing with Sandstorm](#install-with-sandstorm)
+* [Installing with Official Binaries](#install-manually-releases)
+* [Installing from Source](#install-manually-from-source)
+
+### Upgrading an existing instance
+
+Wekan will automatically migrate your data on first launch. Steps for upgrading depends on the type of installation being upgraded. See the below options.
+* [Upgrading Docker](#updating-docker)
+* [Upgrading Sandstorm](#updating-sandstorm)
+* [Upgrading Manual Installs](#updating-manual-installs)
+
+
+***
 
 ## Install using Docker
 You can install using the official Docker repository located [here][docker-repo].
@@ -13,9 +30,17 @@ Sandstorm is a platform that you can install of your server and it lets you inst
 For instructions how to install Sandstorm, check out the [guide][sandstorm-guide] on their website! After you have installed Sandstorm, just go to the Admin panel and install the Wekan app! That's all!
 
 ## Install manually (Releases)
-This is the best option currently if you want to get Wekan up and running on your server with as few tools as possible. You can find a script which automates the procedure, at https://github.com/anselal/wekan. Also you can find there a ready to go Virtual Appliance. Give it a try.
+This is the best option currently if you want to get Wekan running with as few tools as possible. 
+
+There are three options:
+ * [Bash Install Script](#bash-install-script)
+ * [Virtual Appliance](virtual-appliance)
+ * [Manual install](#manual-installation-steps)
+
+## Manual Installation Steps
 
 ### Install Node.js
+
 Make sure Node.js is installed (currently Version 0.10.40 is required). If you don't have this version, you can use the [node packages][node-packages].
 
 ### Install MongoDB
@@ -119,20 +144,23 @@ Done!
 
 # Update
 
-Wekan will automatically migrate your data on first launch. The way to upgrade depends on the installation method you have initially chosen:
 
-## Docker
+## Updating Docker
 
 If you installed Wekan via Docker, you'll have one Docker container for the database and one container for the application. You'll need to stop the old application container, replace it by the new one and start it again.
 
-## Sandstorm
+## Updating Sandstorm
 
 Sandstorm updates work automatically. You need to go the the sandstom app market and click on the install button of Wekan. Then Sandstorm will tell you that this application is already installed on your server and ask you if you want to upgrade it.
 
-## Raw installation
+## Updating Manual Installs
 
 If you installed Wekan manually, you need to stop the Node.js server, download the wekan application and restart the Node.js server.
 
+[bash-install-script]: https://github.com/anselal/wekan
+[virtual-appliance]: https://github.com/anselal/wekan#wekan-virtual-appliance
+
+[contributors-page]: https://github.com/wekan/wekan/blob/devel/Contributing.md#installation
 [docker-repo]: https://hub.docker.com/r/mquandalle/wekan/
 [sandstorm-guide]: https://sandstorm.io/install/
 [node-packages]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
