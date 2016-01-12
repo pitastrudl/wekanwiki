@@ -1,5 +1,5 @@
 # Install
-_Note: Developers looking to contribute to Wekan should follow the instructions on the [Contributors][contributors-page] to setup a development environment._
+_Note: Developers looking to contribute to Wekan should follow the instructions on the [Contributors page] [contributors-page] to setup a development environment._
 
 ### Installing a new instance of Wekan
 There are several options for deploying Wekan. Docker and sandstorm are by far the easiest, but manual installations are supported for those who prefer to customize their installation.
