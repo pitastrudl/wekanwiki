@@ -38,7 +38,8 @@ wekandb:
     ...
   ```
 
-## 3. Configure Apache as a front-end proxy
+## 3. Configure webserver as a front-end proxy
+### 3.a Apache 
 
 * Enable Mod_Proxy: `sudo a2enmod proxy proxy_http proxy_wstunnel` then restart Apache `service apache2 restart`
 * Configure your virtual host (vhost)
@@ -86,6 +87,60 @@ Add the following lines at the end just before `</VirtualHost>`:
 Reload Apache `sudo service apache2 reload`
 
 [Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
+
+### 3.b nginx
+
+Existing configuration:
+
+```nginxConf
+server {
+    listen 123.45.67.89:80;
+    server_name mytodo.org;
+
+    access_log  /var/log/nginx/mytodo_access.log;
+    error_log   /var/log/nginx/mytodo_error.log;
+
+    [...]
+}
+```
+
+Add the following after the `error_log` line:
+
+```nginxConf
+location / {
+   proxy_read_timeout      300;
+   proxy_connect_timeout   300;
+   proxy_redirect          off;
+
+   proxy_set_header    Host                $http_host;
+   proxy_set_header    X-Real-IP           $remote_addr;
+   proxy_set_header    X-Forwarded-For     $proxy_add_x_forwarded_for;
+   proxy_set_header    X-Forwarded-Proto   $scheme;
+      
+   proxy_pass http://127.0.0.1:8081;
+ }
+
+location ~ websocket$ {
+   proxy_pass http://websocket;
+   proxy_http_version 1.1;
+   proxy_set_header Upgrade $http_upgrade;
+   proxy_set_header Connection $connection_upgrade;
+}
+```
+
+And the following above your `server` line
+
+```nginxConf
+upstream websocket {
+    server 127.0.0.1:8081;
+}
+
+map $http_upgrade $connection_upgrade {
+    default upgrade;
+    '' close;
+}
+```
+
 
 ## 4. Launch Wekan
 
