@@ -41,3 +41,51 @@ with all the rest unchanged.
 
 (This procedure has been tested on Linux Ubuntu 14.04.)
 
+### Deployment with mail server
+
+Above method will create an instance of Wekan without mailing features (users inviting, password recovery, neat registration) because MAIL_URL env var isn't set. This `docker-compose.yml` solves that problem by adding *mailserver* container.  
+
+```yaml
+wekan:
+  image: mquandalle/wekan
+  links:
+    - wekandb
+    - mailserver
+  environment:
+    - MONGO_URL=mongodb://wekandb/wekan
+    - ROOT_URL=http://10.2.0.180:8081
+    - MAIL_URL=smtp://wekan:wekan@mailserver:25
+  ports:
+    - 8081:80
+
+wekandb:
+   image: mongo
+   volumes:
+     - /home/wekan/data:/data/db
+
+mailserver:
+  image: marvambass/versatile-postfix
+  volumes:
+    - /home/wekan/dkim:/etc/postfix/dkim/
+    - /home/wekan/maildirs:/var/mail
+  command: wekan.com wekan:wekan
+  environment:
+    - ALIASES=postmaster:root;hostmaster:root;webmaster:root
+```
+
+Several additional steps needed.
+
+1. Create dirs `/home/wekan/dkim`, `/home/wekan/maildirs` that are used by *mailserver* container
+
+    ```bash
+    mkdir /home/wekan/dkim
+    mkdir /home/wekan/maildirs
+    ```
+2. Generate DKIM key
+
+    ```bash
+    apt-get install opendkim-tools
+    cd /home/wekan/maildirs
+    opendkim-genkey -s mail -d example.com
+    mv mail.private dkim.key
+    ```
