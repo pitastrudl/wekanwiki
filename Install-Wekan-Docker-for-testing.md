@@ -41,7 +41,7 @@ with all the rest unchanged.
 
 (This procedure has been tested on Linux Ubuntu 14.04.)
 
-### Deployment with mail server
+### Testing with mail server
 
 Above method will create an instance of Wekan without mailing features (users inviting, password recovery, neat registration) because MAIL_URL env var isn't set. This `docker-compose.yml` solves that problem by adding *mailserver* container.  
 
