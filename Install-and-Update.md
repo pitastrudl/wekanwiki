@@ -37,6 +37,8 @@ There are three options:
  * [Virtual Appliance](virtual-appliance)
  * [Manual install](#manual-installation-steps)
 
+## Bash Install Script
+
 ## Manual Installation Steps
 
 ### Install Node.js
