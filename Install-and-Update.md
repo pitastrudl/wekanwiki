@@ -62,7 +62,7 @@ tar xzvf wekan-VERSION.tar.gz
 Move to the server directory and install the dependencies:
 
 ```sh
-cd wekan-VERSION && sudo npm install
+cd wekan-VERSION/bundle/programs/server && sudo npm install
 ```
 
 Now go back to the base Wekan bundle directory:
