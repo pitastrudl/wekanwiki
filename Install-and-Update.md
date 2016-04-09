@@ -39,7 +39,7 @@ There are three options:
 
 ## Bash Install Script
 
-You can find a bash installation script at https://github.com/anselal/wekan. The current version of the script installes wekan v0.9.0. I am working on version 0.10.1
+You can find a bash installation script at https://github.com/anselal/wekan
 
 ## Manual Installation Steps
 
