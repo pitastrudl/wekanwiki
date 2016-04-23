@@ -141,7 +141,7 @@ export PORT=8080
 Most of them should be self-explaining. After having set the variables, let's move back to the build package folder and start the server:
 
 ```sh
-cd ../../../
+cd ../../../../
 node main.js
 ```
 
