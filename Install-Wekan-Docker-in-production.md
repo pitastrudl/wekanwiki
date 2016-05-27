@@ -18,7 +18,7 @@ wekan:
     - wekandb
   environment:
     - MONGO_URL=mongodb://wekandb/wekan
-    - ROOT_URL=http://localhost:8081
+    - ROOT_URL=http://mytodo.org
   ports:
     - 8081:80
 
