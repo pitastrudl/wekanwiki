@@ -19,6 +19,8 @@ wekan:
   environment:
     - MONGO_URL=mongodb://wekandb/wekan
     - ROOT_URL=http://mytodo.org
+    - MAIL_URL=smtp://user:pass@mailserver.example.com:25/
+    - MAIL_FROM=wekan-admin@example.com
   ports:
     - 8081:80
 
