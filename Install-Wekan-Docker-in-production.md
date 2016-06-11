@@ -40,6 +40,8 @@ wekandb:
     ...
   ```
 
+**Info:** DB user: wekandb. DB name: wekan.
+
 ## 3. Configure webserver as a front-end proxy
 ### 3.a Apache 
 
