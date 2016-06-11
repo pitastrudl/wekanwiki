@@ -154,6 +154,21 @@ Done!
 
 If you installed Wekan via Docker, you'll have one Docker container for the database and one container for the application. You'll need to stop the old application container, replace it by the new one and start it again.
 
+See running containers:
+```sh
+docker ps
+```
+Stop the running containers:
+```sh
+docker stop wekan_wekan_1 wekan_wekandb_1
+```
+
+Login as the `wekan` user (`su - wekan`), which uses the docker-compose.yml file. Create and start the new container:
+```sh
+docker-compose up -d
+```
+More information about [setup Wekan Docker](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production).
+
 ## Updating Sandstorm
 
 Sandstorm updates work automatically. You need to go the the sandstom app market and click on the install button of Wekan. Then Sandstorm will tell you that this application is already installed on your server and ask you if you want to upgrade it.
