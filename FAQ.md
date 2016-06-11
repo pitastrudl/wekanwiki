@@ -31,6 +31,29 @@ See the related tickets [#92] and [#97] for more information.
 [#92]: https://github.com/wekan/wekan/issues/92
 [#97]: https://github.com/wekan/wekan/issues/97
 
+## How can I connect to the Wekan DB?
+If you use Docker. Wekan is using MongoDB, by using a separate mongo Docker image / container. After you start the Docker images, you can list the containers via:
+```sh
+docker ps
+```
+Then, find the mongo image (with the container name: `wekan_wekandb_x`). Remember the Container ID. And connect to the running container:
+```sh
+docker exec -i -t <container_id> /bin/bash
+```
+Finally, connect to the Wekan database:
+```sh
+mongo wekan 
+```
+List the tables:
+```sh
+show collections
+```
+List all users:
+```sh
+db.users.find()
+```
+
+
 ## How can I contribute to Wekan?
 We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [Contributing][] notes for more information how you can help improve and enhance Wekan.
 
