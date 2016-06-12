@@ -66,7 +66,7 @@ Then attach to the process:
 docker attach --sig-proxy=false <container_id>
 ```
 
-With the `--sig-proxy=false` flag, you can close the attached shell again via **ctl + x** without exiting the Wekan process.
+With the `--sig-proxy=false` flag, you can close the attached shell again via **ctl + c** without exiting the Wekan process.
 
 Via the web-interface press the '_forgot your password?_' link and trigger a reset mail. And watch the terminal output for the e-mail.
 
