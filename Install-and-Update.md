@@ -158,12 +158,12 @@ See running containers:
 ```sh
 docker ps
 ```
-Stop the running containers:
+To stop the running containers:
 ```sh
 docker stop wekan_wekan_1 wekan_wekandb_1
 ```
 
-Login as the `wekan` user (`su - wekan`), which uses the docker-compose.yml file. Create and start the new container:
+Login as the `wekan` user (`su - wekan`), which uses the docker-compose.yml file. To create and start the new container run:
 ```sh
 docker-compose up -d
 ```
