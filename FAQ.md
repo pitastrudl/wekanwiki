@@ -54,15 +54,18 @@ db.users.find()
 ```
 
 ## Show mails with a Docker image, without mail configuration
-When you did **NOT** setup the `MAIL_URL` environment variable in Wekan, the mail message will be 'sent' to the terminal output instead of sending an actual e-mail. If you are using Docker images, the terminal
+When you did **NOT** setup the `MAIL_URL` environment variable in Wekan, the mail message will be 'sent' to the terminal output instead of sending an actual e-mail. If you are using Docker images, list the containers via:
 
 ```sh
-$ docker ps
+docker ps
 ```
+
 Then attach to the process:
-```
-$ docker attach --sig-proxy=false <container_id>
+
+```sh
+docker attach --sig-proxy=false <container_id>
 ``
+
 With the `--sig-proxy=false` flag, you can close the attached shell again via **ctl + x** without exiting the Wekan process.
 
 Via the web-interface press the '_forgot your password?_' link and trigger a reset mail. And watch the terminal output for the e-mail.
