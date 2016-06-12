@@ -54,7 +54,7 @@ db.users.find()
 ```
 
 ## Show mails with a Docker image, without mail configuration
-When you did **NOT** setup the `MAIL_URL` environment variable in Wekan, the mail message will be 'sent' to the terminal output instead of sending an actual e-mail. If you are using Docker images, then the terminal 
+When you did **NOT** setup the `MAIL_URL` environment variable in Wekan, the mail message will be 'sent' to the terminal output instead of sending an actual e-mail. If you are using Docker images, the terminal
 
 ```sh
 $ docker ps
@@ -65,7 +65,7 @@ $ docker attach --sig-proxy=false <container_id>
 ``
 With the `--sig-proxy=false` flag, you can close the attached shell again via **ctl + x** without exiting the Wekan process.
 
-Via the web-interface trigger a password reset and what the terminal output.
+Via the web-interface press the '_forgot your password?_' link and trigger a reset mail. And watch the terminal output for the e-mail.
 
 ## How can I contribute to Wekan?
 We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [Contributing][] notes for more information how you can help improve and enhance Wekan.
