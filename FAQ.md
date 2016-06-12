@@ -32,11 +32,11 @@ See the related tickets [#92] and [#97] for more information.
 [#97]: https://github.com/wekan/wekan/issues/97
 
 ## How can I connect to the Wekan DB?
-If you use Docker. Wekan is using MongoDB, by using a separate mongo Docker image / container. After you start the Docker images, you can list the containers via:
+If you're using Docker images. Wekan is configured to use MongoDB, by using a **separate** mongo Docker image / container. After you start the Docker images (`docker-compose up -d`), you can list the containers via:
 ```sh
 docker ps
 ```
-Then, find the mongo image (with the container name: `wekan_wekandb_x`). Remember the Container ID. And connect to the running container:
+Then, find the MongoDB image (with the container name: `wekan_wekandb_x`). Remember the _Container ID_. And connect to the running container:
 ```sh
 docker exec -i -t <container_id> /bin/bash
 ```
