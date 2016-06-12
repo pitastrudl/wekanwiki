@@ -64,7 +64,7 @@ Then attach to the process:
 
 ```sh
 docker attach --sig-proxy=false <container_id>
-``
+```
 
 With the `--sig-proxy=false` flag, you can close the attached shell again via **ctl + x** without exiting the Wekan process.
 
