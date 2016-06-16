@@ -43,7 +43,9 @@ wekandb:
 **Info:** Default DB user: wekandb. Default DB name: wekan.
 
 ## 3. Configure Mail Server
-You could use a mail server out-side of your machine (like you see above). Or you could start another Docker container which runs Postfix (try the `marvambass/versatile-postfix` Docker image).
+You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL` & `MAIL_FROM` environment parameters. Instead the mail message will be send to the terminal output. See [FAQ](https://github.com/wekan/wekan/wiki/FAQ#show-mails-with-a-docker-image-without-mail-configuration) for more info.
+
+If you want to configure a mail server, you could use a mail server out-side of your machine (like the example  above). Or you could start another Docker container which runs Postfix (try the `marvambass/versatile-postfix` Docker image).
 
 If you already got a Postfix running on your host machine, you can add the local IP address to the docker-compose.yml file and use the hostname in the `MAIL_URL`:
 ```
