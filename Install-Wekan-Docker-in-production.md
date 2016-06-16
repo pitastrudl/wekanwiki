@@ -47,7 +47,7 @@ You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL`
 
 If you want to configure a mail server, you could use a mail server out-side of your machine (like the example  above). Or you could start another Docker container which runs Postfix (try the `marvambass/versatile-postfix` Docker image).
 
-If you already got a Postfix running on your host machine, you can add the local IP address to the docker-compose.yml file and use the hostname in the `MAIL_URL`:
+If you already got a Postfix service running on your host machine, you can add the local IP address to the docker-compose.yml file and use the hostname in the `MAIL_URL`:
 ```
 environment:
   [...]
