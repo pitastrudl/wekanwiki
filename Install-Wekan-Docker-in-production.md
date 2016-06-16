@@ -1,4 +1,4 @@
-**Purpose:** run Wekan on a production Linux server with Docker and Apache as a front-end (reverse proxy)
+**Purpose:** run Wekan on a production Linux server with Docker and Apache or Nginx as a front-end server (reverse proxy)
 
 ## 1. Install Docker and Docker-compose
 
