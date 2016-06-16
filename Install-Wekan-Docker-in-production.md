@@ -42,8 +42,27 @@ wekandb:
 
 **Info:** Default DB user: wekandb. Default DB name: wekan.
 
-## 3. Configure webserver as a front-end proxy
-### 3.a Apache 
+## 3. Configure Mail Server
+You could use a mail server out-side of your machine (like you see above). Or you could start another Docker container which runs Postfix (try the `marvambass/versatile-postfix` Docker image).
+
+If you already got a Postfix running on your host machine, you can add the local IP address to the docker-compose.yml file and use the hostname in the `MAIL_URL`:
+```
+environment:
+  [...]
+ - MAIL_URL=smtp://mailserver
+ - MAIL_FROM=noreply@domain.com
+extra_hosts:
+ - "mailserver:192.168.1.20"
+```
+**Note:** `192.168.1.20` needs to be changed to your local server IP address.
+
+And finally add the Docker IP range (172.17.x.x) to the Postfix trusted networks list (/etc/postfix/main.cf):
+```
+mynetworks = 127.0.0.0/8 172.17.0.0/16 [::ffff:127.0.0.0]/104 [::1]/128  
+```
+
+## 4. Configure webserver as a front-end proxy
+### 4.a Apache 
 
 * Enable Mod_Proxy: `sudo a2enmod proxy proxy_http proxy_wstunnel` then restart Apache `service apache2 restart`
 * Configure your virtual host (vhost)
@@ -92,7 +111,7 @@ Reload Apache `sudo service apache2 reload`
 
 [Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
 
-### 3.b nginx
+### 4.b nginx
 
 Existing configuration:
 
@@ -146,16 +165,16 @@ map $http_upgrade $connection_upgrade {
 ```
 
 
-## 4. Launch Wekan
+## 5. Launch Wekan
 
 As `wekan` user and from `/home/wekan`, run `docker-compose up -d`
 
-## 5. Improvements to bring to this doc
+## 6. Improvements to bring to this doc
 
 * Verify everything works
 
 
-## 6. Tested on...
+## 7. Tested on...
 
 This procedure has been tested on:
 
