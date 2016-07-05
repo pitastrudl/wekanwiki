@@ -93,3 +93,10 @@ mongorestore --port 11235
 10) If you would like to browse mongo database that is outside of docker in GUI, you could try some admin interface:
 
 https://docs.mongodb.com/ecosystem/tools/administration-interfaces/
+
+11) If you sometime after backups want to remove wekan containers to reinstall them, do:
+```bash
+docker stop wekan wekan-db
+docker rm wekan wekan-db
+```
+Then you can reinstall from step 1.
