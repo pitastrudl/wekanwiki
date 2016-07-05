@@ -1,9 +1,9 @@
 1) You can run Wekan on Docker locally like this on http://localhost:8080/
-(or other port it you change 8080 in script):
+(or other port it you change 8080 in script), 2 docker commands o:
 ```bash
 docker run -d --restart=always --name wekan-db mongo
-docker run -d --restart=always --link "wekan-db:db" -e "MONGO_URL=mongodb://db" \
-   -e "ROOT_URL=http://localhost" -p 8080:80 mquandalle/wekan
+
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost" -p 8080:80 mquandalle/wekan
 ```
 
 2) List docker containers, your ID:s will be different:
@@ -13,18 +13,18 @@ docker ps
 Result:
 ```bash
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
-1234wekanid        mquandalle/wekan    "/bin/sh -c 'bash $ME"   About an hour ago   Up 46 minutes       0.0.0.0:8080->80/tcp   kickass_kirch
+1234wekanid        mquandalle/wekan    "/bin/sh -c 'bash $ME"   About an hour ago   Up 46 minutes       0.0.0.0:8080->80/tcp   wekan
 4321mongoid        mongo               "/entrypoint.sh mongo"   About an hour ago   Up 46 minutes       27017/tcp              wekan-db
 ```
 
 3) Stop wekan container, so it does not make changes when running:
 ```bash
-docker stop 1234wekanid
+docker stop wekan
 ```
 
 4) Enter inside mongo container:
 ```bash
-docker exec -it 4321mongoid bash
+docker exec -it wekan-db bash
 ```
 
 5) OPTIONAL: If you want to browse data inside container, you can use CLI commands like listed at
@@ -70,35 +70,34 @@ users
 > exit
 ```
 
-6) Make directory for backups:
+6) Go to /data directory:
 ```bash
-mkdir /data/backups
+cd /data
 ```
 
-7) Backup database to files inside container, only Wekan database with name "admin" is included, not local:
+7) Backup database to files inside container to directory /data/dump, only Wekan database with name "admin" is included, not local:
 ```bash
-mongodump --out /data/backup
+mongodump
 ```
+
 8) Exit from inside of container:
 ```bash
 exit
 ```
 
-9) Copy backup directory from inside of container to directory /home/username/backup:
+9) Copy backup directory /data/dump from inside of container to current directory:
 ```bash
-cd /home/username
-docker cp 4321mongoid:/data/backup /home/username
+docker cp wekan-db:/data/dump .
 ```
 
 10) Restore to another mongo database, for example in different port:
 ```bash
-cd /home/username
-mongorestore --port 11235 backup
+mongorestore --port 11235
 ```
 
 11) After that start Wekan container again:
 ```bash
-docker start 1234wekanid
+docker start wekan
 ```
 
 12) If you would like to browse mongo database that is outside of docker in GUI, you could try some admin interface:
