@@ -17,17 +17,12 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 4321mongoid        mongo               "/entrypoint.sh mongo"   About an hour ago   Up 46 minutes       27017/tcp              wekan-db
 ```
 
-3) Stop wekan container, so it does not make changes when running:
-```bash
-docker stop wekan
-```
-
-4) Enter inside mongo container:
+3) Enter inside mongo container:
 ```bash
 docker exec -it wekan-db bash
 ```
 
-5) OPTIONAL: If you want to browse data inside container, you can use CLI commands like listed at
+4) OPTIONAL: If you want to browse data inside container, you can use CLI commands like listed at
 
 https://docs.mongodb.com/manual/reference/mongo-shell/
 
@@ -70,36 +65,31 @@ users
 > exit
 ```
 
-6) Go to /data directory:
+5) Go to /data directory:
 ```bash
 cd /data
 ```
 
-7) Backup database to files inside container to directory /data/dump, only Wekan database with name "admin" is included, not local:
+6) Backup database to files inside container to directory /data/dump, only Wekan database with name "admin" is included, not local:
 ```bash
 mongodump
 ```
 
-8) Exit from inside of container:
+7) Exit from inside of container:
 ```bash
 exit
 ```
 
-9) Copy backup directory /data/dump from inside of container to current directory:
+8) Copy backup directory /data/dump from inside of container to current directory:
 ```bash
 docker cp wekan-db:/data/dump .
 ```
 
-10) Restore to another mongo database, for example in different port:
+9) Restore to another mongo database, for example in different port:
 ```bash
 mongorestore --port 11235
 ```
 
-11) After that start Wekan container again:
-```bash
-docker start wekan
-```
-
-12) If you would like to browse mongo database that is outside of docker in GUI, you could try some admin interface:
+10) If you would like to browse mongo database that is outside of docker in GUI, you could try some admin interface:
 
 https://docs.mongodb.com/ecosystem/tools/administration-interfaces/
