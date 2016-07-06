@@ -85,7 +85,16 @@ exit
 docker cp wekan-db:/data/dump .
 ```
 
-9) Restore to another mongo database, for example in different port:
+9a) Restore backup later:
+```bash
+docker cp dump wekan-db:/data/
+docker exec -it wekan-db bash
+cd /data
+mongorestore
+exit
+```
+
+9b) Or restore to another mongo database, in different port:
 ```bash
 mongorestore --port 11235
 ```
