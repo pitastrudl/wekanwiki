@@ -6,7 +6,7 @@
 
 ## 2. Configure Wekan
 
-* Let say we create a dedicated user for Wekan : `sudo useradd -d /home/wekan -m -s /bin/bash wekan`.
+* Let say we create a dedicated user for Wekan : `sudo useradd -d /home/wekan -m -s /bin/bash wekan`
 * Add this user to the docker group: `sudo usermod -aG docker wekan`
 * Create the file `/home/wekan/docker-compose.yml` containing: 
 
