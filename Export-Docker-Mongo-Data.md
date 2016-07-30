@@ -109,3 +109,7 @@ docker stop wekan wekan-db
 docker rm wekan wekan-db
 ```
 Then you can reinstall from step 1.
+
+12) If latest version of Wekan Docker image is broken, here's how to run older version:
+
+https://github.com/wekan/wekan/issues/659
