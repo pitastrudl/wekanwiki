@@ -9,19 +9,32 @@ https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-sou
 
 2) Install [Chocolatey](https://chocolatey.org/install).
 
-3) Install Git, Python2.7, and Microsoft Build Tools of Visual Studio 2015
-for building Node.js extensions from source:
+3) Install Git and Python2.7. Python needed for node-gyp, compiling Node.js packages from source:
 
 ```
 # Use cmd.exe as Administrator
-choco install -y git python2 visualstudio2015community microsoft-build-tools
+choco install -y git python2
 npm config set python C:\tools\python2\python.exe
+```
+
+4) Install Visual Studio 2015 Community from it's website
+for building Node.js extensions from source.
+
+(If you use Chocolatey version, you needs extra steps:
+choco install -y visualstudio2015community
+Then from Control Panel uninstall Visual C++ 2015 redistributeables,
+and modify and repair Visual Studio install.)
+
+5) Install Windows SDK 8.1 using cmd.exe Administrator:
+
+```
+choco install -y windows-sdk-8.1
 npm config set msvs_version 2015
 ```
 
-4) Install [Meteor Windows installer](https://www.meteor.com)
+6) Install [Meteor Windows installer](https://www.meteor.com)
 
-5) Clone Wekan git repo:
+7) Clone Wekan git repo:
 
 ```
 # Use cmd.exe as your normal user (not Administrator).
