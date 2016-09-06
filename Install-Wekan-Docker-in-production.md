@@ -32,10 +32,15 @@ wekandb:
 
 **Note:** we want to preserve the port 80 on the host, so we bind Wekan on port 8081. This port 8081 will next be bound to a vhost in apache (thus on port 80).
 
-**Note:** to start the wekan containers automatically on boot, use the `restart: always` policy. e.g.
+**Note:** to start the wekan containers automatically on boot, use the `restart: always` policy on both containers. e.g.
   ```
   wekan:
     image: mquandalle/wekan
+    restart: always
+    ...
+
+  wekandb:
+    image: mongo
     restart: always
     ...
   ```
