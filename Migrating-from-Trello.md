@@ -39,5 +39,5 @@ Yet, it has a few limitations:
 
 - Wekan does not import your activity history (who did what when)
 - it does not map non-member users: if you had a public board, all non-member contributions (like comments) will be attached to the user doing the importation
-- Trello does not export comments porsted earlier than around December 2014 (this is empirical data), so Wekan can't import it.
-- when importing attachments, Wekan will download them and host them on your server. Bud the download process is not particularly robust and there is no feedback on it, so if you have lots of (or heavy) attachments, you'll have to give it some time and it may timeout without you knowing about it.
+- Trello does not export comments posted earlier than around December 2014 (this is empirical data), so Wekan can't import it.
+- when importing attachments, Wekan will download them and host them on your server. But the download process is not particularly robust and there is no feedback on it, so if you have lots of (or heavy) attachments, you'll have to give it some time and it may timeout without you knowing about it.
