@@ -65,4 +65,4 @@ WantedBy=multi-user.target
 sudo systemctl enable proxybouncer
 sudo systemclt start proxybouncer
 ```
-Does this setup imply that everyone will be logged in to Wekan as 'proxybouncer'? Is there a way to pass usernam from Google via headers, etc.?
+Question: Does this setup imply that everyone will be logged in to Wekan as 'proxybouncer'? Is there a way to pass username from Google via headers, etc.?
