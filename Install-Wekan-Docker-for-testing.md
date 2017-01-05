@@ -6,20 +6,22 @@
 1. In a given directory (say `/home/johndoe/wekan`), create a `docker-compose.yml` file with:
 
 ```yaml
-wekan:
-  image: mquandalle/wekan
-  links:
-    - wekandb
-  environment:
-    - MONGO_URL=mongodb://wekandb/wekan
-    - ROOT_URL=http://localhost:80
-  ports:
-    - 80:80
+version: '2'
+services:
+  wekan:
+    image: mquandalle/wekan
+    links:
+      - wekandb
+    environment:
+      - MONGO_URL=mongodb://wekandb/wekan
+      - ROOT_URL=http://localhost:80
+    ports:
+      - 80:80
 
-wekandb:
-   image: mongo
-   volumes:
-     - /home/johndoe/wekan/data:/data/db
+  wekandb:
+    image: mongo
+    volumes:
+      - /home/johndoe/wekan/data:/data/db
 ```
 
 Then, from the directory containing the `docker-compose.yml` (i.e. `/home/johndoe/wekan`), simply run `docker-compose up`. If you want it to be deamonized, you could run `docker-compose up -d`.
