@@ -39,9 +39,15 @@ can be replaced by
   ports:
     - 1234:80
 ```
-Also need to change
+
+also need to change
 ```
-  ROOT_URL=http://localhost:1234
+ - ROOT_URL=http://localhost:80
+```
+
+to the new port
+```
+ - ROOT_URL=http://localhost:1234
 ```
 
 (This procedure has been tested on Linux Ubuntu 14.04 and Mac OS 10.11.6.)
