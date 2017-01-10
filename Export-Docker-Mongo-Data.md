@@ -3,7 +3,7 @@
 ```bash
 docker run -d --restart=always --name wekan-db mongo
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost" -p 8080:80 mquandalle/wekan
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost" -p 8080:80 mquandalle/wekan:0.10.0
 ```
 
 2) List docker containers, your ID:s will be different:
