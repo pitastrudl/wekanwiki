@@ -1,10 +1,14 @@
 1) You can run Wekan on Docker locally like this on http://localhost:8080/
 (or other port it you change 8080 in script):
 ```bash
-docker run -d --restart=always --name wekan-db mongo
+docker run -d --restart=always --name wekan-db mongo:3.4
 
 docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost" -p 8080:80 mquandalle/wekan:0.10.0
 ```
+
+Mongo 3.4 used because of bug in 3.4.1:
+
+https://github.com/wefork/wekan/issues/58
 
 2) List docker containers, your ID:s will be different:
 ```bash
