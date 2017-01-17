@@ -1,4 +1,10 @@
-1) by anselal
+1) by xet7
+
+VirtualBox image contains Xubuntu Desktop 16.04.1, Wefork installed from source 2017-01-17, and Nextcloud.
+
+https://wekan.xet7.org
+
+2) by anselal
 
 You can download a virtual appliance from https://github.com/anselal/wekan/releases
 
@@ -8,9 +14,3 @@ To login to the virtual machine use:
 * password: wekan
 
 You can find more information at https://github.com/anselal/wekan including the script which was used to create the Virtual Appliance.
-
-2) by xet7
-
-VirtualBox image contains Ubuntu Server 14.04, Docker and Wekan running on Docker. Website includes steps how to use it, and how to recreate it yourself.
-
-https://wekan.xet7.org
