@@ -60,13 +60,13 @@ When you did **NOT** setup the `MAIL_URL` environment variable in Wekan, the mai
 docker ps
 ```
 
-Then attach to the process:
+Then display the process output:
 
 ```sh
-docker attach --sig-proxy=false <container_id>
+docker logs -f <container_id>
 ```
 
-With the `--sig-proxy=false` flag, you can close the attached shell again via **ctl + c** without exiting the Wekan process.
+With the `-f` flag (`f` for `follow`), you will see the real-time output of the process. You can exit with **CTRL + C** without affecting the Wekan process.
 
 Via the web-interface press the '_forgot your password?_' link and trigger a reset mail. And watch the terminal output for the e-mail.
 
