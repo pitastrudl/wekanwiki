@@ -246,7 +246,7 @@ sudo systemctl daemon-reload
 sudo systemctl stop wekan@username
 sudo systemctl disable wekan@username
 ```
-
+Checkout instructions for setup with [[Caddy Webserver Config]] and [[Nginx Webserver Config]] respectively.
 
 # Update
 
@@ -290,7 +290,7 @@ npm install
 cd ~/repos
 sudo systemctl start wekan@wekan
 ```
-The first and last line are incase you've installed wekan as a service. Comment them out if not.
+The first and last line are incase you've installed [wekan as a service](#optional-run-wefork-as-service). Comment them out if not.
 
 ## Backup Mongo Data
 
