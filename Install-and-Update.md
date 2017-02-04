@@ -93,55 +93,101 @@ Note that it is expected that this command will not exit, and this is not an err
 ## Install manually from Source
 This is the most complex way, suitable if you know what you are doing and want to have the most flexibility to adapt the installation to your needs. Let's go!
 
-### Install Node.js
+### Notes
+
 If you haven't already, you need to install Node.js, given that we need node version 0.10.40, make sure to either use the [custom packages][node-packages] (the ones of your OS are likely too old) or install the correct version from the Node.js [website][node-web].
 
-### Install Meteor
-As you might have noticed already, Wekan is built using the Meteor web framework, so we need to install this as well. This can be done easily using their install script ([read it][meteor-script] if you don't trust it):
-
-```sh
-# This will install Meteor to ~/.meteor
-curl https://install.meteor.com/ | sh
-```
+* Uses Ubuntu 16.04 VM. You need websockets enabled on your VM.
+* For Caddy webserver, ports 80 and 443 need to be open. Caddy has automatic Let's Encrypt,
+* for Nginx config you need to configure SSL yourself.
 
 ### Install MongoDB
 
-In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website][mongodb-website] how to install it.
+_Note: Installing MongoDB version 3.2.11. This is because 3.4.1 released 2016-12-20 broke something so uploading images did not work, see:
+https://github.com/wefork/wekan/issues/58_
 
-### Download and build Wekan
-First we need to get the latest version of Wekan and change to the cloned folder:
-
-```sh
-git clone https://github.com/wekan/wekan.git && cd wekan
+```bash
+# MongoDB for Ubuntu 16.04
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+sudo apt update
+sudo apt-get install -y mongodb-org=3.2.11 mongodb-org-server=3.2.11 mongodb-org-shell=3.2.11 mongodb-org-mongos=3.2.11 mongodb-org-tools=3.2.11
+sudo systemctl start mongod
+sudo systemctl enable mongod
 ```
 
-Now we need to build the meteor app:
+### Install NodeJS
+```bash
+# Node.js 0.10.48
+sudo apt install build-essential nodejs nodejs-legacy npm git curl
+# TODO: Remove -g (if you uninstall npm, globally installed packages are left behind and your package manager doesn't know about them)
+sudo npm -g install n
+sudo n 0.10.48
+sudo npm install npm@latest -g
+sudo npm install -g node-gyp
+sudo npm install -g fibers
+```
 
-```sh
+### Install Meteor
+As you might have noticed already, Wekan is built using the Meteor web framework, so we need to install this as well. This can be done easily using their install script ([read it][meteor-script] if you don't trust it).
+
+However here, we're specifically installing Meteor 1.3.5.1, so follow the instructions below:
+
+```bash
+# Meteor 1.3.5.1
+mkdir ~/repos
+cd ~/repos
+git clone --recursive https://github.com/meteor/meteor.git -b release-1.3.5
+sudo ln -s ~/repos/meteor/meteor /usr/local/bin/meteor
+```
+
+### Install and Build Wekan
+
+```bash
+# Wekan
+git clone https://github.com/wekan/wekan
+cd wekan
+#### OPTIONAL: test pull request
+##git checkout -b dwrensha-profile-bugfix devel
+##git pull https://github.com/dwrensha/wekan.git profile-bugfix
+npm install
+rm -rf .build
 meteor build .build --directory
-```
-We use `.build` here, as it will be ignored by meteor on subsequent builds, you can as well use a directory outside the libreboard folder.
-
-Now we need to cd into the build server folder and install some dependencies:
-
-```sh
-cd .build/bundle/programs/server/ && sudo npm install
+cd .build/bundle/programs/server
+npm install
+cd ~/repos
 ```
 
-Now we need to set some environment variables:
+## Run Wefork manually
 
-```sh
-export MONGO_URL='mongodb://127.0.0.1:27017/wekan'
-export ROOT_URL='https://example.com'
+Add to ~/repos/run-wefork.sh
+
+```bash
+cd ~/repos/wekan/.build/bundle
+export MONGO_URL='mongodb://127.0.0.1:27017/admin'
+# Production: https://example.com/wekan
+# Local: http://localhost
+export ROOT_URL='https://example.com/wekan'
 export MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
-export PORT=8080
+# This is local port where Wekan Node.js runs, same as below on Caddyfile settings.
+export PORT=3000
+node main.js
 ```
 
-Most of them should be self-explaining. After having set the variables, let's move back to the build package folder and start the server:
+If you are running it in an IP address, you may need for example
+```bash
+export ROOT_URL='http://192.168.1.100:3000'
+export PORT=3000
+```
 
-```sh
-cd ../../
-node main.js
+Make it executeable:
+```bash
+chmod +x ~/repos/run-wefork.sh
+```
+You could run it manually with:
+```bash
+cd ~/repos
+./run-wefork.sh
 ```
 
 Done!
