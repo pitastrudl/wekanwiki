@@ -177,6 +177,21 @@ Sandstorm updates work automatically. You need to go the the sandstom app market
 
 If you installed Wekan manually, you need to stop the Node.js server, download the wekan application and restart the Node.js server.
 
+```sh
+sudo systemctl stop wekan@wekan
+cd ~/repos/wekan
+git pull
+npm install
+rm -rf .build
+meteor build .build --directory
+cd .build/bundle/programs/server
+npm install
+cd ~/repos
+sudo systemctl start wekan@wekan
+```
+The first and last line are incase you've installed wekan as a service. Comment them out if not.
+
+
 [bash-install-script]: https://github.com/anselal/wekan
 [virtual-appliance]: https://github.com/anselal/wekan#wekan-virtual-appliance
 
