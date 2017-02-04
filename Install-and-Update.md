@@ -15,6 +15,7 @@ Wekan will automatically migrate your data on first launch. Steps for upgrading 
 * [Upgrading Docker](#updating-docker)
 * [Upgrading Sandstorm](#updating-sandstorm)
 * [Upgrading Manual Installs](#updating-manual-installs)
+* [Backing Up Mongo Data](#backup-mongo-data)
 
 
 ***
@@ -190,6 +191,22 @@ cd ~/repos
 sudo systemctl start wekan@wekan
 ```
 The first and last line are incase you've installed wekan as a service. Comment them out if not.
+
+## Backup Mongo Data
+
+```sh
+#!/bin/bash
+now=$(date +'%Y-%m-%d_%H.%M.%S')
+mkdir -p backups/$now
+cd backups/$now
+mongodump
+cd ..
+zip -r $now.zip $now
+cd ../..
+echo "\nBACKUP DONE."
+echo "Backup is at directory backups/${now}."
+echo "Backup is also archived to .zip file backups/${now}.zip"
+```
 
 
 [bash-install-script]: https://github.com/anselal/wekan
