@@ -4,19 +4,35 @@ We follow the [meteor style guide](https://guide.meteor.com/code-style.html#java
 
 Please read the meteor style guide before making any significant contribution.
 
-# General tips for getting started (for new developers)
+# Getting started (for new developers)
+
+## Installation 
 
 - Install [Wekan fork from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your computer.
   - If that doesn't work, try installing it via the [[virtual appliance|virtual-appliance]]
-- Read Wekan fork source code.
-- Ask questions at our [Rocket.Chat][rocket_chat]. You can ask anything, we are here to help.
-- Read Meteor documentation.
+- Ask questions at our [Rocket.Chat][rocket_chat]. You can ask anything, we are here to help. But also consult the sources that are already available.
+  - Look through old [pull requests](https://github.com/wekan/wekan/pulls)
+  - Read Wekan fork source code.
+  - Read Meteor documentation.
+
+## Pull Request Workflow (Please read before submitting PR's)
+
+- Use the [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) workflow.
+  - create a PR from your feature-branch to `wekan/devel` directly so that you can continue your work without interruption.
+- Keep your local forks updated with this repo by setting your `git upstream` value as described [here](https://robots.thoughtbot.com/keeping-a-github-fork-updated).
+  - before submitting a PR make sure you `rebase` your local branch as described [here](http://push.cwcon.org/learn/stay-updated#on_your_computer_routine_tasks)
+  - If you accidentally mess around on your `devel` branch, follow these steps [here](http://push.cwcon.org/learn/stay-updated#oops_i_was_messing_around_on_) to clean it up.
+
+## Choosing issues to work on
+
+- You are free to select what feature to work on.
+  - Leave a comment on an issue saying that you're working on it, and give updates as needed.
+  - Work and concentrate on one issue at a time and finish it, before moving to other issue.
 - Keep list of your contributions on your personal website.
 - Keep track of time it takes to implement each part of a feature, so you can estimate what time it would take to implement similar feature. After implementing feature, review your estimate was it correct, make improvements to your process and estimates, also keeping enough time allocated in estimate if something is harder to implement. Employers look for coders with proven track record.
-- Work and concentrate on one issue at a time and finish it, before moving to other issue.
 - You can ask for comments from others, but usually those feature requests are clearly defined how they should work. You can place those Settings options there where it seems most logical for you.
-- You are free to select what feature to work on.
-- Main point is to be friendly to those commenting of your code, and incorporate those suggestions that make most sense.
+
+Main point is to be friendly to those commenting of your code, and incorporate those suggestions that make most sense.
 
 # Build Pipeline
 
