@@ -71,6 +71,4 @@ With the `-f` flag (`f` for `follow`), you will see the real-time output of the 
 Via the web-interface press the '_forgot your password?_' link and trigger a reset mail. And watch the terminal output for the e-mail.
 
 ## How can I contribute to Wekan?
-We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [Contributing][] notes for more information how you can help improve and enhance Wekan.
-
-[contributing]: https://github.com/wekan/wekan/blob/master/Contributing.md
+We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan.
