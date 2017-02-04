@@ -6,7 +6,8 @@ Please read the meteor style guide before making any significant contribution.
 
 # General tips for getting started (for new developers)
 
-- Install Wekan fork from source to your computer.
+- Install [Wekan fork from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your computer.
+- If that doesn't work, try installing it via the [[virtual appliance|virtual-appliance]]
 - Read Wekan fork source code.
 - Ask questions at our [Rocket.Chat][rocket_chat]. You can ask anything, we are here to help.
 - Read Meteor documentation.
@@ -16,23 +17,6 @@ Please read the meteor style guide before making any significant contribution.
 - You can ask for comments from others, but usually those feature requests are clearly defined how they should work. You can place those Settings options there where it seems most logical for you.
 - You are free to select what feature to work on.
 - Main point is to be friendly to those commenting of your code, and incorporate those suggestions that make most sense.
-
-# Installation
-
-Wekan is made with [Meteor](https://www.meteor.com). Thus the easiest way to
-start hacking is by installing the framework, cloning the git repository, and
-launching the application:
-
-```bash
-$ curl https://install.meteor.com/ | sh # Installs Meteor on Mac or Linux
-```
-
-It's possible to run the normal `meteor run` after cloning the repo to your local machine but some features may not work.
-
-The proper way to install Wekan for testing is by [installing from source](https://github.com/wefork/wekan/wiki/Install-from-source).
-
-As for any Meteor application, Wekan is automatically refreshed when you change
-any file of the source code, just play with it to see how it behaves!
 
 # Build Pipeline
 
@@ -46,7 +30,7 @@ For further details look for the 'feature summaries' in the Wiki (still in progr
 
 # Translations
 
-If adding new features, please also support the internationalization features built in. Refer to the [Translations](https://github.com/wefork/wekan/wiki/Translations) wiki page. 
+If adding new features, please also support the internationalization features built in. Refer to the [[Translations]] wiki page. 
 
 # Directory Structure Details
 
