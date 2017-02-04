@@ -65,13 +65,13 @@ Move to the server directory and install the dependencies:
 ```sh
 cd wekan-VERSION/bundle/programs/server && sudo npm install
 ```
+### Run Wekan Manually
 
 Now go back to the base Wekan bundle directory:
 
 ```sh
 cd ../../
 ```
-
 Now we just need to make some settings through env variables:
 
 ```sh
@@ -89,6 +89,61 @@ node main.js
 ```
 
 Note that it is expected that this command will not exit, and this is not an error.
+
+### (Optional) Run Wefork as service
+
+Add to to /etc/systemd/system/wekan@.service
+
+```bash
+; see `man systemd.unit` for configuration details
+; the man section also explains *specifiers* `%x`
+
+[Unit]
+Description=Wekan server %I
+Documentation=https://github.com/wefork/wekan
+After=network-online.target
+Wants=network-online.target
+Wants=systemd-networkd-wait-online.service
+
+[Service]
+ExecStart=/usr/local/bin/node /home/user/repos/wekan/.build/bundle/main.js
+Restart=on-failure
+StartLimitInterval=86400
+StartLimitBurst=5
+RestartSec=10
+ExecReload=/bin/kill -USR1 $MAINPID
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=Wekan
+User=username
+Group=username
+Environment=NODE_ENV=production
+Environment=PWD=/home/username/repos/wekan/.build/bundle
+Environment=PORT=3000
+Environment=HTTP_FORWARDED_COUNT=1
+Environment=MONGO_URL=mongodb://127.0.0.1:27017/admin
+Environment=ROOT_URL=https://example.com/wekan
+Environment=MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+#### To start Wekan and enable service, change to your username where Wekan files are:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start wekan@username
+sudo systemctl enable wekan@username
+```
+
+#### To stop Wekan and disable service, change to your username where Wekan files are:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl stop wekan@username
+sudo systemctl disable wekan@username
+```
 
 [latest-release]: https://github.com/wekan/wekan/releases/latest
 
