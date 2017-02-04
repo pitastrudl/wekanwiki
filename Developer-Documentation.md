@@ -7,7 +7,7 @@ Please read the meteor style guide before making any significant contribution.
 # General tips for getting started (for new developers)
 
 - Install [Wekan fork from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your computer.
-- If that doesn't work, try installing it via the [[virtual appliance|virtual-appliance]]
+  - If that doesn't work, try installing it via the [[virtual appliance|virtual-appliance]]
 - Read Wekan fork source code.
 - Ask questions at our [Rocket.Chat][rocket_chat]. You can ask anything, we are here to help.
 - Read Meteor documentation.
@@ -31,6 +31,10 @@ For further details look for the 'feature summaries' in the Wiki (still in progr
 # Translations
 
 If adding new features, please also support the internationalization features built in. Refer to the [[Translations]] wiki page. 
+
+# Export From Trello
+
+It's possible to import your existing boards from Trello. Instructions [[here|migrating-from-trello]]
 
 # Directory Structure Details
 
