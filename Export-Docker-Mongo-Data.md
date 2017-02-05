@@ -33,7 +33,7 @@ https://docs.mongodb.com/manual/reference/mongo-shell/
 like this:
 
 ```bash
-> mongo             
+> mongo             <==== START MONGO CLI
 MongoDB shell version: 3.2.7
 connecting to: test
 Server has startup warnings: 
@@ -44,12 +44,12 @@ Server has startup warnings:
 2016-06-25T11:39:55.913+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
 2016-06-25T11:39:55.913+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
 2016-06-25T11:39:55.913+0000 I CONTROL  [initandlisten] 
-> show dbs
+> show dbs           <=== SHOW DATABASES
 admin  0.034GB
 local  0.000GB
-> use admin
+> use admin          <=== CHANGE TO USE ADMIN DATABASE
 switched to db admin
-> show collections
+> show collections   <=== SHOWS TABLES
 activities
 boards
 card_comments
@@ -66,7 +66,9 @@ meteor-migrations
 meteor_accounts_loginServiceConfiguration
 presences
 users
-> exit
+> db.users.find()     <=== LISTS ALL USERS
+(list of all users here)
+> exit                <=== EXIT MONGO CLI
 ```
 
 5) Go to /data directory:
