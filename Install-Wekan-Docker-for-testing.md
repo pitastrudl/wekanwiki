@@ -52,7 +52,7 @@ to the new port
 
 (This procedure has been tested on Linux Ubuntu 14.04 and Mac OS 10.11.6.)
 
-### Testing with mail server
+## Testing with mail server
 
 Above method will create an instance of Wekan without mailing features (users inviting, password recovery, neat registration) because MAIL_URL env var isn't set. This `docker-compose.yml` solves that problem by adding *mailserver* container.  
 
@@ -100,3 +100,20 @@ Several additional steps needed.
     opendkim-genkey -s mail -d example.com
     mv mail.private dkim.key
     ```
+
+## Show mails with a Docker image, without mail configuration
+When you did **NOT** setup the `MAIL_URL` environment variable in Wekan, the mail message will be 'sent' to the terminal output instead of sending an actual e-mail. If you are using Docker images, list the containers via:
+
+```sh
+docker ps
+```
+
+Then display the process output:
+
+```sh
+docker logs -f <container_id>
+```
+
+With the `-f` flag (`f` for `follow`), you will see the real-time output of the process. You can exit with **CTRL + C** without affecting the Wekan process.
+
+Via the web-interface press the '_forgot your password?_' link and trigger a reset mail. And watch the terminal output for the e-mail.
