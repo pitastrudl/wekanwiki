@@ -31,44 +31,5 @@ See the related tickets [#92] and [#97] for more information.
 [#92]: https://github.com/wekan/wekan/issues/92
 [#97]: https://github.com/wekan/wekan/issues/97
 
-## How can I connect to the Wekan DB?
-If you're using Docker images. Wekan is configured to use MongoDB, by using a **separate** mongo Docker image / container. After you start the Docker images (`docker-compose up -d`), you can list the containers via:
-```sh
-docker ps
-```
-Then, find the MongoDB image (with the container name: `wekan_wekandb_x`). Remember the _Container ID_. And connect to the running container:
-```sh
-docker exec -i -t <container_id> /bin/bash
-```
-Finally, connect to the Wekan database:
-```sh
-mongo wekan 
-```
-List the tables:
-```sh
-show collections
-```
-List all users:
-```sh
-db.users.find()
-```
-
-## Show mails with a Docker image, without mail configuration
-When you did **NOT** setup the `MAIL_URL` environment variable in Wekan, the mail message will be 'sent' to the terminal output instead of sending an actual e-mail. If you are using Docker images, list the containers via:
-
-```sh
-docker ps
-```
-
-Then display the process output:
-
-```sh
-docker logs -f <container_id>
-```
-
-With the `-f` flag (`f` for `follow`), you will see the real-time output of the process. You can exit with **CTRL + C** without affecting the Wekan process.
-
-Via the web-interface press the '_forgot your password?_' link and trigger a reset mail. And watch the terminal output for the e-mail.
-
 ## How can I contribute to Wekan?
 We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan.
