@@ -1,0 +1,1 @@
+Security is very important to us. If discover any issue regarding security, please disclose the information responsibly by sending an email to wekan-security (at) xet7.org and not by creating a GitHub issue.
