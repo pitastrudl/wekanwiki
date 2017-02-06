@@ -4,13 +4,15 @@ We follow the [meteor style guide](https://guide.meteor.com/code-style.html#java
 
 Please read the meteor style guide before making any significant contribution.
 
-# Getting started (for new developers)
+# Tips for new developers
 
-## Installation 
+## Getting Started
 
 - Install [Wekan fork from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your computer.
   - If that doesn't work, try installing it via the [[virtual appliance|virtual-appliance]]
-- Ask questions at our [Rocket.Chat][rocket_chat]. You can ask anything, we are here to help. But also consult the sources that are already available.
+- Ask questions at [![Wekan chat][vanila_badge]][vanila_chat]
+  -  We used to be at ~~[Rocket.Chat][rocket_chat]~~ but that's been discontinued.
+- You can ask anything, we are here to help. But also consult the sources that are already available.
   - Look through old [pull requests](https://github.com/wekan/wekan/pulls)
   - Read Wekan fork source code.
   - Read Meteor documentation.
@@ -56,4 +58,9 @@ It's possible to import your existing boards from Trello. Instructions [[here|mi
 
 TODO
 
+[![Wekan chat][vanila_badge]][vanila_chat]
+
+
 [rocket_chat]: https://chat.indie.host/channel/wekan
+[vanila_badge]: https://vanila.io/img/join-chat-button2.png
+[vanila_chat]: https://chat.vanila.io/channel/wekan
