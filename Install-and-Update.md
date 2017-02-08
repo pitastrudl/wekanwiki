@@ -209,7 +209,7 @@ Wants=network-online.target
 Wants=systemd-networkd-wait-online.service
 
 [Service]
-ExecStart=/usr/local/bin/node /home/user/repos/wekan/.build/bundle/main.js
+ExecStart=/usr/local/bin/node /home/<username>/repos/wekan/.build/bundle/main.js
 Restart=on-failure
 StartLimitInterval=86400
 StartLimitBurst=5
