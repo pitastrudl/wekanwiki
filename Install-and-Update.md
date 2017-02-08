@@ -199,6 +199,7 @@ Add to to /etc/systemd/system/wekan@.service
 ```bash
 ; see `man systemd.unit` for configuration details
 ; the man section also explains *specifiers* `%x`
+; update <username> with username below
 
 [Unit]
 Description=Wekan server %I
@@ -218,10 +219,10 @@ RestartSec=10
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=Wekan
-User=username
-Group=username
+User=<username>
+Group=<username>
 Environment=NODE_ENV=production
-Environment=PWD=/home/username/repos/wekan/.build/bundle
+Environment=PWD=/home/<username>/repos/wekan/.build/bundle
 Environment=PORT=3000
 Environment=HTTP_FORWARDED_COUNT=1
 Environment=MONGO_URL=mongodb://127.0.0.1:27017/admin
