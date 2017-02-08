@@ -160,7 +160,7 @@ cd ~/repos
 
 ## Run Wefork manually
 
-Add to ~/repos/run-wefork.sh
+Add to ~/repos/run-wekan.sh
 
 ```bash
 cd ~/repos/wekan/.build/bundle
@@ -182,12 +182,12 @@ export PORT=3000
 
 Make it executeable:
 ```bash
-chmod +x ~/repos/run-wefork.sh
+chmod +x ~/repos/run-wekan.sh
 ```
 You could run it manually with:
 ```bash
 cd ~/repos
-./run-wefork.sh
+./run-wekan.sh
 ```
 
 Done!
@@ -202,7 +202,7 @@ Add to to /etc/systemd/system/wekan@.service
 
 [Unit]
 Description=Wekan server %I
-Documentation=https://github.com/wefork/wekan
+Documentation=https://github.com/wekan/wekan
 After=network-online.target
 Wants=network-online.target
 Wants=systemd-networkd-wait-online.service
@@ -225,7 +225,8 @@ Environment=PWD=/home/username/repos/wekan/.build/bundle
 Environment=PORT=3000
 Environment=HTTP_FORWARDED_COUNT=1
 Environment=MONGO_URL=mongodb://127.0.0.1:27017/admin
-Environment=ROOT_URL=https://example.com/wekan
+; https://example.com/wekan for deployment
+Environment=ROOT_URL=http://localhost/wekan
 Environment=MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
 
 [Install]
@@ -236,15 +237,15 @@ WantedBy=multi-user.target
 #### To start Wekan and enable service, change to your username where Wekan files are:
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl start wekan@username
-sudo systemctl enable wekan@username
+sudo systemctl start wekan@<username>
+sudo systemctl enable wekan@<username>
 ```
 
 #### To stop Wekan and disable service, change to your username where Wekan files are:
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl stop wekan@username
-sudo systemctl disable wekan@username
+sudo systemctl stop wekan@<username>
+sudo systemctl disable wekan@<username>
 ```
 Checkout instructions for setup with [[Caddy Webserver Config]] and [[Nginx Webserver Config]] respectively.
 
