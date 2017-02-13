@@ -257,19 +257,33 @@ Checkout instructions for setup with [[Caddy Webserver Config]] and [[Nginx Webs
 
 If you installed Wekan via Docker, you'll have one Docker container for the database and one container for the application. You'll need to stop the old application container, replace it by the new one and start it again.
 
+If you have newer Mongo version, you need to backup your MongoDB data (as shown here: [[Export Mongo Data|Export-Docker-Mongo-Data]]) and use similar commands as below to replace your Mongo container with version 3.2.11, and then restore data.
+
 See running containers:
 ```sh
 docker ps
 ```
+
 To stop the running containers:
 ```sh
-docker stop wekan_wekan_1 wekan_wekandb_1
+docker stop CONTAINER-ID-HERE
 ```
 
-Login as the `wekan` user (`su - wekan`), which uses the docker-compose.yml file. To create and start the new container run:
+Remove the container:
 ```sh
-docker-compose up -d
+docker rm CONTAINER-ID-HERE
 ```
+
+Replace with the latest image:
+```sh
+docker rm mquandalle/wekan:latest
+```
+
+Run latest version:
+```sh
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 mquandalle/wekan:latest
+```
+
 More information about [setup Wekan Docker](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production).
 
 ## Updating Sandstorm
