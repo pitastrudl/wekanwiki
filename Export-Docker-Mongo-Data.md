@@ -96,7 +96,7 @@ docker cp wekan-db:/data/dump .
 docker cp dump wekan-db:/data/
 docker exec -it wekan-db bash
 cd /data
-mongorestore --drop
+mongorestore --drop --db=<dbname>
 exit
 ```
 
