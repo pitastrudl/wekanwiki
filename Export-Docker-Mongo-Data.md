@@ -1,3 +1,6 @@
+NOTE: Check from your Dockerfile or docker-compose.yml what is name of MongoDB container.
+It can be wekan-db, mongodb or something else.
+
 1) You can run Wekan on Docker locally like this on http://localhost:8080/
 (or other port it you change 8080 in script):
 ```bash
@@ -100,7 +103,7 @@ mongorestore --drop --db=<dbname>
 exit
 ```
 
-That dbname can be for example wekandb:
+That dbname can be for example wekandb or mongodb:
 ```
 mongorestore --drop --db=wekandb
 ```
