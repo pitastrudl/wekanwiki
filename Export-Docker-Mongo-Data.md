@@ -100,6 +100,11 @@ mongorestore --drop --db=<dbname>
 exit
 ```
 
+That dbname can be for example wekandb:
+```
+mongorestore --drop --db=wekandb
+```
+
 9b) Or restore to another mongo database, in different port:
 ```bash
 mongorestore --port 11235
