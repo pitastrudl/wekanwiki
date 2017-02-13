@@ -192,7 +192,7 @@ cd ~/repos
 
 Done!
 
-### (Optional) Run Wefork as service
+### (Optional) Run Wekan as service
 
 Add to to /etc/systemd/system/wekan@.service
 
