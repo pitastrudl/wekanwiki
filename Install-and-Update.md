@@ -264,7 +264,7 @@ See running containers:
 docker ps
 ```
 
-To stop the running containers:
+To stop the running wekan container (not wekan-db that is MongoDB container):
 ```sh
 docker stop CONTAINER-ID-HERE
 ```
@@ -274,12 +274,17 @@ Remove the container:
 docker rm CONTAINER-ID-HERE
 ```
 
-Replace with the latest image:
+See previously downloaded Docker images, that are used to start containers:
 ```sh
-docker rm mquandalle/wekan:latest
+docker images
 ```
 
-Run latest version:
+Remove old previously downloaded Docker image:
+```sh
+docker rmi mquandalle/wekan:latest
+```
+
+Download and run latest version:
 ```sh
 docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 mquandalle/wekan:latest
 ```
