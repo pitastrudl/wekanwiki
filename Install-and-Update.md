@@ -1,5 +1,5 @@
 # Install
-_Note: Developers looking to contribute to Wekan should follow the instructions on the [Contributors page] [contributors-page] to setup a development environment._
+_Note: Developers looking to contribute to Wekan should follow the instructions on [Installing from Source](#install-manually-from-source) to setup a development environment._
 
 ### Installing a new instance of Wekan
 There are several options for deploying Wekan. Docker and sandstorm are by far the easiest, but manual installations are supported for those who prefer to customize their installation.
@@ -116,18 +116,6 @@ sudo systemctl start mongod
 sudo systemctl enable mongod
 ```
 
-### Install NodeJS
-```bash
-# Node.js 0.10.48
-sudo apt install build-essential nodejs nodejs-legacy npm git curl
-# TODO: Remove -g (if you uninstall npm, globally installed packages are left behind and your package manager doesn't know about them)
-sudo npm -g install n
-sudo n 0.10.48
-sudo npm install npm@latest -g
-sudo npm install -g node-gyp
-sudo npm install -g fibers
-```
-
 ### Install Meteor
 As you might have noticed already, Wekan is built using the Meteor web framework, so we need to install this as well. This can be done easily using their install script ([read it][meteor-script] if you don't trust it).
 
@@ -144,13 +132,34 @@ sudo ln -s ~/repos/meteor/meteor /usr/local/bin/meteor
 ### Install and Build Wekan
 
 ```bash
-# Wekan
+# Download Wekan
 git clone https://github.com/wekan/wekan
 cd wekan
+
 #### OPTIONAL: test pull request
-##git checkout -b dwrensha-profile-bugfix devel
-##git pull https://github.com/dwrensha/wekan.git profile-bugfix
+## git checkout -b dwrensha-profile-bugfix devel
+## git pull https://github.com/dwrensha/wekan.git profile-bugfix
+
+# Install Node.js 0.10.48
+sudo apt install build-essential nodejs nodejs-legacy npm git curl
+npm install n 
+## if the previous fails (and asks you to run as sudo) just rm /home/<username>/node_modules and retry
+n 0.10.48
+npm install npm@latest
+npm install node-gyp
+npm install fibers
+
+# install wekan npm dependancies
 npm install
+```
+
+#### For Development and Testing
+```bash
+meteor
+```
+
+#### In production
+```bash
 rm -rf .build
 meteor build .build --directory
 cd .build/bundle/programs/server
@@ -158,7 +167,7 @@ npm install
 cd ~/repos
 ```
 
-## Run Wefork manually
+#### Run Wefork manually (if you've built for production)
 
 Add to ~/repos/run-wekan.sh
 
