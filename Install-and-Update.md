@@ -158,6 +158,10 @@ npm install
 meteor
 ```
 
+When running with command `meteor`, any saved modification of HTML/CSS/JS Wekan code
+will make changes also on the browser automatically. NPM package C/C++ code is probably
+not recompiled though, that needs full build.
+
 #### In production
 ```bash
 rm -rf .build
