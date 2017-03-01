@@ -8,7 +8,7 @@ Please read the meteor style guide before making any significant contribution.
 
 ## Getting Started
 
-- Try [Docker environment for Wekan development](https://github.com/wekan/wekan-dev)
+- Try [Docker environment for Wekan development](https://github.com/wekan/wekan-dev).
 - Or install [Wekan from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your computer.
   - If that doesn't work, try installing it via the [[virtual appliance|virtual-appliance]]
 - Ask questions at [![Wekan chat][vanila_badge]][vanila_chat]
