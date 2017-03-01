@@ -29,4 +29,6 @@ meteor npm install --save xss
 meteor
 ```
 
+![](https://i.imgur.com/tg9FfhC.png)
+
 Now enjoy your development environment of Wekan. :)
