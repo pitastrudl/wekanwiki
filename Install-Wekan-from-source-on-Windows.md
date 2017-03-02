@@ -1,59 +1,34 @@
-THIS PAGE IN IN PROGRESS, NOT FINISHED YET.
+To develop Wekan on windows OS,
 
-Tested on Windows 10.
+Pre-requirement Steps:
+- Install MeteorJS https://www.meteor.com/
+- Install NodeJS (Optional)
+- Install Python 2.7 (Installation through Chocolatey(`choco install python2 -y`) is recomended)
+- If you are on windows 7, Install .NET 4.5.1+
+- Install Visual C++ 2015 Build Tools. (http://landinghub.visualstudio.com/visual-cpp-build-tools)
+- Install Git
 
-Source install is based on this page:
-https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source
-
-1) Install [newest Node.js 0.10.x for Windows](https://nodejs.org/dist/latest-v0.10.x/).
-
-2) Install [Chocolatey](https://chocolatey.org/install).
-
-3) Install Git and Python2.7. Python needed for node-gyp, compiling Node.js packages from source:
-
+From this point, use Git bash to run commands to make sure everything works as is.
+- Inside the Git Bash, run these commands:
 ```
-# Use cmd.exe as Administrator
-choco install -y git python2
-npm config set python C:\tools\python2\python.exe
+npm config -g set msvs_version 2015
+meteor npm config -g set msvs_version 2015
 ```
 
-4) Install Visual Studio 2015 Community from it's website
-for building Node.js extensions from source.
+Running Wekan:
+- Clone the repo (https://github.com/wekan/wekan)
+- Browse the wekan directory and run `meteor`, if you see any error regarding **xss**, do `meteor npm i --save xss` to install xss.
+- open your browser, make changes and see it reflecting real-time.
 
-(If you use Chocolatey version, you needs extra steps:
-choco install -y visualstudio2015community
-Then from Control Panel uninstall Visual C++ 2015 redistributeables,
-and modify and repair Visual Studio install.)
-
-5) Install Windows SDK 8.1 using cmd.exe Administrator:
+Here is how it looks like,
 
 ```
-choco install -y windows-sdk-8.1
-npm config set msvs_version 2015
-```
-
-6) Install [Meteor Windows installer](https://www.meteor.com)
-
-7) Clone Wekan git repo:
-
-```
-# Use cmd.exe as your normal user (not Administrator).
-cd C:\Users\YOUR-USERNAME\Documents
-git clone https://github.com/wekan/wekan.git
+git clone https://github.com/wekan/wekan
 cd wekan
-npm install -g node-gyp
-npm install
-# Change to older meteor version
-meteor update --release 1.3.5.1
-meteor build .build --directory
-cd .build\bundle\programs\server
-npm install
+meteor npm install --save xss
+meteor
 ```
 
-TODO:
+![](https://i.imgur.com/aNVBhj5.png)
 
-* Try to get [node-gyp](https://github.com/nodejs/node-gyp) working, currently Visual Studio 2015 Community install in progress on my laptop
-* Try to [get fibers compiled](https://forums.meteor.com/t/one-deployment-method-for-a-meteor-application-on-windows/13928/21) and maybe even create installer for Wekan
-* Add mongo with ```npm install mongod``` or install separate mongo, version 3.2.9
-* Add instructions how to run Wekan Node.js as service using for example [NSSM](https://nssm.cc)
-* Add instructions of workaround, how to change Firefox language to English by removing other languages from settings, so it's possible to login to Wekan, this bypasses missing migrations of language to new version
+Now enjoy your development environment of Wekan. :)
