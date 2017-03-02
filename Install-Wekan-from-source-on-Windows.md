@@ -1,6 +1,4 @@
-To develop Wekan on windows OS,
-
-Pre-requirement Steps:
+Requirements:
 - Install MeteorJS https://www.meteor.com/
 - Install NodeJS (Optional)
 - Install Python 2.7 (Installation through Chocolatey(`choco install python2 -y`) is recomended)
@@ -30,5 +28,3 @@ meteor
 ```
 
 ![](https://i.imgur.com/aNVBhj5.png)
-
-Now enjoy your development environment of Wekan. :)
