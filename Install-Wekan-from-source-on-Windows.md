@@ -1,3 +1,4 @@
+# Setup required dependencies
 Requirements:
 - Install [MeteorJS](https://www.meteor.com/) 
 - Install [NodeJS](https://nodejs.org/en/download/releases/) (Optional but recommended)
@@ -11,24 +12,46 @@ Regarding Node Version, Tested versions for this note were as below, It's report
 
 ![](https://i.imgur.com/w83BFBI.png)
 
-From this point, use Git bash to run commands to make sure everything works as is, but if you had trouble accessing meteor or npm commands via Git bash, windows CMD will most likely work without any problem.
-- Inside the Git Bash, run these commands:
+From this point, it's advised to use **Git bash** to run commands to make sure everything works as is, but if you had trouble accessing meteor or npm commands via Git bash, windows CMD will most likely work without any problem.
+
+Inside the Git Bash, run these commands:
 
 ```
 npm config -g set msvs_version 2015
 meteor npm config -g set msvs_version 2015
 ```
 
-Running Wekan:
+# Running Wekan
 - Clone the repo (`https://github.com/wekan/wekan`)
-- Browse the wekan directory and run `meteor`, if you see any error regarding **xss**, do `meteor npm i --save xss` to install xss.
+- Browse the wekan directory and run `meteor`, 
+- If you see any error regarding **xss**, do `meteor npm i --save xss` to install xss.
+- Set the Environment variables, or create a .env file with the following data.
 - open your browser, make changes and see it reflecting real-time.
 
-Here is how it looks like,
+## Example of setting environment variables
+```
+SET MONGO_URL=mongodb://127.0.0.1:27017/wekan
+SET ROOT_URL=http://127.0.0.1/
+SET MAIL_URL=smtp://user:pass@mailserver.example.com:25/
+SET MAIL_FROM=admin@example.com
+SET PORT=8081
+```
 
+## Example contents of  `.env` file
+```
+MONGO_URL=mongodb://127.0.0.1:27017/wekan
+ROOT_URL=http://127.0.0.1/
+MAIL_URL=smtp://user:pass@mailserver.example.com:25/
+MAIL_FROM=admin@example.com
+PORT=8081
+```
+
+## Overview,
+Here is how it looks like,
 ```
 git clone https://github.com/wekan/wekan
 cd wekan
+<SET ENV OR CREATE .env FILE>
 meteor npm install --save xss
 meteor
 ```
