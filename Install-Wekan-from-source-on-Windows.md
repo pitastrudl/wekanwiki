@@ -5,7 +5,7 @@ Requirements:
 - Install [NodeJS](https://nodejs.org/en/download/releases/) (Optional but recommended)
 - Install Python 2.7 (Installation through Chocolatey(`choco install python2 -y`) is recomended)
 - If you are on windows 7, Install .NET 4.5.1+
-- *MUST MAKE SURE TO* Install [Visual C++ 2015 Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools), select custom and check all boxes to install all required dependencies. If there are no custom option, you have got the wrong version. It's much better than installing whole visual studio.
+- **MUST MAKE SURE TO** Install [Visual C++ 2015 Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools), select custom and check all boxes to install all required dependencies. If there are no custom option, you have got the wrong version. It's much better than installing whole visual studio.
 - Install Git
 - Restart Windows (Optional but recommended)
 
