@@ -56,6 +56,8 @@ meteor
 ![](https://i.imgur.com/aNVBhj5.png)
 
 # FAQ
+### I am getting `node-gyp` related issues.
+Make sure to install all required programs stated here, https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows#setup-required-dependencies
 
 ### I am getting `Error: Cannot find module 'fibers'` related problem.
 Make sure to run the command `meteor` instead of `node`.
