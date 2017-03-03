@@ -9,10 +9,6 @@ Requirements:
 - Install Git
 - Restart Windows (Optional but recommended)
 
-Regarding Node Version, The wekan source requires at least *v0.10*, Tested versions for this note were as below even though it's optional, meteor should take care of all nodejs based dependency related issues.
-
-![](https://i.imgur.com/w83BFBI.png)
-
 From this point, it's advised to use **Git bash** to run commands to make sure everything works as is, but if you had trouble accessing meteor or npm commands via Git bash, windows CMD will most likely work without any problem.
 
 Inside the Git Bash, run these commands:
@@ -58,3 +54,10 @@ meteor
 ```
 
 ![](https://i.imgur.com/aNVBhj5.png)
+
+# FAQ
+
+### I am getting `Error: Cannot find module 'fibers'` related problem.
+Make sure to run `meteor` instead of `node`. Regarding Node Version, The wekan source requires at least *v0.10*, Tested versions for this note were as below even though it's optional, meteor would take care of all nodejs based dependency related issues.
+
+![](https://i.imgur.com/w83BFBI.png)
