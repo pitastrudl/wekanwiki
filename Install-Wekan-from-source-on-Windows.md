@@ -9,7 +9,7 @@ Requirements:
 - Install Git
 - Restart Windows (Optional but recommended)
 
-Regarding Node Version, The wekan source requires **v0.10**, Tested versions for this note were as below even though it's optional,
+Regarding Node Version, The wekan source requires at least**v0.10**, Tested versions for this note were as below even though it's optional, meteor should take care of all nodejs based dependency related issues.
 
 ![](https://i.imgur.com/w83BFBI.png)
 
