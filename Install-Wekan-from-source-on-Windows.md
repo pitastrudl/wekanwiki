@@ -58,6 +58,4 @@ meteor
 # FAQ
 
 ### I am getting `Error: Cannot find module 'fibers'` related problem.
-Make sure to run `meteor` instead of `node`. Regarding Node Version, The wekan source requires at least *v0.10*, Tested versions for this note were as below even though it's optional, meteor would take care of all nodejs based dependency related issues.
-
-![](https://i.imgur.com/w83BFBI.png)
+Make sure to run the command `meteor` instead of `node`.
