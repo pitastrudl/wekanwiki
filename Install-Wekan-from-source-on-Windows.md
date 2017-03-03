@@ -7,7 +7,7 @@ Requirements:
 - Install Git
 - Restart Windows (Optional but recommended)
 
-Regarding Node Version, Tested versions for this note were, It's reported that version 0.10 works too. 
+Regarding Node Version, Tested versions for this note were as below, It's reported that version 0.10 works too. 
 
 ![](https://i.imgur.com/w83BFBI.png)
 
