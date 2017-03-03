@@ -9,7 +9,7 @@ Requirements:
 - Install Git
 - Restart Windows (Optional but recommended)
 
-Regarding Node Version, Tested versions for this note were as below,
+Regarding Node Version, The wekan source requires **v0.10**, Tested versions for this note were as below even though it's optional,
 
 ![](https://i.imgur.com/w83BFBI.png)
 
