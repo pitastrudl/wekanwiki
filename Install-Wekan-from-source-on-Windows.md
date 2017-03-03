@@ -8,6 +8,7 @@ Requirements:
 - Restart Windows (Optional but recommended)
 
 Regarding Node Version, Tested versions for this note were, It's reported that version 0.10 works too. 
+
 ![](https://i.imgur.com/w83BFBI.png)
 
 From this point, use Git bash to run commands to make sure everything works as is, but if you had trouble accessing meteor or npm commands via Git bash, windows CMD will most likely work without any problem.
