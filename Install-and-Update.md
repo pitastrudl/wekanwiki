@@ -40,7 +40,7 @@ There are three options:
 
 ## Bash Install Script
 
-You can find a bash installation script at https://github.com/anselal/wekan
+You can find a bash installation script at https://github.com/wekan/wekan-autoinstall
 
 ## Manual Installation Steps
 
