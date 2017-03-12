@@ -103,7 +103,7 @@ If you haven't already, you need to install Node.js, given that we need node ver
 
 ### Install MongoDB
 
-_Note: Installing MongoDB version 3.2.11. This is because 3.4.1 released 2016-12-20 broke something so uploading images did not work, see:
+_Note: Installing MongoDB version 3.2.x. This is because 3.4.1 released 2016-12-20 broke something so uploading images did not work, see:
 https://github.com/wefork/wekan/issues/58_
 
 ```bash
@@ -270,7 +270,7 @@ Checkout instructions for setup with [[Caddy Webserver Config]] and [[Nginx Webs
 
 If you installed Wekan via Docker, you'll have one Docker container for the database and one container for the application. You'll need to stop the old application container, replace it by the new one and start it again.
 
-If you have newer Mongo version, you need to backup your MongoDB data (as shown here: [[Export Mongo Data|Export-Docker-Mongo-Data]]) and use similar commands as below to replace your Mongo container with version 3.2.11, and then restore data.
+If you have newer Mongo version, you need to backup your MongoDB data (as shown here: [[Export Mongo Data|Export-Docker-Mongo-Data]]) and use similar commands as below to replace your Mongo container with version 3.2.x, and then restore data.
 
 See running containers:
 ```sh
