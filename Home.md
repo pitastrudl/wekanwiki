@@ -10,7 +10,6 @@ Wekan is distributed under the [MIT License], allowing anyone to easily work wit
 ## Getting started
 There are various ways to get started with Wekan:
 
-* you can dive right in and try it out on the [Wekan website demo], 
 * you can use the [Sandstorm app demo], 
 * you could [[install|Install-and-Update]] it right away on your own server, or
 * you could look through our [[contributing guidelines|Developer Documentation]]  to get involved in the project.
@@ -21,5 +20,4 @@ If you still have questions, check out the [[FAQ]]!
 [workflowy]: https://workflowy.com
 [trello]: https://trello.com
 [mit license]: https://github.com/wekan/wekan/blob/master/LICENSE
-[wekan website demo]: http://newui.libreboard.com
 [sandstorm app demo]: https://demo.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h
