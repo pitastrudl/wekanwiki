@@ -171,7 +171,7 @@ npm install
 cd ~/repos
 ```
 
-#### Run Wefork manually (if you've built for production)
+#### Run Wekan manually (if you've built for production)
 
 Add to ~/repos/run-wekan.sh
 
