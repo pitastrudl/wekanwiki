@@ -46,7 +46,7 @@ You can find a bash installation script at https://github.com/wekan/wekan-autoin
 
 ### Install Node.js
 
-Make sure Node.js is installed (currently Version 0.10.40 is required). If you don't have this version, you can use the [node packages][node-packages].
+Make sure Node.js is installed (currently Version 0.10.48 is required). If you don't have this version, you can use the [node packages][node-packages].
 
 ### Install MongoDB
 In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website][mongodb-website] how to install it.
