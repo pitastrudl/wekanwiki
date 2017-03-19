@@ -145,9 +145,9 @@ sudo apt install build-essential nodejs nodejs-legacy npm git curl
 sudo npm install n 
 ## if the previous fails (and asks you to run as sudo) just rm /home/<username>/node_modules and retry
 sudo n 0.10.48
-sudo npm install npm@latest
-sudo npm install node-gyp
-sudo npm install fibers
+sudo npm -g install npm@latest
+sudo npm -g install node-gyp
+sudo npm -g install fibers
 
 # install wekan npm dependancies
 npm install
