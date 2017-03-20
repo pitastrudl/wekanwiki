@@ -11,9 +11,9 @@ At first step set the SMTP-Password variable. Replace the `$1` with the password
 
 # Option 2:
 Or you can run it automatically.
-* Save it as script (`nano install_wekan.sh`).
-* Make it executable (`chmod u+x install_wekan.sh`) 
-* And run it. Pass the SMTP-Password as command line parameter (`./install_wekan.sh smtp_password`). 
+* Save it as script `nano install_wekan.sh`.
+* Make it executable `chmod u+x install_wekan.sh` 
+* And run it. Pass the SMTP-Password as command line parameter `./install_wekan.sh smtp_password`. 
 
 ## ./install_wekan.sh
 ```
