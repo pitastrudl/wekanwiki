@@ -138,7 +138,17 @@ uberspace-setup-service wekan ~/etc/wekan-start
 
 echo -e "\n  Login: ${ROOT_URL} \n\n"
 ```
-## Uninstall Wekan
+
+# Control Wekan Service
+Basic control of the Wekan service:
+* Stop the service: `svc -d ~/service/wekan`
+* Start the service: `svc -u ~/service/wekan`
+* Keep an eye on the log while running the service: `tailf ~/service/wekan/log/main/current`
+
+More about [daemontools](https://cr.yp.to/daemontools/faq/create.html).
+
+
+# Uninstall Wekan
 To remove Wekan from your uberspace you have to do the following steps.
 * Stop and remove the service. 
 `uberspace-remove-service -s weaken`
