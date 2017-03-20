@@ -138,3 +138,16 @@ uberspace-setup-service wekan ~/etc/wekan-start
 
 echo -e "\n  Login: ${ROOT_URL} \n\n"
 ```
+## Uninstall Wekan
+To remove Wekan from your uberspace you have to do the following steps.
+* Stop and remove the service. 
+`uberspace-remove-service -s weaken`
+* Remove the complete data. 
+```
+mongo admin --port $MONGO_PORT -u $MONGO_USER -p $MONGO_PASS
+use wekan
+db.dropDatabase()
+exit
+```
+* Remove the installation. 
+`rm -Rf ~/wekan/ ~/etc/wekan-*`
