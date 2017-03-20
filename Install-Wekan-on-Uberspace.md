@@ -1,4 +1,4 @@
-**Purpose**: Install Wekan on [Uberspace](https://uberspace.de/) and run as daemontools service.
+**Purpose**: Install Wekan on [Uberspace](https://uberspace.de/) and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service.
 
 # Option 1:
 You can run the commands of the following script step-by-step in the shell. 
