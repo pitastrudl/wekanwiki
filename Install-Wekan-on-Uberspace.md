@@ -111,7 +111,6 @@ __EOF__
 cat <<__EOF__ >> ~/etc/wekan-start
 #!/bin/bash
 source ~/etc/wekan-setup
-#exec node ~/wekan/bundle/main.js
 node ~/wekan/bundle/main.js
 __EOF__
 
