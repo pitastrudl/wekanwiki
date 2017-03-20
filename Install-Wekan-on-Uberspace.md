@@ -1,8 +1,13 @@
-Purpose: Install Wekan on [Uberspace](https://uberspace.de/) (in userspace on CentOS) and run as daemontools service.
+**Purpose**: Install Wekan on [Uberspace](https://uberspace.de/) (in userspace on CentOS) and run as daemontools service.
 
-You can run the commands in the following script step-by-step and set SMTP-Password manually. 
+# Option 1:
+You can run the commands of the following script step-by-step in the shell. At first step set the SMTP-Password VAR `SMTP_PASS="smtp_password"`. 
 
-Or save it as script (`nano install_wekan.sh`), make it executable (`chmod u+x install_wekan.sh`) and pass the SMTP-Password as command line parameter  (`./install_wekan.sh smtp_password`).
+# Option 2:
+Or...
+* save it as script (`nano install_wekan.sh`), 
+* make it executable (`chmod u+x install_wekan.sh`) and 
+* pass the SMTP-Password as command line parameter (`./install_wekan.sh smtp_password`).
 
 ```
 #!/bin/sh
@@ -127,5 +132,3 @@ uberspace-setup-service wekan ~/etc/wekan-start
 
 echo -e "\n  Login: ${ROOT_URL} \n\n"
 ```
-
-
