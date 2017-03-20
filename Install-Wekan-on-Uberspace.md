@@ -16,7 +16,7 @@ Or you can run it automatically.
 ## Usage: ./install_wekan.sh SMTP-password
 ##
 ## Draft
-## Install Wekan (v0.10.1 – v0.16) on Uberspace by Noodle
+## Install Wekan (v0.10.1 – v0.16) on Uberspace by Noodle / Chris
 ## 
 ## Sources: 
 ## https://github.com/wekan/wekan/wiki/Install-and-Update#manual-installation-steps
