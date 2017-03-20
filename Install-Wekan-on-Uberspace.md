@@ -10,6 +10,7 @@ Or you can run it automatically.
 * Make it executable (`chmod u+x install_wekan.sh`) 
 * Pass the SMTP-Password as command line parameter (`./install_wekan.sh smtp_password`). 
 
+## ./install_wekan.sh
 ```
 #!/bin/sh
 ## 
