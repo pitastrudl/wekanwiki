@@ -1,14 +1,19 @@
 **Purpose**: Install Wekan on [Uberspace](https://uberspace.de/) and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service.
 
+This script installs Wekan on a fresh Uberspace. It setup Node 0.10, MongoDB, a Port, installs Wekan and starts it as a Service. It doesn't require root. 
+
+You have two Options how to use it.
+
 # Option 1:
 You can run the commands of the following script step-by-step in the shell. 
-At first step set the SMTP-Password variable. Replace the $1 with the password `SMTP_PASS="smtp_password"` and continue.
+
+At first step set the SMTP-Password variable. Replace the `$1` with the password in that way `SMTP_PASS="smtp_password"` and continue line-by-line.
 
 # Option 2:
 Or you can run it automatically.
 * Save it as script (`nano install_wekan.sh`).
 * Make it executable (`chmod u+x install_wekan.sh`) 
-* Pass the SMTP-Password as command line parameter (`./install_wekan.sh smtp_password`). 
+* And run it. Pass the SMTP-Password as command line parameter (`./install_wekan.sh smtp_password`). 
 
 ## ./install_wekan.sh
 ```
