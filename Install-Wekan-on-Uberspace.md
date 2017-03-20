@@ -106,7 +106,7 @@ cd ~
 ### Setup Service ###
 #####################
 
-cat <<__EOF__ >> ~/etc/wekan-setup
+cat <<__EOF__ > ~/etc/wekan-setup
 #!/bin/bash
 export MONGO_URL=${MONGO_URL}
 export ROOT_URL=${ROOT_URL}
@@ -115,7 +115,7 @@ export MAIL_FROM=${MAIL_FROM}
 export PORT=${PORT}
 __EOF__
 
-cat <<__EOF__ >> ~/etc/wekan-start
+cat <<__EOF__ > ~/etc/wekan-start
 #!/bin/bash
 source ~/etc/wekan-setup
 node ~/wekan/bundle/main.js
