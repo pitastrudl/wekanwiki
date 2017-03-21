@@ -2,7 +2,7 @@
 
 This script installs Wekan on a fresh Uberspace. It setup Node 0.10, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.16, 0.13, 0.12, 0.10.1. 
 
-You have two Options how to use it.
+You have two Options to use it.
 
 # Option 1:
 You can run the commands of the following script step-by-step in the shell. 
