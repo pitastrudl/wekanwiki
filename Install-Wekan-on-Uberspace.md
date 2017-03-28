@@ -151,7 +151,7 @@ More about [daemontools](https://cr.yp.to/daemontools/faq/create.html).
 # Uninstall Wekan
 To remove Wekan from your uberspace you have to do the following steps.
 * Stop and remove the service. 
-`uberspace-remove-service -s weaken`
+`uberspace-remove-service -s wekan`
 * Remove the complete data. 
 ```
 mongo admin --port $MONGO_PORT -u $MONGO_USER -p $MONGO_PASS
