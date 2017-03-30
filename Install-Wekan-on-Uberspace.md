@@ -94,8 +94,8 @@ echo -e "MONGO_URL: ${MONGO_URL} \nPORT: ${PORT} \nROOT_URL: ${ROOT_URL} \nMAIL_
 
 mkdir ~/wekan && cd ~/wekan
 
-# Tested versions 0.16  0.13  0.12  0.10.1
-WEKAN_VERSION=0.16
+# Tested versions 0.17  0.16  0.13  0.12  0.10.1
+WEKAN_VERSION=0.17
 curl -OL https://github.com/wekan/wekan/releases/download/v${WEKAN_VERSION}/wekan-${WEKAN_VERSION}.tar.gz && tar xzf wekan-${WEKAN_VERSION}.tar.gz && rm wekan-${WEKAN_VERSION}.tar.gz
 
 cd ~/wekan/bundle/programs/server && npm install
