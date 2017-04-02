@@ -25,7 +25,9 @@ Note: Not all are available at Sandstorm yet.
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [Calendar view](https://github.com/wekan/wekan/issues/808)
-* Vote on cards
+* [Vote on cards, number of votes, average](https://github.com/wekan/wekan/issues/796)
 * Move cards to another board and board templates
 
-Also see [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
+# More
+
+[Integrations](https://github.com/wekan/wekan/wiki/Integrations)
