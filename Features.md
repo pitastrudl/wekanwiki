@@ -2,8 +2,8 @@
 
 Note: Not all are available at Sandstorm yet.
 
-* Import from Trello (Not on Sandstorm)
-* On Sandstorm: LDAP, passwordless email, SAML, GitHub and Google Auth
+* Import from Trello (Not on Sandstorm yet)
+* Sandstorm: LDAP, passwordless email, SAML, GitHub and Google Auth
 * Checklists
 * Card comments
 * Member assignations to board
@@ -21,9 +21,10 @@ Note: Not all are available at Sandstorm yet.
 * Managing website
 * Rocket.Chat support
 * Custom apps with themes
-* Teams/Organizations
-* APIs
-* Custom fields
+* [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
+* [REST API](https://github.com/wekan/wekan/issues/166)
+* [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
+* [Custom fields](https://github.com/wekan/wekan/issues/807)
 * Calendar view
 * Time tracking
 * Vote on cards
