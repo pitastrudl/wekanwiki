@@ -17,7 +17,7 @@ Note: Not all are available at Sandstorm yet.
 * Dependencies
 * Gantt charts
 * WIP limits
-* Time tracking
+* [Timesheet/Time tracking](https://github.com/wekan/wekan/issues/812)
 * Managing website
 * [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
 * [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
