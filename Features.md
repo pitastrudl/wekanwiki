@@ -29,6 +29,7 @@ Note: Not all are available at Sandstorm yet.
 * [Timesheet/Time tracking](https://github.com/wekan/wekan/issues/812)
 * Managing website
 * [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
+* [Same cards, multiple column sets](https://github.com/wekan/wekan/issues/211), related to [Themes](https://github.com/wekan/wekan/issues/781)
 * [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
 * [REST API](https://github.com/wekan/wekan/issues/166)
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
