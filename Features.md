@@ -13,6 +13,13 @@ Note: Not all are available at Sandstorm yet.
 
 # Upcoming
 
+### Existing pull requests, cleanup/cherry-picking/new pull request welcome
+
+* [Export/Import Excel TSV/CSV data](https://github.com/wekan/wekan/pull/413)
+* [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446)
+
+### Plans
+
 * Kanban workflows
 * [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies.
 * Gantt charts
@@ -26,7 +33,8 @@ Note: Not all are available at Sandstorm yet.
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [Calendar view](https://github.com/wekan/wekan/issues/808)
 * [Vote on cards, number of votes, average](https://github.com/wekan/wekan/issues/796)
-* Move cards to another board and board templates
+* [Board templates](https://github.com/wekan/wekan/issues/786)
+* [Checklist templates](https://github.com/wekan/wekan/issues/904)
 
 # More
 
