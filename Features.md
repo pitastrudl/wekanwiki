@@ -17,6 +17,7 @@ Note: Not all are available at Sandstorm yet.
 
 * [Export/Import Excel TSV/CSV data](https://github.com/wekan/wekan/pull/413)
 * [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446)
+* [Meteor 1.4/Node v4 Upgrade](https://github.com/wekan/wekan/pull/957)
 
 ### Plans
 
@@ -35,6 +36,7 @@ Note: Not all are available at Sandstorm yet.
 * [Vote on cards, number of votes, average](https://github.com/wekan/wekan/issues/796)
 * [Board templates](https://github.com/wekan/wekan/issues/786)
 * [Checklist templates](https://github.com/wekan/wekan/issues/904)
+* [Import/Integrate Taskwarrior tasks](https://github.com/wekan/wekan/issues/827)
 
 # More
 
