@@ -22,18 +22,19 @@ Note: Not all are available at Sandstorm yet.
 
 ### Plans
 
+* [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
+* [Custom fields](https://github.com/wekan/wekan/issues/807)
+* [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
+* [REST API](https://github.com/wekan/wekan/issues/166)
+* [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
+* [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies. 
+* [Top Level Projects](https://github.com/wekan/wekan/issues/641)
 * Kanban workflows
-* [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies.
 * Gantt charts
 * [WIP limits](https://github.com/wekan/wekan/issues/783)
 * [Timesheet/Time tracking](https://github.com/wekan/wekan/issues/812)
 * Managing website
-* [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
 * [Same cards, multiple column sets](https://github.com/wekan/wekan/issues/211), related to [Themes](https://github.com/wekan/wekan/issues/781)
-* [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
-* [REST API](https://github.com/wekan/wekan/issues/166)
-* [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
-* [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [Calendar view](https://github.com/wekan/wekan/issues/808)
 * [Vote on cards, number of votes, average](https://github.com/wekan/wekan/issues/796)
 * [Board templates](https://github.com/wekan/wekan/issues/786)
