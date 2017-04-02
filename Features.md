@@ -20,7 +20,7 @@ Note: Not all are available at Sandstorm yet.
 * Time tracking
 * Managing website
 * Rocket.Chat support
-* Custom apps with themes
+* [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
 * [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
 * [REST API](https://github.com/wekan/wekan/issues/166)
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
