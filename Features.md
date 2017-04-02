@@ -25,7 +25,7 @@ Note: Not all are available at Sandstorm yet.
 * Kanban workflows
 * [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies.
 * Gantt charts
-* WIP limits
+* [WIP limits](https://github.com/wekan/wekan/issues/783)
 * [Timesheet/Time tracking](https://github.com/wekan/wekan/issues/812)
 * Managing website
 * [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
