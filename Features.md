@@ -22,6 +22,7 @@ Note: Not all are available at Sandstorm yet.
 
 ### Plans
 
+* [Add Feature to Admin Panel: SMTP test, show possible errors on that test webpage](https://github.com/wekan/wekan/issues/949)
 * [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
