@@ -24,7 +24,7 @@ Note: Not all are available at Sandstorm yet.
 * [REST API](https://github.com/wekan/wekan/issues/166)
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
-* Calendar view
+* [Calendar view](https://github.com/wekan/wekan/issues/808)
 * Time tracking
 * Vote on cards
 * Move cards to another board and board templates
