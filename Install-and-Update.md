@@ -135,6 +135,8 @@ sudo ln -s ~/repos/meteor/meteor /usr/local/bin/meteor
 # Download Wekan
 git clone https://github.com/wekan/wekan
 cd wekan
+git submodule init
+git submodule update
 
 #### OPTIONAL: test pull request
 ## git checkout -b dwrensha-profile-bugfix devel
