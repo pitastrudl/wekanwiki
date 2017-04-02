@@ -19,3 +19,7 @@ Jira: Replace it with Wekan, plan at [Themes](https://github.com/wekan/wekan/iss
 [Authentication: Google/GitHub/OAuth](https://github.com/wekan/wekan/issues/234)
 
 [LDAP](https://github.com/wekan/wekan/issues/119)
+
+# More
+
+[Integrations](https://github.com/wekan/wekan/wiki/Integrations)
