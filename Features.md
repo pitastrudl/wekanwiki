@@ -26,10 +26,10 @@ Note: Not all are available at Sandstorm yet.
 
 ### Plans
 
-* [Add Feature to Admin Panel: SMTP test, show possible errors on that test webpage](https://github.com/wekan/wekan/issues/949)
-* [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
+* Admin Panel: [SMTP test, show possible errors on that test webpage](https://github.com/wekan/wekan/issues/949)
+* Admin Panel: [Teams/Organizations](https://github.com/wekan/wekan/issues/802) including Add/Modify/Remove Teams/Users/Passwords and Private/Public Team settings
+* Admin Panel: [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
-* [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
 * [REST API](https://github.com/wekan/wekan/issues/166)
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
 * [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies. 
