@@ -19,7 +19,6 @@ Note: Not all are available at Sandstorm yet.
 * WIP limits
 * Time tracking
 * Managing website
-* Rocket.Chat support
 * [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
 * [Teams/Organizations](https://github.com/wekan/wekan/issues/802)
 * [REST API](https://github.com/wekan/wekan/issues/166)
@@ -29,3 +28,5 @@ Note: Not all are available at Sandstorm yet.
 * Time tracking
 * Vote on cards
 * Move cards to another board and board templates
+
+Note: Also see [Integrations]
