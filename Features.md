@@ -24,14 +24,20 @@ Note: Not all are available at Sandstorm yet.
 * [Upgrade to Meteor 1.4](https://github.com/wekan/wekan/pull/957), also see [Node v4 support](https://github.com/wekan/wekan/issues/788)
 * [Replace CollectionFS with meteor-file-collection](https://github.com/wekan/wekan/pull/875)
 
-### Plans
+### Plans for API
 
-* Admin Panel: [SMTP test, show possible errors on that test webpage](https://github.com/wekan/wekan/issues/949)
-* Admin Panel: [Teams/Organizations](https://github.com/wekan/wekan/issues/802) including Add/Modify/Remove Teams/Users/Passwords and Private/Public Team settings
-* Admin Panel: [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
-* [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [REST API](https://github.com/wekan/wekan/issues/166)
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
+
+### Plans for Admin Panel
+
+* [SMTP test, show possible errors on that test webpage](https://github.com/wekan/wekan/issues/949)
+* [Teams/Organizations](https://github.com/wekan/wekan/issues/802) including Add/Modify/Remove Teams/Users/Passwords and Private/Public Team settings
+* [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
+
+### Plans for Boards
+
+* [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies. 
 * [Top Level Projects](https://github.com/wekan/wekan/issues/641)
 * [Swimlanes (rows)](https://github.com/wekan/wekan/issues/955)
@@ -45,7 +51,6 @@ Note: Not all are available at Sandstorm yet.
 * [Vote on cards, number of votes, average](https://github.com/wekan/wekan/issues/796)
 * [Board templates](https://github.com/wekan/wekan/issues/786)
 * [Checklist templates](https://github.com/wekan/wekan/issues/904)
-* [Import/Integrate Taskwarrior tasks](https://github.com/wekan/wekan/issues/827)
 
 # More
 
