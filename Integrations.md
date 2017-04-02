@@ -22,4 +22,4 @@ Jira: Replace it with Wekan, plan at [Themes](https://github.com/wekan/wekan/iss
 
 # More
 
-[Integrations](https://github.com/wekan/wekan/wiki/Integrations)
+[Features](https://github.com/wekan/wekan/wiki/Features)
