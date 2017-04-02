@@ -17,7 +17,7 @@ Note: Not all are available at Sandstorm yet.
 
 * [Export/Import Excel TSV/CSV data](https://github.com/wekan/wekan/pull/413)
 * [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446)
-* [Meteor 1.4/Node v4 Upgrade](https://github.com/wekan/wekan/pull/957)
+* [Upgrade to Meteor 1.4](https://github.com/wekan/wekan/pull/957), also see [Node v4 support](https://github.com/wekan/wekan/issues/788)
 
 ### Plans
 
