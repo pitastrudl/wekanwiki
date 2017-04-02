@@ -14,7 +14,7 @@ Note: Not all are available at Sandstorm yet.
 # Upcoming
 
 * Kanban workflows
-* Dependencies
+* [Children/Related cards],(https://github.com/wekan/wekan/issues/709), subtasks. Is this same as Dependencies ?
 * Gantt charts
 * WIP limits
 * [Timesheet/Time tracking](https://github.com/wekan/wekan/issues/812)
