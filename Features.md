@@ -9,7 +9,11 @@ Note: Not all are available at Sandstorm yet.
 * Member assignations to board
 * Customizable labels
 * Filtered views
-* Admin Panel
+* [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): SMTP Settings, Registration to invite-only and inviting users to boards
+
+# Already merged, will be at next version
+
+* [Changelog](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
 
 # Upcoming
 
