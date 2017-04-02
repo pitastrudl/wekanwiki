@@ -29,4 +29,4 @@ Note: Not all are available at Sandstorm yet.
 * Vote on cards
 * Move cards to another board and board templates
 
-Note: Also see [Integrations]
+Also see [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
