@@ -1,8 +1,8 @@
-# Current Wekan Integrations
+# Current
 
 [PostgreSQL](https://github.com/wekan/wekan-postgresql)
 
-# Upcoming Wekan Integrations
+# Upcoming
 
 [Rocket.Chat](https://github.com/wekan/wekan/issues/803)
 
