@@ -29,7 +29,6 @@
 ## Authentication
 
 Most are these are already available at [Sandstorm](https://sandstorm.io).
-
 Following are for Source/Docker installs.
 
 * [Google/GitHub/OAuth](https://github.com/wekan/wekan/issues/234)
