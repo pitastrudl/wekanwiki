@@ -37,6 +37,7 @@ Note: Not all are available at Sandstorm yet.
 
 ### Plans for Boards
 
+* [International Date Formatting for Due Date](https://github.com/wekan/wekan/issues/838)
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies. 
 * [Top Level Projects](https://github.com/wekan/wekan/issues/641)
