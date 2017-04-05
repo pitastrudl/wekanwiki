@@ -2,6 +2,9 @@
 
 [Download file(unicode filename) action cause server process crashed with exception](https://github.com/wekan/wekan/issues/784)
 
-[Errors on Ubuntu 14.04. Add support for it.](https://github.com/wekan/wekan/issues/978)
+# Platforms
 
-[Errors on Windows. Add support for it.](https://github.com/wekan/wekan/issues/977)
+Support will be added after upgrading to Meteor 1.4 and Node v4.
+
+* [Ubuntu 14.04](https://github.com/wekan/wekan/issues/978)
+* [Windows](https://github.com/wekan/wekan/issues/977)
