@@ -2,10 +2,13 @@
 
 * Source-based platforms
 * [Sandstorm](https://sandstorm.io)
+* Meteor 1.4 and Node v4 port on Docker
 
-# Fixing in progress
+```
+docker run -d --restart=always --name wekan-db mongo:3.4.3
 
-* Docker
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
+```
 
 # Upcoming
 
