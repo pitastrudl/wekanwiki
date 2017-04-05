@@ -144,7 +144,7 @@ git submodule update
 
 # Install Node.js 0.10.48
 sudo apt install build-essential nodejs nodejs-legacy npm git curl
-sudo npm install n 
+sudo npm -g install n 
 ## if the previous fails (and asks you to run as sudo) just rm /home/<username>/node_modules and retry
 sudo n 0.10.48
 sudo npm -g install npm@latest
