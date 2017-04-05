@@ -33,6 +33,9 @@ For instructions how to install Sandstorm, check out the [guide][sandstorm-guide
 ## Install manually (Releases)
 This is the best option currently if you want to get Wekan running with as few tools as possible. 
 
+**Heads up:**
+For now this works not on Ubuntu 14.04. You need 16.04 (It needs newer libstdc++ version)
+
 There are three options:
  * [Bash Install Script](#bash-install-script)
  * [Virtual Appliance](virtual-appliance)
