@@ -20,8 +20,7 @@ Note: Not all are available at Sandstorm yet.
 ### Existing pull requests, cleanup/cherry-picking/new pull request welcome
 
 * [Export/Import Excel TSV/CSV data](https://github.com/wekan/wekan/pull/413)
-* [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446)
-* [Move or copy cards from one board to another](https://github.com/wekan/wekan/issues/797)
+* [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446) and [Move or copy cards from one board to another](https://github.com/wekan/wekan/issues/797)
 * [Upgrade to Meteor 1.4](https://github.com/wekan/wekan/pull/957), also see [Node v4 support](https://github.com/wekan/wekan/issues/788)
 * [Replace CollectionFS with meteor-file-collection](https://github.com/wekan/wekan/pull/875)
 
