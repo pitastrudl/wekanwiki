@@ -2,6 +2,7 @@
 
 * Source-based platforms
 * [Sandstorm](https://sandstorm.io)
+* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * Meteor 1.4 and Node v4 port on Docker
 
 ```
