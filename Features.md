@@ -10,6 +10,7 @@ Note: Not all are available at Sandstorm yet.
 * Customizable labels
 * Filtered views
 * [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): SMTP Settings, Registration to invite-only and inviting users to boards
+* Upgraded to [Meteor 1.4](https://github.com/wekan/wekan/pull/957) and [Node v4](https://github.com/wekan/wekan/issues/788) on [meteor-1.4 branch](https://github.com/wekan/wekan/tree/meteor-1.4)
 
 # Already merged, will be at next version
 
@@ -21,7 +22,6 @@ Note: Not all are available at Sandstorm yet.
 
 * [Export/Import Excel TSV/CSV data](https://github.com/wekan/wekan/pull/413)
 * [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446) and [Move or copy cards from one board to another](https://github.com/wekan/wekan/issues/797)
-* [Upgrade to Meteor 1.4](https://github.com/wekan/wekan/pull/957), also see [Node v4 support](https://github.com/wekan/wekan/issues/788)
 * [Replace CollectionFS with meteor-file-collection](https://github.com/wekan/wekan/pull/875)
 
 ### Plans for API
