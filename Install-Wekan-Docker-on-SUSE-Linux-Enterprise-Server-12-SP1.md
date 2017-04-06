@@ -54,9 +54,9 @@ reboot
 7) As normal user (examples: ec2-user, virtual) (root works still too), install MongoDB and Wekan, you can change 8080 to be another port:
 
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.11
+docker run -d --restart=always --name wekan-db mongo:3.4.3
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 mquandalle/wekan:latest
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
 ```
 
 8) Now Wekan is available at http://ip-address:port , for example: http://192.168.100.50:8080 . Wekan starts at boot, and restarts on error conditions.
