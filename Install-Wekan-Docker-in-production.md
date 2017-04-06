@@ -13,7 +13,7 @@
 
 ```yaml
 wekan:
-  image: mquandalle/wekan
+  image: wekanteam/wekan:meteor-1.4
   links:
     - wekandb
   environment:
@@ -35,7 +35,7 @@ wekandb:
 **Note:** to start the wekan containers automatically on boot, use the `restart: always` policy on both containers. e.g.
   ```
   wekan:
-    image: mquandalle/wekan
+    image: wekanteam/wekan:meteor-1.4
     restart: always
     ...
 
