@@ -1,5 +1,7 @@
 This page is in progress, more will be added later.
 
+Every team member chooses freely what to contribute and when. If pull request works, it's very likely to be merged by xet7.
+
 # Current
 
 GitHub Username | Chat Username | Location | Position | Details
