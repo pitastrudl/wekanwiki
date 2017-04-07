@@ -2,9 +2,9 @@ This page is in progress, more team members will be added later.
 
 Wekan is NOT:
 
+* Not a Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
 * Not a Product: There are missing features.
 * Not a Startup: We have zero budget. We have no exit plan. We have no investors.
-* Not a Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
 * Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
 Wekan is:
