@@ -1,11 +1,11 @@
 This page is in progress, more team members will be added later.
 
-For [Trolls offering their "constructive criticism"](https://github.com/wekan/wekan/issues/175), Wekan is NOT:
+Wekan is NOT:
 
-* Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
-* Startup: We have zero budget. We have no exit plan. We have no investors.
-* Product: There are missing features.
-* Having departments: There is no hired marketing team/hired development team/hired QA team
+* Not a Product: There are missing features.
+* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
+* Not a Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
+* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
 Wekan is:
 
