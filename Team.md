@@ -1,7 +1,14 @@
 This page is in progress, more team members will be added later.
 
-* Wekan is [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
-* Wekan is not not a product, or in any way finished. There are missing features. 
+For [Trolls offering their "constructive criticism"](https://github.com/wekan/wekan/issues/175), Wekan is NOT:
+
+* Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
+* Startup: We have zero budget. We have no exit plan. We have no investors.
+* Product: There are missing features.
+* Having departments: There is no hired marketing team/hired development team/hired QA team
+
+Wekan is:
+
 * Wekan team is small. There is no benevolent dictator.
 * Every Wekan team member is free to choose what to contribute and when.
   We can not force anybody to implement anything.
@@ -12,10 +19,6 @@ This page is in progress, more team members will be added later.
   It just means that nobody has needed that feature so much to even try to implement 
   it themselves and submit pull request, or find some depeloper and pay him/her to 
   implement it and submit pull request.
-* Wekan is used by some big companies that employ 1000+ people and have some
-  developer working to add features to Wekan.
-* We have no stats what features of Wekan is done at free time of developers, and what
-  feature was originally paid by some work to clients.
 
 # Current
 
