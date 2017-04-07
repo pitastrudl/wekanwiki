@@ -15,4 +15,4 @@ GitHub Username | Chat Username | Location | Position | Details
 
 GitHub Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------
-mquandalle | France | Author | xet7 still has direct contact with him
+[mquandalle](https://github.com/mquandalle) | France | Author | xet7 still has direct contact with him
