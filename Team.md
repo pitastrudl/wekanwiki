@@ -4,7 +4,7 @@ This page is in progress, more will be added later.
 
 GitHub Username | Chat Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------ | ------------
-[xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Testing and merging pull requests, organizing issues, updating wiki and website, small features
+[xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Source and Docker releases, testing and merging pull requests, organizing issues, updating wiki and website, small features
 [lkisme](https://github.com/lkisme) | - | China | Contributor | Admin Panel
 [rhelsing](https://github.com/rhelsing) | - | USA | Contributor | Comment permissions
 [shtefcs](https://github.com/shtefcs) | kinder | Universe | [Vanila](https://vanila.io) Founder | [Chat](https://chat.vanila.io/channel/wekan), growth hacking
