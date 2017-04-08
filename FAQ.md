@@ -5,7 +5,7 @@
 * You want a feature, but you add thumbs down emoji reactions
 * You are adding image reactions
 * You want priorities changed (we don't have priorities)
-* You are providing contructive criticism
+* You are providing constructive criticism
 * You think that free software includes free implemented features
 * You are adding something other than:
   * Thumbs up reactions to existing posts
