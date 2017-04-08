@@ -1,28 +1,6 @@
 > **»The only stupid question is the one that is not asked.«**  
 > *– Hull, E., K. Jackson, et al. (2005).*
 
-## What Wekan is not?
-
-* Not a Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
-* Not a Product: There are missing features.
-* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
-* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
-
-## Why am I called a troll?
-You want a feature, but you add thumbs down emoji reactions. You are adding image reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features. You are adding something other thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
-
-## Why am I called a spammer?
-You are adding new comments that have only content like "+1", "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan". You are adding something other than thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
-
-## What you should do if you see a troll or a spammer?
-Add only one link to this FAQ. Do not in any way comment or feed the trolls.
-
-## Will my feature request be implemented?
-Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
-
-## Do you accept sponsors to pay for features?
-Yes. But there have been no monetary sponsors yet at least for me, xet7, and I don't know about others.
-
 ## What is Wekan?
 As already explained in detail in our [Readme][], Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists.
 
@@ -32,6 +10,26 @@ As already explained in detail in our [Readme][], Wekan is an open-source _[kanb
 ## What is Wekan Team?
 Wekan team is small amount of contributors from around the world donating their free time, servers etc. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
+## What is Sandstorm?
+[Sandstorm](https://sandstorm.io) is a security audited platform with grains, logging, admin settings, server
+clustering and App Market. App Market has Wekan as installable App. SSO options like LDAP, passwordless email, SAML, GitHub and Google Auth are already available on Sandstorm. Sandstorm is preferred platform for Wekan, as it would take a lot of work to reimplement everything in standalone Wekan. 
+
+## What Wekan is not?
+
+* Not a Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). 
+* Not a Product: There are missing features.
+* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
+* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
+
+## How can I contribute to Wekan?
+We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan. You can also sponsor a feature. We don't have any sponsors yet.
+
+## How can you contribute to Sandstorm?
+See [Sandstorm website](https://sandstorm.io) and [retuning to Open Source community roots, including donation info](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots). 
+
+## Will my feature request be implemented?
+Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
+
 ## Will you accept my pull request?
 We totally rely on pull requests for new features and bug fixes. If your pull request works, it's very likely to be accepted by xet7.
 
@@ -39,7 +37,6 @@ We totally rely on pull requests for new features and bug fixes. If your pull re
 There are near to zero tests, because nobody has contributed tests as pull request.
 
 ## Is there a plugin system?
-
 No. It's not possible in web browser to a) Install npm modules inside Docker or b) Install code afterwards on Sandstorm, because application code is read-only and signed. All features in code is built in, and all data related to features is stored on MongoDB.
 
 ## Weren't you called Libreboard before?
@@ -69,5 +66,11 @@ See the related tickets [#92] and [#97] for more information.
 [#92]: https://github.com/wekan/wekan/issues/92
 [#97]: https://github.com/wekan/wekan/issues/97
 
-## How can I contribute to Wekan?
-We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan.
+## Why am I called a troll?
+You want a feature, but you add thumbs down emoji reactions. You are adding image reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features. You are adding something other thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
+
+## Why am I called a spammer?
+You are adding new comments that have only content like "+1", "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan". You are adding something other than thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
+
+## What you should do if you see a troll or a spammer?
+Add only one link to this FAQ. Do not in any way comment or feed the trolls.
