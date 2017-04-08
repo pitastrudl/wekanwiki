@@ -44,15 +44,8 @@ Wekan is an open-source and free software _[kanban board][kanban]_ that lets you
 ## What is Wekan Team?
 [Wekan team](https://github.com/wekan/wekan/wiki/Team) is small amount of contributors from around the world donating their free time and servers. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
-## What is Sandstorm?
-[Sandstorm](https://sandstorm.io) is a open-source and free software security audited platform with grains, logging, admin settings, server
-clustering and App Market. App Market has Wekan as installable App. SSO options like LDAP, passwordless email, SAML, GitHub and Google Auth are already available on Sandstorm. Sandstorm is preferred platform for Wekan, as it would take a lot of work to reimplement everything in standalone Wekan. 
-
 ## How can I contribute to Wekan?
 We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan. You can also sponsor a feature. We don't have any sponsors yet.
-
-## How can you contribute to Sandstorm?
-See [Sandstorm website](https://sandstorm.io) and [retuning to Open Source community roots, including donation info](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots). 
 
 ## Will my feature request be implemented?
 Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
@@ -92,3 +85,12 @@ See the related tickets [#92] and [#97] for more information.
 
 [#92]: https://github.com/wekan/wekan/issues/92
 [#97]: https://github.com/wekan/wekan/issues/97
+
+---
+
+## What is Sandstorm?
+[Sandstorm](https://sandstorm.io) is a open-source and free software security audited platform with grains, logging, admin settings, server
+clustering and App Market. App Market has Wekan as installable App. SSO options like LDAP, passwordless email, SAML, GitHub and Google Auth are already available on Sandstorm. Sandstorm is preferred platform for Wekan, as it would take a lot of work to reimplement everything in standalone Wekan. 
+
+## How can you contribute to Sandstorm?
+See [Sandstorm website](https://sandstorm.io) and [retuning to Open Source community roots, including donation info](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots). 
