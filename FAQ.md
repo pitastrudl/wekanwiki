@@ -87,10 +87,11 @@ See the related tickets [#92] and [#97] for more information.
 [#97]: https://github.com/wekan/wekan/issues/97
 
 ---
+## What Sandstorm is not anymore?
+Not a Company, Not a Startup, Not a Product with Enterprise version. Everything is now Open Source.
 
 ## What is Sandstorm?
-[Sandstorm](https://sandstorm.io) is a open-source and free software security audited platform with grains, logging, admin settings, server
-clustering and App Market. App Market has Wekan as installable App. SSO options like LDAP, passwordless email, SAML, GitHub and Google Auth are already available on Sandstorm. Sandstorm is preferred platform for Wekan, as it would take a lot of work to reimplement everything in standalone Wekan. 
+[Sandstorm](https://sandstorm.io) is a open-source and free software security audited platform with grains, logging, admin settings, server clustering and App Market. App Market has Wekan as installable App. SSO options like LDAP, passwordless email, SAML, GitHub and Google Auth are already available on Sandstorm. Sandstorm is preferred platform for Wekan, as it would take a lot of work to reimplement everything in standalone Wekan. 
 
 ## How can you contribute to Sandstorm?
-See [Sandstorm website](https://sandstorm.io) and [retuning to Open Source community roots, including donation info](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots). 
+See [Sandstorm website](https://sandstorm.io) and [retuning to Open Source community roots, including donation info](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots).
