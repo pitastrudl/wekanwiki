@@ -3,6 +3,7 @@ installs. You can also [enable Admin Panel manually](https://github.com/wekan/we
 
 # Supported
 
+* [One-click install platforms, cleanup and stats scripts at readme](https://github.com/wekan/wekan#supported-platforms)
 * Source-based platforms
 * [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
 * [Autoinstall script][autoinstall]
