@@ -1,24 +1,6 @@
 This page is in progress, more team members will be added later.
 
-Wekan is NOT:
-
-* Not a Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
-* Not a Product: There are missing features.
-* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
-* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
-
-Wekan is:
-
-* Wekan team is small. There is no benevolent dictator.
-* Every Wekan team member is free to choose what to contribute and when.
-  We can not force anybody to implement anything.
-* We totally rely on pull requests for new features and bug fixes. If your pull request
-  works, it's very likely to be accepted by xet7.
-* There are near to zero tests, because nobody has contributed tests as pull request.
-* Being popular feature request does not mean that feature will be implemented.
-  It just means that nobody has needed that feature so much to even try to implement 
-  it themselves and submit pull request, or find some depeloper and pay him/her to 
-  implement it and submit pull request.
+Team members have donated their free time and resources for the project.
 
 # Current
 
