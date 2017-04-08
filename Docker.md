@@ -4,6 +4,20 @@
 * [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
 * [Docker on SLES12SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 
+#### Running from remote dockerhub images
+
+Recommended:
+
+* [Wekan <=> MongoDB][wekan_mongodb] - contains the only required Docker Compose file
+
+Development:
+
+* Clone this wekan repo and run from dockerhub without building:
+
+```
+sudo docker-compose up -d --nobuild
+```
+
 Docker example, running latest Wekan using docker run commands alone:
 ```
 docker run -d --restart=always --name wekan-db mongo:3.4.3
