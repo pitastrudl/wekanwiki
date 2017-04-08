@@ -8,6 +8,12 @@
 * Not a Startup: We have zero budget. We have no exit plan. We have no investors.
 * Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
+## Why am I called a troll or spammer by somebody in issue comments?
+* You want a feature, but you add thumbs down emoji reactions
+
+## Why am I called a spammer by somebody in issue comments?
+* ..
+
 ## What is Wekan?
 As already explained in detail in our [Readme][], Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists.
 
