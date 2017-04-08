@@ -30,7 +30,9 @@
   * Feature specs
   * Technical details
   * UI/UX mockups
-  * Code etc info related to really getting a feature implemented
+  * Links to related documentation
+  * Links to example code to get a feature implemented
+  * Pull requests
 
 ## What you should do if you see a troll or a spammer?
 Add only one link to this FAQ. Do not in any way comment or feed the trolls.
