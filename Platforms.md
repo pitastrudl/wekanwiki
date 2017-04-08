@@ -2,14 +2,16 @@
 
 * Source-based platforms
 * [Sandstorm](https://sandstorm.io)
+* [Autoinstall script][autoinstall]
+* [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
+* [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
+* [Docker Development](https://github.com/wekan/wekan-dev)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
-* Meteor 1.4 and Node v4 port on Docker
-
-```
-docker run -d --restart=always --name wekan-db mongo:3.4.3
-
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
-```
+* Heroku
+  * Email to work on already working Heroku: Use 3rd party email like SendGrid, update process.env.MAIL_URL ,
+change from email at Accounts.emailTeamplates.from , new file in server folder called smtp.js on code
+`Meteor.startup(function () });` . TODO: Test and find a way to use API keys instead.
 
 # Upcoming
 
@@ -17,3 +19,9 @@ Support will be added after upgrading to Meteor 1.4 and Node v4.
 
 * [Ubuntu 14.04](https://github.com/wekan/wekan/issues/978)
 * [Windows](https://github.com/wekan/wekan/issues/977)
+
+# Not tested yet
+
+* Azure: Install from source or Docker. Azure endpoint needs to be added.
+* OpenShift
+* Google Cloud: Needs info how to enable websockets.
