@@ -1,3 +1,6 @@
+First registered Wekan user will get Admin Panel on new Docker and source based
+installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
+
 # Supported
 
 * Source-based platforms
