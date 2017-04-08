@@ -8,13 +8,13 @@
 * Not a Startup: We have zero budget. We have no exit plan. We have no investors.
 * Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
-## Why am I called a troll in issue comments?
+## Why am I called a troll?
 You want a feature, but you add thumbs down emoji reactions. You are adding image reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features. You are adding something other thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
 
-## Why am I called a spammer in issue comments?
+## Why am I called a spammer?
 You are adding new comments that have only content like "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan". You are adding something other than thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
 
-## What you should do if you see a troll or a spammer in issues?
+## What you should do if you see a troll or a spammer?
 Add only one link to this FAQ. Do not in any way comment or feed the trolls.
 
 ## Will my feature request be implemented?
