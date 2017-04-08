@@ -2,7 +2,7 @@
 > *– Hull, E., K. Jackson, et al. (2005).*
 
 ## What is Wekan?
-As already explained in detail in our [Readme][], Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists.
+Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
 
 [readme]: https://github.com/wekan/wekan/blob/master/README.md
 [kanban]: https://en.wikipedia.org/wiki/Kanban_board
