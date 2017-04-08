@@ -12,7 +12,7 @@
 You want a feature, but you add thumbs down emoji reactions. You are adding image reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features. You are adding something other thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
 
 ## Why am I called a spammer?
-You are adding new comments that have only content like "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan". You are adding something other than thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
+You are adding new comments that have only content like "+1", "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan". You are adding something other than thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
 
 ## What you should do if you see a troll or a spammer?
 Add only one link to this FAQ. Do not in any way comment or feed the trolls.
@@ -37,6 +37,10 @@ We totally rely on pull requests for new features and bug fixes. If your pull re
 
 ## Are there any tests?
 There are near to zero tests, because nobody has contributed tests as pull request.
+
+## Is there a plugin system?
+
+No. It's not possible in web browser to a) Install npm modules inside Docker or b) Install code afterwards on Sandstorm, because application code is read-only and signed. All features in code is built in, and all data related to features is stored on MongoDB.
 
 ## Weren't you called Libreboard before?
 Yes, Libreboard was the old project name, which superseded the even older project name Metrello. As the original name suggests, Metrello was a Trello clone built with Meteor. It used a lot of the original assets from Trello and even the name was very similar. When the project turned more mature and gained more interest by the community, this was obviously a [problem]. To get it's own identity and due to a DMCA from Trello, efforts started to [redesign] Metrello, which also included to find a new name and so Maxime Quandalle came up with “OpenBoard”, to underline the open source nature of the project. Unfortunately the com domain was already taken and so she replaced the Open with Libre, which stands for free (as in freedom) in many Latin derived languages.
