@@ -3,10 +3,6 @@
 * Source-based platforms
 * [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
 * [Autoinstall script][autoinstall]
-* [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
-* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
-* [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
-* [Docker Development](https://github.com/wekan/wekan-dev)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * Heroku
   * Email to work on already working Heroku: Use 3rd party email like SendGrid, update process.env.MAIL_URL ,
