@@ -1,11 +1,10 @@
+* [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
+* [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
 * [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
 * [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
 * [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
 * [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
 * [Docker on SLES12SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
-
-[Import/Export MongoDB data to/from Docker container][https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data]
-
 
 #### Running from remote dockerhub images
 
@@ -42,4 +41,3 @@ echo 'ARCHITECTURE=linux-x64' >> .env && \
 echo 'SRC_PATH=./' >> .env && \
 sudo docker-compose up -d --build
 ```
-
