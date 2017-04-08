@@ -8,10 +8,10 @@
 * Not a Startup: We have zero budget. We have no exit plan. We have no investors.
 * Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
-## Why am I called a troll by somebody in issue comments?
+## Why am I called a troll in issue comments?
 You want a feature, but you add thumbs down emoji reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features.
 
-## Why am I called a spammer by somebody in issue comments?
+## Why am I called a spammer in issue comments?
 You are adding comments like "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan."
 
 ## Will my feature request be implemented?
