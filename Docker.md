@@ -2,6 +2,7 @@
 * [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
 * [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
 * [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
+* [Docker on SLES12SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 
 Docker example, running latest Wekan using docker run commands alone:
 ```
