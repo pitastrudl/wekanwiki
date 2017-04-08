@@ -73,18 +73,18 @@ See the related tickets [#92] and [#97] for more information.
 * You are providing contructive criticism
 * You think that free software includes free implemented features
 * You are adding something other than:
-  * thumbs up reactions to existing posts
-  * feature specs
-  * technical details
-  * code etc info related to really getting a feature implemented
+  * Thumbs up reactions to existing posts
+  * Feature specs
+  * Technical details
+  * Code etc info related to really getting a feature implemented
 
 ## Why am I called a spammer?
 * You are adding new comments that have only content like "+1", "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan"
 * You are adding something other than:
-  * thumbs up reactions to existing posts
-  * feature specs
-  * technical details
-  * code etc info related to really getting a feature implemented
+  * Thumbs up reactions to existing posts
+  * Feature specs
+  * Technical details
+  * Code etc info related to really getting a feature implemented
 
 ## What you should do if you see a troll or a spammer?
 Add only one link to this FAQ. Do not in any way comment or feed the trolls.
