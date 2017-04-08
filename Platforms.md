@@ -1,7 +1,7 @@
 # Supported
 
 * Source-based platforms
-* [Sandstorm](https://sandstorm.io)
+* [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
 * [Autoinstall script][autoinstall]
 * [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
 * [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
