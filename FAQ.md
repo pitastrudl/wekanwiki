@@ -17,7 +17,8 @@
   * Thumbs up reactions to existing posts
   * Feature specs
   * Technical details
-  * Links to documentation and example code
+  * Links to related documentation
+  * Links to example code to get a feature implemented
   * Pull requests
 
 ## Why am I called a spammer?
@@ -30,7 +31,6 @@
   * Thumbs up reactions to existing posts
   * Feature specs
   * Technical details
-  * UI/UX mockups
   * Links to related documentation
   * Links to example code to get a feature implemented
   * Pull requests
