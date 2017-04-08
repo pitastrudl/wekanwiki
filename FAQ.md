@@ -8,11 +8,14 @@
 * Not a Startup: We have zero budget. We have no exit plan. We have no investors.
 * Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
-## Why am I called a troll or spammer by somebody in issue comments?
-* You want a feature, but you add thumbs down emoji reactions
+## Why am I called a troll by somebody in issue comments?
+You want a feature, but you add thumbs down emoji reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features.
 
 ## Why am I called a spammer by somebody in issue comments?
-* ..
+You are adding comments like "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan."
+
+## Will my feature request be implemented?
+Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
 
 ## What is Wekan?
 As already explained in detail in our [Readme][], Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists.
@@ -28,9 +31,6 @@ We totally rely on pull requests for new features and bug fixes. If your pull re
 
 ## Are there any tests?
 There are near to zero tests, because nobody has contributed tests as pull request.
-
-## Your feature request be implemented?
-Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
 
 ## Weren't you called Libreboard before?
 Yes, Libreboard was the old project name, which superseded the even older project name Metrello. As the original name suggests, Metrello was a Trello clone built with Meteor. It used a lot of the original assets from Trello and even the name was very similar. When the project turned more mature and gained more interest by the community, this was obviously a [problem]. To get it's own identity and due to a DMCA from Trello, efforts started to [redesign] Metrello, which also included to find a new name and so Maxime Quandalle came up with “OpenBoard”, to underline the open source nature of the project. Unfortunately the com domain was already taken and so she replaced the Open with Libre, which stands for free (as in freedom) in many Latin derived languages.
