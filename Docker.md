@@ -1,3 +1,6 @@
+[Docker environment for Wekan development](https://github.com/wekan/wekan-dev)
+
+
 Docker example, running latest Wekan using docker run commands alone:
 ```
 docker run -d --restart=always --name wekan-db mongo:3.4.3
