@@ -29,7 +29,7 @@
   * Thumbs up reactions to existing posts
   * Feature specs
   * Technical details
-  * UI mockups
+  * UI/UX mockups
   * Code etc info related to really getting a feature implemented
 
 ## What you should do if you see a troll or a spammer?
