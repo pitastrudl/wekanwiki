@@ -29,6 +29,12 @@
 ## What you should do if you see a troll or a spammer?
 Add only one link to this FAQ. Do not in any way comment or feed the trolls.
 
+## What Wekan is not?
+* Not a Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). 
+* Not a Product: There are missing features.
+* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
+* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
+
 ## What is Wekan?
 Wekan is an open-source and free software _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
 
@@ -41,13 +47,6 @@ Wekan is an open-source and free software _[kanban board][kanban]_ that lets you
 ## What is Sandstorm?
 [Sandstorm](https://sandstorm.io) is a open-source and free software security audited platform with grains, logging, admin settings, server
 clustering and App Market. App Market has Wekan as installable App. SSO options like LDAP, passwordless email, SAML, GitHub and Google Auth are already available on Sandstorm. Sandstorm is preferred platform for Wekan, as it would take a lot of work to reimplement everything in standalone Wekan. 
-
-## What Wekan is not?
-
-* Not a Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). 
-* Not a Product: There are missing features.
-* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
-* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
 ## How can I contribute to Wekan?
 We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan. You can also sponsor a feature. We don't have any sponsors yet.
