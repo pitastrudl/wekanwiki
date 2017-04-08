@@ -54,6 +54,10 @@ After renaming it to Libreboard, a [new logo] was designed and the project conti
 [logo-ticket]: https://github.com/wekan/wekan/issues/64#issuecomment-74357809
 [wekan-proposal]: https://github.com/wekan/wekan/issues/64#issuecomment-135221046
 
+## What was Wekan fork / Wefork?
+
+After 2016-09-02 there were no pull requests reviewed and integrated for nearly 2 months. At 2016-10-20 Wekan community created fork and started merging many bugfixes and new features into Wefork. 2017-01-29 Wekan author mquandalle gave access to Wekan and at 2017-01-31 xet7 started merging Wefork back to Wekan. More info: [Team](https://github.com/wekan/wekan/wiki/Team)
+
 ## What is the difference between Wekan and Trello?
 The main difference between the two is that Wekan is completely open source and available under the permissive MIT license. That makes it possible to host it on your own server (or your company's or organization's server) and you keep the full control over all data. No need to fear it will disappear some day, like a commercial service like Trello could.  
 Additionally the long term goal is to have features that are not available on Trello or other alternative, making Wekan flexible and suitable for complex project organizations.
