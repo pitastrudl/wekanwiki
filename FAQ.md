@@ -17,7 +17,8 @@
   * Thumbs up reactions to existing posts
   * Feature specs
   * Technical details
-  * Code etc info related to really getting a feature implemented
+  * Links to documentation and example code
+  * Pull requests
 
 ## Why am I called a spammer?
 * You are adding new comments that have only content like:
