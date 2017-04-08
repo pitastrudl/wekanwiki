@@ -1,6 +1,34 @@
 > **»The only stupid question is the one that is not asked.«**  
 > *– Hull, E., K. Jackson, et al. (2005).*
 
+## Why am I called a troll?
+* You want a feature, but you add thumbs down emoji reactions
+* You are adding image reactions
+* You want priorities changed (we don't have priorities)
+* You are providing contructive criticism
+* You think that free software includes free implemented features
+* You are adding something other than:
+  * Thumbs up reactions to existing posts
+  * Feature specs
+  * Technical details
+  * Code etc info related to really getting a feature implemented
+
+## Why am I called a spammer?
+* You are adding new comments that have only content like:
+  * +1
+  * +1 I can confirm this
+  * +1 It would be great to have this
+  * +1 This is the only feature for preventing my company to move to Wekan
+* You are adding something other than:
+  * Thumbs up reactions to existing posts
+  * Feature specs
+  * Technical details
+  * UI mockups
+  * Code etc info related to really getting a feature implemented
+
+## What you should do if you see a troll or a spammer?
+Add only one link to this FAQ. Do not in any way comment or feed the trolls.
+
 ## What is Wekan?
 Wekan is an open-source and free software _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
 
@@ -65,26 +93,3 @@ See the related tickets [#92] and [#97] for more information.
 
 [#92]: https://github.com/wekan/wekan/issues/92
 [#97]: https://github.com/wekan/wekan/issues/97
-
-## Why am I called a troll?
-* You want a feature, but you add thumbs down emoji reactions
-* You are adding image reactions
-* You want priorities changed (we don't have priorities)
-* You are providing contructive criticism
-* You think that free software includes free implemented features
-* You are adding something other than:
-  * Thumbs up reactions to existing posts
-  * Feature specs
-  * Technical details
-  * Code etc info related to really getting a feature implemented
-
-## Why am I called a spammer?
-* You are adding new comments that have only content like "+1", "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan"
-* You are adding something other than:
-  * Thumbs up reactions to existing posts
-  * Feature specs
-  * Technical details
-  * Code etc info related to really getting a feature implemented
-
-## What you should do if you see a troll or a spammer?
-Add only one link to this FAQ. Do not in any way comment or feed the trolls.
