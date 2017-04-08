@@ -20,6 +20,9 @@ Add only one link to this FAQ. Do not in any way comment or feed the trolls.
 ## Will my feature request be implemented?
 Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
 
+## Do you accept sponsors to pay for features?
+Yes. But there have been none yet for me, xet7, and I don't know about others. 
+
 ## What is Wekan?
 As already explained in detail in our [Readme][], Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists.
 
