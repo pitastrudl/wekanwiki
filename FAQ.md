@@ -2,7 +2,7 @@
 > *– Hull, E., K. Jackson, et al. (2005).*
 
 ## What is Wekan?
-Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
+Wekan is an open-source and free software _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
 
 [readme]: https://github.com/wekan/wekan/blob/master/README.md
 [kanban]: https://en.wikipedia.org/wiki/Kanban_board
@@ -11,7 +11,7 @@ Wekan is an open-source _[kanban board][kanban]_ that lets you organize things i
 [Wekan team](https://github.com/wekan/wekan/wiki/Team) is small amount of contributors from around the world donating their free time and servers. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
 ## What is Sandstorm?
-[Sandstorm](https://sandstorm.io) is a security audited platform with grains, logging, admin settings, server
+[Sandstorm](https://sandstorm.io) is a open-source and free software security audited platform with grains, logging, admin settings, server
 clustering and App Market. App Market has Wekan as installable App. SSO options like LDAP, passwordless email, SAML, GitHub and Google Auth are already available on Sandstorm. Sandstorm is preferred platform for Wekan, as it would take a lot of work to reimplement everything in standalone Wekan. 
 
 ## What Wekan is not?
