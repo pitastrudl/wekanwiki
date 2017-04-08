@@ -1,3 +1,6 @@
+First registered Wekan user will get Admin Panel on new Docker and source based
+installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
+
 * [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
 * [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
