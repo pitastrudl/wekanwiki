@@ -5,6 +5,11 @@
 * [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
 * [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
 * [Docker on SLES12SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+* [Install Wekan Docker for testing. Test mail server. Show mails with a Docker image, without mail configuration](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-for-testing)
+https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production
+* [Install Wekan Docker in production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
+* [Caddy Webserver Config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
+* [Nginx Webserver Config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
 
 #### Running from remote dockerhub images
 
