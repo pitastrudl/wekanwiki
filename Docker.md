@@ -1,5 +1,7 @@
-[Docker environment for Wekan development](https://github.com/wekan/wekan-dev)
-
+* [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
+* [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
+* [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
 
 Docker example, running latest Wekan using docker run commands alone:
 ```
