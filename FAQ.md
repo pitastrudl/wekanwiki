@@ -1,6 +1,12 @@
 > **»The only stupid question is the one that is not asked.«**  
 > *– Hull, E., K. Jackson, et al. (2005).*
 
+## What Wekan is not?
+* Not a Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). 
+* Not a Product: There are missing features.
+* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
+* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
+
 ## Why am I called a troll?
 * You want a feature, but you add thumbs down emoji reactions
 * You are adding image reactions
@@ -28,12 +34,6 @@
 
 ## What you should do if you see a troll or a spammer?
 Add only one link to this FAQ. Do not in any way comment or feed the trolls.
-
-## What Wekan is not?
-* Not a Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). 
-* Not a Product: There are missing features.
-* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
-* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
 ## What is Wekan?
 Wekan is an open-source and free software _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
