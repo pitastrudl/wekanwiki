@@ -1,3 +1,5 @@
+This page is work in progress, and needs more details.
+
 1) If you have installed Wekan with Docker like at this page:
 
 https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
