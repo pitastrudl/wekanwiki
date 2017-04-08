@@ -13,6 +13,7 @@ https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production
 * [Install Wekan Docker in production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
 * [Caddy Webserver Config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [Nginx Webserver Config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
+* [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
 
 #### Running from remote dockerhub images
 
