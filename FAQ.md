@@ -1,11 +1,32 @@
 > **»The only stupid question is the one that is not asked.«**  
 > *– Hull, E., K. Jackson, et al. (2005).*
 
+## What Wekan is not?
+
+* Not a Company: It's all [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software)
+* Not a Product: There are missing features.
+* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
+* Not have hired departments: There is no hired marketing team/hired development team/hired QA team
+
 ## What is Wekan?
 As already explained in detail in our [Readme][], Wekan is an open-source _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists.
 
 [readme]: https://github.com/wekan/wekan/blob/master/README.md
 [kanban]: https://en.wikipedia.org/wiki/Kanban_board
+
+This page is in progress, more team members will be added later.
+
+## What is Wekan Team?
+Wekan team is small amount of contributors from around the world donating their free time . There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
+
+## Will your pull request be accepted?
+We totally rely on pull requests for new features and bug fixes. If your pull request works, it's very likely to be accepted by xet7.
+
+## Are there any tests?
+There are near to zero tests, because nobody has contributed tests as pull request.
+
+## Your feature request be implemented?
+Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
 
 ## Weren't you called Libreboard before?
 Yes, Libreboard was the old project name, which superseded the even older project name Metrello. As the original name suggests, Metrello was a Trello clone built with Meteor. It used a lot of the original assets from Trello and even the name was very similar. When the project turned more mature and gained more interest by the community, this was obviously a [problem]. To get it's own identity and due to a DMCA from Trello, efforts started to [redesign] Metrello, which also included to find a new name and so Maxime Quandalle came up with “OpenBoard”, to underline the open source nature of the project. Unfortunately the com domain was already taken and so she replaced the Open with Libre, which stands for free (as in freedom) in many Latin derived languages.
