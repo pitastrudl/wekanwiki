@@ -9,7 +9,7 @@
 * Not have hired departments: There is no hired marketing team/hired development team/hired QA team
 
 ## Why am I called a troll in issue comments?
-You want a feature, but you add thumbs down emoji reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features.
+You want a feature, but you add thumbs down emoji reactions. You are adding image reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features. You are adding something other than plans, technical details and code related to getting a feature implemented.
 
 ## Why am I called a spammer in issue comments?
 You are adding comments like "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan."
