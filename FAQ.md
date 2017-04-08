@@ -12,7 +12,7 @@
 You want a feature, but you add thumbs down emoji reactions. You are adding image reactions. You want priorities changed (we don't have priorities). You are providing contructive criticism. You think that free software includes free implemented features. You are adding something other thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
 
 ## Why am I called a spammer in issue comments?
-You are adding new comments that have only content like "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan". You are adding something other thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
+You are adding new comments that have only content like "+1 I can confirm this", "+1 It would be great to have this", "+1 This is the only feature for preventing for my company to move to Wekan". You are adding something other than thumbs up reactions to existing posts, feature specs, technical details, code etc info related to really getting a feature implemented.
 
 ## Will my feature request be implemented?
 Being popular feature request does not mean that feature will be implemented. It just means that nobody has needed that feature so much to even try to implement it themselves and submit pull request, or find some depeloper and pay him/her to implement it and submit pull request.
