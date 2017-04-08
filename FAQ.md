@@ -24,7 +24,7 @@ As already explained in detail in our [Readme][], Wekan is an open-source _[kanb
 [kanban]: https://en.wikipedia.org/wiki/Kanban_board
 
 ## What is Wekan Team?
-Wekan team is small amount of contributors from around the world donating their free time . There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
+Wekan team is small amount of contributors from around the world donating their free time, servers etc. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
 ## Will you accept my pull request?
 We totally rely on pull requests for new features and bug fixes. If your pull request works, it's very likely to be accepted by xet7.
