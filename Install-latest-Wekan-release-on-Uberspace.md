@@ -1,4 +1,4 @@
-**Purpose**: Install Wekan on [Uberspace](https://uberspace.de/) and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
+**Purpose**: Install latest Wekan release on [Uberspace](https://uberspace.de/) and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
 
 This script installs Wekan on a fresh Uberspace. It setup Node 0.10, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.18, 0.17, 0.16, 0.13, 0.12, 0.10.1. 
 
