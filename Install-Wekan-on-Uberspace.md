@@ -128,8 +128,8 @@ chmod a+x ~/etc/wekan-start
 ## Init & Start as servcie
 uberspace-setup-service wekan ~/etc/wekan-start
 
-## Setup & Start in bg for debugging
-# source ~/etc/wekan-setup && node ~/wekan/bundle/main.js &
+## Start in backgroung for debugging
+# ~/etc/wekan-start > wekan_out.txt 2> wekan_err.txt &
 
 
 #####################
