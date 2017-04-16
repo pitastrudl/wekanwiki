@@ -4,7 +4,7 @@ It can be wekan-db, mongodb or something else.
 1) You can run Wekan on Docker locally like this on http://localhost:8080/
 (or other port it you change 8080 in script):
 ```bash
-docker run -d --restart=always --name wekan-db mongo:3.4.3
+docker run -d --restart=always --name wekan-db mongo:3.2.12
 
 docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
 ```
@@ -33,7 +33,7 @@ like this:
 
 ```bash
 > mongo             <==== START MONGO CLI
-MongoDB shell version: 3.4.3
+MongoDB shell version: 3.2.12
 connecting to: test
 Server has startup warnings: 
 2016-06-25T11:39:55.913+0000 I CONTROL  [initandlisten] 
