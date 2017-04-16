@@ -40,7 +40,7 @@ wekandb:
     ...
 
   wekandb:
-    image: mongo
+    image: mongo:3.2.12
     restart: always
     ...
   ```
