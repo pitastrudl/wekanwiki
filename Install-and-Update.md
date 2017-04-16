@@ -192,7 +192,7 @@ export PORT=3000
 node main.js
 ```
 
-TIP. If you use a public URL for your ROOT_URL instead of a local URL or an IP address make sure the URL is the same when visiting your Wekan URL in your browser for the first time and make sure you add the port number similar to the PORT number you defined. Ie. when visiting your Wekan url like 'http(s)://your-domain.com' this would need a ROOT_URL setting like 'http(s)://your-domain.com:3000'. IF your ROOT_URL setting would be 'http(s)://www.your-domain.com:3000' when visiting the url in your browser without www you will run into url problems when trying to access Card details due to the fact the www is added to he url! The correct ROOT_URL setting is 'http(s)://your-domain.com:3000'.
+TIP. If you use a public URL for your ROOT_URL instead of a local URL or an IP address make sure the URL is the same when visiting your Wekan URL in your browser for the first time and make sure you add the port number similar to the PORT number you defined. Ie. when visiting your Wekan url like 'http(s)://your-domain.com' this would need a ROOT_URL setting like 'http(s)://your-domain.com:3000'. IF your ROOT_URL setting would be 'http(s)://www.your-domain.com:3000' when visiting the url in your browser without www you will run into url problems when trying to access Card details due to the fact the www is added to the url! The correct ROOT_URL setting is 'http(s)://your-domain.com:3000'.
 
 If you are running it in an IP address, you may need for example
 ```bash
