@@ -35,7 +35,7 @@ docker run -d --restart=always --name wekan-db mongo:3.2.12
 docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
 ```
 
-#### docker-compose examples
+### docker-compose examples
 
 - Build default
 ```
