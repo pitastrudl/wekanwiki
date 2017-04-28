@@ -1,19 +1,3 @@
-First registered Wekan user will get Admin Panel on new Docker and source based
-installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
-
-* [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
-* [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
-* [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
-* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
-* [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
-* [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
-* [Docker on SLES12SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
-* [Install Wekan Docker for testing. Test mail server. Show mails with a Docker image, without mail configuration](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-for-testing).
-* [Install Wekan Docker in production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
-* [Caddy Webserver Config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
-* [Nginx Webserver Config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
-* [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
-
 #### Running from remote dockerhub images
 
 Recommended:
@@ -22,7 +6,7 @@ Recommended:
 
 ## Development:
 
-### pure `docker run` examples
+### `docker run` examples
 
 - No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
 ```
@@ -60,3 +44,19 @@ echo 'METEOR_EDGE=1.5-beta.17' >> .env && \
 echo 'USE_EDGE=true' >> .env && \
 sudo docker-compose up -d --build
 ```
+
+First registered Wekan user will get Admin Panel on new Docker and source based
+installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
+
+* [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
+* [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
+* [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
+* [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
+* [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
+* [Docker on SLES12SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+* [Install Wekan Docker for testing. Test mail server. Show mails with a Docker image, without mail configuration](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-for-testing).
+* [Install Wekan Docker in production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
+* [Caddy Webserver Config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
+* [Nginx Webserver Config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
+* [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
