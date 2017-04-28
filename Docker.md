@@ -1,9 +1,5 @@
 #### Running from remote dockerhub images
 
-Recommended:
-
-* [Wekan <=> MongoDB][wekan_mongodb] - contains the only required Docker Compose file
-
 ## Development:
 
 ### `docker run` examples
@@ -21,7 +17,7 @@ docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=m
 
 ### `docker-compose` examples
 
-- No build step and pull from the [dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
+- No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
 
 ```
 sudo docker-compose up -d --nobuild
@@ -44,6 +40,10 @@ echo 'METEOR_EDGE=1.5-beta.17' >> .env && \
 echo 'USE_EDGE=true' >> .env && \
 sudo docker-compose up -d --build
 ```
+
+Recommended:
+
+* [Wekan <=> MongoDB][wekan_mongodb](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml) - contains the only required Docker Compose file
 
 First registered Wekan user will get Admin Panel on new Docker and source based
 installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
