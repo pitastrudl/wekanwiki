@@ -20,22 +20,28 @@ Recommended:
 
 * [Wekan <=> MongoDB][wekan_mongodb] - contains the only required Docker Compose file
 
-Development:
+## Development:
 
-* Clone this wekan repo and run from dockerhub without building:
+### pure `docker run` examples
+
+- No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
+```
+docker run -d --restart=always --name wekan-db mongo:3.2.12
+```
+
+- No build step, pull from the [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) and
+specify docker variables
+```
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
+```
+
+### `docker-compose` examples
+
+- No build step and pull from the [dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
 
 ```
 sudo docker-compose up -d --nobuild
 ```
-
-Docker example, running latest Wekan using docker run commands alone:
-```
-docker run -d --restart=always --name wekan-db mongo:3.2.12
-
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
-```
-
-### docker-compose examples
 
 - Build default
 ```
