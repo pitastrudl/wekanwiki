@@ -165,6 +165,10 @@ not recompiled though, that needs full rebuild.
 ```bash
 rm -rf .build
 meteor build .build --directory
+sed -i "s|build\/Release\/bson|browser_build\/bson|g" .build/bundle/programs/server/npm/node_modules/meteor/cfs_gridfs/node_modules/mongodb/node_modules/bson/ext/index.js
+cd .build/bundle/programs/server/npm/node_modules/meteor/npm-bcrypt
+rm -rf node_modules/bcrypt
+npm install bcrypt
 cd .build/bundle/programs/server
 npm install
 cd ~/repos
@@ -320,6 +324,10 @@ git pull
 npm install
 rm -rf .build
 meteor build .build --directory
+sed -i "s|build\/Release\/bson|browser_build\/bson|g" .build/bundle/programs/server/npm/node_modules/meteor/cfs_gridfs/node_modules/mongodb/node_modules/bson/ext/index.js
+cd .build/bundle/programs/server/npm/node_modules/meteor/npm-bcrypt
+rm -rf node_modules/bcrypt
+npm install bcrypt
 cd .build/bundle/programs/server
 npm install
 cd ~/repos
