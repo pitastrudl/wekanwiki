@@ -8,6 +8,15 @@ For now, [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/)
 
 [![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
 
+[Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
+
+Example:
+```
+docker run -d --restart=always --name wekan-db mongo:3.2.13
+
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 quay.io/wekan/wekan:v0.19
+```
+
 Added 2017-05-06 to see if it has better debugging of failed builds than Docker Hub.
 
 ## Development:
