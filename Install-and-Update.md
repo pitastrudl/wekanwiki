@@ -129,6 +129,10 @@ curl https://install.meteor.com/ | sh
 ### Install and Build Wekan
 
 ```bash
+# If you get build errors, clean old node modules
+sudo rm -rf /usr/local/lib/node_modules
+sudo rm -rf ~/.npm
+
 # Download Wekan
 git clone https://github.com/wekan/wekan
 cd wekan
@@ -146,6 +150,7 @@ sudo npm -g install n
 sudo n 4.8.1
 sudo npm -g install npm@latest
 sudo npm -g install node-gyp
+sudo npm -g install node-pre-gyp
 sudo npm -g install fibers
 
 # install wekan npm dependancies
