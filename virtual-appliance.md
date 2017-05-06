@@ -1,6 +1,6 @@
 1) by xet7
 
-http://wekan.xet7.org
+https://wekan.xet7.org
 
 2) by anselal
 
