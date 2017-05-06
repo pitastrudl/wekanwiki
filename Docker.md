@@ -1,10 +1,14 @@
-[![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
-
-## Notes
+## Docker Hub
 
 Currently there are two dockerhub builds for wekan. One at [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/) and another at [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/). 
 
 For now, [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) is recommended as it supports tagged releases. There is a separate `docker-compose.yml` for [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) at [this repo link](https://github.com/wekan/wekan-mongodb) with instructions on installing there also.
+
+## Quay
+
+[![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
+
+Added 2017-05-06 to see if it has better debugging of failed builds than Docker Hub.
 
 ## Development:
 
