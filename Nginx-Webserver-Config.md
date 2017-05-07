@@ -1,3 +1,5 @@
+Related: [Meteor.js on Ubuntu 14.04 with nginx](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx)
+
 ## Nginx webserver config
 
 If you use Wekan at root url, change /wekan to / .
