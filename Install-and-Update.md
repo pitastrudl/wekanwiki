@@ -170,7 +170,7 @@ not recompiled though, that needs full rebuild.
 ```bash
 rm -rf .build
 meteor build .build --directory
-cp fix-download-unicode/cfs_access-point.js .build/bundle/programs/server/packages/
+cp fix-download-unicode/cfs_access-point.txt .build/bundle/programs/server/packages/cfs_access-point.js
 sed -i "s|build\/Release\/bson|browser_build\/bson|g" .build/bundle/programs/server/npm/node_modules/meteor/cfs_gridfs/node_modules/mongodb/node_modules/bson/ext/index.js
 cd .build/bundle/programs/server/npm/node_modules/meteor/npm-bcrypt
 rm -rf node_modules/bcrypt
@@ -331,7 +331,7 @@ git pull
 npm install
 rm -rf .build
 meteor build .build --directory
-cp fix-download-unicode/cfs_access-point.js .build/bundle/programs/server/packages/
+cp fix-download-unicode/cfs_access-point.txt .build/bundle/programs/server/packages/cfs_access-point.js
 sed -i "s|build\/Release\/bson|browser_build\/bson|g" .build/bundle/programs/server/npm/node_modules/meteor/cfs_gridfs/node_modules/mongodb/node_modules/bson/ext/index.js
 cd .build/bundle/programs/server/npm/node_modules/meteor/npm-bcrypt
 rm -rf node_modules/bcrypt
