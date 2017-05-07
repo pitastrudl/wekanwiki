@@ -1,4 +1,6 @@
-Related: [Meteor.js on Ubuntu 14.04 with nginx](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx)
+[Meteor.js on Ubuntu 14.04 with nginx](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx)
+
+[List of Let's Encrypt implementations](https://community.letsencrypt.org/t/list-of-client-implementations/2103)
 
 ## Nginx webserver config
 
