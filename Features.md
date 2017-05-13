@@ -20,7 +20,7 @@ Import
 
 API
 
-* [REST API](https://github.com/wekan/wekan/pull/1003), for more [pull requests welcome](https://github.com/wekan/wekan/issues/1037)
+* [REST API](https://github.com/wekan/wekan/pull/1003) and [usage example](https://github.com/wekan/wekan/issues/1032), for more [pull requests welcome](https://github.com/wekan/wekan/issues/1037)
 
 Cleanup
 
