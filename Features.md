@@ -24,7 +24,7 @@ API
 
 Cleanup
 
-* [Wekan database cleanup script][https://github.com/wekan/wekan-cleanup]
+* [Wekan database cleanup script](https://github.com/wekan/wekan-cleanup)
 * [Docker cleanup](https://github.com/wekan/wekan/issues/985)
 
 Stats
@@ -44,14 +44,13 @@ Versions of Meteor and Node
 
 # Wishes for pull requests
 
-### Existing pull requests, cleanup/cherry-picking/new pull request welcome
+### Existing pull requests, cleanup/cherry-picking/new pull requests welcome
 
 * [Export/Import Excel TSV/CSV data](https://github.com/wekan/wekan/pull/413)
 * [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446) and [Move or copy cards from one board to another](https://github.com/wekan/wekan/issues/797) that [needs help in implementation](https://github.com/wekan/wekan/issues/979)
 * [Replace CollectionFS with meteor-file-collection](https://github.com/wekan/wekan/pull/875)
 
 ### Wishes for API pull requests
-
 
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
 
