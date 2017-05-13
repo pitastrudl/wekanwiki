@@ -2,7 +2,7 @@
 
 * [PostgreSQL](https://github.com/wekan/wekan-postgresql)
 
-# Upcoming
+# Wishes for pull requests
 
 ## Chat
 
