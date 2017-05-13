@@ -19,7 +19,7 @@ Docker and source based installs. You can also
 
 [Install from source][install_source]
 
-* [Install from source on Windows][installsource_windows], see [this issue](https://github.com/wekan/wekan/issues/977)
+[Install from source on Windows][installsource_windows], needs [fix for dependencies install error](https://github.com/wekan/wekan/issues/977)
 
 ## VirtualBox
 
