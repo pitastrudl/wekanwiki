@@ -95,3 +95,9 @@ Support will be added after upgrading to Meteor 1.4 and Node v4.
 [autoinstall]: https://github.com/wekan/wekan-autoinstall
 [autoinstall_issue]: https://github.com/anselal/wekan/issues/18
 [debian_wheezy_devuan_jessie]: https://github.com/soohwa/sps/blob/master/example/docs/1/wekan.md
+
+# More
+
+[Features](https://github.com/wekan/wekan/wiki/Features)
+
+[Integrations](https://github.com/wekan/wekan/wiki/Integrations)
