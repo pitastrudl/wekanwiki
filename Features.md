@@ -21,8 +21,8 @@ Cleanup
 Stats
 
 * [Daily export of Wekan changes as JSON to Logstash and
-ElasticSearch / Kibana (ELK)][wekan_logstash]
-* [Statistics Python script for Wekan Dashboard][wekan_stats]
+ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash)
+* [Statistics Python script for Wekan Dashboard](https://github.com/wekan/wekan-stats)
 * [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010) with [fix to replace console.log by winston logger](https://github.com/wekan/wekan/pull/1033)
 
 # Already merged, will be at next version
