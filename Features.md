@@ -1,10 +1,5 @@
 # Current
 
-Authentication, Admin Panel, SMTP Settings
-
-* Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP 
-* Sandstorm Platform: Admin: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. Wekan, Rocket.Chat, etc apps available with one click install.
-
 Kanban
 
 * Checklists
@@ -12,6 +7,11 @@ Kanban
 * Member assignations to board
 * Customizable labels
 * Filtered views
+
+Authentication, Admin Panel, SMTP Settings
+
+* Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP 
+* Sandstorm Platform: Admin: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. Wekan, Rocket.Chat, etc apps available with one click install.
 
 Import
 
