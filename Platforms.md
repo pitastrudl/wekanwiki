@@ -11,31 +11,54 @@ First registered Wekan user will get [Admin Panel][features] on new
 Docker and source based installs. You can also
 [enable Admin Panel manually][enable_adminpanel].
 
-[![Deploy][heroku_button]][heroku_deploy]
+## Indiehosters
+
 [![SignUp][indiehosters_button]][indiehosters_saas]
+
+## Scalingo
+
 [![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
-[![Install on Cloudron][cloudron_button]][cloudron_install]
+
+## Sandstorm
+
 [![Try on Sandstorm][sandstorm_button]][sandstorm_appdemo]
 
-[VirtualBox][virtualbox]
+https://sandstorm.io
+
+[Downloading latest .spk package file](https://github.com/wekan/wekan/issues/998)
+
+[Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
+
+## Cloudron
+
+[![Install on Cloudron][cloudron_button]][cloudron_install]
+
+There is also [Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html) and [package repo](https://git.cloudron.io/cloudron/wekan-app)
+
+## Virtualbox
+
+* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+
+## Docker
 
 [Install via Docker](https://github.com/wekan/wekan/wiki/Docker)
 
+## Source
+
 [Install from source][install_source]
 
-[Install from source on Windows][installsource_windows]
+* [Autoinstall script][autoinstall]
+
+## Debian
 
 [Debian Wheezy 64bit & Devuan Jessie 64 bit][debian_wheezy_devuan_jessie]
 
-
-* [One-click install platforms, cleanup and stats scripts at readme](https://github.com/wekan/wekan#supported-platforms)
-* Source-based platforms
-* [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
-* [Autoinstall script][autoinstall]
-* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * [Ubuntu 14.04](https://github.com/wekan/wekan/issues/978)
-* Cloudron: [Wekan repo readme](https://github.com/wekan/wekan) has install button for Cloudron. There is also [Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html) and [package repo](https://git.cloudron.io/cloudron/wekan-app)
-* Heroku
+
+# Needs testing
+
+[![Deploy][heroku_button]][heroku_deploy]
+
 * Email to work on already working Heroku: Use 3rd party email like SendGrid, update process.env.MAIL_URL ,
 change from email at Accounts.emailTeamplates.from , new file in server folder called smtp.js on code
 `Meteor.startup(function () });` . TODO: Test and find a way to use API keys instead.
@@ -44,7 +67,7 @@ change from email at Accounts.emailTeamplates.from , new file in server folder c
 
 Support will be added after upgrading to Meteor 1.4 and Node v4.
 
-* [Windows](https://github.com/wekan/wekan/issues/977)
+* [Install from source on Windows][installsource_windows], see [this issue](https://github.com/wekan/wekan/issues/977)
 
 # Not tested yet
 
@@ -52,7 +75,8 @@ Support will be added after upgrading to Meteor 1.4 and Node v4.
 * OpenShift
 * Google Cloud: Needs info how to enable websockets.
 
-
+[install_source]: https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source
+[installsource_windows]: https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows
 [cloudron_button]: https://cloudron.io/img/button.svg
 [cloudron_install]: https://cloudron.io/button.html?app=io.wekan.cloudronapp
 [docker_image]: https://hub.docker.com/r/wekanteam/wekan/
@@ -64,7 +88,6 @@ Support will be added after upgrading to Meteor 1.4 and Node v4.
 [sandstorm_appdemo]: https://demo.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h
 [scalingo_button]: https://cdn.scalingo.com/deploy/button.svg
 [scalingo_deploy]: https://my.scalingo.com/deploy?source=https://github.com/wekan/wekan#master
-[virtualbox]: https://github.com/wekan/wekan/wiki/virtual-appliance
 [wekan_mongodb]: https://github.com/wekan/wekan-mongodb
 [wekan_postgresql]: https://github.com/wekan/wekan-postgresql
 [wekan_cleanup]: https://github.com/wekan/wekan-cleanup
