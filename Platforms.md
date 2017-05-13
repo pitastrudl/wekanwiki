@@ -19,8 +19,6 @@ Docker and source based installs. You can also
 
 [Install from source][install_source]
 
-* [Autoinstall script][autoinstall]
-
 ## Virtualbox
 
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
@@ -52,6 +50,8 @@ There is also [Wekan package for deployment on a server with Cloudron installed]
 ## Debian
 
 [Debian Wheezy 64bit & Devuan Jessie 64 bit][debian_wheezy_devuan_jessie]
+
+[Autoinstall script][autoinstall]
 
 # Needs testing
 
