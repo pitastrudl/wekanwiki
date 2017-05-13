@@ -13,17 +13,17 @@ Note: Not all are available at Sandstorm yet.
 * Upgraded to [Meteor 1.4](https://github.com/wekan/wekan/pull/957) and [Node v4](https://github.com/wekan/wekan/issues/788) on [meteor-1.4 branch](https://github.com/wekan/wekan/tree/meteor-1.4)
 * [REST API](https://github.com/wekan/wekan/pull/1003), for more [pull requests welcome](https://github.com/wekan/wekan/issues/1037)
 
-## Cleanup
+Cleanup
 
-[Wekan database cleanup script][wekan_cleanup], 
-[Docker cleanup](https://github.com/wekan/wekan/issues/985)
+* [Wekan database cleanup script][wekan_cleanup], 
+* [Docker cleanup](https://github.com/wekan/wekan/issues/985)
 
-## Stats
+Stats
 
-[Daily export of Wekan changes as JSON to Logstash and
+* [Daily export of Wekan changes as JSON to Logstash and
 ElasticSearch / Kibana (ELK)][wekan_logstash]
-
-[Statistics Python script for Wekan Dashboard][wekan_stats]
+* [Statistics Python script for Wekan Dashboard][wekan_stats]
+* [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010) with [fix to replace console.log by winston logger](https://github.com/wekan/wekan/pull/1033)
 
 # Already merged, will be at next version
 
