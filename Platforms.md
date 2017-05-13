@@ -67,7 +67,7 @@ https://sandstorm.io
 
 [![Deploy][heroku_button]][heroku_deploy]
 
-[Need checking: Heroku deployment quide](https://github.com/wekan/wekan/issues/693), [Deploy error](https://github.com/wekan/wekan/issues/638), [Problem with Heroku](https://github.com/wekan/wekan/issues/532)
+[Heroku deployment quide needed](https://github.com/wekan/wekan/issues/693), [Deploy error](https://github.com/wekan/wekan/issues/638), [Problem with Heroku](https://github.com/wekan/wekan/issues/532)
 
 Email to work on already working Heroku: Use 3rd party email like SendGrid, update process.env.MAIL_URL ,
 change from email at Accounts.emailTeamplates.from , new file in server folder called smtp.js on code
