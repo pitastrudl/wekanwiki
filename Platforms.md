@@ -11,13 +11,19 @@ First registered Wekan user will get [Admin Panel][features] on new
 Docker and source based installs. You can also
 [enable Admin Panel manually][enable_adminpanel].
 
-## Indiehosters
+## Docker
 
-[![SignUp][indiehosters_button]][indiehosters_saas]
+[Install via Docker](https://github.com/wekan/wekan/wiki/Docker)
 
-## Scalingo
+## Source
 
-[![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
+[Install from source][install_source]
+
+* [Autoinstall script][autoinstall]
+
+## Virtualbox
+
+* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 
 ## Sandstorm
 
@@ -29,33 +35,27 @@ https://sandstorm.io
 
 [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
 
+## Indiehosters
+
+[![SignUp][indiehosters_button]][indiehosters_saas]
+
 ## Cloudron
 
 [![Install on Cloudron][cloudron_button]][cloudron_install]
 
 There is also [Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html) and [package repo](https://git.cloudron.io/cloudron/wekan-app)
 
-## Virtualbox
+## Scalingo
 
-* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
-
-## Docker
-
-[Install via Docker](https://github.com/wekan/wekan/wiki/Docker)
-
-## Source
-
-[Install from source][install_source]
-
-* [Autoinstall script][autoinstall]
+[![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
 
 ## Debian
 
 [Debian Wheezy 64bit & Devuan Jessie 64 bit][debian_wheezy_devuan_jessie]
 
-* [Ubuntu 14.04](https://github.com/wekan/wekan/issues/978)
-
 # Needs testing
+
+## Heroku 
 
 [![Deploy][heroku_button]][heroku_deploy]
 
