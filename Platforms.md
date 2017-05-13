@@ -43,7 +43,9 @@ https://sandstorm.io
 
 [![Install on Cloudron][cloudron_button]][cloudron_install]
 
-There is also [Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html) and [package repo](https://git.cloudron.io/cloudron/wekan-app)
+[Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html)
+
+[Package repo](https://git.cloudron.io/cloudron/wekan-app)
 
 ## Scalingo
 
