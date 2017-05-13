@@ -80,4 +80,6 @@ Versions of Meteor and Node
 
 # More
 
+[Platforms](https://github.com/wekan/wekan/wiki/Platforms)
+
 [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
