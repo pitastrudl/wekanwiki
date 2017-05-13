@@ -11,6 +11,7 @@ Note: Not all are available at Sandstorm yet.
 * Filtered views
 * [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): SMTP Settings, Registration to invite-only and inviting users to boards
 * Upgraded to [Meteor 1.4](https://github.com/wekan/wekan/pull/957) and [Node v4](https://github.com/wekan/wekan/issues/788) on [meteor-1.4 branch](https://github.com/wekan/wekan/tree/meteor-1.4)
+* [REST API](https://github.com/wekan/wekan/pull/1003), for more [pull requests welcome](https://github.com/wekan/wekan/issues/1037)
 
 # Already merged, will be at next version
 
@@ -26,7 +27,7 @@ Note: Not all are available at Sandstorm yet.
 
 ### Plans for API
 
-* [REST API](https://github.com/wekan/wekan/issues/166)
+
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
 
 ### Plans for Admin Panel
