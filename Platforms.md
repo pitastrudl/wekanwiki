@@ -53,7 +53,7 @@ There is also [Wekan package for deployment on a server with Cloudron installed]
 
 [Autoinstall script][autoinstall]
 
-# Ubuntu snap
+## Ubuntu snap
 
 [Ubuntu snap](https://github.com/wekan/wekan-snap)
 
