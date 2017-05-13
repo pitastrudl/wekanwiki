@@ -15,7 +15,7 @@ Note: Not all are available at Sandstorm yet.
 
 Cleanup
 
-* [Wekan database cleanup script][wekan_cleanup], 
+* [Wekan database cleanup script][https://github.com/wekan/wekan-cleanup]
 * [Docker cleanup](https://github.com/wekan/wekan/issues/985)
 
 Stats
