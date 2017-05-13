@@ -6,7 +6,7 @@ Kanban
 * Members: Invite new member, permissions Admin/Normal/Comment only, drag-drop member to assign to task 
 * Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments
 * Multi-selection => Checkmark select cards => drag-drop all selected to some list
-* Markdown in card description and comments
+* [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
 * Filtered views
 
 Authentication, Admin Panel, SMTP Settings
