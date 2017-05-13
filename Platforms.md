@@ -19,6 +19,8 @@ Docker and source based installs. You can also
 
 [Install from source][install_source]
 
+* [Install from source on Windows][installsource_windows], see [this issue](https://github.com/wekan/wekan/issues/977)
+
 ## VirtualBox
 
 [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
@@ -57,21 +59,14 @@ There is also [Wekan package for deployment on a server with Cloudron installed]
 
 [Ubuntu snap](https://github.com/wekan/wekan-snap)
 
-Needs to be updated to newest Wekan version.
-
 ## Heroku 
 
 [![Deploy][heroku_button]][heroku_deploy]
 
+* [Need checking: Heroku deployment quide](https://github.com/wekan/wekan/issues/693), [Deploy error](https://github.com/wekan/wekan/issues/638), [Problem with Heroku](https://github.com/wekan/wekan/issues/532)
 * Email to work on already working Heroku: Use 3rd party email like SendGrid, update process.env.MAIL_URL ,
 change from email at Accounts.emailTeamplates.from , new file in server folder called smtp.js on code
 `Meteor.startup(function () });` . TODO: Test and find a way to use API keys instead.
-
-# Upcoming
-
-Support will be added after upgrading to Meteor 1.4 and Node v4.
-
-* [Install from source on Windows][installsource_windows], see [this issue](https://github.com/wekan/wekan/issues/977)
 
 # Not tested yet
 
