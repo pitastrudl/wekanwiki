@@ -59,7 +59,7 @@ There is also [Wekan package for deployment on a server with Cloudron installed]
 
 [Ubuntu snap](https://github.com/wekan/wekan-snap)
 
-* [Needs updating](https://discourse.wekan.io/t/firefox-can-t-establish-a-connection-to-the-server-at-127-0-0-1/500)
+[Needs updating](https://discourse.wekan.io/t/firefox-can-t-establish-a-connection-to-the-server-at-127-0-0-1/500)
 
 ## Heroku 
 
