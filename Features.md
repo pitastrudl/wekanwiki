@@ -17,7 +17,7 @@ Note: Not all are available at Sandstorm yet.
 
 * [Changelog](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
 
-# Upcoming
+# Wishes for pull requests
 
 ### Existing pull requests, cleanup/cherry-picking/new pull request welcome
 
@@ -25,18 +25,18 @@ Note: Not all are available at Sandstorm yet.
 * [Move/Clone Board/List](https://github.com/wekan/wekan/pull/446) and [Move or copy cards from one board to another](https://github.com/wekan/wekan/issues/797) that [needs help in implementation](https://github.com/wekan/wekan/issues/979)
 * [Replace CollectionFS with meteor-file-collection](https://github.com/wekan/wekan/pull/875)
 
-### Plans for API
+### Wishes for API pull requests
 
 
 * [Using API to script Email to board/card, notifications on cards to email, etc](https://github.com/wekan/wekan/issues/794)
 
-### Plans for Admin Panel
+### Wishes for Admin Panel
 
 * [SMTP test, show possible errors on that test webpage](https://github.com/wekan/wekan/issues/949)
 * [Teams/Organizations](https://github.com/wekan/wekan/issues/802) including Add/Modify/Remove Teams/Users/Passwords and Private/Public Team settings
 * [Themes](https://github.com/wekan/wekan/issues/781) and making custom apps with Themes
 
-### Plans for Boards
+### Wishes for Boards
 
 * [International Date Formatting for Due Date](https://github.com/wekan/wekan/issues/838)
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
