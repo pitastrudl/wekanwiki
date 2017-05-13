@@ -19,9 +19,9 @@ Docker and source based installs. You can also
 
 [Install from source][install_source]
 
-## Virtualbox
+## VirtualBox
 
-* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+[Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 
 ## Sandstorm
 
