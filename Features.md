@@ -1,16 +1,25 @@
 # Current
 
-Note: Not all are available at Sandstorm yet.
+Authentication, Admin Panel, SMTP Settings
 
-* Import from Trello (Not on Sandstorm yet)
-* Sandstorm: LDAP, passwordless email, SAML, GitHub and Google Auth
+* Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP 
+* Sandstorm Platform: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. Wekan, Rocket.Chat, etc apps available with one click install.
+
+Kanban
+
 * Checklists
 * Card comments
 * Member assignations to board
 * Customizable labels
 * Filtered views
-* [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): SMTP Settings, Registration to invite-only and inviting users to boards
-* Upgraded to [Meteor 1.4](https://github.com/wekan/wekan/pull/957) and [Node v4](https://github.com/wekan/wekan/issues/788) on [meteor-1.4 branch](https://github.com/wekan/wekan/tree/meteor-1.4)
+
+Import
+
+* Import from Trello: Text, labels, images, comments, checklists (checklist import needs to be checked, are checklists imported correctly). Not imported yet: stickers, etc.
+
+
+API
+
 * [REST API](https://github.com/wekan/wekan/pull/1003), for more [pull requests welcome](https://github.com/wekan/wekan/issues/1037)
 
 Cleanup
@@ -24,6 +33,10 @@ Stats
 ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash)
 * [Statistics Python script for Wekan Dashboard](https://github.com/wekan/wekan-stats)
 * [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010) with [fix to replace console.log by winston logger](https://github.com/wekan/wekan/pull/1033)
+
+Versions of Meteor and Node
+
+* Upgraded to [Meteor 1.4](https://github.com/wekan/wekan/pull/957) and [Node v4](https://github.com/wekan/wekan/issues/788) on [meteor-1.4 branch](https://github.com/wekan/wekan/tree/meteor-1.4)
 
 # Already merged, will be at next version
 
