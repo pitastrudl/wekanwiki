@@ -2,10 +2,10 @@
 
 Kanban
 
-* Checklists
-* Card comments
-* Member assignations to board
-* Customizable labels
+* Boards: List of all your public and private boards, board shortcuts at top of page
+* Members: Invite new member, permissions Admin/Normal/Comment only, drag-drop to assign to task 
+* Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments
+* Markdown in card description and comments
 * Filtered views
 
 Authentication, Admin Panel, SMTP Settings
