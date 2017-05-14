@@ -31,6 +31,6 @@ The user interface in Sandstorm is one of Sandstorm's [long list of high-end sec
 
 ### Sandstorm
 
-* works only on x64 platform
-* Sandstorm requires at least 1GB RAM
+* Works only on x64 platform
+* Requires at least 1GB RAM
 * Is very efficient in handling RAM, shutting down sandboxes/grains when they are not in use.
