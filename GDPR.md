@@ -8,7 +8,7 @@ Date | Requirements | Sanctions if not ready
 ------------ | ------------- | ------------
 2017-05-13 | Started documenting project with pen to paper in Finnish and English | Unable to do business legally if not documented everything, including process of preparing to legislation
 2017-05-31 | Need to find missing keys | Pay for expensive changing of locks
-- | Found from home all harddrives, USB sticks, etc | -
-- | Downloaded all data from Internet | - 
-- | Sorted and moved all data on offline computer to different Qubes OS AppVMs named by person | -
+Someday | Found from home all harddrives, USB sticks, etc | Not known yet
+Someday | Downloaded all data from Internet | Not known yet
+Someday | Sorted and moved all data on offline computer to different Qubes OS AppVMs named by person | Not known yet
 2018-04-25 | All data stored securely following GDPR | Unable to do business legally
