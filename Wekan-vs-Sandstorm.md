@@ -11,7 +11,7 @@ This is totally oversimplified TLDR comparison that leaves out a lot of details.
 
 ### Wekan
 
-[Themes feature description](https://github.com/wekan/wekan/issues/781), pull requests welcome.
+[Themes feature](https://github.com/wekan/wekan/issues/781), pull requests welcome.
 
 ### Sandstorm
 
