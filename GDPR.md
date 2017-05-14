@@ -26,3 +26,4 @@ There is very high penalties for security breaches. If I have not considered som
 
 [Qubes 4.x certified hardware](https://www.qubes-os.org/news/2016/07/21/new-hw-certification-for-q4/) when it becomes available.
 
+It's not wise to spend money on broken insecure hardware before these come available. Just keep using your current hardware and keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all your files and demand that you give money, bitcoins, etc to get your files back.
