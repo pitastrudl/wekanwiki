@@ -74,5 +74,6 @@ Spreadsheet | MS Excel | Google Sheets | [LibreOffice](https://www.libreoffice.o
 Presentations | MS PowerPoint | Google Slides | [LibreOffice](https://www.libreoffice.org) Impress | Sandstorm / Hacker Slides
 RAD Database | MS Access | - | [LibreOffice](https://www.libreoffice.org) Base | [nuBuilderPro](https://www.nubuilder.net)
 Basic Programming | MS Visual Basic | - | [Gambas](http://gambas.sourceforge.net) | [Gambas](http://gambas.sourceforge.net)
+Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org), Dia | Sandstorm / draw.io
 Password manager | LastPass | LastPass | keepass2 | Sandstorm / Sandpass
 SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
