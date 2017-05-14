@@ -11,11 +11,11 @@ This is totally oversimplified TLDR comparison that leaves out a lot of details.
 
 ### Wekan
 
-Ongoing work on [Themes feature](https://github.com/wekan/wekan/issues/781).
+[Themes feature description](https://github.com/wekan/wekan/issues/781), pull requests welcome.
 
 ### Sandstorm
 
-You can vote adding [Themes feature](https://github.com/sandstorm-io/sandstorm/issues/1713#issuecomment-301274498), or do pull request.
+[Themes feature](https://github.com/sandstorm-io/sandstorm/issues/1713#issuecomment-301274498), pull requests welcome.
 
 [Current Admin Panel / Authentication screenshots](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8).
 
