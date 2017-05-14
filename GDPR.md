@@ -47,4 +47,8 @@ Raspberry Pi  or similar ARM device without built-in wireless, so it can be used
 
 ### Software
 
-Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all my files and demand that I give money, bitcoins, etc to get my files back. Malware exists for all platforms, including Mac and Linux.
+Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all my files and demand that I give money, bitcoins, etc to get my files back. Malware exists for all platforms, including Linux.
+
+I need to have source code for every software I use, and tested working way to compile it from source.
+
+I need to test and have working way to [recover from compromise](https://www.qubes-os.org/news/2017/04/26/qubes-compromise-recovery/).
