@@ -27,7 +27,7 @@ The user interface in Sandstorm is one of Sandstorm's [long list of high-end sec
 ### Wekan
 
 * Can run on less powerful hardware than Sandstorm
-* Could potentially run on ARM, if there is Meteor.js port for ARM. Some platform running on Raspberry Pi could already have it, someone needs to do more research about it.
+* Could potentially run on ARM, if there is Meteor.js port for ARM. Some platform running on Raspberry Pi could already have Wekan, someone needs to do more research about it.
 
 ### Sandstorm
 
