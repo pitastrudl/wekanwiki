@@ -5,7 +5,8 @@ This is totally oversimplified TLDR comparison that leaves out a lot of details.
 * Authentication
 * Admin Panel
 * Wekan kanban board
-* Can run on Ubuntu 16.04 64bit, including [Sandstorm inside Docker](https://docs.sandstorm.io/en/latest/install/#option-6-using-sandstorm-within-docker)
+* Can run on Ubuntu 16.04 64bit from source install
+* Can run inside Docker, see [Sandstorm within Docker](https://docs.sandstorm.io/en/latest/install/#option-6-using-sandstorm-within-docker)
 
 ## Difference: User interface
 
