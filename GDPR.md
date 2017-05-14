@@ -66,3 +66,12 @@ b) Is there storage media that has physical hardware switch that makes media rea
 I need to have source code for every software I use, and tested working way to compile it from source.
 
 I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04/26/qubes-compromise-recovery/).
+
+Software | Propietary Desktop | FLOSS Desktop | Propietary Web |  | FLOSS Web
+------------ | ------------- | ------------ | ------------ | ------------
+Word processing | MS Word | Google Docs | LibreOffice Writer | Sandstorm / Etherpad
+Spreadsheet | MS Excel | Google Sheets | LibreOffice Calc | Sandstorm / EtherCalc
+Presentations | MS PowerPoint | Google Slides | LibreOffice Impress | Sandstorm / Hacker Slides
+
+Server software | Propietary | FLOSS
+SIEM | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
