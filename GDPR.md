@@ -19,3 +19,7 @@ Date | Requirements | Sanctions if not ready
 ## Security requirements
 
 There is very high penalties for security breaches. If I have not considered some security aspect, please add it to this wiki page.
+
+### Hardware
+
+[Rowhammer](https://en.wikipedia.org/wiki/Row_hammer) protection, see [LWN article](https://lwn.net/Articles/704920/), [SN576](https://twit.tv/shows/security-now/episodes/576), [SN583](https://twit.tv/shows/security-now/episodes/583). Without it, just browsing Internet with Javascript enabled makes it possible to [exploit](https://github.com/IAIK/rowhammerjs) through all layers of virtualization protections and install malware to firmware like UEFI etc, so it ...
