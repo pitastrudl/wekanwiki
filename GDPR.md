@@ -4,8 +4,8 @@ I (xet7) was this week at [Drupalcamp Nordics 2017](http://www.drupalcampnordics
 
 ## Deadlines
 
-2017-05-13 Start of the project.
-
 Date | Requirements | Sanctions if not ready
 ------------ | ------------- | ------------
 2017-05-13 | Started documenting project with pen to paper in Finnish and English | Unable to do business legally if not documented everything, including process of preparing to legislation
+2017-05-31 | Need to find missing keys | Pay for expensive changing of locks
+2018-04-25 | All data stored securely following GDPR | Unable to do business legally
