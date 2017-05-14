@@ -51,4 +51,4 @@ Keep multiple encrypted offline backups, preferably on write-only media. Otherwi
 
 I need to have source code for every software I use, and tested working way to compile it from source.
 
-I need to test and have working way to [recover from compromise](https://www.qubes-os.org/news/2017/04/26/qubes-compromise-recovery/).
+I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04/26/qubes-compromise-recovery/).
