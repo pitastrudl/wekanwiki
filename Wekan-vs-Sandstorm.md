@@ -23,4 +23,5 @@ Sandstorm
 * Is very efficient in handling RAM, shutting down sandboxes/grains when they are not in use.
 
 Wekan
+* Can run on less powerful hardware than Sandstorm
 * Could potentially run on ARM, if there is Meteor.js port for ARM. Some platform running on Raspberry Pi could already have it, someone needs to do more research about it.
