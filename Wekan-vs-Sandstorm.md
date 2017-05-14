@@ -1,3 +1,5 @@
+This is totally oversimplified TLDR comparison that leaves out a lot of details.
+
 ## Both Wekan and Sandstorm
 
 * Authentication
