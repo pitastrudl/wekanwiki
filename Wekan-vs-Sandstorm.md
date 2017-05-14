@@ -11,7 +11,7 @@ This is totally oversimplified TLDR comparison that leaves out a lot of details.
 
 ### Wekan
 
-Ongoing work on on [Themes feature](https://github.com/wekan/wekan/issues/781).
+Ongoing work on [Themes feature](https://github.com/wekan/wekan/issues/781).
 
 ### Sandstorm
 
