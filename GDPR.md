@@ -76,8 +76,8 @@ RAD Database | MS Access | - | [LibreOffice](https://www.libreoffice.org) Base |
 Basic Programming | MS Visual Basic | - | [Gambas](http://gambas.sourceforge.net) | [Gambas](http://gambas.sourceforge.net)
 Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org), Dia | [Sandstorm](https://sandstorm.io) / draw.io
 Password manager | LastPass | LastPass | keepass2 | [Sandstorm](https://sandstorm.io) / Sandpass
-Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://wekan.github.io)
+Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
 SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
