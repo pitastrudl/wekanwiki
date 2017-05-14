@@ -39,6 +39,10 @@ b) If hardware does not support Qubes OS, I will install some of these:
 * [Subgraph OS](https://subgraph.com/sgos/)
 * [True OS/FreeNAS](https://www.trueos.org), see [FLOSS423](https://twit.tv/shows/floss-weekly/episodes/432)
 
+#### Hardening
+
+[Intel AMT Checker for Linux](https://github.com/mjg59/mei-amt-check) and it's [Hacker News article](https://news.ycombinator.com/item?id=14335159). For me it shows "Intel AMT is present, AMT is unprovisioned". I need to check all hardware and disable AMT where possible.
+
 ##### Future
 
 [Rowhammer](https://en.wikipedia.org/wiki/Row_hammer) protection, see [LWN article](https://lwn.net/Articles/704920/), [SN576](https://twit.tv/shows/security-now/episodes/576), [SN583](https://twit.tv/shows/security-now/episodes/583). Without it, just browsing Internet with Javascript enabled makes it possible to [exploit using Javascript on webpage](https://github.com/IAIK/rowhammerjs) through all layers of virtualization protections and install malware to firmware like UEFI/Graphics card card/harddrive/SD card etc, so it is not possible get clean computer by just securely erasing harddrive. Alternatively malware can then brick computer, making it unable to boot, as has already happened to IoT devices connected to Internet. Currently Google Cloud kills immediately VMs that try to use Rowhammer serverside code. This is needed for all devices in use.
@@ -62,7 +66,3 @@ b) Is there storage media that has physical hardware switch that makes media rea
 I need to have source code for every software I use, and tested working way to compile it from source.
 
 I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04/26/qubes-compromise-recovery/).
-
-### Hardening
-
-[Intel AMT Checker for Linux](https://github.com/mjg59/mei-amt-check) and it's [Hacker News article](https://news.ycombinator.com/item?id=14335159). For me it shows "Intel AMT is present, AMT is unprovisioned". I need to check all hardware and disable AMT where possible.
