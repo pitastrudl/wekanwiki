@@ -1,10 +1,16 @@
-In totally oversimplified level skipping totally too much details, both Wekan and Sandstorm have:
+## Both Wekan and Sandstorm
 
 * Authentication
 * Admin Panel
 * Wekan kanban board
 * Can run on Ubuntu 16.04 64bit, including [Sandstorm inside Docker](https://docs.sandstorm.io/en/latest/install/#option-6-using-sandstorm-within-docker)
 
-For some, difference is [the user interface in Sandstorm](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8). For just only Wekan, there is ongoing work on on [Themes feature](https://github.com/wekan/wekan/issues/781).
+## Difference: User interface
 
-https://docs.sandstorm.io/en/latest/using/security-practices/
+[Sandstorm Admin Panel / Authentication](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8).
+
+In Wekan, there is ongoing work on on [Themes feature](https://github.com/wekan/wekan/issues/781).
+
+In Sandstorm, you can vote adding [Themes feature](https://github.com/sandstorm-io/sandstorm/issues/1713#issuecomment-301274498)
+
+The user interface in Sandstorm is one Sandstorm's [security features](https://docs.sandstorm.io/en/latest/using/security-practices/) protecting potentially malicious applications running on Sandstorm sandboxes/grains to hijack whole full screen interface and do phishing of information, stealing admin credentials when replacing admin menus, etc. It's black to be totally recognizable and different from other applications. Having it hidden or on not so dark would make new users to not find it.
