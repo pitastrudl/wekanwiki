@@ -47,4 +47,4 @@ Raspberry Pi  or similar ARM device without built-in wireless, so it can be used
 
 ### Software
 
-Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all my files and demand that I give money, bitcoins, etc to get my files back.
+Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all my files and demand that I give money, bitcoins, etc to get my files back. Malware exists for all platforms, including Mac and Linux.
