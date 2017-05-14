@@ -47,7 +47,7 @@ Raspberry Pi  or similar ARM device without built-in wireless, so it can be used
 
 ### Software
 
-Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all my files and demand that I give money, bitcoins, etc to get my files back. Malware exists for all platforms, including Linux.
+I need to keep multiple encrypted offline backups. Otherwise some ransomware will just encrypt all my files and demand that I give money, bitcoins, etc to get my files back. Malware exists for all platforms, including Linux. I need to find a) is there storage media that has physical hardware switch that makes media read-only b) use write-only media.
 
 I need to have source code for every software I use, and tested working way to compile it from source.
 
