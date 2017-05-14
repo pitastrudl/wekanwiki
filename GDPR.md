@@ -39,7 +39,7 @@ b) If hardware does not support Qubes OS, I will install some of these:
 
 ### Hardware: ARM
 
-Raspberry Pi  or similar ARM device without built-in wireless, so it can be used offline. Fanless preferred to keep it completely silent. I don't know is there any writeable firmware in Raspberry Pi at all, is SD card only writeable storage.
+Raspberry Pi  or similar ARM device without built-in wireless, so it can be used offline. Fanless preferred to keep it completely silent. I don't know is there any writeable firmware in RasPi at all, is SD card only writeable storage. AFAIK RasPi hardware does not have any hardware virtualization or Rowhammer protection features.
 
 ### Software
 
