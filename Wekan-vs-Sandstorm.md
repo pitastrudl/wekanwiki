@@ -23,11 +23,13 @@ The user interface in Sandstorm is one Sandstorm's [long list of high-end securi
 
 ## Difference: Hardware requirements
 
-Sandstorm
+### Sandstorm
+
 * works only on x64 platform
 * Sandstorm requires at least 1GB RAM
 * Is very efficient in handling RAM, shutting down sandboxes/grains when they are not in use.
 
-Wekan
+### Wekan
+
 * Can run on less powerful hardware than Sandstorm
 * Could potentially run on ARM, if there is Meteor.js port for ARM. Some platform running on Raspberry Pi could already have it, someone needs to do more research about it.
