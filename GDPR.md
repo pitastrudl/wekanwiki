@@ -39,7 +39,7 @@ b) If hardware does not support Qubes OS, I will install some of these:
 * [Subgraph OS](https://subgraph.com/sgos/)
 * [True OS/FreeNAS](https://www.trueos.org), see [FLOSS423](https://twit.tv/shows/floss-weekly/episodes/432)
 
-#### Hardening
+##### Hardening
 
 [Intel AMT Checker for Linux](https://github.com/mjg59/mei-amt-check) and it's [Hacker News article](https://news.ycombinator.com/item?id=14335159). For me it shows "Intel AMT is present, AMT is unprovisioned". I need to check all hardware and disable AMT where possible.
 
