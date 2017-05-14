@@ -9,7 +9,7 @@ This is totally oversimplified TLDR comparison that leaves out a lot of details.
 
 ## Difference: User interface
 
-[Sandstorm Admin Panel / Authentication](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8).
+Sandstorm Admin Panel / Authentication [screenshots](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8).
 
 In Wekan, there is ongoing work on on [Themes feature](https://github.com/wekan/wekan/issues/781).
 
