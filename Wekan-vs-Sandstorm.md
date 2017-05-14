@@ -17,7 +17,7 @@ Ongoing work on on [Themes feature](https://github.com/wekan/wekan/issues/781).
 
 You can vote adding [Themes feature](https://github.com/sandstorm-io/sandstorm/issues/1713#issuecomment-301274498).
 
-Admin Panel / Authentication [screenshots](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8).
+[Current Admin Panel / Authentication screenshots](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8).
 
 The user interface in Sandstorm is one Sandstorm's [long list of high-end security features](https://docs.sandstorm.io/en/latest/using/security-practices/) protecting potentially malicious applications running on Sandstorm sandboxes/grains to hijack whole full screen interface and do phishing of information, stealing admin credentials when replacing admin menus, etc. It's black to be totally recognizable and different from other applications. Having it hidden or on not so dark would make new users to not find it. There has been usability testing of Sandstorm's user interface. Sandstorm has been fully security audited and found problems fixes already.
 
