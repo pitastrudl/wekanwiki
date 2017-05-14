@@ -15,3 +15,7 @@ Date | Requirements | Sanctions if not ready
 2017- | Converted all propietary file formats to free software file formats, like JSON etc. | Not known yet
 2017- | Implemented exporting of all data to file download, and deleting of persons data in web interface | Not known yet
 2018-04-25 | All data stored securely following GDPR | Unable to do business legally
+
+## Security requirements
+
+There is very high penalties for security breaches. If I have not considered some security aspect, please add it to this wiki page.
