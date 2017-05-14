@@ -41,7 +41,7 @@ b) If hardware does not support Qubes OS, I will install some of these:
 
 ##### Hardening
 
-[Intel AMT Checker for Linux](https://github.com/mjg59/mei-amt-check) and it's [Hacker News article](https://news.ycombinator.com/item?id=14335159). For me it shows "Intel AMT is present, AMT is unprovisioned". I need to check all hardware and disable AMT where possible.
+[Intel AMT Checker for Linux](https://github.com/mjg59/mei-amt-check) and it's [Hacker News article](https://news.ycombinator.com/item?id=14335159). For me it shows Intel AMT is present, AMT is unprovisioned. I need to check all hardware and disable AMT where possible.
 
 ##### Future
 
