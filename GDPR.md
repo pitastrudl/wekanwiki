@@ -8,7 +8,7 @@ Date | Requirements | Sanctions if not ready
 ------------ | ------------- | ------------
 2017-05-13 | Started documenting project with pen to paper in Finnish and English. This wiki page history is also used to show versions of process. | Unable to do business legally if not documented everything, including process of preparing to regulation
 2017-05-31 | Need to find missing keys | Pay for expensive changing of locks
-2017- | Fiund from home all harddrives, USB sticks, etc | Not known yet
+2017- | Find from home all harddrives, USB sticks, etc | Not known yet
 2017- | Downloaded all data from Internet | Not known yet
 2017- | Sorted and moved all data on offline computer to different Qubes OS AppVMs named by person | Not known yet
 2017- | Found all required alternatives to propietary software from Qubes OS and Sandstorm | Not known yet
