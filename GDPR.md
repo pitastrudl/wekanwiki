@@ -36,4 +36,5 @@ Keep multiple encrypted offline backups, preferably on write-only media. Otherwi
 
 ### Hardware: ARM
 
-Raspberry Pi without built-in wireless, so you can use it offline.
+Raspberry Pi  or similar ARM device without built-in wireless, so it can be used offline. Fanless preferred to keep it completely silent. I don't know is there any writeable firmware in Raspberry Pi at all, is SD card only writeable storage.
+
