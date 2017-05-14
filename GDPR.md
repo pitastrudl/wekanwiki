@@ -20,13 +20,13 @@ Date | Requirements | Sanctions if not ready
 
 There is very high penalties for security breaches. If I have not considered some security aspect, please add it to this wiki page.
 
-### Hardware
-
-#### x64
+### Hardware: x64
 
 ##### Current
 
-At least hardware capable of running current version of Qubes. Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all your files and demand that you give money, bitcoins, etc to get your files back.
+At least hardware capable of running current version 3.x of Qubes. Laptop/Desktop hardware should be silent, otherwise it disturbs work. Qubes-certified laptops are nice, it has hardware switches to turn off wireless. Alternatively desktop PC that has not any wireless WLAN, Bluetooth etc device integrated.
+
+Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all your files and demand that you give money, bitcoins, etc to get your files back.
 
 ##### Future
 
@@ -34,3 +34,6 @@ At least hardware capable of running current version of Qubes. Keep multiple enc
 
 [Qubes 4.x certified hardware](https://www.qubes-os.org/news/2016/07/21/new-hw-certification-for-q4/) when it becomes available.
 
+### Hardware: ARM
+
+Raspberry Pi without built-in wireless, so you can use it offline.
