@@ -24,9 +24,12 @@ There is very high penalties for security breaches. If I have not considered som
 
 ##### Current
 
-At least hardware capable of running current version 3.x of Qubes. Laptop/Desktop hardware should be silent, otherwise it disturbs work. Qubes-certified laptops are nice, it has hardware switches to turn off wireless. Alternatively desktop PC that has not any wireless WLAN, Bluetooth etc device integrated.
+a) Current version 3.x of [Qubes OS](https://www.qubes-os.org), if hardware supports it. Laptop/Desktop hardware should be silent, otherwise it disturbs work. Qubes-certified laptops are nice, it has hardware switches to turn off wireless. Alternatively desktop PC that has not any wireless WLAN, Bluetooth etc device integrated.
 
-Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all your files and demand that you give money, bitcoins, etc to get your files back.
+b) If hardware does not support Qubes OS, I will install some of these:
+
+* [Subgraph OS](https://subgraph.com/sgos/)
+* [True OS/FreeNAS](https://www.trueos.org), see [FLOSS423](https://twit.tv/shows/floss-weekly/episodes/432)
 
 ##### Future
 
@@ -38,3 +41,6 @@ Keep multiple encrypted offline backups, preferably on write-only media. Otherwi
 
 Raspberry Pi  or similar ARM device without built-in wireless, so it can be used offline. Fanless preferred to keep it completely silent. I don't know is there any writeable firmware in Raspberry Pi at all, is SD card only writeable storage.
 
+### Software
+
+Keep multiple encrypted offline backups, preferably on write-only media. Otherwise some ransomware will just encrypt all your files and demand that you give money, bitcoins, etc to get your files back.
