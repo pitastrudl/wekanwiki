@@ -15,7 +15,7 @@ Ongoing work on [Themes feature](https://github.com/wekan/wekan/issues/781).
 
 ### Sandstorm
 
-You can vote adding [Themes feature](https://github.com/sandstorm-io/sandstorm/issues/1713#issuecomment-301274498).
+You can vote adding [Themes feature](https://github.com/sandstorm-io/sandstorm/issues/1713#issuecomment-301274498), or do pull request.
 
 [Current Admin Panel / Authentication screenshots](https://discourse.wekan.io/t/sso-passing-variables-through-url/493/8).
 
