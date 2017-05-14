@@ -69,11 +69,15 @@ I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04
 
 Software | Propietary Desktop | Propietary Web | FLOSS Desktop | FLOSS Web
 ------------ | ------------- | ------------ | ------------ | ------------
-Word processing | MS Word | Google Docs | [LibreOffice](https://www.libreoffice.org) Writer | Sandstorm / Etherpad
-Spreadsheet | MS Excel | Google Sheets | [LibreOffice](https://www.libreoffice.org) Calc | Sandstorm / EtherCalc
-Presentations | MS PowerPoint | Google Slides | [LibreOffice](https://www.libreoffice.org) Impress | Sandstorm / Hacker Slides
+Word processing | MS Word | Google Docs | [LibreOffice](https://www.libreoffice.org) Writer | [Sandstorm](https://sandstorm.io) / [Etherpad](http://etherpad.org)
+Spreadsheet | MS Excel | Google Sheets | [LibreOffice](https://www.libreoffice.org) Calc | [Sandstorm](https://sandstorm.io) / [EtherCalc](https://ethercalc.net)
+Presentations | MS PowerPoint | Google Slides | [LibreOffice](https://www.libreoffice.org) Impress | [Sandstorm](https://sandstorm.io) / Hacker Slides
 RAD Database | MS Access | - | [LibreOffice](https://www.libreoffice.org) Base | [nuBuilderPro](https://www.nubuilder.net)
 Basic Programming | MS Visual Basic | - | [Gambas](http://gambas.sourceforge.net) | [Gambas](http://gambas.sourceforge.net)
-Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org), Dia | Sandstorm / draw.io
-Password manager | LastPass | LastPass | keepass2 | Sandstorm / Sandpass
+Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org), Dia | [Sandstorm](https://sandstorm.io) / draw.io
+Password manager | LastPass | LastPass | keepass2 | [Sandstorm](https://sandstorm.io) / Sandpass
+Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
+Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://wekan.github.io)
+Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
+Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
 SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
