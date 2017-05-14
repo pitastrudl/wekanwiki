@@ -20,7 +20,9 @@ Date | Requirements | Sanctions if not ready
 
 ## Security requirements
 
-There is very high penalties for security breaches. If I have not considered some security aspect, please add it to this wiki page. I need to know exactly where all my data physically is. It's not OK to spread it all over Internet in cloud services Google/AWS/Amazon/Dropbox etc. I need the abitily to absolutely have the proof and knowledge that when I delete one person's data, it's gone, totally, completely, from everywhere.
+There is very high penalties for security breaches. If I have not considered some security aspect, please add it to this wiki page.
+
+I need to know exactly where all my data physically is. It's not OK to spread it all over Internet in cloud services Google/AWS/Amazon/Dropbox etc. I need the abitily to absolutely have the proof and knowledge that when I delete one person's data, it's gone, totally, completely, from everywhere.
 
 ### Hardware: x64
 
