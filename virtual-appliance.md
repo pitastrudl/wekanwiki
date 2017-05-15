@@ -1,4 +1,4 @@
-1) by xet7
+1) by xet7, up-to-date / updated often
 
 https://wekan.xet7.org
 
