@@ -75,7 +75,7 @@ Word processing | MS Word | Google Docs | [LibreOffice](https://www.libreoffice.
 Spreadsheet | MS Excel | Google Sheets | [LibreOffice](https://www.libreoffice.org) Calc | [Sandstorm](https://sandstorm.io) / [EtherCalc](https://ethercalc.net)
 Presentations | MS PowerPoint | Google Slides | [LibreOffice](https://www.libreoffice.org) Impress | [Sandstorm](https://sandstorm.io) / Hacker Slides
 RAD Database | MS Access | - | [LibreOffice](https://www.libreoffice.org) Base | [nuBuilderPro](https://www.nubuilder.net)
-Basic Programming | MS Visual Basic | - | [Gambas](http://gambas.sourceforge.net) | [Gambas](http://gambas.sourceforge.net)
+Basic Programming | MS Visual Basic | - | [Gambas](http://gambas.sourceforge.net) see [FLOSS353](https://twit.tv/shows/floss-weekly/episodes/353) | [Gambas](http://gambas.sourceforge.net)
 Pascal Programming | Delphi | - | [Lazarus](https://www.lazarus-ide.org), [Lazarus for Amiga, AROS, MorphOS](https://blog.alb42.de/virtual-lazarus), [Ultibo IoT OS for Raspberry Pi](https://ultibo.org) | -
 Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org) has also JPG to SVG etc, Dia | [Sandstorm](https://sandstorm.io) / draw.io
 Password manager | LastPass | LastPass | keepass2 | [Sandstorm](https://sandstorm.io) / Sandpass
