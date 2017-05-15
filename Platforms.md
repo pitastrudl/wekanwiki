@@ -61,7 +61,7 @@ https://sandstorm.io
 
 [![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
 
-# Could be broken
+# Could be broken or not up-to-date
 
 ### Debian
 
