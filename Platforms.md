@@ -73,6 +73,10 @@ https://sandstorm.io
 
 [Install from source on Windows][installsource_windows], needs [fix for dependencies install error](https://github.com/wekan/wekan/issues/977)
 
+### Uberspace
+
+[Install on Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
+
 ### Heroku 
 
 [![Deploy][heroku_button]][heroku_deploy]
