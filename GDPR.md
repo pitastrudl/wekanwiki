@@ -77,7 +77,7 @@ Presentations | MS PowerPoint | Google Slides | [LibreOffice](https://www.libreo
 RAD Database | MS Access | - | [LibreOffice](https://www.libreoffice.org) Base | [nuBuilderPro](https://www.nubuilder.net)
 Basic Programming | MS Visual Basic | - | [Gambas](http://gambas.sourceforge.net) | [Gambas](http://gambas.sourceforge.net)
 Pascal Programming | Delphi | - | [Lazarus](https://www.lazarus-ide.org), [Lazarus for Amiga, AROS, MorphOS](https://blog.alb42.de/virtual-lazarus), [Ultibo IoT OS for Raspberry Pi](https://ultibo.org) | -
-Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org) has alsoJPG to SVG or PDF etc, Dia | [Sandstorm](https://sandstorm.io) / draw.io
+Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org) has also JPG/PDF to SVG/PDF etc, Dia | [Sandstorm](https://sandstorm.io) / draw.io
 Password manager | LastPass | LastPass | keepass2 | [Sandstorm](https://sandstorm.io) / Sandpass
 Hardware info | CPU-Z | - | [I-Nex](http://i-nex.linux.pl) | -
 Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://wekan.github.io)
