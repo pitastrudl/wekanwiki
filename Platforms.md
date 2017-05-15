@@ -1,31 +1,49 @@
 First registered Wekan user will get Admin Panel on new Docker and source based
 installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
 
-# Supported
+# Up-to-date
 
 Automatic generated newest builds are available for Docker, and platforms that
 install directly from this repo. Automatic builds will be added later for more
-platforms.
+platforms. Manually built platforms are updated often.
 
 First registered Wekan user will get [Admin Panel][features] on new
 Docker and source based installs. You can also
 [enable Admin Panel manually][enable_adminpanel].
 
-## Docker
+### Docker
 
 [Install via Docker](https://github.com/wekan/wekan/wiki/Docker)
 
-## Source
+### Source
 
 [Install from source][install_source]
 
 [Install from source on Windows][installsource_windows], needs [fix for dependencies install error](https://github.com/wekan/wekan/issues/977)
 
-## VirtualBox
+### VirtualBox
 
 [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 
-## Sandstorm
+### Indiehosters
+
+[![SignUp][indiehosters_button]][indiehosters_saas]
+
+### Cloudron
+
+[![Install on Cloudron][cloudron_button]][cloudron_install]
+
+[Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html)
+
+[Package repo](https://git.cloudron.io/cloudron/wekan-app)
+
+### Scalingo
+
+[![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
+
+# Updated sometimes
+
+### Sandstorm
 
 [![Try on Sandstorm][sandstorm_button]][sandstorm_appdemo]
 
@@ -35,35 +53,19 @@ https://sandstorm.io
 
 [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
 
-## Indiehosters
-
-[![SignUp][indiehosters_button]][indiehosters_saas]
-
-## Cloudron
-
-[![Install on Cloudron][cloudron_button]][cloudron_install]
-
-[Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html)
-
-[Package repo](https://git.cloudron.io/cloudron/wekan-app)
-
-## Scalingo
-
-[![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
-
-## Debian
+### Debian
 
 [Debian Wheezy 64bit & Devuan Jessie 64 bit][debian_wheezy_devuan_jessie]
 
 [Autoinstall script][autoinstall]
 
-## Ubuntu snap
+### Ubuntu snap
 
 [Ubuntu snap](https://github.com/wekan/wekan-snap)
 
 [Needs updating](https://discourse.wekan.io/t/firefox-can-t-establish-a-connection-to-the-server-at-127-0-0-1/500)
 
-## Heroku 
+### Heroku 
 
 [![Deploy][heroku_button]][heroku_deploy]
 
