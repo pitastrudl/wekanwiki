@@ -106,7 +106,7 @@ change from email at Accounts.emailTeamplates.from , new file in server folder c
 [wekan_logstash]: https://github.com/wekan/wekan-logstash
 [autoinstall]: https://github.com/wekan/wekan-autoinstall
 [autoinstall_issue]: https://github.com/anselal/wekan/issues/18
-[debian_wheezy_devuan_jessie]: https://github.com/soohwa/sps/blob/master/example/docs/1/wekan.md
+[debian_wheezy_devuan_jessie]: https://github.com/wekan/sps
 
 # More
 
