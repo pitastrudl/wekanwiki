@@ -1,6 +1,3 @@
-First registered Wekan user will get Admin Panel on new Docker and source based
-installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
-
 # Updated often
 
 Automatic generated newest builds are available for Docker, and platforms that
@@ -9,7 +6,7 @@ platforms.
 
 First registered Wekan user will get [Admin Panel][features] on new
 Docker and source based installs. You can also
-[enable Admin Panel manually][enable_adminpanel].
+[enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease).
 
 You may need these on other platforms than Sandstorm:
 * [Nginx webserver config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
