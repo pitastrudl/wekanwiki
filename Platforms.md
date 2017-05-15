@@ -1,11 +1,11 @@
 First registered Wekan user will get Admin Panel on new Docker and source based
 installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
 
-# Up-to-date
+# Updated often
 
 Automatic generated newest builds are available for Docker, and platforms that
 install directly from this repo. Automatic builds will be added later for more
-platforms. Manually built platforms are updated often.
+platforms.
 
 First registered Wekan user will get [Admin Panel][features] on new
 Docker and source based installs. You can also
