@@ -39,10 +39,6 @@ You may need these on other platforms than Sandstorm:
 
 [Package repo](https://git.cloudron.io/cloudron/wekan-app)
 
-### Scalingo
-
-[![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
-
 # Updated sometimes
 
 ### Sandstorm
@@ -54,6 +50,10 @@ https://sandstorm.io
 [Downloading latest .spk package file](https://github.com/wekan/wekan/issues/998)
 
 [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
+
+### Scalingo
+
+[![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
 
 ### Indiehosters
 
