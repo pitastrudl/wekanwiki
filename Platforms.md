@@ -25,8 +25,6 @@ You may need these on other platforms than Sandstorm:
 
 [Install from source][install_source]
 
-[Install from source on Windows][installsource_windows], needs [fix for dependencies install error](https://github.com/wekan/wekan/issues/977)
-
 ### VirtualBox
 
 [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
@@ -70,6 +68,10 @@ https://sandstorm.io
 [Ubuntu snap](https://github.com/wekan/wekan-snap)
 
 [Needs updating](https://discourse.wekan.io/t/firefox-can-t-establish-a-connection-to-the-server-at-127-0-0-1/500)
+
+### Source on Windows
+
+[Install from source on Windows][installsource_windows], needs [fix for dependencies install error](https://github.com/wekan/wekan/issues/977)
 
 ### Heroku 
 
