@@ -25,10 +25,6 @@ Docker and source based installs. You can also
 
 [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 
-### Indiehosters
-
-[![SignUp][indiehosters_button]][indiehosters_saas]
-
 ### Cloudron
 
 [![Install on Cloudron][cloudron_button]][cloudron_install]
@@ -52,6 +48,10 @@ https://sandstorm.io
 [Downloading latest .spk package file](https://github.com/wekan/wekan/issues/998)
 
 [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
+
+### Indiehosters
+
+[![SignUp][indiehosters_button]][indiehosters_saas]
 
 ### Debian
 
