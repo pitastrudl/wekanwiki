@@ -55,6 +55,8 @@ https://sandstorm.io
 
 [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
 
+# Could be broken or not updated
+
 ### Scalingo
 
 [![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
