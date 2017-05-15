@@ -80,7 +80,7 @@ Pascal Programming | Delphi | - | [Lazarus](https://www.lazarus-ide.org), [Lazar
 Diagramming | MS Visio | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org) has also JPG to SVG etc, Dia | [Sandstorm](https://sandstorm.io) / draw.io
 Password manager | LastPass | LastPass | keepass2 | [Sandstorm](https://sandstorm.io) / Sandpass
 Hardware info | CPU-Z | - | [I-Nex](http://i-nex.linux.pl) | -
-Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://wekan.github.io) see [Wekan author's talk](https://www.youtube.com/watch?v=N3iMLwCNOro) - current Wekan maintainer is [xet7](https://github.com/xet7)
+Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://wekan.github.io) see [author's talk](https://www.youtube.com/watch?v=N3iMLwCNOro) - current Wekan maintainer is [xet7](https://github.com/xet7)
 Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
