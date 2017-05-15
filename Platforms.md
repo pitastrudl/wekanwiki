@@ -37,6 +37,12 @@ You may need these on other platforms than Sandstorm:
 
 [Package repo](https://git.cloudron.io/cloudron/wekan-app)
 
+# Updated once a month
+
+### Indiehosters
+
+[![SignUp][indiehosters_button]][indiehosters_saas]
+
 # Updated sometimes
 
 ### Sandstorm
@@ -52,10 +58,6 @@ https://sandstorm.io
 ### Scalingo
 
 [![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
-
-### Indiehosters
-
-[![SignUp][indiehosters_button]][indiehosters_saas]
 
 ### Debian
 
