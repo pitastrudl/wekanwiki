@@ -69,6 +69,8 @@ I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04
 
 [Porting software to Sandstorm](https://docs.sandstorm.io/en/latest/developing/raw-packaging-guide/). Not all ports are up-to-date yet, but they are anyway protected by Sandstorm [high-end security features](https://docs.sandstorm.io/en/latest/using/security-practices/), [security audit with fixes already implemented](https://sandstorm.io/news/2017-03-02-security-review) and also [authentication and clustering](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots).
 
+[Web developer security checklist](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56) and it's [discussion on Hacker News](https://news.ycombinator.com/item?id=14346652)
+
 Software | Propietary Desktop | Propietary Web | FLOSS Desktop | FLOSS Web
 ------------ | ------------- | ------------ | ------------ | ------------
 Word processing | MS Word | Google Docs | [LibreOffice](https://www.libreoffice.org) Writer | [Sandstorm](https://sandstorm.io) / [Etherpad](http://etherpad.org)
