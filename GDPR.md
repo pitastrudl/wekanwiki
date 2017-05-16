@@ -80,8 +80,8 @@ I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04
 
 Software | Propietary Desktop | Propietary Web | FLOSS Desktop | FLOSS Web
 ------------ | ------------- | ------------ | ------------ | ------------
-[Word processing](https://en.wikipedia.org/wiki/Word_processor) | MS Word | Google Docs | [LibreOffice](https://www.libreoffice.org) Writer | [Sandstorm](https://sandstorm.io) / [Etherpad](http://etherpad.org)
-[Spreadsheet](https://en.wikipedia.org/wiki/Spreadsheet) | MS Excel | Google Sheets | [LibreOffice](https://www.libreoffice.org) Calc | [Sandstorm](https://sandstorm.io) / [EtherCalc](https://ethercalc.net)
+[Word processing](https://en.wikipedia.org/wiki/Word_processor) | [MS Word](https://en.wikipedia.org/wiki/Microsoft_Word) | [Google Docs](https://en.wikipedia.org/wiki/Google_Docs,_Sheets_and_Slides) | [LibreOffice](https://www.libreoffice.org) Writer | [Sandstorm](https://sandstorm.io) / [Etherpad](http://etherpad.org)
+[Spreadsheet](https://en.wikipedia.org/wiki/Spreadsheet) | [MS Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) | [Google Sheets](https://en.wikipedia.org/wiki/Google_Docs,_Sheets_and_Slides) | [LibreOffice](https://www.libreoffice.org) Calc | [Sandstorm](https://sandstorm.io) / [EtherCalc](https://ethercalc.net)
 [Presentations](https://en.wikipedia.org/wiki/Presentation_program) | MS PowerPoint | Google Slides | [LibreOffice](https://www.libreoffice.org) Impress | [Sandstorm](https://sandstorm.io) / Hacker Slides
 [RAD](https://en.wikipedia.org/wiki/Rapid_application_development) Database | [MS Access](https://en.wikipedia.org/wiki/Microsoft_Access) | - | [LibreOffice](https://www.libreoffice.org) Base | [nuBuilderPro](https://www.nubuilder.net)
 [Basic Programming](https://en.wikipedia.org/wiki/BASIC) | [MS Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic) | - | [Gambas](http://gambas.sourceforge.net) see [FLOSS353](https://twit.tv/shows/floss-weekly/episodes/353) | [Gambas](http://gambas.sourceforge.net)
