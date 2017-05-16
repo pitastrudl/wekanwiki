@@ -69,7 +69,7 @@ I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04
 
 [Porting software to Sandstorm](https://docs.sandstorm.io/en/latest/developing/raw-packaging-guide/). Not all ports are up-to-date yet, but they are anyway protected by Sandstorm [high-end security features](https://docs.sandstorm.io/en/latest/using/security-practices/), [security audit with fixes already implemented](https://sandstorm.io/news/2017-03-02-security-review) and also [authentication and clustering](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots).
 
-[Web developer security checklist](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56) and it's [HN discussion](https://news.ycombinator.com/item?id=14346652)
+[Web developer security checklist](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56) and it's [HN comments](https://news.ycombinator.com/item?id=14346652)
 
 Software | Propietary Desktop | Propietary Web | FLOSS Desktop | FLOSS Web
 ------------ | ------------- | ------------ | ------------ | ------------
@@ -86,7 +86,7 @@ Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://we
 Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
-Robot simulation | - | - | - | [Roboschool](https://blog.openai.com/roboschool) and [HN discussion](https://news.ycombinator.com/item?id=14346227)
+Robot simulation | - | - | - | [Roboschool](https://blog.openai.com/roboschool) and [HN comments](https://news.ycombinator.com/item?id=14346227)
 SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
 Endpoint Visibility | - | - | - | [osquery](https://osquery.io)
 Immediate changed file restore, replication and HA | - | - | - | [mgmt](https://github.com/purpleidea/mgmt)
