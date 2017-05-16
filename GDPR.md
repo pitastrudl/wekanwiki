@@ -88,3 +88,4 @@ Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstor
 Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
 SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
 Endpoint Visibility | - | - | - | [osquery](https://osquery.io)
+Immediate changed file restore | - | - | - | [mgmtconfig](https://github.com/purpleidea/mgmt)
