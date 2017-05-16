@@ -2,7 +2,7 @@
 
 Case: Implementing [EU General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) with [Wekan](https://wekan.github.io), [Sandstorm](https://sandstorm.io) and [Qubes OS](https://www.qubes-os.org).
 
-Disclaimer: All these opinions are my own, and I'm implementing this for myself. This has nothing to do with my previous, current or future employers. Everything is subject to change, as this is a process. I'm not a lawyer. I have not read the full legistlation yet, I'm just starting from the very first basic steps. GDPR has different requirements for different industries etc so this may not apply to you. I don't even know what all parts apply to me yet.
+Disclaimer: All these opinions are my own, and I'm implementing this for myself. This has nothing to do with my previous, current or future employers. Everything is subject to change, as this is a process. I'm not a [lawyer](https://en.wikipedia.org/wiki/Lawyer). I have not read the full [regulation](https://en.wikipedia.org/wiki/Regulation) yet, I'm just starting from the very first basic steps. GDPR has different requirements for different industries etc so this may not apply to you. I don't even know what all parts apply to me yet.
 
 I [xet7](https://github.com/xet7) was this week at [Drupalcamp Nordics 2017](http://www.drupalcampnordics.com) and got more details about this regulation, so I started implementing this yesterday in the way I understand it currently, using technologies I'm most familiar with: [Wekan](https://wekan.github.io), [Sandstorm](https://sandstorm.io) and [Qubes OS](https://www.qubes-os.org). All hardware and software is subject to change if better alternatives are found.
 
