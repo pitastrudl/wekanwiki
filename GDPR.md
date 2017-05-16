@@ -87,19 +87,19 @@ Software | Propietary Desktop | Propietary Web | FLOSS Desktop | FLOSS Web
 [Basic Programming](https://en.wikipedia.org/wiki/BASIC) | [MS Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic) | - | [Gambas](http://gambas.sourceforge.net) see [FLOSS353](https://twit.tv/shows/floss-weekly/episodes/353) | [Gambas](http://gambas.sourceforge.net)
 [Pascal Programming](https://en.wikipedia.org/wiki/Pascal_(programming_language)) | [Delphi](https://en.wikipedia.org/wiki/Delphi_(programming_language)) | - | [Lazarus](https://www.lazarus-ide.org), [Lazarus for Amiga, AROS, MorphOS](https://blog.alb42.de/virtual-lazarus), [Ultibo IoT OS for Raspberry Pi](https://ultibo.org) | -
 [Diagramming](https://en.wikipedia.org/wiki/Diagram) and [Vector graphics editor](https://en.wikipedia.org/wiki/Vector_graphics_editor) | [MS Visio](https://en.wikipedia.org/wiki/Microsoft_Visio) | - | [LibreOffice](https://www.libreoffice.org) Draw, [Inkscape](https://inkscape.org) has also JPG to SVG etc, Dia | [Sandstorm](https://sandstorm.io) / draw.io
-Password manager | LastPass | LastPass | keepass2 | [Sandstorm](https://sandstorm.io) / Sandpass
-Hardware info | CPU-Z | - | [I-Nex](http://i-nex.linux.pl) | -
+[Password manager](https://en.wikipedia.org/wiki/Password_manager) | [LastPass](https://en.wikipedia.org/wiki/LastPass) | [LastPass](https://en.wikipedia.org/wiki/LastPass) | [KeePass](https://en.wikipedia.org/wiki/KeePass) | [Sandstorm](https://sandstorm.io) / Sandpass
+Hardware info | [CPU-Z](https://en.wikipedia.org/wiki/CPU-Z) | - | [I-Nex](http://i-nex.linux.pl) | -
 Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://wekan.github.io) see [author's talk](https://www.youtube.com/watch?v=N3iMLwCNOro) - current maintainer is [xet7](https://github.com/xet7)
-Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
-Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
+[Chat](https://en.wikipedia.org/wiki/Online_chat) | [Skype](https://en.wikipedia.org/wiki/Skype) | [Slack](https://en.wikipedia.org/wiki/Slack_(software)) | [Pidgin](https://en.wikipedia.org/wiki/Pidgin_(software)), [HexChat](https://hexchat.github.io) | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
+[Video conferencing](https://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software) | [Skype](https://en.wikipedia.org/wiki/Skype) | [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts) | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Screen recorder | - | - | [Simplescreenrecorder](http://www.maartenbaert.be/simplescreenrecorder/), [Green recorder](http://www.omgubuntu.co.uk/2017/02/record-your-screen-on-ubuntu-this-app), [VokoScreen](https://github.com/vkohaupt/vokoscreen), [Byzanz](https://wiki.ubuntu.com/CreatingScreencasts), [VLC](http://www.videolan.org), [OBS Studio](https://obsproject.com/), [Screenstudio](https://github.com/patrickballeux/screenstudio) | -
-Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
+[Website](https://en.wikipedia.org/wiki/Website) or [Blog](https://en.wikipedia.org/wiki/Blog) | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
 Robot simulation | - | - | - | [Roboschool](https://blog.openai.com/roboschool) and [HN discussion](https://news.ycombinator.com/item?id=14346227)
 [SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management) | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
-Endpoint Visibility | - | - | - | [osquery](https://osquery.io)
+[Endpoint Visibility](https://en.wikipedia.org/wiki/Endpoint_security) | - | - | - | [osquery](https://osquery.io)
 Immediate changed file restore, replication and HA | - | - | - | [mgmt](https://github.com/purpleidea/mgmt)
-Compliance | - | - | - | [SIMP](https://simp-project.com) see [FLOSS426](https://twit.tv/shows/floss-weekly/episodes/426), [Saltstack](https://saltstack.com/infrastructure-compliance) see [videos](https://www.youtube.com/user/SaltStack/videos)
+[Compliance](https://en.wikipedia.org/wiki/Compliance) to [Cyber Security Standards](https://en.wikipedia.org/wiki/Cyber_security_standards) | - | - | - | [SIMP](https://simp-project.com) see [FLOSS426](https://twit.tv/shows/floss-weekly/episodes/426), [Saltstack](https://saltstack.com/infrastructure-compliance) see [videos](https://www.youtube.com/user/SaltStack/videos)
 Encrypted [port knocking](https://en.wikipedia.org/wiki/Port_knocking) | - | - | - | [fwknop](https://www.cipherdyne.org/fwknop/) see [FLOSS352](https://twit.tv/shows/floss-weekly/episodes/352)
 Restore database back in time | - | - | - | [pgBackRest](http://www.pgbackrest.org) see [FLOSS429](https://twit.tv/shows/floss-weekly/episodes/429)
 Remote Desktop using webbrowser | - | - | - | [Guacamole](https://guacamole.incubator.apache.org)
-Docker Security Scan | - | - | - | [Anchore](https://github.com/anchore/anchore) see [FLOSS427](https://twit.tv/shows/floss-weekly/episodes/427)
+[Docker](https://en.wikipedia.org/wiki/Docker_(software)) Security Scan | - | - | - | [Anchore](https://github.com/anchore/anchore) see [FLOSS427](https://twit.tv/shows/floss-weekly/episodes/427)
