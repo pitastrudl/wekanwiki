@@ -85,6 +85,7 @@ Hardware info | CPU-Z | - | [I-Nex](http://i-nex.linux.pl) | -
 Kanban | - | Trello | - | [Sandstorm](https://sandstorm.io) / [Wekan](https://wekan.github.io) see [author's talk](https://www.youtube.com/watch?v=N3iMLwCNOro) - current maintainer is [xet7](https://github.com/xet7)
 Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
+Screen recorder | - | - | [Tecmint article](https://www.tecmint.com/best-linux-screen-recorders-for-desktop-screen-recording) | -
 Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
 Robot simulation | - | - | - | [Roboschool](https://blog.openai.com/roboschool) and [HN discussion](https://news.ycombinator.com/item?id=14346227)
 SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
