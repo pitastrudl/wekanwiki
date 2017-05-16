@@ -101,5 +101,5 @@ Immediate changed file restore, replication and HA | - | - | - | [mgmt](https://
 [Compliance](https://en.wikipedia.org/wiki/Compliance) to [Cyber Security Standards](https://en.wikipedia.org/wiki/Cyber_security_standards) | - | - | - | [SIMP](https://simp-project.com) see [FLOSS426](https://twit.tv/shows/floss-weekly/episodes/426), [Saltstack](https://saltstack.com/infrastructure-compliance) see [videos](https://www.youtube.com/user/SaltStack/videos)
 Encrypted [port knocking](https://en.wikipedia.org/wiki/Port_knocking) | - | - | - | [fwknop](https://www.cipherdyne.org/fwknop/) see [FLOSS352](https://twit.tv/shows/floss-weekly/episodes/352)
 Restore database back in time | - | - | - | [pgBackRest](http://www.pgbackrest.org) see [FLOSS429](https://twit.tv/shows/floss-weekly/episodes/429)
-Remote Desktop using webbrowser | - | - | - | [Guacamole](https://guacamole.incubator.apache.org)
+[Remote Desktop](https://en.wikipedia.org/wiki/Remote_desktop_software) using [webbrowser](https://en.wikipedia.org/wiki/Web_browser) | - | - | - | [Guacamole](https://guacamole.incubator.apache.org)
 [Docker](https://en.wikipedia.org/wiki/Docker_(software)) Security Scan | - | - | - | [Anchore](https://github.com/anchore/anchore) see [FLOSS427](https://twit.tv/shows/floss-weekly/episodes/427)
