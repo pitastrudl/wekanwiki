@@ -15,26 +15,26 @@ Date | Requirements | Sanctions if not ready
 2017-05-13 | Started documenting project with pen to paper in Finnish and English. This wiki page history is also used to show versions of process. | Unable to do business legally if not documented everything, including process of preparing to regulation
 2017-05-31 | Need to find missing keys | Pay for expensive changing of locks
 2017- | Find from home all harddrives, USB sticks, etc | Not known yet
-2017- | Downloaded all data from Internet | Not known yet
-2017- | Sorted and moved all data on offline computer to different Qubes OS AppVMs named by person | Not known yet
-2017- | Found all required alternatives to propietary software from Qubes OS and Sandstorm | Not known yet
-2017- | Converted all propietary file formats to free software file formats, like JSON etc. | Not known yet
-2017- | Implemented exporting of all data to file download, and deleting of persons data in web interface | Not known yet
-2018-04-25 | All data stored securely following GDPR | Unable to do business legally
+2017- | Downloaded all [data]([data](https://en.wikipedia.org/wiki/Data)) from Internet | Not known yet
+2017- | Sorted and moved all [data]([data](https://en.wikipedia.org/wiki/Data)) on [offline](https://en.wikipedia.org/wiki/Online_and_offline) [computer](https://en.wikipedia.org/wiki/Computer) to different [Qubes OS](https://www.qubes-os.org) [AppVMs](https://www.qubes-os.org/doc/software-update-vm/) named by person | Not known yet
+2017- | Found all required alternatives to propietary software from [Qubes OS](https://www.qubes-os.org) and Sandstorm | Not known yet
+2017- | Converted all [propietary file formats](https://en.wikipedia.org/wiki/Proprietary_format) to [free software](https://en.wikipedia.org/wiki/Free_software) [file formats](https://en.wikipedia.org/wiki/File_format), like [JSON](https://en.wikipedia.org/wiki/JSON) etc. | Not known yet
+2017- | Implemented [exporting](https://en.wikipedia.org/wiki/Import_and_export_of_data) of all [data](https://en.wikipedia.org/wiki/Data) to [file](https://en.wikipedia.org/wiki/Computer_file) [download](https://en.wikipedia.org/wiki/Download), and [deleting](https://en.wikipedia.org/wiki/File_deletion) of [persons](https://en.wikipedia.org/wiki/Person) [data](https://en.wikipedia.org/wiki/Data) in [web](https://en.wikipedia.org/wiki/World_Wide_Web) [interface](https://en.wikipedia.org/wiki/User_interface) | Not known yet
+2018-04-25 | All [data](https://en.wikipedia.org/wiki/Data) [stored](https://en.wikipedia.org/wiki/Data_storage_device) [securely](https://en.wikipedia.org/wiki/Application_security) following GDPR | Unable to do business legally
 
 ## Security requirements
 
-There is very high penalties for security breaches. If I have not considered some security aspect, please add it to this wiki page.
+There is very high [sanctions](https://en.wikipedia.org/wiki/Sanctions_(law)) for [data breaches](https://en.wikipedia.org/wiki/Data_breach). If I have not [considered]([considered](https://en.wikipedia.org/wiki/Consideration)) some [security](https://en.wikipedia.org/wiki/Application_security) [aspect](https://en.wikipedia.org/wiki/Aspect_(computer_programming)), please add it to this [wiki](https://en.wikipedia.org/wiki/Wiki) [page](https://en.wikipedia.org/wiki/Web_page).
 
-I need to know exactly where all my data physically is. It's not OK to spread it all over Internet in cloud services Google/AWS/Amazon/Dropbox etc. I need the abitily to absolutely have the proof and knowledge that when I delete one person's data, it's gone, totally, completely, from everywhere.
+I need to know exactly where all my [data]([data](https://en.wikipedia.org/wiki/Data)) physically is. It's not OK to spread it all over Internet in cloud services Google/AWS/Amazon/Dropbox etc. I need the abitily to absolutely have the proof and knowledge that when I delete one person's [data]([data](https://en.wikipedia.org/wiki/Data)), it's gone, totally, completely, from everywhere.
 
 ### Hardware: [x64](https://en.wikipedia.org/wiki/X86-64)
 
 ##### Current
 
-a) Current version 3.x of [Qubes OS](https://www.qubes-os.org), if hardware supports it. Laptop/Desktop hardware should be silent, otherwise it disturbs work. Qubes-certified laptops are nice, it has hardware switches to turn off wireless. Alternatively desktop PC that has not any wireless WLAN, Bluetooth etc device integrated.
+a) Current version 3.x of [Qubes OS](https://www.qubes-os.org), if hardware supports it. Laptop/Desktop hardware should be silent, otherwise it disturbs work. [Qubes-certified laptops](https://www.qubes-os.org/doc/certified-laptops/) are nice, it has hardware switches to turn off wireless. Alternatively desktop PC that has not any wireless WLAN, Bluetooth etc device integrated.
 
-b) If hardware does not support Qubes OS, I will install some of these:
+b) If hardware does not support [Qubes OS](https://www.qubes-os.org), I will install some of these:
 
 * [Subgraph OS](https://subgraph.com/sgos/)
 * [True OS/FreeNAS](https://www.trueos.org), see [FLOSS423](https://twit.tv/shows/floss-weekly/episodes/432)
