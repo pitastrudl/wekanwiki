@@ -44,7 +44,7 @@ b) If hardware does not support Qubes OS, I will install some of these:
 [Intel AMT Checker for Linux](https://github.com/mjg59/mei-amt-check) and it's [HN discussion](https://news.ycombinator.com/item?id=14335159).
 
 For me it shows Intel AMT is present, AMT is unprovisioned, so I need to:
-* Install English ISO of [Win7](https://www.microsoft.com/en-us/software-download/windows7) or [Win8.1](https://www.microsoft.com/en-us/software-download/windows8ISO) or [Win10](https://www.microsoft.com/en-us/software-download/windows10ISO) to USB stick
+* Install English ISO of [Win7](https://www.microsoft.com/en-us/software-download/windows7) or [Win8.1](https://www.microsoft.com/en-us/software-download/windows8ISO) or [Win10](https://www.microsoft.com/en-us/software-download/windows10ISO) to [USB stick](https://en.wikipedia.org/wiki/USB_flash_drive)
 * or Install Finnish ISO of [Win7](https://www.microsoft.com/fi-fi/software-download/windows7) or [Win8.1](https://www.microsoft.com/fi-fi/software-download/windows8ISO) or [Win10](https://www.microsoft.com/fi-fi/software-download/windows10ISO) to USB stick
 * or convert [evaluation VM of Windows](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) to RAW image using [instructions](https://www.qubes-os.org/doc/hvm/#converting-virtualbox-vm-to-hvm) that [I contributed to Qubes documentation](https://github.com/QubesOS/qubes-doc/pull/210), and use [dd command](https://wiki.archlinux.org/index.php/disk_cloning) to write it to USB stick
 * Install patch from [HP website](http://www8.hp.com/us/en/intelmanageabilityissue.html#Commercial_Notebooks)
