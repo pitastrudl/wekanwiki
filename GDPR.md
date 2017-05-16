@@ -87,3 +87,4 @@ Chat | Skype | Slack | Pidgin, HexChat | [Sandstorm](https://sandstorm.io) / [Ro
 Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstorm.io) / [Rocket.Chat](https://rocket.chat)
 Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
 SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
+Endpoint Visibility | - | - | - | [osquery](https://osquery.io)
