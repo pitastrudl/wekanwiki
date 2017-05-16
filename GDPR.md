@@ -97,7 +97,7 @@ Hardware info | [CPU-Z](https://en.wikipedia.org/wiki/CPU-Z) | - | [I-Nex](http:
 [Robot](https://en.wikipedia.org/wiki/Robot) [simulation](https://en.wikipedia.org/wiki/Simulation) | - | - | - | [Roboschool](https://blog.openai.com/roboschool) and [HN discussion](https://news.ycombinator.com/item?id=14346227)
 [SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management) | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
 [Endpoint Visibility](https://en.wikipedia.org/wiki/Endpoint_security) | - | - | - | [osquery](https://osquery.io)
-Immediate changed file restore, replication and HA | - | - | - | [mgmt](https://github.com/purpleidea/mgmt)
+Immediate changed file [restore](https://en.wikipedia.org/wiki/Backup), [replication](https://en.wikipedia.org/wiki/Replication_(computing)) and [HA](https://en.wikipedia.org/wiki/High_availability) | - | - | - | [mgmt](https://github.com/purpleidea/mgmt)
 [Compliance](https://en.wikipedia.org/wiki/Compliance) to [Cyber Security Standards](https://en.wikipedia.org/wiki/Cyber_security_standards) | - | - | - | [SIMP](https://simp-project.com) see [FLOSS426](https://twit.tv/shows/floss-weekly/episodes/426), [Saltstack](https://saltstack.com/infrastructure-compliance) see [videos](https://www.youtube.com/user/SaltStack/videos)
 Encrypted [port knocking](https://en.wikipedia.org/wiki/Port_knocking) | - | - | - | [fwknop](https://www.cipherdyne.org/fwknop/) see [FLOSS352](https://twit.tv/shows/floss-weekly/episodes/352)
 Restore database back in time | - | - | - | [pgBackRest](http://www.pgbackrest.org) see [FLOSS429](https://twit.tv/shows/floss-weekly/episodes/429)
