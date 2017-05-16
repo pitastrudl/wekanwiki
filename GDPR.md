@@ -95,7 +95,7 @@ Video conferencing | Skype | Google Hangouts | - |  [Sandstorm](https://sandstor
 Screen recorder | - | - | [Simplescreenrecorder](http://www.maartenbaert.be/simplescreenrecorder/), [Green recorder](http://www.omgubuntu.co.uk/2017/02/record-your-screen-on-ubuntu-this-app), [VokoScreen](https://github.com/vkohaupt/vokoscreen), [Byzanz](https://wiki.ubuntu.com/CreatingScreencasts), [VLC](http://www.videolan.org), [OBS Studio](https://obsproject.com/), [Screenstudio](https://github.com/patrickballeux/screenstudio) | -
 Website/Blog | - | Google Sites/Blogger.com | - | [Sandstorm](https://sandstorm.io) / [Ghost](https://ghost.org), [WordPress](https://wordpress.org), [Hugo](https://gohugo.io), Hakyll CMS
 Robot simulation | - | - | - | [Roboschool](https://blog.openai.com/roboschool) and [HN discussion](https://news.ycombinator.com/item?id=14346227)
-SIEM | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
+[SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management) | - | - | - | [AlienVault Ossim](https://www.alienvault.com/products/ossim)
 Endpoint Visibility | - | - | - | [osquery](https://osquery.io)
 Immediate changed file restore, replication and HA | - | - | - | [mgmt](https://github.com/purpleidea/mgmt)
 Compliance | - | - | - | [SIMP](https://simp-project.com) see [FLOSS426](https://twit.tv/shows/floss-weekly/episodes/426), [Saltstack](https://saltstack.com/infrastructure-compliance) see [videos](https://www.youtube.com/user/SaltStack/videos)
