@@ -28,7 +28,7 @@ There is very high penalties for security breaches. If I have not considered som
 
 I need to know exactly where all my data physically is. It's not OK to spread it all over Internet in cloud services Google/AWS/Amazon/Dropbox etc. I need the abitily to absolutely have the proof and knowledge that when I delete one person's data, it's gone, totally, completely, from everywhere.
 
-### Hardware: x64
+### Hardware: [x64](https://en.wikipedia.org/wiki/X86-64)
 
 ##### Current
 
@@ -56,17 +56,17 @@ For me it shows Intel AMT is present, AMT is unprovisioned, so I need to:
 
 [Qubes 4.x certified hardware](https://www.qubes-os.org/news/2016/07/21/new-hw-certification-for-q4/) when it becomes available.
 
-### Hardware: ARM
+### Hardware: [ARM](https://en.wikipedia.org/wiki/ARM_architecture)
 
-Raspberry Pi  or similar ARM device without built-in wireless, so it can be used offline. Fanless preferred to keep it completely silent. I don't know is there any writeable firmware in RasPi at all, is SD card only writeable storage. AFAIK RasPi hardware does not have any hardware virtualization or Rowhammer protection features.
+[Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)  or similar ARM device without built-in wireless, so it can be used offline. [Fanless](https://en.wikipedia.org/wiki/Computer_fan#Alternatives) preferred to keep it completely [silent](https://en.wikipedia.org/wiki/Silence_(disambiguation)). I don't know is there any writeable [firmware](https://en.wikipedia.org/wiki/Firmware) in RasPi at all, is [SD card](https://en.wikipedia.org/wiki/Secure_Digital) only writeable storage. AFAIK RasPi hardware does not have any [hardware virtualization](https://en.wikipedia.org/wiki/Hardware_virtualization) or [Rowhammer](https://en.wikipedia.org/wiki/Row_hammer) protection features.
 
 ### Software
 
-I need to keep multiple encrypted offline backups. Otherwise some ransomware will just encrypt all my files and demand that I give money, bitcoins, etc to get my files back. Malware exists for all platforms, including Linux. 
+I need to keep multiple encrypted offline [backups](https://en.wikipedia.org/wiki/Backup). Otherwise some [ransomware](https://en.wikipedia.org/wiki/Ransomware) will just encrypt all my files and demand that I give [money](https://en.wikipedia.org/wiki/Money), [bitcoins](https://en.wikipedia.org/wiki/Bitcoin), etc to get my files back. [Malware](https://en.wikipedia.org/wiki/Malware) exists for most [Operating systems](https://en.wikipedia.org/wiki/Operating_system), including Linux. 
 
 Media type:
 
-a) Write-only, like DVD-R
+a) Write-only, like [DVD-R](https://en.wikipedia.org/wiki/DVD)
 
 b) Is there storage media that has physical hardware switch that makes media read-only?
 
