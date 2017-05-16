@@ -6,7 +6,7 @@ Disclaimer: All these opinions are my own, and I'm implementing this for myself.
 
 I [xet7](https://github.com/xet7) was this week at [Drupalcamp Nordics 2017](http://www.drupalcampnordics.com) and got more details about this regulation, so I started implementing this yesterday in the way I understand it currently, using technologies I'm most familiar with: [Wekan](https://wekan.github.io), [Sandstorm](https://sandstorm.io) and [Qubes OS](https://www.qubes-os.org). All hardware and software is subject to change if better alternatives are found.
 
-This wiki is editable to all users that have GitHub account users to add more details or questions what I have not considered yet.
+This wiki is editable to all users that have GitHub account to add more details or questions what I have not considered yet.
 
 ## Deadlines
 
