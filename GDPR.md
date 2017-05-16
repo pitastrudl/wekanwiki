@@ -68,9 +68,9 @@ Media type:
 
 a) Write-only, like [DVD-R](https://en.wikipedia.org/wiki/DVD)
 
-b) Is there storage media that has physical hardware switch that makes media read-only?
+b) Is there [storage media](https://en.wikipedia.org/wiki/Data_storage_device) that has physical [hardware](https://en.wikipedia.org/wiki/Hardware) [switch](https://en.wikipedia.org/wiki/Switch) that makes media [read-only](https://en.wikipedia.org/wiki/Read-only) ?
 
-I need to have source code for every software I use, and tested working way to compile it from source.
+I need to have [source code](https://en.wikipedia.org/wiki/Source_code) for every [software](https://en.wikipedia.org/wiki/Software) I use, and tested working way to [compile](https://en.wikipedia.org/wiki/Compiler) it from source.
 
 I need to test [Qubes compromise recovery](https://www.qubes-os.org/news/2017/04/26/qubes-compromise-recovery/).
 
