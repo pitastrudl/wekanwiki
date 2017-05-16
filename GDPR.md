@@ -1,4 +1,4 @@
-> Offline is the new normal. Open Source and Free Software and Hardware is eating the world. Encrypted everywhere. [Secure by design](https://en.wikipedia.org/wiki/Secure_by_design). [Defence in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)). Legal. Allowed to do business. - [xet7](https://github.com/xet7) 2017-05, implementing GDPR
+> Offline is the new normal. Open Source and Free Software and Hardware is eating the world. Encrypted everywhere. [Secure by design](https://en.wikipedia.org/wiki/Secure_by_design). [Defence in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)). Legal. Allowed to do business. - [xet7](https://github.com/xet7) 2017-05, implementing [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
 
 Case: Implementing [EU General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) with [Wekan](https://wekan.github.io), [Sandstorm](https://sandstorm.io) and [Qubes OS](https://www.qubes-os.org).
 
