@@ -120,3 +120,6 @@ wekan_1      |     at TLSSocket.emit (events.js:166:7)
 wekan_1      |     at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:621:8)
 wekan_1      |     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:453:38)
 ```
+
+## No News Is Good News
+Of course, if you don't see any of these errors in your WeKan log file, then the problem is not in WeKan. Check your SMTP server's mail logs (if you can) to get a better idea of what might be going wrong.
