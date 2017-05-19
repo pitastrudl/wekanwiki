@@ -16,6 +16,12 @@ You may need these on other platforms than Sandstorm:
 
 ### Docker
 
+[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+
+[Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
+
+More info:
+
 [Install via Docker](https://github.com/wekan/wekan/wiki/Docker)
 
 ### Source
