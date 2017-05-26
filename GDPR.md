@@ -12,7 +12,7 @@ This wiki is editable to all users that have [GitHub](https://en.wikipedia.org/w
 
 Date | Requirements | Sanctions if not ready
 ------------ | ------------- | ------------
-2017-05-13 | Started documenting project with pen to paper in Finnish and English. This wiki page history is also used to show versions of process. | Unable to do business legally if not documented everything, including process of preparing to regulation
+2017-05-13 | Started documenting project. This wiki page history is also used to show versions of process. | Unable to do business legally if not documented everything, including process of preparing to regulation
 2017-05-31 | Need to find missing keys | Pay for expensive changing of locks
 2017- | Find from home all harddrives, USB sticks, etc | Not known yet
 2017- | Downloaded all [data]([data](https://en.wikipedia.org/wiki/Data)) from Internet | Not known yet
