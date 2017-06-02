@@ -14,6 +14,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [dwrensha](https://github.com/dwrensha) | - | USA | [Sandstorm](https://sandstorm.io) Developer | Packaging Wekan releases for Sandstorm
 [kentonv](https://github.com/kentonv) | - | USA | [Sandstorm](https://sandstorm.io) Developer | [Cap’n Proto](https://capnproto.org) and [node-capnp](https://github.com/kentonv/node-capnp)
 [ocdtrekkie](https://github.com/dwrensha) | ocdtrekkie | USA | [Sandstorm](https://sandstorm.io) user from beginning of Sandstorm | Testing and accepting Wekan releases for Sandstorm
+[whodafly](https://github.com/whodafly) | superfly | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 
 # Previous
 
