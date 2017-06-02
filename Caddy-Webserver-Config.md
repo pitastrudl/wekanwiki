@@ -44,11 +44,16 @@ example.com/files {
 }
 ```
 
-Install Caddy. Change username to what user you run caddy, like in /home/username:
+Install Caddy. Change username to what user you run caddy, like in /home/username , and Let's Encrypt email to your email adderess:
+
 ```bash
 # Install caddy with some plugins
-curl https://getcaddy.com | bash -s ipfilter,ratelimit
+curl https://getcaddy.com | bash -s http.ipfilter,http.mailout,http.ratelimit,http.realip
+```
+
 # Give permissions to caddy to bind 80 and 443
+
+```
 sudo setcap cap_net_bind_service=+ep /usr/local/bin/caddy
 ```
 
