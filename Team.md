@@ -10,7 +10,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [lkisme](https://github.com/lkisme) | - | China | Contributor | Admin Panel
 [rhelsing](https://github.com/rhelsing) | ryan.helsing | USA | Contributor | Comment permissions
 [BaobabCoder](https://github.com/BaobabCoder) | BaobabCoder | France | Contributor | [Delete List](https://github.com/wekan/wekan/pull/1050)
-[whodafly](https://github.com/whodafly) | superfly | Africa | Contributor | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
+[whodafly](https://github.com/whodafly) | superfly | USA | Contributor | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 [shtefcs](https://github.com/shtefcs) | kinder | Universe | [Vanila](https://vanila.io) Founder | [Chat](https://chat.vanila.io/channel/wekan), growth hacking
 [jelenajjo](https://github.com/jelenajjo) | jelena | Universe | [Vanila](https://vanila.io) Web Developer |  [Themes](https://github.com/wekan/wekan/issues/781), upcoming new website
 [dwrensha](https://github.com/dwrensha) | - | USA | [Sandstorm](https://sandstorm.io) Developer | Packaging Wekan releases for Sandstorm
