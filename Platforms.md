@@ -11,10 +11,12 @@ Docker and source based installs. You can also
 [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease).
 
 You may need these on other platforms than Sandstorm:
+* [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [Nginx webserver config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
 * [Nginx workaround](https://github.com/wekan/wekan/issues/1015)
 * [Caddy webserver config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [Bug: Some modules not using ROOT_URL](https://github.com/wekan/wekan/issues/973)
+
 
 ### Docker
 
