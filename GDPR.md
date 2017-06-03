@@ -106,3 +106,4 @@ Encrypted [port knocking](https://en.wikipedia.org/wiki/Port_knocking) | - | - |
 [Restore](https://en.wikipedia.org/wiki/Backup) [database](https://en.wikipedia.org/wiki/Database) [back in time](https://en.wikipedia.org/wiki/Time_travel) | - | - | - | [pgBackRest](http://www.pgbackrest.org) see [FLOSS429](https://twit.tv/shows/floss-weekly/episodes/429)
 [Remote Desktop](https://en.wikipedia.org/wiki/Remote_desktop_software) using [webbrowser](https://en.wikipedia.org/wiki/Web_browser) | - | - | - | [Guacamole](https://guacamole.incubator.apache.org)
 [Docker](https://en.wikipedia.org/wiki/Docker_(software)) [Security Scan](https://en.wikipedia.org/wiki/Application_security) | - | - | - | [Anchore](https://github.com/anchore/anchore) see [FLOSS427](https://twit.tv/shows/floss-weekly/episodes/427)
+Augmented Reality | - | - | - | [Web](https://github.com/jeromeetienne/AR.js)
