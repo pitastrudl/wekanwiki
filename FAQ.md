@@ -19,7 +19,7 @@ Wekan is an open-source and free software _[kanban board][kanban]_ that lets you
 # Features
 
 ## Will my feature request be implemented?
-Please do not wait for feature to be implemented. In Open Source, although current code is available for free, the way to use it in your company is to have a programmer in your company implementing missing features and submitting them as pull requests.
+Please do not wait for a feature to be implemented. In Open Source, although current code is available for free, the way to use it in your company is to have a programmer in your company implementing missing features and submitting them as pull requests.
 
 [According to Open Hub](https://www.openhub.net/p/wekan), Wekan code is only about 7000 lines so it's very small when comparing to other software. With git history viewer like gitk it's possible to see how different features are implemented.
 
