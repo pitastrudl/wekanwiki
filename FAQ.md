@@ -31,7 +31,7 @@ In wiki there is [Developer Documentation](https://github.com/wekan/wekan/wiki/D
 We totally rely on pull requests for new features and bug fixes. If your pull request works, it's very likely to be accepted by xet7.
 
 ## How can I contribute to Wekan?
-We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan. You can also sponsor a feature. We don't have any sponsors yet.
+We’re glad you’re interested in helping the Wekan project! We welcome bug reports, enhancement ideas, and pull requests, in our GitHub bug tracker. Have a look at the [[Contributing notes|developer-documentation]] for more information how you can help improve and enhance Wekan. We are working to make it possible to have bounties for features. We don't have any sponsors yet.
 
 ## Are there any tests?
 There are near to zero tests, because nobody has contributed tests as pull request.
