@@ -13,7 +13,7 @@ This wiki is editable to all users that have [GitHub](https://en.wikipedia.org/w
 Date | Requirements | Sanctions if not ready
 ------------ | ------------- | ------------
 2017-05-13 | Started documenting project. This wiki page history is also used to show versions of process. | Unable to do business legally if not documented everything, including process of preparing to regulation
-2017-05-31 | Need to find missing keys | Pay for expensive changing of locks
+2017-07-31 | Need to find missing keys | Pay for expensive changing of locks
 2017- | Find from home all harddrives, USB sticks, etc | Not known yet
 2017- | Downloaded all [data]([data](https://en.wikipedia.org/wiki/Data)) from Internet | Not known yet
 2017- | Sorted and moved all [data]([data](https://en.wikipedia.org/wiki/Data)) on [offline](https://en.wikipedia.org/wiki/Online_and_offline) [computer](https://en.wikipedia.org/wiki/Computer) to different [Qubes OS](https://www.qubes-os.org) [AppVMs](https://www.qubes-os.org/doc/software-update-vm/) named by person | Not known yet
