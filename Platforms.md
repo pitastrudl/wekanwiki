@@ -12,6 +12,7 @@ Docker and source based installs. You can also
 
 You may need these on other platforms than Sandstorm:
 * [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
+* [Troubleshooting CentOS 7](https://github.com/wekan/wekan/issues/718)
 * [Nginx webserver config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
 * [Nginx workaround](https://github.com/wekan/wekan/issues/1015)
 * [Caddy webserver config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
