@@ -5,7 +5,7 @@ Kanban
 * Boards: List of all your public and private boards, board shortcuts at top of page
 * Members: Invite new member, permissions Admin/Normal/Comment only, drag-drop member to assign to task
 * Lists: Add, archive and restore archived, delete list.
-* Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments
+* Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Arhive and restore archived card. Delete card.
 * Multi-selection => Checkmark select cards => drag-drop all selected to some list
 * [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
 * Filtered views
