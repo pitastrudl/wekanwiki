@@ -21,7 +21,7 @@ Import
 
 Export
 
-* Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059).
+* Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059). Note that there is a bug that [Export menu is not visible at all boards](https://github.com/wekan/wekan/issues/1060).
 
 API
 
