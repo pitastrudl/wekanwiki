@@ -18,6 +18,9 @@ Import
 
 * Import from Trello: Text, labels, images, comments, checklists (checklist import needs to be checked, are checklists imported correctly). Not imported yet: stickers, etc.
 
+Export
+
+* Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059).
 
 API
 
