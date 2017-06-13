@@ -28,7 +28,6 @@ services:
   wekandb:
     image: mongo:3.2.13
     container_name: wekan-db
-    restart: always
     command: mongod --smallfiles --oplogSize 128
     networks:
       - wekan-tier
@@ -41,7 +40,6 @@ services:
   wekan:
     image: wekanteam/wekan:latest
     container_name: wekan-app
-    restart: always
     networks:
       - wekan-tier
     ports:
