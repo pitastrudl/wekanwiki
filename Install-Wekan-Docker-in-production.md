@@ -21,22 +21,48 @@ chmod +x /usr/local/bin/docker-compose
 
 
 ```yaml
-wekan:
-  image: wekanteam/wekan:meteor-1.4
-  links:
-    - wekandb
-  environment:
-    - MONGO_URL=mongodb://wekandb/wekan
-    - ROOT_URL=http://mytodo.org
-    - MAIL_URL=smtp://user:pass@mailserver.example.com:25/
-    - MAIL_FROM=wekan-admin@example.com
-  ports:
-    - 8081:80
+version: '2'
 
-wekandb:
-   image: mongo
-   volumes:
-     - /home/wekan/data:/data/db
+services:
+
+  wekandb:
+    image: mongo:3.2.13
+    container_name: wekan-db
+    restart: always
+    command: mongod --smallfiles --oplogSize 128
+    networks:
+      - wekan-tier
+    expose:
+      - 27017
+    volumes:
+      - wekan-db:/data/db
+      - wekan-db-dump:/dump
+
+  wekan:
+    image: wekanteam/wekan:latest
+    container_name: wekan-app
+    restart: always
+    networks:
+      - wekan-tier
+    ports:
+      - 8081:80
+    environment:
+      - MONGO_URL=mongodb://wekandb:27017/wekan
+      - ROOT_URL=http://localhost
+      - MAIL_URL=smtp://user:pass@mailserver.example.com:25/
+      - MAIL_FROM=wekan-admin@example.com
+    depends_on:
+      - wekandb
+
+volumes:
+  wekan-db:
+    driver: local
+  wekan-db-dump:
+    driver: local
+
+networks:
+  wekan-tier:
+    driver: bridge
 ```
 
 **Note:** we want to preserve the port 80 on the host, so we bind Wekan on port 8081. This port 8081 will next be bound to a vhost in apache (thus on port 80).
