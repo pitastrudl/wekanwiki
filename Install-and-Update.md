@@ -6,6 +6,7 @@ There are several options for deploying Wekan. Docker and sandstorm are by far t
 
 * [Installing with Docker](#install-using-docker)
 * [Installing with Sandstorm](#install-with-sandstorm)
+* [Installing with Cloudron](#install-with-cloudron)
 * [Installing with Official Binaries](#install-manually-releases)
 * [Installing from Source](#install-manually-from-source)
 
@@ -14,6 +15,7 @@ There are several options for deploying Wekan. Docker and sandstorm are by far t
 Wekan will automatically migrate your data on first launch. Steps for upgrading depends on the type of installation being upgraded. See the below options.
 * [Upgrading Docker](#updating-docker)
 * [Upgrading Sandstorm](#updating-sandstorm)
+* [Upgrading Cloudron](#updating-cloudron)
 * [Upgrading Manual Installs](#updating-manual-installs)
 * [Backing Up Mongo Data](#backup-mongo-data)
 
@@ -29,6 +31,10 @@ You can install using the official Docker repository located [here][docker-repo]
 ## Install with Sandstorm
 Sandstorm is a platform that you can install of your server and it lets you install a variety of apps easily, most of the with a one-click installation.  
 For instructions how to install Sandstorm, check out the [guide][sandstorm-guide] on their website! After you have installed Sandstorm, just go to the Admin panel and install the Wekan app! That's all!
+
+## Install with Cloudron
+[Cloudron](https://cloudron.io) is a self-hosting platform with a focus on effortless app installation and keeping them up-to-date. You can install Wekan from the app library [here](https://cloudron.io/store/io.wekan.cloudronapp.html). It comes with LDAP integration with the Cloudron user management.
+The Wekan app package is developed at https://git.cloudron.io/cloudron/wekan-app
 
 ## Install manually (Releases)
 This is the best option currently if you want to get Wekan running with as few tools as possible. 
@@ -319,6 +325,10 @@ More information about [setup Wekan Docker](https://github.com/wekan/wekan/wiki/
 ## Updating Sandstorm
 
 Sandstorm updates work automatically. You need to go the the sandstom app market and click on the install button of Wekan. Then Sandstorm will tell you that this application is already installed on your server and ask you if you want to upgrade it.
+
+## Updating Cloudron
+
+If you have a Cloudron subscription, the app will be kept up-to-date automatically, otherwise follow this [guide](https://git.cloudron.io/cloudron/box/wikis/UpdatingApps) for manual updates.
 
 ## Updating Manual Installs
 
