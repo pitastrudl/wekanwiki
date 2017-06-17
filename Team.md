@@ -16,7 +16,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [nztqa](https://github.com/nztqa) | - | Universe | Contributor | [Delete card when deleting list](https://github.com/wekan/wekan/pull/1054), [Disable unnecessary link feature](https://github.com/wekan/wekan/pull/1042), [Fix IE 11 drag board to scroll](https://github.com/wekan/wekan/pull/1052)
 [huneau](https://github.com/huneau) | - | Universe | Contributor | REST API
 [mayjs](https://github.com/mayjs) | - | Universe | Contributor | REST API
-[Zokormazo](https://github.com/Zokormazo) | Zokormazo | Spain | Contributor | [Add isAdmin to user Schema](Add isAdmin to user Schema)
+[Zokormazo](https://github.com/Zokormazo) | Zokormazo | Spain | Contributor | [Add isAdmin to user Schema](https://github.com/wekan/wekan/pull/970)
 [shtefcs](https://github.com/shtefcs) | kinder | Universe | [Vanila](https://vanila.io) Founder | [Chat](https://chat.vanila.io/channel/wekan), growth hacking
 [jelenajjo](https://github.com/jelenajjo) | jelena | Universe | [Vanila](https://vanila.io) Web Developer |  [Themes](https://github.com/wekan/wekan/issues/781), upcoming new website
 [dwrensha](https://github.com/dwrensha) | - | USA | [Sandstorm](https://sandstorm.io) Developer | Packaging Wekan releases for Sandstorm
