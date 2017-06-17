@@ -11,6 +11,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [rhelsing](https://github.com/rhelsing) | ryan.helsing | USA | Contributor | [Comment permissions](https://github.com/wekan/wekan/pull/1008)
 [BaobabCoder](https://github.com/BaobabCoder) | BaobabCoder | France | Contributor | [Delete List](https://github.com/wekan/wekan/pull/1050)
 [whodafly](https://github.com/whodafly) | superfly | USA | Contributor | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
+[stephenmoloney](https://github.com/stephenmoloney) | - | Ireland | Contributor | Dockerfile and Travis config, Meteor 1.4 and Node 4.x port
 [GhassenRjab](https://github.com/GhassenRjab) | ghassen.rjab | Universe | Contributor | [Fix Export Board](https://github.com/wekan/wekan/pull/1067), [Fix "W" shortcut](https://github.com/wekan/wekan/pull/1066)
 [nztqa](https://github.com/nztqa) | - | Universe | Contributor | [Delete card when deleting list](https://github.com/wekan/wekan/pull/1054), [Disable unnecessary link feature](https://github.com/wekan/wekan/pull/1042), [Fix IE 11 drag board to scroll](https://github.com/wekan/wekan/pull/1052)
 [huneau](https://github.com/huneau) | - | Universe | Contributor | REST API
