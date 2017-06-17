@@ -39,10 +39,10 @@ Main point is to be friendly to those commenting of your code, and incorporate t
 
 # Build Pipeline
 
+- Eslint for linting. **To prevent Travis CI lint errors**, you can test for lint errors with "npm run lint" and if you want automatic fixes to that code file you can copy code to [jsbeautifer website](http://jsbeautifier.org) with settings Indent with 2 spaces (topmost dropdown), [X] Space before conditional: "if(x)" / "if (x)", [X] Use JSLint-happy formatting tweaks
 - Templates are written in [JADE](https://naltatis.github.io/jade-syntax-docs/) instead of plain HTML.
 - CSS is written in the [Stylus](http://stylus-lang.com/) precompiler, and
 - Meteor templates are created as BlazeLayout templates.
-- Eslint for linting. You can test for lint errors with "npm run lint" and if you want automatic fixes to that code file you can copy code to [jsbeautifer website](http://jsbeautifier.org) with settings Indent with 2 spaces (topmost dropdown), [X] Space before conditional: "if(x)" / "if (x)", [X] Use JSLint-happy formatting tweaks
 - Instead of the allow/deny paradigm a lot of the `collections` defined in the project use `mutations` to define what kinds of operations are allowed.
 
 For further details look for the 'feature summaries' in the Wiki (still in progress) otherwise go through the git history and see how old features were built. Might I suggest the Start and Due date feature [wefork#26](https://github.com/wefork/wekan/pull/26)
