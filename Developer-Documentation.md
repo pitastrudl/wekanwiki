@@ -37,9 +37,14 @@ Please read the meteor style guide before making any significant contribution.
 
 Main point is to be friendly to those commenting of your code, and incorporate those suggestions that make most sense.
 
+# Preventing Travis CI lint errors when submitting pull requests
+
+- Eslint for linting. To prevent Travis CI lint errors, you can test for lint errors with "npm run lint"
+- If you want automatic fixes to that code file you can copy code to [jsbeautifer website](http://jsbeautifier.org) with settings Indent with 2 spaces (topmost dropdown), [X] Space before conditional: "if(x)" / "if (x)", [X] Use JSLint-happy formatting tweaks.
+
 # Build Pipeline
 
-- Eslint for linting. **To prevent Travis CI lint errors**, you can test for lint errors with "npm run lint" and if you want automatic fixes to that code file you can copy code to [jsbeautifer website](http://jsbeautifier.org) with settings Indent with 2 spaces (topmost dropdown), [X] Space before conditional: "if(x)" / "if (x)", [X] Use JSLint-happy formatting tweaks
+
 - Templates are written in [JADE](https://naltatis.github.io/jade-syntax-docs/) instead of plain HTML.
 - CSS is written in the [Stylus](http://stylus-lang.com/) precompiler, and
 - Meteor templates are created as BlazeLayout templates.
