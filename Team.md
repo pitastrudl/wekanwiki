@@ -8,7 +8,7 @@ GitHub Username | Chat Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------ | ------------
 [xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Source and Docker releases, testing and merging pull requests, organizing issues, updating wiki and website, small features
 [lkisme](https://github.com/lkisme) | - | China | Contributor | Admin Panel
-[rhelsing](https://github.com/rhelsing) | ryan.helsing | USA | Contributor | Comment permissions
+[rhelsing](https://github.com/rhelsing) | ryan.helsing | USA | Contributor | [Comment permissions](https://github.com/wekan/wekan/pull/1008)
 [BaobabCoder](https://github.com/BaobabCoder) | BaobabCoder | France | Contributor | [Delete List](https://github.com/wekan/wekan/pull/1050)
 [whodafly](https://github.com/whodafly) | superfly | USA | Contributor | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 [GhassenRjab](https://github.com/GhassenRjab) | ghassen.rjab | Universe | Contributor | [Fix Export Board](https://github.com/wekan/wekan/pull/1067), [Fix "W" shortcut](https://github.com/wekan/wekan/pull/1066)
