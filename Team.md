@@ -11,11 +11,13 @@ GitHub Username | Chat Username | Location | Position | Details
 [rhelsing](https://github.com/rhelsing) | ryan.helsing | USA | Contributor | Comment permissions
 [BaobabCoder](https://github.com/BaobabCoder) | BaobabCoder | France | Contributor | [Delete List](https://github.com/wekan/wekan/pull/1050)
 [whodafly](https://github.com/whodafly) | superfly | USA | Contributor | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
+[GhassenRjab](https://github.com/GhassenRjab) | ghassen.rjab | Universe | Contributor | [Fix Export Board](https://github.com/wekan/wekan/pull/1067), [Fix "W" shortcut](https://github.com/wekan/wekan/pull/1066)
 [shtefcs](https://github.com/shtefcs) | kinder | Universe | [Vanila](https://vanila.io) Founder | [Chat](https://chat.vanila.io/channel/wekan), growth hacking
 [jelenajjo](https://github.com/jelenajjo) | jelena | Universe | [Vanila](https://vanila.io) Web Developer |  [Themes](https://github.com/wekan/wekan/issues/781), upcoming new website
 [dwrensha](https://github.com/dwrensha) | - | USA | [Sandstorm](https://sandstorm.io) Developer | Packaging Wekan releases for Sandstorm
 [kentonv](https://github.com/kentonv) | - | USA | [Sandstorm](https://sandstorm.io) Developer | [Cap’n Proto](https://capnproto.org) and [node-capnp](https://github.com/kentonv/node-capnp)
 [ocdtrekkie](https://github.com/dwrensha) | ocdtrekkie | USA | [Sandstorm](https://sandstorm.io) user from beginning of Sandstorm | Testing and accepting Wekan releases for Sandstorm
+[nebulade](https://github.com/nebulade) | - | Germany | [Cloudron](https://cloudron.io) Developer | [Re-enable export](https://github.com/wekan/wekan/pull/1059)
 
 # Previous
 
