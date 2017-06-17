@@ -20,7 +20,7 @@ Please read the meteor style guide before making any significant contribution.
 
 ## Preventing Travis CI lint errors before submitting pull requests
 
-- Eslint for linting. To prevent Travis CI lint errors, you can test for lint errors with "npm run lint"
+- Eslint for linting. To prevent Travis CI lint errors, you can test for lint errors by installing "npm install eslint" and running it with "npm run lint"
 - If you want automatic fixes to that code file you can copy code to [jsbeautifer website](http://jsbeautifier.org) with settings Indent with 2 spaces (topmost dropdown), [X] Space before conditional: "if(x)" / "if (x)", [X] Use JSLint-happy formatting tweaks.
 
 ## Pull Request Workflow (Please read before submitting PR's)
