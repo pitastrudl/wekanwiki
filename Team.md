@@ -1,6 +1,6 @@
 This page is in progress, more team members will be added later.
 
-Team members have donated their free time and resources for the project.
+Team members have donated their free time and resources for the project. Not all pull requests are listed.
 
 # Current
 
@@ -16,6 +16,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [nztqa](https://github.com/nztqa) | - | Universe | Contributor | [Delete card when deleting list](https://github.com/wekan/wekan/pull/1054), [Disable unnecessary link feature](https://github.com/wekan/wekan/pull/1042), [Fix IE 11 drag board to scroll](https://github.com/wekan/wekan/pull/1052)
 [huneau](https://github.com/huneau) | - | Universe | Contributor | REST API
 [mayjs](https://github.com/mayjs) | - | Universe | Contributor | REST API
+[Zokormazo](https://github.com/Zokormazo) | Zokormazo | Spain | Contributor | [Add isAdmin to user Schema](Add isAdmin to user Schema)
 [shtefcs](https://github.com/shtefcs) | kinder | Universe | [Vanila](https://vanila.io) Founder | [Chat](https://chat.vanila.io/channel/wekan), growth hacking
 [jelenajjo](https://github.com/jelenajjo) | jelena | Universe | [Vanila](https://vanila.io) Web Developer |  [Themes](https://github.com/wekan/wekan/issues/781), upcoming new website
 [dwrensha](https://github.com/dwrensha) | - | USA | [Sandstorm](https://sandstorm.io) Developer | Packaging Wekan releases for Sandstorm
