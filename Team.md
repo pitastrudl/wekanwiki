@@ -15,7 +15,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [stephenmoloney](https://github.com/stephenmoloney) | - | Ireland | Contributor | Dockerfile and Travis config, Meteor 1.4 and Node 4.x port
 [GhassenRjab](https://github.com/GhassenRjab) | ghassen.rjab | Universe | Contributor | [Fix Export Board](https://github.com/wekan/wekan/pull/1067), [Fix "W" shortcut](https://github.com/wekan/wekan/pull/1066)
 [nztqa](https://github.com/nztqa) | - | Universe | Contributor | [Delete card when deleting list](https://github.com/wekan/wekan/pull/1054), [Disable unnecessary link feature](https://github.com/wekan/wekan/pull/1042), [Fix IE 11 drag board to scroll](https://github.com/wekan/wekan/pull/1052)
-[huneau](https://github.com/huneau) | - | Universe | Contributor | REST API
+[huneau](https://github.com/huneau) | - | Universe | Contributor | REST API, [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010)
 [mayjs](https://github.com/mayjs) | - | Universe | Contributor | REST API
 [Zokormazo](https://github.com/Zokormazo) | Zokormazo | Spain | Contributor | [Add isAdmin to user Schema](https://github.com/wekan/wekan/pull/970), [Add TLS toggle to Admin Panel SMTP setting](https://github.com/wekan/wekan/pull/960)
 [shtefcs](https://github.com/shtefcs) | kinder | Universe | [Vanila](https://vanila.io) Founder | [Chat](https://chat.vanila.io/channel/wekan), growth hacking
