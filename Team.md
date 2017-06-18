@@ -13,7 +13,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [BaobabCoder](https://github.com/BaobabCoder) | BaobabCoder | France | Contributor | [Delete List](https://github.com/wekan/wekan/pull/1050)
 [whodafly](https://github.com/whodafly) | superfly | USA | Contributor | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail), [Import Checklists from Trello](https://github.com/wekan/wekan/pull/894)
 [stephenmoloney](https://github.com/stephenmoloney) | - | Ireland | Contributor | Dockerfile and Travis config, Meteor 1.4 and Node 4.x port
-[GhassenRjab](https://github.com/GhassenRjab) | ghassen.rjab | Universe | Contributor | [Fix Export Board](https://github.com/wekan/wekan/pull/1067), [Fix "W" shortcut](https://github.com/wekan/wekan/pull/1066)
+[GhassenRjab](https://github.com/GhassenRjab) | ghassen.rjab | Universe | Contributor | [Fix Export Board](https://github.com/wekan/wekan/pull/1067), [Fix "W" shortcut](https://github.com/wekan/wekan/pull/1066), [Sort languages](https://github.com/wekan/wekan/pull/1070)
 [nztqa](https://github.com/nztqa) | - | Universe | Contributor | [Delete card when deleting list](https://github.com/wekan/wekan/pull/1054), [Disable unnecessary link feature](https://github.com/wekan/wekan/pull/1042), [Fix IE 11 drag board to scroll](https://github.com/wekan/wekan/pull/1052)
 [huneau](https://github.com/huneau) | - | Universe | Contributor | REST API, [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010)
 [mayjs](https://github.com/mayjs) | - | Universe | Contributor | REST API
