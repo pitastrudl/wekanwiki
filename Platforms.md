@@ -47,7 +47,7 @@ More info:
 
 ### Ubuntu snap
 
-[Ubuntu snap](https://github.com/wekan/wekan-snap)
+[Install Ubuntu snap](https://github.com/wekan/wekan-snap)
 
 # Updated once a month
 
