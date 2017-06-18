@@ -45,6 +45,10 @@ More info:
 
 [Package repo](https://git.cloudron.io/cloudron/wekan-app)
 
+### Ubuntu snap
+
+[Ubuntu snap](https://github.com/wekan/wekan-snap)
+
 # Updated once a month
 
 ### Indiehosters
@@ -76,12 +80,6 @@ https://sandstorm.io
 [Debian Wheezy 64bit & Devuan Jessie 64 bit][debian_wheezy_devuan_jessie]
 
 [Autoinstall script][autoinstall]
-
-### Ubuntu snap
-
-[Ubuntu snap](https://github.com/wekan/wekan-snap)
-
-[Needs updating](https://discourse.wekan.io/t/firefox-can-t-establish-a-connection-to-the-server-at-127-0-0-1/500)
 
 ### Source on Windows
 
