@@ -53,7 +53,7 @@ After 2016-09-02 there were no pull requests reviewed and integrated for nearly 
 The main difference between the two is that Wekan is completely open source and available under the permissive MIT license. That makes it possible to host it on your own server (or your company's or organization's server) and you keep the full control over all data. No need to fear it will disappear some day, like a commercial service like Trello could.  
 Additionally the long term goal is to have features that are not available on Trello or other alternative, making Wekan flexible and suitable for complex project organizations.
 
-## Why does Wekan looks so different now compared to < v0.9?
+## Why does Wekan look so different now compared to < v0.9?
 Wekan started as a just for fun project to explore meteor and it's features and the initial version had a lot of the Trello assets (CSS, Images, Fonts) in it and copied a lot of it's design. Due to an DMCA takedown notice and obviously to get its own identity, the old design was dropped after v0.8 and a new UI was developed
 
 See the related tickets [#92] and [#97] for more information.
