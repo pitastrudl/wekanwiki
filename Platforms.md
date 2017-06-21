@@ -1,5 +1,3 @@
-2017-05-31 [SECURITY FLAW IN ADMIN PANEL](https://github.com/wekan/wekan/issues/1048).
-
 # Updated often
 
 Automatic generated newest builds are available for Docker, and platforms that
