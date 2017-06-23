@@ -145,6 +145,9 @@ cd wekan
 git submodule init
 git submodule update
 
+# When rebuilding, delete npm 5.x package-lock.json file because it gives Base64 package errors
+rm package-lock.json
+
 #### OPTIONAL: test pull request
 ## git checkout -b dwrensha-profile-bugfix devel
 ## git pull https://github.com/dwrensha/wekan.git profile-bugfix
@@ -174,6 +177,8 @@ not recompiled though, that needs full rebuild.
 
 #### In production
 ```bash
+# When rebuilding, delete npm 5.x package-lock.json file because it gives Base64 package errors
+rm package-lock.json
 rm -rf .build
 meteor build .build --directory
 cp fix-download-unicode/cfs_access-point.txt .build/bundle/programs/server/packages/cfs_access-point.js
@@ -338,6 +343,8 @@ If you installed Wekan manually, you need to stop the Node.js server, download t
 sudo systemctl stop wekan@wekan
 cd ~/repos/wekan
 git pull
+# When rebuilding, delete npm 5.x package-lock.json file because it gives Base64 package errors
+rm package-lock.json
 npm install
 rm -rf .build
 meteor build .build --directory
