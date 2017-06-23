@@ -81,7 +81,7 @@ https://sandstorm.io
 
 ### Source on Windows
 
-[Install from source on Windows][installsource_windows], needs [fix for dependencies install error](https://github.com/wekan/wekan/issues/977)
+[Install from source on Windows][installsource_windows], note that [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977).
 
 ### Uberspace
 
