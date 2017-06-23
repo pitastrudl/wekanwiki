@@ -5,8 +5,8 @@ install directly from this repo. Automatic builds will be added later for more
 platforms.
 
 First registered Wekan user will get [Admin Panel](https://github.com/wekan/wekan/wiki/Features) on new
-Docker and source based installs. You can also
-[enable Admin Panel manually on MongoDB](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease) and [change you as board admin on MongoDB](https://github.com/wekan/wekan/issues/1060#issuecomment-310545976).
+Docker and source based installs. You can also on MongoDB 
+[enable Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease) and [change you as board admin](https://github.com/wekan/wekan/issues/1060#issuecomment-310545976).
 
 You may need these on other platforms than Sandstorm:
 * [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
