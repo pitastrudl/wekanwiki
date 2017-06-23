@@ -141,9 +141,10 @@ sudo rm -rf ~/.npm
 
 # Download Wekan
 git clone https://github.com/wekan/wekan
-cd wekan
-git submodule init
-git submodule update
+cd wekan/packages
+git clone https://github.com/wekan/flow-router.git kadira-flow-router
+git clone https://github.com/meteor-useraccounts/core.git meteor-useraccounts-core
+cd ..
 
 # When rebuilding, delete npm 5.x package-lock.json file because it gives Base64 package errors
 rm package-lock.json
