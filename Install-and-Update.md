@@ -157,7 +157,7 @@ sudo n 4.8.1
 sudo npm -g install npm@latest
 sudo npm -g install node-gyp
 sudo npm -g install node-pre-gyp
-sudo npm -g install fibers
+sudo npm -g install fibers@1.0.15
 
 # install wekan npm dependancies
 npm install
