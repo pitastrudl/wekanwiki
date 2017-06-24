@@ -83,6 +83,8 @@ https://sandstorm.io
 
 [Install from source on Windows][installsource_windows], note that [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related issues: [running standalone](https://github.com/wekan/wekan/issues/883), [nexe](https://github.com/wekan/wekan/issues/710).
 
+Somebody should check from Docker website does Linux-based Wekan Docker containers work on Windows. There is also [Docker based development environment for Wekan](https://github.com/wekan/wekan-dev) that is not currently up-to-date, it has been made for faster local Docker builds.
+
 ### Uberspace
 
 [Install on Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
