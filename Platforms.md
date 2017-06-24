@@ -21,6 +21,8 @@ You may need these on other platforms than Sandstorm:
 
 [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
 
+[Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
+
 [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
 
 More info:
