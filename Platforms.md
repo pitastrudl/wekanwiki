@@ -81,7 +81,7 @@ https://sandstorm.io
 
 ### Source on Windows
 
-[Install from source on Windows][installsource_windows], note that [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977).
+[Install from source on Windows][installsource_windows], note that [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related issues: [running standalone](https://github.com/wekan/wekan/issues/883), [nexe](https://github.com/wekan/wekan/issues/710).
 
 ### Uberspace
 
