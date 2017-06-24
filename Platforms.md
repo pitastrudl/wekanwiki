@@ -81,7 +81,7 @@ https://sandstorm.io
 
 ### Source on Windows
 
-Someone needs to complete instructions about [Install from source on Windows][installsource_windows] to get Wekan running natively on Windows, note that [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related issues: [running standalone](https://github.com/wekan/wekan/issues/883), [nexe](https://github.com/wekan/wekan/issues/710).
+Someone needs to complete instructions about [Install from source on Windows][installsource_windows] to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related issues: [running standalone](https://github.com/wekan/wekan/issues/883), [nexe](https://github.com/wekan/wekan/issues/710).
 
 Somebody should check from Docker website does Linux-based Wekan Docker containers work on Windows. There is also [Docker based development environment for Wekan](https://github.com/wekan/wekan-dev) that is not currently up-to-date, it has been made for faster local Docker builds. See [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile) about what versions of dependencies are used at Wekan.
 
