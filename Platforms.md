@@ -31,6 +31,8 @@ More info:
 
 [Install from source][install_source]
 
+[Install from source without sudo](https://github.com/wekan/wekan/wiki/Install-source-without-sudo-on-Linux)
+
 ### VirtualBox
 
 [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
