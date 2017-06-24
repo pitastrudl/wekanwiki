@@ -23,6 +23,10 @@ Export
 
 * Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059). Note that there is a bug that [Export menu is not visible at all boards](https://github.com/wekan/wekan/issues/1060).
 
+Working with big boards
+
+* [JSON tools, copying files to clipboard](https://github.com/wekan/wekan/issues/610#issuecomment-310862951)
+
 API
 
 * [REST API](https://github.com/wekan/wekan/issues/1037)
