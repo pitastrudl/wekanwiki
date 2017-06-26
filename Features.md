@@ -9,10 +9,11 @@ Kanban
 * Multi-selection => Checkmark select cards => drag-drop all selected to some list
 * [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
 * Filtered views
+* [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
 
 Authentication, Admin Panel, SMTP Settings
 
-* Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP 
+* Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
 * Sandstorm Platform: Admin: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. Wekan, Rocket.Chat, etc apps available with one click install.
 
 Import
@@ -21,7 +22,7 @@ Import
 
 Export
 
-* Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059). Note that there is a bug that [Export menu is not visible at all boards](https://github.com/wekan/wekan/issues/1060).
+* Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059). If Export menu is not visible, you can change [Export menu to be visible by setting yourself as board admin in MongoDB](https://github.com/wekan/wekan/issues/1060).
 
 Working with big boards
 
@@ -71,7 +72,6 @@ Versions of Meteor and Node
 
 ### Wishes for Boards
 
-* [International Date Formatting for Due Date](https://github.com/wekan/wekan/issues/838)
 * [Custom fields](https://github.com/wekan/wekan/issues/807)
 * [Children/Related cards](https://github.com/wekan/wekan/issues/709), subtasks. Dependencies. 
 * [Top Level Projects](https://github.com/wekan/wekan/issues/641)
