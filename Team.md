@@ -25,7 +25,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [ocdtrekkie](https://github.com/dwrensha) | ocdtrekkie | USA | [Sandstorm](https://sandstorm.io) user from beginning of Sandstorm | Testing and accepting Wekan releases for Sandstorm
 [JamborJan](https://github.com/JamborJan) | - | Universe | [Sandstorm](https://sandstorm.io) Developer | [Add bigger screenshots](https://github.com/wekan/wekan/pull/940)
 [nebulade](https://github.com/nebulade) | - | Germany | [Cloudron](https://cloudron.io) Developer | [Re-enable export](https://github.com/wekan/wekan/pull/1059)
-[kubiko](https://github.com/kubiko) | - | UK | [Canonical](https://www.canonical.com) Developer | [snap package](https://github.com/wekan/wekan-snap)
+[kubiko](https://github.com/kubiko) | - | UK | [Canonical](https://www.canonical.com) Developer | [snap package](https://github.com/wekan/wekan-snap), [Adding snapcraft build support from source](https://github.com/wekan/wekan/pull/1091)
 
 # Previous
 
