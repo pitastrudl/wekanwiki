@@ -49,6 +49,8 @@ More info:
 
 [Install Ubuntu snap](https://github.com/wekan/wekan-snap)
 
+[Docs](https://github.com/wekan/wekan-snap/wiki)
+
 # Updated once a month
 
 ### Indiehosters
