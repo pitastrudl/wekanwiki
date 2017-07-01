@@ -1,3 +1,5 @@
+# [SECURITY ISSUE: FILES ACCESSIBLE WITHOUT AUTHENTICATION](https://github.com/wekan/wekan/issues/1105)
+
 # Updated often
 
 Automatic generated newest builds are available for Docker, and platforms that
