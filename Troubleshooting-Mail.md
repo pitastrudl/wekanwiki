@@ -9,6 +9,10 @@ If you're using the Docker container through docker-compose, you can follow the 
 
     @:~$ docker-compose logs -f wekan
 
+If you're using a snap package, you'll get the logs with
+
+    @:~$ journalctl -u snap.wekan.wekan
+
 ## Error Messages
 Once you've got the log files in front of you, go to the WeKan frontend and send a password reset link, or try to register. This will try to send an e-mail, and you should see any error messages in the log file.
 
