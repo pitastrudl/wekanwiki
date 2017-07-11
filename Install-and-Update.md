@@ -159,7 +159,7 @@ sudo apt install build-essential g++ capnproto nodejs nodejs-legacy npm git curl
 sudo npm -g install n
 ## if the previous fails (and asks you to run as sudo) just rm /home/<username>/node_modules and retry
 sudo n 4.8.1
-sudo npm -g install npm@latest
+sudo npm -g install npm@4.6.1
 sudo npm -g install node-gyp
 sudo npm -g install node-pre-gyp
 sudo npm -g install fibers@1.0.15
@@ -319,12 +319,12 @@ docker images
 
 Remove old previously downloaded Docker image:
 ```sh
-docker rmi mquandalle/wekan:latest
+docker rmi wekanteam/wekan:latest
 ```
 
 Download and run latest version:
 ```sh
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 mquandalle/wekan:latest
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:latest
 ```
 
 More information about [setup Wekan Docker](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production).
@@ -383,7 +383,7 @@ echo "Backup is also archived to .zip file backups/${now}.zip"
 [virtual-appliance]: https://github.com/anselal/wekan#wekan-virtual-appliance
 
 [contributors-page]: https://github.com/wekan/wekan/blob/devel/Contributing.md#installation
-[docker-repo]: https://hub.docker.com/r/mquandalle/wekan/
+[docker-repo]: https://hub.docker.com/r/wekanteam/wekan/
 [sandstorm-guide]: https://sandstorm.io/install/
 [node-packages]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [node-web]: https://nodejs.org/download
