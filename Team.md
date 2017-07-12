@@ -6,7 +6,7 @@ Team members have donated their free time and resources for the project. Not all
 
 GitHub Username | Chat Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------ | ------------
-[xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Source/Docker/Snap releases, testing and merging pull requests, organizing issues, updating wiki and website, small features
+[xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Source/Docker/Ubuntu snap releases, testing and merging pull requests, organizing issues, updating wiki and website, small features
 [lkisme](https://github.com/lkisme) | - | China | Contributor | [Admin Panel](https://github.com/wekan/wekan/pull/871)
 [Serubin](https://github.com/Serubin) | serubin | Universe | Contributor | [Fix Double slash problem](https://github.com/wekan/wekan/pull/932)
 [rhelsing](https://github.com/rhelsing) | ryan.helsing | USA | Contributor | [Comment permissions](https://github.com/wekan/wekan/pull/1008)
