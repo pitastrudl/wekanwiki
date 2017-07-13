@@ -16,7 +16,6 @@ You may need these on other platforms than Sandstorm:
 * [Nginx webserver config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
 * [Nginx workaround](https://github.com/wekan/wekan/issues/1015)
 * [Caddy webserver config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
-* [Bug: Some modules not using ROOT_URL](https://github.com/wekan/wekan/issues/973)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 
 ### Docker
