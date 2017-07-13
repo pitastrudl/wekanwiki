@@ -66,5 +66,6 @@
 * [Notifications](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ANotifications)
 * [Filters](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AFilters)
 * [Checklists](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ACards%3AChecklists)
-* [LibreJS](https://github.com/wekan/wekan/issues/1040)
 * [Swimlanes](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ACards%3ASwimlanes)
+* [LibreJS](https://github.com/wekan/wekan/issues/1040)
+* [Markdown](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AMarkdown)
