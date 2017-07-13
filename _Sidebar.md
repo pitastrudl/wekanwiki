@@ -9,9 +9,21 @@
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
-* [Platforms](https://github.com/wekan/wekan/wiki/Platforms)
 * [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
+* [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
+
+## Platforms
+
+* [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
+* [CentOS 7](https://github.com/wekan/wekan/issues/718)
+* [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
+
+## Webservers
+
+* [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
+* [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
+* [Nginx workaround](https://github.com/wekan/wekan/issues/1015)
 
 ## Migrating
 
