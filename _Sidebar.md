@@ -16,6 +16,9 @@
 * [Bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ABug)
 * [Feature requests](https://github.com/wekan/wekan/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20feature)
 * [Import / Export](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AImport-export)
+* [Accessibility](https://github.com/wekan/wekan/labels/Accessibility)
+* [Navigation:Keyboard](https://github.com/wekan/wekan/labels/Navigation%3AKeyboard)
+* [Targets:Mobile-web](https://github.com/wekan/wekan/labels/Targets%3AMobile-web)
 
 ## Features
 
