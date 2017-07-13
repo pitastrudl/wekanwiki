@@ -19,6 +19,7 @@
 * [Accessibility](https://github.com/wekan/wekan/labels/Accessibility)
 * [Navigation:Keyboard](https://github.com/wekan/wekan/labels/Navigation%3AKeyboard)
 * [Targets:Mobile-web](https://github.com/wekan/wekan/labels/Targets%3AMobile-web)
+* [REST API](https://github.com/wekan/wekan/labels/API%3AREST)
 
 ## Features
 
