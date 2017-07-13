@@ -127,3 +127,41 @@ wekan_1      |     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ss
 
 ## No News Is Good News
 Of course, if you don't see any of these errors in your WeKan log file, then the problem is not in WeKan. Check your SMTP server's mail logs (if you can) to get a better idea of what might be going wrong.
+
+
+***
+
+## BELOW IS NOT TESTED YET DOCS
+
+They are moved here from https://github.com/wekan/wekan/issues/961
+
+### Configure Wekan
+
+Sample:
+### Wekan with TLS/SSL
+To run Wekan secured with TLS/SSL do the following steps:
+1. Setup a Web-Server/-Proxy with TLS/SSL support that maps requests to wekan. [Link](url)
+2. Set protocol to http**s**. 
+`export ROOT_URL='https://example.com/'`
+3. Set Wekan to an internal port. 
+`export PORT=54321`
+4. Restart and run Wekan. 
+
+### Wekan at subpath
+To run Wekan to appear at a subpath of your domain:
+1. Setup a Web-Server/-Proxy that maps requests to wekan. [Link](url)
+2. Append subpath to domain, without trailing slash. 
+`export ROOT_URL='http://example.com/mywekan'`
+3. Set Wekan to an internal port. 
+`export PORT=54321`
+4. Restart and run Wekan. 
+
+### SMTP with TLS/SSL
+To enable Wekan sending Mail from a mail server with TLS/SSL:
+1. Set Wekan to the specified port (465 / 587). 
+`export MAIL_URL='smtp://user:password@example.com:587/'`
+2. Restart and run Wekan. 
+
+### Mail Sender
+To define a sender name for the mails automatically sended by Wekan. 
+1. ...`export MAIL_FROM='Thomas Anderson <neo@matrix.org>'`
