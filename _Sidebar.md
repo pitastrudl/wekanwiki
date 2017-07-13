@@ -1,3 +1,5 @@
+# Wekan
+
 ## General
 
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
