@@ -24,3 +24,7 @@
 * [Install for production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
 * [SLES SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Rancher Rancher Active Proxy](https://github.com/wekan/wekan/wiki/Rancher---Rancher-Active-Proxy---Wekan-MongoDB-Docker)
+
+## Case Studies
+
+* [Implementing GDPR](https://github.com/wekan/wekan/wiki/GDPR)
