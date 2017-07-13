@@ -12,6 +12,7 @@
 * [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
+* [Bugs](https://github.com/wekan/wekan/wiki/Bugs)
 
 ## Platforms
 
