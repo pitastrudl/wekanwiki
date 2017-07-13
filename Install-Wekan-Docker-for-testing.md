@@ -9,7 +9,7 @@
 version: '2'
 services:
   wekan:
-    image: wekanteam/wekan:meteor-1.4
+    image: wekanteam/wekan:latest
     links:
       - wekandb
     environment:
@@ -58,7 +58,7 @@ Above method will create an instance of Wekan without mailing features (users in
 
 ```yaml
 wekan:
-  image: wekanteam/wekan:meteor-1.4
+  image: wekanteam/wekan:latest
   links:
     - wekandb
     - mailserver
