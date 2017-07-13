@@ -1,4 +1,4 @@
-# Wekan Docs
+# Wekan
 
 ## General
 
