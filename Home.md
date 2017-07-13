@@ -16,6 +16,10 @@ There are various ways to get started with Wekan:
 
 If you still have questions, check out the [[FAQ]]!
 
+## TODO
+
+Add logical index page to this wiki, for example custom sidebar.
+
 [kanban board]: https://en.wikipedia.org/wiki/Kanban_board
 [workflowy]: https://workflowy.com
 [trello]: https://trello.com
