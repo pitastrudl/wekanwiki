@@ -1,5 +1,7 @@
 # <a name="Wekan"></a>Wekan
 
+[Home - About](https://github.com/wekan/wekan/wiki)
+
 ## <a name="General"></a>General
 
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
