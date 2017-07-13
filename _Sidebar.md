@@ -61,5 +61,6 @@
 * [Docs - Sandstorm etc](https://github.com/wekan/wekan/labels/Documentation)
 * [Logs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ALogs)
 * [Notifications](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ANotifications)
+* [Filters](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AFilters)
 * [Admin Panel](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AAdmin-Panel)
 * [Encryption](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AEncryption)
