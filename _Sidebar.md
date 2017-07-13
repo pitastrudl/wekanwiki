@@ -2,12 +2,12 @@
 
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 * [Team](https://github.com/wekan/wekan/wiki/Team)
-* [Translations](https://github.com/wekan/wekan/wiki/Translations)
 * [Security Disclosure](https://github.com/wekan/wekan/wiki/Security-Disclosure)
 
 ## Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Translations](https://github.com/wekan/wekan/wiki/Translations)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
 * [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
