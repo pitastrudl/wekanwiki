@@ -4,7 +4,11 @@
 
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 * [Team](https://github.com/wekan/wekan/wiki/Team)
+
+## Security
+
 * [Security Disclosure](https://github.com/wekan/wekan/wiki/Security-Disclosure)
+* [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
 
 ## Development
 
