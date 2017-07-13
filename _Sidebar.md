@@ -60,3 +60,4 @@
 * [REST API](https://github.com/wekan/wekan/labels/API%3AREST)
 * [Docs - Sandstorm etc](https://github.com/wekan/wekan/labels/Documentation)
 * [Logs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ALogs)
+* [Notifications](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ANotifications)
