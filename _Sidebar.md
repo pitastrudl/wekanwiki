@@ -24,7 +24,6 @@
 ## <a name="Platforms"></a>Platforms
 
 * [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
-* [CentOS 7](https://github.com/wekan/wekan/issues/718)
 
 ## <a name="Webservers"></a>Webservers
 
