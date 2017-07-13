@@ -33,7 +33,7 @@
 
 ## Docker
 
-* [Link collection](https://github.com/wekan/wekan/wiki/Docker)
+* [Docker links](https://github.com/wekan/wekan/wiki/Docker)
 * [Install for testing](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-for-testing)
 * [Install for production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
 * [SLES SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
