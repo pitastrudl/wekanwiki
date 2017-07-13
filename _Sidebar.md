@@ -4,6 +4,12 @@
 * [Team](https://github.com/wekan/wekan/wiki/Team)
 * [Security Disclosure](https://github.com/wekan/wekan/wiki/Security-Disclosure)
 
+## Development
+
+* [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
+* [Bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ABug)
+* [Feature requests](https://github.com/wekan/wekan/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20feature)
+
 ## Features
 
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
@@ -12,8 +18,6 @@
 * [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
-* [Bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ABug)
-* [Feature requests](https://github.com/wekan/wekan/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20feature)
 
 ## Platforms
 
