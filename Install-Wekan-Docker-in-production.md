@@ -26,7 +26,7 @@ version: '2'
 services:
 
   wekandb:
-    image: mongo:3.2.13
+    image: mongo:3.2.14
     container_name: wekan-db
     command: mongod --smallfiles --oplogSize 128
     networks:
@@ -68,7 +68,7 @@ networks:
 **Note:** to start the wekan containers automatically on boot, use the `restart: always` policy on both containers. e.g.
   ```
   wekan:
-    image: wekanteam/wekan:meteor-1.4
+    image: wekanteam/wekan:latest
     restart: always
     ...
 
