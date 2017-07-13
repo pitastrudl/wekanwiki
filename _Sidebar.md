@@ -20,6 +20,7 @@
 * [Navigation:Keyboard](https://github.com/wekan/wekan/labels/Navigation%3AKeyboard)
 * [Targets:Mobile-web](https://github.com/wekan/wekan/labels/Targets%3AMobile-web)
 * [REST API](https://github.com/wekan/wekan/labels/API%3AREST)
+* [Docs - Sandstorm etc](https://github.com/wekan/wekan/labels/Documentation)
 
 ## Features
 
