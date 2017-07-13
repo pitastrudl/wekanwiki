@@ -10,18 +10,6 @@
 * [Security Disclosure](https://github.com/wekan/wekan/wiki/Security-Disclosure)
 * [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
 
-## Development
-
-* [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
-* [Bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ABug)
-* [Feature requests](https://github.com/wekan/wekan/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20feature)
-* [Import / Export](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AImport-export)
-* [Accessibility](https://github.com/wekan/wekan/labels/Accessibility)
-* [Navigation:Keyboard](https://github.com/wekan/wekan/labels/Navigation%3AKeyboard)
-* [Targets:Mobile-web](https://github.com/wekan/wekan/labels/Targets%3AMobile-web)
-* [REST API](https://github.com/wekan/wekan/labels/API%3AREST)
-* [Docs - Sandstorm etc](https://github.com/wekan/wekan/labels/Documentation)
-
 ## Features
 
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
@@ -59,3 +47,16 @@
 ## Case Studies
 
 * [Implementing GDPR](https://github.com/wekan/wekan/wiki/GDPR)
+
+## Development
+
+* [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
+* [Bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ABug)
+* [Feature requests](https://github.com/wekan/wekan/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20feature)
+* [Import / Export](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3AImport-export)
+* [Accessibility](https://github.com/wekan/wekan/labels/Accessibility)
+* [Navigation:Keyboard](https://github.com/wekan/wekan/labels/Navigation%3AKeyboard)
+* [Targets:Mobile-web](https://github.com/wekan/wekan/labels/Targets%3AMobile-web)
+* [REST API](https://github.com/wekan/wekan/labels/API%3AREST)
+* [Docs - Sandstorm etc](https://github.com/wekan/wekan/labels/Documentation)
+* [Logs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AFeature%3ALogs)
