@@ -6,8 +6,8 @@
 
 ## Features
 
-* [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
+* [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
 * [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
