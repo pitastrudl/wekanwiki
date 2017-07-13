@@ -19,7 +19,7 @@ services:
       - 80:80
 
   wekandb:
-    image: mongo:3.2.12
+    image: mongo:3.2.14
     volumes:
       - /home/johndoe/wekan/data:/data/db
 ```
@@ -70,7 +70,7 @@ wekan:
     - 8081:80
 
 wekandb:
-   image: mongo:3.2.12
+   image: mongo:3.2.14
    volumes:
      - /home/wekan/data:/data/db
 
