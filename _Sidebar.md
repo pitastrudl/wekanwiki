@@ -1,6 +1,6 @@
 # <a name="Wekan"></a>Wekan
 
-[Home - About](https://github.com/wekan/wekan/wiki)
+[About](https://github.com/wekan/wekan/wiki)
 
 ## <a name="General"></a>General
 
