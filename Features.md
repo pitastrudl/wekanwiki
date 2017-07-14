@@ -18,7 +18,7 @@ Authentication, Admin Panel, SMTP Settings
 
 Import
 
-* Import from Trello: Text, labels, images, comments, checklists. Not imported yet: stickers, etc.
+* Import Trello board: Text, labels, images, comments, checklists. Not imported yet: stickers, etc.
 * [Import Wekan board](https://github.com/wekan/wekan/pull/1117): Text, labels, images, comments, checklists.
 
 Export
