@@ -18,7 +18,8 @@ Authentication, Admin Panel, SMTP Settings
 
 Import
 
-* Import from Trello: Text, labels, images, comments, checklists (checklist import needs to be checked, are checklists imported correctly). Not imported yet: stickers, etc.
+* Import from Trello: Text, labels, images, comments, checklists. Not imported yet: stickers, etc.
+* [Import Wekan board](https://github.com/wekan/wekan/pull/1117): Text, labels, images, comments, checklists.
 
 Export
 
@@ -31,6 +32,10 @@ Working with big boards
 API
 
 * [REST API](https://github.com/wekan/wekan/issues/1037)
+
+Webhooks
+
+* [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119)
 
 Cleanup
 
