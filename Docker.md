@@ -12,9 +12,9 @@ For now, [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/)
 
 Example:
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.13
+docker run -d --restart=always --name wekan-db mongo:3.2.14
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 quay.io/wekan/wekan:v0.22
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 quay.io/wekan/wekan:latest
 ```
 
 Added 2017-05-06 to see if it has better debugging of failed builds than Docker Hub.
@@ -25,13 +25,13 @@ Added 2017-05-06 to see if it has better debugging of failed builds than Docker 
 
 - No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.13
+docker run -d --restart=always --name wekan-db mongo:3.2.14
 ```
 
 - No build step, pull from the [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) and
 specify docker variables
 ```
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:meteor-1.4
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:latest
 ```
 
 ### `docker-compose` examples
