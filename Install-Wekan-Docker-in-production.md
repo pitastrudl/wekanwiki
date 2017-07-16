@@ -17,7 +17,8 @@ chmod +x /usr/local/bin/docker-compose
 
 * Let say we create a dedicated user for Wekan : `sudo useradd -d /home/wekan -m -s /bin/bash wekan`
 * Add this user to the docker group: `sudo usermod -aG docker wekan`
-* Create the file `/home/wekan/docker-compose.yml` containing: 
+* Create the file `/home/wekan/docker-compose.yml` containing following.
+* CHANGE ROOT_URL https://example.com TO YOUR REAL URL LIKE http://example.com , http://example.com/wekan , http://IP-ADDRESS-HERE OR SIMILAR.
 
 
 ```yaml
@@ -46,7 +47,7 @@ services:
       - 8081:80
     environment:
       - MONGO_URL=mongodb://wekandb:27017/wekan
-      - ROOT_URL=http://localhost
+      - ROOT_URL=http://example.com
       - MAIL_URL=smtp://user:pass@mailserver.example.com:25/
       - MAIL_FROM=wekan-admin@example.com
     depends_on:
