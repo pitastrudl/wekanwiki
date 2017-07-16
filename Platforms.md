@@ -38,6 +38,8 @@ More info:
 
 [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 
+[Scripts from virtual appliance](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox), can be used on any Ubuntu 14.04 64bit install like native or VM. Includes script how to run Node.js on port 80.
+
 ### Cloudron
 
 [![Install on Cloudron][cloudron_button]][cloudron_install]
