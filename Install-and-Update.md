@@ -50,7 +50,9 @@ There are three options:
 
 ## Bash Install Script
 
-You can find a bash installation script at https://github.com/wekan/wekan-autoinstall
+[Scripts from virtual appliance](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox), can be used on any Ubuntu 14.04 64bit install like native or VM.
+
+[wekan-autoinstall](https://github.com/wekan/wekan-autoinstall) - may not be up-to-date.
 
 ## Manual Installation Steps
 
