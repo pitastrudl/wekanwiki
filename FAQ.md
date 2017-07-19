@@ -66,7 +66,10 @@ See the related tickets [#92] and [#97] for more information.
 ## Why am I called a troll?
 * You want a feature, but you add thumbs down emoji reactions
 * You are adding image reactions
-* You want priorities changed (we don't have priorities)
+* You want priorities changed. Current priorities are:
+  * [High priority](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3AHigh-priority): security issues and high severity bugs
+  * Medium priority: Import/Export
+  * Others. Actual roadmap will be updated later.
 * You write that you are providing constructive criticism
 * You think that free software includes free implemented features
 * You are adding something other than:
