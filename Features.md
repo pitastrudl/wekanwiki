@@ -1,21 +1,67 @@
 # Current
 
+### Translations
+
+* [Translate Wekan at Transifex](https://www.transifex.com/wekan/wekan/)
+
+![Wekan translations screenshot](https://wekan.github.io/screenshot-change-language.png)
+
 ### Kanban
 
 * Boards: List of all your public and private boards, board shortcuts at top of page
+
+![Wekan boards screenshot](https://wekan.github.io/screenshot-boards.png)
+
+![Wekan board menu screenshot](https://wekan.github.io/screenshot-board-menu.png)
+
+![Wekan board settings screenshot](https://wekan.github.io/screenshot-member-settings.png)
+
+![Wekan star board screenshot](https://wekan.github.io/screenshot-star-board.png)
+
+![Wekan watch board screenshot](https://wekan.github.io/screenshot-muted-watch.png)
+
+* Keyboard shortcuts button at right bottom corner
+
+![Wekan watch board screenshot](https://wekan.github.io/screenshot-keyboard-shortcuts.png)
+
 * Members: Invite new member, permissions Admin/Normal/Comment only, drag-drop member to assign to task
+
+![Wekan member settings screenshot](https://wekan.github.io/screenshot-member-settings.png)
+
+![Wekan edit notification screenshot](https://wekan.github.io/screenshot-member-settings-edit-notification.png)
+
+![Wekan hide system messages screenshot](https://wekan.github.io/screenshot-member-settings-hide-system-messages.png)
+
+![Wekan members screenshot](https://wekan.github.io/screenshot-member-filter.png)
+
+![Wekan boards permissions screenshot](screenshot-member-comment-only.png)
+
 * Lists: Add, archive and restore archived, delete list.
+
+![Wekan kanban screenshot](https://wekan.github.io/screenshot-member-settings-archives.png)
+
 * Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Arhive and restore archived card. Delete card.
-* Multi-selection => Checkmark select cards => drag-drop all selected to some list
 * [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
-* Filtered views
 * [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot.png)
 
+* Multi-selection => Checkmark select cards => drag-drop all selected to some list
+
+![Wekan multi-selection screenshot](https://wekan.github.io/screenshot-multi-selection.png)
+
+* Filtered views
+
+![Wekan multi-selection screenshot](https://wekan.github.io/screenshot-filter.png)
+
 ### Authentication, Admin Panel, SMTP Settings
 
 * Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
+
+![Wekan Admin Panel registration disable screenshot](https://wekan.github.io/screenshot-admin-panel-registration.png)
+
+![Wekan Admin Panel email screenshot](https://wekan.github.io/screenshot-admin-panel-email.png)
+
 * Sandstorm Platform: Admin: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. Wekan, Rocket.Chat, etc apps available with one click install.
 
 ### Import
@@ -38,6 +84,8 @@
 ### Webhooks
 
 * [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119)
+
+![Wekan Outgoing Webhooks screenshot](https://wekan.github.io/screenshot-outgoing-webhooks.png)
 
 ### Cleanup
 
