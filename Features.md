@@ -38,12 +38,11 @@
 
 ![Wekan hide system messages screenshot](https://wekan.github.io/screenshot-member-settings-hide-system-messages.png)
 
-* Filter by member
-* Invite new member, drag-drop member to assign to task
+* Members: Click member initials or avatar
 
 ![Wekan members screenshot](https://wekan.github.io/screenshot-member-filter.png)
 
-* Permissions Admin/Normal/Comment only
+* Members: Click member initials or avatar => Permissions Admin/Normal/Comment only
 
 ![Wekan boards permissions screenshot](https://wekan.github.io/screenshot-member-comment-only.png)
 
