@@ -11,6 +11,8 @@
 * Filtered views
 * [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
 
+![Wekan kanban screenshot](https://wekan.github.io/screenshot.png)
+
 ### Authentication, Admin Panel, SMTP Settings
 
 * Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
