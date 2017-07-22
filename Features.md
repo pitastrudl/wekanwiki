@@ -95,6 +95,12 @@
 
 * [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119)
 
+1) Board menu when clicking 3 lines "hamburger" menu on right
+
+![Wekan board menu screenshot](https://wekan.github.io/screenshot-board-menu.png)
+
+2) Outgoint Webhooks
+
 ![Wekan Outgoing Webhooks screenshot](https://wekan.github.io/screenshot-outgoing-webhooks.png)
 
 ### Cleanup
