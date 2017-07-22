@@ -1,40 +1,51 @@
 # Current
 
-### Translations
-
-* [Translate Wekan at Transifex](https://www.transifex.com/wekan/wekan/)
-
-![Wekan translations screenshot](https://wekan.github.io/screenshot-change-language.png)
-
 ### Kanban
 
 * Boards: List of all your public and private boards, board shortcuts at top of page
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-boards.png)
 
-![Wekan board menu screenshot](https://wekan.github.io/screenshot-board-menu.png)
+* Restore archived board
 
-![Wekan board settings screenshot](https://wekan.github.io/screenshot-member-settings.png)
+![Wekan boards screenshot](https://wekan.github.io/screenshot-restore-board.png)
+
+* Star board
 
 ![Wekan star board screenshot](https://wekan.github.io/screenshot-star-board.png)
 
+* Watch board
+
 ![Wekan watch board screenshot](https://wekan.github.io/screenshot-muted-watch.png)
 
-* Keyboard shortcuts button at right bottom corner
+* Keyboard shortcuts button at bottom right corner
 
 ![Wekan watch board screenshot](https://wekan.github.io/screenshot-keyboard-shortcuts.png)
 
-* Members: Invite new member, permissions Admin/Normal/Comment only, drag-drop member to assign to task
+* Board menu when clicking 3 lines "hamburger" menu on right
+
+![Wekan board menu screenshot](https://wekan.github.io/screenshot-board-menu.png)
+
+* Member setting when clicking your username on top right corner
 
 ![Wekan member settings screenshot](https://wekan.github.io/screenshot-member-settings.png)
 
+* Member settings / Edit Notification
+
 ![Wekan edit notification screenshot](https://wekan.github.io/screenshot-member-settings-edit-notification.png)
+
+* Member settings / Change settings
 
 ![Wekan hide system messages screenshot](https://wekan.github.io/screenshot-member-settings-hide-system-messages.png)
 
+* Filter by member
+* Invite new member, drag-drop member to assign to task
+
 ![Wekan members screenshot](https://wekan.github.io/screenshot-member-filter.png)
 
-![Wekan boards permissions screenshot](screenshot-member-comment-only.png)
+* Permissions Admin/Normal/Comment only
+
+![Wekan boards permissions screenshot](https://wekan.github.io/screenshot-member-comment-only.png)
 
 * Lists: Add, archive and restore archived, delete list.
 
@@ -102,6 +113,12 @@ ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash)
 ### Versions of Meteor and Node
 
 * Upgraded to [Meteor 1.4](https://github.com/wekan/wekan/pull/957) and [Node v4](https://github.com/wekan/wekan/issues/788) on [meteor-1.4 branch](https://github.com/wekan/wekan/tree/meteor-1.4)
+
+### Translations
+
+* [Translate Wekan at Transifex](https://www.transifex.com/wekan/wekan/)
+
+![Wekan translations screenshot](https://wekan.github.io/screenshot-change-language.png)
 
 # Already merged, will be at next version
 
