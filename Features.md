@@ -48,7 +48,7 @@
 
 * Lists: Add, archive and restore archived, delete list.
 
-![Wekan kanban screenshot](https://wekan.github.io/screenshot-member-settings-archives.png)
+![Wekan kanban screenshot](https://wekan.github.io/screenshot-member-settings-archive.png)
 
 * Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Arhive and restore archived card. Delete card.
 * [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
