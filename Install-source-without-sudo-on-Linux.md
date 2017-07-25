@@ -40,13 +40,18 @@ else
     export PATH=~/.npm-global/bin:$PATH
 fi
 
-# Install packages globally to local ~/.npm-global directory
+```
+
+## Install packages globally to local ~/.npm-global directory
+
+```
 npm -g install n
 npm -g install npm@4.6.1 
 npm -g install node-gyp
 npm -g install node-pre-gyp
 npm -g install fibers@1.0.15
+```
 
-# Install meteor
+## Install meteor
 
 Continue at [Install from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source)
