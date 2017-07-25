@@ -144,7 +144,9 @@ sudo rm -rf ~/.npm
 
 # Download Wekan
 git clone https://github.com/wekan/wekan
-cd wekan/packages
+cd wekan
+mkdir packages
+cd packages
 git clone https://github.com/wekan/flow-router.git kadira-flow-router
 git clone https://github.com/meteor-useraccounts/core.git meteor-useraccounts-core
 sed -i 's/api\.versionsFrom/\/\/api.versionsFrom/' ~/.meteor/packages/meteor-useraccounts-core/package.js
