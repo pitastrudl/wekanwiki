@@ -48,38 +48,5 @@ npm -g install node-pre-gyp
 npm -g install fibers@1.0.15
 
 # Install meteor
-curl https://install.meteor.com/ | sh
 
-# Install Wekan
-cd ~/repos
-rm -rf wekan
-git clone git@github.com:wekan/wekan.git
-cd ~/repos/wekan
-
-# If packages directory does not exists
-if [ ! -d "packages" ]; then
-  # Create it
-  mkdir packages
-fi
-
-cd packages
-git clone https://github.com/wekan/flow-router.git kadira-flow-router
-git clone https://github.com/meteor-useraccounts/core.git meteor-useraccounts-core
-cd ~/repos/wekan
-rm -rf node_modules
-npm install
-rm -rf .build
-meteor build .build --directory
-cp fix-download-unicode/cfs_access-point.txt .build/bundle/programs/server/packages/cfs_access-point.js
-cd .build/bundle/programs/server
-rm -rf node_modules
-npm install
-cd ~/repos/wekan
-sed -i "s|build\/Release\/bson|browser_build\/bson|g" .build/bundle/programs/server/npm/node_modules/meteor/cfs_gridfs/node_modules/mongodb/node_modules/bson/ext/index.js
-cd .build/bundle/programs/server/npm/node_modules/meteor/npm-bcrypt
-cd .build/bundle/programs/server/npm/node_modules/meteor/npm-bcrypt
-rm -rf node_modules/bcrypt
-npm install bcrypt
-cd ~/repos
-echo Done.
-```
+Continue at [Install from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source)
