@@ -1,12 +1,9 @@
 # Current
 
 * [PostgreSQL](https://github.com/wekan/wekan-postgresql)
+* [Webhooks](https://github.com/wekan/wekan/wiki/Features#webhooks), works by showing board activities with [Slack](https://slack.com/), [Rocket.chat](https://rocket.chat/) and others that supports Webhooks.
 
 # Wishes for pull requests
-
-## Chat
-
-* [Rocket.Chat](https://github.com/wekan/wekan/issues/803)
 
 ## Issue / Commit
 
