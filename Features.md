@@ -1,70 +1,70 @@
 # Current
 
-### Kanban
+## Kanban
 
-* Boards: List of all your public and private boards, board shortcuts at top of page
+### Boards: List of all your public and private boards, board shortcuts at top of page
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-boards.png)
 
-* Restore archived board
+### Restore archived board
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-restore-board.png)
 
-* Star board
+### Star board
 
 ![Wekan star board screenshot](https://wekan.github.io/screenshot-star-board.png)
 
-* Watch board
+### Watch board
 
 ![Wekan watch board screenshot](https://wekan.github.io/screenshot-muted-watch.png)
 
-* Keyboard shortcuts button at bottom right corner
+### Keyboard shortcuts button at bottom right corner
 
 ![Wekan watch board screenshot](https://wekan.github.io/screenshot-keyboard-shortcuts.png)
 
-* Board menu when clicking 3 lines "hamburger" menu on right
+### Board menu when clicking 3 lines "hamburger" menu on right
 
 ![Wekan board menu screenshot](https://wekan.github.io/screenshot-board-menu.png)
 
-* Member setting when clicking your username on top right corner
+### Member setting when clicking your username on top right corner
 
 ![Wekan member settings screenshot](https://wekan.github.io/screenshot-member-settings.png)
 
-* Member settings / Edit Notification
+### Member settings / Edit Notification
 
 ![Wekan edit notification screenshot](https://wekan.github.io/screenshot-member-settings-edit-notification.png)
 
-* Member settings / Change settings
+### Member settings / Change settings
 
 ![Wekan hide system messages screenshot](https://wekan.github.io/screenshot-member-settings-hide-system-messages.png)
 
-* Members: Click member initials or avatar
+### Members: Click member initials or avatar
 
 ![Wekan members screenshot](https://wekan.github.io/screenshot-member-filter.png)
 
-* Members: Click member initials or avatar => Permissions Admin/Normal/Comment only
+### Members: Click member initials or avatar => Permissions Admin/Normal/Comment only
 
 ![Wekan boards permissions screenshot](https://wekan.github.io/screenshot-member-comment-only.png)
 
-* Lists: Add, archive and restore archived, delete list.
+### Lists: Add, archive and restore archived, delete list.
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-member-settings-archive.png)
 
-* Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Arhive and restore archived card. Delete card.
-* [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
-* [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
+### Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Arhive and restore archived card. Delete card.
+### [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
+### [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot.png)
 
-* Multi-selection => Checkmark select cards => drag-drop all selected to some list
+### Multi-selection => Checkmark select cards => drag-drop all selected to some list
 
 ![Wekan multi-selection screenshot](https://wekan.github.io/screenshot-multi-selection.png)
 
-* Filtered views
+### Filtered views
 
 ![Wekan multi-selection screenshot](https://wekan.github.io/screenshot-filter.png)
 
-### Authentication, Admin Panel, SMTP Settings
+## Authentication, Admin Panel, SMTP Settings
 
 * Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
 
@@ -74,52 +74,52 @@
 
 * Sandstorm Platform: Admin: LDAP, passwordless email, SAML, GitHub and Google Auth. Add and remove users. SMTP Settings. Wekan, Rocket.Chat, etc apps available with one click install.
 
-### Import
+## Import
 
 * Import Trello board: Text, labels, images, comments, checklists. Not imported yet: stickers, etc.
 * [Import Wekan board](https://github.com/wekan/wekan/pull/1117): Text, labels, images, comments, checklists.
 
-### Export
+## Export
 
 * Export Wekan board: [Export menu item above the board archive item, when you click the sandwich bar icon on the top right](https://github.com/wekan/wekan/pull/1059). If Export menu is not visible, you can change [Export menu to be visible by setting yourself as board admin in MongoDB](https://github.com/wekan/wekan/issues/1060).
 
-### Working with big boards
+## Working with big boards
 
 * [JSON tools, copying files to clipboard](https://github.com/wekan/wekan/issues/610#issuecomment-310862951)
 
-### API
+## API
 
 * [REST API](https://github.com/wekan/wekan/issues/1037)
 
-### Webhooks
+## Webhooks
 
 * [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119)
 
-1) Board menu when clicking 3 lines "hamburger" menu on right
+### 1) Board menu when clicking 3 lines "hamburger" menu on right
 
 ![Wekan board menu screenshot](https://wekan.github.io/screenshot-board-menu.png)
 
-2) Outgoint Webhooks
+### 2) Outgoing Webhooks
 
 ![Wekan Outgoing Webhooks screenshot](https://wekan.github.io/screenshot-outgoing-webhooks.png)
 
-### Cleanup
+## Cleanup
 
 * [Wekan database cleanup script](https://github.com/wekan/wekan-cleanup)
 * [Docker cleanup](https://github.com/wekan/wekan/issues/985)
 
-### Stats
+## Stats
 
 * [Daily export of Wekan changes as JSON to Logstash and
 ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash)
 * [Statistics Python script for Wekan Dashboard](https://github.com/wekan/wekan-stats)
 * [Console, file, and zulip logger on database changes](https://github.com/wekan/wekan/pull/1010) with [fix to replace console.log by winston logger](https://github.com/wekan/wekan/pull/1033)
 
-### Versions of Meteor and Node
+## Versions of Meteor and Node
 
 * Upgraded to [Meteor 1.4](https://github.com/wekan/wekan/pull/957) and [Node v4](https://github.com/wekan/wekan/issues/788) on [meteor-1.4 branch](https://github.com/wekan/wekan/tree/meteor-1.4)
 
-### Translations
+## Translations
 
 * [Translate Wekan at Transifex](https://www.transifex.com/wekan/wekan/)
 
