@@ -92,16 +92,27 @@
 * [REST API](https://github.com/wekan/wekan/issues/1037)
 
 ## Webhooks
-
+Sending notifications for board activities.
+```
+Content-type: application/json
+{
+    "text": "board activities"
+}
+```
 * [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119)
 
-### 1) Board menu when clicking 3 lines "hamburger" menu on right
+### Enabled
+#### 1) Board menu when clicking 3 lines "hamburger" menu on right
 
 ![Wekan board menu screenshot](https://wekan.github.io/screenshot-board-menu.png)
 
-### 2) Outgoing Webhooks
+#### 2) Outgoing Webhooks
 
 ![Wekan Outgoing Webhooks screenshot](https://wekan.github.io/screenshot-outgoing-webhooks.png)
+
+### Disabled
+
+Leave the URL field blank. 
 
 ## Cleanup
 
