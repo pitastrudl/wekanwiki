@@ -92,7 +92,7 @@
 * [REST API](https://github.com/wekan/wekan/issues/1037)
 
 ## Webhooks
-Sending notifications for board activities.
+Sending notifications for board activities. Tested with [Slack](https://slack.com/) and [Rocket.chat](https://rocket.chat/).
 ```
 Content-type: application/json
 {
