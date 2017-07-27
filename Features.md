@@ -70,7 +70,7 @@
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag2.png)
 
-### 4) Second image attachment and others can be added from button near first attachment.
+### 4) Second image attachment and others can be added from Add Attachment button near first attachment.
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag3.png)
 
