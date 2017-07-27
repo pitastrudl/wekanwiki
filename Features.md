@@ -58,11 +58,19 @@
 
 ### Cards: Drag and drop images to card. Paste images with Ctrl-V.
 
+### 1) First attachment: Select Card 3 lines "hamburger" menu / Edit Attachments
+
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag1.png)
+
+### 2) Select: Clipboard or drag and drop
+
+![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag4.png)
+
+### 3) Drag and drop image, or Ctrl-V.
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag2.png)
 
-### When first image attachment is added, second can be added from button near first Attachment.
+### 4) Second image attachment and others can be added from button near first attachment.
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag3.png)
 
