@@ -56,6 +56,16 @@
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot.png)
 
+### Cards: Drag and drop images to card. Paste images with Ctrl-V.
+
+![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag1.png)
+
+![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag2.png)
+
+### When first image attachment is added, second can be added from button near first Attachment.
+
+![Wekan kanban screenshot](https://wekan.github.io/screenshot-drag3.png)
+
 ### Multi-selection => Checkmark select cards => drag-drop all selected to some list
 
 ![Wekan multi-selection screenshot](https://wekan.github.io/screenshot-multi-selection.png)
