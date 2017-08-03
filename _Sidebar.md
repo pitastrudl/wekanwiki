@@ -6,6 +6,12 @@
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 * [Team](https://github.com/wekan/wekan/wiki/Team)
 
+## <a name="Support"></a>Support Priorities
+
+1) [Commercial Support](http://www.xet7.org/wekan)
+2) [Bounties](https://www.bountysource.com/teams/wekan)
+3) [Community Support](https://github.com/wekan/wekan/issues)
+
 ## <a name="Security"></a>Security
 
 * [Security Disclosure](https://github.com/wekan/wekan/wiki/Security-Disclosure)
@@ -15,7 +21,6 @@
 
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
 * [Features](https://github.com/wekan/wekan/wiki/Features)
-* [Bounties](https://www.bountysource.com/teams/wekan)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
 * [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
