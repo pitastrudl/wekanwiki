@@ -6,7 +6,7 @@
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 * [Team](https://github.com/wekan/wekan/wiki/Team)
 
-## <a name="Support"></a>Support for new features and bugfixes
+## <a name="Support"></a>Support priorities for new features and bugfixes
 
 1) [Commercial Support](http://www.xet7.org/wekan)
 2) [Bounties](https://www.bountysource.com/teams/wekan)
