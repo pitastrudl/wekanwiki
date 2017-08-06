@@ -1,6 +1,6 @@
 **Purpose**: Install latest Wekan release on [Uberspace](https://uberspace.de/) and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
 
-This script installs Wekan on a fresh Uberspace. It setup Node 0.10, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.18, 0.17, 0.16, 0.13, 0.12, 0.10.1. 
+This script installs Wekan on a fresh Uberspace. It setup Node 4, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.32. 
 
 You have two Options to use it.
 
@@ -22,7 +22,7 @@ Or you can run it automatically.
 ## Usage: ./install_wekan.sh SMTP-password
 ##
 ## Draft
-## Install Wekan (v0.10.1 – v0.18) on Uberspace by Noodle / Chris
+## Install Wekan (v0.32) on Uberspace by Noodle / Chris
 ## 
 ## Sources: 
 ## https://github.com/wekan/wekan/wiki/Install-and-Update#manual-installation-steps
@@ -47,7 +47,7 @@ prefix = $HOME
 umask = 077
 __EOF__
 
-echo 'export PATH=/package/host/localhost/nodejs-0.10.43/bin:$PATH' >> ~/.bash_profile
+echo 'export PATH=/package/host/localhost/nodejs-4/bin:$PATH' >> ~/.bash_profile
 source ~/.bash_profile
 
 
@@ -94,8 +94,8 @@ echo -e "MONGO_URL: ${MONGO_URL} \nPORT: ${PORT} \nROOT_URL: ${ROOT_URL} \nMAIL_
 
 mkdir ~/wekan && cd ~/wekan
 
-# Tested versions 0.18  0.17  0.16  0.13  0.12  0.10.1
-WEKAN_VERSION=0.18
+# Tested versions 0.32
+WEKAN_VERSION=0.32
 curl -OL https://github.com/wekan/wekan/releases/download/v${WEKAN_VERSION}/wekan-${WEKAN_VERSION}.tar.gz && tar xzf wekan-${WEKAN_VERSION}.tar.gz && rm wekan-${WEKAN_VERSION}.tar.gz
 
 cd ~/wekan/bundle/programs/server && npm install
@@ -128,8 +128,8 @@ chmod a+x ~/etc/wekan-start
 ## Init & Start as servcie
 uberspace-setup-service wekan ~/etc/wekan-start
 
-## Start in backgroung for debugging
-# ~/etc/wekan-start > wekan_out.txt 2> wekan_err.txt &
+## Setup & Start in bg for debugging
+# source ~/etc/wekan-setup && node ~/wekan/bundle/main.js &
 
 
 #####################
