@@ -1,3 +1,8 @@
+# Requirements
+
+Wekan requires MongoDB 3.2.x . There is known bug in MongoDB 3.4.x that Wekan crashes when uploading attachment.
+For other requirements see [VirtualBox scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox) or [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile).
+
 # Updated often
 
 Automatic generated newest builds are available for Docker, and platforms that
