@@ -19,6 +19,7 @@
 
 ## <a name="Features"></a>Features
 
+* [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
