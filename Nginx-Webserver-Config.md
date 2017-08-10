@@ -33,7 +33,7 @@ server {
 
 # HTTPS server
 server {
-    listen 443 ssl spdy; # we enable SPDY here
+    listen 443 ssl http2; # we enable HTTP/2 here (previously SPDY)
     server_name example.com; # this domain must match Common Name (CN) in the SSL certificate
 
     root html; # irrelevant
