@@ -7,7 +7,7 @@
 
 ## Issue / Commit
 
-* [GitHub](https://github.com/wekan/wekan/issues/253)
+* [GitHub / Gogs / Gitea](https://github.com/wekan/wekan/issues/253)
 * [GitLab](https://github.com/wekan/wekan/issues/109)
 
 ## Time Tracking
