@@ -22,6 +22,8 @@ You may need these on other platforms than Sandstorm:
 
 [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
 
+TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
+
 [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
 
 More info:
@@ -53,6 +55,8 @@ More info:
 [Install Ubuntu snap](https://github.com/wekan/wekan-snap/wiki/Install)
 
 [Ubuntu snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues)
+
+TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
 # Updated once a month
 
