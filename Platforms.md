@@ -56,7 +56,7 @@ More info:
 
 [Ubuntu snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues)
 
-TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
+TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
 # Updated once a month
 
