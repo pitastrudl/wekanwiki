@@ -62,6 +62,8 @@ More info:
 
 ### Sandstorm
 
+[Newest Wekan version packaging in progress](https://github.com/wekan/wekan/issues/799)
+
 [![Try on Sandstorm][sandstorm_button]][sandstorm_appdemo]
 
 https://sandstorm.io
@@ -69,6 +71,10 @@ https://sandstorm.io
 [Downloading latest .spk package file](https://github.com/wekan/wekan/issues/998)
 
 [Sandstorm](https://sandstorm.io), [making .spk packages](https://github.com/wekan/wekan/issues/823)
+
+### Qnap TS-469L
+
+[Manual install of newest version](https://github.com/wekan/wekan/issues/1180)
 
 # Update schedule not known
 
@@ -103,6 +109,10 @@ Somebody should check from Docker website does Linux-based Wekan Docker containe
 Email to work on already working Heroku: Use 3rd party email like SendGrid, update process.env.MAIL_URL ,
 change from email at Accounts.emailTeamplates.from , new file in server folder called smtp.js on code
 `Meteor.startup(function () });` . TODO: Test and find a way to use API keys instead.
+
+### Cloud Foundry
+
+[Article from 2016](https://www.cloudfoundry.org/100-day-challenge-082-running-wekan-cloud-foundry/) - probably needs update to use [precompiled Wekan release](https://www.cloudfoundry.org/100-day-challenge-082-running-wekan-cloud-foundry/) ? 
 
 # Not tested yet
 
