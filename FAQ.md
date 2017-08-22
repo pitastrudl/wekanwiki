@@ -22,11 +22,15 @@ Wekan is an open-source and free software _[kanban board][kanban]_ that lets you
 
 There are alternative ways to have your feature implemented:
 
-a) [Add bounty for your feature request GitHub issue](https://www.bountysource.com/teams/wekan), biggest bounties are prioritized first.
+a) Commercial support to develop features, see link on right menu
 
-b) Develop feature and submit it as pull requests to devel [Wekan repo](https://github.com/wekan/wekan) branch.
+b) [Add bounty for your feature request GitHub issue](https://www.bountysource.com/teams/wekan), biggest bounties are prioritized first.
 
-[According to Open Hub](https://www.openhub.net/p/wekan), Wekan code is only about 7000 lines so it's very small when comparing to other software. With git history viewer like gitk it's possible to see how different features are implemented.
+c) Pay someone from your company or some other developer to code feature and sublit as pull request
+
+d) Develop feature yourself and submit it as pull requests to devel [Wekan repo](https://github.com/wekan/wekan) branch.
+
+[According to Open Hub](https://www.openhub.net/p/wekan), Wekan code is only about 9000 lines so it's very small when comparing to other software. With git history viewer like gitk it's possible to see how different features are implemented.
 
 For Sandstorm-specific features, have the feature enabled in Sandstorm by using environment variable isSandstorm = true like is at wekan/sandstorm.js .
 
