@@ -24,7 +24,7 @@ There are alternative ways to have your feature implemented:
 
 a) Commercial support to develop features, see link on right menu
 
-b) [Add bounty for your feature request GitHub issue](https://www.bountysource.com/teams/wekan), biggest bounties are prioritized first.
+b) [Add bounty for your feature request GitHub issue](https://www.bountysource.com/teams/wekan), biggest bounties are prioritized to top.
 
 c) Pay someone from your company or some other developer to code feature and sublit as pull request
 
