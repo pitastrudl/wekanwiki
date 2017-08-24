@@ -24,7 +24,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [jelenajjo](https://github.com/jelenajjo) | jelena | Universe | [Vanila](https://vanila.io) Web Developer |  [Themes](https://github.com/wekan/wekan/issues/781), upcoming new website
 [dwrensha](https://github.com/dwrensha) | - | USA | [Sandstorm](https://sandstorm.io) Developer | Packaging Wekan releases for Sandstorm
 [kentonv](https://github.com/kentonv) | - | USA | [Sandstorm](https://sandstorm.io) Developer | [Cap’n Proto](https://capnproto.org) and [node-capnp](https://github.com/kentonv/node-capnp)
-[ocdtrekkie](https://github.com/dwrensha) | ocdtrekkie | USA | [Sandstorm](https://sandstorm.io) user from beginning of Sandstorm | Testing and accepting Wekan releases for Sandstorm
+[ocdtrekkie](https://github.com/ocdtrekkie) | ocdtrekkie | USA | [Sandstorm](https://sandstorm.io) user from beginning of Sandstorm | Testing and accepting Wekan releases for Sandstorm
 [JamborJan](https://github.com/JamborJan) | - | Universe | [Sandstorm](https://sandstorm.io) Developer | [Add bigger screenshots](https://github.com/wekan/wekan/pull/940)
 [nebulade](https://github.com/nebulade) | - | Germany | [Cloudron](https://cloudron.io) Developer | [Re-enable export](https://github.com/wekan/wekan/pull/1059)
 [kubiko](https://github.com/kubiko) | - | UK | [Canonical](https://www.canonical.com) Developer | [snap package](https://github.com/wekan/wekan-snap), [Adding snapcraft build support from source](https://github.com/wekan/wekan/pull/1091), [Use version scriptlet in snap](https://github.com/wekan/wekan/pull/1164)
