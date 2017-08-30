@@ -70,9 +70,11 @@ TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](http
 
 [![Try on Sandstorm][sandstorm_button]][sandstorm_appdemo]
 
-https://sandstorm.io
+[Wekan for Sandstorm Install/Download](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h)
 
-[Sandstorm](https://sandstorm.io), [Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
+[Sandstorm](https://sandstorm.io)
+
+[Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
 
 ### Qnap TS-469L
 
