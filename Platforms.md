@@ -58,14 +58,6 @@ More info:
 
 TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
-# Updated once a month
-
-### Indiehosters
-
-[![SignUp][indiehosters_button]][indiehosters_saas]
-
-# Updated sometimes
-
 ### Sandstorm
 
 [![Try on Sandstorm][sandstorm_button]][sandstorm_appdemo]
@@ -75,6 +67,14 @@ TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](http
 [Sandstorm](https://sandstorm.io)
 
 [Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
+
+# Updated once a month
+
+### Indiehosters
+
+[![SignUp][indiehosters_button]][indiehosters_saas]
+
+# Updated sometimes
 
 ### Qnap TS-469L
 
