@@ -1,7 +1,7 @@
 GitHub Username | Feature | Status
 ------------ | ------------- | ------------
 [xet7](https://github.com/xet7) | [Calendar View](https://github.com/wekan/wekan/issues/808) | In progress
-[xet7](https://github.com/xet7) | [Copy URL of card](https://github.com/wekan/wekan/issues/1188) | Done on Standalone. Not yet on Sandstorm.
+[xet7](https://github.com/xet7) | [Copy URL of card](https://github.com/wekan/wekan/issues/1188) | Done at Standalone. Not yet at Sandstorm.
 [xet7](https://github.com/xet7) and [ocdtrekkie](https://github.com/ocdtrekkie) | [Newest Wekan for Sandstorm](https://github.com/wekan/wekan/issues/799) | Done
 [xet7](https://github.com/xet7) | [Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203) | Not started yet. There is [PosgreSQL version](https://github.com/wekan/wekan-postgresql) already.
 [xet7](https://github.com/xet7) | Update wiki to have newest Features, Integrations, Team etc info | Not started yet. There is [PosgreSQL version](https://github.com/wekan/wekan-postgresql) already.
