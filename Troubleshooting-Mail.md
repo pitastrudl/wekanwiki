@@ -70,9 +70,10 @@ wekan_1      |     at Error (native)
 ```
 
 ### Self-signed Certificate
-Unfortunately at this stage, WeKan does not support self-signed certificates. You will see the following error if your SMTP server is using a self-signed certificate. Ways to remedy to this are:
+Unfortunately at this stage, WeKan does not support self-signed certificates. You will see the following error if your SMTP server is using a self-signed certificate. Ways to remedy to this are (by order of preference):
+* to get a certificate from a CA, or
+* to add "?tls={rejectUnauthorized:false}" to the end of the [MAIL_URL environment variable](https://nodemailer.com/smtp/), or
 * to add "?ignoreTLS=true" to the end of the [MAIL_URL environment variable](https://nodemailer.com/smtp/), or
-* to either get a certificate from a CA, or
 * to remove the TLS certificate completely.
 
 ```
