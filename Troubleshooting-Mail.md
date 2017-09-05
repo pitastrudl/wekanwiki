@@ -70,7 +70,10 @@ wekan_1      |     at Error (native)
 ```
 
 ### Self-signed Certificate
-Unfortunately at this stage, WeKan does not support self-signed certificates. You will see the following error if your SMTP server is using a self-signed certificate. The only ways to remedy this are to either get a certificate from a CA, or remove the TLS certificate completely.
+Unfortunately at this stage, WeKan does not support self-signed certificates. You will see the following error if your SMTP server is using a self-signed certificate. Ways to remedy to this are:
+* to add "?ignoreTLS=true" to the end of the [MAIL_URL environment variable](https://nodemailer.com/smtp/), or
+* to either get a certificate from a CA, or
+* to remove the TLS certificate completely.
 
 ```
 wekan_1      | Exception while invoking method 'forgotPassword' Error: 139872240588608:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
