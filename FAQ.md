@@ -46,7 +46,7 @@ We’re glad you’re interested in helping the Wekan project! We welcome bug re
 There are near to zero tests, because nobody has contributed tests as pull request.
 
 ## Is there a plugin system?
-No. It's not possible in web browser to a) Install npm modules inside Docker or b) Install code afterwards on Sandstorm, because application code is read-only and signed. All features in code is built in, and all data related to features is stored on MongoDB.
+No. It's not possible in web browser to a) Install npm modules inside Docker or b) Install code afterwards on Sandstorm, because application code is read-only and signed. All features in code are built in, and all data related to features is stored on MongoDB.
 
 # History
 
@@ -60,7 +60,7 @@ After 2016-09-02 there were no pull requests reviewed and integrated for nearly 
 
 ## What is the difference between Wekan and Trello?
 The main difference between the two is that Wekan is completely open source and available under the permissive MIT license. That makes it possible to host it on your own server (or your company's or organization's server) and you keep the full control over all data. No need to fear it will disappear some day, like a commercial service like Trello could.  
-Additionally the long term goal is to have features that are not available on Trello or other alternative, making Wekan flexible and suitable for complex project organizations.
+Additionally the long term goal is to have features that are not available on Trello or other alternatives, making Wekan flexible and suitable for complex project organizations.
 
 ## Why does Wekan look so different now compared to < v0.9?
 Wekan started as a just for fun project to explore meteor and its features and the initial version had a lot of the Trello assets (CSS, Images, Fonts) in it and copied a lot of its design. Due to an DMCA takedown notice and obviously to get its own identity, the old design was dropped after v0.8 and a new UI was developed
