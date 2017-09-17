@@ -1,3 +1,37 @@
+# Wekan REST API
+
+The REST API allows you to control and extend Wekan with ease.
+
+If you are an end-user and not a dev or a tester, [create an issue](https://github.com/wekan/wekan/issues/new) to request new APIs.
+
+> All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
+
+## Production Security Concerns
+When calling a production Wekan server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login api over HTTPS. Also, few things to note:
+
+* Only call via HTTPS
+* Implement a timed authorization token expiration strategy
+* Ensure the calling user only has permissions for what they are calling an no more
+
+# Summary
+
+### Authentication
+| Url | Short Description |
+| :--- | :--- |
+| `/users/login` | [Authenticate with the REST API.](https://github.com/wekan/wekan/wiki/REST-API#login) |
+
+### Users
+| Url | Short Description |
+| :--- | :--- |
+| `/users/register` | [Register a new user.](https://github.com/wekan/wekan/wiki/REST-API#user-register) |
+| `/api/users` | [Create a new user.](https://github.com/wekan/wekan/wiki/REST-API#user-create) |
+| `/api/users/:id` | [Deletes an existing user.](https://github.com/wekan/wekan/wiki/REST-API#user-delete) |
+| `/api/users/:id` | [Gets a user's information.](https://github.com/wekan/wekan/wiki/REST-API#user-information) |
+| `/api/users` | [All of the users.](https://github.com/wekan/wekan/wiki/REST-API#user-list) |
+| `/api/user` | [Gets a loggued-in user.](https://github.com/wekan/wekan/wiki/REST-API#user-loggued-in) |
+
+---
+
 # Login
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
