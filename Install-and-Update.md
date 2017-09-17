@@ -9,6 +9,7 @@ There are several options for deploying Wekan. Docker and sandstorm are by far t
 * [Installing with Cloudron](#install-with-cloudron)
 * [Installing with Ubuntu snap](https://github.com/wekan/wekan-snap/wiki)
 * [Installing with Official Binaries](#install-manually-releases)
+* [Installing with Unofficial Debian Packages](https://github.com/soohwa/apt/blob/master/Wekan.md)
 * [Installing from Source](#install-manually-from-source)
 
 ### Upgrading an existing instance
