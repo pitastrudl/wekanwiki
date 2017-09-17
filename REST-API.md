@@ -18,17 +18,17 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 ### Authentication
 | Url | Short Description |
 | :--- | :--- |
-| `/users/login` | [Authenticate with the REST API.](https://github.com/wekan/wekan/wiki/REST-API#login) |
+| `/users/login` | [Authenticate with the REST API.](#login) |
 
 ### Users
 | Url | Short Description |
 | :--- | :--- |
-| `/users/register` | [Register a new user.](https://github.com/wekan/wekan/wiki/REST-API#user-register) |
-| `/api/users` | [Create a new user.](https://github.com/wekan/wekan/wiki/REST-API#user-create) |
-| `/api/users/:id` | [Deletes an existing user.](https://github.com/wekan/wekan/wiki/REST-API#user-delete) |
-| `/api/users/:id` | [Gets a user's information.](https://github.com/wekan/wekan/wiki/REST-API#user-information) |
-| `/api/users` | [All of the users.](https://github.com/wekan/wekan/wiki/REST-API#user-list) |
-| `/api/user` | [Gets a loggued-in user.](https://github.com/wekan/wekan/wiki/REST-API#user-loggued-in) |
+| `/users/register` | [Register a new user.](#user-register) |
+| `/api/users` | [Create a new user.](#user-create) |
+| `/api/users/:id` | [Deletes an existing user.](#user-delete) |
+| `/api/users/:id` | [Gets a user's information.](#user-information) |
+| `/api/users` | [All of the users.](#user-list) |
+| `/api/user` | [Gets a loggued-in user.](#user-loggued-in) |
 
 ---
 
