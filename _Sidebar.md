@@ -30,6 +30,7 @@
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 * [Demo](https://wekan.indie.host/b/t2YaGmyXgNkppcFBq/wekan-fork-roadmap)
+* [REST API](https://github.com/wekan/wekan/wiki/REST-API)
 
 ## <a name="Platforms"></a>Platforms
 
