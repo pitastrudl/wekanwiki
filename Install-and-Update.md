@@ -18,6 +18,7 @@ Wekan will automatically migrate your data on first launch. Steps for upgrading 
 * [Upgrading Docker](#updating-docker)
 * [Upgrading Sandstorm](#updating-sandstorm)
 * [Upgrading Cloudron](#updating-cloudron)
+* [Upgrading Unofficial Debian Packages](#updating-unofficial-debian-packages)
 * [Upgrading Manual Installs](#updating-manual-installs)
 * [Backing Up Mongo Data](#backup-mongo-data)
 
@@ -342,6 +343,15 @@ Sandstorm updates work automatically. You need to go the the sandstom app market
 ## Updating Cloudron
 
 If you have a Cloudron subscription, the app will be kept up-to-date automatically, otherwise follow this [guide](https://git.cloudron.io/cloudron/box/wikis/UpdatingApps) for manual updates.
+
+## Updating Unofficial Debian Packages
+
+If you are using the Unofficial Debian Packages you can upgrade with
+
+```sh
+apt-get update
+apt-get dist-upgrade
+```
 
 ## Updating Manual Installs
 
