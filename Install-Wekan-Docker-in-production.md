@@ -154,7 +154,7 @@ Reload Apache `sudo service apache2 reload`
 
 ### 4.b nginx
 
-Existing configuration:
+In configuration:
 
 ```nginxConf
 server {
