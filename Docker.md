@@ -23,20 +23,22 @@ Added 2017-05-06 to see if it has better debugging of failed builds than Docker 
 
 ### `docker run` examples
 
-- No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
-```
-docker run -d --restart=always --name wekan-db mongo:3.2.14
-```
-
 - No build step, pull from the [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) and
 specify docker variables
+
 ```
 docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:latest
 ```
 
+- No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
+
+```
+docker run -d --restart=always --name wekan-db mongo:3.2.14
+```
+
 ### `docker-compose` examples
 
-- No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
+- No build step and pull from the [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/)
 
 ```
 sudo docker-compose up -d --nobuild
