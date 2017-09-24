@@ -107,13 +107,8 @@
 
 ## API
 
-* [REST API](https://github.com/wekan/wekan/issues/1037)
-
-Example:
-
-```
-curl http://localhost:3000/users/login -d "username=myloginname&password=mypassword"
-```
+* [REST API ISSUE](https://github.com/wekan/wekan/issues/1037)
+* [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
 
 ## Webhooks
 Sending notifications for board activities. Tested with [Slack](https://slack.com/) and [Rocket.chat](https://rocket.chat/).
