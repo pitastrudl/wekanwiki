@@ -182,6 +182,42 @@ curl  -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
       -d '{ "username": "myusername", "password": "mypassword", "email": "my@email.com" }'
 ```
 
+## Example of all steps of create user
+
+1) Login
+
+```
+curl http://example.com/users/login \
+     -d "username=YOUR-USERNAME-HERE&password=YOUR-PASSWORD-HERE"
+```
+
+As response you get your id and token:
+
+```
+"id":"YOUR-ID-HERE","token":"YOUR-TOKEN-HERE","tokenExpires":"2017-12-23T21:07:10.395Z"}
+```
+
+2) Create user. Works both when serf-register enabled and disabled.
+
+```
+curl  -H "Authorization: Bearer YOUR-TOKEN-HERE" \
+      -H "Content-type:application/json" \
+      -X POST \
+      http://example.com/api/users \
+      -d '{ "username": "tester", "password": "tester", "email": "tester@example.com", "fromAdmin": "true" }'
+```
+
+As reply you get new user's id.
+
+```
+{"id":"NEW-USER-ID-HERE"}
+
+3) You can get user details with your new user's id:
+
+```
+curl -H "Authorization: Bearer YOUR-TOKEN-HERE" \
+      http://example.com/api/users/NEW-USER-ID-HERE
+```
 
 ## Result
 
