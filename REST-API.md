@@ -209,6 +209,7 @@ As reply you get new user's id.
 
 ```
 {"id":"NEW-USER-ID-HERE"}
+```
 
 3) You can get user details with your new user's id:
 
