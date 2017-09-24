@@ -107,7 +107,7 @@
 
 ## API
 
-* [REST API ISSUE](https://github.com/wekan/wekan/issues/1037)
+* [REST API Issue](https://github.com/wekan/wekan/issues/1037)
 * [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
 
 ## Webhooks
