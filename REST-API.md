@@ -113,7 +113,6 @@ curl -H "Content-type:application/json" \
 
 * Notes:
  * **You will need to provide the `token` for any of the authenticated methods.**
- * **You can not register a new user if the admin disallowed the subscription.**
 
 ## Example Call - As Form Data
 ```bash
@@ -163,7 +162,6 @@ curl -H "Content-type:application/json" \
 
 * Notes:
  * **You will need to provide the `token` for any of the authenticated methods.**
- * **You can not create a new user if the admin disallowed the subscription.**
 
 ## Example Call - As Form Data
 ```bash
