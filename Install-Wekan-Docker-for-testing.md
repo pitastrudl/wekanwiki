@@ -50,7 +50,7 @@ to the new port
  - ROOT_URL=http://localhost:1234
 ```
 
-(This procedure has been tested on Linux Ubuntu 14.04 and Mac OS 10.11.6.)
+(This procedure has been tested on Linux Ubuntu 14.04 and Mac OS 10.11.6.) (Tested on Docker for Windows 17.06.2-ce-win27, MongoDB does not support using mounted Windows volumes, simply remove volumes: from wekandb:)
 
 ## Testing with mail server
 
