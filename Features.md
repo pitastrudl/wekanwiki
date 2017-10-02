@@ -116,8 +116,12 @@ Sending notifications for board activities. Tested with [Slack](https://slack.co
 Content-type: application/json
 {
     "text": "board activities"
+    [...]
 }
 ```
+
+Different activities sends different webhook data. You can find the details in the wiki page [Webhook data](https://github.com/wekan/wekan/wiki/Webhook-data)
+
 * [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119)
 
 ### Enabled
