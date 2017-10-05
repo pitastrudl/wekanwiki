@@ -39,6 +39,12 @@
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
 * [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
 
+## Webhooks
+
+* [Outgoing Webhooks Pull Request](https://github.com/wekan/wekan/pull/1119)
+* [Outgoing Webhooks Data](https://github.com/wekan/wekan/wiki/Webhook-data)
+* [Webhooks and Let's Encrypt](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
+
 ## <a name="Platforms"></a>Platforms
 
 * [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
