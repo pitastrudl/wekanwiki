@@ -109,6 +109,8 @@
 
 * [REST API Issue](https://github.com/wekan/wekan/issues/1037)
 * [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
+* [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
+* [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
 
 ## Webhooks
 Sending notifications for board activities. Tested with [Slack](https://slack.com/) and [Rocket.chat](https://rocket.chat/).
