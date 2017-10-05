@@ -41,9 +41,9 @@
 
 ## Webhooks
 
-* [Outgoing Webhooks Pull Request](https://github.com/wekan/wekan/pull/1119)
 * [Outgoing Webhooks Data](https://github.com/wekan/wekan/wiki/Webhook-data)
 * [Webhooks and Let's Encrypt](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
+* Outgoing Webhooks [Original Pull Request](https://github.com/wekan/wekan/pull/1119) and [more parameters and response order](https://github.com/wekan/wekan/pull/1263)
 
 ## <a name="Platforms"></a>Platforms
 
