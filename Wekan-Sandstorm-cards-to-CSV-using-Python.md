@@ -1,3 +1,7 @@
+Code originally by AZero (Eric Thompson)
+
+***
+
 ![Wekan Sandstorm cards to CSV using Python screenshot](https://wekan.github.io/sandstorm-api-csv.png)
 
 ***
