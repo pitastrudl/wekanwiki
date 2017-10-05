@@ -32,9 +32,11 @@ More info:
 
 ### Source
 
-[Install from source][install_source]
+[Install from source script for Debian based distros](https://github.com/wekan/wekan-source-installer)
 
-[Install from source without sudo](https://github.com/wekan/wekan/wiki/Install-source-without-sudo-on-Linux)
+[Install manually from source][install_source]
+
+[Install manually from source without sudo](https://github.com/wekan/wekan/wiki/Install-source-without-sudo-on-Linux)
 
 ### VirtualBox
 
