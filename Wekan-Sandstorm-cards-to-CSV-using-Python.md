@@ -1,3 +1,5 @@
+![Wekan Sandstorm cards to CSV using Python screenshot](https://wekan.github.io/sandstorm-api-csv.png)
+
 cards-to-csv.py
 
 ```
