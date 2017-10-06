@@ -1,4 +1,4 @@
-Code originally by AZero (Eric Thompson). Script has been used for daily exports of a board.
+Code originally by ertanalytics (Eric Thompson / AZero). Script has been used for daily exports of a board.
 
 ***
 
