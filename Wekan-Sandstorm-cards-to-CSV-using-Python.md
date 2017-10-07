@@ -6,6 +6,24 @@ Code originally by ertanalytics (Eric Thompson / AZero). Script has been used fo
 
 ***
 
+## Exporting Wekan board to JSON with Bash script
+
+1) On Wekan grain, get Webkey like this:
+
+```
+https://api-URL.SUBDOMAIN.sandcats.io#APIKEY
+```
+
+2) Modity URL, SUBDOMAIN and APIKEY to this script that exports board to file directly:
+
+```
+curl https://Bearer:APIKEY@api-URL.SUBDOMAIN.sandcats.io/api/boards/sandstorm/export?authToken=#APIKEY > wekanboard.json
+```
+
+***
+
+## Python script, has more dependencies
+
 cards-to-csv.py
 
 ```
