@@ -90,8 +90,6 @@ dfcards['createdAt'] = pd.to_datetime(dfcards['createdAt'])
 dfcards['dateLastActivity'] = pd.to_datetime(dfcards['dateLastActivity'])
 dfcards['title']=dfcards['title'].str.replace('\n','')
 
-dfboards['createdAt'] = pd.to_datetime(dfboards['createdAt'])
-dfboards['modifiedAt'] = pd.to_datetime(dfboards['modifiedAt'])
 
 dfcards.to_csv('//DESTINATION_FOLDER/dfcards.csv',sep='|')
 dflists.to_csv('//DESTINATION_FOLDER/dflists.csv',sep='|')
