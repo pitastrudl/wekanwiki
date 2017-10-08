@@ -55,8 +55,7 @@ from bson import json_util, ObjectId
 from pandas.io.json import json_normalize
 reload(sys)
 sys.setdefaultencoding('utf-8')
-#Need new API for KHS
-#https://api-KEYCHANGED.example.com#MAYBEKEYHERE
+#Export API Command
 apiURLnoAuth = 'https://Bearer:APIKEY@api-URL.SUBDOMAIN.sandcats.io/api/boards/sandstorm/export?authToken=#APIKEY'
 
 sleep(1) #Time in seconds
