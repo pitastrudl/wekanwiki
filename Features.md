@@ -2,6 +2,10 @@
 
 ## Kanban
 
+### WIP Limits
+
+![Wekan WIP Limits screenshot](https://wekan.github.io/screenshot-wip-limit.png)
+
 ### Boards: List of all your public and private boards, board shortcuts at top of page
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-boards.png)
