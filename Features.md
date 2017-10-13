@@ -10,6 +10,10 @@
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-boards.png)
 
+### Wekan as standalone app on desktop webbrowser without browser buttons
+
+[Info about browser standalone app mode](https://github.com/wekan/wekan/pull/1184)
+
 ### Restore archived board
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-restore-board.png)
