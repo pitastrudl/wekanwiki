@@ -9,6 +9,7 @@ Docker and source based installs. You can also on MongoDB
 [enable Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease) and [change you as board admin](https://github.com/wekan/wekan/issues/1060#issuecomment-310545976).
 
 You may need these on other platforms than Sandstorm:
+* [Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan/issues/1210)
 * [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [Troubleshooting CentOS 7](https://github.com/wekan/wekan/issues/718)
 * [Nginx webserver config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
