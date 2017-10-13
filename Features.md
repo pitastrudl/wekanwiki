@@ -10,7 +10,7 @@
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-boards.png)
 
-### Wekan as standalone app on desktop webbrowser without browser buttons etc
+### Wekan full screen on desktop (without browser buttons etc)
 
 [Info about browser standalone app mode](https://github.com/wekan/wekan/pull/1184)
 
