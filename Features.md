@@ -14,6 +14,10 @@
 
 [Info about browser standalone app mode](https://github.com/wekan/wekan/pull/1184)
 
+### Wekan full screen on mobile Firefox
+
+[Instructions and screenshot](https://github.com/wekan/wekan/issues/953#issuecomment-336537875)
+
 ### Restore archived board
 
 ![Wekan boards screenshot](https://wekan.github.io/screenshot-restore-board.png)
