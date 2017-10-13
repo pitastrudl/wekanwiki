@@ -1,3 +1,5 @@
+## Also see: [Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan/issues/1210)
+
 **Purpose:** run Wekan on a production Linux server with Docker and Apache or Nginx as a front-end server (reverse proxy)
 
 ## 1. Install Docker and Docker-compose
