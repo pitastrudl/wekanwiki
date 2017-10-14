@@ -237,6 +237,9 @@ Returns the id of the created user.
 ```
 
 # User Delete
+
+> IMPORTANT : Should not be used as long as [this bug](https://github.com/wekan/wekan/issues/1289) exists. 
+
 | URL | Requires Admin Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/users/:id` | `yes` | `DELETE` |
