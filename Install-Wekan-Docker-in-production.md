@@ -1,4 +1,4 @@
-## Also see: [Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan/issues/1210)
+## Also see: [Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L86-L100)
 
 **Purpose:** run Wekan on a production Linux server with Docker and Apache or Nginx as a front-end server (reverse proxy)
 
