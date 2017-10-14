@@ -1,3 +1,7 @@
+## No mail server
+
+You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL` & `MAIL_FROM` environment parameters. Instead the mail message will be send to the terminal output. See [FAQ](https://github.com/wekan/wekan/wiki/FAQ#show-mails-with-a-docker-image-without-mail-configuration) for more info.
+
 ## Email servers
 
 Standalone Wekan uses SMTP server for sending email invitations etc.
@@ -9,10 +13,6 @@ For Exchange usage there is also [Exchange Calendar extension for Thunderbird Em
 Wekan Email settings are required in both MAIL_URL and Admin Panel.
 
 If you want to receive Email to Wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use Wekan REST API to add card to Wekan board.
-
-## No mail server
-
-You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL` & `MAIL_FROM` environment parameters. Instead the mail message will be send to the terminal output. See [FAQ](https://github.com/wekan/wekan/wiki/FAQ#show-mails-with-a-docker-image-without-mail-configuration) for more info.
 
 ## Postfix
 
