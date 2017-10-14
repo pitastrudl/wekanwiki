@@ -2,7 +2,7 @@
 
 Standalone Wekan uses SMTP server for sending email invitations etc.
 
-You can use [DavMail](https://github.com/wekan/wekan/issues/1265) for Exchange.
+For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP => Davmail => Exchange.
 
 ## Troubleshooting
 
