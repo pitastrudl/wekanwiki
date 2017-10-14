@@ -6,6 +6,8 @@ For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP 
 
 Wekan E-mail settings are required in both MAIL_URL and Admin Panel.
 
+If you want to receive E-mail to Wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use Wekan REST API to add card to Wekan board.
+
 ## Troubleshooting
 
 E-mail is quite important in Wekan, as without it you can't send password reset links nor can you verify your e-mail address. Here are some ways to figure out what is wrong with your mail server settings in WeKan.
