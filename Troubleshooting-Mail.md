@@ -4,13 +4,13 @@ Standalone Wekan uses SMTP server for sending email invitations etc.
 
 For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP => Davmail => Exchange.
 
-Wekan E-mail settings are required in both MAIL_URL and Admin Panel.
+Wekan Email settings are required in both MAIL_URL and Admin Panel.
 
-If you want to receive E-mail to Wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use Wekan REST API to add card to Wekan board.
+If you want to receive Email to Wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use Wekan REST API to add card to Wekan board.
 
 ## Troubleshooting
 
-E-mail is quite important in Wekan, as without it you can't send password reset links nor can you verify your e-mail address. Here are some ways to figure out what is wrong with your mail server settings in WeKan.
+Email is quite important in Wekan, as without it you can't send password reset links nor can you verify your e-mail address. Here are some ways to figure out what is wrong with your mail server settings in WeKan.
 
 ## Log Files
 Firstly, make sure you're logged into your server and following your log files.
