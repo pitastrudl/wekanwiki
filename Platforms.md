@@ -12,9 +12,10 @@ You may need these on other platforms than Sandstorm:
 * **[Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L86-L100)**
 * [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail). For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP => DavMail => Exchange.
 * [Troubleshooting CentOS 7](https://github.com/wekan/wekan/issues/718)
-* [Nginx webserver config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
-* [Apache webserver config](https://github.com/wekan/wekan/wiki/Apache)
-* [Caddy webserver config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
+* Webserver config
+  * [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
+  * [Apache](https://github.com/wekan/wekan/wiki/Apache)
+  * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 
 ### Docker
