@@ -10,6 +10,30 @@ Wekan Email settings are required in both MAIL_URL and Admin Panel.
 
 If you want to receive Email to Wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use Wekan REST API to add card to Wekan board.
 
+## No mail server
+
+You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL` & `MAIL_FROM` environment parameters. Instead the mail message will be send to the terminal output. See [FAQ](https://github.com/wekan/wekan/wiki/FAQ#show-mails-with-a-docker-image-without-mail-configuration) for more info.
+
+## Postfix
+
+If you want to configure a mail server, you could use a mail server out-side of your machine (like the example  above). Or you could start another Docker container which runs Postfix (try the [`marvambass/versatile-postfix`](https://hub.docker.com/r/marvambass/versatile-postfix/) Docker image).
+
+If you already got a Postfix service running on your host machine, you can add the local IP address to the docker-compose.yml file and use the hostname in the `MAIL_URL`:
+```
+environment:
+  [...]
+ - MAIL_URL=smtp://mailserver
+ - MAIL_FROM=noreply@domain.com
+extra_hosts:
+ - "mailserver:192.168.1.20"
+```
+**Note:** `192.168.1.20` needs to be changed to your local server IP address.
+
+And finally add the Docker IP range (172.17.x.x) to the Postfix trusted networks list in `/etc/postfix/main.cf`:
+```
+mynetworks = 127.0.0.0/8 172.17.0.0/16 [::ffff:127.0.0.0]/104 [::1]/128  
+```
+
 ## Troubleshooting
 
 Email is quite important in Wekan, as without it you can't send password reset links nor can you verify your e-mail address. Here are some ways to figure out what is wrong with your mail server settings in WeKan.
