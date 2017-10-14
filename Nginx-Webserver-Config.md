@@ -2,13 +2,17 @@
 
 [List of Let's Encrypt implementations](https://community.letsencrypt.org/t/list-of-client-implementations/2103)
 
-## Nginx webserver config
+[Certbot: Let's Encrypt SSL for Nginx](https://certbot.eff.org)
 
-If you use Wekan at root url, change /wekan to / .
+Below config is tested with Debian 9, it did receive A+ rating at ssllabs.com test.
+
+## Nginx webserver configs
+
+If you use Wekan at sub url, change / to /wekan .
+
+### /etc/nginx/conf.d/example.com.conf or /etc/nginx/sites-available/example.com.conf:
 
 ```
-server_tokens off; # for security-by-obscurity: stop displaying nginx version
-
 # this section is needed to proxy web-socket connections
 map $http_upgrade $connection_upgrade {
     default upgrade;
@@ -17,17 +21,14 @@ map $http_upgrade $connection_upgrade {
 
 # HTTP
 server {
-    listen 80 default_server; # if this is not a default server, remove "default_server"
-    listen [::]:80 default_server ipv6only=on;
+    listen 80; # if this is not a default server, remove "default_server"
+    listen [::]:80 ipv6only=on;
 
-    root /usr/share/nginx/html; # root is irrelevant
-    index index.html index.htm; # this is also irrelevant
-
-    server_name example.com; # the domain on which we want to host the application. Since we set "default_server" previously, nginx will answer all hosts anyway.
+    server_name example.com;
 
     # redirect non-SSL to SSL
     location / {
-        rewrite     ^ https://$server_name$request_uri? permanent;
+        rewrite     ^ https://example.com$request_uri? permanent;
     }
 }
 
@@ -36,25 +37,8 @@ server {
     listen 443 ssl http2; # we enable HTTP/2 here (previously SPDY)
     server_name example.com; # this domain must match Common Name (CN) in the SSL certificate
 
-    root html; # irrelevant
-    index index.html; # irrelevant
-
-    ssl_certificate /etc/nginx/ssl/example.com.pem; # full path to SSL certificate and CA certificate concatenated together
-    ssl_certificate_key /etc/nginx/ssl/example.com.key; # full path to SSL key
-
-    # performance enhancement for SSL
-    ssl_stapling on;
-    ssl_session_cache shared:SSL:10m;
-    ssl_session_timeout 5m;
-
-    # safety enhancement to SSL: make sure we actually use a safe cipher
-    ssl_prefer_server_ciphers on;
-    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-    ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:ECDHE-RSA-RC4-SHA:ECDHE-ECDSA-RC4-SHA:RC4-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!3DES:!MD5:!PSK';
-
-    # config to enable HSTS(HTTP Strict Transport Security) https://developer.mozilla.org/en-US/docs/Security/HTTP_Strict_Transport_Security
-    # to avoid ssl stripping https://en.wikipedia.org/wiki/SSL_stripping#SSL_stripping
-    add_header Strict-Transport-Security "max-age=31536000;";
+    ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
 
     # If your application is not compatible with IE <= 10, this will redirect visitors to a page advising a browser update
     # This works because IE 11 does not present itself as MSIE anymore
@@ -62,8 +46,9 @@ server {
         return 303 https://browser-update.org/update.html;
     }
 
-    # pass all requests to Meteor
-    location /wekan {
+    # Pass all requests to Meteor. Change to "location /wekan" if you have it at https://example.com/wekan
+    # 
+    location / {
         proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade; # allow websockets
@@ -73,9 +58,119 @@ server {
         # this setting allows the browser to cache the application in a way compatible with Meteor
         # on every applicaiton update the name of CSS and JS file is different, so they can be cache infinitely (here: 30 days)
         # the root path (/) MUST NOT be cached
-        if ($uri != '/wekan') {
-            expires 30d;
-        }
+        #if ($uri != '/wekan') {
+        #    expires 30d;
+        #}
     }
 }
+```
+
+### /etc/nginx/nginx.conf
+
+```
+user www-data;
+worker_processes auto;
+pid /run/nginx.pid;
+include /etc/nginx/modules-enabled/*.conf;
+
+events {
+	worker_connections 768;
+	# multi_accept on;
+}
+
+http {
+
+	##
+	# Basic Settings
+	##
+
+	sendfile on;
+	tcp_nopush on;
+	tcp_nodelay on;
+	types_hash_max_size 2048;
+	server_tokens off;
+        set_real_ip_from 0.0.0.0/32; # All addresses get a real IP.
+        real_ip_header X-Forwarded-For;
+        limit_conn_zone $binary_remote_addr zone=arbeit:10m;
+        client_body_timeout 60;
+        client_header_timeout 60;
+        keepalive_timeout 10 10;
+        send_timeout 60;
+        reset_timedout_connection on;
+
+	# server_names_hash_bucket_size 64;
+	# server_name_in_redirect off;
+
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+
+	##
+	# SSL Settings
+	##
+
+	ssl_protocols TLSv1.2 TLSv1.1 TLSv1; # Dropping SSLv3, ref: POODLE
+	ssl_prefer_server_ciphers on;
+        ssl_session_cache shared:SSL:30m;
+        ssl_session_timeout 1d;
+        ssl_ciphers ECDH+aRSA+AESGCM:ECDH+aRSA+SHA384:ECDH+aRSA+SHA256:ECDH:EDH+CAMELLIA:EDH+aRSA:+CAMELLIA256:+AES256:+CAMELLIA128:+AES128:+SSLv3:!aNULL:!eNULL:!LOW:!3DES:!MD5:!EXP:!PSK:!SRP:!DSS:!RC4:!SEED:!ECDSA:CAMELLIA256-SHA:AES256-SHA:CAMELLIA128-SHA:AES128-SHA;
+        ssl_dhparam /etc/ssl/dh_param.pem;
+        ssl_ecdh_curve secp384r1;
+        ssl_stapling on;
+        ssl_stapling_verify on;
+        add_header X-XSS-Protection '1; mode=block';
+        add_header X-Frame-Options SAMEORIGIN;
+        add_header Strict-Transport-Security 'max-age=31536000';
+        add_header X-Content-Options nosniff;
+        add_header X-Micro-Cache $upstream_cache_status;
+
+	##
+	# Logging Settings
+	##
+
+	access_log /var/log/nginx/access.log;
+	error_log /var/log/nginx/error.log;
+
+	##
+	# Gzip Settings
+	##
+
+	gzip on;
+	gzip_disable "msie6";
+        gzip_buffers 16 8k;
+        gzip_comp_level 1;
+        gzip_http_version 1.1;
+        gzip_min_length 10;
+        gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript image/x-icon application/vnd.ms-fontobject font/opentype application/x-font-ttf;
+        gzip_vary on;
+        gzip_proxied any; # Compression for all requests.
+
+	##
+	# Virtual Host Configs
+	##
+
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+}
+```
+
+# Installing
+
+If you have example.com.conf at /etc/nginx/sites-available/example.com.conf, make symlink to sites-available:
+
+```
+sudo su
+cd /etc/nginx/sites-enabled
+ln -s ../sites-available/example.com.conf example.com.conf
+```
+
+Test nginx config for errors:
+
+```
+sudo nginx -t
+```
+
+If config is OK, take it into use:
+
+```
+sudo systemctl reload nginx    (or: sudo service nginx reload)
 ```
