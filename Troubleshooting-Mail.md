@@ -4,6 +4,8 @@ Standalone Wekan uses SMTP server for sending email invitations etc.
 
 For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP => Davmail => Exchange.
 
+For Exchange usage there is also [Exchange Calendar extension for Thunderbird Email client](https://github.com/Ericsson/exchangecalendar/releases), info how to use it is at [article at threenine.co.uk](https://threenine.co.uk/setup-office365-calendar-with-thunderbird/). Developing Wekan Calendar feature [is in progress](https://github.com/wekan/wekan/issues/808).
+
 Wekan Email settings are required in both MAIL_URL and Admin Panel.
 
 If you want to receive Email to Wekan, use [Huginn](https://github.com/wekan/wekan/issues/1160) to get E-mail from mailserver and have Huginn to use Wekan REST API to add card to Wekan board.
