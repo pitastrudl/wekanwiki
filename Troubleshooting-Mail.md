@@ -2,7 +2,7 @@
 
 You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL` & `MAIL_FROM` environment parameters. Instead the mail message will be send to the terminal output. See [FAQ](https://github.com/wekan/wekan/wiki/FAQ#show-mails-with-a-docker-image-without-mail-configuration) for more info.
 
-## Email servers
+## Email servers: SMTP or Exchange
 
 Standalone Wekan uses SMTP server for sending email invitations etc.
 
