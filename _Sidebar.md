@@ -53,7 +53,6 @@
 
 * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
-* [Nginx workaround](https://github.com/wekan/wekan/issues/1015)
 * [Let's Encrypt and Google Auth](https://github.com/wekan/wekan/wiki/Let's-Encrypt-and-Google-Auth)
 * [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
 
