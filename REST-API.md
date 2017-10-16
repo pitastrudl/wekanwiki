@@ -11,7 +11,7 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 
 * Only call via HTTPS
 * Implement a timed authorization token expiration strategy
-* Ensure the calling user only has permissions for what they are calling an no more
+* Ensure the calling user only has permissions for what they are calling and no more
 
 # Summary
 
