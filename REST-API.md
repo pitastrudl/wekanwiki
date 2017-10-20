@@ -28,7 +28,7 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 | `/api/users/:id` | [Deletes an existing user.](#user-delete) |
 | `/api/users/:id` | [Gets a user's information.](#user-information) |
 | `/api/users` | [All of the users.](#user-list) |
-| `/api/user` | [Gets a loggued-in user.](#user-loggued-in) |
+| `/api/user` | [Gets a logged-in user.](#user-logged-in) |
 
 ---
 
@@ -367,8 +367,8 @@ curl -H "Authorization: Bearer cwUZ3ZsTaE6ni2R3ppSkYd-KrDvxsLcBIkSVfOCfIkA" \
 ]
 ```
 
-# User Loggued-in
-Retrieves information about a loggued-in user with his auth token.
+# User Logged-in
+Retrieves information about a logged-in user with his auth token.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -397,4 +397,31 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
   ],
   "profile": {}
 }
+```
+
+# Disable a user (the user is not allowed to login and his login tokens are purged)
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -H "Content-type:application/json" \
+     -X PUT \
+     http://localhost:3000/api/users/ztKvBTzCqmyJ77on8 \
+     -d '{ "action": "disableLogin" }'
+```
+
+# Enable a user
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -H "Content-type:application/json" \
+     -X PUT \
+     http://localhost:3000/api/users/ztKvBTzCqmyJ77on8 \
+     -d '{ "action": "enableLogin" }'
+```
+
+# The admin takes the ownership of ALL boards of the user (archived and not archived) where the user is admin on.
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -H "Content-type:application/json" \
+     -X PUT \
+     http://localhost:3000/api/users/ztKvBTzCqmyJ77on8 \
+     -d '{ "action": "takeOwnership" }'
 ```
