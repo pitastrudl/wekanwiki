@@ -11,6 +11,10 @@
 
 # Wishes for pull requests
 
+## Chat
+
+* [Rocket.Chat more interations](https://github.com/RocketChat/Rocket.Chat/issues/672#issuecomment-328469079)
+
 ## Issue / Commit
 
 * [GitLab](https://github.com/wekan/wekan/issues/109)
