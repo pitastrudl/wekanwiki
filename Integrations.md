@@ -11,6 +11,10 @@
 
 # Wishes for pull requests
 
+## IFTTT
+
+* [Huginn or Flogo](https://github.com/wekan/wekan/issues/1160)
+
 ## Chat
 
 * [Rocket.Chat more integrations](https://github.com/RocketChat/Rocket.Chat/issues/672#issuecomment-328469079)
