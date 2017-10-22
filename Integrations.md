@@ -13,7 +13,7 @@
 
 ## Chat
 
-* [Rocket.Chat more interations](https://github.com/RocketChat/Rocket.Chat/issues/672#issuecomment-328469079)
+* [Rocket.Chat more integrations](https://github.com/RocketChat/Rocket.Chat/issues/672#issuecomment-328469079)
 
 ## Issue / Commit
 
