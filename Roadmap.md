@@ -13,7 +13,7 @@ GitHub Username | Feature | Status | Sponsor
 [xet7](https://github.com/xet7) | [Copy URL of card](https://github.com/wekan/wekan/issues/1188) | At Sandstorm: Not started yet. |
 [andresmanelli](https://github.com/andresmanelli) | [Gogs issue/commit integration](https://github.com/wekan/wekan/issues/253) | [Part 1 in Wekan already](https://github.com/wekan/wekan/pull/1189) |
 [papoola](https://github.com/papoola) | [Custom Fields](https://github.com/wekan/wekan/issues/807) | In progress | 
-[GhassenRjab](https://github.com/GhassenRjab) | [Move or copy cards from one board to another](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
+[GhassenRjab](https://github.com/GhassenRjab) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
 [soohwa](https://github.com/soohwa)|[REST API : Better error output](https://github.com/wekan/wekan/issues/1037#issuecomment-301271356)|[Ready](https://github.com/soohwa/wekan/commit/97a23011dabe9727f9395794e2f3f6f213ffe21a) to PR: waiting for [#1296](https://github.com/wekan/wekan/pull/1296)|
 [mfshiu](https://github.com) | [Custom Fields, Moving card on mobile phone, Filter cards by keyword](https://github.com/wekan/wekan/issues/1022#issuecomment-337646110), Integrate Wekan with [RIOT](http://riot.im) so user can be notified immediately on cell phone when Wekan cards change | Works, no pull request yet
 
