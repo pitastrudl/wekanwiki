@@ -205,5 +205,5 @@ To enable Wekan sending Mail from a mail server with TLS/SSL:
 2. Restart and run Wekan. 
 
 ### Mail Sender
-To define a sender name for the mails automatically sended by Wekan. 
+To define a sender name for the mails automatically sent by Wekan. 
 1. ...`export MAIL_FROM='Thomas Anderson <neo@matrix.org>'`
