@@ -329,7 +329,7 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
 ## Information about boards of user
 ```
 curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
-      http://localhost:3000/api/usersXQMZgynx9M79qTtQc/boards
+      http://localhost:3000/api/users/XQMZgynx9M79qTtQc/boards
 ```
 
 # User List
