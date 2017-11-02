@@ -1,6 +1,6 @@
 ## TODO
 
-NOTE: Everyone is free to implement anything. These are not permanently reserved. You can get bounty money, or bounty can be split to participant contributors. Just ask at some GitHub issue if you'd like to start implementing something, or help with some implementation. It's very likely that even when somebody that has name here could be busy and has not even had enough time to start. Also adding additional details, info etc to GitHub issues helps a lot. Thanks!
+NOTE: Everyone is free to implement anything. These are not permanently reserved. You can get bounty money, or bounty can be split to participant contributors. Just ask at some GitHub issue if you'd like to start implementing something, or help with some implementation. It's very likely that even when somebody that has name here could be busy and has not even had enough time to start, or is stuck in some part of implementation. Also adding additional details, info etc to GitHub issues helps a lot. Thanks!
 
 GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------
