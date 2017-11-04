@@ -46,7 +46,7 @@ Main point is to be friendly to those commenting of your code, and incorporate t
 
 
 - Templates are written in [JADE](https://naltatis.github.io/jade-syntax-docs/) instead of plain HTML. Also see [HTML to JADE converter](http://html2jade.org/).
-- CSS is written in the [Stylus](http://stylus-lang.com/) precompiler, and
+- CSS is written in the [Stylus](http://stylus-lang.com/) precompiler - see [Stylus to CSS converter](https://mikethedj4.github.io/Stylus2CSS/), and
 - Meteor templates are created as BlazeLayout templates.
 - Instead of the allow/deny paradigm a lot of the `collections` defined in the project use `mutations` to define what kinds of operations are allowed.
 
