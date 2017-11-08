@@ -1,4 +1,4 @@
-Suppose you deploy rocketchat behind a reverse proxy on https with a Let's Encrypt certificate. If you want to send wekan notifications to rocketchat, you may have a certificate problem: Let's Encrypt's CA is not recognized.
+Because NodeJS uses an [hardcoded list of certificates](https://github.com/nodejs/node/issues/4175) if you deploy a site (receiving the webhook from wekan) behind a reverse proxy on https with a Let's Encrypt certificate you may have a problem: Let's Encrypt's CA is not recognized.
 
 * Download the Let’s Encrypt Authority X3 (IdenTrust cross-signed) from [here](https://letsencrypt.org/certificates/)
 ```sh
