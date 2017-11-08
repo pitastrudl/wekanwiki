@@ -17,7 +17,7 @@
 
 * [Security Disclosure](https://github.com/wekan/wekan/wiki/Security-Disclosure)
 * [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
-* [Webhook and Let's Encrypt](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
+* [Webhook and CA](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
 
 ## <a name="Features"></a>Features
 
