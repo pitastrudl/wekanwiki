@@ -409,6 +409,11 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
 ```
 
 # Disable a user (the user is not allowed to login and his login tokens are purged)
+
+| URL | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/users/:id` | `yes` | `PUT` |
+
 ```shell
 curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
      -H "Content-type:application/json" \
@@ -418,6 +423,11 @@ curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
 ```
 
 # Enable a user
+
+| URL | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/users/:id` | `yes` | `PUT` |
+
 ```shell
 curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
      -H "Content-type:application/json" \
@@ -427,6 +437,11 @@ curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
 ```
 
 # The admin takes the ownership of ALL boards of the user (archived and not archived) where the user is admin on.
+
+| URL | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/users/:id` | `yes` | `PUT` |
+
 ```shell
 curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
      -H "Content-type:application/json" \
