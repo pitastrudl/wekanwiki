@@ -25,7 +25,10 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 | :--- | :--- |
 | `/users/register` | [Register a new user.](#user-register) |
 | `/api/users` | [Create a new user.](#user-create) |
-| `/api/users/:id` | [Deletes an existing user.](#user-delete) |
+| `/api/users/:id` | [Disable an existing user.](#disable-a-user-the-user-is-not-allowed-to-login-and-his-login-tokens-are-purged) |
+| `/api/users/:id` | [Enable an existing user.](#enable-a-user) |
+| `/api/users/:id` | [Admin takes the ownership.](#the-admin-takes-the-ownership-of-all-boards-of-the-user-archived-and-not-archived-where-the-user-is-admin-on) |
+| `/api/users/:id` | [Delete an existing user.](#user-delete) ([Warning](https://github.com/wekan/wekan/issues/1289))|
 | `/api/users/:id` | [Gets a user's information.](#user-information) |
 | `/api/users` | [All of the users.](#user-list) |
 | `/api/user` | [Gets a logged-in user.](#user-logged-in) |
