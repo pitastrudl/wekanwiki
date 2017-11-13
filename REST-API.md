@@ -16,9 +16,9 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 # Summary
 
 ### Authentication
-| Url | Short Description |
-| :--- | :--- |
-| `/users/login` | [Authenticate with the REST API.](#login) |
+| HTTP Method | Url | Short Description |
+| :--- | :--- | :--- |
+| `POST` | `/users/login` | [Authenticate with the REST API.](#login) |
 
 ### Users
 | HTTP Method | Url | Short Description |
