@@ -48,7 +48,7 @@ Install Caddy. Change username to what user you run caddy, like in /home/usernam
 
 ```bash
 # Install caddy with some plugins
-curl https://getcaddy.com | bash -s http.ipfilter,http.mailout,http.ratelimit,http.realip
+curl https://getcaddy.com | bash -s personal http.ipfilter,http.mailout,http.ratelimit,http.realip
 ```
 
 # Give permissions to caddy to bind 80 and 443
