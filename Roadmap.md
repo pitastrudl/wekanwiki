@@ -13,6 +13,7 @@ GitHub Username | Feature | Status | Sponsor
 [xet7](https://github.com/xet7) | [Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203) | Not started yet. There is [PosgreSQL version](https://github.com/wekan/wekan-postgresql) already. |
 [xet7](https://github.com/xet7) | Update wiki to have newest Features, Integrations, Team etc info | Not started yet. |
 [xet7](https://github.com/xet7) | [Copy URL of card](https://github.com/wekan/wekan/issues/1188) | At Sandstorm: Not started yet. |
+[xet7](https://github.com/xet7) | A bot that responds to translation pull requests with link to Transifex, etc documentation. Also other maintainer routine tasks. | Not started yet. |
 [andresmanelli](https://github.com/andresmanelli) | [Gogs issue/commit integration](https://github.com/wekan/wekan/issues/253) | [Part 1 in Wekan already](https://github.com/wekan/wekan/pull/1189) |
 [papoola](https://github.com/papoola) | [Custom Fields](https://github.com/wekan/wekan/issues/807) | In progress | 
 [GhassenRjab](https://github.com/GhassenRjab) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
