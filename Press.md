@@ -14,6 +14,11 @@ Maxime Quandalle, original author of Wekan
 
 * [Wekan (ex-LibreBoard= - OuiShare Labs Camp #3](https://www.youtube.com/watch?v=iTQt8YitlMA)
 
+# In German
+
+* Shorter mention: [Heise.de 25.10.2017 Open Source und lokal statt Cloud: Wekan als Trello-Alternative]( https://www.heise.de/ix/meldung/Open-Source-und-lokal-statt-Cloud-Wekan-als-Trello-Alternative-3871747.html)
+* Above page has link to longer article: [Heise.de 2017-10 Tools und Tipps: Trello-Alternative Wekan](https://www.heise.de/ix/heft/Kartendeck-3838575.html)
+
 # In French
 
 ### YouTube
