@@ -2,9 +2,15 @@
 
 NOTE: Everyone is free to implement anything. These are not permanently reserved. You can get bounty money, or bounty can be split to participant contributors. Just ask at some GitHub issue if you'd like to start implementing something, or help with some implementation. It's very likely that even when somebody that has name here could be busy and has not even had enough time to start, or is stuck in some part of implementation. Also adding additional details, info etc to GitHub issues helps a lot. Thanks!
 
+
+
 GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------
 [xet7](https://github.com/xet7) | [Calendar View](https://github.com/wekan/wekan/issues/808) | 1) In progress | [Bountysource](https://www.bountysource.com/issues/41780513-add-feature-calendar-view)
+[xet7](https://github.com/xet7) | [IFTTT ssupport](https://github.com/wekan/wekan/issues/1160) | 1) Not started yet | [Bountysource](https://www.bountysource.com/issues/47991500-feature-request-if-this-then-that-style-support-i-e-recurring-cards)
+[xet7](https://github.com/xet7) | [Top-level projects](https://github.com/wekan/wekan/issues/641) | 1) Not started yet | [Bountysource](https://www.bountysource.com/issues/36035028-top-level-projects)
+[xet7](https://github.com/xet7) | [Board templates](https://github.com/wekan/wekan/issues/786) | 1) Not started yet | [Bountysource](https://www.bountysource.com/issues/41724710-add-feature-board-templates)
+[xet7](https://github.com/xet7) | [Scheduling events](https://github.com/wekan/wekan/issues/1101) | 1) Not started yet | [Bountysource](https://www.bountysource.com/issues/46762619-scheduling-events)
 [xet7](https://github.com/xet7) | [Better mobile web support](https://github.com/wekan/wekan/issues/953) | 2) Not started yet | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and<br /> [Bountysource](https://www.bountysource.com/issues/43608850-hard-sometimes-impossible-to-use-wekan-on-mobile-android-ios-because-of-ui-ux-issues)
 [xet7](https://github.com/xet7), [aegrey](https://github.com/aegrey) | [Teams/Organizations similar to Trello](https://github.com/wekan/wekan/issues/802) | 3) xet7: Not started yet.<br />agrey: Writing Tech Specs | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and [Bountysource](https://www.bountysource.com/issues/41780380-add-feature-teams-organizations-similar-to-trello)
 [xet7](https://github.com/xet7) | [LDAP for Standalone](https://github.com/wekan/wekan/issues/119) | 4) Not started yet | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and d
