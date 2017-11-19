@@ -63,6 +63,9 @@
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-member-settings-archive.png)
 
 ### Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Arhive and restore archived card. Delete card.
+
+Tip: Normally you archive card so you can restore it back. If you want to delete cards faster, drag cards to new list, and delete that new list. Deleting can not be undone, more clicks are by design. There was previously easily clicked button to delete a list and people deleted important list by accident, and that bug report was fixed.
+
 ### [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
 ### [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
 
@@ -95,6 +98,8 @@
 ![Wekan multi-selection screenshot](https://wekan.github.io/screenshot-filter.png)
 
 ## Authentication, Admin Panel, SMTP Settings
+
+NOTE: There is user admin as "People" in Admin Panel, but no screenshot here yet.
 
 * Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
 
