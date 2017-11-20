@@ -1,6 +1,6 @@
 ## TODO
 
-Please read Etiquette etc at [FAQ](https://github.com/wekan/wekan/wiki/FAQ) and [Developer Documentation](https://github.com/wekan/wekan/wiki/Developer-Documentation).
+Please read Etiquette at [FAQ](https://github.com/wekan/wekan/wiki/FAQ) and [Developer Documentation](https://github.com/wekan/wekan/wiki/Developer-Documentation).
 
 GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------
