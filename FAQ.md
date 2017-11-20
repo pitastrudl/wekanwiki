@@ -36,7 +36,7 @@ c) Pay someone from your company or some other developer to code feature and sub
 
 d) Develop feature yourself and submit it as pull requests to devel [Wekan repo](https://github.com/wekan/wekan) branch.
 
-[According to Open Hub](https://www.openhub.net/p/wekan), Wekan code is only about 10500 lines without Meteor.js framwork and NPM modules, so it's very small when comparing to other software, and quite logically organized. With git history viewer like gitk it's possible to see how different features are implemented.
+[According to Open Hub](https://www.openhub.net/p/wekan), Wekan code is only about 10500 lines without Meteor.js framework and NPM modules, so it's very small when comparing to other software, and quite logically organized. With git history viewer like gitk it's possible to see how different features are implemented.
 
 For Sandstorm-specific features, have the feature enabled in Sandstorm by using environment variable isSandstorm = true like is at wekan/sandstorm.js .
 
