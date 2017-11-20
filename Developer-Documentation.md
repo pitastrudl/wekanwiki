@@ -25,6 +25,9 @@ Please read the meteor style guide before making any significant contribution.
 
 ## Pull Request Workflow (Please read before submitting PR's)
 
+- When doing pull requests, only add additions and changes to English at wekan/i18n/en.i18n.json . Other translations are done at [https://www.transifex.com/wekan/wekan](https://www.transifex.com/wekan/wekan).
+- If you have fix to some existing pull request, add your fix as comment. Do not post new pull request.
+- For new features add new pull request, if there is none already.
 - Use the [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) workflow.
   - create a PR from your feature-branch to `wekan/devel` directly so that you can continue your work without interruption.
 - Keep your local forks updated with this repo by setting your `git upstream` value as described [here](https://robots.thoughtbot.com/keeping-a-github-fork-updated).
