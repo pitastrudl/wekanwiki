@@ -32,7 +32,7 @@ a) Commercial support to develop features, see link on right menu
 
 b) [Add bounty for your feature request GitHub issue](https://www.bountysource.com/teams/wekan), biggest bounties are prioritized to top.
 
-c) Pay someone from your company or some other developer to code feature and sublit as pull request
+c) Pay someone from your company or some other developer to code feature and submit as pull request
 
 d) Develop feature yourself and submit it as pull requests to devel [Wekan repo](https://github.com/wekan/wekan) branch.
 
