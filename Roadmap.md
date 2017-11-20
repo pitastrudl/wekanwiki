@@ -12,7 +12,7 @@ GitHub Username | Feature | Status | Sponsor
 [xet7](https://github.com/xet7) | [LDAP for Standalone](https://github.com/wekan/wekan/issues/119) | Not started yet | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and d
 [xet7](https://github.com/xet7) | [Advanced WebHooks with Mattermost](https://github.com/wekan/wekan/issues/1297) | Not started yet | d
 [xet7](https://github.com/xet7) | [Add Company logo above Wekan logo at login page, with custom CSS.](https://github.com/wekan/wekan/issues/1196) | Not started yet | d
-[xet7](https://github.com/xet7) | [IFTTT ssupport](https://github.com/wekan/wekan/issues/1160) | 7) Not started yet | [Bountysource](https://www.bountysource.com/issues/47991500-feature-request-if-this-then-that-style-support-i-e-recurring-cards)
+[xet7](https://github.com/xet7) | [IFTTT support](https://github.com/wekan/wekan/issues/1160) | 7) Not started yet | [Bountysource](https://www.bountysource.com/issues/47991500-feature-request-if-this-then-that-style-support-i-e-recurring-cards)
 [xet7](https://github.com/xet7) | [Top-level projects](https://github.com/wekan/wekan/issues/641) | Not started yet | [Bountysource](https://www.bountysource.com/issues/36035028-top-level-projects)
 [xet7](https://github.com/xet7) | [Board templates](https://github.com/wekan/wekan/issues/786) | Not started yet | [Bountysource](https://www.bountysource.com/issues/41724710-add-feature-board-templates)
 [xet7](https://github.com/xet7) | [Scheduling events](https://github.com/wekan/wekan/issues/1101) | Not started yet | [Bountysource](https://www.bountysource.com/issues/46762619-scheduling-events)
