@@ -18,11 +18,6 @@ Please read the meteor style guide before making any significant contribution.
   - Read Wekan source code.
   - Read Meteor documentation.
 
-## Preventing Travis CI lint errors before submitting pull requests
-
-- Eslint for linting. To prevent Travis CI lint errors, you can test for lint errors by installing "npm install eslint" and running it with "npm run lint"
-- If you want automatic fixes to that code file you can copy code to [jsbeautifer website](http://jsbeautifier.org) with settings Indent with 2 spaces (topmost dropdown), [X] Space before conditional: "if(x)" / "if (x)", [X] Use JSLint-happy formatting tweaks.
-
 ## Pull Request Workflow (Please read before submitting PR's)
 
 - When doing pull requests, only add additions and changes to English at wekan/i18n/en.i18n.json . Other translations are done at [https://www.transifex.com/wekan/wekan](https://www.transifex.com/wekan/wekan).
@@ -33,6 +28,11 @@ Please read the meteor style guide before making any significant contribution.
 - Keep your local forks updated with this repo by setting your `git upstream` value as described [here](https://robots.thoughtbot.com/keeping-a-github-fork-updated).
   - before submitting a PR make sure you `rebase` your local branch as described [here](http://push.cwcon.org/learn/stay-updated#on_your_computer_routine_tasks)
   - If you accidentally mess around on your `devel` branch, follow these steps [here](http://push.cwcon.org/learn/stay-updated#oops_i_was_messing_around_on_) to clean it up.
+
+## Preventing Travis CI lint errors before submitting pull requests
+
+- Eslint for linting. To prevent Travis CI lint errors, you can test for lint errors by installing "npm install eslint" and running it with "npm run lint"
+- If you want automatic fixes to that code file you can copy code to [jsbeautifer website](http://jsbeautifier.org) with settings Indent with 2 spaces (topmost dropdown), [X] Space before conditional: "if(x)" / "if (x)", [X] Use JSLint-happy formatting tweaks.
 
 ## Choosing issues to work on
 
