@@ -16,6 +16,12 @@ Wekan is an open-source and free software _[kanban board][kanban]_ that lets you
 ## What is Wekan Team?
 [Wekan team](https://github.com/wekan/wekan/wiki/Team) is small amount of contributors from all around the world donating their free time and servers. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
+## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
+
+Depends on free time of xet7. Usually:
+* Fastest: multiple times a day.
+* Slowest: Once a month.
+
 # Features
 
 ## Will my feature request be implemented?
