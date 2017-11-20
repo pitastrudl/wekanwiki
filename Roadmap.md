@@ -9,7 +9,7 @@ GitHub Username | Feature | Status | Sponsor
 [xet7](https://github.com/xet7), [thuanpq ](https://github.com/thuanpq) | [Teams/Organizations similar to Trello](https://github.com/wekan/wekan/issues/802) . Beginnings of user admin [already implemented](https://github.com/wekan/wekan/pull/1325) at [Wekan v0.55](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v055-2017-11-19-wekan-release) | In progress | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and [Bountysource](https://www.bountysource.com/issues/41780380-add-feature-teams-organizations-similar-to-trello)
 [andresmanelli](https://github.com/andresmanelli) | [Gogs issue/commit integration](https://github.com/wekan/wekan/issues/253) | [Part 1 in Wekan already](https://github.com/wekan/wekan/pull/1189) |
 [papoola](https://github.com/papoola) | [Custom Fields](https://github.com/wekan/wekan/issues/807) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
-[mfshiu](https://github.com) | [Custom Fields, Moving card on mobile phone, Filter cards by keyword](https://github.com/wekan/wekan/issues/1022#issuecomment-337646110), Integrate Wekan with [RIOT](http://riot.im) so user can be notified immediately on cell phone when Wekan cards change | Works, no pull request yet
+[mfshiu](https://github.com/mfshiu) | [Custom Fields, Moving card on mobile phone, Filter cards by keyword](https://github.com/wekan/wekan/issues/1022#issuecomment-337646110), Integrate Wekan with [RIOT](http://riot.im) so user can be notified immediately on cell phone when Wekan cards change | Works, no pull request yet
 
 # Not started yet
 
