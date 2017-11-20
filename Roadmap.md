@@ -23,7 +23,6 @@ GitHub Username | Feature | Status | Sponsor
 [andresmanelli](https://github.com/andresmanelli) | [Gogs issue/commit integration](https://github.com/wekan/wekan/issues/253) | [Part 1 in Wekan already](https://github.com/wekan/wekan/pull/1189) |
 [papoola](https://github.com/papoola) | [Custom Fields](https://github.com/wekan/wekan/issues/807) | In progress | 
 [GhassenRjab](https://github.com/GhassenRjab) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
-[soohwa](https://github.com/soohwa) | [REST API : Better error output](https://github.com/wekan/wekan/issues/1037#issuecomment-301271356)|[PR #1323](https://github.com/wekan/wekan/pull/1323)|
 [mfshiu](https://github.com) | [Custom Fields, Moving card on mobile phone, Filter cards by keyword](https://github.com/wekan/wekan/issues/1022#issuecomment-337646110), Integrate Wekan with [RIOT](http://riot.im) so user can be notified immediately on cell phone when Wekan cards change | Works, no pull request yet
 [brooksbecton](https://github.com/brooksbecton) | [Swipebox for attachment images](https://github.com/wekan/wekan/issues/201) | In progress |
 
@@ -36,3 +35,4 @@ GitHub Username | Feature | Status | Sponsor
 [xet7](https://github.com/xet7) | [Copy URL of card](https://github.com/wekan/wekan/issues/1188) | Done at Standalone. |
 [xet7](https://github.com/xet7) and [ocdtrekkie](https://github.com/ocdtrekkie) | [Newest Wekan for Sandstorm](https://github.com/wekan/wekan/issues/799) | Done |
 [GhassenRjab](https://github.com/GhassenRjab) | [Import activities from Trello and Wekan](https://github.com/wekan/wekan/pull/1187) | Done |
+[soohwa](https://github.com/soohwa) | [REST API : Better error output](https://github.com/wekan/wekan/issues/1037#issuecomment-301271356)| Done |
