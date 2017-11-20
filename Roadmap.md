@@ -4,7 +4,7 @@ Please read Etiquette at [FAQ](https://github.com/wekan/wekan/wiki/FAQ) and [Dev
 
 GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------
-[GhassenRjab](https://github.com/GhassenRjab) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
+[GhassenRjab](https://github.com/GhassenRjab), [thuanpq ](https://github.com/thuanpq) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
 [xet7](https://github.com/xet7) | [Search](https://github.com/wekan/wekan/issues/552) | Not started yet |
 [xet7](https://github.com/xet7) | [Calendar View](https://github.com/wekan/wekan/issues/808) | In progress | [Bountysource](https://www.bountysource.com/issues/41780513-add-feature-calendar-view)
 [xet7](https://github.com/xet7) | [Better mobile web support](https://github.com/wekan/wekan/issues/953) | Not started yet | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and<br /> [Bountysource](https://www.bountysource.com/issues/43608850-hard-sometimes-impossible-to-use-wekan-on-mobile-android-ios-because-of-ui-ux-issues)
