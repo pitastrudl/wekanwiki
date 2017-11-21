@@ -17,6 +17,7 @@ GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------
 [xet7](https://github.com/xet7) | Try to fix [Excessive CPU usage](https://github.com/wekan/wekan-mongodb/issues/2) to encourage [mfshiu](https://github.com/mfshiu) to contribute his Wekan features in progress | Not started yet |
 [xet7](https://github.com/xet7) | [Add direct SQLite/MySQL/PostgreSQL/etc support](https://github.com/wekan/wekan/issues/787) | Not started yet |
+[xet7](https://github.com/xet7) | Have all settings (SMTP etc) in environment variables or Docker Compose file, no need to setup manually at Admin Panel | Not started yet |
 [xet7](https://github.com/xet7) | [Top-level projects](https://github.com/wekan/wekan/issues/641) | Not started yet | [Bountysource](https://www.bountysource.com/issues/36035028-top-level-projects)
 [xet7](https://github.com/xet7) | [Search](https://github.com/wekan/wekan/issues/552) | Not started yet |
 [xet7](https://github.com/xet7) | [LDAP for Standalone](https://github.com/wekan/wekan/issues/119) | Not started yet | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and d
