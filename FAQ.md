@@ -28,7 +28,7 @@ Depends on free time of xet7. Usually:
 
 There are alternative ways to have your feature implemented:
 
-a) Commercial support to develop features, see link on right menu
+a) [Commercial Support](http://www.xet7.org/wekan) for subscriptions and one-time cases.
 
 b) [Add bounty for your feature request GitHub issue](https://www.bountysource.com/teams/wekan), biggest bounties are prioritized to top.
 
