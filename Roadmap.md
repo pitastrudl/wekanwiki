@@ -4,7 +4,6 @@ Please read Etiquette at [FAQ](https://github.com/wekan/wekan/wiki/FAQ) and [Dev
 
 GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------
-[GhassenRjab](https://github.com/GhassenRjab), [thuanpq ](https://github.com/thuanpq) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
 [xet7](https://github.com/xet7) | [Calendar View](https://github.com/wekan/wekan/issues/808) | In progress | [Bountysource](https://www.bountysource.com/issues/41780513-add-feature-calendar-view)
 [xet7](https://github.com/xet7), [thuanpq ](https://github.com/thuanpq) | [Teams/Organizations similar to Trello](https://github.com/wekan/wekan/issues/802) . Beginnings of user admin [already implemented](https://github.com/wekan/wekan/pull/1325) at [Wekan v0.55](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v055-2017-11-19-wekan-release) | In progress | [FUUG.fi](https://fuug.fi/2017/wekan-kanban-taulun-perustoimintojen-kehitys-alkuun/) and [Bountysource](https://www.bountysource.com/issues/41780380-add-feature-teams-organizations-similar-to-trello)
 [andresmanelli](https://github.com/andresmanelli) | [Gogs issue/commit integration](https://github.com/wekan/wekan/issues/253) | [Part 1 in Wekan already](https://github.com/wekan/wekan/pull/1189) |
@@ -38,6 +37,7 @@ Also see [other bounties at Bountysource](https://www.bountysource.com/teams/wek
 
 GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------  
+[GhassenRjab](https://github.com/GhassenRjab), [thuanpq ](https://github.com/thuanpq) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
 [xet7](https://github.com/xet7) | [Copy URL of card](https://github.com/wekan/wekan/issues/1188) | Done at Standalone. |
 [xet7](https://github.com/xet7) and [ocdtrekkie](https://github.com/ocdtrekkie) | [Newest Wekan for Sandstorm](https://github.com/wekan/wekan/issues/799) | Done |
 [GhassenRjab](https://github.com/GhassenRjab) | [Import activities from Trello and Wekan](https://github.com/wekan/wekan/pull/1187) | Done |
