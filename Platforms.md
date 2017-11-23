@@ -80,6 +80,10 @@ TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](http
 
 # Updated sometimes
 
+### FreeBSD
+
+[FreeBSD install](https://github.com/greinbold/install-wekan/blob/master/v0.32/freebsd-11.0-RELEASE.md) and related issue #1155
+
 ### Qnap TS-469L
 
 [Manual install of newest version](https://github.com/wekan/wekan/issues/1180)
