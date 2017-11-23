@@ -2,7 +2,7 @@ Please read Etiquette at [FAQ](https://github.com/wekan/wekan/wiki/FAQ) and [Dev
 
 # New Roadmap
 
-[New Roadmap is at GitHub Projects](https://github.com/wekan/wekan/projects/2). xet7 is testing it's functionality vs this wiki vs Wekan board where roadmap previously was. Sometime Roadmap moves back to Wekan board.
+[New Roadmap is at GitHub Projects](https://github.com/wekan/wekan/projects/2). xet7 is testing it's functionality vs this wiki vs Wekan board where Roadmap previously was. Sometime Roadmap moves back to Wekan board.
 
 ***
 
