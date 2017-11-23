@@ -42,6 +42,7 @@ Following are for Source/Docker installs.
 * [Google/GitHub/OAuth](https://github.com/wekan/wekan/issues/234)
 * [LDAP](https://github.com/wekan/wekan/issues/119)
 * [SAML](https://github.com/wekan/wekan/issues/708)
+* [OpenID](https://github.com/wekan/wekan/issues/538)
 
 ## Import / Export
 
