@@ -1,3 +1,7 @@
+https://github.com/wekan/wekan/wiki/Features#Stats
+
+Or
+
 https://github.com/wekan/wekan/issues/1001
 
 Or
