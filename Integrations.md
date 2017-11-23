@@ -2,12 +2,7 @@
 
 * [PostgreSQL](https://github.com/wekan/wekan-postgresql)
 * [Webhooks](https://github.com/wekan/wekan/wiki/Features#webhooks), works by showing board activities with [Slack](https://slack.com/), [Rocket.chat](https://rocket.chat/) and others that supports Webhooks.
-
-# In Progress
-
-## Issue / Commit
-
-* [Gogs](https://github.com/wekan/wekan/issues/253) integration [part 1 already merged](https://github.com/wekan/wekan/pull/1189)
+* [Gogs Integration](https://github.com/wekan/wekan-gogs) as separate project.
 
 # Wishes for pull requests
 
