@@ -28,13 +28,11 @@ Depends on free time of xet7. Usually:
 
 There are alternative ways to have your feature implemented:
 
-a) [Commercial Support](http://www.xet7.org/wekan) for subscriptions and one-time cases.
+a) [Commercial Support or Bounties](http://www.xet7.org/wekan)
 
-b) [Add bounty for your feature request GitHub issue](https://www.bountysource.com/teams/wekan), biggest bounties are prioritized to top.
+b) Pay someone from your company or some other developer to code feature and submit as pull request
 
-c) Pay someone from your company or some other developer to code feature and submit as pull request
-
-d) Develop feature yourself and submit it as pull requests to devel [Wekan repo](https://github.com/wekan/wekan) branch.
+c) Develop feature yourself and submit it as pull requests to devel [Wekan repo](https://github.com/wekan/wekan) branch.
 
 [According to Open Hub](https://www.openhub.net/p/wekan), Wekan code is only about 10500 lines without Meteor.js framework and NPM modules, so it's very small when comparing to other software, and quite logically organized. With git history viewer like gitk it's possible to see how different features are implemented.
 
