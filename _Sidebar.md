@@ -28,6 +28,7 @@
 * [Fix Export board menu not visible on some boards](https://github.com/wekan/wekan/issues/1060)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
 * [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
+* [Logs](https://github.com/wekan/wekan/wiki/Logs)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 * [Demo](https://wekan.indie.host/b/t2YaGmyXgNkppcFBq/wekan-fork-roadmap)
