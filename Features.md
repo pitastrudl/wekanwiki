@@ -1,5 +1,7 @@
 # Current
 
+Not all from [CHANGELOG](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md) are added to here yet.
+
 ## Kanban
 
 ### WIP Limits
