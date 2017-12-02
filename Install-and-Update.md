@@ -60,7 +60,7 @@ There are three options:
 
 ### Install Node.js
 
-Make sure Node.js is installed (currently Version 4.8.4 is required). If you don't have this version, you can use the [node packages][node-packages].
+Make sure Node.js is installed (currently Version 4.8.6 is required). If you don't have this version, you can use the [node packages][node-packages].
 
 ### Install MongoDB
 In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website][mongodb-website] how to install it.
@@ -109,7 +109,7 @@ This is the most complex way, suitable if you know what you are doing and want t
 
 ### Notes
 
-If you haven't already, you need to install Node.js, given that we need node version 4.8.4, make sure to either use the [custom packages][node-packages] (the ones of your OS are likely too old) or install the correct version from the Node.js [website][node-web].
+If you haven't already, you need to install Node.js, given that we need node version 4.8.6, make sure to either use the [custom packages][node-packages] (the ones of your OS are likely too old) or install the correct version from the Node.js [website][node-web].
 
 * Uses Ubuntu 16.04 VM. You need websockets enabled on your VM.
 * For Caddy webserver, ports 80 and 443 need to be open. Caddy has automatic Let's Encrypt,
@@ -161,11 +161,11 @@ rm package-lock.json
 ## git checkout -b dwrensha-profile-bugfix devel
 ## git pull https://github.com/dwrensha/wekan.git profile-bugfix
 
-# Install Node.js 4.8.4
+# Install Node.js 4.8.6
 sudo apt install build-essential g++ capnproto nodejs nodejs-legacy npm git curl
 sudo npm -g install n
 ## if the previous fails (and asks you to run as sudo) just rm /home/<username>/node_modules and retry
-sudo n 4.8.4
+sudo n 4.8.6
 sudo npm -g install npm@4.6.1
 sudo npm -g install node-gyp
 sudo npm -g install node-pre-gyp
