@@ -1,3 +1,5 @@
+This documentation contributed by [TNick](https://github.com/TNick) and [xet7](https://github.com/xet7). Please add fixes, updates etc directly to this page.
+
 # Routing
 
 We're using [FlowRouter](https://github.com/kadirahq/flow-router) client side router inside **[config/router.js](https://github.com/wekan/wekan/tree/devel/config/router.js)**.
