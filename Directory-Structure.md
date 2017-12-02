@@ -1,58 +1,3 @@
-
----
-# Models
-
-The files in **[models](https://github.com/wekan/wekan/tree/devel/models)** directory mainly define collections; most of them have [aldeed SimpleSchema](https://atmospherejs.com/aldeed/simple-schema) for automatic validation of insert and update of collections. This is also where helpers, mutations, methods, hooks and bootstrap code is to be found. [Server side code](https://docs.meteor.com/api/core.html#Meteor-isServer) also implements json REST API.
-
-Collections (mostly `Mongo.Collection` except as noted) are defined in:
-* **[accountSettings.js](https://github.com/wekan/wekan/tree/devel/models/accountSettings.js)**;
-* **[activities.js](https://github.com/wekan/wekan/tree/devel/models/activities.js)**: does not have a SimpleSchema;
-* **[announcements.js](https://github.com/wekan/wekan/tree/devel/models/announcements.js)**;
-* **[attachments.js](https://github.com/wekan/wekan/tree/devel/models/attachments.js)**: file-system collection;
-* **[avatars.js](https://github.com/wekan/wekan/tree/devel/models/avatars.js)**: file-system collection;
-* **[boards.js](https://github.com/wekan/wekan/tree/devel/models/boards.js)**;
-* **[cardComments.js](https://github.com/wekan/wekan/tree/devel/models/cardComments.js)**;
-* **[cards.js](https://github.com/wekan/wekan/tree/devel/models/cards.js)**;
-* **[checklists.js](https://github.com/wekan/wekan/tree/devel/models/checklists.js)**;
-* **[integrations.js](https://github.com/wekan/wekan/tree/devel/models/integrations.js)**;
-* **[invitationCodes.js](https://github.com/wekan/wekan/tree/devel/models/invitationCodes.js)**;
-* **[lists.js](https://github.com/wekan/wekan/tree/devel/models/lists.js)**;
-* **[settings.js](https://github.com/wekan/wekan/tree/devel/models/settings.js)**;
-* **[unsavedEdits.js](https://github.com/wekan/wekan/tree/devel/models/unsavedEdits.js)**;
-* **[users.js](https://github.com/wekan/wekan/tree/devel/models/users.js)**: extends the `Meteor.users` collection.
-
-Other files:
-* **[watchable.js](https://github.com/wekan/wekan/tree/devel/models/watchable.js)**: extends the schema, helpers and mutations of `Boards`, `Lists` and `Cards`.
-* **[export.js](https://github.com/wekan/wekan/tree/devel/models/export.js)**: has some code to support the REST API.
-* **[import.js](https://github.com/wekan/wekan/tree/devel/models/import.js)**: implements `importBoard()` method so that Trello (in **[trelloCreator.js](https://github.com/wekan/wekan/tree/devel/models/trelloCreator.js)**) and Wekan (in **[wekanCreator.js](https://github.com/wekan/wekan/tree/devel/models/wekanCreator.js)**) boards can be imported. <span style="color:red">*XXX: Solid candidates for a directory of their own.*</span>
-
-# Server
-
-.js files in this directory are not available to the client.
-
-* **[statistics.js](https://github.com/wekan/wekan/tree/devel/server/statistics.js)** implements a Meteor server-only [method](https://guide.meteor.com/methods.html) for general-purpose information such as OS, memory, CPUs, PID of the process and so on.
-* **[migrations.js](https://github.com/wekan/wekan/tree/devel/server/migrations.js)** is where code that update sold databases to new schema is located. Anytime the schema of one of the collection changes in a non-backward compatible way a migration needs to be written in this file.
-* **[authentication.js](https://github.com/wekan/wekan/tree/devel/server/authentication.js)** add the `Authentication`object to Meteor that provides methods for checking access rights.
-* **[lib/utils.js](https://github.com/wekan/wekan/tree/devel/server/lib/utils.js)** defines some checks used by [checklists.js](https://github.com/wekan/wekan/tree/devel/models/checklists.js)** model. <span style="color:red">*XXX: these methods are defined in server-only code by are used in models, which are visible by the client (in Checklists.allow)?*</span>
-* **[notifications](https://github.com/wekan/wekan/tree/devel/server/notifications)**
-  * **[notifications.js](https://github.com/wekan/wekan/tree/devel/server/notifications/notifications.js)**: defines the `Notifications` object that supports [Activities](models/activities.js) and holds a list of functions to call when its `notify()` method is called along with convenience methods to subscribe, unsubscribe and a way to filter recipients according to user settings for notification;
-     * **[email.js](https://github.com/wekan/wekan/tree/devel/server/notifications/email.js)**: makes use of the notification system to send an email to a user;
-     * **[profile.js](https://github.com/wekan/wekan/tree/devel/server/notifications/profile.js)**: *stub*; will allow associating notifications with user ids to be consumed by mobile apps;
-  * **[notifications.js](https://github.com/wekan/wekan/tree/devel/server/notifications/notifications.js)**: adds the `watch()` Meteor server-only [method](https://guide.meteor.com/methods.html) that may watch boards, lists or cards using [models/watchable.js](https://github.com/wekan/wekan/tree/devel/models/watchable.js);
-  * **[outgoing.js](https://github.com/wekan/wekan/tree/devel/server/notifications/outgoing.js)**: adds the `outgoingWebhooks()` Meteor server-only [method](https://guide.meteor.com/methods.html) that can call external API <span style="color:red">*XXX: I guess*</span>
-* **[publications](https://github.com/wekan/wekan/tree/devel/server/publications)** defines sets of records that are [published](https://docs.meteor.com/api/pubsub.html#Meteor-publish) by the server and how clients can subscribe to those:
-  * **[accountSettings.js](https://github.com/wekan/wekan/tree/devel/server/publications/accountSettings.js)**: [AccountSettings](models/accountSettings.js) collection;
-  * **[activities.js](https://github.com/wekan/wekan/tree/devel/server/publications/activities.js)**: [Activities](models/activities.js) collection filtered and paginated;
-  * **[announcements.js](https://github.com/wekan/wekan/tree/devel/server/publications/announcements.js)**: [Announcements](models/announcements.js) collection;
-  * **[avatars.js](https://github.com/wekan/wekan/tree/devel/server/publications/avatars.js)**: [Avatars](models/avatars.js) collection for current user;
-  * **[boards.js](https://github.com/wekan/wekan/tree/devel/server/publications/boards.js)**: [Boards](models/boards.js) collection for current user, archived boards collection and individual board as a [relation](https://atmospherejs.com/cottz/publish-relations);
-  * **[cards.js](https://github.com/wekan/wekan/tree/devel/server/publications/cards.js)**: a [Card](https://github.com/wekan/wekan/tree/devel/models/cards.js) by its id;
-  * **[fast-render.js](https://github.com/wekan/wekan/tree/devel/server/publications/fast-render.js)**: configures [FastRender](https://github.com/kadirahq/fast-render) to use the board data; <span style="color:red">*XXX: FastRender docs say "Make sure you're using Meteor.subscribe and not this.subscribe"*</span>
-  * **[people.js](https://github.com/wekan/wekan/tree/devel/server/publications/people.js)**: [Users](models/users.js) collection;
-  * **[settings.js](https://github.com/wekan/wekan/tree/devel/server/publications/settings.js)**: [Settings](models/settings.js) collection and, separately, the mail server;
-  * **[unsavedEdits.js](https://github.com/wekan/wekan/tree/devel/server/publications/unsavedEdits.js)**: [UnsavedEdits](models/unsavedEdits.js) collection;
-  * **[users.js](https://github.com/wekan/wekan/tree/devel/server/publications/users.js)**: provides a "mini-profile" for individual users and a [way](https://docs.meteor.com/api/collections.html#fieldspecifiers) to check if current user is admin.
-
 # Routing
 
 We're using [FlowRouter](https://github.com/kadirahq/flow-router) client side router inside **[config/router.js](https://github.com/wekan/wekan/tree/devel/config/router.js)**.
@@ -138,6 +83,59 @@ Files in this directory are served by meteor as-is to the client. It hosts some 
    * **[modal.js](https://github.com/wekan/wekan/tree/devel/client/lib/modal.js)**: registers `Modal` [Blaze](http://blazejs.org/) helper to support showing modal windows like the one for archived boards;
    * **[multiSelection.js](https://github.com/wekan/wekan/tree/devel/client/lib/multiSelection.js)**: registers `Modal` [Blaze](http://blazejs.org/) helper to support multiple selection mode;
    * **[unsavedEdits.js](https://github.com/wekan/wekan/tree/devel/client/lib/unsavedEdits.js)**: registers `getUnsavedValue` and `hasUnsavedValue` [Blaze](http://blazejs.org/) helpers to preserve content entered in fields but not saved;
+
+# Server
+
+.js files in this directory are not available to the client.
+
+* **[statistics.js](https://github.com/wekan/wekan/tree/devel/server/statistics.js)** implements a Meteor server-only [method](https://guide.meteor.com/methods.html) for general-purpose information such as OS, memory, CPUs, PID of the process and so on.
+* **[migrations.js](https://github.com/wekan/wekan/tree/devel/server/migrations.js)** is where code that update sold databases to new schema is located. Anytime the schema of one of the collection changes in a non-backward compatible way a migration needs to be written in this file.
+* **[authentication.js](https://github.com/wekan/wekan/tree/devel/server/authentication.js)** add the `Authentication`object to Meteor that provides methods for checking access rights.
+* **[lib/utils.js](https://github.com/wekan/wekan/tree/devel/server/lib/utils.js)** defines some checks used by [checklists.js](https://github.com/wekan/wekan/tree/devel/models/checklists.js)** model. <span style="color:red">*XXX: these methods are defined in server-only code by are used in models, which are visible by the client (in Checklists.allow)?*</span>
+* **[notifications](https://github.com/wekan/wekan/tree/devel/server/notifications)**
+  * **[notifications.js](https://github.com/wekan/wekan/tree/devel/server/notifications/notifications.js)**: defines the `Notifications` object that supports [Activities](models/activities.js) and holds a list of functions to call when its `notify()` method is called along with convenience methods to subscribe, unsubscribe and a way to filter recipients according to user settings for notification;
+     * **[email.js](https://github.com/wekan/wekan/tree/devel/server/notifications/email.js)**: makes use of the notification system to send an email to a user;
+     * **[profile.js](https://github.com/wekan/wekan/tree/devel/server/notifications/profile.js)**: *stub*; will allow associating notifications with user ids to be consumed by mobile apps;
+  * **[notifications.js](https://github.com/wekan/wekan/tree/devel/server/notifications/notifications.js)**: adds the `watch()` Meteor server-only [method](https://guide.meteor.com/methods.html) that may watch boards, lists or cards using [models/watchable.js](https://github.com/wekan/wekan/tree/devel/models/watchable.js);
+  * **[outgoing.js](https://github.com/wekan/wekan/tree/devel/server/notifications/outgoing.js)**: adds the `outgoingWebhooks()` Meteor server-only [method](https://guide.meteor.com/methods.html) that can call external API <span style="color:red">*XXX: I guess*</span>
+* **[publications](https://github.com/wekan/wekan/tree/devel/server/publications)** defines sets of records that are [published](https://docs.meteor.com/api/pubsub.html#Meteor-publish) by the server and how clients can subscribe to those:
+  * **[accountSettings.js](https://github.com/wekan/wekan/tree/devel/server/publications/accountSettings.js)**: [AccountSettings](models/accountSettings.js) collection;
+  * **[activities.js](https://github.com/wekan/wekan/tree/devel/server/publications/activities.js)**: [Activities](models/activities.js) collection filtered and paginated;
+  * **[announcements.js](https://github.com/wekan/wekan/tree/devel/server/publications/announcements.js)**: [Announcements](models/announcements.js) collection;
+  * **[avatars.js](https://github.com/wekan/wekan/tree/devel/server/publications/avatars.js)**: [Avatars](models/avatars.js) collection for current user;
+  * **[boards.js](https://github.com/wekan/wekan/tree/devel/server/publications/boards.js)**: [Boards](models/boards.js) collection for current user, archived boards collection and individual board as a [relation](https://atmospherejs.com/cottz/publish-relations);
+  * **[cards.js](https://github.com/wekan/wekan/tree/devel/server/publications/cards.js)**: a [Card](https://github.com/wekan/wekan/tree/devel/models/cards.js) by its id;
+  * **[fast-render.js](https://github.com/wekan/wekan/tree/devel/server/publications/fast-render.js)**: configures [FastRender](https://github.com/kadirahq/fast-render) to use the board data; <span style="color:red">*XXX: FastRender docs say "Make sure you're using Meteor.subscribe and not this.subscribe"*</span>
+  * **[people.js](https://github.com/wekan/wekan/tree/devel/server/publications/people.js)**: [Users](models/users.js) collection;
+  * **[settings.js](https://github.com/wekan/wekan/tree/devel/server/publications/settings.js)**: [Settings](models/settings.js) collection and, separately, the mail server;
+  * **[unsavedEdits.js](https://github.com/wekan/wekan/tree/devel/server/publications/unsavedEdits.js)**: [UnsavedEdits](models/unsavedEdits.js) collection;
+  * **[users.js](https://github.com/wekan/wekan/tree/devel/server/publications/users.js)**: provides a "mini-profile" for individual users and a [way](https://docs.meteor.com/api/collections.html#fieldspecifiers) to check if current user is admin.
+
+# Models
+
+The files in **[models](https://github.com/wekan/wekan/tree/devel/models)** directory mainly define collections; most of them have [aldeed SimpleSchema](https://atmospherejs.com/aldeed/simple-schema) for automatic validation of insert and update of collections. This is also where helpers, mutations, methods, hooks and bootstrap code is to be found. [Server side code](https://docs.meteor.com/api/core.html#Meteor-isServer) also implements json REST API.
+
+Collections (mostly `Mongo.Collection` except as noted) are defined in:
+* **[accountSettings.js](https://github.com/wekan/wekan/tree/devel/models/accountSettings.js)**;
+* **[activities.js](https://github.com/wekan/wekan/tree/devel/models/activities.js)**: does not have a SimpleSchema;
+* **[announcements.js](https://github.com/wekan/wekan/tree/devel/models/announcements.js)**;
+* **[attachments.js](https://github.com/wekan/wekan/tree/devel/models/attachments.js)**: file-system collection;
+* **[avatars.js](https://github.com/wekan/wekan/tree/devel/models/avatars.js)**: file-system collection;
+* **[boards.js](https://github.com/wekan/wekan/tree/devel/models/boards.js)**;
+* **[cardComments.js](https://github.com/wekan/wekan/tree/devel/models/cardComments.js)**;
+* **[cards.js](https://github.com/wekan/wekan/tree/devel/models/cards.js)**;
+* **[checklists.js](https://github.com/wekan/wekan/tree/devel/models/checklists.js)**;
+* **[integrations.js](https://github.com/wekan/wekan/tree/devel/models/integrations.js)**;
+* **[invitationCodes.js](https://github.com/wekan/wekan/tree/devel/models/invitationCodes.js)**;
+* **[lists.js](https://github.com/wekan/wekan/tree/devel/models/lists.js)**;
+* **[settings.js](https://github.com/wekan/wekan/tree/devel/models/settings.js)**;
+* **[unsavedEdits.js](https://github.com/wekan/wekan/tree/devel/models/unsavedEdits.js)**;
+* **[users.js](https://github.com/wekan/wekan/tree/devel/models/users.js)**: extends the `Meteor.users` collection.
+
+Other files:
+* **[watchable.js](https://github.com/wekan/wekan/tree/devel/models/watchable.js)**: extends the schema, helpers and mutations of `Boards`, `Lists` and `Cards`.
+* **[export.js](https://github.com/wekan/wekan/tree/devel/models/export.js)**: has some code to support the REST API.
+* **[import.js](https://github.com/wekan/wekan/tree/devel/models/import.js)**: implements `importBoard()` method so that Trello (in **[trelloCreator.js](https://github.com/wekan/wekan/tree/devel/models/trelloCreator.js)**) and Wekan (in **[wekanCreator.js](https://github.com/wekan/wekan/tree/devel/models/wekanCreator.js)**) boards can be imported. <span style="color:red">*XXX: Solid candidates for a directory of their own.*</span>
 
 # Tools
 
