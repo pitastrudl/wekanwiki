@@ -169,7 +169,7 @@ Other files:
 * **[.eslintrc.json](https://github.com/wekan/wekan/tree/devel/.eslintrc.json)**: [ESLint](https://eslint.org/docs/user-guide/configuring) configuration;
 * **[.travis.yml](https://github.com/wekan/wekan/tree/devel/.travis.yml)**: configuration for [Travis CI](https://travis-ci.org/);
 * **[scalingo.json](https://github.com/wekan/wekan/tree/devel/scalingo.json)**: [Scalingo](https://scalingo.com/) is a deploy solution;
-* **[fix-download-unicode](https://github.com/wekan/wekan/tree/devel/fix-download-unicode)**: `cfs_access-point.txt` from this folder is copied to `bundle/programs/server/packages/cfs_access-point.js` in Docker build and in snapcraft build; <span style="color:red">*XXX: reason unknown.*</span>
+* **[fix-download-unicode](https://github.com/wekan/wekan/tree/devel/fix-download-unicode)**: `cfs_access-point.txt` from this folder is copied to `bundle/programs/server/packages/cfs_access-point.js` in Docker build and in snapcraft build; This in monkey patch fix for [downloading files that have unicode in filename](https://github.com/wekan/wekan/issues/784)
 
 # Info
 
