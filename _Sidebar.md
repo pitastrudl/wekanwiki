@@ -76,6 +76,7 @@
 ## <a name="Development"></a>Development
 
 * [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
+* [Directory Structure](https://github.com/wekan/wekan/wiki/Directory-Structure)
 * [Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
 * [Docs - Sandstorm etc](https://github.com/wekan/wekan/labels/Documentation)
 * [Beginner](https://github.com/wekan/wekan/labels/Beginner)
