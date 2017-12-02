@@ -67,6 +67,8 @@ It's possible to import your existing boards from Trello. Instructions [[here|mi
 
 [Directory Structure](https://github.com/wekan/wekan/wiki/Directory-Structure)
 
+# Chat
+
 [![Wekan chat][vanila_badge]][vanila_chat]
 
 
