@@ -1,5 +1,3 @@
-This documentation contributed by [TNick](https://github.com/TNick) and [xet7](https://github.com/xet7). Please add fixes, updates etc directly to this page.
-
 # Routing
 
 We're using [FlowRouter](https://github.com/kadirahq/flow-router) client side router inside **[config/router.js](https://github.com/wekan/wekan/tree/devel/config/router.js)**.
@@ -171,7 +169,7 @@ Other files:
 * **[.eslintrc.json](https://github.com/wekan/wekan/tree/devel/.eslintrc.json)**: [ESLint](https://eslint.org/docs/user-guide/configuring) configuration;
 * **[.travis.yml](https://github.com/wekan/wekan/tree/devel/.travis.yml)**: configuration for [Travis CI](https://travis-ci.org/);
 * **[scalingo.json](https://github.com/wekan/wekan/tree/devel/scalingo.json)**: [Scalingo](https://scalingo.com/) is a deploy solution;
-* **[fix-download-unicode](https://github.com/wekan/wekan/tree/devel/fix-download-unicode)**: `cfs_access-point.txt` from this folder is copied to `bundle/programs/server/packages/cfs_access-point.js` in Docker build and in snapcraft build; This in monkey patch fix for [downloading files that have unicode in filename](https://github.com/wekan/wekan/issues/784)
+* **[fix-download-unicode](https://github.com/wekan/wekan/tree/devel/fix-download-unicode)**: `cfs_access-point.txt` from this folder is copied to `bundle/programs/server/packages/cfs_access-point.js` in Docker build and in snapcraft build; this is a monkey patch fix for [downloading files that have unicode in filename](https://github.com/wekan/wekan/issues/784).
 
 # Info
 
@@ -180,3 +178,10 @@ Other files:
 * **[Contributing.md](https://github.com/wekan/wekan/tree/devel/Contributing.md)**;
 * **[LICENSE](https://github.com/wekan/wekan/tree/devel/LICENSE)**;
 * **[README.md](https://github.com/wekan/wekan/tree/devel/README.md)**.
+
+---
+
+# Contributions to this page
+
+This documentation was contributed by [TNick](https://github.com/TNick) and [xet7](https://github.com/xet7) while Wekan was at commit [e2f768c](https://github.com/wekan/wekan/tree/e2f768c6a0f913b7c5f07695dce8cec692037255). 
+Please add new files, fixes, updates, etc directly to this page.
