@@ -70,6 +70,7 @@ installs. You can also [enable Admin Panel manually](https://github.com/wekan/we
 * [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 * [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
 * [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+* [External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
 * [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
 * [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
 * [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
