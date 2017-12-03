@@ -22,6 +22,8 @@ You may need these on other platforms than Sandstorm:
 
 [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
 
+[External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
+
 [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
 
 TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
