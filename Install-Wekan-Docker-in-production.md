@@ -10,6 +10,8 @@
 
 https://github.com/wekan/wekan-mongodb
 
+[External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
+
 ## 3. Email
 
 [Troubleshooting Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
