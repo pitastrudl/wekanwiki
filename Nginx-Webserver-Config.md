@@ -52,7 +52,7 @@ server {
         proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade; # allow websockets
-        proxy_set_header Connection $connection_upgrade;
+        proxy_set_header Connection "Upgrade";
         proxy_set_header X-Forwarded-For $remote_addr; # preserve client IP
 
         # this setting allows the browser to cache the application in a way compatible with Meteor
