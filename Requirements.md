@@ -5,3 +5,4 @@ Wekan requires MongoDB 3.2.x . For other requirements and versions see [VirtualB
 Known bugs with other versions:
 - Node 6.x: 100% CPU usage.
 - MongoDB 3.4.x: Wekan crashes when uploading attachment.
+- [Hardened kernel prevents creating new Wekan boards at Sandstorm](https://github.com/wekan/wekan/issues/1398)
