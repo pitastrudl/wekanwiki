@@ -2,9 +2,11 @@
 
 ### News
 
-[Hacker News 2017-11-04 Ask HN: Is Meteor.js still a thing?](https://news.ycombinator.com/item?id=15624623) - has links to Wekan as Meteor.js project
+* [Hacker News 2017-12-23: 2 years of Wekan: what we archieved](https://news.ycombinator.com/item?id=15994145)
 
-[Hacker News 2017-08-17 Wekan: An open-source Trello-like kanban](https://news.ycombinator.com/item?id=15039587) - has comments by xet7, current maintainer of Wekan
+* [Hacker News 2017-11-04 Ask HN: Is Meteor.js still a thing?](https://news.ycombinator.com/item?id=15624623) - has links to Wekan as Meteor.js project
+
+* [Hacker News 2017-08-17 Wekan: An open-source Trello-like kanban](https://news.ycombinator.com/item?id=15039587) - has comments by xet7, current maintainer of Wekan
 
 ### YouTube
 
