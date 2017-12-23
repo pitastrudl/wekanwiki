@@ -1,6 +1,6 @@
-This page is in progress, more team members will be added later.
+More details about current Wekan Team at [https://wekan.team](https://wekan.team).
 
-Team members have donated their free time and resources for the project. Not all pull requests are listed.
+This page lists some of the members that have donated their free time and resources for the project. This list is not up-to-date.
 
 # Current
 
