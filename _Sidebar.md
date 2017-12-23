@@ -9,7 +9,7 @@
 
 ## <a name="Support"></a>Support priorities for new features and bugfixes
 
-1) [Commercial Support and Bounties](http://www.xet7.org/wekan)
+1) [Commercial Support and Bounties](https://wekan.team)
 2) [Community Support](https://github.com/wekan/wekan/issues)
 
 ## <a name="Security"></a>Security
