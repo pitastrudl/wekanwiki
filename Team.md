@@ -1,6 +1,6 @@
 More details about current Wekan Team at [https://wekan.team](https://wekan.team).
 
-This page lists some of the members that have donated their free time and resources for the project. This list is not up-to-date.
+This page lists some of the contributors that have donated their time and resources for the project. This list is not up-to-date.
 
 # Current
 
