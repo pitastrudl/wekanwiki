@@ -6,6 +6,7 @@
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 * [Team](https://github.com/wekan/wekan/wiki/Team)
 * [Press](https://github.com/wekan/wekan/wiki/Press)
+* [Blog](https://blog.wekan.team)
 
 ## <a name="Support"></a>Support priorities for new features and bugfixes
 
