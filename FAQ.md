@@ -2,10 +2,10 @@
 > *– Hull, E., K. Jackson, et al. (2005).*
 
 ## What Wekan is not?
-* Not a Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). 
-* Not a Product: There are missing features.
-* Not a Startup: We have zero budget. We have no exit plan. We have no investors.
-* Not have hired departments: There is no hired marketing team/hired development team/hired QA team.
+* Not a single Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). Most of the work is done at free time. There is [Commercial Support](https://wekan.team) and [Hosting](https://github.com/wekan/wekan/wiki/Platforms) provided by various companies.
+* Not a single Product: There are some missing features, and [more features are added all the time](https://blog.wekan.team). There are [Features of many use cases](https://github.com/wekan/wekan/wiki/Features)
+* Not a Startup: We have no exit plan. Wekan is still mostly done at free time, by developers scratching their itch and needing Wekan for their own use cases, so when some support us with [Commercial Support or Bounties](https://wekan.team) it just increases speed of adding new features.
+* Not have hired departments: There is no hired marketing team/hired development team/hired QA team. Wekan is tested by it's users. Bugs and feature requests are submitted to [GitHub issues](https://github.com/wekan/wekan/issues).
 
 ## What is Wekan?
 Wekan is an open-source and free software _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
@@ -28,7 +28,7 @@ Depends on free time of xet7. Usually:
 
 There are alternative ways to have your feature implemented:
 
-a) [Commercial Support or Bounties](http://www.xet7.org/wekan)
+a) [Commercial Support or Bounties](https://wekan.team)
 
 b) Pay someone from your company or some other developer to code feature and submit as pull request
 
