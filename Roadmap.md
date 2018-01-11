@@ -45,7 +45,7 @@ Also see [other bounties at Bountysource](https://www.bountysource.com/teams/wek
 GitHub Username | Feature | Status | Sponsor
 ------------ | ------------- | ------------ | ------------  
 [xet7](https://github.com/xet7) | Added fixes for [Excessive CPU usage](https://github.com/wekan/wekan-mongodb/issues/2) from various contributors to encourage [mfshiu](https://github.com/mfshiu) to contribute his Wekan features in progress | Done |
-[GhassenRjab](https://github.com/GhassenRjab), [thuanpq ](https://github.com/thuanpq) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | In progress | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
+[GhassenRjab](https://github.com/GhassenRjab), [thuanpq ](https://github.com/thuanpq) | [Move or copy cards from one board to another on Standalone](https://github.com/wekan/wekan/issues/797) | Done | [Bountysource](https://www.bountysource.com/issues/41780302-add-feature-move-or-copy-cards-from-one-board-to-another)
 [xet7](https://github.com/xet7) | [Copy URL of card](https://github.com/wekan/wekan/issues/1188) | Done at Standalone. |
 [xet7](https://github.com/xet7) and [ocdtrekkie](https://github.com/ocdtrekkie) | [Newest Wekan for Sandstorm](https://github.com/wekan/wekan/issues/799) | Done |
 [GhassenRjab](https://github.com/GhassenRjab) | [Import activities from Trello and Wekan](https://github.com/wekan/wekan/pull/1187) | Done |
