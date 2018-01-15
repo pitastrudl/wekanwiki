@@ -1,4 +1,4 @@
-## Using Vagrant and Virtualbox on an Ubuntu Xenial 64bit
+## Using Vagrant and VirtualBox on an Ubuntu 16.04 64bit
 
 1) Download Vagrant https://www.vagrantup.com/
 and Virtualbox https://www.virtualbox.org/wiki/Downloads
