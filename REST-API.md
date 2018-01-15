@@ -4,6 +4,7 @@ If you are in a hurry, you can use these to have more functionality:
 * http://restheart.org
 * http://vulcanjs.org
 
+For workflows see [If-this-then-that issue](https://github.com/wekan/wekan/issues/1160) than mentions Huginn, Flogo etc.
 
 # Wekan REST API
 
