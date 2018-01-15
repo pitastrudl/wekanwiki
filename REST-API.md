@@ -1,3 +1,10 @@
+REST API is not complete yet, please add missing functionality with pull requests to devel branch.
+
+If you are in a hurry, you can use these to have more functionality:
+* http://restheart.org
+* http://vulcanjs.org
+
+
 # Wekan REST API
 
 The REST API allows you to control and extend Wekan with ease.
