@@ -50,7 +50,7 @@ More info:
 
 ### Vagrant
 
-[Using Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
+[Using Vagrant and installing inside it Wekan Ubuntu Snap](https://github.com/wekan/wekan/wiki/Vagrant)
 
 ### Cloudron
 
