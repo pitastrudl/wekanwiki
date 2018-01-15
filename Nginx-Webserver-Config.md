@@ -46,8 +46,9 @@ server {
         return 303 https://browser-update.org/update.html;
     }
 
-    # Pass all requests to Meteor. Change to "location /wekan" if you have it at https://example.com/wekan
-    # 
+    # Pass requests to Wekan.
+    # If you have Wekan at https://example.com/wekan , change location to:
+    # location /wekan {
     location / {
         proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
@@ -157,6 +158,16 @@ http {
 
 If you have example.com.conf at /etc/nginx/sites-available/example.com.conf, make symlink to sites-available:
 
+Nginx
+
+```
+sudo apt install nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx    # service
+```
+
+Nginx configs
+
 ```
 sudo su
 cd /etc/nginx/sites-enabled
@@ -174,3 +185,16 @@ If config is OK, take it into use:
 ```
 sudo systemctl reload nginx    (or: sudo service nginx reload)
 ```
+
+Wekan Snap
+
+```
+sudo apt install snapd
+sudo snap install wekan
+sudo snap set wekan root-url="https://example.com/wekan"
+sudo snap set port="3000"
+sudo systemctl restart snap.wekan.mongodb
+sudo systemctl restart snap.wekan.wekan
+```
+
+More info about backups etc at https://github.com/wekan/wekan-snap/wiki
