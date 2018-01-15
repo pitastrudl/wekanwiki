@@ -78,6 +78,12 @@ TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](http
 
 [Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
 
+It is not possible to import attachments directly from Trello when using Sandstorm version of Wekan. This is because Wekan is in secure sandbox at Sandstorm, and does not yet have Sandstorm-compatible way to import attachments from outside of Sandstorm. You need to:
+1. Install Standalone version of Wekan, for example Docker/Snap/VirtualBox, for example to your own computer
+2. Import board from Trello
+3. Export board as Wekan board. Exported JSON file includes attachments as base64 encoded files.
+4. Import board as Wekan board to Sandstorm.
+
 # Updated once a month
 
 ### Indiehosters
