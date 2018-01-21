@@ -105,6 +105,9 @@ Note that it is expected that this command will not exit, and this is not an err
 [latest-release]: https://github.com/wekan/wekan/releases/latest
 
 ## Install manually from Source
+
+Note: Support for source install is only developers, not for production use. It is much easier and faster to update production versions with Docker/Snap/Sandstorm, because Node/Meteor/package versions/build scripts changes sometimes.
+
 This is the most complex way, suitable if you know what you are doing and want to have the most flexibility to adapt the installation to your needs. Let's go!
 
 ### Notes
