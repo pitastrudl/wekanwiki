@@ -1,6 +1,6 @@
 **Purpose**: Install latest Wekan release on [Uberspace](https://uberspace.de/) and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
 
-This script installs Wekan on a fresh Uberspace. It setup Node 4, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.32. 
+This script installs Wekan on a fresh Uberspace. It setup Node 4, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.32 and 0.63. 
 
 You have two Options to use it.
 
@@ -11,7 +11,7 @@ At first step set the SMTP-Password variable. Replace the `$1` with the password
 
 # Option 2:
 Or you can run it automatically.
-* Save it as script or download it. `curl -OL https://gist.githubusercontent.com/NoodleBB/301978b88493967c65de789c00111f72/raw/bd14fe5fd212eb8562dc82a75400512f381ad099/install_wekan.sh`.
+* Save it as script in file `install_wekan.sh`
 * Make it executable `chmod +x install_wekan.sh` 
 * And run it. Pass the SMTP-Password as command line parameter `./install_wekan.sh smtp_password`. 
 
@@ -22,7 +22,7 @@ Or you can run it automatically.
 ## Usage: ./install_wekan.sh SMTP-password
 ##
 ## Draft
-## Install Wekan (v0.32) on Uberspace by Noodle / Chris
+## Install Wekan (v0.63) on Uberspace by Noodle / Chris
 ## 
 ## Sources: 
 ## https://github.com/wekan/wekan/wiki/Install-and-Update#manual-installation-steps
@@ -94,8 +94,8 @@ echo -e "MONGO_URL: ${MONGO_URL} \nPORT: ${PORT} \nROOT_URL: ${ROOT_URL} \nMAIL_
 
 mkdir ~/wekan && cd ~/wekan
 
-# Tested versions 0.32
-WEKAN_VERSION=0.32
+# Tested versions 0.32, 0.63
+WEKAN_VERSION=0.63
 curl -OL https://github.com/wekan/wekan/releases/download/v${WEKAN_VERSION}/wekan-${WEKAN_VERSION}.tar.gz && tar xzf wekan-${WEKAN_VERSION}.tar.gz && rm wekan-${WEKAN_VERSION}.tar.gz
 
 cd ~/wekan/bundle/programs/server && npm install
@@ -118,7 +118,7 @@ __EOF__
 cat <<__EOF__ > ~/etc/wekan-start
 #!/bin/bash
 source ~/etc/wekan-setup
-node ~/wekan/bundle/main.js
+exec node ~/wekan/bundle/main.js
 __EOF__
 
 chmod 700 ~/etc/wekan-setup
