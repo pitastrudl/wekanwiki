@@ -2,6 +2,8 @@
 
 ### News
 
+* [Hacker News 2018-01-23: Wekan progress on x64 and ARM](https://news.ycombinator.com/item?id=16209090)
+
 * [Hacker News 2017-12-23: 2 years of Wekan: what we archieved](https://news.ycombinator.com/item?id=15994145)
 
 * [Hacker News 2017-11-04 Ask HN: Is Meteor.js still a thing?](https://news.ycombinator.com/item?id=15624623) - has links to Wekan as Meteor.js project
