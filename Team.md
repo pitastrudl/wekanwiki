@@ -1,8 +1,28 @@
 More details about current Wekan Team at [https://wekan.team](https://wekan.team).
 
-This page lists some of the contributors that have donated their time and resources for the project. This list is not up-to-date.
+# Requirements to become part of Wekan Team
 
-# Current
+1) You are planning to keep contributing to Wekan, add bugfixes etc, you understand what Open Source is, you are not in it just for the money like "let's get this feature into Wekan and then let others fix bugs in this code". We do have bounties, sponsors etc, but that's not the point.
+2) You have contributed a pull request to Wekan.
+3) You really have time available. Not something like, "yes my calendar is full and I'm already working overtime but maybe I could add this also..."
+4) Add below your GitHub username, Vanila Chat username (there is channel `#wekan` at Vanila Chat) and link to pull request you have contributed
+5) At Vanila Chat start new private message to xet7 and say that you added your details to this Team page.
+
+# Available for paid work
+
+Add your details here, if you fill the requirements above. xet7 checks here if someone is available.
+
+GitHub Username | Chat Username | Location | Position | Details
+------------ | ------------- | ------------ | ------------ | ------------
+[...](https://github.com/...) | ... | ... | ... | ...
+
+
+***
+
+
+# Current Team members
+
+This page lists some of the contributors that have donated their time, resources or code to the project. This list is not up-to-date.
 
 GitHub Username | Chat Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------ | ------------
@@ -29,7 +49,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [nebulade](https://github.com/nebulade) | - | Germany | [Cloudron](https://cloudron.io) Developer | [Re-enable export](https://github.com/wekan/wekan/pull/1059)
 [kubiko](https://github.com/kubiko) | - | UK | [Canonical](https://www.canonical.com) Developer | [snap package](https://github.com/wekan/wekan-snap), [Adding snapcraft build support from source](https://github.com/wekan/wekan/pull/1091), [Use version scriptlet in snap](https://github.com/wekan/wekan/pull/1164)
 
-# Previous
+# Previous Team members
 
 GitHub Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------
