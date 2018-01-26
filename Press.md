@@ -2,6 +2,8 @@
 
 ### News
 
+* [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f)
+
 * [Hacker News 2018-01-23: Wekan progress on x64 and ARM](https://news.ycombinator.com/item?id=16209090)
 
 * [Hacker News 2017-12-23: 2 years of Wekan: what we archieved](https://news.ycombinator.com/item?id=15994145)
