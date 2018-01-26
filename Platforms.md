@@ -1,3 +1,7 @@
+# Upcoming
+
+[With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f)
+
 # Updated often
 
 Automatic generated newest builds are available for Docker, and platforms that
