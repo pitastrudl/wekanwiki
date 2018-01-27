@@ -2,6 +2,8 @@
 
 [With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f)
 
+FriendUPApp source will be added here: https://github.com/wekan/FriendUPApp
+
 # Updated often
 
 Automatic generated newest builds are available for Docker, and platforms that
@@ -22,9 +24,9 @@ You may need these on other platforms than Sandstorm:
   * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 
-### Docker
+### Docker - **EASIEST INSTALL**
 
-[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+**EASIEST INSTALL ==>** [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
 
 [External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
 
