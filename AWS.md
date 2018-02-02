@@ -35,19 +35,31 @@ sudo apt install nginx
 Example nginx config at:
 https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config
 
+Test nginx config with:
+
+```
+sudo nginx -t
+```
+
+And take config into use with:
+
+```
+sudo systemctl reload nginx
+```
+
 9) Install certbot from https://certbot.eff.org for Let's Encrypt SSL certs, redirect http to https
 
-9) For different customers, you use different location /customer1 2 etc block and wekan running behind nginx proxy on different localhost port in same nginx virtualhost subdomain config file.
+10) For different customers, you use different location /customer1 2 etc block and wekan running behind nginx proxy on different localhost port in same nginx virtualhost subdomain config file.
 
-10) Get latest wekan release info from https://github.com/wekan/wekan/releases ,  read docker-compose.yml file from https://github.com/wekan/wekan-mongodb where all settings are explained, so you setup ROOT_URL=https://sub.yourdomain.com/customer1 and for example the 8080:80 for local server port 8080 to go inside docker port 80. 
+11) Get latest wekan release info from https://github.com/wekan/wekan/releases ,  read docker-compose.yml file from https://github.com/wekan/wekan-mongodb where all settings are explained, so you setup ROOT_URL=https://sub.yourdomain.com/customer1 and for example the 8080:80 for local server port 8080 to go inside docker port 80. 
 
 For example Wekan v0.70, use in docker-compose.yml file:
 image: quay.io/wekan/wekan:v0.70
 Only use release version tags, because latest tag can be broken sometimes.
 
-For email, in AWS SES add email address to domain, verify SPF and DKIM with Route53 wizard if you have domain at Route53 as I recommend. At SES create new SMTP credentials and add them to docker-compose.yml SMTP settings, see 
+12) For email, in AWS SES add email address to domain, verify SPF and DKIM with Route53 wizard if you have domain at Route53 as I recommend. At SES create new SMTP credentials and add them to docker-compose.yml SMTP settings, see 
 
-start wekan and mongodb database containers with command:
+13) Start wekan and mongodb database containers with command:
 
 ```
 docker-compose up -d
@@ -55,6 +67,6 @@ docker-compose up -d
 
 So it goes nginx SSL port 443 => proxy to localhost port 8080 or any other => wekan-app port 80 inside docker
 
-11) For different customers have different docker-compose.yml script in directories named by customer names
+14) For different customers have different docker-compose.yml script in directories named by customer names. You may need to rename docker containers from wekan-app to wekan-customer1 etc, and probably also docker internal network names.
 
-12) Backup, restore, and moving data outside/inside docker https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
+15) Backup, restore, and moving data outside/inside docker https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
