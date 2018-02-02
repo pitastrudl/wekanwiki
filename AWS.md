@@ -70,3 +70,9 @@ So it goes nginx SSL port 443 => proxy to localhost port 8080 or any other => we
 14) For different customers have different docker-compose.yml script in directories named by customer names. You may need to rename docker containers from wekan-app to wekan-customer1 etc, and probably also docker internal network names.
 
 15) Backup, restore, and moving data outside/inside docker https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
+
+16) Register as user at https://subdomain.yourdomain.com/customer1/sign-up and login at https://subdomain.yourdomain.com/customer1/sign-in , first user will be admin. Click your username at top right corner / Admin Panel, and there chang settings to invite only.
+
+TODO:
+- allow resend invites https://github.com/wekan/wekan/issues/1320
+- changing logo everywhere, whitelabeling https://github.com/wekan/wekan/issues/1196
