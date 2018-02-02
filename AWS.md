@@ -7,18 +7,31 @@
 4) Set your subdomain.yourdomain.com address DNS pointing to your Elastic IP address as A record in Route 53, Namecheap or elsewhere where your domain control panel is. It will take max 24h for DNS to propagate globally.
 
 5) ssh to your server, for example:
-ssh -i pubkey.pem ubuntu@server-ip-address  (or: root@)
+
+```
+ssh -i pubkey.pem ubuntu@server-ip-address 
+
+(or: root@)
+```
 
 6) Update all packages:
+
+```
 sudo apt update
 sudo apt -y dist-upgrade
 reboot
+```
 
 7) Install Docker CE and docker-compose for ubuntu from www.docker.com , also add user ubuntu to group docker in post-install step.
 
 8) Install nginx, for example:
+
+```
 sudo apt install nginx
+
 (or: nginx-full)
+```
+
 Example nginx config at:
 https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config
 
