@@ -47,8 +47,14 @@ Only use release version tags, because latest tag can be broken sometimes.
 
 For email, in AWS SES add email address to domain, verify SPF and DKIM with Route53 wizard if you have domain at Route53 as I recommend. At SES create new SMTP credentials and add them to docker-compose.yml SMTP settings, see 
 
-start wekan and mongodb database containers with command "docker-compose up -d"
+start wekan and mongodb database containers with command:
+
+```
+docker-compose up -d
+```
 
 So it goes nginx SSL port 443 => proxy to localhost port 8080 or any other => wekan-app port 80 inside docker
 
-11) Backup, restore, and moving data outside/inside docker https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
+11) For different customers have different docker-compose.yml script in directories named by customer names
+
+12) Backup, restore, and moving data outside/inside docker https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
