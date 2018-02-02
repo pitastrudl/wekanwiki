@@ -28,8 +28,9 @@ reboot
 
 ```
 sudo apt install nginx
-
 (or: nginx-full)
+sudo systemctl start nginx
+sudo systemctl enable nginx
 ```
 
 Example nginx config at:
