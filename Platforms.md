@@ -28,6 +28,8 @@ You may need these on other platforms than Sandstorm:
 
 **EASIEST INSTALL ==>** [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
 
+[Docker at AWS](https://github.com/wekan/wekan/wiki/AWS)
+
 [External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
 
 [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
