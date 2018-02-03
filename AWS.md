@@ -1,3 +1,5 @@
+## Install
+
 1) Add AWS Security Group with for example name wekan, and incoming ports 80 and 443 for all. Only add ssh access to your own IP address CIDR like 123.123.123.123/32 so it means one IP address. 
 
 2) Start Ubuntu 17.10 64bit EC2 instance that has at least 2 GB RAM, 30 GB diskspace, probably you need more when you add more customers. Add your SSH public key to instance or let it create new.
@@ -73,6 +75,73 @@ So it goes nginx SSL port 443 => proxy to localhost port 8080 or any other => we
 15) Backup, restore, and moving data outside/inside docker https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data
 
 16) Register as user at https://subdomain.yourdomain.com/customer1/sign-up and login at https://subdomain.yourdomain.com/customer1/sign-in , first user will be admin. Click your username at top right corner / Admin Panel, and there chang settings to invite only.
+
+## Upgrading Wekan
+
+1) Go to directory where docker-compose.yml is, as in install step 14) , and create directory for backup
+
+```
+cd wekan-customer1
+mkdir backup-2018-02-03
+cd backup-2018-02-03
+```
+
+2) Make backup of database outside docker in that backup directory, as in install step 15)
+
+3) Edit docker-compose.yml to have new Wekan release number:
+
+```
+image: quay.io/wekan/wekan:v0.71
+```
+
+4) Restart Wekan:
+
+```
+docker-compose stop
+docker-compose start
+```
+
+5) Login to Wekan and check at Admin Panel that Wekan version is updated.
+
+6) If version is not updated, you could also need some of these:
+
+Seeing what Docker containers are running:
+```
+docker ps
+```
+
+Seeing what Docker images are installed:
+
+```
+docker images
+```
+
+Stopping containers (or start, if starting containers)
+
+```
+docker stop wekan-app
+docker stop CONTAINER-ID-HERE
+```
+
+Removing containers:
+
+```
+docker rm wekan-app
+docker rm CONTAINER-ID-HERE
+```
+
+Removing images:
+
+```
+docker rmi quay.io/wekan/wekan:latest
+docker rmi quay.io/wekan/wekan:v0.70
+```
+
+Starting new containers from docker-compose.yml file:
+
+```
+docker-compose up -d
+```
 
 TODO:
 - allow resend invites https://github.com/wekan/wekan/issues/1320
