@@ -192,7 +192,7 @@ Wekan Snap
 sudo apt install snapd
 sudo snap install wekan
 sudo snap set wekan root-url="https://example.com/wekan"
-sudo snap set port="3000"
+sudo snap set wekan port="3000"
 sudo systemctl restart snap.wekan.mongodb
 sudo systemctl restart snap.wekan.wekan
 ```
