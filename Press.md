@@ -2,6 +2,8 @@
 
 ### News
 
+* [Hacker News 2018-02-13: Benefits of contributing your features to upstream Wekan](https://news.ycombinator.com/item?id=16366387)
+
 * [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f), you can [discuss at Hacker News](https://news.ycombinator.com/item?id=16240639)
 
 * [Hacker News 2018-01-23: Wekan progress on x64 and ARM](https://news.ycombinator.com/item?id=16209090)
