@@ -5,7 +5,7 @@
 
 This setup runs very well for thousands of users.
 
-To improve scalability even more, add Redis Oplog support, see https://github.com/cult-of-coders/redis-oplog and https://forums.meteor.com/t/meteor-scaling-redis-oplog-status-prod-ready/30855/479
+To improve scalability even more, add Redis Oplog support using AWS ElastiCache, see https://github.com/cult-of-coders/redis-oplog and https://forums.meteor.com/t/meteor-scaling-redis-oplog-status-prod-ready/30855/479
 
 If there is other ideas to improve scalability, add info to existing issue https://github.com/wekan/wekan-mongodb/issues/2 or forum post https://discourse.wekan.io/t/cpu-utilization-problems-with-large-userbase/579/15 , there is also mentioned that smart-disconnect is already in Wekan.
 
