@@ -1,4 +1,22 @@
-## Install
+## Production setup at AWS for thousands of users
+
+* 3-4x m4.large for Node (ECS Cluster)
+* 3x r4.large for Mongo (1 Primary for read and write, 2 replicas)
+
+This setup runs well for thousands of users.
+
+To improve scalability even more, add Redis Oplog support, see https://github.com/cult-of-coders/redis-oplog and https://forums.meteor.com/t/meteor-scaling-redis-oplog-status-prod-ready/30855/479
+
+If there is other ideas to improve scalability, add info to existing issue https://github.com/wekan/wekan-mongodb/issues/2 or forum post https://discourse.wekan.io/t/cpu-utilization-problems-with-large-userbase/579/15 , there is also mentioned that smart-disconnect is already in Wekan.
+
+For Enterprises using Wekan I really recommend participating in Wekan development, with submitting features and performance bugfixes etc upstream, having your own developers working on Wekan daily, and using Commercial Support at https://wekan.team . With the benefits you get by using Wekan, it’s time well spent.
+
+https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html
+
+https://blog.wekan.team/2018/02/time-well-spent/index.html
+
+
+## Single Server Install
 
 1) Add AWS Security Group with for example name wekan, and incoming ports 80 and 443 for all. Only add ssh access to your own IP address CIDR like 123.123.123.123/32 so it means one IP address. 
 
