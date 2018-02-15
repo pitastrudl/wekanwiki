@@ -16,7 +16,7 @@ https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstre
 https://blog.wekan.team/2018/02/time-well-spent/index.html
 
 
-## Single Server Install
+## Single Server Install for small teams
 
 1) Add AWS Security Group with for example name wekan, and incoming ports 80 and 443 for all. Only add ssh access to your own IP address CIDR like 123.123.123.123/32 so it means one IP address. 
 
