@@ -3,7 +3,7 @@
 * 3-4x m4.large for Node (ECS Cluster)
 * 3x r4.large for Mongo (1 Primary for read and write, 2 replicas)
 
-This setup runs well for thousands of users.
+This setup runs very well for thousands of users.
 
 To improve scalability even more, add Redis Oplog support, see https://github.com/cult-of-coders/redis-oplog and https://forums.meteor.com/t/meteor-scaling-redis-oplog-status-prod-ready/30855/479
 
