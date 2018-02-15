@@ -1,3 +1,11 @@
+# Different wiki page: [Production setup for thousands of users at AWS](https://github.com/wekan/wekan/wiki/AWS)
+
+
+***
+
+
+## Single server install, for small teams
+
 ## Also see: [Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L86-L100)
 
 **Purpose:** run Wekan on a production Linux server with Docker and Apache or Nginx as a front-end server (reverse proxy)
