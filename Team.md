@@ -5,7 +5,7 @@ More details about current Wekan Team at [https://wekan.team](https://wekan.team
 1) You are planning to keep contributing to Wekan, add bugfixes etc, you understand what Open Source is, you are not in it just for the money like "let's get this feature into Wekan and then let others fix bugs in this code". We do have bounties, sponsors etc, but that's not the point.
 2) You have contributed a pull request to Wekan.
 3) You really have time available. Not something like, "yes my calendar is full and I'm already working overtime but maybe I could add this also..."
-4) At Vanila Chat start new private message to xet7 and say that you would like to work on some issue.
+4) At [Vanila Chat](https://chat.vanila.io/channel/wekan) start new private message to xet7 and say that you would like to work on some issue.
 
 ***
 
