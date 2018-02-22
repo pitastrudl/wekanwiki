@@ -10,6 +10,8 @@ Please read the meteor style guide before making any significant contribution.
 
 - Install [Wekan from source](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox) with rebuild-wekan-meteor-1.6.sh script, with options 1 to install and 3 to rebuild source, to your Linux computer (Debian 10 buster or Ubuntu 17.10 or newer preferred, although older ones could also work), or try installing it via the [[virtual appliance|virtual-appliance]]
 - You can use for example [Visual Studio Code](https://code.visualstudio.com/) for editing code, it has Meteor.js etc plugins 
+
+- When changing database schema, [migrations can be used](https://github.com/wekan/wekan/blob/devel/server/migrations.js).
 - Ask questions at [![Wekan chat][vanila_badge]][vanila_chat]
   -  We used to be at ~~[Rocket.Chat][rocket_chat]~~ but that's been discontinued.
 - You can ask anything, we are here to help. But also consult the sources that are already available.
