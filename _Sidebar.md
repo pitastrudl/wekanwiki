@@ -49,6 +49,7 @@
 ## <a name="Platforms"></a>Platforms
 
 * [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
+* [Using Proxy](https://github.com/wekan/wekan/issues/1480)
 
 ## <a name="Webservers"></a>Webservers
 
