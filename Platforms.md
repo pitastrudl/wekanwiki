@@ -46,11 +46,12 @@ More info:
 
 Note: Support for source install is only developers, not for production use. It is much easier and faster to update production versions with Docker/Snap/Sandstorm, because Node/Meteor/package versions/build scripts changes sometimes.
 
-[Install from source script for Debian based distros](https://github.com/wekan/wekan-source-installer)
-
 [Install manually from source][install_source]
 
-[Install manually from source without sudo](https://github.com/wekan/wekan/wiki/Install-source-without-sudo-on-Linux)
+These source instructions probably don't work
+
+- [Install from source script for Debian based distros](https://github.com/wekan/wekan-source-installer)
+- [Install manually from source without sudo](https://github.com/wekan/wekan/wiki/Install-source-without-sudo-on-Linux)
 
 ### VirtualBox
 
