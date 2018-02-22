@@ -15,7 +15,7 @@ Please read the meteor style guide before making any significant contribution.
   -  We used to be at ~~[Rocket.Chat][rocket_chat]~~ but that's been discontinued.
 - You can ask anything, we are here to help. But also consult the sources that are already available.
   - Look through old [pull requests](https://github.com/wekan/wekan/pulls)
-  - Read Wekan source code.
+  - Read Wekan source code, you can use some git history viewer GUI like gitk
   - Read [Meteor documentation](https://docs.meteor.com/) for [Meteor version](https://github.com/wekan/wekan/blob/devel/.meteor/release) in use, other versions mentioned at [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile)
 
 ## Pull Request Workflow (Please read before submitting PR's)
