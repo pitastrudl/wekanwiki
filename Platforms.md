@@ -16,6 +16,7 @@ Docker and source based installs. You can also on MongoDB
 
 You may need these on other platforms than Sandstorm:
 * **[Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L86-L100)**
+* [Using Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail). For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP => DavMail => Exchange.
 * [Troubleshooting CentOS 7](https://github.com/wekan/wekan/issues/718)
 * Webserver config
