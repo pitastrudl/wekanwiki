@@ -8,7 +8,7 @@ Please read the meteor style guide before making any significant contribution.
 
 ## Getting Started
 
-- Install [Wekan from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your Linux computer, or try installing it via the [[virtual appliance|virtual-appliance]]
+- Install [Wekan from source](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox) with rebuild-wekan-meteor-1.6.sh script, with options 1 to install and 3 to rebuild source, to your Linux computer (Debian 10 buster or Ubuntu 17.10 or newer preferred, although older ones could also work), or try installing it via the [[virtual appliance|virtual-appliance]]
 - Ask questions at [![Wekan chat][vanila_badge]][vanila_chat]
   -  We used to be at ~~[Rocket.Chat][rocket_chat]~~ but that's been discontinued.
 - You can ask anything, we are here to help. But also consult the sources that are already available.
