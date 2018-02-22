@@ -8,15 +8,15 @@ Please read the meteor style guide before making any significant contribution.
 
 ## Getting Started
 
-- Try [Docker environment for Wekan development](https://github.com/wekan/wekan-dev).
-- Or install [Wekan from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your computer.
-  - If that doesn't work, try installing it via the [[virtual appliance|virtual-appliance]]
+- Install [Wekan from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source) to your Linux computer, or try installing it via the [[virtual appliance|virtual-appliance]]
 - Ask questions at [![Wekan chat][vanila_badge]][vanila_chat]
   -  We used to be at ~~[Rocket.Chat][rocket_chat]~~ but that's been discontinued.
 - You can ask anything, we are here to help. But also consult the sources that are already available.
   - Look through old [pull requests](https://github.com/wekan/wekan/pulls)
   - Read Wekan source code, you can use some git history viewer GUI like gitk
   - Read [Meteor documentation](https://docs.meteor.com/) for [Meteor version](https://github.com/wekan/wekan/blob/devel/.meteor/release) in use, other versions mentioned at [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile)
+- Docker up-to-date way: You can  clone wekan/wekan repo and update docker-compose.yml file ROOT_URL etc as documented at https://github.com/wekan/wekan-mongodb commented docker-compose.yml file, install docker, and build from source with docker with "docker-compose up -d --build"
+- Docker not up-to-date way: [Docker environment for Wekan development](https://github.com/wekan/wekan-dev). 
 
 ## Pull Request Workflow (Please read before submitting PR's)
 
