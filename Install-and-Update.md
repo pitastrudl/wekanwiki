@@ -106,6 +106,12 @@ Note that it is expected that this command will not exit, and this is not an err
 
 ## Install manually from Source
 
+**NEW**
+
+Install Wekan from source https://github.com/wekan/wekan-maintainer/tree/master/virtualbox with rebuild-wekan-meteor-1.6.sh script, with options 1 to install and 3 to rebuild source.
+
+**OLD INFO BELOW**
+
 Note: Support for source install is only developers, not for production use. It is much easier and faster to update production versions with Docker/Snap/Sandstorm, because Node/Meteor/package versions/build scripts changes sometimes.
 
 This is the most complex way, suitable if you know what you are doing and want to have the most flexibility to adapt the installation to your needs. Let's go!
