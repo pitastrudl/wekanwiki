@@ -10,7 +10,9 @@
 
 * [Friend Website](https://friendup.cloud)
 
-* [Friend Desktop walkthrough video](https://www.youtube.com/watch?v=PX-74ooqino)
+* [Video of Friend Desktop walkthrough](https://www.youtube.com/watch?v=PX-74ooqino)
+
+* [Video of Friend Talk at Blockchangers Event - Oslo 2018](https://www.youtube.com/watch?v=7AsSlFenRwQ)
 
 * [Video of Friend talk at DeveloperWeek 2018](https://medium.com/friendupcloud/video-of-our-talk-at-developerweek-2018-e9b10246a92f)
 
