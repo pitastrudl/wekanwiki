@@ -14,7 +14,7 @@
 
 * [Video review about Friend ICO](https://www.youtube.com/watch?v=LP7r_jrVfXQ), video has note that some corrections to that video details are at Friend website.
 
-* [FriendUp Launches TGE, Meeting Norwegian Values of Ethical Business and Transparency)(https://www.coinspeaker.com/2018/02/23/friendup-launches-tge-meeting-norwegian-values-ethical-business-transparency/)
+* [FriendUp Launches TGE, Meeting Norwegian Values of Ethical Business and Transparency](https://www.coinspeaker.com/2018/02/23/friendup-launches-tge-meeting-norwegian-values-ethical-business-transparency/)
 
 * [Friend announces partnership with Hove Medical Systems AS](https://friendup.cloud/friend-hove-medical-partnership/)
 
