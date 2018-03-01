@@ -4,7 +4,7 @@
 
 * [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f), you can [discuss at Hacker News](https://news.ycombinator.com/item?id=16240639)
 
-* [Upcoming GitHub repo for Wekan FriendUPApp](https://github.com/wekan/FriendUPApp) and [Friend Open Source](https://friendup.cloud/open-source/)
+* [Upcoming GitHub repo for Wekan FriendUPApp](https://github.com/wekan/FriendUPApp) and [Friend Open Source](https://friendup.cloud/open-source/) and [Friend repo](https://github.com/FriendUPCloud/friendup)
 
 ### News about Friend in general
 
