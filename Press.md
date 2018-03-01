@@ -10,6 +10,8 @@
 
 * [Friend Website](https://friendup.cloud)
 
+* [Friend Desktop walkthrough video](https://www.youtube.com/watch?v=PX-74ooqino)
+
 * [Video of Friend talk at DeveloperWeek 2018](https://medium.com/friendupcloud/video-of-our-talk-at-developerweek-2018-e9b10246a92f)
 
 * [Video review about Friend ICO](https://www.youtube.com/watch?v=LP7r_jrVfXQ), video has note that some corrections to that video details are at Friend website.
