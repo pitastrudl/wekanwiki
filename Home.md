@@ -1,4 +1,4 @@
-<img src="https://wekan.github.io/wekan-logo.svg" width="50%" alt="Wekan logo" />
+<img src="https://wekan.github.io/wekan-logo.svg" width="60%" alt="Wekan logo" />
 
 Wekan is an open-source [kanban board][] which allows a card-based task and to-do management, similar to tools like [WorkFlowy] or [Trello].
 
