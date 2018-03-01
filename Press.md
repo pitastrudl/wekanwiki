@@ -1,14 +1,32 @@
 # In English
 
-### News
+### News about upcoming Wekan at Friend
+
+* [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f), you can [discuss at Hacker News](https://news.ycombinator.com/item?id=16240639)
+
+* [Upcoming GitHub repo for Wekan FriendUPApp](https://github.com/wekan/FriendUPApp) and [Friend Open Source](https://friendup.cloud/open-source/)
+
+### News about Friend in general
+
+* [Friend Website](https://friendup.cloud)
+
+* [Video of our talk at DeveloperWeek 2018](https://medium.com/friendupcloud/video-of-our-talk-at-developerweek-2018-e9b10246a92f)
+
+* [Video review about FriendUP ICO](https://www.youtube.com/watch?v=LP7r_jrVfXQ), video has note that some corrections to that video details are at Friend website.
+
+* [FriendUp Launches TGE, Meeting Norwegian Values of Ethical Business and Transparency)(https://www.coinspeaker.com/2018/02/23/friendup-launches-tge-meeting-norwegian-values-ethical-business-transparency/)
+
+* [Friend announces partnership with Hove Medical Systems AS](https://friendup.cloud/friend-hove-medical-partnership/)
+
+* [Friend interview at FLOSS450](https://twit.tv/shows/floss-weekly/episodes/450)
+
+### News about Wekan
 
 * [Hacker News 2018-02-20: Transparency](https://news.ycombinator.com/item?id=16421782)
 
 * [Hacker News 2018-02-15: Time Well Spent](https://news.ycombinator.com/item?id=16382544)
 
 * [Hacker News 2018-02-13: Benefits of contributing your features to upstream Wekan](https://news.ycombinator.com/item?id=16366387)
-
-* [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f), you can [discuss at Hacker News](https://news.ycombinator.com/item?id=16240639)
 
 * [Hacker News 2018-01-23: Wekan progress on x64 and ARM](https://news.ycombinator.com/item?id=16209090)
 
