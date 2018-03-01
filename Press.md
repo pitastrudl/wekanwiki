@@ -10,7 +10,7 @@
 
 * [Friend Website](https://friendup.cloud)
 
-* [Video of our talk at DeveloperWeek 2018](https://medium.com/friendupcloud/video-of-our-talk-at-developerweek-2018-e9b10246a92f)
+* [Video of Friend talk at DeveloperWeek 2018](https://medium.com/friendupcloud/video-of-our-talk-at-developerweek-2018-e9b10246a92f)
 
 * [Video review about FriendUP ICO](https://www.youtube.com/watch?v=LP7r_jrVfXQ), video has note that some corrections to that video details are at Friend website.
 
