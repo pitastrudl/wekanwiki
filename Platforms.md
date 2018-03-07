@@ -25,9 +25,17 @@ You may need these on other platforms than Sandstorm:
   * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 
-### Docker - **EASIEST INSTALL**
+### Ubuntu snap
 
-**EASIEST INSTALL ==>** [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+[Install Ubuntu snap](https://github.com/wekan/wekan-snap/wiki/Install)   <=== EASIEST INSTALL, UPDATES AUTOMATICALLY when new Wekan is released. Available for [many Linux 64bit distros](https://snapcraft.io)
+
+[Ubuntu snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues)
+
+TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
+
+### Docker
+
+[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
 
 [Production setup for thousands of users with Docker at AWS](https://github.com/wekan/wekan/wiki/AWS)
 
@@ -71,14 +79,6 @@ These source instructions probably don't work
 [Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html)
 
 [Package repo](https://git.cloudron.io/cloudron/wekan-app)
-
-### Ubuntu snap
-
-[Install Ubuntu snap](https://github.com/wekan/wekan-snap/wiki/Install)
-
-[Ubuntu snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues)
-
-TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
 ### Sandstorm
 
