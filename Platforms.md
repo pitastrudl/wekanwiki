@@ -35,7 +35,7 @@ TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](http
 
 ### Docker
 
-[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
+[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb). Well documented docker-compose.yml file has info about using same MongoDB database for office and VPN users.
 
 [Production setup for thousands of users with Docker at AWS](https://github.com/wekan/wekan/wiki/AWS)
 
