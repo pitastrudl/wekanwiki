@@ -25,11 +25,11 @@ You may need these on other platforms than Sandstorm:
   * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 
-### Ubuntu snap
+### Snap
 
-[Install Ubuntu snap](https://github.com/wekan/wekan-snap/wiki/Install)   <=== **EASIEST INSTALL, UPDATES AUTOMATICALLY** when new Wekan is released. Available for [many Linux 64bit distros](https://snapcraft.io). Has [Caddy automatic SSL integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys).
+[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)   <=== **EASIEST INSTALL, UPDATES AUTOMATICALLY** when new Wekan is released. Available for [many Linux 64bit distros](https://snapcraft.io). Has [Caddy automatic SSL integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys).
 
-[Ubuntu snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues)
+[Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues)
 
 TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
