@@ -1,6 +1,8 @@
 ## Important info
 
-You need to stop Wekan before importing MongoDB database with command `mongorestore --drop`
+You need to stop Wekan before importing MongoDB database with command
+
+`mongorestore --drop`
 
 And also check that in your start-wekan.sh you have corrent MongoDB database name
 admin, wekan, etc. Otherwise it will be empty.
