@@ -1,4 +1,15 @@
-NOTE: Check from your Dockerfile or docker-compose.yml what is name of MongoDB container.
+## Important info
+
+You need to stop Wekan before importing MongoDB database with command `mongorestore --drop`
+
+And also check that in your start-wekan.sh you have corrent MongoDB database name
+admin, wekan, etc. Otherwise it will be empty.
+
+
+***
+
+
+Check from your Dockerfile or docker-compose.yml what is name of MongoDB container.
 It can be wekan-db, mongodb or something else.
 
 1) You can run Wekan on Docker locally like this on http://localhost:8080/
