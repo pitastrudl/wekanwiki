@@ -4,8 +4,9 @@ You need to stop Wekan before importing MongoDB database with command
 
 `mongorestore --drop`
 
-And also check that in your start-wekan.sh you have corrent MongoDB database name
-admin, wekan, etc. Otherwise it will be empty.
+And also check that in your start-wekan.sh or docker-compose.yml or similat that
+you have corrent MongoDB database name admin, wekan, etc.
+Otherwise it will be empty.
 
 
 ***
