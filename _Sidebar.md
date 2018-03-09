@@ -59,6 +59,7 @@
 * [Apache](https://github.com/wekan/wekan/wiki/Apache)
 * [Let's Encrypt and Google Auth](https://github.com/wekan/wekan/wiki/Let's-Encrypt-and-Google-Auth)
 * [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
+* [Traefik and self-signed SSL certs](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
 
 ## <a name="Migrating"></a>Migrating
 
