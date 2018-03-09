@@ -91,7 +91,7 @@ endpoint = "unix:///var/run/docker.sock"
 domain = "docker.localhost"
 watch = true
 exposedbydefault = false
-``´
+```
 
 Comments  - `docker-compose.yml`:
 
