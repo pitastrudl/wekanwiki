@@ -65,7 +65,7 @@ Any typical web security bugs. If any of the previously mentioned is somehow pro
 
 Typical already known or "no impact" bugs such as:
 
-- Brute force password guessing
+- Brute force password guessing. AFAIK currently there is no brute force limitations in number of guesses for logins and API, pull requests welcome.
 - Security issues related to that Wekan uses Meteor 1.6.0.1 related packages, and upgrading to newer Meteor 1.6.1 is complicated process that requires lots of changes to many dependency packages. Upgrading [has been tried many times, spending a lot of time](https://github.com/meteor/meteor/issues/9609) but there still is issues. Helping with package upgrades is very welcome.
 - [Wekan API old tokens not replaced correctly](https://github.com/wekan/wekan/issues/1437)
 - Missing Cookie flags on non-session cookies or 3rd party cookies
