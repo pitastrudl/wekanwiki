@@ -36,6 +36,8 @@ There is only 2 versions of Wekan: Standalone Wekan, and Sandstorm Wekan.
 
 Standalone Wekan includes all non-Sandstorm platforms. Some Standalone Wekan platforms like Snap and Docker have their own specific sandboxing etc features.
 
+Standalone Wekan by default does not load any files from Internet, like fonts, CSS, etc. This also means all Standalone Wekan functionality works in offline local networks. Wekan is used by companies that have [thousands of users](https://github.com/wekan/wekan/wiki/AWS) and at healthcare.
+
 Wekan uses xss package for input fields like cards, as you can see from [package.json](https://github.com/wekan/wekan/blob/devel/package.json). Other used versions can be seen from [Meteor versions file](https://github.com/wekan/wekan/blob/devel/.meteor/versions). Forms can include markdown links, html, image tags etc like you see at https://wekan.github.io . It's possible to add attachments to cards, and markdown/html links to files.
 
 Wekan attachments are not accessible without logging in. Import from Trello works by copying Trello export JSON to Wekan Trello import page, and in Trello JSON file there is direct links to all publicly accessible Trello attachment files, that Standalone Wekan downloads directly to Wekan MongoDB database in [CollectionFS](https://github.com/wekan/wekan/pull/875) format. When Wekan board is exported in Wekan JSON format, all board attachments are included in Wekan JSON file as base64 encoded text. That Wekan JSON format file can be imported to Sandstorm Wekan with all the attachments, when we get latest Wekan version working on Sandstorm. In Sandstorm it's not possible yet to import from Trello with attachments, because Wekan does not implement Sandstorm-compatible access to outside of Wekan grain.
@@ -65,7 +67,7 @@ Any typical web security bugs. If any of the previously mentioned is somehow pro
 
 Typical already known or "no impact" bugs such as:
 
-- Brute force password guessing. AFAIK currently there is no brute force limitations in number of guesses for logins and API, pull requests welcome.
+- Brute force password guessing. Currently there is no brute force limitations in number of guesses for logins and API, pull requests welcome.
 - Security issues related to that Wekan uses Meteor 1.6.0.1 related packages, and upgrading to newer Meteor 1.6.1 is complicated process that requires lots of changes to many dependency packages. Upgrading [has been tried many times, spending a lot of time](https://github.com/meteor/meteor/issues/9609) but there still is issues. Helping with package upgrades is very welcome.
 - [Wekan API old tokens not replaced correctly](https://github.com/wekan/wekan/issues/1437)
 - Missing Cookie flags on non-session cookies or 3rd party cookies
