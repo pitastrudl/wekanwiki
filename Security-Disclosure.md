@@ -24,13 +24,15 @@ Anyone who reports a unique security issue in scope and does not disclose it to 
 
 No any public domains, because all those are donated to Wekan Open Source project, and we don't have any permissions to do security scans on those donated servers.
 
+Please don't perform research that could impact other users. Secondly, please keep the reports short and succinct. If we fail to understand the logics of your bug, we will tell you.
+
 You can [Install Wekan](https://github.com/wekan/wekan/releases) to your own computer and scan it's vulnerabilities there.
 
-## About Wekan security in general
+## About Wekan versions
 
 There is only 2 versions of Wekan: Standalone Wekan, and Sandstorm Wekan.
 
-### Standalone Wekan
+### Standalone Wekan Security
 
 Standalone Wekan includes all non-Sandstorm platforms. Some Standalone Wekan platforms like Snap and Docker have their own specific sandboxing etc features.
 
@@ -42,7 +44,7 @@ Standalone Wekan only has password auth currently, there is work in progress to 
 
 [All Wekan Platforms](https://github.com/wekan/wekan/wiki/Platforms)
 
-### Sandstorm Wekan
+### Sandstorm Wekan Security
 
 On Sandstorm platform using environment variable Standalone Wekan features like Admin Panel etc are turned off, because Sandstorm platform provides SSO for all apps running on Sandstorm. 
 
@@ -74,10 +76,3 @@ Typical already known or "no impact" bugs such as:
 - Email spoofing, SPF, DMARC & DKIM
 
 Wekan is Open Source, we welcome all pull requests to fix and improve these.
-
-
-## Other guidelines
-
-Please don't perform research that could impact other users. Secondly, please keep the reports short and succinct. If we fail to understand the logics of your bug, we will tell you.
-
-Wekan Team reserves the rights to discontinue the reward program without previous notice at any time.
