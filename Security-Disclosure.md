@@ -26,9 +26,13 @@ No any public domains, because all those are donated to Wekan Open Source projec
 
 You can [Install Wekan](https://github.com/wekan/wekan/releases) to your own computer and scan it's vulnerabilities there.
 
-# About Wekan security in general
+## About Wekan security in general
 
-There is only 2 versions of Wekan: Sandstorm, and Standalone Wekan. Standalone Wekan includes all non-Sandstorm platforms. On Sandstorm platform using environment variable Standalone Wekan features like Admin Panel etc are turned off, because Sandstorm platform provides SSO for all apps running on Sandstorm. Some Standalone Wekan platforms like Snap and Docker have their own specific sandboxing etc features.
+There is only 2 versions of Wekan: Standalone Wekan, and Sandstorm Wekan.
+
+### Standalone Wekan
+
+Standalone Wekan includes all non-Sandstorm platforms. Some Standalone Wekan platforms like Snap and Docker have their own specific sandboxing etc features.
 
 Wekan uses xss package for input fields like cards, as you can see from [package.json](https://github.com/wekan/wekan/blob/devel/package.json). Forms can include markdown links, html, image tags etc like you see at https://wekan.github.io . It's possible to add attachments to cards, and markdown/html links to files.
 
@@ -36,17 +40,13 @@ Wekan attachments are not accessible without logging in. Import from Trello work
 
 Standalone Wekan only has password auth currently, there is work in progress to add LDAP etc auth. If you need more login security for Standalone Wekan now, it's possible add additional [Google Auth proxybouncer] (https://github.com/wekan/wekan/wiki/Let's-Encrypt-and-Google-Auth) in front of password auth, and then use Google Authenticator for Google Auth. Currently Standalone Wekan does not have brute force protections for login and API, pull requests welcome.
 
-[Sandstorm](https://sandstorm.io) is separate Open Source platform that has been [security audited](https://sandstorm.io/news/2017-03-02-security-review) and found bugs fixed. Sandstorm also has passwordless login, LDAP, SAML, Google etc auth options already. At Sandstorm code is read-only and signed by app maintainers, only grain content can be modified. Wekan at Sandstorm runs in sandboxed grain, it does not have access elsewhere without user-visible PowerBox request or opening randomly-generated API key URL. Also read [Sandstorm Security Practices](https://docs.sandstorm.io/en/latest/using/security-practices/) and [Sandstorm Security non-events](https://docs.sandstorm.io/en/latest/using/security-non-events/). For Sandstorm specific security issues you can contact [kentonv](https://github.com/kentonv) by email. 
-
-Links to other platforms:
-
-[Snap](https://snapcraft.io)
-
-[Docker](https://www.docker.com)
-
-[VirtualBox](https://www.virtualbox.org)
-
 [All Wekan Platforms](https://github.com/wekan/wekan/wiki/Platforms)
+
+### Sandstorm Wekan
+
+On Sandstorm platform using environment variable Standalone Wekan features like Admin Panel etc are turned off, because Sandstorm platform provides SSO for all apps running on Sandstorm. 
+
+[Sandstorm](https://sandstorm.io) is separate Open Source platform that has been [security audited](https://sandstorm.io/news/2017-03-02-security-review) and found bugs fixed. Sandstorm also has passwordless login, LDAP, SAML, Google etc auth options already. At Sandstorm code is read-only and signed by app maintainers, only grain content can be modified. Wekan at Sandstorm runs in sandboxed grain, it does not have access elsewhere without user-visible PowerBox request or opening randomly-generated API key URL. Also read [Sandstorm Security Practices](https://docs.sandstorm.io/en/latest/using/security-practices/) and [Sandstorm Security non-events](https://docs.sandstorm.io/en/latest/using/security-non-events/). For Sandstorm specific security issues you can contact [kentonv](https://github.com/kentonv) by email. 
 
 ## What Wekan bugs are eligible?
 
