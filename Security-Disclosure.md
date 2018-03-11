@@ -42,7 +42,7 @@ Wekan uses xss package for input fields like cards, as you can see from [package
 
 Wekan attachments are not accessible without logging in. Import from Trello works by copying Trello export JSON to Wekan Trello import page, and in Trello JSON file there is direct links to all publicly accessible Trello attachment files, that Standalone Wekan downloads directly to Wekan MongoDB database in [CollectionFS](https://github.com/wekan/wekan/pull/875) format. When Wekan board is exported in Wekan JSON format, all board attachments are included in Wekan JSON file as base64 encoded text. That Wekan JSON format file can be imported to Sandstorm Wekan with all the attachments, when we get latest Wekan version working on Sandstorm, only couple of bugs are left before that. In Sandstorm it's not possible yet to import from Trello with attachments, because Wekan does not implement Sandstorm-compatible access to outside of Wekan grain.
 
-Standalone Wekan only has password auth currently, there is work in progress to add LDAP etc auth. If you need more login security for Standalone Wekan now, it's possible add additional [Google Auth proxybouncer](https://github.com/wekan/wekan/wiki/Let's-Encrypt-and-Google-Auth) in front of password auth, and then use Google Authenticator for Google Auth. Currently Standalone Wekan does not have brute force protections for login and API, pull requests welcome.
+Standalone Wekan only has password auth currently, there is work in progress to add LDAP etc auth. If you need more login security for Standalone Wekan now, it's possible add additional [Google Auth proxybouncer](https://github.com/wekan/wekan/wiki/Let's-Encrypt-and-Google-Auth) in front of password auth, and then use Google Authenticator for Google Auth. Currently Standalone Wekan does not have brute force protections for login and API, pull requests welcome. You can use some [WAF](https://en.wikipedia.org/wiki/Web_application_firewall) to protect against brute force etc, like for example [AWS WAF](https://aws.amazon.com/waf/).
 
 [All Wekan Platforms](https://github.com/wekan/wekan/wiki/Platforms)
 
@@ -67,7 +67,7 @@ Any typical web security bugs. If any of the previously mentioned is somehow pro
 
 Typical already known or "no impact" bugs such as:
 
-- Brute force password guessing. Currently there is no brute force limitations in number of guesses for logins and API, pull requests welcome.
+- Brute force password guessing. Currently there is no brute force limitations in number of guesses for logins and API, pull requests welcome. You can use some [WAF](https://en.wikipedia.org/wiki/Web_application_firewall) to protect against brute force etc, like for example [AWS WAF](https://aws.amazon.com/waf/).
 - Security issues related to that Wekan uses Meteor 1.6.0.1 related packages, and upgrading to newer Meteor 1.6.1 is complicated process that requires lots of changes to many dependency packages. Upgrading [has been tried many times, spending a lot of time](https://github.com/meteor/meteor/issues/9609) but there still is issues. Helping with package upgrades is very welcome.
 - [Wekan API old tokens not replaced correctly](https://github.com/wekan/wekan/issues/1437)
 - Missing Cookie flags on non-session cookies or 3rd party cookies
