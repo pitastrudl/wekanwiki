@@ -8,6 +8,7 @@ And also check that in your start-wekan.sh or docker-compose.yml or similar that
 you have corrent MongoDB database name admin, wekan, etc.
 Otherwise it will be empty.
 
+Docker containers are at `/var/lib/docker`, so it [may contain important data that could be hard to recover](https://github.com/wekan/wekan-mongodb/issues/8). Restoring mongodump files is much easier. [Related backup feature request](https://github.com/wekan/wekan/issues/1534). With backups it's important to [save file and directory permissions](https://askubuntu.com/questions/225865/copy-files-without-losing-file-folder-permissions).
 
 ***
 
