@@ -12,6 +12,8 @@
 
 * [Video of Friend Desktop walkthrough](https://www.youtube.com/watch?v=PX-74ooqino)
 
+* [Friend Network and Friend Store questions answered](https://medium.com/friendupcloud/friend-network-and-friend-store-questions-answered-56fefff5506a)
+
 * [How Friend Store unifies Blockchain projects](https://medium.com/friendupcloud/how-friend-store-unifies-blockchain-projects-d3a889874bec)
 
 * [Video of Friend Talk at Blockchangers Event - Oslo 2018](https://www.youtube.com/watch?v=7AsSlFenRwQ)
