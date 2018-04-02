@@ -30,6 +30,8 @@
 
 ### News about Wekan
 
+* [Hacker News 2018-04-02: Show HN: See GitHub issues on a Kanban board (kaizenboard.xyz)](https://news.ycombinator.com/item?id=16732329) - has comments by xet7, current maintainer of Wekan
+
 * [Hacker News 2018-02-20: Transparency](https://news.ycombinator.com/item?id=16421782)
 
 * [Hacker News 2018-02-15: Time Well Spent](https://news.ycombinator.com/item?id=16382544)
