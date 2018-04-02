@@ -1,6 +1,6 @@
 Security is very important to us. If discover any issue regarding security, please disclose the information responsibly by sending an email to wekan-security (at) xet7.org and not by creating a GitHub issue. We will respond swiftly to fix verifiable security issues.
 
-If you are the first to report a verifiable security issue, we'll thank you with a place at our hall of fame page, that will be at https://wekan.github.io/hall-of-fame . Because to this date no one has done responsible disclosure, but just posted public GitHub issue, that hall-of-fame page does not exists yet. You can be the first one.
+There has been one report of verifiable security issues. We thank you with a place at our hall of fame page, that is at https://wekan.github.io/hall-of-fame . Others have just posted public GitHub issue, so they are not at that hall-of-fame page.
 
 ## How should reports be formatted?
 
