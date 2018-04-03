@@ -90,7 +90,7 @@ users
 cd /
 ```
 
-6) Backup database to files inside container to directory /dump, only Wekan database with name "admin" is included, not local:
+6) Backup database to files inside container to directory /dump, only Wekan database with name "wekan" is included, not local:
 ```bash
 mongodump -o /dump/
 ```
@@ -128,7 +128,7 @@ mongorestore --port 11235
 
 https://docs.mongodb.com/ecosystem/tools/administration-interfaces/
 
-11) If you sometime after backups want to remove wekan containers to reinstall them, do:
+11) If you sometime after backups want to remove wekan containers to reinstall them, do (CAREFUL):
 ```bash
 docker stop wekan wekan-db
 docker rm wekan wekan-db
