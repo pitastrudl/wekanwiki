@@ -110,13 +110,13 @@ docker cp wekan-db:/dump .
 docker cp dump wekan-db:/data/
 docker exec -it wekan-db bash
 cd /data
-mongorestore --drop --db wekan dump/wekan/
+mongorestore --drop --db wekan /data/dump/wekan/
 exit
 ```
 
 That dbname can be for example wekan:
 ```
-mongorestore --drop --db wekan dump/wekan/
+mongorestore --drop --db wekan /data/dump/wekan/
 ```
 
 9b) Or restore to another mongo database, in different port:
