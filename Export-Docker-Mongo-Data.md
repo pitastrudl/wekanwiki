@@ -85,14 +85,14 @@ users
 > exit                <=== EXIT MONGO CLI
 ```
 
-5) Go to /data directory:
+5) Go to / directory:
 ```bash
-cd /data
+cd /
 ```
 
-6) Backup database to files inside container to directory /data/dump, only Wekan database with name "admin" is included, not local:
+6) Backup database to files inside container to directory /dump, only Wekan database with name "admin" is included, not local:
 ```bash
-mongodump
+mongodump -o /dump/
 ```
 
 7) Exit from inside of container:
@@ -100,12 +100,12 @@ mongodump
 exit
 ```
 
-8) Copy backup directory /data/dump from inside of container to current directory:
+8) Copy backup directory /dump from inside of container to current directory:
 ```bash
-docker cp wekan-db:/data/dump .
+docker cp wekan-db:/dump .
 ```
 
-9a) Restore backup later:
+9a) Restore backup later (restore from /data/dump):
 ```bash
 docker cp dump wekan-db:/data/
 docker exec -it wekan-db bash
