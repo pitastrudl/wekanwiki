@@ -7,6 +7,30 @@ This setup runs very well for thousands of users.
 
 To improve scalability even more, add [Redis Oplog support](https://github.com/cult-of-coders/redis-oplog), also see related [Redis Oplog discussion forum post](https://forums.meteor.com/t/meteor-scaling-redis-oplog-status-prod-ready/30855/479). At AWS you can use AWS ElastiCache that has Redis support.
 
+### Mongo URL AND Oplog settings
+From [comment at issue](https://github.com/wekan/wekan-mongodb/issues/2#issuecomment-378343587):
+We've fixed our CPU usage problem today with an environment
+change around Wekan. I wasn't aware during implementation
+that if you're using more than 1 instance of Wekan
+(or any MeteorJS based tool) you're supposed to set
+MONGO_OPLOG_URL as an environment variable.
+Without setting it, Meteor will perform a pull-and-diff
+update of it's dataset. With it, Meteor will update from
+the OPLOG. See here
+https://blog.meteor.com/tuning-meteor-mongo-livedata-for-scalability-13fe9deb8908
+
+After setting in [docker-compose.yml](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml):
+```
+MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rsWekan
+```
+the CPU usage for all Wekan instances dropped to an average
+of less than 10% with only occasional spikes to high usage
+(I guess when someone is doing a lot of work)
+```
+- MONGO_URL=mongodb://wekandb:27017/wekan
+- MONGO_OPLOG_URL=mongodb://<username>:<password>@<mongoDbURL>/local?authSource=admin&replicaSet=rsWekan
+```
+
 If there is other ideas to improve scalability, add info to [existing scalability issue](https://github.com/wekan/wekan-mongodb/issues/2) or [scalability forum post](https://discourse.wekan.io/t/cpu-utilization-problems-with-large-userbase/579/15), there is also mentioned that smart-disconnect is already in Wekan.
 
 For Enterprises using Wekan xet7 recommends participating in Wekan development, see [Benefits of contributing your features to Upstream Wekan](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html), having your own developers working on Wekan daily, and using Commercial Support at https://wekan.team , as Wekan Team [already has access to high performance bare metal servers at CNCF / Packet for running high load testing](https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html). With the benefits you get by using Wekan, it’s [time well spent](https://blog.wekan.team/2018/02/time-well-spent/index.html). Some [DTrace and eBPF info here](https://news.ycombinator.com/item?id=16375938).
