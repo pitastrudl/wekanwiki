@@ -21,7 +21,7 @@ It can be wekan-db, mongodb or something else.
 ```bash
 docker run -d --restart=always --name wekan-db mongo:3.2.18
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:latest
+docker run -d --restart=always --name wekan-app --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:latest
 ```
 
 2) List docker containers, your ID:s will be different:
@@ -31,7 +31,7 @@ docker ps
 Result:
 ```bash
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
-1234wekanid        wekanteam/wekan:latest    "/bin/sh -c 'bash $ME"   About an hour ago   Up 46 minutes       0.0.0.0:8080->80/tcp   wekan
+1234wekanid        wekanteam/wekan:latest    "/bin/sh -c 'bash $ME"   About an hour ago   Up 46 minutes       0.0.0.0:8080->80/tcp   wekan-app
 4321mongoid        mongo               "/entrypoint.sh mongo"   About an hour ago   Up 46 minutes       27017/tcp              wekan-db
 ```
 
@@ -130,8 +130,8 @@ https://docs.mongodb.com/ecosystem/tools/administration-interfaces/
 
 11) If you sometime after backups want to remove wekan containers to reinstall them, do (CAREFUL):
 ```bash
-docker stop wekan wekan-db
-docker rm wekan wekan-db
+docker stop wekan-app wekan-db
+docker rm wekan-app wekan-db
 ```
 Then you can reinstall from step 1.
 
