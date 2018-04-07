@@ -40,6 +40,9 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 | `GET` | `/api/users/:id` | [Gets a user's information.](#user-information) |
 | `GET` | `/api/users` | [All of the users.](#user-list) |
 | `GET` | `/api/user` | [Gets a logged-in user.](#user-logged-in) |
+### Cards
+| HTTP Method | Url | Short Description |
+| :--- | :--- | :--- |
 | `POST` | `/api/boards/:boardId/lists/:listId/cards` | [Add a card to a list, board, and swimlane.](#add-card-to-list-board-swimlane) |
 
 ---
