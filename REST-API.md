@@ -40,6 +40,7 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 | `GET` | `/api/users/:id` | [Gets a user's information.](#user-information) |
 | `GET` | `/api/users` | [All of the users.](#user-list) |
 | `GET` | `/api/user` | [Gets a logged-in user.](#user-logged-in) |
+| `POST` | `/api/boards/:boardId/lists/:listId/cards` | [Add a card to a list, board, and swimlane.](#add-card-to-list-board-swimlane) |
 
 ---
 
@@ -457,3 +458,23 @@ curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
      http://localhost:3000/api/users/ztKvBTzCqmyJ77on8 \
      -d '{ "action": "takeOwnership" }'
 ```
+
+# Add Card to List-Board-Swimlane
+
+| URL / Code Link | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| [/api/boards/:boardId/lists/:listId/cards](https://github.com/wekan/wekan/blob/c115046a7c86b30ab5deb8762d3ef7a5ea3f4f90/models/cards.js#L487) | `yes` | `POST` |
+
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -H "Content-type:application/json" \
+     -X POST \
+     http://localhost:3000/api/boards/YRgy7Ku6uLFv2pYwZ/lists/PgTuf6sFJsaxto5dC/cards \
+     -d '{ "title": "Card title text", "description": "Card description text", "authorId": "The appropriate existing userId", "swimlaneId": "The destination swimlaneId" }'
+```
+## Result example
+The new card's ID is returned in the format:
+```json
+{
+    "_id": "W9m9YxQKT6zZrKzRW"
+}
