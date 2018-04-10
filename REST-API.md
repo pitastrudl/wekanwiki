@@ -45,6 +45,8 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 | :--- | :--- | :--- |
 | `POST` | `/api/boards/:boardId/lists/:listId/cards` | [Add a card to a list, board, and swimlane.](#add-card-to-list-board-swimlane) |
 | `PUT` | `/api/boards/:boardId/lists/:fromListId/cards/:cardId` | [Update a card.](#update-a-card) |
+| `DELETE` | `/api/boards/:boardId/lists/:listId/cards/:cardId` | [Delete a card.](#delete-a-card) |
+
 
 ---
 
@@ -495,8 +497,28 @@ You can change (any of) the card's title, list, and description.
 curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
      -H "Content-type:application/json" \
      -X PUT \
-     http://localhost:3000/api/boards/YRgy7Ku6uLFv2pYwZ/lists/PgTuf6sFJsaxto5dC/cards:cardId \
+     http://localhost:3000/api/boards/YRgy7Ku6uLFv2pYwZ/lists/PgTuf6sFJsaxto5dC/cards/ssrNX9CvXvPxuC5DE \
      -d '{ "title": "New title text", "listId": "New destination listId", "description": "New description text" }'
+```
+## Result example
+The card's ID is returned in the format:
+```json
+{
+    "_id": "W9m9YxQKT6zZrKzRW"
+}
+```
+# Delete a card
+
+| API URL / Code Link | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| [/api/boards/:boardId/lists/:listId/cards/:cardId](https://github.com/wekan/wekan/blob/c115046a7c86b30ab5deb8762d3ef7a5ea3f4f90/models/cards.js#L554) | `yes` | `DELETE` |
+
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -H "Content-type:application/json" \
+     -X DELETE \
+     http://localhost:3000/api/boards/YRgy7Ku6uLFv2pYwZ/lists/PgTuf6sFJsaxto5dC/cards/ssrNX9CvXvPxuC5DE \
+     -d '{ "authorId": "the appropriate existing userId"}'
 ```
 ## Result example
 The card's ID is returned in the format:
