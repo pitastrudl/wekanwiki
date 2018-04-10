@@ -1,44 +1,49 @@
-## Docker Hub
-
-Currently there are two dockerhub builds for wekan. One at [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/) and another at [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/). 
-
-For now, [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) is recommended as it supports tagged releases. There is a separate `docker-compose.yml` for [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) at [this repo link](https://github.com/wekan/wekan-mongodb) with instructions on installing there also.
-
 ## Quay
 
 [![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
 
-Example for Wekan v0.73:
+Example for Wekan v0.80:
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.18
+docker run -d --restart=always --name wekan-db mongo:3.2.19
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v0.73
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v0.80
+```
+For latest development version, use without tag:
+```
+quay.io/wekan/wekan:v0.80
 ```
 
-Added 2017-05-06 to see if it has better debugging of failed builds than Docker Hub.
+There is much more complete well-documented `docker-compose.yml` at [wekan-mongodb](https://github.com/wekan/wekan-mongodb) with instructions on installing there also.
+
+## Docker Hub - usually broken
+
+Currently there are two dockerhub builds for wekan. One at [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/) and another at [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/). 
+
+[wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) is usually broken.
 
 ## Development:
 
 ### `docker run` examples
 
-- No build step, pull from the [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/) and
+- MongoDB:
+
+```
+docker run -d --restart=always --name wekan-db mongo:3.2.19
+```
+
+- No build step, pull from the [quay](https://quay.io/repository/wekan/wekan?tab=tags) and
 specify docker variables
 
 ```
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 wekanteam/wekan:latest
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 quay.io/wekan/wekan
 ```
 
-- No build step and pull from the [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/)
-
-```
-docker run -d --restart=always --name wekan-db mongo:3.2.14
-```
 
 ### `docker-compose` examples
 
-- No build step and pull from the [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/)
+- No build step and pull from [quay](https://quay.io/repository/wekan/wekan?tab=tags)
 
 ```
 sudo docker-compose up -d --nobuild
