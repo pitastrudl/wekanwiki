@@ -13,6 +13,7 @@
 
 1) [Commercial Support and Bounties](https://wekan.team)
 2) [Community Support](https://github.com/wekan/wekan/issues)
+3) [Debugging info](https://github.com/wekan/wekan/wiki/Debugging)
 
 ## <a name="Security"></a>Security
 
@@ -82,6 +83,7 @@
 
 ## <a name="Development"></a>Development
 
+* [Debugging info](https://github.com/wekan/wekan/wiki/Debugging)
 * [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
 * [Directory Structure](https://github.com/wekan/wekan/wiki/Directory-Structure)
 * [Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
