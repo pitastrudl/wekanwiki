@@ -23,6 +23,7 @@ Inside the Git Bash, run these commands:
 
 ```
 npm config -g set msvs_version 2015
+
 meteor npm config -g set msvs_version 2015
 ```
 
@@ -108,17 +109,17 @@ curl http://localhost:3000/users/login \
 ```
 Then you update card content by sending to card URL the new content:
 
+```
 curl -H "Authorization: Bearer AUTH-TOKEN" \
    -H "Content-type:application/json" \
    -X PUT \
 http://localhost:3000/api/boards/ABCDEFG123456/lists/ABCDEFG123456/cards/ABCDEFG123456 \
 -d '{ "title": "Card new title", "listId": "ABCDEFG123456", "description": "Card new description" }'
+```
 
 When using VBA, you can optionally:
-
-a) Use direct VBA commands to send and receive from URLs
-
-b) Download curl for Windows, and in VBA call curl.exe with those parameters, and get the result.
+* Use direct VBA commands to send and receive from URLs
+* Download curl for Windows, and in VBA call curl.exe with those parameters, and get the result.
 
 You can also google search how you can use JSON format files in VBA,
 converting them to other formats etc. I presume there is something similar that
@@ -134,7 +135,9 @@ Wekan boards also have export JSON, where also attachments are included in JSON 
 base64 encoded files. To convert them back to files, you first get whole one board exported
 after authentication like this:
 
+```
 curl https://Bearer:APIKEY@ip-address/api/boards/BOARD-ID/export?authToken=#APIKEY > wekanboard.json
+```
 
 Then you read that JSON file with VBA, and get that part where in JSON is the base64 text
 of the file. Then you use VBA base64 function to convert it to binary, and write content to file.
@@ -148,4 +151,5 @@ MongoDB database, so that it would export everything correctly.
 Options are:
 a) Some developer could do that work and contribute that code to Wekan as
 new pull request to Wekan devel branch.
+
 b) Use [Commercial Support](https://wekan.team) and pay for the time to get it implemented.
