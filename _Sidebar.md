@@ -41,6 +41,7 @@
 * [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
 * [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
+* [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
 
 ## Webhooks
 
