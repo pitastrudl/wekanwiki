@@ -4,7 +4,7 @@
 
 # 100% CPU usage
 
-1) Wekan code has [Node 100% CPU fixes included](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v084-2018-04-16-wekan-release) . Also read [on-going 100% CPU usage issue progress](https://github.com/meteor/meteor/issues/9796)
+1) Wekan code has [Node 100% CPU fixes included](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v084-2018-04-16-wekan-release). Also read [on-going 100% CPU usage issue progress](https://github.com/meteor/meteor/issues/9796).
 
 2) Increase ulimit system wide to 100 000 in systemd config
 
