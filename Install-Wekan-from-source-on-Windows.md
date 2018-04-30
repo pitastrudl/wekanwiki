@@ -149,6 +149,7 @@ a long time ago, it would need some work to add all the new tables, columns etc 
 MongoDB database, so that it would export everything correctly.
 
 Options are:
+
 a) Some developer could do that work and contribute that code to Wekan as
 new pull request to Wekan devel branch.
 
