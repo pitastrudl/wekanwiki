@@ -122,7 +122,7 @@ When using VBA, you can optionally:
 * Download curl for Windows, and in VBA call curl.exe with those parameters, and get the result.
 
 You can also google search how you can use JSON format files in VBA,
-converting them to other formats etc. I presume there is something similar that
+converting them to other formats etc. There could be something similar that
 exists in PHP, that JSON file can be converted to PHP array, and array items accessed
 individually, and array converted back to JSON.
 
