@@ -128,7 +128,7 @@ individually, and array converted back to JSON.
 
 Current Wekan REST API does not yet cover access to all data that is in MongoDB.
 If you need that, REST API page also has link to Restheart, that adds REST API
-to MongoDB, so youc an use all of MongoDB data directly with REST API.
+to MongoDB, so you can use all of MongoDB data directly with REST API.
 https://github.com/wekan/wekan/wiki/REST-API
 
 Wekan boards also have export JSON, where also attachments are included in JSON as
