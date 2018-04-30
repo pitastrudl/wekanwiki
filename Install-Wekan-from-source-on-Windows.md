@@ -88,6 +88,10 @@ Make sure to run the command `meteor` instead of `node`.
 
 # VBA
 
+Related projects:
+* [VBA-JSON](https://github.com/VBA-tools/VBA-JSON)
+* [VBA to Javascript translator](https://github.com/mha105/VBA-to-JavaScript-Translator)
+
 For accessing Wekan with Excel VBA, you can use Wekan REST API:
 https://github.com/wekan/wekan/wiki/REST-API
 
