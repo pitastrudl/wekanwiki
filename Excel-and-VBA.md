@@ -1,4 +1,5 @@
 Related projects:
+* [VBA-Web](https://github.com/VBA-tools/VBA-Web)
 * [VBA-JSON](https://github.com/VBA-tools/VBA-JSON)
 * [VBA to Javascript translator](https://github.com/mha105/VBA-to-JavaScript-Translator)
 * [Tcl and Excel](http://www.xet7.org/tcl)
