@@ -13,3 +13,40 @@
 ## Scaling to thousands of users
 
 [Production setup at AWS](https://github.com/wekan/wekan/wiki/AWS)
+
+## Current versions of dependencies
+
+[Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile), versions of Meteor.js, Node etc listed at beginning.
+
+[Included Meteor packages](https://github.com/wekan/wekan/blob/devel/.meteor/packages)
+
+[Included Meteor package versions](https://github.com/wekan/wekan/blob/devel/.meteor/versions)
+
+[Added packages at package.json](https://github.com/wekan/wekan/blob/devel/package.json)
+
+## Build from source
+
+Wekan:
+- On any x64 hardware that has Ubuntu 14.04 or Debian 9 or newer installed directly or in VM:
+[Build from source scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox)
+
+Wekan for Sandstorm:
+- Install above Wekan from source
+- Install [Sandstorm locally](https://sandstorm.io/install) with `curl https://install.sandstorm.io | bash`, select dev install
+- Install [meteor-spk](https://github.com/sandstorm-io/meteor-spk)
+- Get 100% CPU issue fibers fixed node, and copy it to spk directory:<br />
+`wget https://releases.wekan.team/node`<br />
+`chmod +x node`<br />
+`mv node ~/projects/meteor-spk/meteor-spk-0.4.0/meteor-spk.deps/bin/`
+- Add to your /home/username/.bashrc : <br /> `export PATH=$PATH:$HOME/projects/meteor-spk/meteor-spk-0.4.0`
+- Close and open your terminal, or read settings from .bashrc with<br />`source ~/.bashrc`
+- `cd wekan && meteor-spk dev`
+- Then Wekan will be visible at local sandstorm at http://local.sandstorm.io:6080/
+- Sandstorm commands: `sudo sandstorm`. [Release scripts](https://github.com/wekan/wekan-maintainer/tree/master/releases). Official releases require publishing key that only xet7 has.
+
+Docker:
+- `git clone https://github.com/wekan/wekan`
+- `cd wekan`
+- Edit docker-compose.yml script ROOT_URL etc like documented at https://github.com/wekan/wekan-mongodb docker-compose.yml script
+- `docker-compose up -d --build`
+
