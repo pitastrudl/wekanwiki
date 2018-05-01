@@ -1,6 +1,8 @@
 ## Finding memory leaks
 
-[How to Self Detect a Memory Leak in Node](https://www.nearform.com/blog/self-detect-memory-leak-node/)
+**[Collect a heap profile and then analyze it](https://github.com/v8/sampling-heap-profiler)**
+
+[Older article: How to Self Detect a Memory Leak in Node](https://www.nearform.com/blog/self-detect-memory-leak-node/)
 
 ## 100% CPU usage
 
