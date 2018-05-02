@@ -1,3 +1,5 @@
+[Scaling Meteor](https://medium.freecodecamp.org/scaling-meteor-a-year-on-26ee37588e4b)
+
 ## Production setup at AWS for thousands of users
 
 * 3-4x m4.large for Node (ECS Cluster)
