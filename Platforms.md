@@ -104,6 +104,10 @@ It is not possible to import attachments directly from Trello when using Sandsto
 
 # Updated sometimes
 
+### SmartOS
+
+[SmartOS install](https://github.com/wekan/wekan/wiki/SmartOS)
+
 ### FreeBSD
 
 [FreeBSD install](https://github.com/wekan/wekan/wiki/FreeBSD)
