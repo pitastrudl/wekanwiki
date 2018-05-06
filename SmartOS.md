@@ -14,7 +14,7 @@ Install prerequisites packages
 
 	# pkgin install mongodb
 	## if this failes use
-	# pkg_add https://pkgsrc.smartos.skylime.net/packages/SmartOS/2016Q4/x86_64/All/mongodb-3.0.11.tgz
+	# pkg_add https://pkgsrc.smartos.skylime.net/packages/SmartOS/2016Q4/x86_64/All/mongodb-3.2.10.tgz
 	# pkgin install nodejs curl # 8
 	# pkgin install gmake gcc5 git jq # build requirements
 
