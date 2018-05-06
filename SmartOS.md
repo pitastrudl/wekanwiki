@@ -15,8 +15,8 @@ Install prerequisites packages
 	# pkgin install mongodb
 	## if this failes use
 	# pkg_add https://pkgsrc.smartos.skylime.net/packages/SmartOS/2016Q4/x86_64/All/mongodb-3.0.11.tgz
-	# pkgin install nodejs # 8
-	# pkgin install gmake gcc5 # build requirements
+	# pkgin install nodejs curl # 8
+	# pkgin install gmake gcc5 git # build requirements
 
 Enable MongoDB
 
@@ -27,8 +27,8 @@ Enable MongoDB
 As wekan
 
 	$ cd
-	$ wget --no-check-certificate https://releases.wekan.team/wekan-0.89.tar.gz 
-	$ tar -xzpf wekan-0.89.tar.gz
+	$ curl https://releases.wekan.team/wekan-0.89.tar.gz  --output wekan-bundle.tar.gz
+	$ tar -xzpf wekan-bundle.tar.gz
 
 As root
 
@@ -44,6 +44,8 @@ As wekan
 	$ export CPPFLAGS="-I/opt/local/include"
 	$ ln -s /opt/local/bin/node /opt/local/bin/nodejs
 	$ npm install fibers
+	$ cd ~/bundle/programs/server/npm/node_modules
+	$ npm install bson-ext
 
 ## Run
 
@@ -62,4 +64,4 @@ Now it can be run
 
 ## Cleanup
 
-	$ pkgin rm gmake gcc5 # remove build requirements
+	$ pkgin rm gmake gcc5 git # remove build requirements
