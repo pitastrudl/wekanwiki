@@ -1,4 +1,4 @@
-[Backups with DockerBunker](https://github.com/chaosbunker/dockerbunker)
+[Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
 
 ## Important info
 
