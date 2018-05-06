@@ -16,7 +16,7 @@ Install prerequisites packages
 	## if this failes use
 	# pkg_add https://pkgsrc.smartos.skylime.net/packages/SmartOS/2016Q4/x86_64/All/mongodb-3.0.11.tgz
 	# pkgin install nodejs curl # 8
-	# pkgin install gmake gcc5 git # build requirements
+	# pkgin install gmake gcc5 git jq # build requirements
 
 Enable MongoDB
 
@@ -43,9 +43,10 @@ As wekan
 	$ export CC="/opt/local/gcc5/bin/gcc -m64"
 	$ export CPPFLAGS="-I/opt/local/include"
 	$ ln -s /opt/local/bin/node /opt/local/bin/nodejs
-	$ npm install fibers
-	$ cd ~/bundle/programs/server/npm/node_modules
-	$ npm install bson-ext
+	$ npm install fibers@$(jq -r .version < node_modules/fibers/package.json)
+	$ cd ~/bundle/programs/server/npm
+	$ npm install bson-ext@$(jq -r .version < node_modules/bson-ext/package.json)
+        $ # find more packages with native modules: find ~/bundle/ | grep "binding.gyp$"
 
 ## Run
 
@@ -64,4 +65,4 @@ Now it can be run
 
 ## Cleanup
 
-	$ pkgin rm gmake gcc5 git # remove build requirements
+	$ pkgin rm gmake gcc5 git jq # remove build requirements
