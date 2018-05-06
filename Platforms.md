@@ -47,6 +47,8 @@ TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring
 
 [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
 
+[Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
+
 More info:
 
 [Install via Docker](https://github.com/wekan/wekan/wiki/Docker)
