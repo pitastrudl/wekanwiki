@@ -46,7 +46,7 @@ As wekan
 	$ npm install fibers@$(jq -r .version < node_modules/fibers/package.json)
 	$ cd ~/bundle/programs/server/npm
 	$ npm install bson-ext@$(jq -r .version < node_modules/bson-ext/package.json)
-        $ # find more packages with native modules: find ~/bundle/ | grep "binding.gyp$"
+	$ # find more packages with native modules: find ~/bundle/ | grep "binding.gyp$"
 
 ## Run
 
