@@ -48,6 +48,10 @@
 
 * [Hacker News 2017-08-17 Wekan: An open-source Trello-like kanban](https://news.ycombinator.com/item?id=15039587) - has comments by xet7, current maintainer of Wekan
 
+### News about Gogs/Gitea
+
+* [Gitea: Open source, self-hosted GitHub alternative](https://news.ycombinator.com/item?id=17006503)
+
 ### YouTube
 
 Maxime Quandalle, original author of Wekan
