@@ -30,6 +30,8 @@
 
 ### News about Wekan
 
+* [Wekan in Rust 2018-05-06](https://github.com/wekan/wekan.rs) - If interested, contributions welcome.
+
 * [Hacker News 2018-04-07: Ask HN: Is Meteor.js dead?](https://news.ycombinator.com/item?id=16782266) - xet7 did answer about releasing Wekan v0.81 at 2018-04-10, and Wekan being used in companies that have thousands of users, so Meteor.js is not dead.
 
 * [Hacker News 2018-04-02: Show HN: See GitHub issues on a Kanban board (kaizenboard.xyz)](https://news.ycombinator.com/item?id=16732329) - has comments by xet7, current maintainer of Wekan
