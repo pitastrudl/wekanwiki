@@ -38,14 +38,16 @@ As wekan
 
 	$ su wekan
 	$ cd ~/bundle/programs/server
-	$ npm install
+	$ npm install # this might be optional - needs testing
 	$ export CXX="/opt/local/gcc5/bin/g++ -m64"
 	$ export CC="/opt/local/gcc5/bin/gcc -m64"
 	$ export CPPFLAGS="-I/opt/local/include"
 	$ ln -s /opt/local/bin/node /opt/local/bin/nodejs
-	$ npm install fibers@$(jq -r .version < node_modules/fibers/package.json)
+	$ npm install fibers 
+	$ npm install bcrypt
 	$ cd ~/bundle/programs/server/npm
 	$ npm install bson-ext@$(jq -r .version < node_modules/bson-ext/package.json)
+	$ npm install bcrypt@$(jq -r .version < node_modules/bcrypt/package.json)
 	$ # find more packages with native modules: find ~/bundle/ | grep "binding.gyp$"
 
 ## Run
