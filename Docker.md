@@ -4,11 +4,11 @@
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
 
-Example for Wekan v0.81:
+Example for Wekan v0.95:
 ```
 docker run -d --restart=always --name wekan-db mongo:3.2.19
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v0.81
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v0.95
 ```
 For latest development version, use without tag:
 ```
