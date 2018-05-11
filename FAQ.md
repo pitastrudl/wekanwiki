@@ -92,6 +92,9 @@ See the related tickets [#92] and [#97] for more information.
   * Links to related documentation
   * Links to example code to get a feature implemented
   * Pull requests
+* You asked about rewrite of Wekan, without providing one of the following 2 options:
+  * Pull request to Wekan devel branch that implements all of Wekan current functionality in another programming language, including same MIT license, Trello Import, Wekan Import/Export with attachments from all versions of Wekan, migrations from all versions of Wekan MongoDB schema to all other databases, support for same [REST API](https://github.com/wekan/wekan/wiki/REST-API) compatibility, all the same [Platforms](https://github.com/wekan/wekan/wiki/Platforms) support Wekan already has, exactly same look, all of Wekan's bugs fixed, scalable multi-layer secure GDPR compliant architecture design and implementation, encrypted database support, 100% test coverage of features, Coverity Scanned security, fully developer and end user documentation for all platforms, well commented code, and you already have video to show how you have Wekan working on your Raspberry Pi Zero,  Amiga 500, C64, Nokia E90, wristwatch, eyeglasses, washing machine, dishwasher, vacuum cleaner, freezer, microwave oven, coffeemaker, toaster, toothbrush and ceiling lamp.
+  * You have not provided xet7 the necessary funds of 1000 M€ to implement rewrite, that is 999.5M€ for work, and 0.5 M€ for [Flying Car](https://www.youtube.com/watch?v=KtKFDTtpzZc) model PAL-V Liberty Pioneer Edition [from this web shop](https://www.pal-v.com/en/purchase-your-pal-v) to replace xet7's old car that has so much rust under car that xet7 starts implementing Wekan in [Rust](https://www.rust-lang.org).
 
 ## Why am I called a spammer?
 * You are adding new comments that have only content like:
