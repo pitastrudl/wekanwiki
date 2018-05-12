@@ -30,6 +30,10 @@
 
 ### News about Wekan
 
+* [Hacker News 2018-05-12: Myth of Dying Programming Language and Framework](https://blog.wekan.team/2018/05/myth-of-dying-programming-language-and-framework/index.html)
+
+* [Hacker News 2018-05-12: Upcoming Wekan v1.00 and Platforms](https://blog.wekan.team/2018/05/upcoming-wekan-v1-00-and-platforms/index.html)
+
 * [Hacker News 2018-04-07: Ask HN: Is Meteor.js dead?](https://news.ycombinator.com/item?id=16782266) - xet7 did answer about releasing Wekan v0.81 at 2018-04-10, and Wekan being used in companies that have thousands of users, so Meteor.js is not dead.
 
 * [Hacker News 2018-04-02: Show HN: See GitHub issues on a Kanban board (kaizenboard.xyz)](https://news.ycombinator.com/item?id=16732329) - has comments by xet7, current maintainer of Wekan
