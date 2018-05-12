@@ -74,6 +74,14 @@ See the related tickets [#92] and [#97] for more information.
 [#92]: https://github.com/wekan/wekan/issues/92
 [#97]: https://github.com/wekan/wekan/issues/97
 
+## Can Wekan be rewritten in another programming language?
+
+Yes. There are following 2 options, depending do you have time or money:
+
+1. Time: You can do the rewrite, and add pull request to Wekan devel branch that implements all of Wekan current functionality in another programming language, including same MIT license, Trello Import, Wekan Import/Export with attachments from all versions of Wekan, migrations from all versions of Wekan MongoDB schema to all other databases, support for same [REST API](https://github.com/wekan/wekan/wiki/REST-API) compatibility, all the same [Platforms](https://github.com/wekan/wekan/wiki/Platforms) support Wekan already has, exactly same look, all of Wekan's bugs fixed and feature requests implemented, scalable multi-layer secure GDPR compliant architecture design and implementation, encrypted database support, 100% test coverage of features, Coverity Scanned security, fully developer and end user documentation for all platforms, and well commented code.
+
+2. Money: You can provide xet7 the necessary funds of 5.5 M€ to implement rewrite, that is 5 M€ total for 5 years of work, and 0.5 M€ for [Flying Car](https://www.youtube.com/watch?v=KtKFDTtpzZc) model PAL-V Liberty Pioneer Edition [from this web shop](https://www.pal-v.com/en/purchase-your-pal-v) to replace xet7's old car that has so much rust under car that xet7 starts implementing Wekan in [Rust](https://www.rust-lang.org). 5 year effort is calculated this way: Effort used before adding current Wekan to GitHub is likely minimum 2 years, and after adding Wekan to GitHub, current version of Wekan is [3 years of effort](https://www.openhub.net/p/wekan) that includes [2 years of programming time](https://www.openhub.net/p/730403/contributors/3137056998714607) by xet7, so that makes total 5 years that was used to implement current version of Wekan.
+
 # Etiquette
 
 ## Why am I called a troll?
@@ -92,9 +100,6 @@ See the related tickets [#92] and [#97] for more information.
   * Links to related documentation
   * Links to example code to get a feature implemented
   * Pull requests
-* You asked about rewrite of Wekan, without providing one of the following 2 options:
-  * Pull request to Wekan devel branch that implements all of Wekan current functionality in another programming language, including same MIT license, Trello Import, Wekan Import/Export with attachments from all versions of Wekan, migrations from all versions of Wekan MongoDB schema to all other databases, support for same [REST API](https://github.com/wekan/wekan/wiki/REST-API) compatibility, all the same [Platforms](https://github.com/wekan/wekan/wiki/Platforms) support Wekan already has, exactly same look, all of Wekan's bugs fixed and feature requests implemented, scalable multi-layer secure GDPR compliant architecture design and implementation, encrypted database support, 100% test coverage of features, Coverity Scanned security, fully developer and end user documentation for all platforms, and well commented code.
-  * You have not provided xet7 the necessary funds of 5.5 M€ to implement rewrite, that is 5 M€ total for 5 years of work, and 0.5 M€ for [Flying Car](https://www.youtube.com/watch?v=KtKFDTtpzZc) model PAL-V Liberty Pioneer Edition [from this web shop](https://www.pal-v.com/en/purchase-your-pal-v) to replace xet7's old car that has so much rust under car that xet7 starts implementing Wekan in [Rust](https://www.rust-lang.org). 5 year effort is calculated this way: Effort used before adding current Wekan to GitHub is likely minimum 2 years, and after adding Wekan to GitHub, current version of Wekan is [3 years of effort](https://www.openhub.net/p/wekan) that includes [2 years of programming time](https://www.openhub.net/p/730403/contributors/3137056998714607) by xet7, so that makes total 5 years that was used to implement current version of Wekan.
 
 ## Why am I called a spammer?
 * You are adding new comments that have only content like:
