@@ -1,5 +1,29 @@
 # In English
 
+### News about Wekan
+
+* [Hacker News 2018-05-12: Myth of Dying Programming Language and Framework](https://news.ycombinator.com/item?id=17054264)
+
+* [Hacker News 2018-05-12: Upcoming Wekan v1.00 and Platforms](https://news.ycombinator.com/item?id=17054245)
+
+* [Hacker News 2018-04-07: Ask HN: Is Meteor.js dead?](https://news.ycombinator.com/item?id=16782266) - xet7 did answer about releasing Wekan v0.81 at 2018-04-10, and Wekan being used in companies that have thousands of users, so Meteor.js is not dead.
+
+* [Hacker News 2018-04-02: Show HN: See GitHub issues on a Kanban board (kaizenboard.xyz)](https://news.ycombinator.com/item?id=16732329) - has comments by xet7, current maintainer of Wekan
+
+* [Hacker News 2018-02-20: Transparency](https://news.ycombinator.com/item?id=16421782)
+
+* [Hacker News 2018-02-15: Time Well Spent](https://news.ycombinator.com/item?id=16382544)
+
+* [Hacker News 2018-02-13: Benefits of contributing your features to upstream Wekan](https://news.ycombinator.com/item?id=16366387)
+
+* [Hacker News 2018-01-23: Wekan progress on x64 and ARM](https://news.ycombinator.com/item?id=16209090)
+
+* [Hacker News 2017-12-23: 2 years of Wekan: what we archieved](https://news.ycombinator.com/item?id=15994145)
+
+* [Hacker News 2017-11-04 Ask HN: Is Meteor.js still a thing?](https://news.ycombinator.com/item?id=15624623) - has links to Wekan as Meteor.js project
+
+* [Hacker News 2017-08-17 Wekan: An open-source Trello-like kanban](https://news.ycombinator.com/item?id=15039587) - has comments by xet7, current maintainer of Wekan
+
 ### News about upcoming Wekan at Friend
 
 * [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f), you can [discuss at Hacker News](https://news.ycombinator.com/item?id=16240639)
@@ -27,30 +51,6 @@
 * [Friend announces partnership with Hove Medical Systems AS](https://friendup.cloud/friend-hove-medical-partnership/)
 
 * [Friend interview at FLOSS450](https://twit.tv/shows/floss-weekly/episodes/450)
-
-### News about Wekan
-
-* [Hacker News 2018-05-12: Myth of Dying Programming Language and Framework](https://news.ycombinator.com/item?id=17054264)
-
-* [Hacker News 2018-05-12: Upcoming Wekan v1.00 and Platforms](https://news.ycombinator.com/item?id=17054245)
-
-* [Hacker News 2018-04-07: Ask HN: Is Meteor.js dead?](https://news.ycombinator.com/item?id=16782266) - xet7 did answer about releasing Wekan v0.81 at 2018-04-10, and Wekan being used in companies that have thousands of users, so Meteor.js is not dead.
-
-* [Hacker News 2018-04-02: Show HN: See GitHub issues on a Kanban board (kaizenboard.xyz)](https://news.ycombinator.com/item?id=16732329) - has comments by xet7, current maintainer of Wekan
-
-* [Hacker News 2018-02-20: Transparency](https://news.ycombinator.com/item?id=16421782)
-
-* [Hacker News 2018-02-15: Time Well Spent](https://news.ycombinator.com/item?id=16382544)
-
-* [Hacker News 2018-02-13: Benefits of contributing your features to upstream Wekan](https://news.ycombinator.com/item?id=16366387)
-
-* [Hacker News 2018-01-23: Wekan progress on x64 and ARM](https://news.ycombinator.com/item?id=16209090)
-
-* [Hacker News 2017-12-23: 2 years of Wekan: what we archieved](https://news.ycombinator.com/item?id=15994145)
-
-* [Hacker News 2017-11-04 Ask HN: Is Meteor.js still a thing?](https://news.ycombinator.com/item?id=15624623) - has links to Wekan as Meteor.js project
-
-* [Hacker News 2017-08-17 Wekan: An open-source Trello-like kanban](https://news.ycombinator.com/item?id=15039587) - has comments by xet7, current maintainer of Wekan
 
 ### News about Gogs/Gitea
 
