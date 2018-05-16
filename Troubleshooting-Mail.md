@@ -109,7 +109,7 @@ wekan_1      |
 wekan_1      |     at Error (native)
 ```
 
-### Sending test email failed: SSL23_GET_SERVER_HELLO:unknown protocol
+### STARTTLS Sending test email failed: SSL23_GET_SERVER_HELLO:unknown protocol
 
 ```
 Sending email failed
