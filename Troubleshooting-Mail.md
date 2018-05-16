@@ -109,13 +109,13 @@ wekan_1      |
 wekan_1      |     at Error (native)
 ```
 
-### STARTTLS Sending test email failed: SSL23_GET_SERVER_HELLO:unknown protocol
+### STARTTLS Sending test email failed
 
 ```
 Sending email failed
 Error trying to send email: 139625961224000:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
 ```
-snap settings, with username and password urlencoded:
+To fix it, in snap/docker/source environment variable settings, with username and password urlencoded:
 ```
 snap set wekan mail-from='Boards Support <boards@example.com>'
 
