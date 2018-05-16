@@ -109,6 +109,43 @@ wekan_1      |
 wekan_1      |     at Error (native)
 ```
 
+### Sending test email failed: SSL23_GET_SERVER_HELLO:unknown protocol
+
+```
+Sending email failed
+Error trying to send email: 139625961224000:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+```
+snap settings, with username and password urlencoded:
+```
+snap set wekan mail-from='Boards Support <boards@example.com>'
+
+snap set wekan mail-url='smtp://support%40example.com:password@mail.example.com:587/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false'
+```
+Admin Panel:
+```
+SMTP Host:
+mail.example.com:587/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false
+
+SMTP Port:
+587
+
+Username:
+support%40example.com
+
+Password:
+password
+
+TLS support:
+[_] <== not checked
+
+From: 
+Boards Support <boards@example.com>
+
+DNS settings, with server IP address in ipv4 section:
+TXT: mail.example.com & & TXT: example.com
+v=spf1 a mx ipv4:123.123.123.123/32 include:_spf.google.com include:example.com include:mail.example.com include:_spf.google.com ~all
+```
+
 ### Self-signed Certificate
 Unfortunately at this stage, WeKan does not support self-signed certificates. You will see the following error if your SMTP server is using a self-signed certificate. Ways to remedy to this are (by order of preference):
 * disable TLS on your SMTP server. For postfix juste add "smtpd_user_tls = no" to main.cf. !!! Unless doing this, wekan will try to connect with STARTTLS !!!
