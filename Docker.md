@@ -4,15 +4,15 @@
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
 
-Example for Wekan v0.95:
+Example for Wekan v0.97:
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.19
+docker run -d --restart=always --name wekan-db mongo:3.2.20
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v0.95
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v0.97
 ```
 For latest development version, use without tag:
 ```
-quay.io/wekan/wekan:v0.81
+quay.io/wekan/wekan
 ```
 
 There is much more complete well-documented `docker-compose.yml` at [wekan-mongodb](https://github.com/wekan/wekan-mongodb) with instructions on installing there also.
@@ -30,7 +30,7 @@ Currently there are two dockerhub builds for wekan. One at [mquandalle dockerhub
 - MongoDB:
 
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.19
+docker run -d --restart=always --name wekan-db mongo:3.2.20
 ```
 
 - No build step, pull from the [quay](https://quay.io/repository/wekan/wekan?tab=tags) and
