@@ -2,6 +2,8 @@
 
 ### News about Wekan
 
+* [Wekan v1.0 relased 2018-05-21](https://blog.wekan.team/2018/05/wekan-v1-00-released/index.html), [HN](https://news.ycombinator.com/item?id=17120252) 
+
 * [Hacker News 2018-05-12: Myth of Dying Programming Language and Framework](https://news.ycombinator.com/item?id=17054264)
 
 * [Hacker News 2018-05-12: Upcoming Wekan v1.00 and Platforms](https://news.ycombinator.com/item?id=17054245)
