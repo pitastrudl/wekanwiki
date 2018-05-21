@@ -27,7 +27,7 @@ Depends on free time of xet7. Usually:
 
 * Every release has release date and release number.
 * Every release increments release number by 0.01. This practice started 2017-03-05 at v0.12. Before it release number was much more compicated like v0.11.1-rc2. After v0.99 comes v1.00, v1.01, v1.02, etc.
-* Version number is only incrementing number. Wekan has been in production use for a long time already, so v1.00 is not about being production ready.
+* Version number is only incrementing number. Wekan has been in production use for a long time already, so v1.00 is not about being production ready. There has been many performance improvements, but there is still a lot to improve.
 * Wekan still has bugs, like any other software. So this is not about being bug free.
 * Wekan will keep changing, and providing migrations from old to newest version. In that sense, Wekan has been LTS release as long as it's been maintained already. There have been many fixes to make migrations possible, and adding more fixes will continue.
 * Development happens in devel branch. When release is made, devel branch is merged to master and friend branches.
