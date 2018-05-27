@@ -61,9 +61,12 @@ There are three options:
 ### Install Node.js
 
 Make sure Node.js is installed (currently Version 4.8.6 is required). If you don't have this version, you can use the [node packages][node-packages].
+Max supported version is Node 8.11.1 or newer 8.x, currently using performance patched version from https://releases.wekan.team
 
 ### Install MongoDB
 In order to run Wekan you need to have MongoDB installed. You can either install your distributions package, if they offer any or see the [MongoDB website][mongodb-website] how to install it.
+
+Max supported version is MongoDB 3.2.x
 
 ### Install a Wekan release
 Now you need to download the release you want to install, usually this is the latest release which you can find [here][latest-release] (you need the `.tar.gz` one).
@@ -141,6 +144,8 @@ sudo systemctl enable mongod
 
 ### Install Meteor
 As you might have noticed already, Wekan is built using the Meteor web framework, so we need to install this as well. This can be done easily using their install script ([read it][meteor-script] if you don't trust it).
+
+Max supported version is Meteor 1.6.0.1
 
 ```bash
 curl https://install.meteor.com/ | sh
