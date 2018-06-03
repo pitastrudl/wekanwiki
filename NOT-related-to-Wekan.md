@@ -1,18 +1,19 @@
 ## These are NOT in any way related to Wekan
 
 ### Birds
-- Weka https://en.wikipedia.org/wiki/Weka
+- [Weka](https://en.wikipedia.org/wiki/Weka)
 
 ### Music
-- Wekan - Skid https://www.youtube.com/watch?v=XkqabSLgfxQ
-- Wekan Reworked Skid (Touché Remix) https://www.youtube.com/watch?v=SAOfzuwOtHg
-- Love & Dream Trance Progressive Mix By Harris Wekan https://www.youtube.com/watch?v=iUgerssvY5U
+- [Wekan - Skid](https://www.youtube.com/watch?v=XkqabSLgfxQ)
+- [Wekan Reworked Skid (Touché Remix)](https://www.youtube.com/watch?v=SAOfzuwOtHg)
+- [Love & Dream Trance Progressive Mix By Harris Wekan](https://www.youtube.com/watch?v=iUgerssvY5U)
+- [Trance Electro By Harris Wekan](https://www.youtube.com/watch?v=uop8DwsC7W0)
 
 ### Village Promotion
-- Wekan Village Promotion https://www.youtube.com/watch?v=buXuTRTysN4
+- [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
 
 ### Machine Learning Environment
-- Weka https://en.wikipedia.org/wiki/Weka_(machine_learning)
+- [Weka](https://en.wikipedia.org/wiki/Weka_(machine_learning))
 
 ### Kansas
 - Movers and Shakers for Kansas https://projectwekan.com
