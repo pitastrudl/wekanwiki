@@ -69,6 +69,7 @@ Maxime Quandalle, original author of Wekan
 # In Spanish
 
 *  Linuxaditos.com 2018-05-27 [Wekan: una aplicación para la gestión de los flujos de producción](https://www.linuxadictos.com/wekan-una-aplicacion-para-la-gestion-de-los-flujos-de-produccion.htm)
+* 2017-12 [YouTube: Alternativa a Trello Wekan - Eugenio Chaparro](https://www.youtube.com/playlist?list=PLCTD_CpMeEKTcv63j09oPz0L4JHHSNahp)
 
 # In German
 
