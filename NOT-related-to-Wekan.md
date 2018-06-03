@@ -5,6 +5,7 @@
 
 ### Music
 - Wekan - Skid https://www.youtube.com/watch?v=XkqabSLgfxQ
+- Wekan Reworked Skid (Touché Remix) https://www.youtube.com/watch?v=SAOfzuwOtHg
 
 ### Village Promotion
 - Wekan Village Promotion https://www.youtube.com/watch?v=buXuTRTysN4
