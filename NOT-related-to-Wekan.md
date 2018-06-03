@@ -8,6 +8,7 @@
 - [Wekan Reworked Skid (Touché Remix)](https://www.youtube.com/watch?v=SAOfzuwOtHg)
 - [Love & Dream Trance Progressive Mix By Harris Wekan](https://www.youtube.com/watch?v=iUgerssvY5U)
 - [Trance Electro By Harris Wekan](https://www.youtube.com/watch?v=uop8DwsC7W0)
+- [Trance Sympho by Harris Wekan](https://www.youtube.com/watch?v=4ajJae6vO6Y)
 
 ### Village Promotion
 - [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
