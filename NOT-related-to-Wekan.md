@@ -10,6 +10,7 @@
 - [Trance Electro By Harris Wekan](https://www.youtube.com/watch?v=uop8DwsC7W0)
 - [Trance Sympho by Harris Wekan](https://www.youtube.com/watch?v=4ajJae6vO6Y)
 - [Harris Wekan Vs ULTRAVOICE](https://www.youtube.com/watch?v=-NEnLzH-DTY)
+- [Vegas Acceptable In The 80's Mashup Remix By Harris Wekan](https://www.youtube.com/watch?v=_wiMZ0U0uIY)
 
 ### Village Promotion
 - [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
