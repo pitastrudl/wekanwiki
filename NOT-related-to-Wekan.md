@@ -21,6 +21,7 @@
 - [Weka Waka - Ouma Omore](https://www.youtube.com/watch?v=3FXPmRs6rDM)
 - [WEKA WEGA by joyce irungu (Official video 2018) skiza code 8633220](https://www.youtube.com/watch?v=YpIuFASiK5M)
 - [Gwe Weka Ulala Spice Diana Music](https://www.youtube.com/watch?v=-t2udMMsqJo)
+- [Dangdut New Weka Music - Egois - Yuni - Live Gabus - RJM AUDIO](https://www.youtube.com/watch?v=leRfhAcYqHE)
 
 ### Village Promotion
 - [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
