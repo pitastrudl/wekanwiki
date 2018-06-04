@@ -15,6 +15,7 @@
 - [The Beatles - We Can Work it Out](https://www.youtube.com/watch?v=Qyclqo_AV2M)
 - [WeKaN- Zatańcz Dziś Dla Mnie - (Karaoke) - NOWOŚĆ 2015](https://www.youtube.com/watch?v=JrhDvcF8tBo)
 - [GWEWEKA BY JOY TENDO MATA@GOSPELMODES](https://www.youtube.com/watch?v=ak-6NC-2AJ8)
+- [APOSTLE JONATHAN GWE WEKKA OFFICIAL VIDEO FEELINGZ 256 FILMZ PRODUCTIONZ](https://www.youtube.com/watch?v=oJhwgUIsfX0)
 
 ### Village Promotion
 - [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
