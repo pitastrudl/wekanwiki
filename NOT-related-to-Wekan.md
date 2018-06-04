@@ -18,6 +18,7 @@
 - [APOSTLE JONATHAN GWE WEKKA OFFICIAL VIDEO FEELINGZ 256 FILMZ PRODUCTIONZ](https://www.youtube.com/watch?v=oJhwgUIsfX0)
 - [Richard Ronald Wekan](https://www.youtube.com/channel/UCL_DFLxVEby7MkuyTQ7W0hg)
 - [Weka Waka - Ouma Omore](https://www.youtube.com/watch?v=3FXPmRs6rDM)
+- [WEKA WEGA by joyce irungu (Official video 2018) skiza code 8633220](https://www.youtube.com/watch?v=YpIuFASiK5M)
 
 ### Village Promotion
 - [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
