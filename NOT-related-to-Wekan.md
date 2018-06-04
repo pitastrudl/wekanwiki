@@ -13,6 +13,7 @@
 - [Harris Wekan Vs ULTRAVOICE](https://www.youtube.com/watch?v=-NEnLzH-DTY)
 - [Vegas Acceptable In The 80's Mashup Remix By Harris Wekan](https://www.youtube.com/watch?v=_wiMZ0U0uIY)
 - [The Beatles - We Can Work it Out](https://www.youtube.com/watch?v=Qyclqo_AV2M)
+- [WeKaN- Zatańcz Dziś Dla Mnie - (Karaoke) - NOWOŚĆ 2015](https://www.youtube.com/watch?v=JrhDvcF8tBo)
 
 ### Village Promotion
 - [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
