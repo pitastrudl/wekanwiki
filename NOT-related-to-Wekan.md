@@ -16,6 +16,7 @@
 - [WeKaN- Zatańcz Dziś Dla Mnie - (Karaoke) - NOWOŚĆ 2015](https://www.youtube.com/watch?v=JrhDvcF8tBo)
 - [GWEWEKA BY JOY TENDO MATA@GOSPELMODES](https://www.youtube.com/watch?v=ak-6NC-2AJ8)
 - [APOSTLE JONATHAN GWE WEKKA OFFICIAL VIDEO FEELINGZ 256 FILMZ PRODUCTIONZ](https://www.youtube.com/watch?v=oJhwgUIsfX0)
+- [Richard Ronald Wekan](https://www.youtube.com/channel/UCL_DFLxVEby7MkuyTQ7W0hg)
 
 ### Village Promotion
 - [Wekan Village Promotion](https://www.youtube.com/watch?v=buXuTRTysN4)
