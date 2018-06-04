@@ -16,6 +16,7 @@
 - [WeKaN- Zatańcz Dziś Dla Mnie - (Karaoke) - NOWOŚĆ 2015](https://www.youtube.com/watch?v=JrhDvcF8tBo)
 - [GWEWEKA BY JOY TENDO MATA@GOSPELMODES](https://www.youtube.com/watch?v=ak-6NC-2AJ8)
 - [APOSTLE JONATHAN GWE WEKKA OFFICIAL VIDEO FEELINGZ 256 FILMZ PRODUCTIONZ](https://www.youtube.com/watch?v=oJhwgUIsfX0)
+- [Bunda Yang Berduka - Agung Weka & St. Petrus 1 Choir](https://www.youtube.com/watch?v=yEtVcdj5D50)
 - [Richard Ronald Wekan](https://www.youtube.com/channel/UCL_DFLxVEby7MkuyTQ7W0hg)
 - [Weka Waka - Ouma Omore](https://www.youtube.com/watch?v=3FXPmRs6rDM)
 - [WEKA WEGA by joyce irungu (Official video 2018) skiza code 8633220](https://www.youtube.com/watch?v=YpIuFASiK5M)
