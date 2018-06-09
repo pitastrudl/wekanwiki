@@ -59,3 +59,23 @@ Wekan Docker: If you have MongoDB exposed to outside Docker, Connect with Robo3T
 [Snap Backup and Restore](https://github.com/wekan/wekan-snap/wiki/Backup-and-restore)
 
 [Docker Backup and Restore](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
+
+## 10) Browse data in Robo 3T
+
+- On left, double click cards, checklists etc collections/tables to see their contents
+- Currently default view to see is tree view. To see table view or JSON view, click small buttons above that white data area view display at near right border.
+
+## 11) If you don't find data in Robo 3T, use hex editor GUI
+
+In Linux, you can install Hex Editor for example with command:
+```
+sudo apt install ghex
+```
+or
+```
+sudo yum install ghex
+```
+Then it's usually in Linux desktop at Menu / Development / GHex.
+Or you can start it in command line by writing `ghex`
+
+You can open files from your unzipped Wekan Sandstorm grain directory `data/wiredTigerDb/` to see if there is still some data that is not yet overwritten with other data.
