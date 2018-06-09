@@ -53,6 +53,7 @@
 ## <a name="Platforms"></a>Platforms
 
 * [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
+* [Sandstorm Board not Found error](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 * [Using Proxy](https://github.com/wekan/wekan/issues/1480)
 
 ## <a name="Webservers"></a>Webservers
