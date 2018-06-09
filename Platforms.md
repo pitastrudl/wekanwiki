@@ -92,6 +92,8 @@ These source instructions probably don't work
 
 [Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
 
+[Sandstorm Board not Found error](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
+
 It is not possible to import attachments directly from Trello when using Sandstorm version of Wekan. This is because Wekan is in secure sandbox at Sandstorm, and does not yet have Sandstorm-compatible way to import attachments from outside of Sandstorm. You need to:
 1. Install Standalone version of Wekan, for example Docker/Snap/VirtualBox, for example to your own computer
 2. Import board from Trello
