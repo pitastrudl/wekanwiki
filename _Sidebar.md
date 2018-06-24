@@ -39,11 +39,11 @@
 
 * [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
 
-# <a name="Platforms"></a>Platforms
+# <a name="Platforms"></a>Settings
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 
-## Supported by xet7
+## Platforms: Supported by xet7
 
 * [Snap](https://github.com/wekan/wekan/wiki/Snap)
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
@@ -53,24 +53,24 @@
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 
-## SaaS
+## Platforms: SaaS
 
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
 * [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
 
-## Operating Systems
+## Platforms: Operating Systems
 
 * [Debian](https://github.com/wekan/wekan/wiki/Debian)
 * [Windows](https://github.com/wekan/wekan/wiki/Windows)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
 
-## NAS
+## Platforms: NAS
 
 * [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
 
-## Cloud 
+## Platforms: Cloud 
 
 * [AWS](https://github.com/wekan/wekan/wiki/AWS)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
