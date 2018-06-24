@@ -56,6 +56,7 @@
 * **[Snap](https://github.com/wekan/wekan/wiki/Snap)**
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+* [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
 * [Sandstorm Board not Found error](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 * [Using Proxy](https://github.com/wekan/wekan/issues/1480)
