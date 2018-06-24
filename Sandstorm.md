@@ -15,3 +15,6 @@ It is not possible to import attachments directly from Trello when using Sandsto
 2. Import board from Trello
 3. Export board as Wekan board. Exported JSON file includes attachments as base64 encoded files.
 4. Import board as Wekan board to Sandstorm.
+
+[sandstorm_button]: https://img.shields.io/badge/try-Wekan%20on%20Sandstorm-783189.svg
+[sandstorm_appdemo]: https://demo.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h
