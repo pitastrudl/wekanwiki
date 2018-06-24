@@ -1,3 +1,7 @@
+More complete Docker info at:
+
+* [Docker](https://github.com/wekan/wekan/wiki/Docker)
+
 Tested to work on AWS cloud:
 
 ```
