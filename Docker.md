@@ -12,9 +12,23 @@
 
 TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
-## AWS
+## SLES
+
+* [SLES SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+
+## Rancher
+
+* [Rancher Rancher Active Proxy](https://github.com/wekan/wekan/wiki/Rancher---Rancher-Active-Proxy---Wekan-MongoDB-Docker)
+
+## Testing
+
+[Install for testing](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-for-testing)
+
+## Production
 
 [Production setup for thousands of users with Docker at AWS](https://github.com/wekan/wekan/wiki/AWS)
+
+[Other way to do production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
 
 ## External MongoDB auth
 
