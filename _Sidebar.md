@@ -54,6 +54,7 @@
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 * **[Snap](https://github.com/wekan/wekan/wiki/Snap)**
+* [Docker](https://github.com/wekan/wekan/wiki/Docker)
 * [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
 * [Sandstorm Board not Found error](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 * [Using Proxy](https://github.com/wekan/wekan/issues/1480)
