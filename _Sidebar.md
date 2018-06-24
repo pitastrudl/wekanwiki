@@ -45,41 +45,7 @@
 
 # <a name="Platforms"></a>Platforms: Supported by xet7
 
-* [Snap](https://github.com/wekan/wekan/wiki/Snap)
-* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
-* [Docker](https://github.com/wekan/wekan/wiki/Docker)
-* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
-* [Source](https://github.com/wekan/wekan/wiki/Source)
-* [Proxy](https://github.com/wekan/wekan/issues/1480)
-* [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
-
-## Platforms: SaaS
-
-* [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
-* [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
-* [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
-
-## Platforms: Operating Systems
-
-* [Debian](https://github.com/wekan/wekan/wiki/Debian)
-* [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
-* [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
-* [Windows](https://github.com/wekan/wekan/wiki/Windows)
-
-## Platforms: NAS
-
-* [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
-
-## Platforms: Cloud 
-
-* [AWS](https://github.com/wekan/wekan/wiki/AWS)
-* [Azure](https://github.com/wekan/wekan/wiki/Azure)
-* [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
-* [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
-* [Heroku](https://github.com/wekan/wekan/wiki/Heroku) ?
-* [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud) ?
-* [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry) ?
-* [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift) ?
+* [Platforms](https://github.com/wekan/wekan/wiki/Platforms): Supported by xet7, Operating Systems, NAS, Cloud
 
 # <a name="Webservers"></a>Webservers
 
