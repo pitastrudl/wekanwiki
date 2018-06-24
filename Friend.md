@@ -1,34 +1,34 @@
-# Website
+## Website
 
 [Friend Website](https://friendup.cloud)
 
-# Screenshots
+## Screenshots
 
 [Screenshots of Wekan and Friend](https://blog.wekan.team/2018/05/upcoming-wekan-v1-00-and-platforms/index.html)
 
-# Source code
+## Source code
 
 [Friend source code at GitHub](https://github.com/FriendUPCloud/friendup) , newest v1.2rc1 source code will be added soon, and license info. Mobile apps are not at GitHub yet.
 
 [Wekan FriendUPApp source will be added here](https://github.com/wekan/FriendUPApp)
 
-# Demo
+## Demo
 
 [Old Friend demo](https://friendsky.cloud)
 
 [New development v1.2rc1 Friend demo](https://my.friendup.cloud)
 
-# Chat
+## Chat
 
 [Friend developer chat at Discord](https://discordapp.com/channels/459616484369498123/459616484369498131)
 
 IRC at Freenode #friendup
 
-# Bounties
+## Bounties
 
 [Friend bounties](https://friendup.tech/page/bounties.html)
 
-# News
+## News
 
 * [With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f)
 
