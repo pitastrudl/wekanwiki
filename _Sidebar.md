@@ -49,6 +49,7 @@
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
+* [Debian](https://github.com/wekan/wekan/wiki/Debian)
 * [Windows](https://github.com/wekan/wekan/wiki/Windows)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
