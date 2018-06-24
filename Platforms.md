@@ -1,168 +1,48 @@
-# Upcoming
+## <a name="Supported"></a>Supported by xet7
 
-[With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f)
+* [Snap](https://github.com/wekan/wekan/wiki/Snap)
+* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
+* [Docker](https://github.com/wekan/wekan/wiki/Docker)
+* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+* [Source](https://github.com/wekan/wekan/wiki/Source)
+* [Proxy](https://github.com/wekan/wekan/issues/1480)
+* [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
+* Upcoming: [Friend](https://github.com/wekan/wekan/wiki/Friend)
 
-FriendUPApp source will be added here: https://github.com/wekan/FriendUPApp
+## SaaS
 
-# Updated often
+* [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
+* [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
+* [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
 
-Automatic generated newest builds are available for Docker, and platforms that
-install directly from this repo. Automatic builds will be added later for more
-platforms.
+## Operating Systems
 
-First registered Wekan user will get [Admin Panel](https://github.com/wekan/wekan/wiki/Features) on new
-Docker and source based installs. You can also on MongoDB 
-[enable Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease) and [change you as board admin](https://github.com/wekan/wekan/issues/1060#issuecomment-310545976).
+* [Debian](https://github.com/wekan/wekan/wiki/Debian)
+* [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
+* [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
+* [Windows](https://github.com/wekan/wekan/wiki/Windows)
 
-You may need these on other platforms than Sandstorm:
-* **[Using same database for both LAN and VPN Wekan](https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L86-L100)**
-* [Using Proxy](https://github.com/wekan/wekan/issues/1480)
-* [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail). For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP => DavMail => Exchange.
-* [Troubleshooting CentOS 7](https://github.com/wekan/wekan/issues/718)
-* Webserver config
-  * [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
-  * [Apache](https://github.com/wekan/wekan/wiki/Apache)
-  * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
-* [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
+## NAS
 
-### Snap
+* [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
 
-[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)   <=== **EASIEST INSTALL, UPDATES AUTOMATICALLY** when new Wekan is released. Available for [many Linux 64bit distros](https://snapcraft.io). Has [Caddy automatic SSL integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys).
+## Cloud 
 
-[Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues)
+* [AWS](https://github.com/wekan/wekan/wiki/AWS)
+* [Azure](https://github.com/wekan/wekan/wiki/Azure)
+* [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
+* [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
+* [Heroku](https://github.com/wekan/wekan/wiki/Heroku) ?
+* [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud) ?
+* [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry) ?
+* [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift) ?
 
-TODO: [Wekan <=> MongoDB <=> ToroDB => MySQL/PosgreSQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
+# More
 
-### Docker
+[Features](https://github.com/wekan/wekan/wiki/Features)
 
-[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb). Well documented docker-compose.yml file has info about using same MongoDB database for office and VPN users.
+[Integrations](https://github.com/wekan/wekan/wiki/Integrations)
 
-[Production setup for thousands of users with Docker at AWS](https://github.com/wekan/wekan/wiki/AWS)
-
-[External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
-
-[Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
-
-TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
-
-[Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
-
-[Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
-
-More info:
-
-[Install via Docker](https://github.com/wekan/wekan/wiki/Docker)
-
-### Source
-
-Note: Support for source install is only developers, not for production use. It is much easier and faster to update production versions with Docker/Snap/Sandstorm, because Node/Meteor/package versions/build scripts changes sometimes.
-
-[Install manually from source][install_source]
-
-These source instructions probably don't work
-
-- [Install from source script for Debian based distros](https://github.com/wekan/wekan-source-installer)
-- [Install manually from source without sudo](https://github.com/wekan/wekan/wiki/Install-source-without-sudo-on-Linux)
-
-### VirtualBox
-
-[Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
-
-[Scripts from virtual appliance](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox), can be used on any Ubuntu 14.04 64bit install like native or VM. Includes script how to run Node.js on port 80.
-
-### Vagrant
-
-[Using Vagrant and installing inside it Wekan Ubuntu Snap](https://github.com/wekan/wekan/wiki/Vagrant)
-
-### Cloudron
-
-[![Install on Cloudron][cloudron_button]][cloudron_install]
-
-[Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html)
-
-[Package repo](https://git.cloudron.io/cloudron/wekan-app)
-
-### Sandstorm
-
-[![Try on Sandstorm][sandstorm_button]][sandstorm_appdemo]
-
-[Wekan for Sandstorm Install/Download](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h)
-
-[Sandstorm](https://sandstorm.io)
-
-[Building Wekan for Sandstorm](https://github.com/wekan/wekan-maintainer/wiki/Building-Wekan-for-Sandstorm)
-
-[Sandstorm Board not Found error](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
-
-It is not possible to import attachments directly from Trello when using Sandstorm version of Wekan. This is because Wekan is in secure sandbox at Sandstorm, and does not yet have Sandstorm-compatible way to import attachments from outside of Sandstorm. You need to:
-1. Install Standalone version of Wekan, for example Docker/Snap/VirtualBox, for example to your own computer
-2. Import board from Trello
-3. Export board as Wekan board. Exported JSON file includes attachments as base64 encoded files.
-4. Import board as Wekan board to Sandstorm.
-
-# Updated once a month
-
-### Indiehosters
-
-[![SignUp][indiehosters_button]][indiehosters_saas]
-
-# Updated sometimes
-
-### SmartOS
-
-[SmartOS install](https://github.com/wekan/wekan/wiki/SmartOS)
-
-### FreeBSD
-
-[FreeBSD install](https://github.com/wekan/wekan/wiki/FreeBSD)
-
-### Qnap TS-469L
-
-[Manual install of newest version](https://github.com/wekan/wekan/issues/1180)
-
-# Update schedule not known
-
-### Scalingo
-
-[![Deploy to Scalingo][scalingo_button]][scalingo_deploy]
-
-# Could be broken or not up-to-date
-
-### Debian
-
-[Debian Wheezy 64bit & Devuan Jessie 64 bit][debian_wheezy_devuan_jessie]
-
-[Autoinstall script][autoinstall]
-
-### Source on Windows
-
-Someone needs to complete instructions about [Install from source on Windows][installsource_windows] to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
-
-Somebody should check from Docker website does Linux-based Wekan Docker containers work on Windows. There is also [Docker based development environment for Wekan](https://github.com/wekan/wekan-dev) that is not currently up-to-date, it has been made for faster local Docker builds. See [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile) about what versions of dependencies are used at Wekan.
-
-### Uberspace
-
-[Install on Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
-
-### Heroku 
-
-[![Deploy][heroku_button]][heroku_deploy]
-
-[Heroku deployment quide needed](https://github.com/wekan/wekan/issues/693), [Deploy error](https://github.com/wekan/wekan/issues/638), [Problem with Heroku](https://github.com/wekan/wekan/issues/532)
-
-Email to work on already working Heroku: Use 3rd party email like SendGrid, update process.env.MAIL_URL ,
-change from email at Accounts.emailTeamplates.from , new file in server folder called smtp.js on code
-`Meteor.startup(function () });` . TODO: Test and find a way to use API keys instead.
-
-### Cloud Foundry
-
-[Article from 2016](https://www.cloudfoundry.org/100-day-challenge-082-running-wekan-cloud-foundry/) - probably needs update to use [precompiled Wekan release](https://www.cloudfoundry.org/100-day-challenge-082-running-wekan-cloud-foundry/) ? 
-
-# Not tested yet
-
-* Azure: Install from source or Docker. Azure endpoint needs to be added.
-* OpenShift
-* Google Cloud: Needs info how to enable websockets.
 
 [install_source]: https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source
 [installsource_windows]: https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows
@@ -184,9 +64,3 @@ change from email at Accounts.emailTeamplates.from , new file in server folder c
 [autoinstall]: https://github.com/wekan/wekan-autoinstall
 [autoinstall_issue]: https://github.com/anselal/wekan/issues/18
 [debian_wheezy_devuan_jessie]: https://github.com/wekan/sps
-
-# More
-
-[Features](https://github.com/wekan/wekan/wiki/Features)
-
-[Integrations](https://github.com/wekan/wekan/wiki/Integrations)
