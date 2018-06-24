@@ -43,7 +43,7 @@
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 
-# <a name="Platforms"></a>Platforms: Supported by xet7
+# <a name="Platforms"></a>Platforms
 
 * [Platforms](https://github.com/wekan/wekan/wiki/Platforms): Supported by xet7, Operating Systems, NAS, Cloud
 
