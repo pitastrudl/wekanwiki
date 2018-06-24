@@ -19,7 +19,6 @@
 
 * [Security Disclosure and details of Security in Wekan](https://github.com/wekan/wekan/blob/devel/SECURITY.md)
 * [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
-* [Webhook and CA](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
 
 ## <a name="Features"></a>Features
 
@@ -36,19 +35,9 @@
 * [Demo](https://wekan.indie.host/b/t2YaGmyXgNkppcFBq/wekan-fork-roadmap)
 * [Swimlane Documentation](https://github.com/wekan/wekan/wiki/Swimlanes)
 
-## API
+## <a name="Migrating"></a>Migrating
 
-* [REST API Issue](https://github.com/wekan/wekan/issues/1037)
-* [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
-* [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
-* [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
-* [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
-
-## Webhooks
-
-* [Outgoing Webhooks Data](https://github.com/wekan/wekan/wiki/Webhook-data)
-* [Outgoing Webhooks and Let's Encrypt](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
-* Outgoing Webhooks [Original Pull Request](https://github.com/wekan/wekan/pull/1119), [multiple Webhooks](https://github.com/wekan/wekan/pull/1199), [more parameters and response order](https://github.com/wekan/wekan/pull/1263)
+* [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
 
 ## <a name="Platforms"></a>Platforms
 
@@ -84,9 +73,20 @@
 * [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
 * [Traefik and self-signed SSL certs](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
 
-## <a name="Migrating"></a>Migrating
+## API
 
-* [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
+* [REST API Issue](https://github.com/wekan/wekan/issues/1037)
+* [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
+* [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
+* [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
+* [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
+
+## Webhooks
+
+* [Security: Webhook and CA](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
+* [Outgoing Webhooks Data](https://github.com/wekan/wekan/wiki/Webhook-data)
+* [Outgoing Webhooks and Let's Encrypt](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
+* Outgoing Webhooks [Original Pull Request](https://github.com/wekan/wekan/pull/1119), [multiple Webhooks](https://github.com/wekan/wekan/pull/1199), [more parameters and response order](https://github.com/wekan/wekan/pull/1263)
 
 ## <a name="Case-Studies"></a>Case Studies
 
