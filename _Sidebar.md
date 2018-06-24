@@ -1,6 +1,6 @@
 # <a name="Wekan"></a>Wekan
 
-## <a name="General"></a>General
+# <a name="General"></a>General
 
 * [About](https://github.com/wekan/wekan/wiki)
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
@@ -9,18 +9,18 @@
 * [Blog](https://blog.wekan.team)
 * [NOT related to Wekan](https://github.com/wekan/wekan/wiki/NOT-related-to-Wekan)
 
-## <a name="Support"></a>Support priorities for new features and bugfixes
+# <a name="Support"></a>Support priorities for new features and bugfixes
 
 1) [Commercial Support and Bounties](https://wekan.team)
 2) [Community Support](https://github.com/wekan/wekan/issues)
 3) [Debugging](https://github.com/wekan/wekan/wiki/Debugging)
 
-## <a name="Security"></a>Security
+# <a name="Security"></a>Security
 
 * [Security Disclosure and details of Security in Wekan](https://github.com/wekan/wekan/blob/devel/SECURITY.md)
 * [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
 
-## <a name="Features"></a>Features
+# <a name="Features"></a>Features
 
 * [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
@@ -35,15 +35,15 @@
 * [Demo](https://wekan.indie.host/b/t2YaGmyXgNkppcFBq/wekan-fork-roadmap)
 * [Swimlane Documentation](https://github.com/wekan/wekan/wiki/Swimlanes)
 
-## <a name="Migrating"></a>Migrating
+# <a name="Migrating"></a>Migrating
 
 * [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
 
-## <a name="Platforms"></a>Platforms
+# <a name="Platforms"></a>Platforms
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 
-### Supported by xet7
+## Supported by xet7
 
 * [Snap](https://github.com/wekan/wekan/wiki/Snap)
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
@@ -53,24 +53,24 @@
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 
-### SaaS
+## SaaS
 
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
 * [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
 
-### Operating Systems
+## Operating Systems
 
 * [Debian](https://github.com/wekan/wekan/wiki/Debian)
 * [Windows](https://github.com/wekan/wekan/wiki/Windows)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
 
-### NAS
+## NAS
 
 * [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
 
-### Cloud 
+## Cloud 
 
 * [AWS](https://github.com/wekan/wekan/wiki/AWS)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
@@ -81,7 +81,7 @@
 * [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry) ?
 * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift) ?
 
-## <a name="Webservers"></a>Webservers
+# <a name="Webservers"></a>Webservers
 
 * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
@@ -90,7 +90,7 @@
 * [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
 * [Traefik and self-signed SSL certs](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
 
-## API
+# API
 
 * [REST API Issue](https://github.com/wekan/wekan/issues/1037)
 * [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
@@ -98,18 +98,18 @@
 * [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
 * [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
 
-## Webhooks
+# Webhooks
 
 * [Security: Webhook and CA](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
 * [Outgoing Webhooks Data](https://github.com/wekan/wekan/wiki/Webhook-data)
 * [Outgoing Webhooks and Let's Encrypt](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
 * Outgoing Webhooks [Original Pull Request](https://github.com/wekan/wekan/pull/1119), [multiple Webhooks](https://github.com/wekan/wekan/pull/1199), [more parameters and response order](https://github.com/wekan/wekan/pull/1263)
 
-## <a name="Case-Studies"></a>Case Studies
+# <a name="Case-Studies"></a>Case Studies
 
 * [Implementing GDPR](https://github.com/wekan/wekan/wiki/GDPR)
 
-## <a name="Development"></a>Development
+# <a name="Development"></a>Development
 
 * [Debugging](https://github.com/wekan/wekan/wiki/Debugging)
 * [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
