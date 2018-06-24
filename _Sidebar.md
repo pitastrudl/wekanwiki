@@ -39,11 +39,11 @@
 
 * [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
 
-# <a name="Platforms"></a>Settings
+# <a name="Settings"></a>Settings
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 
-## Platforms: Supported by xet7
+# <a name="Platforms"></a>Platforms: Supported by xet7
 
 * [Snap](https://github.com/wekan/wekan/wiki/Snap)
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
