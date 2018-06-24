@@ -42,28 +42,44 @@
 ## <a name="Platforms"></a>Platforms
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
-* **[Snap](https://github.com/wekan/wekan/wiki/Snap)**
-* **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)**
+
+### Supported by xet7
+
+* [Snap](https://github.com/wekan/wekan/wiki/Snap)
+* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+* [Source](https://github.com/wekan/wekan/wiki/Source)
+* [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
+
+### SaaS
+
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
+* [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
+
+### Operating Systems
+
 * [Debian](https://github.com/wekan/wekan/wiki/Debian)
 * [Windows](https://github.com/wekan/wekan/wiki/Windows)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
+
+### NAS
+
 * [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
-* [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
-* [Heroku](https://github.com/wekan/wekan/wiki/Heroku)
-* [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry)
+
+### Cloud 
+
 * [AWS](https://github.com/wekan/wekan/wiki/AWS)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
+* [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
 * [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
-* [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud)
-* [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
-* [Proxy](https://github.com/wekan/wekan/issues/1480)
-* [Source](https://github.com/wekan/wekan/wiki/Source)
+* [Heroku](https://github.com/wekan/wekan/wiki/Heroku) ?
+* [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud) ?
+* [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry) ?
+* [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift) ?
 
 ## <a name="Webservers"></a>Webservers
 
