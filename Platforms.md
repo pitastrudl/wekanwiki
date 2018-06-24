@@ -1,3 +1,7 @@
+## <a name="Settings"></a>Settings
+
+* [Settings](https://github.com/wekan/wekan/wiki/Settings)
+
 ## <a name="Supported"></a>Supported by xet7
 
 * [Snap](https://github.com/wekan/wekan/wiki/Snap)
