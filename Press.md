@@ -26,12 +26,6 @@
 
 * [Hacker News 2017-08-17 Wekan: An open-source Trello-like kanban](https://news.ycombinator.com/item?id=15039587) - has comments by xet7, current maintainer of Wekan
 
-### Upcoming Wekan Platforms
-
-* [EthKan](https://github.com/EthKan)
-
-* [Friend](https://github.com/wekan/wekan/wiki/Friend)
-
 ### YouTube
 
 Maxime Quandalle, original author of Wekan
@@ -39,6 +33,12 @@ Maxime Quandalle, original author of Wekan
 * [Wekan: The Open-Source Trello-like Kanban 2015-12-03](https://www.youtube.com/watch?v=N3iMLwCNOro)
 
 * [Wekan (ex-LibreBoard= - OuiShare Labs Camp #3](https://www.youtube.com/watch?v=iTQt8YitlMA)
+
+### Upcoming
+
+* [EthKan](https://github.com/EthKan)
+
+* [Friend](https://github.com/wekan/wekan/wiki/Friend)
 
 # In Spanish
 
