@@ -62,9 +62,9 @@
 ## Platforms: Operating Systems
 
 * [Debian](https://github.com/wekan/wekan/wiki/Debian)
-* [Windows](https://github.com/wekan/wekan/wiki/Windows)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
+* [Windows](https://github.com/wekan/wekan/wiki/Windows)
 
 ## Platforms: NAS
 
