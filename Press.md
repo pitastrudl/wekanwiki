@@ -26,37 +26,11 @@
 
 * [Hacker News 2017-08-17 Wekan: An open-source Trello-like kanban](https://news.ycombinator.com/item?id=15039587) - has comments by xet7, current maintainer of Wekan
 
-### News about upcoming Wekan at Friend
+### Upcoming Wekan Platforms
 
-* [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f), you can [discuss at Hacker News](https://news.ycombinator.com/item?id=16240639)
+* [EthKan](https://github.com/EthKan)
 
-* [Upcoming GitHub repo for Wekan FriendUPApp](https://github.com/wekan/FriendUPApp) and [Friend Open Source](https://friendup.cloud/open-source/) and [Friend repo](https://github.com/FriendUPCloud/friendup)
-
-### News about Friend in general
-
-* [Friend Website](https://friendup.cloud)
-
-* [Video of Friend Desktop walkthrough](https://www.youtube.com/watch?v=PX-74ooqino)
-
-* [Friend Network and Friend Store questions answered](https://medium.com/friendupcloud/friend-network-and-friend-store-questions-answered-56fefff5506a)
-
-* [How Friend Store unifies Blockchain projects](https://medium.com/friendupcloud/how-friend-store-unifies-blockchain-projects-d3a889874bec)
-
-* [Video of Friend Talk at Blockchangers Event - Oslo 2018](https://www.youtube.com/watch?v=7AsSlFenRwQ)
-
-* [Video of Friend talk at DeveloperWeek 2018](https://medium.com/friendupcloud/video-of-our-talk-at-developerweek-2018-e9b10246a92f)
-
-* [Video review about Friend ICO](https://www.youtube.com/watch?v=LP7r_jrVfXQ), video has note that some corrections to that video details are at Friend website.
-
-* [FriendUp Launches TGE, Meeting Norwegian Values of Ethical Business and Transparency](https://www.coinspeaker.com/2018/02/23/friendup-launches-tge-meeting-norwegian-values-ethical-business-transparency/)
-
-* [Friend announces partnership with Hove Medical Systems AS](https://friendup.cloud/friend-hove-medical-partnership/)
-
-* [Friend interview at FLOSS450](https://twit.tv/shows/floss-weekly/episodes/450)
-
-### News about Gogs/Gitea
-
-* [Gitea: Open source, self-hosted GitHub alternative](https://news.ycombinator.com/item?id=17006503)
+* [Friend](https://github.com/wekan/wekan/wiki/Friend)
 
 ### YouTube
 
