@@ -4,9 +4,9 @@
 
 ## Backup and Restore
 
-* [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
+[Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 
-* [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
+[Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
 
 ## Docker Compose
 
@@ -20,11 +20,11 @@ TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring
 
 ## SLES
 
-* [SLES SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+[SLES SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 
 ## Rancher
 
-* [Rancher Rancher Active Proxy](https://github.com/wekan/wekan/wiki/Rancher---Rancher-Active-Proxy---Wekan-MongoDB-Docker)
+[Rancher Rancher Active Proxy](https://github.com/wekan/wekan/wiki/Rancher---Rancher-Active-Proxy---Wekan-MongoDB-Docker)
 
 ## Testing
 
