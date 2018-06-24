@@ -1,5 +1,9 @@
 ## Virtual Appliance by xet7
 
+### Build scripts
+
+[Scripts from virtual appliance](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox), can be used on any Ubuntu 14.04 64bit or Debian 9 or newer install like native or VM. Includes script how to run Node.js on port 80.
+
 ### Wekan Meteor 1.4 and Node.js v4.x version on Ubuntu 14.04 64bit desktop, Gnome fallback, in VirtualBox
 
 - Ubuntu 14.04 64bit desktop with latest updates.
