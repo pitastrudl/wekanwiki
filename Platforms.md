@@ -11,6 +11,7 @@
 * [Source](https://github.com/wekan/wekan/wiki/Source)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
+* Upcoming: [EthKan](https://github.com/EthKan)
 * Upcoming: [Friend](https://github.com/wekan/wekan/wiki/Friend)
 
 ## SaaS
