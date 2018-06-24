@@ -2,6 +2,12 @@
 
 [Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
 
+## Backup and Restore
+
+* [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
+
+* [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
+
 ## Docker Compose
 
 [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
@@ -33,6 +39,11 @@ TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring
 ## External MongoDB auth
 
 [External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
+
+## Admin Panel
+
+First registered Wekan user will get Admin Panel on new Docker and source based
+installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
 
 ## Quay
 
@@ -103,22 +114,16 @@ echo 'USE_EDGE=true' >> .env && \
 sudo docker-compose up -d --build
 ```
 
-## Other resources
+## Docker env for Wekan dev
 
-First registered Wekan user will get Admin Panel on new Docker and source based
-installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
-
-* [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
-* [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
-* [Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
-* [Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb)
-* [External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
-* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
-* [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL](https://github.com/wekan/wekan-postgresql)
 * [Docker environment for Wekan Development](https://github.com/wekan/wekan-dev)
-* [Docker on SLES12SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
-* [Install Wekan Docker for testing. Test mail server. Show mails with a Docker image, without mail configuration](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-for-testing).
-* [Install Wekan Docker in production](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-in-production)
+
+## Alpine, needs testing
+
+* [Docker Compose: Alpine Linux and Wekan <=> MongoDB](https://github.com/wekan/wekan-launchpad)
+
+## Webserver Config
+
 * [Caddy Webserver Config](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [Nginx Webserver Config](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
-* [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
+* [Apache Webserver Config](https://github.com/wekan/wekan/wiki/Apache)
