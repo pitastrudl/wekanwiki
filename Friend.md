@@ -30,9 +30,11 @@ IRC at Freenode #friendup
 
 [Friend bounties](https://friendup.tech/page/bounties.html)
 
-## News
+## News about upcoming Wekan at Friend
 
-* [With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f)
+* [Medium 2018-01-26: With Friend Wekan!](https://medium.com/friendupcloud/with-friend-wekan-707af8d04d9f), you can [discuss at Hacker News](https://news.ycombinator.com/item?id=16240639)
+
+## News about Friend
 
 * [Video of Friend Desktop walkthrough](https://www.youtube.com/watch?v=PX-74ooqino)
 
