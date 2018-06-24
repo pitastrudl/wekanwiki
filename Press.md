@@ -34,7 +34,7 @@ Maxime Quandalle, original author of Wekan
 
 * [Wekan (ex-LibreBoard= - OuiShare Labs Camp #3](https://www.youtube.com/watch?v=iTQt8YitlMA)
 
-### Upcoming
+### Upcoming Wekan Platforms
 
 * [EthKan](https://github.com/EthKan)
 
