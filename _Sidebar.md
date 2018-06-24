@@ -70,6 +70,7 @@
 * [AWS](https://github.com/wekan/wekan/wiki/AWS)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
 * [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
+* [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud)
 * [List of Platforms](https://github.com/wekan/wekan/wiki/Platforms)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Source](https://github.com/wekan/wekan/wiki/Source)
