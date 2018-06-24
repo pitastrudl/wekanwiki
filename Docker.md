@@ -1,14 +1,36 @@
+## DockerBunker: Easy Docker management
+
+[Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
+
+## Docker Compose
+
+[Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
+
+[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb). Well documented docker-compose.yml file has info about using same MongoDB database for office and VPN users.
+
+[Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
+
+TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
+
+## AWS
+
+[Production setup for thousands of users with Docker at AWS](https://github.com/wekan/wekan/wiki/AWS)
+
+## External MongoDB auth
+
+[External MongoDB authentication](https://github.com/wekan/wekan/issues/1375)
+
 ## Quay
 
 [![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
 
-Example for Wekan v0.97:
+Example for Wekan v1.07:
 ```
 docker run -d --restart=always --name wekan-db mongo:3.2.20
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v0.97
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v1.07
 ```
 For latest development version, use without tag:
 ```
@@ -56,7 +78,7 @@ sudo docker-compose up -d --build
 
 - Build with newer Node version:
 ```
-echo 'NODE_VERSION=v6.8.1' >> .env && \
+echo 'NODE_VERSION=v8.11.1' >> .env && \
 sudo docker-compose up -d --build
 ```
 
