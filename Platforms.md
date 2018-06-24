@@ -22,10 +22,14 @@
 
 ## Operating Systems
 
-* [Debian](https://github.com/wekan/wekan/wiki/Debian)
+* [Windows](https://github.com/wekan/wekan/wiki/Windows)
+* [Mac](https://github.com/wekan/wekan/wiki/Mac)
+* [Debian 64bit](https://github.com/wekan/wekan/wiki/Debian)
+* [Ubuntu 64bit](https://github.com/wekan/wekan-snap/wiki/Install)
+* [CentOS 7 64bit](https://github.com/wekan/wekan-snap/wiki/Install)
+* [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
-* [Windows](https://github.com/wekan/wekan/wiki/Windows)
 
 ## NAS
 
