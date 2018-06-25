@@ -23,7 +23,7 @@
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only. Source, Snap, Docker, Sandstorm, Meteor bundle and Windows build instructions.
-* Meteor Bundle
+* [Meteor Bundle](https://github.com/wekan/wekan/wiki/Meteor-bundle)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming: [EthKan](https://github.com/EthKan)
