@@ -2,6 +2,7 @@
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
+* [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 
 ## <a name="Supported"></a>Supported by xet7
