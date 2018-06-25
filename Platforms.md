@@ -1,4 +1,4 @@
-Downloading and installing Wekan.
+Downloading and installing Wekan on various 64bit platforms.
 
 ## Related 
 
@@ -31,8 +31,11 @@ Downloading and installing Wekan.
 * [Meteor Bundle](https://github.com/wekan/wekan/wiki/Meteor-bundle)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
-* Upcoming: [EthKan](https://github.com/EthKan)
-* Upcoming: [Friend](https://github.com/wekan/wekan/wiki/Friend)
+* Upcoming:
+  * [EthKan](https://github.com/EthKan)
+  * [Friend](https://github.com/wekan/wekan/wiki/Friend)
+  * [arm64](https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html)
+  * [Snap for other processor architectures](https://github.com/wekan/wekan-snap/issues/46)
 
 ## SaaS
 
