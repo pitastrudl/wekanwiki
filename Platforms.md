@@ -1,8 +1,8 @@
 ## Related 
 
-* [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
+* [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 
 ## <a name="Supported"></a>Supported by xet7
 
