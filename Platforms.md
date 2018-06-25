@@ -4,7 +4,7 @@
 
 ## <a name="Supported"></a>Supported by xet7
 
-* [Snap](https://github.com/wekan/wekan/wiki/Snap)
+* [Snap](https://github.com/wekan/wekan/wiki/Snap) on Linux 64bit
   * Debian, Ubuntu and Linux Mint based distros
   * Arch
   * Fedora
@@ -14,7 +14,7 @@
   * Manjaro
   * Elementary OS
   * CentOS 7
-* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
+* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) on Debian 64bit, Ubuntu 64bit and SaaS
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
   * [Windows](https://github.com/wekan/wekan/wiki/Windows)
   * [Mac](https://github.com/wekan/wekan/wiki/Mac)
