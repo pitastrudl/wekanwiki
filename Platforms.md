@@ -1,6 +1,7 @@
 ## Related 
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
+* [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
 * [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
