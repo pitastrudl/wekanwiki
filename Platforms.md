@@ -20,7 +20,7 @@
   * [Mac](https://github.com/wekan/wekan/wiki/Mac)
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
-* [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only
+* [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only. Source, Snap, Docker, Sandstorm, Meteor bundle and Windows build instructions.
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming: [EthKan](https://github.com/EthKan)
@@ -28,6 +28,7 @@
 
 ## SaaS
 
+* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
 * [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
