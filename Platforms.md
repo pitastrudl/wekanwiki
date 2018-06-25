@@ -1,3 +1,5 @@
+Downloading and installing Wekan.
+
 ## Related 
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
