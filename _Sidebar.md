@@ -20,7 +20,7 @@
 * [Security Disclosure and details of Security in Wekan](https://github.com/wekan/wekan/blob/devel/SECURITY.md)
 * [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
 
-# Backup and Restore
+# Backup
 
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
 
