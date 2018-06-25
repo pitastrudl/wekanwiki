@@ -13,7 +13,7 @@
   * Gentoo
   * Manjaro
   * Elementary OS
-  * CentOS 7
+  * CentOS 7 . [Troubleshooting CentOS 7](https://github.com/wekan/wekan/issues/718)
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) on Debian 64bit, Ubuntu 64bit and SaaS
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
   * [Windows](https://github.com/wekan/wekan/wiki/Windows)
