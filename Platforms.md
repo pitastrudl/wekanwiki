@@ -20,7 +20,7 @@
   * [Mac](https://github.com/wekan/wekan/wiki/Mac)
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
-* [Source](https://github.com/wekan/wekan/wiki/Source)
+* [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming: [EthKan](https://github.com/EthKan)
