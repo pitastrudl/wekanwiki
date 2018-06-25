@@ -60,6 +60,7 @@ Downloading and installing Wekan on various 64bit platforms.
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
 * [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
 * [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
+* [OpenVZ](https://github.com/wekan/wekan/wiki/OpenVZ)
 * [Heroku](https://github.com/wekan/wekan/wiki/Heroku) ?
 * [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud) ?
 * [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry) ?
