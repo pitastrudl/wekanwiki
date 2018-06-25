@@ -1,10 +1,16 @@
+[Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
+
 ## <a name="Settings"></a>Settings
 
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 
+## Backup
+
+* [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
+
 ## <a name="Supported"></a>Supported by xet7
 
-* [Snap](https://github.com/wekan/wekan/wiki/Snap) on Linux 64bit
+* [Snap](https://github.com/wekan/wekan/wiki/Snap) on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
   * Debian, Ubuntu and Linux Mint based distros
   * Arch
   * Fedora
@@ -21,6 +27,7 @@
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only. Source, Snap, Docker, Sandstorm, Meteor bundle and Windows build instructions.
+* Meteor Bundle
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming: [EthKan](https://github.com/EthKan)
