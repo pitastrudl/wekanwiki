@@ -5,8 +5,20 @@
 ## <a name="Supported"></a>Supported by xet7
 
 * [Snap](https://github.com/wekan/wekan/wiki/Snap)
+  * Debian, Ubuntu and Linux Mint based distros
+  * Arch
+  * Fedora
+  * Solus
+  * OpenSUSE
+  * Gentoo
+  * Manjaro
+  * Elementary OS
+  * CentOS 7
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
+  * [Windows](https://github.com/wekan/wekan/wiki/Windows)
+  * [Mac](https://github.com/wekan/wekan/wiki/Mac)
+  * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * [Source](https://github.com/wekan/wekan/wiki/Source)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
@@ -22,12 +34,7 @@
 
 ## Operating Systems
 
-* [Windows](https://github.com/wekan/wekan/wiki/Windows)
-* [Mac](https://github.com/wekan/wekan/wiki/Mac)
 * [Debian 64bit](https://github.com/wekan/wekan/wiki/Debian)
-* [Ubuntu 64bit](https://github.com/wekan/wekan-snap/wiki/Install)
-* [CentOS 7 64bit](https://github.com/wekan/wekan-snap/wiki/Install)
-* [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
 
