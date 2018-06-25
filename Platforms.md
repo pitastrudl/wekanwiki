@@ -3,7 +3,7 @@ Downloading and installing Wekan on various platforms.
 ## Related 
 
 * [Wekan new release ChangeLog](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
-* [Settings](https://github.com/wekan/wekan/wiki/Settings) - REQUIRED: ROOT-URL, etc
+* [Settings](https://github.com/wekan/wekan/wiki/Settings)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
 * [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
