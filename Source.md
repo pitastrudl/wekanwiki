@@ -34,3 +34,65 @@ Docker:
 
 Wekan on Windows:
 - [Docker, Windows Subsystem for Linux, and compile from source on Windows](https://github.com/wekan/wekan/wiki/Windows)
+
+### (Optional) Run Wekan as service with startup script
+
+[Build from source scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox) - from there run node-allow-port-80.sh and add etc-rc.local.txt before last line in your /etc/rc.local
+
+### (Optional) Run Wekan as service with SystemD on Linux
+
+Add to to /etc/systemd/system/wekan@.service
+
+```bash
+; see `man systemd.unit` for configuration details
+; the man section also explains *specifiers* `%x`
+; update <username> with username below
+
+[Unit]
+Description=Wekan server %I
+Documentation=https://github.com/wekan/wekan
+After=network-online.target
+Wants=network-online.target
+Wants=systemd-networkd-wait-online.service
+
+[Service]
+ExecStart=/usr/local/bin/node /home/<username>/repos/wekan/.build/bundle/main.js
+Restart=on-failure
+StartLimitInterval=86400
+StartLimitBurst=5
+RestartSec=10
+ExecReload=/bin/kill -USR1 $MAINPID
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=Wekan
+User=<username>
+Group=<username>
+Environment=NODE_ENV=production
+Environment=PWD=/home/<username>/repos/wekan/.build/bundle
+Environment=PORT=3000
+Environment=HTTP_FORWARDED_COUNT=1
+Environment=MONGO_URL=mongodb://127.0.0.1:27017/admin
+; https://example.com/wekan for deployment
+Environment=ROOT_URL=http://localhost/wekan
+Environment=MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+#### To start Wekan and enable service, change to your username where Wekan files are:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start wekan@<username>
+sudo systemctl enable wekan@<username>
+```
+
+#### To stop Wekan and disable service, change to your username where Wekan files are:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl stop wekan@<username>
+sudo systemctl disable wekan@<username>
+```
+Checkout instructions for setup with [[Caddy Webserver Config]] and [[Nginx Webserver Config]] respectively.
