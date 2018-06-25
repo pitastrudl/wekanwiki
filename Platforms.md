@@ -1,11 +1,7 @@
-[Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
+## Related 
 
-## <a name="Settings"></a>Settings
-
+* [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
-
-## Backup
-
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
 
 ## <a name="Supported"></a>Supported by xet7
