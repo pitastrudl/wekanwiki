@@ -26,3 +26,9 @@ echo "Backup is also archived to .zip file backups/${now}.zip"
 [Snap Backup and Restore](https://github.com/wekan/wekan-snap/wiki/Backup-and-restore)
 
 [Wekan Snap upgrade](https://github.com/wekan/wekan-snap/wiki/Install#5-install-all-snap-updates-automatically-between-0200am-and-0400am)
+
+## Sandstorm Backup
+
+Download Wekan grain with arrow down download button to .zip file. You can restore it later.
+
+[Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
