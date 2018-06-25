@@ -27,3 +27,6 @@ Docker:
 - `cd wekan`
 - Edit docker-compose.yml script ROOT_URL etc like documented at https://github.com/wekan/wekan-mongodb docker-compose.yml script
 - `docker-compose up -d --build`
+
+Wekan on Windows
+- [Docker, Windows Subsystem for Linux, and compile from source on Windows](https://github.com/wekan/wekan/wiki/Windows)
