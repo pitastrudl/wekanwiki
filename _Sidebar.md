@@ -20,6 +20,10 @@
 * [Security Disclosure and details of Security in Wekan](https://github.com/wekan/wekan/blob/devel/SECURITY.md)
 * [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
 
+# Backup and Restore
+
+* [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
+
 # <a name="Features"></a>Features
 
 * [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
@@ -28,12 +32,18 @@
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Fix Export board menu not visible on some boards](https://github.com/wekan/wekan/issues/1060)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
-* [Backups](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
-* [Logs](https://github.com/wekan/wekan/wiki/Logs)
-* [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 * [Demo](https://wekan.indie.host/b/t2YaGmyXgNkppcFBq/wekan-fork-roadmap)
 * [Swimlane Documentation](https://github.com/wekan/wekan/wiki/Swimlanes)
+
+# Email
+
+* [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
+
+# Logs and Stats
+
+* [Logs](https://github.com/wekan/wekan/wiki/Logs)
+* [Stats](https://github.com/wekan/wekan/wiki/Features#stats)
 
 # <a name="Migrating"></a>Migrating
 
