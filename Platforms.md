@@ -2,10 +2,10 @@ Downloading and installing Wekan on various 64bit platforms.
 
 ## Related 
 
+* [Wekan new release ChangeLog](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
-* [Wekan new release ChangeLog](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
 * [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 
