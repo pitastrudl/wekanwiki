@@ -2,17 +2,31 @@
 
 [Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
 
-## Backup and Restore
+## Backup and Upgrade
 
 [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
 
 [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
 
-## Docker Compose
+[Backup and Upgrade](https://github.com/wekan/wekan-mongodb#backup-before-upgrading)
+
+Quay: `image: quay.io/wekan/wekan:v1.07`
+Docker Hub: maybe is broken.
+
+Based on Debian 10, Docker image at Quay.io Docker reqistry
+
+
+[Wekan for Docker bug reports and feature requests](https://github.com/wekan/wekan-mongodb/issues)
+
+## Cleanup
 
 [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
 
-[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb). Well documented docker-compose.yml file has info about using same MongoDB database for office and VPN users.
+[Cleanup scripts to remove old data](https://github.com/wekan/wekan-cleanup)
+
+## Docker Compose
+
+[Docker Compose: Wekan <=> MongoDB](https://github.com/wekan/wekan-mongodb). REQUIRED: READ AND ADD SETTINGS LIKE ROOT_URL ETC TO docker-compose.yml textfile. It also has info about using same MongoDB database for office and VPN users.
 
 [Docker Compose: Wekan <=> MongoDB <=> ToroDB => PostgreSQL read-only mirroring](https://github.com/wekan/wekan-postgresql)
 
