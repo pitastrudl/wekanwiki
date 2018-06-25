@@ -1,4 +1,4 @@
-Downloading and installing Wekan on various 64bit platforms.
+Downloading and installing Wekan on various platforms.
 
 ## Related 
 
