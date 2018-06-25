@@ -55,7 +55,7 @@
 
 # <a name="Platforms"></a>Download
 
-* [Download for various Platforms](https://github.com/wekan/wekan/wiki/Platforms): Supported by xet7, Operating Systems, NAS, Cloud
+* [Download Wekan for various Platforms](https://github.com/wekan/wekan/wiki/Platforms): Supported by xet7, Operating Systems, NAS, Cloud
 
 # <a name="Webservers"></a>Webservers
 
