@@ -1,5 +1,17 @@
 ## Virtual Appliance by xet7
 
+Requirements: [VirtualBox version 5.2.12 or newer](https://www.virtualbox.org/). Old versions of VirtualBox are not compatible. Both of these have username: wekan , password: wekan , Network Bridged mode so VM has separate IP address so you can also ssh to it.
+
+[Wekan for VirtualBox bug reports and feature requests](https://github.com/wekan/wekan/issues)
+
+a) For general Wekan usage: Only Wekan and building it from source in Ubuntu 14.04 64bit VM. 
+
+wekan-VERSION.ova at https://releases.wekan.team
+
+b) For Developers, only this one Wekan-Sandstorm.ova needed for all development: for compiling Wekan, Sandstorm, Wekan for Sandstorm, etc, all. Also has Snap, Docker, Firefox, Chrome, Visual Studio Code with Meteor.js additions, GHex hex editor, etc. Based on Debian 9 64bit. Also see https://github.com/sandstorm-io/sandstorm/issues/3047#issuecomment-369002784 about what dependencies were installed for compiling Sandstorm, although after that dependencies have been changed to [automatically download up-to-date Clang from Chromium project](https://github.com/sandstorm-io/sandstorm/commit/4463c3f52093de8f0c546c93cd55a7bb556aa9d7), so it's easier to compile Sandstorm also on Ubuntu, without using Clang ppa.
+
+Wekan-Sandstorm-VERSION.ova at https://releases.wekan.team
+
 ### Build scripts
 
 [Scripts from virtual appliance](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox), can be used on any Ubuntu 14.04 64bit or Debian 9 or newer install like native or VM. Includes script how to run Node.js on port 80.
