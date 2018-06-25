@@ -24,7 +24,7 @@ Wekan-Sandstorm-VERSION.ova at https://releases.wekan.team
 
 ### Download
 
-https://releases.wekan.team
+.ova files can be downloaded at https://releases.wekan.team
 
 VirtualBox .ova file contains harddisk image that has current size of 16 GB and maximum growable size of 500GB.
 
