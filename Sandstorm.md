@@ -15,7 +15,7 @@
 
 Wekan at [experimental](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h?experimental=true) or [official](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h) Sandstorm App Market
 
-[Newest Wekap app .spk file download](https://releases.wekan.team)
+Newest Wekap app .spk file download at https://releases.wekan.team
 
 ## Bug reports and Feature Requests
 
