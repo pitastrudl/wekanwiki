@@ -6,7 +6,7 @@ Requirements: [VirtualBox version 5.2.12 or newer](https://www.virtualbox.org/).
 
 a) For general Wekan usage: Only Wekan and building it from source in Ubuntu 14.04 64bit VM. 
 
-wekan-VERSION.ova at https://releases.wekan.team
+Download wekan-VERSION.ova at https://releases.wekan.team
 
 b) For Developers, only this one Wekan-Sandstorm.ova needed for all development: for compiling Wekan, Sandstorm, Wekan for Sandstorm, etc, all. Also has Snap, Docker, Firefox, Chrome, Visual Studio Code with Meteor.js additions, GHex hex editor, etc. Based on Debian 9 64bit. Also see https://github.com/sandstorm-io/sandstorm/issues/3047#issuecomment-369002784 about what dependencies were installed for compiling Sandstorm, although after that dependencies have been changed to [automatically download up-to-date Clang from Chromium project](https://github.com/sandstorm-io/sandstorm/commit/4463c3f52093de8f0c546c93cd55a7bb556aa9d7), so it's easier to compile Sandstorm also on Ubuntu, without using Clang ppa.
 
@@ -22,9 +22,9 @@ Wekan-Sandstorm-VERSION.ova at https://releases.wekan.team
 - Wekan installed from source.
 - Includes VirtualBox Guest Additions.
 
-### Download mirrors
+### Download
 
-[https://github.com/wekan/wekan/releases](https://github.com/wekan/wekan/releases)
+https://releases.wekan.team
 
 VirtualBox .ova file contains harddisk image that has current size of 16 GB and maximum growable size of 500GB.
 
