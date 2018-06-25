@@ -1,6 +1,32 @@
-Automatic generated newest builds are available for Docker, and platforms that
-install directly from this repo. Automatic builds will be added later for more
-platforms.
+## Standalone Wekan Settings: Snap, Docker, Source etc (not Sandstorm)
+
+Examples:
+
+1) nginx SSL or without SSL, available at internet:
+- root-url='https://example.com'   or https://example.com/something or https://something.example.com , or with http
+- port='3001'
+- [Nginx example, proxying to local port 3001](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
+=> Wekan at https://example.com
+
+2) only wekan, no SSL, internal lan, caddy not enabled:
+- root-url='http://192.168.1.150'
+- port='80'
+=> Wekan locally http://192.168.1.150
+
+3) only wekan, no SSL, internal lan, caddy not enabled, wekan at different port:
+- root-url='http://192.168.1.150:5000'
+- port='5000'
+=> Wekan locally http://192.168.1.150:5000
+
+4) wekan's caddy SSL, available at Internet:
+- root-url='https://example.com'   or https://example.com/something or https://something.example.com
+- port='3001'
+- [Caddyfile example](https://github.com/wekan/wekan-snap/wiki/Install#7-replace-first-top-line-of-text-with-subdomainexamplecomsuburl-without-any-beginning-of-httphttps)
+=> Wekan at https://example.com
+
+Wekan runs http server on local port, so it is without SSL. To get SSL, some webserver like Caddy and Nginx that have SSL, can proxy to local Wekan http port where node.js runs.
+
+## Admin Panel
 
 First registered Wekan user will get [Admin Panel](https://github.com/wekan/wekan/wiki/Features) on new
 Docker and source based installs. You can also on MongoDB 
