@@ -8,6 +8,10 @@ Wekan:
 - On any x64 hardware that has Ubuntu 14.04 or Debian 9 or newer installed directly or in VM:
 [Build from source scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox)
 
+Wekan Meteor Bundle:
+1. [Build from source scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox) built on [Wekan VirtualBox Ubuntu 14.04 64bit](https://github.com/wekan/wekan/wiki/virtual-appliance)
+2. Copy arhive directory wekan/.build/bundle to .zip file so it includes bundle directory and subdirectories as wekan-1.xx.tar.gz
+
 Wekan for Sandstorm:
 - Install above Wekan from source
 - Install [Sandstorm locally](https://sandstorm.io/install) with `curl https://install.sandstorm.io | bash`, select dev install
