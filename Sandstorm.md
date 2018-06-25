@@ -11,7 +11,7 @@
 - Keep backups. Download your Wekan grains.
 - Importing boards have [data loss issue: Board not Found](https://github.com/wekan/wekan/issues/1430), it was also broken before this version. In that case, you can try to  [Export from Wekan Sandstorm grain .zip file to rescue data](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
-## Wekan APp
+## Wekan App
 
 Wekan at [experimental](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h?experimental=true) or [official](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h) Sandstorm App Market
 
