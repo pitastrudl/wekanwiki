@@ -41,6 +41,8 @@ Wekan on Windows:
 
 ### (Optional) Run Wekan as service with SystemD on Linux
 
+This may need testing, does this work.
+
 Add to to /etc/systemd/system/wekan@.service
 
 ```bash
