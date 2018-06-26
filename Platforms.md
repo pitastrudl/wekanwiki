@@ -26,7 +26,7 @@ Downloading and installing Wekan on various platforms.
 
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) on Debian 64bit, Ubuntu 64bit and SaaS
 
-## <a name"Development"></>Development: Only for internal network, not updated automatically.
+## <a name="Development"></a>Development: Only for internal network, not updated automatically.
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
   * [Windows](https://github.com/wekan/wekan/wiki/Windows)
   * [Mac](https://github.com/wekan/wekan/wiki/Mac)
