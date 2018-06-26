@@ -9,12 +9,12 @@ Downloading and installing Wekan on various platforms.
 * [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 
-## <a name="Production"></a>Production: Snap for Linux. Automatic Updates. Only Wekan. Supported by xet7.
+## <a name="Production"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Wekan. Supported by xet7.
 
-Import from Trello, and Import/Export Wekan works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap from above. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap (or Docker) work without problems. Requires working websockets.
+Import from Trello, and Import/Export Wekan works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap (or Docker) work without problems. Requires working websockets.
 
-* [Snap](https://github.com/wekan/wekan/wiki/Snap) on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
-  * Debian, Ubuntu and Linux Mint based distros
+* **[Install Snap](https://github.com/wekan/wekan/wiki/Snap)** on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
+  * **Debian, Ubuntu and Linux Mint based distros**
   * Arch
   * Fedora
   * Solus
@@ -27,9 +27,11 @@ Import from Trello, and Import/Export Wekan works. Password auth. Upcoming: LDAP
   * [AWS](https://github.com/wekan/wekan/wiki/AWS)
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
 
-## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Import does not work, needs workarounds. Google/GitHub/LDAP/SAML/Passwordless email login. Supported by xet7.
+## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Supported by xet7.
 
-* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) on Debian 64bit, Ubuntu 64bit and SaaS
+Import does not work, needs workarounds. Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
+
+* **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
 
 ## SaaS: Wekan ready services, just start using. Some have free and paid options.
 
