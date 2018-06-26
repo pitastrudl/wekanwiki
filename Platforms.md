@@ -9,7 +9,7 @@ Downloading and installing Wekan on various platforms.
 * [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 
-## <a name="Supported"></a>Platforms Supported by xet7
+## <a name="Production"></a>Production: Linux. Automatic Updates. Only Wekan. Import from Trello, and Import/Export Wekan works. Password auth. Upcoming: LDAP, OAuth2, etc.
 
 * [Snap](https://github.com/wekan/wekan/wiki/Snap) on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
   * Debian, Ubuntu and Linux Mint based distros
@@ -21,7 +21,12 @@ Downloading and installing Wekan on various platforms.
   * Manjaro
   * Elementary OS
   * CentOS 7
+
+## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Import does not work, needs workarounds. Passwordless email/GitHub/Google/LDAP/SAML login.
+
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) on Debian 64bit, Ubuntu 64bit and SaaS
+
+## <a name"Development"></>Development: Only for internal network, not updated automatically.
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
   * [Windows](https://github.com/wekan/wekan/wiki/Windows)
   * [Mac](https://github.com/wekan/wekan/wiki/Mac)
@@ -37,27 +42,30 @@ Downloading and installing Wekan on various platforms.
   * [arm64](https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html)
   * [Snap for other processor architectures](https://github.com/wekan/wekan-snap/issues/46)
 
-## SaaS
+## SaaS: Ready installed cloud service.
 
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
 * [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
 
-## Operating Systems
+## Operating Systems: For Development only.
 
 * [Debian 64bit](https://github.com/wekan/wekan/wiki/Debian)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
 
-## NAS
+## NAS: For hobby use
 
 * [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
 
-## Cloud 
+## Cloud: Some additional info. Usually for production you just install Ubuntu 18.04 or Debian 9 VM and install Snap from above. Requires KVM/XEN/HyperV VM where Linux kernel 3.x or 4.x or newer works, and also Snap (or Docker) work without problems. Requires working websockets.
 
 * [AWS](https://github.com/wekan/wekan/wiki/AWS)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
+
+## Cloud: Not supported. Requires from source install, has restricted 2.x kernel, does not support websockets, or not tested yet.
+
 * [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
 * [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
 * [OpenVZ](https://github.com/wekan/wekan/wiki/OpenVZ)
