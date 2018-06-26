@@ -22,7 +22,7 @@ Downloading and installing Wekan on various platforms.
   * Elementary OS
   * CentOS 7
 
-## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Import does not work, needs workarounds. Passwordless email/GitHub/Google/LDAP/SAML login.
+## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Import does not work, needs workarounds. Google/GitHub/LDAP/SAML/Passwordless email login.
 
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) on Debian 64bit, Ubuntu 64bit and SaaS
 
