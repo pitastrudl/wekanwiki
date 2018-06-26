@@ -13,7 +13,7 @@ Downloading and installing Wekan on various platforms.
 
 Import from Trello, and Import/Export Wekan works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap (or Docker) work without problems. Requires working websockets.
 
-* **[Install Snap](https://github.com/wekan/wekan/wiki/Snap)** on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
+* **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
   * **Debian, Ubuntu and Linux Mint based distros**
   * Arch
   * Fedora
