@@ -68,7 +68,7 @@ Import does not work, needs workarounds. Google/GitHub/LDAP/SAML/Passwordless em
 
 * [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
 
-## Cloud: Not supported. Requires from source install, has restricted 2.x kernel, does not support websockets, or not tested yet.
+## Other Clouds: Not supported. Requires from source install, has restricted 2.x kernel, does not support websockets, or not tested yet.
 
 * [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
 * [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
