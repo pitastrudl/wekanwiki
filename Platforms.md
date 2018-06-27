@@ -29,7 +29,7 @@ Import from Trello, and Import/Export Wekan works. Copying/Moving card to anothe
 
 ## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Supported by xet7.
 
-Import does not work, needs workarounds. [Copying/Moving card to another board does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
+Import does not work, needs workarounds. Copying/Moving card to another board [does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
 
 * **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
 
