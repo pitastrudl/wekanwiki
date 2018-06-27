@@ -11,7 +11,7 @@ Downloading and installing Wekan on various platforms.
 
 ## <a name="Production"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Wekan. Supported by xet7.
 
-Import from Trello, and Import/Export Wekan works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
+Import from Trello, and Import/Export Wekan works. Copying/Moving card to another board works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
 * **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
   * **Debian, Ubuntu and Linux Mint based distros**
@@ -29,7 +29,7 @@ Import from Trello, and Import/Export Wekan works. Password auth. Upcoming: LDAP
 
 ## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Supported by xet7.
 
-Import does not work, needs workarounds. Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
+Import does not work, needs workarounds. [Copying/Moving card to another board does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
 
 * **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
 
