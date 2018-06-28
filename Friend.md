@@ -4,6 +4,12 @@ Upcoming Wekan platform.
 
 [Friend Website](https://friendup.cloud)
 
+## Chat
+
+[Friend developer chat at Discord](https://discord.gg/HQ93NFG)
+
+IRC at Freenode #friendup
+
 ## Screenshots
 
 [Screenshots of Wekan and Friend](https://blog.wekan.team/2018/05/upcoming-wekan-v1-00-and-platforms/index.html)
@@ -19,12 +25,6 @@ Upcoming Wekan platform.
 [Old Friend demo](https://friendsky.cloud)
 
 [New development v1.2rc1 Friend demo](https://my.friendup.cloud)
-
-## Chat
-
-[Friend developer chat at Discord](https://discordapp.com/channels/459616484369498123/459616484369498131)
-
-IRC at Freenode #friendup
 
 ## Bounties
 
