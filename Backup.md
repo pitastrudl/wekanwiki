@@ -42,7 +42,7 @@ Example crontab (Backup daily at 18:30):
 
 The script automatically deletes backups that are older then the specified value of retention in the yaml file.
 
-This script only outputs something in case of failure. To enable informative output even in case of success, remove all the # before the lines containing "print ...."
+This script outputs the result of the mongodump as you would see it when dumping manually. Otherwise it only outputs something in case of failure. To enable informative output even in case of success, remove all the # before the lines containing "print ...."
 
 ```py
 #!/usr/bin/env python3
