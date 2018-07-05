@@ -11,7 +11,6 @@ Example crontab (Backup daily at 18:30):
 
 Adjust the retention value in the yaml-config file to suit your needs (see example .yml file at the bottom of the page)
 
-I commented all the output when dump is successful. 
 
 ```py
 #!/usr/bin/env python3
