@@ -11,7 +11,7 @@ Example crontab (Backup daily at 18:30):
 
 Adjust the retention value in the yaml-config file to suit your needs (see example .yml file at the bottom of the page)
 
-The output of the script contains the result of the mongodump as you would see it when dumping manually. Otherwise it only outputs something in case of failure. To enable informative output even in case of success, remove all the # before the lines containing "print ...."
+I commented all the output when dump is successful. 
 
 ```py
 #!/usr/bin/env python3
