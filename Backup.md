@@ -34,6 +34,14 @@ Download Wekan grain with arrow down download button to .zip file. You can resto
 [Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
 ## Python Backup Script for Wekan Docker environment
+This backup script is meant to be executed via cronjob. 
+Example crontab (Backup daily at 18:30):
+```sh
+30 18 * * * /usr/local/sbin/wekandump/wekandump.py /usr/local/sbin/wekandump/wekandump.yml > /dev/null 2>&1
+```
+
+The script automatically deletes backups that are older then the specified value of retention in the yaml file.
+
 ```py
 #!/usr/bin/env python3
 
@@ -237,4 +245,14 @@ def main():
 
 if __name__ == "__main__":
   main()
+```
+
+Yaml Config file (Specify the database name, retention in days, backup target path and name of your mongodb-docker-container:
+
+```yml
+dumps:
+    database: wekan #name of the database
+    retention: 14 #number of days of retention
+    path: /var/lib/wekandump/ #name of the target directory for dumps
+    container: wekan-db #name of the docker-container
 ```
