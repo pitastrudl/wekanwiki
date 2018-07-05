@@ -1,7 +1,7 @@
 # Features
 * reads values from config file (db-name, container-name, retention of backups, target-path)
-* 
-
+* executes mongodump and copies it to the host system
+* checks the target backup directory for existing dumps and deletes them if they reached a certain age
 
 This backup script is meant to be executed via cronjob. 
 Example crontab (Backup daily at 18:30):
@@ -9,7 +9,7 @@ Example crontab (Backup daily at 18:30):
 30 18 * * * /usr/local/sbin/wekandump/wekandump.py /usr/local/sbin/wekandump/wekandump.yml > /dev/null 2>&1
 ```
 
-The script automatically deletes backups that are older then the specified value of retention in the yaml file.
+Adjust the retention value in the yaml-config file to suit your needs (see example .yml file at the bottom of the page)
 
 The output of the script contains the result of the mongodump as you would see it when dumping manually. Otherwise it only outputs something in case of failure. To enable informative output even in case of success, remove all the # before the lines containing "print ...."
 
@@ -190,8 +190,8 @@ def getcrtime(item):
   return crtime
 
 def housekeep():
-  #get all filenames located in the dump-directory
-  call = 'ls {}'.format(Config.config('dump_path'))
+  #get all filenames beginning with "dump-" located in the dump-directory
+  call = 'ls {}'.format(os.path.join(Config.config('dump_path'), "dump-*"))
   output = subprocess.check_output(call, universal_newlines=True, shell=True)
   output = output.rstrip()
   dumps = output.split('\n')
