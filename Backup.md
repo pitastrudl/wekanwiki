@@ -42,9 +42,14 @@ Example crontab (Backup daily at 18:30):
 
 The script automatically deletes backups that are older then the specified value of retention in the yaml file.
 
+This script only outputs something in case of failure. To enable informative output even in case of success, remove all the # before the lines containing "print ...."
+
 ```py
 #!/usr/bin/env python3
 
+
+# vim: set fileencoding=utf-8 :
+#various imports
 import os
 import sys
 import subprocess
@@ -59,7 +64,7 @@ import yaml
 import abc
 import shutil
 
-
+#define config class with all required config-parameters
 class Config:
   __conf = {
     "db_name" : '',
@@ -70,6 +75,7 @@ class Config:
     "curdate" : time.strftime('%Y-%m-%d %X')
   }
 
+  #define the parameters that can be set through config file
   __setters = ["db_name", "retention", "dump_path", "container"]
 
   @staticmethod
@@ -83,7 +89,7 @@ class Config:
     else:
       raise NameError("Name not accepted in set() method")
 
-
+#define db class and assign vars
 class Dbms(metaclass=abc.ABCMeta):
   def __init__(self, db_name, container, dump_path):
     self._database = db_name
@@ -96,21 +102,26 @@ class Dbms(metaclass=abc.ABCMeta):
   def dump(self):
     pass
 
+  #function to define filename of the backup-archive
   def getdumpfilename(self):
     return 'dump-{}-{}'.format(self._database, Config.config('start_date'))
 
+#class for the mongodb backup
 class DbmsMongodb(Dbms):
   def dump(self):
+    #command for creating the backup
     call = 'docker exec {} bash -c "mongodump -d {} -o /dump/"'.format(self._container, self._database)
     try:
       output = subprocess.check_output(call, universal_newlines=True, shell=True)
     except subprocess.CalledProcessError as e:
       raise Exception('Mongodump failed due to the following Error: {}'.format(e))
+    #command for copying the backup to the host system
     call = 'docker cp {}:/dump {}'.format(self._container, self._dump_path)
     try:
       output = subprocess.check_output(call, universal_newlines=True, shell=True)
     except subprocess.CalledProcessError as e:
       raise Exception('Pulling dump from container failed due to the following Error: {}'.format(e))
+    #tar the backup-folder
     call = 'tar -C {}/dump -cf {} .'.format(self._dump_path, self._dumpfile + '.tar')
     try:
       output = subprocess.check_output(call, universal_newlines=True, shell=True)
@@ -132,7 +143,7 @@ class Compression(metaclass=abc.ABCMeta):
   def compress(self):
     pass
 
-
+#class for compressing the backup with gzip (this can be interchanged with xz, bzip etc.)
 class CompressionGzip(Compression):
   def compress(self):
     call = 'gzip {}'.format(self._filename)
@@ -157,6 +168,7 @@ def checkpath(path):
   if not os.path.exists(path):
     os.makedirs(path)
 
+#this checks the permissions of the config file (you can leave this part out, just required because of corporate environment)
 def checkpermission(cfg):
   if (os.stat(cfg).st_uid != 0):
     raise Exception("Config file must be owned by user root!")
@@ -181,7 +193,7 @@ def parseInput():
   #Send the specified db-config file to the Configuration-Checker
   config_file = checkcfg(sys.argv[1])
 
-  #Now that both of the config-files have been checked, finally open them
+  #Now that the config-file have been checked, finally open it
   with open(sys.argv[1], 'r') as cfgfile:
     cfg = yaml.safe_load(cfgfile)
 
