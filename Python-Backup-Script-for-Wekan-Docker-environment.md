@@ -240,3 +240,9 @@ dumps:
     path: /var/lib/wekandump/ #name of the target directory for dumps
     container: wekan-db #name of the docker-container
 ```
+
+IMPORTANT:
+* the names of the values in the yml-file shouldn't be changed. If you really need to change them, keep in mind that you also have to alter the script accordingly
+* You need to have PyYAML and Python installed
+* feel free to contact me if you have any issues
+* Disclaimer: I don't take any responsibility for lost data, use with care, especially if you decide to modify the housekeeping-function
