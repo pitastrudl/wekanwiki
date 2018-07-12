@@ -1,3 +1,5 @@
+# Quick install for development / debugging
+
 * Install [nvm](https://github.com/creationix/nvm)
 * `source NVMPATH/nvm.sh` for example `source ~/.nvm/nvm.sh`
 * `nvm install v8.11.3`
@@ -17,3 +19,5 @@ When you get this output, wekan is ready:
 
 => App running at: http://localhost:3000/
 ```
+
+Register new user for administrator
