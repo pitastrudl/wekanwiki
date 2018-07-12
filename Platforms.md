@@ -26,6 +26,7 @@ Import from Trello, and Import/Export Wekan works. Copying/Moving card to anothe
 * Cloud: Some additional info
   * [AWS](https://github.com/wekan/wekan/wiki/AWS)
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
+  * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
 
 ## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Supported by xet7.
 
@@ -76,7 +77,6 @@ Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workar
 * [Heroku](https://github.com/wekan/wekan/wiki/Heroku) ?
 * [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud) ?
 * [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry) ?
-* [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift) ?
 
 # More
 
