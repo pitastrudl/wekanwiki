@@ -9,3 +9,5 @@
 [Wekan for Meteor.js bundle bug reports and feature requests](https://github.com/wekan/wekan/issues)
 
 [Build Meteor bundle from source](https://github.com/wekan/wekan/wiki/Source)
+
+[Install from source without root](https://github.com/wekan/wekan/wiki/Install-from-source-without-root)
