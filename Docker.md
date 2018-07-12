@@ -32,6 +32,10 @@ Based on Debian 10, Docker image at Quay.io Docker reqistry
 
 TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring](https://github.com/torodb/stampede/issues/203)
 
+## OpenShift
+
+[OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
+
 ## SLES
 
 [SLES SP1](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
