@@ -1,6 +1,6 @@
-**Purpose**: Install latest Wekan release on [Uberspace](https://uberspace.de/) and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
+**Purpose**: Install latest Wekan release on [Uberspace](https://uberspace.de/) 6 and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
 
-This script installs Wekan on a fresh Uberspace. It setup Node 4, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.32 and 0.63. 
+This script installs Wekan on a fresh Uberspace 6. It setup Node 4, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.32 and 0.63. 
 
 You have two Options to use it.
 
@@ -22,7 +22,7 @@ Or you can run it automatically.
 ## Usage: ./install_wekan.sh SMTP-password
 ##
 ## Draft
-## Install Wekan (v0.63) on Uberspace by Noodle / Chris
+## Install Wekan (v0.63) on Uberspace 6 by Noodle / Chris
 ## 
 ## Sources: 
 ## https://github.com/wekan/wekan/wiki/Install-and-Update#manual-installation-steps
