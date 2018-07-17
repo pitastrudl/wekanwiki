@@ -1,6 +1,6 @@
 ## Virtual Appliance by xet7
 
-Requirements: [VirtualBox version 5.2.12 or newer](https://www.virtualbox.org/). Old versions of VirtualBox are not compatible. Both of these have username: wekan , password: wekan , Network Bridged mode so VM has separate IP address so you can also ssh to it.
+Requirements: [VirtualBox version 5.2.16 or newer](https://www.virtualbox.org/). Old versions of VirtualBox are not compatible. Both of these have username: wekan , password: wekan , Network Bridged mode so VM has separate IP address so you can also ssh to it.
 
 [Wekan for VirtualBox bug reports and feature requests](https://github.com/wekan/wekan/issues)
 
