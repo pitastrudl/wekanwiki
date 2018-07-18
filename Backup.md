@@ -10,27 +10,27 @@ makeDump()
 
     # Prepares.
     now=$(date +'%Y-%m-%d_%H.%M.%S')
-    mkdir -p /var/backups/wekan/$now
+    mkdir -p /var/backups/wekan/$version-$now
 
     # Targets the dump file.
     dump=$"/snap/wekan/$version/bin/mongodump"
 
     # Makes the backup.
-    cd /var/backups/wekan/$now
-    printf "\nThe backup of the database is starting.\n\n"
+    cd /var/backups/wekan/$version-$now
+    printf "\nThe database backup is in progress.\n\n"
     $dump --port 27019
 
-    # Makes the zip file.
+    # Makes the tar.gz file.
     cd ..
-    printf "\nMakes the zip.\n"
-    gzip -r $now.zip $version-$now
+    printf "\nMakes the tar.gz file.\n"
+    tar -zcvf $version-$now.tar.gz $version-$now
 
     # Cleanups
-    rm -rf $now
+    rm -rf $version-$now
 
     # End.
     printf "\nBackup done.\n"
-    echo "Backup is archived to .zip file at /var/backups/wekan/${now}.zip"
+    echo "Backup is archived to .tar.gz file at /var/backups/wekan/${version}-${now}.tar.gz"
 }
 
 # Checks is the user is sudo/root
@@ -55,9 +55,9 @@ makesRestore()
 {
     # Prepares the folder used for the backup.
     file=$1
-    if [[ "$file" != *zip* ]]
+    if [[ "$file" != *tar.gz* ]]
     then
-        echo "The backup archive must be a zip."
+        echo "The backup archive must be a tar.gz."
         exit -1
     fi
 
@@ -66,14 +66,15 @@ makesRestore()
     parentDir=$"${file:0:${#file}-${#ext}}"
     cd $parentDir
 
-    # Unzip the archive.
-    gunzip $file
-    file="${file:0:${#file}-4}"
+    # Untar the archive.
+    printf "\nMakes the untar of the archive.\n"
+    tar -zxvf $file
+    file="${file:0:${#file}-7}"
     
     # Gets the version of the snap.
     version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
 
-    # Targets the restore file.
+    # Targets the dump file.
     restore=$"/snap/wekan/$version/bin/mongorestore"
 
     # Restores.
@@ -93,8 +94,9 @@ then
 fi
 
 
-# Starts.
+# Start.
 makesRestore $1
+
 ```
 
 ## Docker Backup and Restore
