@@ -46,7 +46,7 @@ makeDump
 
 ```
 
-## Restore script for MongoDB Data, if running Snap MongoDB at port 27019 with zip.
+## Restore script for MongoDB Data, if running Snap MongoDB at port 27019 with a tar.gz archive.
 
 ```sh
 #!/bin/bash
