@@ -46,6 +46,57 @@ makeDump
 
 ```
 
+## Restore script for MongoDB Data, if running Snap MongoDB at port 27019 with zip.
+
+```sh
+#!/bin/bash
+
+makesRestore()
+{
+    # Prepares the folder used for the backup.
+    file=$1
+    if [[ "$file" != *zip* ]]
+    then
+        echo "The backup archive must be a zip."
+        exit -1
+    fi
+
+    # Goes into the parent directory.
+    ext=$"$(basename $file)"
+    parentDir=$"${file:0:${#file}-${#ext}}"
+    cd $parentDir
+
+    # Unzip the archive.
+    gunzip $file
+    file="${file:0:${#file}-4}"
+    
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Targets the dump file.
+    restore=$"/snap/wekan/$version/bin/mongorestore"
+
+    # Restore.
+    printf "\nThe database restore is in progress.\n\n"
+    $restore -d wekan --port 27019 $file/dump/wekan
+    printf "\nRestore done.\n"
+
+    # Cleanups
+    rm -rf $file
+}
+
+# Checks is the user is sudo/root.
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+
+# Start.
+makesRestore $1
+```
+
 ## Docker Backup and Restore
 
 [Docker Backup and Restore](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
