@@ -2,17 +2,50 @@
 
 ```sh
 #!/bin/bash
-now=$(date +'%Y-%m-%d_%H.%M.%S')
-mkdir -p backups/$now
-cd backups/$now
-mongodump --port 27019
-# if running on source install, run for example: mongodump --port 27017)
-cd ..
-zip -r $now.zip $now
-cd ../..
-echo "\nBACKUP DONE."
-echo "Backup is at directory backups/${now}."
-echo "Backup is also archived to .zip file backups/${now}.zip"
+
+makeDump()
+{
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Prepares.
+    now=$(date +'%Y-%m-%d_%H.%M.%S')
+    position=$(pwd)
+    mkdir -p /var/backups/wekan/$now
+
+    # Targets the dump file.
+    dump=$"/snap/wekan/$version/bin/mongodump"
+
+    # Makes the backup.
+    cd /var/backups/wekan/$now
+    printf "\nThe backup of the database is starting.\n\n"
+    $dump --port 27019
+
+    # Makes the zip file.
+    cd ..
+    printf "\nMakes the zip.\n"
+    zip -r $now.zip $now
+
+    # Cleanups
+    rm -rf $now
+    cd $position
+
+    # End.
+    printf "\nBackup done.\n"
+    echo "Backup is archived to .zip file at /var/backups/wekan/${now}.zip"
+}
+
+# Checks is the user is sudo/root
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+
+# Start
+makeDump
+
 ```
 
 ## Docker Backup and Restore
