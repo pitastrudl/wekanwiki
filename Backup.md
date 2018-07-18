@@ -41,7 +41,7 @@ then
 fi
 
 
-# Start
+# Starts
 makeDump
 
 ```
@@ -76,7 +76,7 @@ makesRestore()
     # Targets the restore file.
     restore=$"/snap/wekan/$version/bin/mongorestore"
 
-    # Restore.
+    # Restores.
     printf "\nThe database restore is in progress.\n\n"
     $restore -d wekan --port 27019 $file/dump/wekan
     printf "\nRestore done.\n"
@@ -93,7 +93,7 @@ then
 fi
 
 
-# Start.
+# Starts.
 makesRestore $1
 ```
 
