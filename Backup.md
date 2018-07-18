@@ -23,7 +23,7 @@ makeDump()
     # Makes the zip file.
     cd ..
     printf "\nMakes the zip.\n"
-    gzip -r $now.zip $now
+    gzip -r $now.zip $version-$now
 
     # Cleanups
     rm -rf $now
