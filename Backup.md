@@ -10,7 +10,6 @@ makeDump()
 
     # Prepares.
     now=$(date +'%Y-%m-%d_%H.%M.%S')
-    position=$(pwd)
     mkdir -p /var/backups/wekan/$now
 
     # Targets the dump file.
@@ -28,7 +27,6 @@ makeDump()
 
     # Cleanups
     rm -rf $now
-    cd $position
 
     # End.
     printf "\nBackup done.\n"
