@@ -73,7 +73,7 @@ makesRestore()
     # Gets the version of the snap.
     version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
 
-    # Targets the dump file.
+    # Targets the restore file.
     restore=$"/snap/wekan/$version/bin/mongorestore"
 
     # Restore.
