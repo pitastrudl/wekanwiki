@@ -10,7 +10,7 @@
 
 2) Wekan Javascript code has [increaded fiber poolsize](https://github.com/wekan/wekan/blob/devel/server/authentication.js#L5-L9).
 
-3) There is [on-going 100% CPU usage Meteor issue](https://github.com/nodejs/node/pull/21529#issuecomment-401524283) and hopefully [fixes to Node.js will land in Node v8.12](https://github.com/nodejs/node/pull/21593#issuecomment-403636667) sometime.
+3) There is [on-going 100% CPU usage Meteor issue](https://github.com/meteor/meteor/issues/9796) and hopefully [fixes to Node.js will land in Node v8.12](https://github.com/nodejs/node/pull/21593#issuecomment-403636667) sometime.
 
 3) While waiting for Node 8.12 above, Wekan includes [Sandstorm fork of Node.js, source here](https://github.com/sandstorm-io/node/commits/sandstorm) and binary [copied from Sandstorm](https://github.com/wekan/wekan-mongodb/issues/2#issuecomment-381453161) or downloaded as node binary or tar.gz package from https://releases.wekan.team , at Wekan they are included in [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile) and [snapcraft.yaml](https://github.com/wekan/wekan/blob/devel/snapcraft.yaml). 
 
