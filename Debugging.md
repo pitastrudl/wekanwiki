@@ -8,9 +8,11 @@
 
 1) Increase ulimit system wide to 100 000 in systemd config.
 
-2) Wekan Javascript code has [Node 100% CPU fixes included](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v084-2018-04-16-wekan-release). Also read [on-going 100% CPU usage issue progress](https://github.com/meteor/meteor/issues/9796).
+2) Wekan Javascript code has [increaded fiber poolsize](https://github.com/wekan/wekan/blob/devel/server/authentication.js#L5-L9).
 
-3) Newest Wekan includes fixed Node.js binary. Use Fibers fixed [node source from Sandstorm](https://github.com/sandstorm-io/node/commits/sandstorm) or binary [copied from Sandstorm](https://github.com/wekan/wekan-mongodb/issues/2#issuecomment-381453161) or downloaded as node binary or tar.gz package from https://releases.wekan.team , related fixes are in Wekan GitHub repo [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile), [snapcraft.yaml](https://github.com/wekan/wekan/blob/devel/snapcraft.yaml) and [wekan/server/authentication.js](https://github.com/wekan/wekan/blob/devel/server/authentication.js). 
+3) There is [on-going 100% CPU usage Meteor issue](https://github.com/nodejs/node/pull/21529#issuecomment-401524283) and hopefully [fixes to Node.js will land in Node v8.12](https://github.com/nodejs/node/pull/21593#issuecomment-403636667) sometime.
+
+3) While waiting for Node 8.12 above, Wekan includes [Sandstorm fork of Node.js, source here](https://github.com/sandstorm-io/node/commits/sandstorm) and binary [copied from Sandstorm](https://github.com/wekan/wekan-mongodb/issues/2#issuecomment-381453161) or downloaded as node binary or tar.gz package from https://releases.wekan.team , at Wekan they are included in [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile) and [snapcraft.yaml](https://github.com/wekan/wekan/blob/devel/snapcraft.yaml). 
 
 ## Scaling to thousands of users
 
@@ -51,4 +53,3 @@ Docker:
 - `cd wekan`
 - Edit docker-compose.yml script ROOT_URL etc like documented at https://github.com/wekan/wekan-mongodb docker-compose.yml script
 - `docker-compose up -d --build`
-
