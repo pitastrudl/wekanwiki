@@ -38,7 +38,7 @@ Wekan:
   on internal server firewall to those computers that need to use Wekan.
 - There is contributors to Wekan from all over the world, that add fixes and features to Wekan.
 - There has been some code reviews done by security researchers https://wekan.github.io/hall-of-fame/ and there has been fixes to Wekan related to that.
-- xet7 tries to be less evil by trying to listening to some user feedback. For example, someone suggested #1690 inner shadow, so it was added, but because of feedback from users inner shadow was removed. Same with #1790 removing and adding back SMTP settings in Admin Panel. Unfortunately it's not possible to make everyone happy because different people have different opinions, so xet7 tries to select something that makes some sense. Improvement suggestions welcome.
+- xet7 tries to be less evil by trying to listen to some user feedback. For example, someone suggested #1690 inner shadow, so it was added, but because of feedback from users inner shadow was removed. Same with #1790 removing and adding back SMTP settings in Admin Panel. Unfortunately it's not possible to make everyone happy because different people have different opinions, so xet7 tries to select something that makes some sense. Improvement suggestions welcome.
 
 ## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
 
