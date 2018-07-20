@@ -16,6 +16,29 @@ Wekan is an open-source and free software _[kanban board][kanban]_ that lets you
 ## What is Wekan Team?
 [Wekan team](https://github.com/wekan/wekan/wiki/Team) is small amount of contributors from all around the world donating their free time and servers. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
+## How to convince my company management that Wekan "is less evil" than Trello?
+
+Yes, xet7 received this question in Email.
+
+Trello:
+- Code is propietary. Only Atlassian personnel has access Trello source code.
+- You can not install Trello to your own servers.
+- Trello has access to all of your data.
+- You can not run Trello in internal network that is not connected to Internet.
+
+Wekan:
+- All Wekan code is Open Source at https://github.com/wekan/wekan with MIT license, free also for commercial use.
+- You don't need to pay monthly fee for using Wekan. Only if you need Commercial Support https://wekan.team for some bugfix, feature or integration, you can pay for that.
+- You can download all Wekan code and run in internal network that is not connected to Internet. You can keep all your data to yourself.
+- Snap/Docker/Sandstorm versions runs inside sandbox and does not have any access to elsewhere on server filesystem.
+  - Snap version of Wekan is built directly from https://github.com/wekan/wekan repo on Canonical's build service that does security checks etc.
+  - Docker version of Wekan is built directly from https://github.com/wekan/wekan by [Quay](https://quay.io/wekan/wekan) and [Docker Hub](https://hub.docker.com/r/wekanteam/wekan/) and they do security checks etc.
+  - Sandstorm version is checked by [ocdtrekkie](https://github.com/ocdtrekkie) that it does not break anything, before he lets new version of Wekan into [Sandstorm App Market](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h).
+- Wekan does not load any files from Internet, when starting Wekan. For futher restrictions, you could on internal server only allow incoming and outgoing traffic from
+  on internal server firewall to those computers that need to use Wekan.
+- There is contributors to Wekan from all over the world, that add fixes and features to Wekan.
+- There has been some code reviews done by security researchers https://wekan.github.io/hall-of-fame/ and there has been fixes to Wekan related to that.
+
 ## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
 
 Depends on free time of xet7. Usually:
