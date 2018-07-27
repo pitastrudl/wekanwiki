@@ -1,3 +1,5 @@
+Mail configuration if done by settings of `MAIL_URL` & `MAIL_FROM` environment parameters. Way of setting is due your instalation method e.g. [snap](https://github.com/wekan/wekan-snap/wiki/Install#6-email-and-other-settings), in docker-compose.yml file etc.
+
 ## No mail server
 
 You can choose to _NOT_ configure a mail server, by not providing the `MAIL_URL` & `MAIL_FROM` environment parameters. Instead the mail message will be send to the terminal output. See [FAQ](https://github.com/wekan/wekan/wiki/FAQ#show-mails-with-a-docker-image-without-mail-configuration) for more info.
