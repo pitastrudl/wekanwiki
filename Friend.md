@@ -10,7 +10,7 @@ Upcoming Wekan platform.
 
 IRC at Freenode #friendup
 
-## Screenshots
+## Screenshot
 
 ![Wekan Friend development version screenshot](https://wekan.github.io/wekan-friend-dev.png)
 
