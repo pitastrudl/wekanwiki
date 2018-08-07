@@ -12,6 +12,8 @@ IRC at Freenode #friendup
 
 ## Screenshot
 
+Wekan Friend development version at Friend Desktop. Not released to Friend Store yet.
+
 ![Wekan Friend development version screenshot](https://wekan.github.io/wekan-friend-dev.png)
 
 [More Screenshots of Wekan and Friend](https://blog.wekan.team/2018/05/upcoming-wekan-v1-00-and-platforms/index.html)
