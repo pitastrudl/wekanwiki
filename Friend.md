@@ -12,7 +12,9 @@ IRC at Freenode #friendup
 
 ## Screenshots
 
-[Screenshots of Wekan and Friend](https://blog.wekan.team/2018/05/upcoming-wekan-v1-00-and-platforms/index.html)
+![Wekan Friend development version screenshot](https://wekan.github.io/wekan-friend-dev.png)
+
+[More Screenshots of Wekan and Friend](https://blog.wekan.team/2018/05/upcoming-wekan-v1-00-and-platforms/index.html)
 
 ## Source code
 
