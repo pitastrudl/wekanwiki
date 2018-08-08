@@ -1,3 +1,13 @@
+## MongoDB shell on Wekan Snap
+
+mongoshell.sh
+```
+#/bin/bash
+version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+mongo=$"/snap/wekan/$version/bin/mongo"
+$mongo --port 27019
+```
+
 ## Backup script for MongoDB Data, if running Snap MongoDB at port 27019
 
 ```sh
