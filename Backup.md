@@ -1,7 +1,7 @@
 ## MongoDB shell on Wekan Snap
 
 mongoshell.sh
-```
+```bash
 #/bin/bash
 version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
 mongo=$"/snap/wekan/$version/bin/mongo"
