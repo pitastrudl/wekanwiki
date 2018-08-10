@@ -69,11 +69,15 @@ installs. You can also [enable Admin Panel manually](https://github.com/wekan/we
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
 
-Example for Wekan v1.07:
+Example for latest Wekan:
 ```
 docker run -d --restart=always --name wekan-db mongo:3.2.20
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan:v1.07
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan
+```
+Specific release in above URL, not latest:
+```
+quay.io/wekan/wekan:v1.25
 ```
 For latest development version, use without tag:
 ```
