@@ -31,9 +31,15 @@ Friend repos:
 
 ## Demo
 
-[Old Friend demo](https://friendsky.cloud)
+Sign Up to Friend:
 
-[New development v1.2rc1 Friend demo](https://my.friendup.cloud)
+- https://go.friendup.cloud/
+
+Old:
+
+- [New development v1.2rc1 Friend demo](https://my.friendup.cloud)
+
+- [Old Friend demo](https://friendsky.cloud)
 
 ## Bounties
 
