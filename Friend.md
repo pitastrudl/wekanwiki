@@ -8,7 +8,7 @@ Upcoming Wekan platform.
 
 - Friend login also logins to Wekan app
 - Use Friend file dialogs to add file to Wekan
-- Save file from Wekan to any Friend disk drive
+- Keep all Wekan attachment files on any Friend disk drive
 - Use Wekan to access Friend Shop
 - Use Wekan to access other Friend Apps and control them with upcoming [IFTTT workflows](https://github.com/wekan/wekan/issues/1160)
 
