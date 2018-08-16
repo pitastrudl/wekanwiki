@@ -1,3 +1,5 @@
+## Forgot Password
+
 1) Download [Robo 3T](https://robomongo.org) on your Linux or Mac computer. Or, using ssh shell to server, [login to MongoDB database using mongo cli](https://github.com/wekan/wekan/wiki/Backup#mongodb-shell-on-wekan-snap)
 
 2) Make SSH tunnel to your server, from your local port 9000 (or any other) to server MongoDB port 27019:
@@ -6,7 +8,16 @@ ssh -L 9000:localhost:27019 user@example.com
 ```
 3) Open Robo 3T, create new connection: Name, address: localhost : 9000 
 
-a) If you don't have self-registration disabled, register new account at /sign-up, and [make yourself admin in MongoDB database](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease).
+a) If you don't have self-registration disabled, register new account at /sign-up, and make yourself admin in MongoDB database:
+
+1) Use database that has wekan data, for example:
+```
+use wekan
+```
+2) Add Admin rights to some Wekan username:
+```
+db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
+```
 
 b) If someone else remembers their password, and his/her login works, copy their bcrypt hashed password to your password using Robo 3T.
 
@@ -20,11 +31,17 @@ d) Backup, New install, Create User, Copy Password, Restore:
 3b. Empty database in [mongo cli](mongo cli](https://github.com/wekan/wekan/wiki/Backup#mongodb-shell-on-wekan-snap):
 ```
 mongo --port 27019
-# look what databases there are
+```
+Look what databases there are:
+```
 show dbs
-# probably database is called wekan, so use it
+```
+Probably database is called wekan, so use it:
+```
 use wekan
-# delete database
+```
+Delete database:
+```
 db.dropDatabase()
 ```
 4. Start wekan:
@@ -36,3 +53,4 @@ sudo snap stop wekan.wekan
 7. [Restore your backup](https://github.com/wekan/wekan-snap/wiki/Backup-and-restore)
 8. Change to database your new bcrypt password.
 
+## Don't have Admin Rights to board
