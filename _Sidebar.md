@@ -27,6 +27,8 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
+* [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
 * [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
 * [Roadmap](https://github.com/wekan/wekan/wiki/Roadmap)
