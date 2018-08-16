@@ -6,7 +6,7 @@
 
 3) Register your username, email address and password. First registered user will be admin, and next ones normal users. If you want other admins too, you can change their permission to admin at Admin Panel.
 
-4) **If you get some error about email settings, you can ignore it. WORKING EMAIL IS NOT REQUIRED. Wekan works also without setting up email.**
+4) **If you get some error about email settings, you can ignore it. WORKING EMAIL IS NOT REQUIRED. Wekan works without setting up email.**
 
 If you really want email sending, do for example:
 ```
