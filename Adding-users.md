@@ -37,7 +37,7 @@ ssh -L 9000:localhost:27019 user@example.com
 ```
 3) Open Robo 3T, create new connection: Name, address: localhost : 9000 
 
-a) If you don't have self-registration disabled, register new account at /sign-up, and [make yourself admin in MongoDB database].
+a) If you don't have self-registration disabled, register new account at /sign-up, and [make yourself admin in MongoDB database](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease).
 
 b) If someone else remembers their password, and his/her login works, copy their bcrypt hashed password to your password using Robo 3T.
 
