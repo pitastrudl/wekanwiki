@@ -27,3 +27,6 @@ a) Let them self-register, or open webbrowser incongnito window, and register th
 
 b) If your email works, click Admin Panel / Settings / Registration / [X] Disable self-registration. Then invite new users to selected boards by email address.
 
+## Deleting Users
+
+[No delete feature yet](https://github.com/wekan/wekan/issues/1289)
