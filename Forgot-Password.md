@@ -54,3 +54,13 @@ sudo snap stop wekan.wekan
 8. Change to database your new bcrypt password.
 
 ## Don't have Admin Rights to board
+
+1. In Robo 3T, find where your ID that your username has:
+```
+db.getCollection('users').find({username: "YOUR-USERNAME-HERE"})
+```
+2. Find board where you are not admin, using user ID you found above:
+```
+db.getCollection('boards').find({members: {$elemMatch: { userId: "YOUR-USER-ID-HERE", isAdmin: false} } })
+```
+And set yourself as admin.
