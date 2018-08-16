@@ -26,10 +26,10 @@
 
 # <a name="Features"></a>Features
 
+* [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
 * [Roadmap](https://github.com/wekan/wekan/wiki/Roadmap)
-* [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Fix Export board menu not visible on some boards](https://github.com/wekan/wekan/issues/1060)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
