@@ -1,12 +1,16 @@
 ## 1) Enable Mod_Proxy
 
-`sudo a2enmod proxy proxy_http proxy_wstunnel`
+```
+sudo a2enmod proxy proxy_http proxy_wstunnel
+```
 
 [Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
 
 ## 2) Restart Apache
 
-`service apache2 restart`
+```
+service apache2 restart
+```
 
 ## 3) Enable SSL in Apache config
 ```
@@ -16,15 +20,17 @@ NameVirtualHost *:443
 ```
 ## 4) Set Apache proxy
 
+SSL with [Certbot](https://certbot.eff.org).
+
 Config at `/etc/apache2/sites-available/example.com.conf`:
 
 ```ApacheConf
 <VirtualHost *:443>
-    SSLEngine On
 
-    # Set the path to SSL certificate
-    # Usage: SSLCertificateFile /path/to/cert.pem
-    SSLCertificateFile /etc/apache2/ssl/file.pem
+    SSLEngine On
+    SSLCertificateFile      /etc/letsencrypt/live/example.com/cert.pem
+    SSLCertificateKeyFile   /etc/letsencrypt/live/example.com/privkey.pem
+    SSLCertificateChainFile /etc/letsencrypt/live/example.com/chain.pem
 
     ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:3001/$1"
     ProxyPass        "/" "http://127.0.0.1:3001/"
