@@ -2,6 +2,10 @@
 
 [Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
 
+## CaptainDuckDuck
+
+[Managing Docker containers with CaptainDuckDuck](https://github.com/wekan/wekan/issues/1375#issuecomment-413626075)
+
 ## Backup and Upgrade
 
 [Import/Export MongoDB data to/from Docker container](https://github.com/wekan/wekan/wiki/Export-Docker-Mongo-Data)
