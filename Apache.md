@@ -75,4 +75,4 @@ sudo snap set wekan root-url='https://example.com'
 
 sudo snap set wekan port='3001'
 ```
-[More snap settings keys](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys)
+[All snap settings](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys)
