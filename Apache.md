@@ -9,7 +9,7 @@ sudo a2enmod proxy proxy_http proxy_wstunnel
 ## 2) Restart Apache
 
 ```
-service apache2 restart
+sudo service apache2 restart
 ```
 
 ## 3) Enable SSL in Apache config
