@@ -8,6 +8,11 @@ sudo a2enmod proxy proxy_http proxy_wstunnel
 
 ## 2) Restart Apache
 
+Systemd:
+```
+sudo systemctl restart apache2
+```
+Init.d:
 ```
 sudo service apache2 restart
 ```
@@ -41,11 +46,28 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
 
 ## 5) Enable your site
 
-`sudo a2ensite example.com`
+```
+sudo a2ensite example.com
+```
+Or, add symlink manually:
+```
+sudo su
+
+cd /etc/apache2/sites-enabled
+
+ln -s ../sites-available/example.com.conf example.com.conf
+```
 
 ## 6) Reload Apache
 
-`sudo service apache2 reload`
+Systemd:
+```
+sudo systemctl restart apache2
+```
+Init.d:
+```
+sudo service apache2 restart
+```
 
 ## 7) Snap settings
 ```
