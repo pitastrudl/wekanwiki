@@ -57,6 +57,10 @@ cd /etc/apache2/sites-enabled
 
 ln -s ../sites-available/example.com.conf example.com.conf
 ```
+On some distros Apache config is at different path:
+```
+cd /etc/httpd/conf.d
+```
 
 ## 6) Reload Apache
 
