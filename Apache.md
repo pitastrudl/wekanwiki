@@ -1,46 +1,49 @@
-* Enable Mod_Proxy: `sudo a2enmod proxy proxy_http proxy_wstunnel` then restart Apache `service apache2 restart`
-* Configure your virtual host (vhost)
+## 1) Enable Mod_Proxy
 
-Let say you have the following "mytodo.org" vhost configured in `/etc/apache2/sites-available/mytodo.org.conf`:
+`sudo a2enmod proxy proxy_http proxy_wstunnel`
+
+[Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
+
+## 2) Restart Apache
+
+`service apache2 restart`
+
+## 3) Enable SSL in Apache config
+```
+Listen 443
+
+NameVirtualHost *:443
+```
+## 4) Set Apache proxy
+
+Config at `/etc/apache2/sites-available/example.com.conf`:
 
 ```ApacheConf
-<VirtualHost *:80>
-        ServerName mytodo.org
-        ServerAdmin webmaster@mytodo.org
+<VirtualHost *:443>
+    SSLEngine On
 
-        DocumentRoot /var/www-vhosts/mytodo.org
-        <Directory />
-                Options FollowSymLinks
-                AllowOverride AuthConfig FileInfo Indexes Options=MultiViews
-        </Directory>
+    # Set the path to SSL certificate
+    # Usage: SSLCertificateFile /path/to/cert.pem
+    SSLCertificateFile /etc/apache2/ssl/file.pem
 
-        <Directory /var/www-vhosts/mytodo.org>
-                Options -Indexes +FollowSymLinks +MultiViews
-                AllowOverride AuthConfig FileInfo Indexes Options=MultiViews
-                Require all granted
-        </Directory>
+    ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:3001/$1"
+    ProxyPass        "/" "http://127.0.0.1:3001/"
+    ProxyPassReverse "/" "http://127.0.0.1:3001/"
 
-        ErrorLog /var/log/apache2/mytodo.org-error.log
-
-        # Possible values include: debug, info, notice, warn, error, crit,
-        # alert, emerg.
-        LogLevel warn
-
-        CustomLog /var/log/apache2/mytodo.org-access.log combined
-        ServerSignature Off
 </VirtualHost>
 ```
 
-Add the following lines at the end just before `</VirtualHost>`:
+## 5) Enable your site
 
-```ApacheConf
-        ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:8081/$1"
-        ProxyPass        "/" "http://127.0.0.1:8081/"
-        ProxyPassReverse "/" "http://127.0.0.1:8081/"
+`sudo a2ensite example.com`
+
+## 6) Reload Apache
+
+`sudo service apache2 reload`
+
+## 7) Snap settings
 ```
+sudo snap set wekan root-url='https://example.com'
 
-**Note:** if not already done, don't forget to enable your vhost `sudo a2ensite mytodo.org`
-
-Reload Apache `sudo service apache2 reload`
-
-[Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
+sudo snap set wekan port='3001'
+```
