@@ -25,6 +25,8 @@ NameVirtualHost *:443
 ```
 ## 4) Set Apache proxy
 
+### a) Main URL
+
 SSL with [Certbot](https://certbot.eff.org).
 
 Config at `/etc/apache2/sites-available/example.com.conf`:
@@ -42,6 +44,29 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
     ProxyPassReverse "/" "http://127.0.0.1:3001/"
 
 </VirtualHost>
+```
+
+### b) Sub URL
+
+Config at `/etc/apache2/sites-available/example.com.conf`:
+
+```ApacheConf
+<VirtualHost *:443>
+
+    SSLEngine On
+    SSLCertificateFile      /etc/letsencrypt/live/example.com/cert.pem
+    SSLCertificateKeyFile   /etc/letsencrypt/live/example.com/privkey.pem
+    SSLCertificateChainFile /etc/letsencrypt/live/example.com/chain.pem
+
+    ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:3001/$1"                                                                                                                           
+    ProxyPass        "/wekan" "http://127.0.0.1:3001/wekan"                                                                                                                                    
+    ProxyPassReverse "/wekan" "http://127.0.0.1:3001/wekan"
+
+</VirtualHost>
+```
+To run as default site:
+```ApacheConf
+<VirtualHost _default_:443>
 ```
 
 ## 5) Enable your site
@@ -74,9 +99,18 @@ sudo service apache2 restart
 ```
 
 ## 7) Snap settings
-```
-sudo snap set wekan root-url='https://example.com'
 
-sudo snap set wekan port='3001'
+### a) Main URL
 ```
+sudo snap set wekan port='3001'
+
+sudo snap set wekan root-url='https://example.com'
+```
+### b) Sub URL
+```
+snap set wekan port='3001'
+
+snap set wekan root-url='https://example.com/wekan'
+```
+
 [All snap settings](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys)
