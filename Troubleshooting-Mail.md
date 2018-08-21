@@ -1,3 +1,11 @@
+## Special Characters
+
+**If you have special characters in username or password**, you need to urlencode them.
+Save this code to harddisk, edit it, open with webbrowser, and click button to urlencode:
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_encodeuri
+
+## Config
+
 Mail configuration if done by settings of `MAIL_URL` & `MAIL_FROM` environment parameters. Way of setting is due your instalation method e.g. [snap](https://github.com/wekan/wekan-snap/wiki/Install#6-email-and-other-settings), in docker-compose.yml file etc.
 
 ## No mail server
