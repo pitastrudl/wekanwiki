@@ -1,12 +1,14 @@
-[![Install on Cloudron][cloudron_button]][cloudron_install]
+# Cloudron setup
 
-[Wekan package for deployment on a server with Cloudron installed](https://cloudron.io/store/io.wekan.cloudronapp.html)
+For those unaware,  Cloudron is a complete solution for running apps on your server and keeping them up-to-date and secure.
 
-[Package repo](https://git.cloudron.io/cloudron/wekan-app)
+1. First install Cloudron on your server with 3 simple commands - https://cloudron.io/get.html
+2. Install Wekan from the Cloudron Store. Once installed, you will get automatic updates for Wekan as and when they get released.
 
-[cloudron_button]: https://cloudron.io/img/button.svg
-[cloudron_install]: https://cloudron.io/button.html?app=io.wekan.cloudronapp
+[![Install](https://cloudron.io/img/button.svg)](https://cloudron.io/button.html?app=io.wekan.cloudronapp)
 
-## Updating Cloudron
+Cloudron's wekan package is integrated with Cloudron's LDAP.
 
-If you have a Cloudron subscription, the app will be kept up-to-date automatically, otherwise follow this [guide](https://git.cloudron.io/cloudron/box/wikis/UpdatingApps) for manual updates.
+The source code for the package can be found [here](https://git.cloudron.io/cloudron/wekan-app/).
+
+You can also test the wekan installation on the demo Cloudron instance - https://my-demo.cloudron.me (username: cloudron password: cloudron).
