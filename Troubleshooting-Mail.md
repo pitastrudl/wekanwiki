@@ -1,8 +1,8 @@
 ## Special Characters
 
 **If you have special characters in username or password**, you need to urlencode them.
-Save this code to harddisk, edit it, open with webbrowser, and click button to urlencode:
-https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_encodeuri
+You can convert special characters of your password at https://www.url-encode-decode.com
+and copy converted characters to your password.
 
 ## Config
 
