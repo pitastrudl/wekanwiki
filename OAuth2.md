@@ -83,6 +83,15 @@ sudo snap set oauth2-token-endpoint='/oauth/token'
 
 ## 5) Login to Wekan
 
-At https://wekan.example.com . 
+At https://wekan.example.com click `Sign in with Oidc`
 
-<img src="https://wekan.github.io/oauth2-login.png" width="60%" alt="Wekan logo" />
+Then click `Authorize` . This is asked only first time when logging in to Wekan with Rocket.Chat.
+
+<img src="https://wekan.github.io/oauth2-login.png" width="60%" alt="Wekan login to Rocket.Chat" />
+
+## 6) Set your Full Name
+
+Currently Full Name is not preserved, so you need to change it at your username / Profile.
+
+<img src="https://wekan.github.io/oauth2-profile-settings.png" width="60%" alt="Wekan login to Rocket.Chat" />
+
