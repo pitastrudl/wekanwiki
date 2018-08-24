@@ -2,6 +2,8 @@
 
 Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when Rocket.Chat is providing OAuth2 login to Wekan.
 
+If there is existing username/password account in Wekan, OAuth2 merges both logins.
+
 Source: [OAuth2 Pull Request](https://github.com/wekan/wekan/pull/1578)
 
 ## 1) Install Rocket.Chat
