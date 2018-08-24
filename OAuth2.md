@@ -10,6 +10,13 @@ sudo snap set wekan port='3001'
 sudo snap set core refresh.schedule=02:00-04:00
 sudo snap set wekan mail-url='smtps://user:pass@mailserver.example.com:453'
 sudo snap set wekan mail-from='Wekan Boards <support@example.com>'
+sudo snap set with-api='true'
+sudo snap set wekan oauth2-client-id='abcde12345'
+sudo snap set wekan oauth2-secret='54321abcde'
+sudo snap set oauth2-server-url='https://chat.example.com'
+sudo snap set oauth2-auth-endpoint='/oauth/authorize'
+sudo snap set oauth2-userinfo-endpoint='/oauth/userinfo'
+sudo snap set oauth2-token-endpoint='/oauth/token'
 ```
 Edit Caddyfile:
 ```
