@@ -80,3 +80,9 @@ sudo snap set oauth2-auth-endpoint='/oauth/authorize'
 sudo snap set oauth2-userinfo-endpoint='/oauth/userinfo'
 sudo snap set oauth2-token-endpoint='/oauth/token'
 ```
+
+## 5) Login to Wekan
+
+At https://wekan.example.com . 
+
+<img src="https://wekan.github.io/oauth2-login.png" width="60%" alt="Wekan logo" />
