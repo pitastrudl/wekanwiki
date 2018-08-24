@@ -95,7 +95,11 @@ sudo snap set oauth2-token-endpoint='/oauth/token'
 
 ## 6) Set your Full Name
 
-Currently Full Name is not preserved, so you need to change it at your username / Profile.
+Currently Full Name is not preserved, so you need to change it.
+
+1) Click `Your username / Profile`
+
+2) Add info and Save.
 
 <img src="https://wekan.github.io/oauth2-profile-settings.png" width="60%" alt="Wekan login to Rocket.Chat" />
 
