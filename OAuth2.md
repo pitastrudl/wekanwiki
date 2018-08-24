@@ -1,8 +1,8 @@
 ## Rocket.Chat can provide OAuth2 login to Wekan
 
-## 1) Install Wekan and Rocket.Chat
+## 1) Install Wekan
 
-[Wekan](https://github.com/wekan/wekan-snap/wiki/Install)
+[Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
 ```
 sudo snap install wekan
 sudo snap set wekan root-url="https://wekan.example.com"
