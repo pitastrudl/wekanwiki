@@ -2,6 +2,8 @@
 
 Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when Rocket.Chat is providing OAuth2 login to Wekan.
 
+Source: [OAuth2 Pull Request](https://github.com/wekan/wekan/pull/1578)
+
 ## 1) Install Rocket.Chat
 
 [Rocket.Chat Snap](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/) has Node at port 3000 and mongodb at port 27017.
@@ -83,9 +85,11 @@ sudo snap set oauth2-token-endpoint='/oauth/token'
 
 ## 5) Login to Wekan
 
-At https://wekan.example.com click `Sign in with Oidc`
+1) Go to https://wekan.example.com
 
-Then click `Authorize` . This is asked only first time when logging in to Wekan with Rocket.Chat.
+2) Click `Sign in with Oidc`
+
+3) Click `Authorize` . This is asked only first time when logging in to Wekan with Rocket.Chat.
 
 <img src="https://wekan.github.io/oauth2-login.png" width="60%" alt="Wekan login to Rocket.Chat" />
 
