@@ -46,7 +46,13 @@ sudo snap set caddy-enabled='true'
 
 ## 3) Add Rocket.Chat settings
 
-(3 dots) Options / Administration / OAuth Apps / NEW APPLICATION
+Login to Rocket.Chat at https://chat.example.com .
+
+Accept chat URL to be https://chat.example.com .
+
+Click: (3 dots) Options / Administration / OAuth Apps / NEW APPLICATION
+
+Add settings:
 
 ```
 Active: [X] True
