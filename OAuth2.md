@@ -79,10 +79,10 @@ Save Changes.
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
-sudo snap set oauth2-server-url='https://chat.example.com'
-sudo snap set oauth2-auth-endpoint='/oauth/authorize'
-sudo snap set oauth2-userinfo-endpoint='/oauth/userinfo'
-sudo snap set oauth2-token-endpoint='/oauth/token'
+sudo snap set wekan oauth2-server-url='https://chat.example.com'
+sudo snap set wekan oauth2-auth-endpoint='/oauth/authorize'
+sudo snap set wekan oauth2-userinfo-endpoint='/oauth/userinfo'
+sudo snap set wekan oauth2-token-endpoint='/oauth/token'
 ```
 
 ## 5) Login to Wekan
