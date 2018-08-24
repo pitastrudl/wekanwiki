@@ -105,3 +105,10 @@ Currently Full Name is not preserved, so you need to change it.
 
 <img src="https://wekan.github.io/oauth2-profile-settings.png" width="60%" alt="Wekan login to Rocket.Chat" />
 
+## 7) Add more login options to Rocket.Chat
+
+1) At Rocket.Chat, Click: (3 dots) Options / Administration
+
+2) There are many options at OAuth menu. Above and below of OAuth are also CAS, LDAP and SAML.
+
+<img src="https://wekan.github.io/oauth-rocketchat-options.png" width="100%" alt="Wekan login to Rocket.Chat" />
