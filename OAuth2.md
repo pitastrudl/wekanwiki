@@ -15,9 +15,12 @@ sudo snap install wekan
 sudo snap set wekan root-url="https://wekan.example.com"
 sudo snap set wekan port='3001'
 sudo snap set core refresh.schedule=02:00-04:00
+sudo snap set wekan with-api='true'
+```
+Email settings [ARE NOT REQUIRED](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail), Wekan works without setting up Email.
+```
 sudo snap set wekan mail-url='smtps://user:pass@mailserver.example.com:453'
 sudo snap set wekan mail-from='Wekan Boards <support@example.com>'
-sudo snap set wekan with-api='true'
 ```
 Edit Caddyfile:
 ```
