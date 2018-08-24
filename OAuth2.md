@@ -44,7 +44,7 @@ Enable Wekan's Caddy:
 sudo snap set caddy-enabled='true'
 ```
 
-## 3) Add Wekan settings to Rocket.Chat
+## 3) Add Rocket.Chat settings
 
 (3 dots) Options / Administration / OAuth Apps / NEW APPLICATION
 
@@ -59,7 +59,7 @@ Access Token URL: https://chat.example.com/oauth/token
 ```
 Save Changes.
 
-## 4) Add OAuth settings to Wekan
+## 4) Add Wekan settings
 
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
