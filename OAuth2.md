@@ -15,7 +15,7 @@ Edit Caddyfile:
 ```
 sudo nano /var/snap/wekan/common/Caddyfile
 ```
-Add domain config:
+Add Caddy config:
 ```
 wekan.example.com {
         proxy / localhost:3001 {
