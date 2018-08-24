@@ -1,5 +1,7 @@
 ## Rocket.Chat can provide OAuth2 login to Wekan
 
+Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when Rocket.Chat is providing OAuth2 login to Wekan.
+
 ## 1) Install Rocket.Chat
 
 [Rocket.Chat Snap](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/) has Node at port 3000 and mongodb at port 27017.
