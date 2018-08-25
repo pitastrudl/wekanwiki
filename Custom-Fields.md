@@ -18,6 +18,6 @@
 
 <img src="https://wekan.github.io/custom-field-5.png" width="100%" alt="Custom Field Step 1" />
 
-## 6) Custom Field content is shown at Minicard and Card Details
+## 6) Custom Field is shown at Minicard and Card Details
 
 <img src="https://wekan.github.io/custom-field-6.png" width="100%" alt="Custom Field Step 1" />
