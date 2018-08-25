@@ -12,12 +12,12 @@
 
 ## 4) 
 
-<img src="https://wekan.github.io/custom-field-4.png" width="60%" alt="Custom Field Step 1" />
+<img src="https://wekan.github.io/custom-field-4.png" width="100%" alt="Custom Field Step 1" />
 
 ## 5)
 
-<img src="https://wekan.github.io/custom-field-5.png" width="60%" alt="Custom Field Step 1" />
+<img src="https://wekan.github.io/custom-field-5.png" width="100%" alt="Custom Field Step 1" />
 
 ## 6)
 
-<img src="https://wekan.github.io/custom-field-6.png" width="60%" alt="Custom Field Step 1" />
+<img src="https://wekan.github.io/custom-field-6.png" width="100%" alt="Custom Field Step 1" />
