@@ -29,6 +29,7 @@
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2)
+* [Custom Fields](https://github.com/wekan/wekan/wiki/Custom-Fields)
 * [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
 * [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
