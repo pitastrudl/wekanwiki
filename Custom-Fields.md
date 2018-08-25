@@ -1,23 +1,23 @@
-## 1)
+## 1) Click: Board hamburger menu / Custom Fields
 
-<img src="https://wekan.github.io/custom-field-1.png" width="60%" alt="Custom Field Step 1" />
+<img src="https://wekan.github.io/custom-field-1.png" width="50%" alt="Custom Field Step 1" />
 
-## 2)
+## 2) Click: Create Field, add details and Save
 
-<img src="https://wekan.github.io/custom-field-2.png" width="60%" alt="Custom Field Step 1" />
+<img src="https://wekan.github.io/custom-field-2.png" width="50%" alt="Custom Field Step 1" />
 
-## 3)
+## 3) Click: Card Details hamburger menu / Edit custom fields
 
 <img src="https://wekan.github.io/custom-field-3.png" width="100%" alt="Custom Field Step 1" />
 
-## 4) 
+## 4) Click: Your Custom Field name to insert it to Card
 
 <img src="https://wekan.github.io/custom-field-4.png" width="100%" alt="Custom Field Step 1" />
 
-## 5)
+## 5) Click: Your selection from your Custom Field
 
 <img src="https://wekan.github.io/custom-field-5.png" width="100%" alt="Custom Field Step 1" />
 
-## 6)
+## 6) Custom Field content is shown at Minicard and Card Details
 
 <img src="https://wekan.github.io/custom-field-6.png" width="100%" alt="Custom Field Step 1" />
