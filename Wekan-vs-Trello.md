@@ -8,3 +8,5 @@ Lists | (No move/copy) | Move/Copy to same/other board
 Swimlanes | Yes | No. There is external [Chrome Add-On](https://chrome.google.com/webstore/detail/swimlanes-for-trello/lhgcmlaedabaaaihmfdkldejjjmialgl) and [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/swimlanes-for-trello/).
 Checklists | Yes. And: Copy Checklist Template to Many Cards. | Yes. And: Card Repeater Power-Up.
 Custom Fields | [Yes](https://github.com/wekan/wekan/wiki/Custom-Fields). | Yes, Power-Up.
+
+TODO: Continue comparison.
