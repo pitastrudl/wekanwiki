@@ -141,7 +141,7 @@ Use Auth0 instead of the IdP to do Single Sign On: [X]
 ```
 If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
 
-### 3) Snap settings, change your info from above to client-id, secret and server-url:
+### 3) Snap settings, change to it from above client-id, secret and server-url
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
