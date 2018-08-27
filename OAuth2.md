@@ -126,8 +126,7 @@ Currently Full Name is not preserved, so you need to change it.
 
 ### 1) Auth0 / Applications / Add / Regular Web Application
 
-### 2) Copy client-id, secret, and your account url below
-
+### 2) Auth0 Settings
 ```
 Client ID:                                 <== Copy to below snap settings
 Secret:                                    <== Copy to below snap settings
@@ -141,7 +140,7 @@ Use Auth0 instead of the IdP to do Single Sign On: [X]
 ```
 If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
 
-### 3) Snap settings, change to it from above client-id, secret and server-url
+### 3) Wekan Snap settings, change to it from above client-id, secret and server-url
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
