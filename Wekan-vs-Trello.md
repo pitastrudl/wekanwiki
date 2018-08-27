@@ -1,8 +1,8 @@
 Product | Wekan | Trello
 ------------ | ------------- | -------------
 Price | Free and Open Source, MIT license. Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based
-Hosting | Install to your own computer or server, or use SaaS provider | SaaS
 Client Types | Small/Medium Business, Large Enterprises, Freelancers | Small/Medium Business, Large Enterprises, Freelancers
+Hosting | Install to your own computer or server, or use SaaS provider | SaaS
 Auth | Standalone: Password, [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2). Sandstorm: Email Passwordless / Google / GitHub / LDAP / SAML | Password, Google, SAML, etc
 Cards | Standalone: Move/Copy to same/other board, Move to Recycle Bin, Delete. Sandstorm: Same, but no move to other board | Move/Copy to same/other board, Archive, Delete
 Lists | (No move/copy) | Move/Copy to same/other board
