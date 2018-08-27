@@ -124,9 +124,9 @@ Currently Full Name is not preserved, so you need to change it.
 
 [Auth0](https://auth0.com) can provide Google/Facebook/LinkedIn etc login options to Wekan.
 
-1) Auth0 / Applications / Add / Regular Web Application
+### 1) Auth0 / Applications / Add / Regular Web Application
 
-2) Copy client-id, secret, and your account url below
+### 2) Copy client-id, secret, and your account url below
 
 ```
 Client ID:                                 <== Copy to below snap settings
@@ -141,7 +141,7 @@ Use Auth0 instead of the IdP to do Single Sign On: [X]
 ```
 If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
 
-Snap settings, change your info from above to client-id, secret and server-url:
+### 3) Snap settings, change your info from above to client-id, secret and server-url:
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
