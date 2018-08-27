@@ -1,4 +1,11 @@
-## Rocket.Chat can provide OAuth2 login to Wekan
+# OAuth2 providers
+
+You can use any OAuth2 provider, for example:
+- Rocket.Chat (example below)
+- Auth0 (example below)
+- Google
+
+## Rocket.Chat providing OAuth2 login to Wekan
 
 Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when Rocket.Chat is providing OAuth2 login to Wekan.
 
