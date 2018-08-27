@@ -8,6 +8,7 @@
 * [Press](https://github.com/wekan/wekan/wiki/Press)
 * [Blog](https://blog.wekan.team)
 * [NOT related to Wekan](https://github.com/wekan/wekan/wiki/NOT-related-to-Wekan)
+* [Wekan vs Trello](https://github.com/wekan/wekan/wiki/Wekan-vs-Trello)
 
 # <a name="Support"></a>Support priorities for new features and bugfixes
 
