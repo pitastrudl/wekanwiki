@@ -55,7 +55,7 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
 ```ApacheConf
 <VirtualHost *:443>
 
-    ServerName example.com
+    ServerName example.com/wekan
 
     SSLEngine On
     SSLCertificateFile      /etc/letsencrypt/live/example.com/cert.pem
