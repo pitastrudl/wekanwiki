@@ -40,6 +40,7 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
     SSLCertificateFile      /etc/letsencrypt/live/example.com/cert.pem
     SSLCertificateKeyFile   /etc/letsencrypt/live/example.com/privkey.pem
     SSLCertificateChainFile /etc/letsencrypt/live/example.com/chain.pem
+    ServerSignature Off
 
     ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:3001/$1"
     ProxyPass        "/" "http://127.0.0.1:3001/"
@@ -61,6 +62,7 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
     SSLCertificateFile      /etc/letsencrypt/live/example.com/cert.pem
     SSLCertificateKeyFile   /etc/letsencrypt/live/example.com/privkey.pem
     SSLCertificateChainFile /etc/letsencrypt/live/example.com/chain.pem
+    ServerSignature Off
 
     ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:3001/$1"                                                                                                                           
     ProxyPass        "/wekan" "http://127.0.0.1:3001/wekan"                                                                                                                                    
