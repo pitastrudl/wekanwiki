@@ -124,9 +124,16 @@ Client ID:                                 <== Copy to below snap settings
 Secret:                                    <== Copy to below snap settings
 Account url: youraccount.eu.auth0.com      <== Copy to below snap settings
 Application Logo:                          <== Add your logo
- 
+Application Type: Regular Web Application
+Token Endpoint Authentication Method: Post
+Allowed Callback URLs: https://wekan.example.com/_oauth/oidc  <== Change your Wekan address
+Allowed Web Origins: https://wekan.example.com                <== Change your Wekan address
+Use Auth0 instead of the IdP to do Single Sign On: [X]
+```
+If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
 
-
+Snap settings, change your info from above to client-id, secret and server-url:
+```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
 sudo snap set wekan oauth2-server-url='https://youraccount.eu.auth0.com'
