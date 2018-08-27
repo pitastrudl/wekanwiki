@@ -13,14 +13,14 @@ If there is existing username/password account in Wekan, OAuth2 merges both logi
 
 Source: [OAuth2 Pull Request](https://github.com/wekan/wekan/pull/1578)
 
-## 1) Install Rocket.Chat
+### 1) Install Rocket.Chat
 
 [Rocket.Chat Snap](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/) has Node at port 3000 and mongodb at port 27017.
 ```
 sudo snap install rocketchat-server
 ```
 
-## 2) Install Wekan
+### 2) Install Wekan
 
 [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install) has Node at port 3001 and MongoDB at port 27019.
 ```
@@ -60,7 +60,7 @@ Enable Wekan's Caddy:
 sudo snap set caddy-enabled='true'
 ```
 
-## 3) Add Rocket.Chat settings
+### 3) Add Rocket.Chat settings
 
 Login to Rocket.Chat at https://chat.example.com .
 
@@ -81,7 +81,7 @@ Access Token URL: https://chat.example.com/oauth/token
 ```
 Save Changes.
 
-## 4) Add Wekan settings
+### 4) Add Wekan settings
 
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
@@ -92,7 +92,7 @@ sudo snap set wekan oauth2-userinfo-endpoint='/oauth/userinfo'
 sudo snap set wekan oauth2-token-endpoint='/oauth/token'
 ```
 
-## 5) Login to Wekan
+### 5) Login to Wekan
 
 1) Go to https://wekan.example.com
 
@@ -102,7 +102,7 @@ sudo snap set wekan oauth2-token-endpoint='/oauth/token'
 
 <img src="https://wekan.github.io/oauth2-login.png" width="60%" alt="Wekan login to Rocket.Chat" />
 
-## 6) Set your Full Name
+### 6) Set your Full Name
 
 Currently Full Name is not preserved, so you need to change it.
 
@@ -112,7 +112,7 @@ Currently Full Name is not preserved, so you need to change it.
 
 <img src="https://wekan.github.io/oauth2-profile-settings.png" width="60%" alt="Wekan login to Rocket.Chat" />
 
-## 7) Add more login options to Rocket.Chat
+### 7) Add more login options to Rocket.Chat
 
 1) At Rocket.Chat, Click: (3 dots) Options / Administration
 
