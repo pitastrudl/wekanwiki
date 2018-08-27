@@ -112,3 +112,25 @@ Currently Full Name is not preserved, so you need to change it.
 2) There are many options at OAuth menu. Above and below of OAuth are also CAS, LDAP and SAML.
 
 <img src="https://wekan.github.io/oauth-rocketchat-options.png" width="100%" alt="Wekan login to Rocket.Chat" />
+
+# Auth0
+
+1) Auth0 / Applications / Add / Regular Web Application
+
+2) Copy client-id, secret, and your account url below
+
+```
+Client ID:                                 <== Copy to below snap settings
+Secret:                                    <== Copy to below snap settings
+Account url: youraccount.eu.auth0.com      <== Copy to below snap settings
+Application Logo:                          <== Add your logo
+ 
+
+
+sudo snap set wekan oauth2-client-id='abcde12345'
+sudo snap set wekan oauth2-secret='54321abcde'
+sudo snap set wekan oauth2-server-url='https://youraccount.eu.auth0.com'
+sudo snap set wekan oauth2-auth-endpoint='/oauth/authorize'
+sudo snap set wekan oauth2-userinfo-endpoint='/oauth/userinfo'
+sudo snap set wekan oauth2-token-endpoint='/oauth/token'
+```
