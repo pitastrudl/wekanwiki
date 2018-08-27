@@ -122,6 +122,8 @@ Currently Full Name is not preserved, so you need to change it.
 
 # Auth0
 
+[Auth0](https://auth0.com) can provide Google/Facebook/LinkedIn etc login options to Wekan.
+
 1) Auth0 / Applications / Add / Regular Web Application
 
 2) Copy client-id, secret, and your account url below
