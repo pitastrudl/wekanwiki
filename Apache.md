@@ -34,6 +34,8 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
 ```ApacheConf
 <VirtualHost *:443>
 
+    ServerName example.com
+
     SSLEngine On
     SSLCertificateFile      /etc/letsencrypt/live/example.com/cert.pem
     SSLCertificateKeyFile   /etc/letsencrypt/live/example.com/privkey.pem
@@ -52,6 +54,8 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
 
 ```ApacheConf
 <VirtualHost *:443>
+
+    ServerName example.com
 
     SSLEngine On
     SSLCertificateFile      /etc/letsencrypt/live/example.com/cert.pem
