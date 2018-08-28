@@ -2,7 +2,6 @@ Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | -------------
 Price | Free and Open Source, MIT license. Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based |
 Hosting | Install to your own computer or server, or use SaaS provider | SaaS |
-Auth | Standalone: Password, [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2). Sandstorm: Email Passwordless / Google / GitHub / LDAP / SAML | Password, Google, SAML, etc |
 Cards | Standalone: Move/Copy to same/other board, Move to Recycle Bin, Delete. Sandstorm: Same, but no move to other board | Move/Copy to same/other board, Archive, Delete |
 Lists | (No move/copy) | Move/Copy to same/other board |
 Checklists | Yes. And: Copy Checklist Template to Many Cards. | Yes. And: Card Repeater Power-Up. |
@@ -83,28 +82,30 @@ Checklist - Select emoji | No | Yes | Yes
 Card - Add attachment | Yes | Yes | Yes
 Move card | Yes | Yes | Yes
 Copy card | Yes | Yes | Yes
-Subscribe card		
-Archive card		
-Vote card		
-Share card		
-Print card		
-Export JSON card		
-Add comment on card		
-Reply comment on card		
-Remove comment on card		
-Nested comments		
-Card resizable view		
-Show attachments in card		
-Card history filtering		
-Button to delete all archived items		
-Card notification & highlight		
-Notification for card overdue		
-Login with username or email		
-LDAP login		 $
-Social login	 (Google only)	
-Search		 $
-Save search		
-Profile		
+Subscribe card | Yes | Yes | Yes
+Archive card | Yes, move to Recycle Bin | Yes | Yes
+Vote card | No | Yes | Yes
+Share card | No | Yes | Yes
+Print card | No | Yes | No
+Add comment on card | Yes | Yes
+Reply comment on card | No | No | Yes
+Remove comment on card | Yes | Yes | Yes
+Nested comments | No | No | Yes
+Card resizable view | No | No | Yes
+Show attachments in card | Yes. Also images in slideshow. | Yes | Yes
+Card history filtering | No | No | Yes
+Button to delete all archived items | [Not yet](https://github.com/wekan/wekan/issues/1625) | No | Yes
+Card notification & highlight | No | No | Yes
+Notification for card overdue | No | Yes | Yes
+Login with username or email | Yes | Yes | Yes
+LDAP login | Standalone: [Not yet](https://github.com/wekan/wekan/pull/1826). Sandstorm: Yes. | No | $ Yes
+SAML login | Standalone: Rocket.Chat SAML => Wekan App [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2). Sandstorm: Yes | No | No
+Google login | Yes, [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) | Yes | No
+GitHub login | Standalone: Yes, [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2). Sandstorm: Yes. | No | No
+Passwordless email login | Standalone: No. Sandstorm: Yes. | No | No
+Search | On same board, also with regex. And add linked card search from any board. | Yes | $ Yes
+Save search | No | Yes | No
+Profile	| 
 Add a new email address		
 Notifications setttings		
 Permanently delete your entire account forever?		 (Admin can delete)
