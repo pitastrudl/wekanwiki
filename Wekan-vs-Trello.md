@@ -40,7 +40,7 @@ Remove list | Yes | Yes | Yes
 Move all cards in this list | No. Only multiselect-drag to the same board. | Yes | Yes
 Archive all cards in this list | No | Yes | Yes
 Archive this list | Yes. Move list to Recycle Bin. | Yes | Yes
-Show attachments in list | No. Only on card. | No | | Yes
+Show attachments in list | No. Only on card. | No | Yes
 
 ## Basic features: Cards
 
