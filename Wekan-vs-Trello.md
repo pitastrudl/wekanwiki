@@ -109,20 +109,20 @@ Profile	| Yes | Yes | Yes
 Add a new email address | Yes | Yes | No
 Notifications setttings | No | Yes | Yes
 Permanently delete your entire account forever?	| No | Yes | Yes (Admin can delete)
-Organizations list on profile
-Organizations		
-Organizations - Add members		
-Organizations - Remove members		
-Organizations - Members change permissions		
-Create organization with types		
-Organizations - Sorting list		
-Organizations - Activities list		
-Organizations settings		
-Organizations visibility		
-Organizations - Membership restrictions		
-Organizations - Board creation restrictions		
-Remove organization		
-Roles management		
+Organizations list on profile | No | Yes | Yes
+Organizations | [Not yet](https://github.com/wekan/wekan/issues/802) | Yes | Yes
+Organizations - Add members | No | Yes | Yes
+Organizations - Remove members | No | Yes | Yes
+Organizations - Members change permissions | No | Yes | Yes
+Create organization with types | No | Yes | No
+Organizations - Sorting list | No | No | Yes
+Organizations - Activities list | No | Yes | Yes
+Organizations settings | No | Yes | Yes
+Organizations visibility | No | Yes | Yes
+Organizations - Membership restrictions | No | Yes | Yes
+Organizations - Board creation restrictions | No | Yes | Yes
+Remove organization | N
+Roles management | [Not yet](https://github.com/wekan/wekan/issues/1861) | 		
 Settings management		
 Users management		
 Activities listing		
