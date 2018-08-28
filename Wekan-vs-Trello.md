@@ -105,11 +105,11 @@ GitHub login | Standalone: Yes, [OAuth2](https://github.com/wekan/wekan/wiki/OAu
 Passwordless email login | Standalone: No. Sandstorm: Yes. | No | No
 Search | On same board, also with regex. And add linked card search from any board. | Yes | $ Yes
 Save search | No | Yes | No
-Profile	| 
-Add a new email address		
-Notifications setttings		
-Permanently delete your entire account forever?		 (Admin can delete)
-Organizations list on profile		
+Profile	| Yes | Yes | Yes
+Add a new email address | Yes | Yes | No
+Notifications setttings | No | Yes | Yes
+Permanently delete your entire account forever?	| No | Yes | Yes (Admin can delete)
+Organizations list on profile
 Organizations		
 Organizations - Add members		
 Organizations - Remove members		
