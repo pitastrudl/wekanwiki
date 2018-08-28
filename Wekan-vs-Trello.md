@@ -46,7 +46,7 @@ Show attachments in list | No. Only on card. | No | Yes
 
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
-Filter cards | Yes, with Regex | Yes | Yes
+Filter cards | Yes, also with Regex | Yes | Yes
 Archived items | Yes, at Recycle Bin | Yes | Yes
 Card stickers | No | Yes | No
 Card labels | Yes | Yes | Yes
