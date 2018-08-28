@@ -121,36 +121,36 @@ Organizations settings | No | Yes | Yes
 Organizations visibility | No | Yes | Yes
 Organizations - Membership restrictions | No | Yes | Yes
 Organizations - Board creation restrictions | No | Yes | Yes
-Remove organization | N
-Roles management | [Not yet](https://github.com/wekan/wekan/issues/1861) | 		
-Settings management		
-Users management		
-Activities listing		
-Introduction video		
-Email templates management		
-Keyboard shortcuts		
-Multiple language		
-List sorting by due date		
-Home screen		
-API explorer		
-Developer applications		
-Authorized OAuth applications		
-Webhooks		
-Apps Integration		
-Chat		 $
-Dashboard Charts		 $
-Hide Card Created Date App		
-Hide Card ID App		
-Custom Field App		 $
-Estimated Time Custom Field App		 $
-Canned Response App		 $
-Auto Archive Expired Cards App		 $
-Zapier (IFTTT like workflow automation with 500+ websites)		 $
-Support Desk		 $
-Card Template App		 $
-Import board from wekan		
-Website QA Checklist		 $
-SEO Checklist		 $
+Remove organization | No | Yes | Yes
+Roles management | [Not yet](https://github.com/wekan/wekan/issues/1861) | No | Yes
+Settings management | Only some at Web UI, most settings at CLI | No | Yes
+Users management | Standalone Admin Panel: Yes edit, no add/remove user. | No? | Yes
+Activities listing | No, only at board | No | Yes
+Introduction video | No | No | Yes
+Email templates management | No | No | Yes
+Keyboard shortcuts | Yes | Yes | Yes
+Multiple language | Yes | Yes | Yes
+List sorting by due date | No | No | Yes
+Home screen | No | No | Yes
+API explorer | No | No | Yes
+Developer applications | Yes, using REST API | Yes | Yes
+Authorized OAuth applications | No, REST API is password login for admin | Yes | Yes
+Webhooks | Yes | Yes | Yes
+Apps Integration | All integrated in | Yes | Yes
+Chat | No. You could use Rocket.Chat etc. | No | $ Yes
+Dashboard Charts | No | No | $ Yes
+Hide Card Created Date App | No | No | Yes
+Hide Card ID App | No | No | Yes
+Custom Field App | Yes | Yes | $ Yes
+Estimated Time Custom Field App | No | No | $ Yes
+Canned Response App | No | No | $ Yes
+Auto Archive Expired Cards App | No | No | $ Yes
+Zapier (IFTTT like workflow automation with 500+ websites) | Yes | Yes | $ Yes
+Integrated IFTTT | [Not yet](https://github.com/wekan/wekan/issues/1160) | No | No
+Support Desk | No | No | $ Yes
+Card Template App | Copy Checklist Template to Multiple Cards | Yes | $ Yes
+Website QA Checklist | No | No | $ Yes
+SEO Checklist | No | No | $ Yes
 Import from GitHub		 $
 Slack		 $
 Amazon Echo		 $
