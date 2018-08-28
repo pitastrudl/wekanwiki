@@ -1,7 +1,7 @@
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Price | Free and Open Source, MIT license. Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based | Open Core
-Hosting | Self-host or SaaS provider | SaaS | Self-host or SaaS ?
+Hosting | Self-host or SaaS provider | SaaS | Self-host
 
 ## Basic features: Board
 
