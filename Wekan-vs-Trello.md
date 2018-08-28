@@ -81,8 +81,6 @@ Card resizable view | No | No | Yes
 Show attachments in card | Yes. Also images in slideshow. | Yes | Yes
 Card history filtering | No | No | Yes
 Button to delete all archived items | [Not yet](https://github.com/wekan/wekan/issues/1625) | No | Yes
-Card notification & highlight | No | No | Yes
-Notification for card overdue | No | Yes | Yes
 
 ## Basic features: Checklists
 
@@ -152,6 +150,8 @@ Email templates management | No | No | Yes
 Notifications settings | No | Yes | Yes
 Disable desktop notification | No desktop notifications | No | Yes
 User configuration to change default subscription on cards and boards | No | No | Yes
+Card notification & highlight | No | No | Yes
+Notification for card overdue | No | Yes | Yes
 
 ## Basic features: Settings
 
