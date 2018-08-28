@@ -25,7 +25,7 @@ Unstarred board | Yes | Yes | Yes
 Swimlanes | Yes | External [Chrome Add-On](https://chrome.google.com/webstore/detail/swimlanes-for-trello/lhgcmlaedabaaaihmfdkldejjjmialgl) and [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/swimlanes-for-trello/) | No
 Board text list view | No | No | Yes
 Board calendar view | Yes | Yes | Yes
-Board sync with google calendar | No | No | Yes
+Board sync with google calendar | No | Yes | Yes
 
 ## Basic features: Lists
 
