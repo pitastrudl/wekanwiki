@@ -59,30 +59,30 @@ Subscribe list | Yes | Yes | Yes
 Remove list | Yes | Yes | Yes
 Move all cards in this list | No. Only multiselect-drag to the same board. | Yes | Yes
 Archive all cards in this list | No | Yes | Yes
-Archive this list | Yes. Move list to Recycle Bin. | 
-Show attachments in list		
-Cards		
-Create cards		
-Instant add card		 $
-Add cards & reply via Email		
-Multiple card view		
-Expandable card view		
-Card ID display		
-Card color on card list		
-Card action on card list		
-Card - Set due date		
-Card - Add members		
-Card - Remove members		
-Card - Add labels		
-Card - Add checklist		
-Checklist - Add item		
-Checklist - Remove item		
-Checklist - Convert to card		
-Checklist - Mention member		
-Checklist - Select emoji		
-Card - Add attachment		
-Move card		
-Copy card		
+Archive this list | Yes. Move list to Recycle Bin. | Yes | Yes
+Show attachments in list | No. Only on card. | No | | Yes
+Cards | Yes | Yes | Yes
+Create cards | Yes | Yes | Yes
+Instant add card | No | No | $ Yes
+Add cards & reply via Email | No | Yes | Yes
+Multiple card view | No | No | Yes
+Expandable card view | No | No | Yes
+Card ID display	| No | No | Yes
+Card color on card list | No | No | Yes
+Card action on card list | Only multiple selection and WIP Limit | Yes | No
+Card - Set due date | Yes | Yes | Yes
+Card - Add members | Yes | Yes | Yes
+Card - Remove members | Yes | Yes | Yes
+Card - Add labels | Yes | Yes | Yes
+Card - Add checklist | Yes | Yes | Yes
+Checklist - Add item | Yes | Yes | Yes
+Checklist - Remove item | Yes | Yes | Yes
+Checklist - Convert to card | No | Yes | Yes
+Checklist - Mention member | No | Yes | Yes
+Checklist - Select emoji | No | Yes | Yes
+Card - Add attachment | Yes | Yes | Yes
+Move card | Yes | Yes | Yes
+Copy card | Yes | Yes | Yes
 Subscribe card		
 Archive card		
 Vote card		
