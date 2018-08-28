@@ -151,12 +151,12 @@ Support Desk | No | No | $ Yes
 Card Template App | Copy Checklist Template to Multiple Cards | Yes | $ Yes
 Website QA Checklist | No | No | $ Yes
 SEO Checklist | No | No | $ Yes
-Import from GitHub		 $
-Slack		 $
-Amazon Echo		 $
-Collaborate/TogetherJS		
-Gmail Add-on		
-Hangouts Chat bot		 $
-iOS Mobile App		
-Disable desktop notification		
-User configuration to change default subscription on cards and boards		
+Slack | [Yes](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord) | Yes |  $ Yes
+Amazon Echo | No | No | $ Yes
+Collaborate/TogetherJS | No | No | Yes
+Gmail Add-on | No | Yes | Yes
+Hangouts Chat bot | No | Yes | $ Yes
+iOS Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend) | Yes | Yes
+Android Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend) | Yes | No
+Disable desktop notification | No desktop notifications | No | Yes
+User configuration to change default subscription on cards and boards | No | No | Yes
