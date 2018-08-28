@@ -223,6 +223,7 @@ Amazon Echo | No | No | $ Yes
 Collaborate/TogetherJS | [Not yet](https://github.com/wekan/wekan/wiki/Friend) | No | Yes
 Gmail Add-on | No | Yes | Yes
 Hangouts Chat bot | No | Yes | $ Yes
+Print board | No | No | $ Yes
 
 ## Apps for productivity: Checklist Templates
 
