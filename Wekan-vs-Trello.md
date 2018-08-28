@@ -34,7 +34,7 @@ Features | Wekan | Trello | Restyaboard
 Create list | Yes | Yes | Yes
 List color | No | No | Yes
 Copy list | No | Yes | Yes
-Move list | No. Only at same board with dragging) | Yes | Yes
+Move list | No. Only at same board with dragging. | Yes | Yes
 Subscribe list | Yes | Yes | Yes
 Remove list | Yes | Yes | Yes
 Move all cards in this list | No. Only multiselect-drag to the same board. | Yes | Yes
