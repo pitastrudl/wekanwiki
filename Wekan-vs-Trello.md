@@ -1,5 +1,5 @@
 Features | Wekan | Trello | Restyaboard
------------- | ------------- | -------------
+------------ | ------------- | ------------- | -------------
 Price | Free and Open Source, MIT license. Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based |
 Hosting | Install to your own computer or server, or use SaaS provider | SaaS |
 Cards | Standalone: Move/Copy to same/other board, Move to Recycle Bin, Delete. Sandstorm: Same, but no move to other board | Move/Copy to same/other board, Archive, Delete |
