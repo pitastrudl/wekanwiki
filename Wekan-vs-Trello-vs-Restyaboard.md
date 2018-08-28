@@ -14,7 +14,7 @@ Boards | Yes | Yes | Yes
 Closed boards listing | Yes, at Recycle Bin | Yes | Yes
 Starred boards listing | No, starred and non-starred at All Boards | No | Yes
 Add board with predefined templates | Import Board from Trello or Wekan | No | Yes
-Board stats | No | No | Yes
+Board stats | [Yes](https://github.com/wekan/wekan/wiki/Features#stats) | No | Yes
 Board - Add members | Yes | Yes | Yes
 Board - Remove members | Yes | Yes | Yes
 Close board | Yes, move to Recycle Bin | Yes | Yes
@@ -201,6 +201,9 @@ Show attachments in board | No (not at All Boards view, only on Cards) | No | Ye
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Apps (Power-ups) | All integrated in, no separate plugin/app  install | Yes | Yes
+Custom Field App | [Yes](https://github.com/wekan/wekan/wiki/Custom-Fields) | Yes | $ Yes
+Estimated Time Custom Field App | No | No | $ Yes
+Analytics | [Magento integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) | No | No
 Hide card additional information | Yes, card and board activities | Yes, card activities | Yes, card activities
 Board Gantt view | No | No | $ Yes
 Activities listing | No, only at board | No | Yes
@@ -212,8 +215,6 @@ Chat | No. You could use Rocket.Chat etc. | No | $ Yes
 Dashboard Charts | No | No | $ Yes
 Hide Card Created Date App | No | No | Yes
 Hide Card ID App | No | No | Yes
-Custom Field App | [Yes](https://github.com/wekan/wekan/wiki/Custom-Fields) | Yes | $ Yes
-Estimated Time Custom Field App | No | No | $ Yes
 Canned Response App | No | No | $ Yes
 Auto Archive Expired Cards App | No | No | $ Yes
 Support Desk | No | No | $ Yes
