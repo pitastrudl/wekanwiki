@@ -76,7 +76,7 @@ Archive card | Yes, move to Recycle Bin | Yes | Yes
 Vote card | No | Yes | Yes
 Share card | No | Yes | Yes
 Print card | No | Yes | No
-Add comment on card | Yes | Yes
+Add comment on card | Yes | Yes | Yes
 Reply comment on card | No | No | Yes
 Remove comment on card | Yes | Yes | Yes
 Nested comments | No | No | Yes
