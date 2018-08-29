@@ -21,6 +21,7 @@ Board stats | [Yes](https://github.com/wekan/wekan/wiki/Features#stats) | No | Y
 Board - Add members | Yes | Yes | Yes
 Board - Remove members | Yes | Yes | Yes
 Close board | Yes, move to Recycle Bin | Yes | Yes
+Delete board | Yes, from Recycle Bin | Yes | Yes
 Subscribe board | Yes | Yes | Yes
 Copy board | Export / Import board | Yes | Yes
 Starred board | Yes | Yes | Yes
@@ -56,6 +57,7 @@ Card labels | Yes | Yes | Yes
 Card labels color change | Yes | Yes | Yes
 Cards | Yes | Yes | Yes
 Create cards | Yes | Yes | Yes
+Delete cards | Yes | Yes | Yes
 Instant add card | No | No | $ Yes
 Add cards & reply via Email | No | Yes | Yes
 Multiple card view | No | No | Yes
