@@ -83,7 +83,7 @@ Vote card | No | Yes | Yes
 Share card | No | Yes | Yes
 Print card | No | Yes | No
 Add comment on card | Yes | Yes | Yes
-Reply comment on card | No | No | Yes
+Reply comment on card | No, only adding another comment | No | Yes
 Remove comment on card | Yes | Yes | Yes
 Nested comments | No | No | Yes
 Card resizable view | No | No | Yes
