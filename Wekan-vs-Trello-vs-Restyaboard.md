@@ -32,7 +32,7 @@ Starred board | Yes | Yes | Yes
 Unstarred board | Yes | Yes | Yes
 Swimlanes | Yes | External [Chrome Add-On](https://chrome.google.com/webstore/detail/swimlanes-for-trello/lhgcmlaedabaaaihmfdkldejjjmialgl) and [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/swimlanes-for-trello/) | No
 Board text list view | [No](https://github.com/wekan/wekan/issues/1862) | No | Yes
-Board calendar view | Yes | Yes | Yes
+Board calendar view | Yes, for Start/End Date | Yes | Yes
 Board sync with google calendar | No | Yes | Yes
 
 ## Basic features: Lists
@@ -211,7 +211,7 @@ Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Apps (Power-ups) | All integrated in, no separate plugin/app  install | Yes | Yes
 Custom Field App | [Yes](https://github.com/wekan/wekan/wiki/Custom-Fields) | Yes | $ Yes
-Estimated Time Custom Field App / Time Tracking | Spent time, no reports. For more advanced, [Not yet](https://github.com/wekan/wekan/issues/812) | Yes, 3rd party Burndown, Harvest etc | $ Yes
+Estimated Time Custom Field App / Time Tracking | Reveived/Start/End/Due/End Date, Spent time, Requested By, Assigned By. No reports. For more advanced, [Not yet](https://github.com/wekan/wekan/issues/812) | Yes, 3rd party Burndown, Harvest etc | $ Yes
 Analytics | [Magento integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) | No | No
 Hide card additional information | Yes, card and board activities | Yes, card activities | Yes, card activities
 Linked Cards and Boards | [Yes](https://github.com/wekan/wekan/pull/1592) | Yes, Related Cards and Boards | ?
