@@ -99,7 +99,7 @@ Checklist - Add item | Yes | Yes | Yes
 Checklist - Remove item | Yes | Yes | Yes
 Checklist - Convert to card | No | Yes | Yes
 Checklist - Mention member | No | Yes | Yes
-Checklist - Select emoji | No | Yes | Yes
+Checklist - Select emoji | [No](https://github.com/wekan/wekan/issues/1537) | Yes | Yes
 
 ## Basic features: Search
 
