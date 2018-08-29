@@ -1,3 +1,6 @@
+Anyone, please feel free correct if there is anything wrong or outdated info below. Comparison below is based on info found at Restya website, and xet7's current info about Wekan, but because all these are actively developed then this comparison most likely goes outdated soon.
+
+
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Price | Free and Open Source, MIT license. Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based | Open Core
