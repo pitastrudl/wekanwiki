@@ -165,7 +165,7 @@ Profile	| Yes | Yes | Yes
 Add a new email address | Register / Invite | Yes | No
 Roles management | [Not yet](https://github.com/wekan/wekan/issues/1861) | No | Yes
 Settings management | Only some at Web UI, most settings at CLI | No | Yes
-Users management | Standalone Admin Panel: Yes edit, no add/remove user. | No? | Yes
+Users management | Standalone Admin Panel: Yes edit. [Adding users](https://github.com/wekan/wekan/wiki/Adding-users). [No removing user yet](https://github.com/wekan/wekan/issues/1289) | Yes? | Yes
 Permanently delete your entire account forever?	| No | Yes | Yes (Admin can delete)
 
 ## Apps for productivity: Login
