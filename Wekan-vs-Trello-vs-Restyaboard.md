@@ -211,7 +211,7 @@ Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Apps (Power-ups) | All integrated in, no separate plugin/app  install | Yes | Yes
 Custom Field App | [Yes](https://github.com/wekan/wekan/wiki/Custom-Fields) | Yes | $ Yes
-Estimated Time Custom Field App / Time Tracking | Spent time field, no reports. For more advanced, [Not yet](https://github.com/wekan/wekan/issues/812) | Yes, 3rd party Burndown, Harvest etc | $ Yes
+Estimated Time Custom Field App / Time Tracking | Spent time, no reports. For more advanced, [Not yet](https://github.com/wekan/wekan/issues/812) | Yes, 3rd party Burndown, Harvest etc | $ Yes
 Analytics | [Magento integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) | No | No
 Hide card additional information | Yes, card and board activities | Yes, card activities | Yes, card activities
 Linked Cards and Boards | [Yes](https://github.com/wekan/wekan/pull/1592) | Yes, Related Cards and Boards | ?
