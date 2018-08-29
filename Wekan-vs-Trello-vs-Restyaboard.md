@@ -3,7 +3,7 @@ Anyone, please feel free correct if there is anything wrong or outdated info bel
 
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
-Price | Free and Open Source, MIT license. Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based | Open Core
+Price | Free and Open Source, [MIT license](https://github.com/wekan/wekan/blob/devel/LICENSE). Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based | Open Core
 Hosting | [Self-host or SaaS provider](https://github.com/wekan/wekan/wiki/Platforms) | SaaS | Self-host
 
 ## Basic features: Board
