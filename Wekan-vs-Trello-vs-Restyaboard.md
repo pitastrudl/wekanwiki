@@ -215,7 +215,7 @@ Estimated Time Custom Field App | No | No | $ Yes
 Analytics | [Magento integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) | No | No
 Hide card additional information | Yes, card and board activities | Yes, card activities | Yes, card activities
 Board Gantt view | No | No | $ Yes
-Gogs Integration | [Yes](https://github.com/wekan/wekan-gogs), needs [bugfix](https://github.com/wekan/wekan-gogs/issues/6) | No | No
+Gogs (Git Service) Integration | [Yes](https://github.com/wekan/wekan-gogs), needs [bugfix](https://github.com/wekan/wekan-gogs/issues/6) | No | No
 Activities listing | No, only at board | No | Yes
 Introduction video | No | No | Yes
 List sorting by due date | No | No | Yes
