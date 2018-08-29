@@ -214,7 +214,7 @@ Custom Field App | [Yes](https://github.com/wekan/wekan/wiki/Custom-Fields) | Ye
 Estimated Time Custom Field App | No | No | $ Yes
 Analytics | [Magento integration](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) | No | No
 Hide card additional information | Yes, card and board activities | Yes, card activities | Yes, card activities
-Linked Cards and Linked Boards | [Yes](https://github.com/wekan/wekan/pull/1592) | ? | ?
+Linked Cards and Boards | [Yes](https://github.com/wekan/wekan/pull/1592) | Yes, Related Cards and Boards | ?
 Subtasks | [Yes](https://github.com/wekan/wekan/pull/1723) | Yes, Hello Epics Power-Up | ?
 Board Gantt view | No | No | $ Yes
 Gogs (Git Service) Integration | [Yes](https://github.com/wekan/wekan-gogs), needs [bugfix](https://github.com/wekan/wekan-gogs/issues/6) | No | No
