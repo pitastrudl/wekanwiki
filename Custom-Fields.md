@@ -1,3 +1,5 @@
+[Custom Fields issue](https://github.com/wekan/wekan/issues/807)
+
 ## 1) Click: Board hamburger menu / Custom Fields
 
 <img src="https://wekan.github.io/custom-field-1.png" width="50%" alt="Custom Field Step 1" />
