@@ -1,6 +1,20 @@
 ## TODO
 
-[Look at scaling tips here](https://github.com/meteor/meteor/issues/9796#issuecomment-411373831)
+[Look at scaling tips here](https://github.com/meteor/meteor/issues/9796#issuecomment-411373831), quote:
+
+> smeijer commented 25 days ago
+> Just wanted to let know that I haven't experienced this issue anymore since I've replaced a lot of `meteor publications` with `apollo/graphql requests`.
+> 
+> The reactivity is thereby lost, but in my case a 30sec poll is also fine. On the places that I do require reactivity, I only `publish` a single `timestamp`. This timestamp is passed through to `apollo`, which triggers a `refetch` when the timestamp is changed.
+>
+> The [discussion here](https://forums.meteor.com/t/implementing-livedocument-as-an-alternative-to-livequery-discussion/40152) has also been helpfull to improve performance here and there.
+
+## Kadira
+
+- https://github.com/edemaine/kadira-compose
+- https://github.com/meteor/meteor-apm-agent
+- https://github.com/kadira-open/kadira-server
+- https://www.gethappyboards.com/2017/07/rolling-out-your-own-instance-of-kadira/
 
 ## Finding memory leaks
 
