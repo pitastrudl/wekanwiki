@@ -15,6 +15,12 @@ If there is existing username/password account in Wekan, OAuth2 merges both logi
 
 Source: [OAuth2 Pull Request](https://github.com/wekan/wekan/pull/1578)
 
+# Docker
+
+https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L146-L166
+
+# Snap
+
 ### 1) Install Rocket.Chat
 
 [Rocket.Chat Snap](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/) has Node at port 3000 and mongodb at port 27017.
