@@ -74,7 +74,10 @@
 # API
 
 * [REST API Issue](https://github.com/wekan/wekan/issues/1037)
-* [REST API Docs](https://github.com/wekan/wekan/wiki/REST-API)
+* [REST API Docs: Login](https://github.com/wekan/wekan/wiki/REST-API)
+* [REST API Docs: User](https://github.com/wekan/wekan/wiki/REST-API-User)
+* [REST API Docs: Boards](https://github.com/wekan/wekan/wiki/REST-API-Boards)
+* [REST API Docs: Cards](https://github.com/wekan/wekan/wiki/REST-API-Cards)
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
 * [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
 * [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
