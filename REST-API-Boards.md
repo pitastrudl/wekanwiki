@@ -4,7 +4,7 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
       http://localhost:3000/api/users/XQMZgynx9M79qTtQc/boards
 ```
 
-# The admin takes the ownership of ALL boards of the user (archived and not archived) where the user is admin on.
+## The admin takes the ownership of ALL boards of the user (archived and not archived) where the user is admin on.
 
 | URL | Requires Admin Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -17,3 +17,9 @@ curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
      http://localhost:3000/api/users/ztKvBTzCqmyJ77on8 \
      -d '{ "action": "takeOwnership" }'
 ```
+
+## Board colors
+
+wekan/models/boards.js
+
+<img src="https://wekan.github.io/board-colors.png" width="30%" alt="Wekan logo" />
