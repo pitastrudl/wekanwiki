@@ -225,3 +225,103 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
   "profile": {}
 }
 ```
+# User List
+Retrieves the user list.
+
+| URL | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/users` | `yes` | `GET` |
+
+* Notes:
+ * **You will need to provide the `token` for any of the authenticated methods.**
+ * **Only the admin user (the first user) can call the REST API.**
+
+## Example Call
+```bash
+curl -H "Authorization: Bearer cwUZ3ZsTaE6ni2R3ppSkYd-KrDvxsLcBIkSVfOCfIkA" \
+      http://localhost:3000/api/users
+```
+
+## Result
+```json
+[
+  {
+    "_id": "user id",
+    "username": "string"
+  }
+]
+```
+
+## Result example
+```json
+[
+  {
+    "_id": "XQMZgynx9M79qTtQc",
+    "username": "admin"
+  },
+  {
+    "_id": "vy4WYj7k7NBhf3AFc",
+    "username": "john"
+  }
+]
+```
+
+# User Logged-in
+Retrieves information about a logged-in user with his auth token.
+
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/user` | `yes` | `GET` |
+
+* Notes:
+ * **You will need to provide the `token` for any of the authenticated methods.**
+
+## Example Call
+```bash
+curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
+      http://localhost:3000/api/user
+```
+
+## Result example
+```json
+{
+  "_id": "vy4WYj7k7NBhf3AFc",
+  "createdAt": "2017-09-16T05:51:30.339Z",
+  "username": "john",
+  "emails": [
+    {
+      "address": "me@mail.com",
+      "verified": false
+    }
+  ],
+  "profile": {}
+}
+```
+
+# Disable a user (the user is not allowed to login and his login tokens are purged)
+
+| URL | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/users/:id` | `yes` | `PUT` |
+
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -H "Content-type:application/json" \
+     -X PUT \
+     http://localhost:3000/api/users/ztKvBTzCqmyJ77on8 \
+     -d '{ "action": "disableLogin" }'
+```
+
+# Enable a user
+
+| URL | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/users/:id` | `yes` | `PUT` |
+
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -H "Content-type:application/json" \
+     -X PUT \
+     http://localhost:3000/api/users/ztKvBTzCqmyJ77on8 \
+     -d '{ "action": "enableLogin" }'
+```
