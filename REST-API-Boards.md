@@ -25,12 +25,12 @@ Required:
 - "owner":"ABCDE12345"   <= User ID in Wekan. Not username or email.
 
 Optional, and defaults:
-- "isAdmin": "true"
-- "isActive": "true"
-- "isNoComments": "false"
-- "isCommentOnly": "false"
-- "permission": "private"   <== Set to "public" if you want public Wekan board
-- "color": "belize"        <== Board color: belize, nephritis, pomegranate, pumpkin, wisteria, midnight.
+- "isAdmin":"true"
+- "isActive":"true"
+- "isNoComments":"false"
+- "isCommentOnly":"false"
+- "permission":"private"   <== Set to "public" if you want public Wekan board
+- "color":"belize"        <== Board color: belize, nephritis, pomegranate, pumpkin, wisteria, midnight.
 
 <img src="https://wekan.github.io/board-colors.png" width="40%" alt="Wekan logo" />
 
