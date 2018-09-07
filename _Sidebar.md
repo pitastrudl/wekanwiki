@@ -79,6 +79,7 @@
 * [Lists](https://github.com/wekan/wekan/wiki/REST-API-Lists)
 * [Cards](https://github.com/wekan/wekan/wiki/REST-API-Cards)
 * [Checklists](https://github.com/wekan/wekan/wiki/REST-API-Checklists)
+* [Swimlanes](https://github.com/wekan/wekan/wiki/REST-API-Swimlanes)
 * [Custom Fields](https://github.com/wekan/wekan/wiki/REST-API-Custom-Fields)
 * [Integrations](https://github.com/wekan/wekan/wiki/REST-API-Integrations)
 
