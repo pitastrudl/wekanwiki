@@ -71,16 +71,23 @@
 * [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
 * [Traefik and self-signed SSL certs](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
 
-# API
+# REST API Docs
+
+* [Login](https://github.com/wekan/wekan/wiki/REST-API)
+* [User](https://github.com/wekan/wekan/wiki/REST-API-User)
+* [Boards](https://github.com/wekan/wekan/wiki/REST-API-Boards)
+* [Lists](https://github.com/wekan/wekan/wiki/REST-API-Lists)
+* [Cards](https://github.com/wekan/wekan/wiki/REST-API-Cards)
+* [Checklists](https://github.com/wekan/wekan/wiki/REST-API-Checklists)
+* [Custom Fields](https://github.com/wekan/wekan/wiki/REST-API-Custom-Fields)
+* [Integrations](https://github.com/wekan/wekan/wiki/REST-API-Integrations)
+
+# REST API issue
 
 * [REST API Issue](https://github.com/wekan/wekan/issues/1037)
-* [REST API Docs: Login](https://github.com/wekan/wekan/wiki/REST-API)
-* [REST API Docs: User](https://github.com/wekan/wekan/wiki/REST-API-User)
-* [REST API Docs: Boards](https://github.com/wekan/wekan/wiki/REST-API-Boards)
-* [REST API Docs: Cards](https://github.com/wekan/wekan/wiki/REST-API-Cards)
-* [REST API Docs: Checklists](https://github.com/wekan/wekan/wiki/REST-API-Checklists)
-* [REST API Docs: Custom Fields](https://github.com/wekan/wekan/wiki/REST-API-Custom-Fields)
-* [REST API Docs: Integrations](https://github.com/wekan/wekan/wiki/REST-API-Integrations)
+
+# REST API client code
+
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
 * [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
 * [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
