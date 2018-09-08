@@ -9,6 +9,8 @@
 >
 > The [discussion here](https://forums.meteor.com/t/implementing-livedocument-as-an-alternative-to-livequery-discussion/40152) has also been helpfull to improve performance here and there.
 
+[Rocket.Chat scaling tips](https://rocket.chat/docs/installation/manual-installation/multiple-instances-to-improve-performance/)
+
 ## Kadira
 
 - https://github.com/edemaine/kadira-compose
