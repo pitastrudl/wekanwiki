@@ -150,7 +150,7 @@ services:
     labels:
       - "traefik.backend=wekan-app"
       - "traefik.docker.network=web"
-      - "traefik.frontend.rule=Host:wekan.internal.vic.gov.au"
+      - "traefik.frontend.rule=Host:wekan.myinternaldomain.org"
       - "traefik.enable=true"
       - "traefik.port=80"
       - "traefik.default.protocol=http"
@@ -159,7 +159,7 @@ services:
       - MONGO_URL=mongodb://wekandb:27017/wekan
       - ROOT_URL=http://wekan.myinternaldomain.org
       - MAIL_URL=smtp://172.17.0.1:25/
-      - MAIL_FROM='Wekan Support - cenitex <unix.admin@myinterndomain.org>'
+      - MAIL_FROM='Wekan Support - <unix.admin@myinternaldomain.org>'
     depends_on:
       - wekandb
 
