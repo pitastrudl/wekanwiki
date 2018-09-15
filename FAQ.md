@@ -47,6 +47,12 @@ Depends on free time of xet7. Usually:
 * Slowest: Once a month.
 * One release contains anything from one typo fix to many major features and bugfixes.
 
+For [Wekan Platforms](https://github.com/wekan/wekan/wiki/Platforms), it means these choices:
+
+* Snap: You get updates automatically immediately, or updates automatically scheduled at midnight
+* Source/Docker/VirtualBox: You need to test and install new Wekan version yourself
+* Sandstorm: ocdtrekkie tests before releasing to Sandstorm App Market, and you backup your grains and upgrade by clicking upgrade button when you wish
+
 ## What Wekan version number means?
 
 * Every release has release date and release number.
