@@ -43,7 +43,7 @@ Wekan:
 ## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
 
 Depends on free time of xet7. Usually:
-* Fastest: multiple times a day. Sometimes this is 7 releases per day. This is usually because some bug is found and new releases are done in rapid schedule until bug is fixed. Also sometimes there is many new pull requests per day, or fast pace of adding new features.
+* Fastest: multiple times a day. Sometimes this is 7 releases per day. This is usually because some bug is found and new releases are done in rapid schedule until bug is fixed. Also sometimes there is many new pull requests per day, or fast pace of adding new features. This is like said by Eric S. Raymond: ["Release early. Release often. And listen to your customers."](https://en.wikipedia.org/wiki/Release_early,_release_often)
 * Slowest: Once a month.
 * One release contains anything from one typo fix to many major features and bugfixes.
 
