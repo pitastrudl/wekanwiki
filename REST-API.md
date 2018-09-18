@@ -31,21 +31,21 @@ When calling a production Wekan server, ensure it is running via HTTPS and has a
 ### Users
 | HTTP Method | Url | Short Description |
 | :--- | :--- | :--- |
-| `POST` | `/users/register` | [Register a new user.](#user-register) |
-| `POST` | `/api/users` | [Create a new user.](#user-create) |
-| `PUT` | `/api/users/:id` | [Disable an existing user.](#disable-a-user-the-user-is-not-allowed-to-login-and-his-login-tokens-are-purged) |
-| `PUT` | `/api/users/:id` | [Enable an existing user.](#enable-a-user) |
-| `PUT` | `/api/users/:id` | [Admin takes the ownership.](#the-admin-takes-the-ownership-of-all-boards-of-the-user-archived-and-not-archived-where-the-user-is-admin-on) |
-| `DELETE` | `/api/users/:id` | [Delete an existing user.](#user-delete) ([Warning](https://github.com/wekan/wekan/issues/1289))|
-| `GET` | `/api/users/:id` | [Gets a user's information.](#user-information) |
-| `GET` | `/api/users` | [All of the users.](#user-list) |
-| `GET` | `/api/user` | [Gets a logged-in user.](#user-logged-in) |
+| `POST` | `/users/register` | [Register a new user.](https://github.com/wekan/wekan/wiki/REST-API-User#user-register) |
+| `POST` | `/api/users` | [Create a new user.](https://github.com/wekan/wekan/wiki/REST-API-User#user-create) |
+| `PUT` | `/api/users/:id` | [Disable an existing user.](https://github.com/wekan/wekan/wiki/REST-API-User#disable-a-user-the-user-is-not-allowed-to-login-and-his-login-tokens-are-purged) |
+| `PUT` | `/api/users/:id` | [Enable an existing user.](https://github.com/wekan/wekan/wiki/REST-API-User#enable-a-user) |
+| `PUT` | `/api/users/:id` | [Admin takes the ownership.](https://github.com/wekan/wekan/wiki/REST-API-User#the-admin-takes-the-ownership-of-all-boards-of-the-user-archived-and-not-archived-where-the-user-is-admin-on) |
+| `DELETE` | `/api/users/:id` | [Delete an existing user.](https://github.com/wekan/wekan/wiki/REST-API-User#user-delete) ([Warning](https://github.com/wekan/wekan/issues/1289))|
+| `GET` | `/api/users/:id` | [Gets a user's information.](https://github.com/wekan/wekan/wiki/REST-API-User#user-information) |
+| `GET` | `/api/users` | [All of the users.](https://github.com/wekan/wekan/wiki/REST-API-User#user-list) |
+| `GET` | `/api/user` | [Gets a logged-in user.](https://github.com/wekan/wekan/wiki/REST-API-User#user-logged-in) |
 ### Cards
 | HTTP Method | Url | Short Description |
 | :--- | :--- | :--- |
-| `POST` | `/api/boards/:boardId/lists/:listId/cards` | [Add a card to a list, board, and swimlane.](#add-card-to-list-board-swimlane) |
-| `PUT` | `/api/boards/:boardId/lists/:fromListId/cards/:cardId` | [Update a card.](#update-a-card) |
-| `DELETE` | `/api/boards/:boardId/lists/:listId/cards/:cardId` | [Delete a card.](#delete-a-card) |
+| `POST` | `/api/boards/:boardId/lists/:listId/cards` | [Add a card to a list, board, and swimlane.](https://github.com/wekan/wekan/wiki/REST-API-Cards#add-card-to-list-board-swimlane) |
+| `PUT` | `/api/boards/:boardId/lists/:fromListId/cards/:cardId` | [Update a card.](https://github.com/wekan/wekan/wiki/REST-API-Cards#update-a-card) |
+| `DELETE` | `/api/boards/:boardId/lists/:listId/cards/:cardId` | [Delete a card.](https://github.com/wekan/wekan/wiki/REST-API-Cards#update-a-card) |
 
 
 ---
