@@ -51,7 +51,7 @@ The setting inside single quotes is the actual setting.
 
 Actual settings can include double quotes, spaces, etc, but not single quotes. For example:
 ```
-snap set wekan ldap-user-search-filter='(&(objectCategory=person)(objectClass=user)(!(cn=andy)))'
+snap set wekan ldap-user-search-filter='"(&(objectCategory=person)(objectClass=user)(!(cn=andy)))"'
 ```
 
 ## 2) What to add as setting to Wekan help
