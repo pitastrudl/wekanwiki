@@ -1,6 +1,10 @@
 # When adding settings to code you or somebody else wrote
 
-Add all settings that you find on code.
+Add all necessary settings that you find on code.
+
+After doing all changes, [fix lint errors](https://github.com/wekan/wekan/wiki/Developer-Documentation#preventing-travis-ci-lint-errors-before-submitting-pull-requests) and if possible warnings too. You can silence errors if you really can't find solution.
+
+Submit pull request to Wekan edge branch https://github.com/wekan/wekan/tree/edge
 
 # Changes to [config](https://github.com/wekan/wekan/blob/edge/snap-src/bin/config)
 
