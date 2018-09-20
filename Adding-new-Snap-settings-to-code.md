@@ -1,3 +1,7 @@
+# When adding settings to code you or somebody else wrote
+
+Add all settings that you find on code.
+
 # Changes to [config](https://github.com/wekan/wekan/blob/edge/snap-src/bin/config)
 
 ## 1) Add to beginning
