@@ -36,7 +36,7 @@ DESCRIPTION_LDAP_SEARCH_FILTER="LDAP search filter. Default: (&(objectCategory=p
 DEFAULT_LDAP_SEARCH_FILTER="(&(objectCategory=person)(objectClass=user)(!(cn=andy)))"
 KEY_LDAP_ENABLED="ldap-enabled"
 ```
-Example 4: If you don't know example, just leave setting empty by default.
+Example 4: If you don't know example, leave it without example. Setting can be empty by default.
 ```
 DESCRIPTION_TURBO_FILTER="Turbo filter. Default: ''"
 DEFAULT_TURBO_FILTER=""
