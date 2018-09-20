@@ -27,10 +27,10 @@ Please read the meteor style guide before making any significant contribution.
 - If you have fix to some existing pull request, add your fix as comment. Do not post new pull request.
 - For new features add new pull request, if there is none already.
 - Use the [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) workflow.
-  - create a PR from your feature-branch to `wekan/devel` directly so that you can continue your work without interruption.
+  - create a PR from your feature-branch to `wekan/edge` directly so that you can continue your work without interruption.
 - Keep your local forks updated with this repo by setting your `git upstream` value as described [here](https://robots.thoughtbot.com/keeping-a-github-fork-updated).
   - before submitting a PR make sure you `rebase` your local branch as described [here](http://push.cwcon.org/learn/stay-updated#on_your_computer_routine_tasks)
-  - If you accidentally mess around on your `devel` branch, follow these steps [here](http://push.cwcon.org/learn/stay-updated#oops_i_was_messing_around_on_) to clean it up.
+  - If you accidentally mess around on your `edge` branch, follow these steps [here](http://push.cwcon.org/learn/stay-updated#oops_i_was_messing_around_on_) to clean it up.
 
 ## Preventing Travis CI lint errors before submitting pull requests
 
@@ -50,7 +50,6 @@ Please read the meteor style guide before making any significant contribution.
 Main point is to be friendly to those commenting of your code, and incorporate those suggestions that make most sense.
 
 # Build Pipeline
-
 
 - Templates are written in [JADE](https://naltatis.github.io/jade-syntax-docs/) instead of plain HTML. Also see [HTML to JADE converter](http://html2jade.org/).
 - CSS is written in the [Stylus](http://stylus-lang.com/) precompiler - see [Stylus to CSS converter](https://mikethedj4.github.io/Stylus2CSS/), and
