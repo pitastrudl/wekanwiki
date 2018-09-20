@@ -10,6 +10,7 @@ keys="MONGODB_BIND_UNIX_SOCKET MONGODB_BIND_IP ..."
 To the end of it, add name of new setting. For example:
 ```
 keys="... AWESOME_FEATURE_ENABLED"
+```
 
 ## 2) Add to bottom
 
@@ -26,9 +27,16 @@ DEFAULT_OAUTH2_TOKEN_ENDPOINT=""
 KEY_OAUTH2_TOKEN_ENDPOINT="oauth2-token-endpoint"
 ```
 Example 3: If there is same for every server, set it to general setting.
+```
 DESCRIPTION_LDAP_SEARCH_FILTER="LDAP search filter. Default: (&(objectCategory=person)(objectClass=user)(!(cn=andy)))"
 DEFAULT_LDAP_SEARCH_FILTER="(&(objectCategory=person)(objectClass=user)(!(cn=andy)))"
 KEY_LDAP_ENABLED="ldap-enabled"
+```
+Example 4: If you don't know example, just leave setting empty by default.
+```
+DESCRIPTION_TURBO_FILTER="Turbo filter. Default: ''"
+DEFAULT_TURBO_FILTER=""
+KEY_TURBO_FILTER="turbo-filter"
 ```
 
 # Changes to [Snap help](https://github.com/wekan/wekan/blob/edge/snap-src/bin/wekan-help)
