@@ -41,12 +41,7 @@ KEY_TURBO_FILTER="turbo-filter"
 
 # Changes to [Snap help](https://github.com/wekan/wekan/blob/edge/snap-src/bin/wekan-help)
 
-## 3) Add before this line new setting
-
-```
-# parse config file for supported settings keys
-```
-## 4) How to quote examples
+## 1) How to quote examples
 
 Snap settings need to be lowercase, and inside single quotes. For example:
 ```
@@ -59,7 +54,7 @@ Actual settings can include double quotes, spaces, etc, but not single quotes. F
 snap set wekan ldap-user-search-filter='(&(objectCategory=person)(objectClass=user)(!(cn=andy)))'
 ```
 
-## 5) What to add as setting to Wekan help
+## 2) What to add as setting to Wekan help
 
 Example 1:
 ```
