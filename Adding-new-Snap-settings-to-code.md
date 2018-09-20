@@ -1,3 +1,7 @@
+# Also see Snap Developer Docs
+
+[Snap Developer Docs](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs)
+
 # When adding settings to code you or somebody else wrote
 
 Add all necessary settings that you find on code.
