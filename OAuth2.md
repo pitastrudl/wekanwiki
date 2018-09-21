@@ -65,7 +65,7 @@ chat.example.com {
 ```
 Enable Wekan's Caddy:
 ```
-sudo snap set caddy-enabled='true'
+sudo snap set wekan caddy-enabled='true'
 ```
 
 ### 3) Add Rocket.Chat settings
