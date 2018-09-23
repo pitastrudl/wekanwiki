@@ -153,7 +153,7 @@ If you  need more info, they are at bottom of the page Advanced Settings / Endpo
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
 sudo snap set wekan oauth2-server-url='https://youraccount.eu.auth0.com'
-sudo snap set wekan oauth2-auth-endpoint='/oauth/authorize'
-sudo snap set wekan oauth2-userinfo-endpoint='/oauth/userinfo'
+sudo snap set wekan oauth2-auth-endpoint='/authorize'
+sudo snap set wekan oauth2-userinfo-endpoint='/userinfo'
 sudo snap set wekan oauth2-token-endpoint='/oauth/token'
 ```
