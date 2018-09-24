@@ -54,6 +54,7 @@
 # <a name="Migrating"></a>Migrating
 
 * [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
+* [From old Wekan manually](https://github.com/wekan/wekan/wiki/Migrating-from-old-Wekan-manually)
 
 # <a name="Settings"></a>Settings
 
