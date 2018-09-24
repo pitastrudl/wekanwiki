@@ -24,6 +24,9 @@
 # Backup
 
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
+
+# <a name="Repair"></a>Repair
+
 * [Repair MongoDB](https://github.com/wekan/wekan-mongodb/issues/6#issuecomment-424004116)
 
 # <a name="Features"></a>Features
