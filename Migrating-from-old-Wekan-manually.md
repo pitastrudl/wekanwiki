@@ -42,7 +42,7 @@ Some of the database schema can be different. If you see difference in these fil
 ### a) Add issue
 - [Add issue](https://github.com/wekan/wekan/issues)
 
-### b) Pull request
+### b) Create pull request
 - [Build from source or build on VirtualBox image](https://github.com/wekan/wekan/wiki/Platforms)
 - [Please try to fix lint error before creating pull request](https://github.com/wekan/wekan/wiki/Developer-Documentation#preventing-travis-ci-lint-errors-before-submitting-pull-requests)
 - [Making Pull Request](https://help.github.com/articles/creating-a-pull-request/)
