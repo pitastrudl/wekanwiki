@@ -10,6 +10,14 @@ After doing all changes, [fix lint errors](https://github.com/wekan/wekan/wiki/D
 
 Submit pull request to Wekan edge branch https://github.com/wekan/wekan/tree/edge
 
+# Changes to server code
+
+To use environment variables in your serverside code, use:
+```
+process.env.YOURSETTING
+```
+Example: [wekan/server/policy.js](https://github.com/wekan/wekan/blob/edge/server/policy.js)
+
 # Changes to [config](https://github.com/wekan/wekan/blob/edge/snap-src/bin/config)
 
 ## 1) Add to beginning
