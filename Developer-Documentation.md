@@ -23,6 +23,7 @@ Please read the meteor style guide before making any significant contribution.
 
 ## Pull Request Workflow (Please read before submitting PR's)
 
+- If package is available on meteor https://atmospherejs.com `meteor add packagename` or https://www.npmjs.com `meteor npm install packagename` then it's enough to add package that way, and there is no need to clone repo in [rebuild-wekan.sh](https://github.com/wekan/wekan-maintainer/tree/master/releases) script.
 - When doing pull requests, only add additions and changes to English at wekan/i18n/en.i18n.json . Other translations are done at [https://www.transifex.com/wekan/wekan](https://www.transifex.com/wekan/wekan).
 - If you have fix to some existing pull request, add your fix as comment. Do not post new pull request.
 - For new features add new pull request, if there is none already.
