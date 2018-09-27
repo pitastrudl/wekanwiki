@@ -1,3 +1,9 @@
+# Current bugs and progress, help welcome
+
+- [OAuth2 bug](https://github.com/wekan/wekan/issues/1874)
+
+- [Auth0 progress](https://github.com/wekan/wekan/issues/1722)
+
 # OAuth2 providers
 
 You can use any OAuth2 provider for logging into Wekan, for example:
