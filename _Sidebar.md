@@ -81,6 +81,7 @@
 
 * [Login](https://github.com/wekan/wekan/wiki/REST-API)
 * [User](https://github.com/wekan/wekan/wiki/REST-API-User)
+* [Role](https://github.com/wekan/wekan/wiki/REST-API-Role)
 * [Boards](https://github.com/wekan/wekan/wiki/REST-API-Boards)
 * [Lists](https://github.com/wekan/wekan/wiki/REST-API-Lists)
 * [Cards](https://github.com/wekan/wekan/wiki/REST-API-Cards)
