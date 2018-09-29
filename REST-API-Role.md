@@ -1,4 +1,4 @@
-# User Role on Board
+# Role of Board Member
 
 ## Admin
 ```
