@@ -1,3 +1,7 @@
+## Newest on edge
+
+[Newest API additions are available only on edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs)
+
 ## Information about boards of user
 ```
 curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
