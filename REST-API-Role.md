@@ -2,7 +2,7 @@
 
 [Newest API additions are available only on edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs)
 
-# Change Role of Board Member
+# Change Role of Existing Board Member
 
 ## Admin
 ```
