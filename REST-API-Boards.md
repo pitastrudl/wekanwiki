@@ -3,16 +3,11 @@
 curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
       http://localhost:3000/api/users/XQMZgynx9M79qTtQc/boards
 ```
-## Add user to board
-TODO: 
-```
-curl PUT http://localhost:3000/api/users/XQMZgynx9M79qTtQc/boards ....
-```
-## Add user to board
-TODO: 
-```
-curl DELETE http://localhost:3000/api/users/XQMZgynx9M79qTtQc/boards ....
-```
+
+## Change role of user on board
+
+[Change Role: admin/normal/nocomments/commentonly](https://github.com/wekan/wekan/wiki/REST-API-Role)
+
 ## The admin takes the ownership of ALL boards of the user (archived and not archived) where the user is admin on.
 
 | URL | Requires Admin Auth | HTTP Method |
