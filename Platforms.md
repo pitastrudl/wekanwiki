@@ -17,6 +17,8 @@ Downloading and installing Wekan on various platforms.
 
 ## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited, recommended for security critical use on public internet or internal network. Use SaaS or install to your own server. Automatic updates. Sandstorm Wekan has different features than Standalone.
 
+Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
+
 Please support Sandtorm [by subscribing to paid plan](https://sandstorm.io/news/2018-08-27-discontinuing-free-plan). Free plans will be discontinued because there is not enough paid subscribers to pay for server costs. xet7 has spent countless hours to keeping Wekan working on Sandstorm platform, and [many depend on Sandstorm daily. Wekan Team website](https://wekan.team) and [blog](https://blog.wekan.team) run on Sandstorm Oasis, using account paid by xet7. xet7 plans to add more fixes to features to Sandstorm platform.
 
 Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workarounds. Copying/Moving card to another board [does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
