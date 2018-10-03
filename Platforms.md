@@ -67,7 +67,7 @@ If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
   * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
 
-## SaaS: Wekan ready services, just start using. Some have free and paid options.
+## SaaS: Wekan ready paid services, just start using.
 
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) - Sandstorm Wekan
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron) - Standalone Wekan
