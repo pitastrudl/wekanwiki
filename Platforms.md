@@ -17,11 +17,9 @@ Downloading and installing Wekan on various platforms.
 
 ## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan.
 
-[Security audited](https://sandstorm.io/news/2017-03-02-security-review), recommended for security critical use on public internet or internal network. [Sandstorm Security Features](https://docs.sandstorm.io/en/latest/using/security-practices/).
+[Security audited](https://sandstorm.io/news/2017-03-02-security-review), recommended for security critical use on public internet or internal network. [Sandstorm Security Features](https://docs.sandstorm.io/en/latest/using/security-practices/). Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
 
 Use SaaS or install to your own server. Automatic updates, tested before release. Sandstorm Wekan has different features than Standalone.
-
-Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
 
 Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get). Free plans [will be discontinued](https://sandstorm.io/news/2018-08-27-discontinuing-free-plan) because there is not enough paid subscribers to pay for server costs. xet7 has spent countless hours to keeping Wekan working on Sandstorm platform, and [many depend on Sandstorm daily. Wekan Team website](https://wekan.team) and [blog](https://blog.wekan.team) run on Sandstorm Oasis, using account paid by xet7. xet7 plans to add more fixes to features to Sandstorm platform. You can also support Wekan on Sandstorm by using [Commercial Support by xet7](https://wekan.team).
 
