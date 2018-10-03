@@ -17,7 +17,7 @@ Downloading and installing Wekan on various platforms.
 
 ## <a name="ProductionSandstorm"></a>Production: [Sandstorm](https://sandstorm.io) platform, many apps and Wekan.
 
-* **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
+* **[Sandstorm info at Wekan wiki](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
 
 [Security audited](https://sandstorm.io/news/2017-03-02-security-review), recommended for security critical use on public internet or internal network. [Sandstorm Security Features](https://docs.sandstorm.io/en/latest/using/security-practices/). Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
 
