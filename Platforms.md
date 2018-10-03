@@ -15,7 +15,7 @@ Downloading and installing Wekan on various platforms.
 
 ***
 
-## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited, recommended for security critical use on public internet or internal network. Use SaaS or install to your own server. Automatic updates. Sandstorm Wekan has different features than Standalone.
+## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited, recommended for security critical use on public internet or internal network. Use SaaS or install to your own server. Automatic updates, tested before release. Sandstorm Wekan has different features than Standalone.
 
 Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
 
