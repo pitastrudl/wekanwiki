@@ -48,8 +48,14 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 - [Outgoing Webhooks](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
 - [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
 
-**Does not work yet**
-- LDAP, OAuth2, CAS.
+**Does not work fully yet, being tested**
+- Login
+  - [LDAP](https://github.com/wekan/wekan/issues/119)
+  - [OAuth2](https://github.com/wekan/wekan/issues/1874) - [Docs](https://github.com/wekan/wekan/wiki/OAuth2)
+  - [Auth0](https://github.com/wekan/wekan/issues/1722)
+  - [CAS](https://github.com/wekan/wekan/issues/1925)
+- [IFTTT](https://github.com/wekan/wekan/issues/1160) - this mostly works
+- These are at [bleeding edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs)
 
 Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
