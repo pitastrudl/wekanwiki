@@ -12,7 +12,24 @@ Downloading and installing Wekan on various platforms.
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken. Only Standalone Wekan.
+
+***
+
+## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited, recommended for security critical use on public internet or internal network. Use SaaS or install to your own server. Automatic updates. Sandstorm Wekan has different features than Standalone.
+
+Please support Sandtorm [by subscribing to paid plan](https://sandstorm.io/news/2018-08-27-discontinuing-free-plan). Free plans will be discontinued because there is not enough paid subscribers to pay for server costs. xet7 has spent countless hours to keeping Wekan working on Sandstorm platform, and [many depend on Sandstorm daily. Wekan Team website](https://wekan.team) and [blog](https://blog.wekan.team) run on Sandstorm Oasis, using account paid by xet7. xet7 plans to add more fixes to features to Sandstorm platform.
+
+Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workarounds. Copying/Moving card to another board [does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
+
+* **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
+
+***
+
+## Standalone Wekan: Docker, Snap, etc others non-Sandstorm 
+
+Import from Trello, and Import/Export Wekan works. Copying/Moving card to another board works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
+
+## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken. Only Standalone Wekan. If security is critical, keep behind firewall, without any ports open to Internet.
 * USE
   * Use quay.io image release tags like "1.x" stable.
 * DO NOT USE
@@ -24,9 +41,7 @@ Downloading and installing Wekan on various platforms.
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan. If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update.
-
-Import from Trello, and Import/Export Wekan works. Copying/Moving card to another board works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
+## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan. If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update. If security is critical, keep behind firewall, without any ports open to Internet.
 
 * **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. 
   * **Debian, Ubuntu and Linux Mint based distros**
@@ -42,12 +57,6 @@ Import from Trello, and Import/Export Wekan works. Copying/Moving card to anothe
   * [AWS](https://github.com/wekan/wekan/wiki/AWS)
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
   * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
-
-## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Sandstorm Wekan has different features than Standalone.
-
-Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workarounds. Copying/Moving card to another board [does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
-
-* **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
 
 ## SaaS: Wekan ready services, just start using. Some have free and paid options.
 
