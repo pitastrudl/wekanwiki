@@ -40,7 +40,7 @@ Only Standalone Wekan. If security is critical, keep behind firewall, without an
 * USE
   * Use quay.io image release tags like "1.x" stable.
 * DO NOT USE
-  * Release tags "1.x.x" edge. They are bleeding edge.
+  * Release tags "1.x.x" edge. They are [bleeding edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs).
   * Docker Hub images, they are often broken.
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
   * [Windows](https://github.com/wekan/wekan/wiki/Windows)
