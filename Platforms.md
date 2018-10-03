@@ -12,6 +12,18 @@ Downloading and installing Wekan on various platforms.
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
+## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken. Only Standalone Wekan.
+* USE
+  * Use quay.io image release tags like "1.x" stable.
+* DO NOT USE
+  * Release tags "1.x.x" edge. They are bleeding edge.
+  * Docker Hub images, they are often broken.
+* [Docker](https://github.com/wekan/wekan/wiki/Docker)
+  * [Windows](https://github.com/wekan/wekan/wiki/Windows)
+  * [Mac](https://github.com/wekan/wekan/wiki/Mac)
+  * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+* [Proxy](https://github.com/wekan/wekan/issues/1480)
+
 ## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan.
 
 If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update.
@@ -32,18 +44,6 @@ Import from Trello, and Import/Export Wekan works. Copying/Moving card to anothe
   * [AWS](https://github.com/wekan/wekan/wiki/AWS)
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
   * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
-
-## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first. Only Standalone Wekan.
-* USE
-  * Use quay.io image release tags like "1.x" stable.
-* DO NOT USE
-  * Release tags "1.x.x" edge. They are bleeding edge.
-  * Docker Hub images, they are often broken.
-* [Docker](https://github.com/wekan/wekan/wiki/Docker)
-  * [Windows](https://github.com/wekan/wekan/wiki/Windows)
-  * [Mac](https://github.com/wekan/wekan/wiki/Mac)
-  * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
-* [Proxy](https://github.com/wekan/wekan/issues/1480)
 
 ## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Sandstorm Wekan has different features than Standalone.
 
