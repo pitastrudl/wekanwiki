@@ -12,11 +12,11 @@ Downloading and installing Wekan on various platforms.
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Wekan. Supported by xet7.
+## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan. If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed some automatic update.
 
 Import from Trello, and Import/Export Wekan works. Copying/Moving card to another board works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
-* **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. [Wekan for Snap bug reports and feature requests](https://github.com/wekan/wekan-snap/issues).
+* **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. 
   * **Debian, Ubuntu and Linux Mint based distros**
   * Arch
   * Fedora
@@ -31,14 +31,19 @@ Import from Trello, and Import/Export Wekan works. Copying/Moving card to anothe
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
   * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
 
-## <a name="ProductionDocker"></a>Production: Docker. Use quay.io release tags like "1.x" stable, not "1.x.x" edge. No automatic upgrades, use if you want to test new release first.
+## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first. Only Standalone Wekan.
+* USE
+  * Use quay.io image release tags like "1.x" stable.
+* DO NOT USE
+  * Release tags "1.x.x" edge. They are bleeding edge.
+  * Docker Hub images, they are often broken.
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
   * [Windows](https://github.com/wekan/wekan/wiki/Windows)
   * [Mac](https://github.com/wekan/wekan/wiki/Mac)
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Supported by xet7.
+## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Sandstorm Wekan has different features than Standalone.
 
 Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workarounds. Copying/Moving card to another board [does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
 
@@ -46,35 +51,35 @@ Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workar
 
 ## SaaS: Wekan ready services, just start using. Some have free and paid options.
 
-* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)
-* [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron)
-* [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters)
-* [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo)
+* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) - Sandstorm Wekan
+* [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron) - Standalone Wekan
+* [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters) - Standalone Wekan
+* [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo) - Standalone Wekan
 
 ***
 
-## <a name="Development"></a>Development: Only for internal network, not updated automatically.
+## <a name="Development"></a>Development: Not updated automatically.
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only. Source, Snap, Docker, Sandstorm, Meteor bundle and Windows build instructions.
 * [Meteor Bundle](https://github.com/wekan/wekan/wiki/Meteor-bundle)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming:
-  * [EthKan](https://github.com/EthKan)
-  * [Friend](https://github.com/wekan/wekan/wiki/Friend)
-  * [arm64](https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html)
+  * [EthKan](https://github.com/EthKan) - Snap Standalone Wekan
+  * [Friend](https://github.com/wekan/wekan/wiki/Friend) - Snap Standalone Wekan
+  * [arm64](https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html) - Snap Standalone Wekan
   * [Snap for other processor architectures](https://github.com/wekan/wekan-snap/issues/46)
 
-## Operating Systems: For Development only.
+## Operating Systems
 
 * [Debian 64bit](https://github.com/wekan/wekan/wiki/Debian)
 * [SmartOS](https://github.com/wekan/wekan/wiki/SmartOS)
 * [FreeBSD](https://github.com/wekan/wekan/wiki/FreeBSD)
 
-## NAS: For hobby use
+## NAS
 
 * [Qnap TS-469L](https://github.com/wekan/wekan/issues/1180)
 
-## Other Clouds: Not supported. Requires from source install, has restricted 2.x kernel, does not support websockets, or not tested yet.
+## Other Clouds. Can have some restrictions, like: Requires from source install, has restricted 2.x kernel, does not support websockets, or not tested yet.
 
 * [Uberspace](https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace)
 * [OVH and Kimsufi](https://github.com/wekan/wekan/wiki/OVH)
@@ -88,7 +93,6 @@ Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workar
 [Features](https://github.com/wekan/wekan/wiki/Features)
 
 [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
-
 
 [install_source]: https://github.com/wekan/wekan/wiki/Install-and-Update#install-manually-from-source
 [installsource_windows]: https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows
