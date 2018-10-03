@@ -17,21 +17,35 @@ Downloading and installing Wekan on various platforms.
 
 ## <a name="ProductionSandstorm"></a>Production: [Sandstorm](https://sandstorm.io) platform, many apps and Wekan.
 
+* **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
+
 [Security audited](https://sandstorm.io/news/2017-03-02-security-review), recommended for security critical use on public internet or internal network. [Sandstorm Security Features](https://docs.sandstorm.io/en/latest/using/security-practices/). Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
 
 Use SaaS or install to your own server. Automatic updates, tested before release. Sandstorm Wekan has different features than Standalone.
 
 Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get). Free plans [will be discontinued](https://sandstorm.io/news/2018-08-27-discontinuing-free-plan) because there is not enough paid subscribers to pay for server costs. xet7 has spent countless hours to keeping Wekan working on Sandstorm platform, and [many depend on Sandstorm daily. Wekan Team website](https://wekan.team) and [blog](https://blog.wekan.team) run on Sandstorm Oasis, using account paid by xet7. xet7 plans to add more fixes to features to Sandstorm platform. You can also support Wekan on Sandstorm by using [Commercial Support by xet7](https://wekan.team).
 
-Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workarounds. Copying/Moving card to another board [does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
+**Works**
+- Google/GitHub/LDAP/SAML/Passwordless email login.
+- Free SSL at https://yourservername.sandcats.io domain.
 
-* **[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
+**Does not work**
+- [Import](https://github.com/wekan/wekan/issues/1430), needs workarounds.
+- [Copying/Moving card to another board](https://github.com/wekan/wekan/issues/1729). 
 
 ***
 
 ## Standalone Wekan: Docker, Snap, etc others non-Sandstorm 
 
-Import from Trello, and Import/Export Wekan works. Copying/Moving card to another board works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
+**Works**
+- Import from Trello, and Import/Export Wekan.
+- Copying/Moving card to another board.
+- Password auth.
+
+**Does not work yet**
+- LDAP, OAuth2, CAS.
+
+Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
 ## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken.
 
