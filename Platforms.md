@@ -10,8 +10,9 @@ Downloading and installing Wekan on various platforms.
 * [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
 * [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
+* [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## <a name="Production"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Wekan. Supported by xet7.
+## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Wekan. Supported by xet7.
 
 Import from Trello, and Import/Export Wekan works. Copying/Moving card to another board works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
@@ -30,6 +31,13 @@ Import from Trello, and Import/Export Wekan works. Copying/Moving card to anothe
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
   * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
 
+## <a name="ProductionDocker"></a>Production: Docker. Use quay.io release tags like "1.x" stable, not "1.x.x" edge. No automatic upgrades, use if you want to test new release first.
+* [Docker](https://github.com/wekan/wekan/wiki/Docker)
+  * [Windows](https://github.com/wekan/wekan/wiki/Windows)
+  * [Mac](https://github.com/wekan/wekan/wiki/Mac)
+  * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+* [Proxy](https://github.com/wekan/wekan/issues/1480)
+
 ## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited. Install to your own server. Automatic updates. Supported by xet7.
 
 Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workarounds. Copying/Moving card to another board [does not work](https://github.com/wekan/wekan/issues/1729). Google/GitHub/LDAP/SAML/Passwordless email login. Free SSL at https://yourservername.sandcats.io domain.
@@ -46,14 +54,9 @@ Import [does not work](https://github.com/wekan/wekan/issues/1430), needs workar
 ***
 
 ## <a name="Development"></a>Development: Only for internal network, not updated automatically.
-* [Docker](https://github.com/wekan/wekan/wiki/Docker)
-  * [Windows](https://github.com/wekan/wekan/wiki/Windows)
-  * [Mac](https://github.com/wekan/wekan/wiki/Mac)
-  * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
 * [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only. Source, Snap, Docker, Sandstorm, Meteor bundle and Windows build instructions.
 * [Meteor Bundle](https://github.com/wekan/wekan/wiki/Meteor-bundle)
-* [Proxy](https://github.com/wekan/wekan/issues/1480)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming:
   * [EthKan](https://github.com/EthKan)
