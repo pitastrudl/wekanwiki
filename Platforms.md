@@ -24,9 +24,7 @@ Downloading and installing Wekan on various platforms.
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan.
-
-If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update.
+## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan. If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update.
 
 Import from Trello, and Import/Export Wekan works. Copying/Moving card to another board works. Password auth. Upcoming: LDAP, OAuth2, etc. Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
