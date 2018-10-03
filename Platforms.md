@@ -31,7 +31,7 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 - [Rescuing MongoDB data from Sandstorm Grain .zip file to Standalone Wekan](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
 **Does not work**
-- [Import](https://github.com/wekan/wekan/issues/1430), needs workarounds.
+- [Import](https://github.com/wekan/wekan/issues/1430), needs [workarounds](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file).
 - [Copying/Moving card to another board](https://github.com/wekan/wekan/issues/1729).
 - [REST API](https://github.com/wekan/wekan/issues/1279) 
 - [Outgoing Webhooks](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
