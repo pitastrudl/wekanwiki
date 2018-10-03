@@ -48,7 +48,9 @@ Only Standalone Wekan. If security is critical, keep behind firewall, without an
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan. If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update. If security is critical, keep behind firewall, without any ports open to Internet.
+## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan.
+
+If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update. If security is critical, keep behind firewall, without any ports open to Internet.
 
 * **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. 
   * **Debian, Ubuntu and Linux Mint based distros**
