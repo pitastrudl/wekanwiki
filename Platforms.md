@@ -7,7 +7,7 @@ Downloading and installing Wekan on various platforms.
 * [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
 * [Settings](https://github.com/wekan/wekan/wiki/Settings)
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
-* **[Backup and Restore](https://github.com/wekan/wekan/wiki/Backup) <=== THIS IS VERY CRITICAL. BACKUP OFTEN AND AUTOMATICALLY !!**
+* **[Backup and Restore](https://github.com/wekan/wekan/wiki/Backup) <=== VERY CRITICAL. DO AUTOMATICALLY OFTEN !!**
 * [Logs and Stats](https://github.com/wekan/wekan/wiki/Logs)
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
