@@ -15,7 +15,9 @@ Downloading and installing Wekan on various platforms.
 
 ***
 
-## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan, security audited, recommended for security critical use on public internet or internal network.
+## <a name="ProductionSandstorm"></a>Production: Sandstorm platform, many apps and Wekan.
+
+[Security audited](https://sandstorm.io/news/2017-03-02-security-review), recommended for security critical use on public internet or internal network. [Sandstorm Security Features](https://docs.sandstorm.io/en/latest/using/security-practices/).
 
 Use SaaS or install to your own server. Automatic updates, tested before release. Sandstorm Wekan has different features than Standalone.
 
