@@ -34,6 +34,7 @@
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) and Auth0
+* [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
 * [Custom Fields](https://github.com/wekan/wekan/wiki/Custom-Fields)
 * [Due Date](https://github.com/wekan/wekan/wiki/Due-Date)
 * [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
