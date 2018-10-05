@@ -6,6 +6,7 @@ Craig had been using nginx as a reverse proxy for a restyaboard install, but it 
 
 This was done to demo using containers as services (he works in an older style org and they're still stuck in a vmware/vm mentality).
 
+Updated 5-10-18 for wekan v1.52 and mongodb 3.2.21
 ## Install
 
 Note: my login is a member of the docker group on this docker host so I can exec docker commands.
@@ -51,6 +52,7 @@ services:
     ports:
       - 80:80
       - 443:443
+      - 8080:8080
     networks:
       - web
     volumes:
@@ -83,6 +85,12 @@ defaultEntryPoints = ["https","http"]
     [[entryPoints.https.tls.certificates]]
       certFile = "/certs/wekan1.crt"
       keyFile = "/certs/wekan1.key"
+  [entryPoints.eightzero]
+  address = ":8080"
+
+[api]
+entrypoint = "eightzero"
+
 
 [retry]
 
@@ -95,7 +103,7 @@ exposedbydefault = false
 
 Comments  - `docker-compose.yml`:
 
-The image is set as the latest for traefik - you may want to tie it to a particular version.
+The image is set as the latest for traefik - you may want to tie it to a particular version. Also added in the entrypoint for the trafik api (8080)
 
 To test:
 
@@ -107,8 +115,10 @@ docker-compose up
 
 This will ouput to the terminal till you are ready to run it in the background with `docker-compose up -d` . (stop the container running with Ctrl-c)
 
-It exposes ports 80 and 443 on the docker host so you can check by webbing to `<docker hostip>` but you should get a 404 error.
-
+It exposes ports 80, 443 and 8080 on the docker host so you can check by webbing to `<docker hostip>` but you should get a 404 error until wekan is up.
+```
+curl -H Host:wekan.myinternaldomain.org http://localhost
+```
 mounting `/var/run/docker.sock:/var/run/docker.sock` on the container gives access to docker config so that traefik can be dynamic (thats more advanced) see https://traefik.io/ for extensive docs.
 
 traefik.toml is the config for traefik. It sets up port 80 to redirect to 443. This is a very simple config - there's a whole lot more that you can do.
@@ -129,7 +139,7 @@ version: '2'
 services:
 
   wekandb:
-    image: mongo:3.2.18
+    image: mongo:3.2.21
     container_name: wekan-db
     restart: always
     command: mongod --smallfiles --oplogSize 128
@@ -141,7 +151,7 @@ services:
       - wekan-db:/data/db
       - wekan-db-dump:/dump
   wekan:
-    image: quay.io/wekan/wekan
+    image: quay.io/wekan/wekan:v1.52
     container_name: wekan-app
     restart: always
     networks:
@@ -152,14 +162,19 @@ services:
       - "traefik.docker.network=web"
       - "traefik.frontend.rule=Host:wekan.myinternaldomain.org"
       - "traefik.enable=true"
-      - "traefik.port=80"
+      - "traefik.port=8080"
       - "traefik.default.protocol=http"
     #note: mail url points to ip address of docker host which has postfix running as a relay for docker apps. ping me at email: silvacraig@gmail.com if you want the postfix config.
+    # note here that an ip address is used instead of the servce name in the MONGO_URL - this is a bug that I have to work out. To identify the IP address use docker network inspect web when the wekandb is running
     environment:
-      - MONGO_URL=mongodb://wekandb:27017/wekan
+      - MONGO_URL=mongodb://172.xx.xx.2:27017/wekan
       - ROOT_URL=http://wekan.myinternaldomain.org
       - MAIL_URL=smtp://172.17.0.1:25/
       - MAIL_FROM='Wekan Support - <unix.admin@myinternaldomain.org>'
+    # newer environment variables:
+      - BROWSER_POLICY_ENABLED=true
+      - TRUSTED_URL=''
+      - WEBHOOKS_ATTRIBUTES=''
     depends_on:
       - wekandb
 
@@ -175,6 +190,10 @@ networks:
 ```
 	
 One this is done - run wekan with:
+```
+docker-compose up 
+```
+This will run with logging output to the console - once its running ok - CTRL-C and start it up again with:
 ```
 docker-compose up -d
 ```
