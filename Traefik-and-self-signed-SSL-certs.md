@@ -164,8 +164,11 @@ services:
       - "traefik.enable=true"
       - "traefik.port=8080"
       - "traefik.default.protocol=http"
-    #note: mail url points to ip address of docker host which has postfix running as a relay for docker apps. ping me at email: silvacraig@gmail.com if you want the postfix config.
-    # note here that an ip address is used instead of the servce name in the MONGO_URL - this is a bug that I have to work out. To identify the IP address use docker network inspect web when the wekandb is running
+    #note: mail url points to ip address of docker host which has postfix running as a relay
+    # for docker apps. ping me at email: silvacraig@gmail.com if you want the postfix config.
+    # note here that an ip address is used instead of the servce name in the MONGO_URL - 
+    # this is a bug that I have to work out. To identify the IP address use docker network
+    #  inspect web when the wekandb is running
     environment:
       - MONGO_URL=mongodb://172.xx.xx.2:27017/wekan
       - ROOT_URL=http://wekan.myinternaldomain.org
