@@ -1,3 +1,9 @@
+## Retrieve cards by swimlane id
+
+Please somebody add example by looking this:
+
+[Issue](https://github.com/wekan/wekan/issues/1934) and [code](https://github.com/wekan/wekan/pull/1944/commits/be42b8d4cbdfa547ca019ab2dc9a590a115cc0e2).
+
 # Add Card to List-Board-Swimlane
 
 | API URL / Code Link | Requires Admin Auth | HTTP Method |
