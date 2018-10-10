@@ -30,12 +30,12 @@ For every Triggers there a 4 groups of actions
 * add/remove label, attachement, person
 * set title/description
 ## Action: Checklists
-checklist add/remove
-check/uncheck item
+* checklist add/remove
+* check/uncheck item
 ## Action: Mail
 * send email to
 
-# Example
+# Example : How the rule works
 * Rule 1: When a card is added to the board -> Add label yellow
 * Rule 2: When a card is moved to list List 2 -> Add checklist ToDo
 * Rule 3: When a card is added to the List 1 -> Add label blue
