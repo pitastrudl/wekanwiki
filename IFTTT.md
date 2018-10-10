@@ -8,7 +8,7 @@
 
 
 ## 2a) Add new rule : Triggers
-Current there a three types of triggers, board, card and checklist
+Current there a three types of triggers: board, card and checklist
 
 | Board  | Card | Checklist |
 | ------------- | ------------- | ------------- |
@@ -18,7 +18,7 @@ Current there a three types of triggers, board, card and checklist
 
 
 ## 2b) Add new rule : Actions
-For every Triggers there a 4 groups of actions board, card, checklist and mail
+For every trigger there a 4 kinds of actions: board, card, checklist and mail
 
 | Board  | Card | Checklist | Mail |
 | ------------- | ------------- | ------------- | ------------- |
