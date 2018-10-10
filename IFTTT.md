@@ -4,7 +4,7 @@
 
 
 ## 2) Rule Menu: Overview, deleting and adding new rules
-<img src="https://wekan.github.io/ifttt/ifttt_main_dialog.PNG" width="50%" alt="Navigation menu for the rule dialog" />
+<img src="https://wekan.github.io/ifttt/ifttt_main_dialog.PNG" width="50%" alt="Dialog Overview for the rules" />
 
 
 ## 2a) Add new rule : Triggers
