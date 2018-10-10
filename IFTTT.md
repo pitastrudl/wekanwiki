@@ -36,7 +36,8 @@ check/uncheck item
 * send email to
 
 # Example
-Rule 1: When a card is added to the board -> Add label yellow 
-Rule 2: When a card is moved to list List 2 -> Add checklist ToDo
+* Rule 1: When a card is added to the board -> Add label yellow
+* Rule 2: When a card is moved to list List 2 -> Add checklist ToDo
+* Rule 3: When a card is added to the List 1 -> Add label blue
 
 <img src="https://wekan.github.io/ifttt/how_to_work_with_rules.gif" width="50%" alt="gif animation for rules" />
