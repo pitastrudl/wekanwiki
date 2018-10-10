@@ -8,32 +8,24 @@
 
 
 ## 2a) Add new rule : Triggers
-Current there a three types of triggers
-## Tigger: Board
-* create card
-* card moved to
-* card moved from
-## Tigger: Card
-* added/removed label, attachement, person
-## Tigger: Checklist
-* checklist added/removed
-* check item checked/unchecked
-* checklist completed
+Current there a three types of triggers, board, card and checklist
+
+| Board  | Card | Checklist |
+| ------------- | ------------- | ------------- |
+| create card | added/removed label, attachement, person  | checklist added/removed | 
+| card moved to |   | check item checked/unchecked |
+| card moved from |  | checklist completed |
+
 
 ## 2b) Add new rule : Actions
-For every Triggers there a 4 groups of actions
-## Action: Board
-* move card to list
-* move to top/bottom
-* archive/unarchive
-## Action: Card
-* add/remove label, attachement, person
-* set title/description
-## Action: Checklists
-* checklist add/remove
-* check/uncheck item
-## Action: Mail
-* send email to
+For every Triggers there a 4 groups of actions board, card, checklist and mail
+
+| Board  | Card | Checklist | Mail |
+| ------------- | ------------- | ------------- | ------------- |
+| move card to list | added/remove label, attachement, person  | checklist added/remove | send email to |
+| move to top/bottom | set title/description | check/unchecked item | |
+| archive/unarchive |  | checklist completed | |
+
 
 # Example : How the rule works
 * Rule 1: When a card is added to the board -> Add label yellow
