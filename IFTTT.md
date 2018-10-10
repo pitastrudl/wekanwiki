@@ -1,10 +1,10 @@
 ## 1) Click: Menu item for the rules
 
-<img src="https://wekan.github.io/ifttt/main_menu-ifttt.png" width="50%" alt="Navigation menu for the rule dialog" />
+<img src="https://wekan.github.io/ifttt/main_menu-ifttt.png" alt="Navigation menu for the rule dialog" />
 
 
 ## 2) Rule Menu: Overview, deleting and adding new rules
-<img src="https://wekan.github.io/ifttt/ifttt_main_dialog.PNG" width="50%" alt="Dialog Overview for the rules" />
+<img src="https://wekan.github.io/ifttt/ifttt_main_dialog.PNG" alt="Dialog Overview for the rules" />
 
 
 ## 2a) Add new rule : Triggers
@@ -40,4 +40,4 @@ check/uncheck item
 * Rule 2: When a card is moved to list List 2 -> Add checklist ToDo
 * Rule 3: When a card is added to the List 1 -> Add label blue
 
-<img src="https://wekan.github.io/ifttt/how_to_work_with_rules.gif" width="50%" alt="gif animation for rules" />
+<img src="https://wekan.github.io/ifttt/how_to_work_with_rules.gif" alt="gif animation for rules" />
