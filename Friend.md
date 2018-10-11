@@ -4,6 +4,8 @@ Upcoming Wekan platform.
 
 [Friend Website](https://friendup.cloud)
 
+[Long way: How to setup Friend+Wekan+Android app](https://github.com/wekan/wekan/issues/480#issuecomment-428758143)
+
 ## Roadmap
 
 - Friend login also logins to Wekan app
