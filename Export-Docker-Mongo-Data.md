@@ -140,3 +140,57 @@ Then you can reinstall from step 1.
 12) If latest version of Wekan Docker image is broken, here's how to run older version:
 
 https://github.com/wekan/wekan/issues/659
+
+## Backup and restore scripts
+
+Edit these to suit your own requirements - they will delete backups older than 7 days.
+Backup Script
+'''bash
+#!/bin/bash
+DATE=$(date +%Y-%m-%d-%H-%M)
+mkdir -p backups/$d
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+cd $SCRIPTPATH
+docker ps -a | grep 'wekan-db' &> /dev/null
+if [ $? = 0 ]; then
+  docker exec -t wekan-db bash -c "rm -fr /dump ; mkdir /dump ; mongodump -o /dump/"
+  docker cp wekan-db:/dump $SCRIPTPATH/backups/$DATE
+  tar -zc -f backups/$DATE.tgz -C $SCRIPTPATH/backups/$DATE wekan
+  if [ -f backups/$DATE.tgz ]; then
+    rm -fr backups/$DATE
+    find $SCRIPTPATH/backups/ -name "*.tgz" -mtime +7 -delete
+  fi 
+else
+  echo "wekan-db container is not running"
+  exit 1
+fi
+'''
+
+Restore Script
+'''bash
+#!/bin/bash
+if [ $# -eq 0 ]
+  then
+    echo "Supply a path to a tgz file!"
+    exit 1
+fi
+
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+DATE=$(date +%Y-%m-%d-%H-%M)
+
+docker ps -a | grep 'wekan-db' &> /dev/null
+if [ $? = 0 ]; then
+
+  if [ -f $1 ]; then
+    mkdir -p $SCRIPTPATH/backups/$DATE-restore
+    tar -zx -f $1 -C $SCRIPTPATH/backups/$DATE-restore
+    docker exec -t wekan-db bash -c "rm -fr /restore ; mkdir /restore"
+    docker cp $SCRIPTPATH/backups/$DATE-restore/wekan wekan-db:/restore
+    docker exec -t wekan-db bash -c "mongorestore --drop --db wekan /restore/wekan/"
+  fi
+else
+  echo "wekan-db container is not running"
+  exit 1
+fi
+
+'''
