@@ -144,8 +144,9 @@ https://github.com/wekan/wekan/issues/659
 ## Backup and restore scripts
 
 Edit these to suit your own requirements - they will delete backups older than 7 days.
+
 Backup Script
-'''bash
+```bash
 #!/bin/bash
 DATE=$(date +%Y-%m-%d-%H-%M)
 mkdir -p backups/$d
@@ -164,10 +165,10 @@ else
   echo "wekan-db container is not running"
   exit 1
 fi
-'''
+```
 
 Restore Script
-'''bash
+```bash
 #!/bin/bash
 if [ $# -eq 0 ]
   then
@@ -193,4 +194,4 @@ else
   exit 1
 fi
 
-'''
+```
