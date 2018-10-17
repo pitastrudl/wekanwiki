@@ -1,4 +1,8 @@
-NOTE: LDAP will be added to Snap soon, you will see when it's added at https://wekan.github.io ChangeLogs or Edge or Stable.
+## Snap
+
+LDAP will be added to Snap soon, you will see when it's added at https://wekan.github.io ChangeLogs or Edge or Stable.
+
+## Docker
 
 LDAP login works now by using this docker-compose.yml file:
 https://raw.githubusercontent.com/wekan/wekan/edge/docker-compose.yml
