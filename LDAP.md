@@ -15,4 +15,7 @@ With this command:
 ``` 
 docker-compose up -d --no-build
 ```
+
+## Bugs and Feature Requests
+
 [LDAP Bugs and Feature Requests](https://github.com/wekan/wekan-ldap/issues)
