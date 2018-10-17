@@ -1,6 +1,6 @@
 ## Snap
 
-LDAP will be added to Snap soon, you will see when it's added at https://wekan.github.io ChangeLogs or Edge or Stable.
+LDAP will be added to Snap soon, you will see when it's added at https://wekan.github.io ChangeLogs: Edge or Stable.
 
 ## Docker
 
