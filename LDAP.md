@@ -1,6 +1,6 @@
 ## Snap
 
-LDAP will be added to Snap soon, you will see when it's added at https://wekan.github.io ChangeLogs: Edge or Stable.
+Snap has [this issue](https://github.com/wekan/wekan-snap/issues/64) that has some info on forum post how to fix it. When it has been fixed, LDAP will be available for Snap. You will see when it's added at https://wekan.github.io ChangeLogs: Edge or Stable.
 
 ## Docker
 
