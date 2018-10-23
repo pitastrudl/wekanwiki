@@ -40,13 +40,13 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 
 ## Standalone Wekan: Docker, Snap, etc others non-Sandstorm 
 
-**Works**
+**Works on Snap and Docker**
 - Import from Trello [with bug workaround](https://github.com/wekan/wekan/issues/1903), and Import/Export Wekan.
 - Copying/Moving card to another board.
 - Login
   - Password auth
   - [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
-- [IFTTT](https://github.com/wekan/wekan/issues/1160) on Docker Edge, same as LDAP above
+- [IFTTT](https://github.com/wekan/wekan/issues/1160)
 - [REST API](https://github.com/wekan/wekan/wiki/REST-API)
 - [Outgoing Webhooks](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
 - [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
