@@ -1,6 +1,6 @@
 ## Snap
 
-LDAP is available on Snap Stable channel. Settings can be seen with command `wekan.help` and from repo https://github.com/wekan/wekan-ldap
+LDAP is available on Snap Stable channel. Settings can be seen with command `wekan.help` and from repo https://github.com/wekan/wekan-ldap . More settings at https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys
 
 ## Docker
 
