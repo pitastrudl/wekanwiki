@@ -1,5 +1,3 @@
-IFTTT is currently at [Wekan Edge for Docker](https://github.com/wekan/wekan/blob/edge/CHANGELOG.md#v1539-2018-10-11-wekan-edge-release).
-
 ## 1) Click: Menu item for the rules
 
 <img src="https://wekan.github.io/ifttt/main_menu-ifttt.png" alt="Navigation menu for the rule dialog" />
