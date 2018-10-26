@@ -64,9 +64,9 @@ Not all from [CHANGELOG](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
 
 ![Wekan kanban screenshot](https://wekan.github.io/screenshot-member-settings-archive.png)
 
-### Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Arhive and restore archived card. Delete card.
+### Cards: Description, Customizable Labels, Checklists, Attachment images and files, Comments. Archive and restore archived card. Delete card.
 
-Tip: Normally you archive card so you can restore it back. If you want to delete cards faster, drag cards to new list, and delete that new list. Deleting can not be undone, more clicks are by design. There was previously easily clicked button to delete a list and people deleted important list by accident, and that bug report was fixed.
+Tip: Normally you archive a card so you can restore it back. If you want to delete cards faster, drag cards to new list, and delete that new list. Deleting cannot be undone, more clicks are by design. There was previously easily clicked button to delete a list and people deleted important list by accident, and that bug report was fixed.
 
 ### [Markdown in card description and comments](https://github.com/wekan/wekan/issues/1038)
 ### [International Date Formatting for Due Date according to language](https://github.com/wekan/wekan/issues/838)
@@ -141,7 +141,7 @@ Content-type: application/json
 }
 ```
 
-Different activities sends different webhook data. You can find the details in the wiki page [Webhook data](https://github.com/wekan/wekan/wiki/Webhook-data)
+Different activities send different webhook data. You can find the details in the wiki page [Webhook data](https://github.com/wekan/wekan/wiki/Webhook-data)
 
 * [Outgoing Webhooks](https://github.com/wekan/wekan/pull/1119)
 
