@@ -149,9 +149,9 @@ Backup Script
 ```bash
 #!/bin/bash
 DATE=$(date +%Y-%m-%d-%H-%M)
-mkdir -p backups/$d
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $SCRIPTPATH
+mkdir -p backups/$DATE
 docker ps -a | grep 'wekan-db' &> /dev/null
 if [ $? = 0 ]; then
   docker exec -t wekan-db bash -c "rm -fr /dump ; mkdir /dump ; mongodump -o /dump/"
