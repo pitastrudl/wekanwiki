@@ -98,3 +98,7 @@ sudo systemctl stop wekan@<username>
 sudo systemctl disable wekan@<username>
 ```
 Checkout instructions for setup with [[Caddy Webserver Config]] and [[Nginx Webserver Config]] respectively.
+
+## Windows
+
+[Windows](https://github.com/wekan/wekan/wiki/Windows)
