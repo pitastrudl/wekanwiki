@@ -10,6 +10,15 @@ https://github.com/wekan/wekan-postgresql
 
 # Source install required dependencies
 
+Questions, comments to issue about nexe https://github.com/wekan/wekan/issues/710
+
+Beginnings of build and run scripts, please add PRs for additional fixes etc:
+- https://github.com/wekan/wekan/blob/edge/rebuild-wekan.bat
+- https://github.com/wekan/wekan/blob/edge/start-wekan.bat
+
+Script for using MongoDB portable:
+- https://github.com/wekan/wekan/issues/883#issuecomment-283755906
+
 Requirements:
 - Install [MeteorJS](https://www.meteor.com/) 
 - Install [NodeJS](https://nodejs.org/en/download/releases/) (Optional but recommended)
