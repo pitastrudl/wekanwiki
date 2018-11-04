@@ -69,7 +69,7 @@ Only Standalone Wekan. If security is critical, keep behind firewall, without an
   * Release tags "1.x.x" edge. They are [bleeding edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs).
   * Docker Hub images, they are often broken.
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
-  * [Windows](https://github.com/wekan/wekan/wiki/Windows)
+  * [Windows](https://github.com/wekan/wekan/wiki/Windows) + build from source
   * [Mac](https://github.com/wekan/wekan/wiki/Mac)
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
