@@ -166,4 +166,4 @@ yogab> Hi! How are you today ? Can i ask
 a docker x reverse proxy x wekan question here ?
 ```
 
-A: Maybe you thinked to ask about [Traefik reverse proxy and Docker](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
+A: Hmm, it seems you did not ask. Just guessing, maybe it's about [Traefik reverse proxy and Docker](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs).
