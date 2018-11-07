@@ -112,3 +112,31 @@ board has been restored.  I will document my issue in a real ticket,
 hopefully it will help someone else. Thanks again
 [19:23:13] <xet7> :)
 ```
+
+QA, both user and xet7 online:
+```
+[17:42:12] <siqueira> Hi, I want to embed my Kanban
+from wekan in my website using iframe. Does Wekan
+support this feature?
+[18:13:59] <xet7> siqueira: Yes, set trusted-url to
+your web address that iframes Wekan
+https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys
+[18:15:35] <xet7> siquiera: If you have problems with browser
+javascript console, or something not working, you can
+also set browser-policy-enabled='false' that enables
+all iframing - but that has a little less security
+[18:18:13] <xet7> siquiera: Problem with iframing
+Wekan is that link to card does not work well.
+For that it's better to have Wekan in sub-url, and
+add "iframe" replacing HTML/CSS at beginning of
+body tag, and at end of body tag, but that
+feature is not yet in Wekan, I'm currently developing it.
+[19:25:07] <siqueira> xet7, Thanks a lot
+for the information! I just want to have my
+public tasks on my website. I think the
+browser-policy-enabled can solve my problem,
+until I wait for the new feature. Thanks :)
+[19:25:51] <xet7> siqueira: You can set
+board as public, and provide that public link in iframe.
+[19:27:32] <siqueira> I will try it :)
+```
