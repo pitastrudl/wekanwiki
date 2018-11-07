@@ -26,7 +26,8 @@ Q:
 ```
 [16:18:47] <k_sze> Does anybody have an idea why I can send e-mail from Wekan
 to my personal domain, but not to a Gmail address?
-[17:34:16] <k_sze> And now Wekan doesn't actually work. I set it up from Snap on Ubuntu 18.04.
+[17:34:16] <k_sze> And now Wekan doesn't actually work. I set it up
+from Snap on Ubuntu 18.04.
 [17:34:32] <k_sze> (Wekan doesn't work after I reboot Ubuntu)
 [17:38:51] <k_sze> Like, I get 502 Bad Gateway from my nginx reverse proxy
 ```
