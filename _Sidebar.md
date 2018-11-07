@@ -4,6 +4,7 @@
 
 * [About](https://github.com/wekan/wekan/wiki)
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
+* [IRC FAQ](https://github.com/wekan/wekan/wiki/IRC-FAQ) - answers to questions asked at IRC
 * [Team](https://github.com/wekan/wekan/wiki/Team)
 * [Press](https://github.com/wekan/wekan/wiki/Press)
 * [Blog](https://blog.wekan.team)
