@@ -35,7 +35,7 @@ A: Did you set your domain SPF records (as TXT records) and DKIM records on your
 
 Q:
 ```
-[03:32:12] <ajay> Hi  can anyone tell me how to integarte wekan in other applications
+[03:32:12] <ajay> Hi  can anyone tell me how to integrate wekan in other applications
 [03:32:50] <ajay> i am want to integrate it in QGIS for task management
 [03:33:01] <ajay> *i want
 ```
