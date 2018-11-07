@@ -156,3 +156,14 @@ until I wait for the new feature. Thanks :)
 board as public, and provide that public link in iframe.
 [19:27:32] <siqueira> I will try it :)
 ```
+
+***
+
+### Q: Docker reverse proxy
+
+```
+yogab> Hi! How are you today ? Can i ask
+a docker x reverse proxy x wekan question here ?
+```
+
+A: Maybe you thinked to ask about [Traefik reverse proxy and Docker](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
