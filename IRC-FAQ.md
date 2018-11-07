@@ -4,7 +4,7 @@
 
 ## QA, answers by [xet7](https://github.com/xet), Maintainer of Wekan
 
-Q: 2018-11-07
+### Q: 2018-11-07 Answer speed
 ```
 [12:50:46] <gros> hey
 [12:53:45] <gros> I won't whine, because I know sometimes it is
@@ -22,7 +22,9 @@ A:
 - Slow: [Wekan Community Chat with webbroser and mobile Rocket.Chat](https://chat.vanila.io/channel/wekan)
 - Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some Wekan users prefer it.
 
-Q:
+***
+
+### Q: SMTP sending to own domain but not Gmail
 ```
 [16:18:47] <k_sze> Does anybody have an idea why I can send e-mail from Wekan
 to my personal domain, but not to a Gmail address?
@@ -34,7 +36,9 @@ from Snap on Ubuntu 18.04.
 
 A: Did you set your domain SPF records (as TXT records) and DKIM records on your SMTP server? Problem is not in Wekan, it's your SMTP server. For example AWS SES works. Also see [Troubleshooting Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail).
 
-Q:
+***
+
+### Q: Integrating Wekan
 ```
 [03:32:12] <ajay> Hi  can anyone tell me how to integrate wekan in
 other applications
@@ -43,7 +47,9 @@ other applications
 ```
 A: Use [Wekan REST API](https://github.com/wekan/wekan/wiki/REST-API). For example, see [Wekan Gogs integration](https://github.com/wekan/wekan-gogs). You can also use [Outgoing Webhooks](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord) to send data to some Incoming Webhook. There is also [IFTTT Rules](https://github.com/wekan/wekan/wiki/IFTTT) for some automations.
 
-QA, both asking user and xet7 were online:
+***
+
+### QA: Recuing Subtask board
 ```
 [18:33:29] <wekanuser> hello I have a wekan board that
 never loads, I just get the spinner. all the other
@@ -113,7 +119,9 @@ hopefully it will help someone else. Thanks again
 [19:23:13] <xet7> :)
 ```
 
-QA, both user and xet7 online:
+***
+
+### QA: Wekan in iFrame
 ```
 [17:42:12] <siqueira> Hi, I want to embed my Kanban
 from wekan in my website using iframe. Does Wekan
