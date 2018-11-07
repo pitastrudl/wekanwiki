@@ -4,6 +4,14 @@
 
 ## QA, answers by [xet7](https://github.com/xet), Maintainer of Wekan
 
+***
+
+### Q: LDAP?
+
+A: [LDAP for Standalone is now available](https://github.com/wekan/wekan/wiki/LDAP).
+
+***
+
 ### Q: 2018-11-07 Answer speed
 ```
 [12:50:46] <gros> hey
