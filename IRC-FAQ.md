@@ -42,7 +42,7 @@ from Snap on Ubuntu 18.04.
 [17:38:51] <k_sze> Like, I get 502 Bad Gateway from my nginx reverse proxy
 ```
 
-A: Did you set your domain SPF records (as TXT records) and DKIM records on your SMTP server? Problem is not in Wekan, it's your SMTP server. For example AWS SES works. Also see [Troubleshooting Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail).
+A: Did you set your domain SPF records (as TXT records) and DKIM records on your domain that your SMTP server uses? Problem is not in Wekan, it's your SMTP server. For example AWS SES works. Also see [Troubleshooting Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail).
 
 ***
 
