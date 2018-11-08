@@ -1,7 +1,3 @@
-## Newest on edge
-
-[Newest API additions are available only on edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs)
-
 ## Add New Board Member with Role
 This example adds with normal role. See examples below for other roles.
 ```
