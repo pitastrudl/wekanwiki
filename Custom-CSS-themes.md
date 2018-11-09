@@ -8,7 +8,7 @@ Contents:
 
 ## Dark theme
 
-[by @lonix1](https://github.com/wekan/wekan/issues/1149), could look a little like screenshot beloe
+[by @lonix1](https://github.com/wekan/wekan/issues/1149), could look a little like this screenshot:
 
 ![dark wekan](https://user-images.githubusercontent.com/11541071/28684178-574c0852-72fb-11e7-9c39-d11281863c3a.png)
 
