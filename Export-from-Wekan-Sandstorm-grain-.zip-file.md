@@ -98,3 +98,13 @@ and editing JSON files with any plain text editor. For big files you can try JEd
 12.6 Here is how to backup and restore mongodb in docker, snap etc https://github.com/wekan/wekan/wiki/Backup
 
 12.7 All Wekan Docker settings are in this textfile https://raw.githubusercontent.com/wekan/wekan/devel/docker-compose-build.yml
+
+12.8 Database name in Sandstorm is meteor, and in docker is wekan, so here is how to restore with different database name https://stackoverflow.com/questions/36321899/mongorestore-to-a-different-database
+
+## Azure links
+
+https://docs.microsoft.com/en-us/azure/container-service/dcos-swarm/container-service-swarm-mode-walkthrough
+
+https://docs.docker.com/docker-cloud/cloud-swarm/create-cloud-swarm-azure/
+
+https://docs.atlas.mongodb.com/reference/microsoft-azure/
