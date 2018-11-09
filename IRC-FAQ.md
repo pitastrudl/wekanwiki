@@ -22,7 +22,7 @@
 [20:49:35] <Rojola> but, in reality I can not access it
 ```
 
-A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalone Wekan (Snap, Docker, Source), email settings have nothing to do with Sandstorm.
+A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalone Wekan (Snap, Docker, Source), email setting. This has nothing to do with Sandstorm.
 
 ### Q: LDAP?
 
