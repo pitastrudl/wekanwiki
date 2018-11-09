@@ -16,6 +16,16 @@ Wekan is an open-source and free software _[kanban board][kanban]_ that lets you
 ## What is Wekan Team?
 [Wekan team](https://github.com/wekan/wekan/wiki/Team) is small amount of contributors from all around the world donating their free time and servers. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
+## Policy about Wekan UI changes?
+
+- No changes to default Wekan UI. Current Wekan UI is in Wekan long time users muscle memory. There is huge support cost if some option suddenly disappears or changes place.
+- No changes to words used in Wekan. For example, Trello and Gmail has Archives, but Wekan has Recycle Bin. Yes, there is feature request to [Empty Recycle Bin](https://github.com/wekan/wekan/issues/1625). In Wekan, Recycle Bin is not Archive. If you want to archive card, move it to another board, because otherwise it slows down current Wekan board, because all of current board is loaded into browser.
+- If you would like to change UI, use upcoming [Custom CSS](https://github.com/wekan/wekan/issues/1690#issuecomment-437356854) or [add new Role](https://github.com/wekan/wekan/issues/1994).
+- For current features, there will be bugfixes. They will not be removed or moved around.
+- For new features, it's preferable to add option to Standalone Wekan Admin Panel and Snap/Docker/Source environment variables to optionally turn on new features.
+- At Sandstorm, default one board per grain will be kept, because it is in Wekan Sandstorm long time users muscle memory. Nothing should be removed from current menus. New features can be added to menus to turn them on optionally. Features that require multi board support will be disabled, or maybe be made to work between grains with PowerBox. There will be fixes to Sandstorm bugs etc.
+
+
 ## How to convince my company management that Wekan "is less evil" than Trello?
 
 Yes, xet7 received this question in Email.
