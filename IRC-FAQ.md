@@ -24,6 +24,8 @@
 
 A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalone Wekan (Snap, Docker, Source) email setting. This has nothing to do with Sandstorm.
 
+***
+
 ### Q: LDAP?
 
 A: [LDAP for Standalone is now available](https://github.com/wekan/wekan/wiki/LDAP).
@@ -47,6 +49,8 @@ A:
 - Medium speed: If you have time to wait, [add new GitHub issue](https://github.com/wekan/wekan/issues).
 - Slow: [Wekan Community Chat with webbroser and mobile Rocket.Chat](https://chat.vanila.io/channel/wekan)
 - Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some Wekan users prefer it.
+
+***
 
 ### Q: SMTP sending to own domain but not Gmail
 ```
