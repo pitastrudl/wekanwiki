@@ -86,7 +86,7 @@ You can open files from your unzipped Wekan Sandstorm grain directory `data/wire
 
 12.2 Create new user to Standalone Wekan
 
-12.3 Copy new user bcrypt password structure created bcrypt encrypted password from Sandstorm to Docker wekan structure. It's at users collection/table.
+12.3 Copy new user bcrypt password structure created bcrypt encrypted password from Sandstorm to Docker wekan structure. It's at users collection/table. Also add isAdmin=true boolean.
 
 12.4 Login
 
