@@ -4,7 +4,7 @@ There will be upcoming Custom CSS feature with input box and Save button in Admi
 
 ## Dark mode
 
-[by @lonix1](https://github.com/wekan/wekan/issues/1149)
+[by @lonix1, info and screenshot](https://github.com/wekan/wekan/issues/1149)
 
 lonix1 created some css overrides with Stylish. It's not complete but I'm happy with it. I work in swimlanes mode, so that is what I changed (not list mode or calendar mode).
 
