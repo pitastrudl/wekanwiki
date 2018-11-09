@@ -105,7 +105,7 @@ If anyone improves on this, please share here.
 
 ![image](https://user-images.githubusercontent.com/2387356/41285077-7c5b1c64-6e3b-11e8-91b9-503ffb39eb4a.png)
 
-**script for tampermonkey**
+script for tampermonkey
 ```js
 // ==UserScript==
 // @name         Kanban
