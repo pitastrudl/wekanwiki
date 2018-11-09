@@ -6,24 +6,6 @@
 
 ***
 
-### Q: 2018-11-07 Answer speed
-```
-[12:50:46] <gros> hey
-[12:53:45] <gros> I won't whine, because I know sometimes it is
-hard to answers to user's questions, but I'm here
-since several days, I see that other users asks some things,
-and no one is answering
-[12:58:11] <gros> I think that you could close this channel in fact,
-it will make win time for users
-[12:58:24] <gros> and again I don't whine, thanks for the great Wekan :)
-```
-A:
-
-- Fastest: If you want fast answers, get [Commercial Support](https://wekan.team/commercial-support/).
-- Medium speed: If you have time to wait, [add new GitHub issue](https://github.com/wekan/wekan/issues).
-- Slow: [Wekan Community Chat with webbroser and mobile Rocket.Chat](https://chat.vanila.io/channel/wekan)
-- Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some Wekan users prefer it.
-
 ### Q: Wekan Internal Server Error
 
 2018-11-09
@@ -47,6 +29,24 @@ A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalon
 A: [LDAP for Standalone is now available](https://github.com/wekan/wekan/wiki/LDAP).
 
 ***
+
+### Q: 2018-11-07 Answer speed
+```
+[12:50:46] <gros> hey
+[12:53:45] <gros> I won't whine, because I know sometimes it is
+hard to answers to user's questions, but I'm here
+since several days, I see that other users asks some things,
+and no one is answering
+[12:58:11] <gros> I think that you could close this channel in fact,
+it will make win time for users
+[12:58:24] <gros> and again I don't whine, thanks for the great Wekan :)
+```
+A:
+
+- Fastest: If you want fast answers, get [Commercial Support](https://wekan.team/commercial-support/).
+- Medium speed: If you have time to wait, [add new GitHub issue](https://github.com/wekan/wekan/issues).
+- Slow: [Wekan Community Chat with webbroser and mobile Rocket.Chat](https://chat.vanila.io/channel/wekan)
+- Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some Wekan users prefer it.
 
 ### Q: SMTP sending to own domain but not Gmail
 ```
