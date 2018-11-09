@@ -1,6 +1,6 @@
-https://github.com/wekan/wekan/wiki/FAQ#policy-about-wekan-ui-changes
-
 There will be upcoming Custom CSS feature with input box and Save button in Admin Panel / Layout.
+
+[Policy about Wekan UI changes](https://github.com/wekan/wekan/wiki/FAQ#policy-about-wekan-ui-changes)
 
 ## Dark mode
 
