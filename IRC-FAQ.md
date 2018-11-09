@@ -6,6 +6,24 @@
 
 ***
 
+### Q: Wekan Internal Server Error
+
+2018-11-09
+
+```
+[20:45:22] <Rojola> hi
+[20:45:35] <Rojola> Before I came here, I tried to find a solution myself
+[20:46:17] <Rojola> e.g. I read the error log, read the installation troubleshooting docs, did research, and played around with the SMTP settings
+[20:46:52] <Rojola> then I joined #sandstorm but nobody replied
+[20:47:07] <Rojola> The problem:
+[20:47:31] <Rojola> I always get an "Internal Server Error" when I try to send me the registration email
+[20:49:15] <Rojola> https://filebin.net/11q54qsyd7rigpiq/internal_server_error.png?t=ziblx18b
+[20:49:28] <Rojola> in theory, sandstorm + wekan is installed
+[20:49:35] <Rojola> but, in reality I can not access it
+```
+
+A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalone Wekan (Snap, Docker, Source), email settings have nothing to do with Sandstorm.
+
 ### Q: LDAP?
 
 A: [LDAP for Standalone is now available](https://github.com/wekan/wekan/wiki/LDAP).
