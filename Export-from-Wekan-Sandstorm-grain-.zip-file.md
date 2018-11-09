@@ -79,3 +79,22 @@ Then it's usually in Linux desktop at Menu / Development / GHex.
 Or you can start it in command line by writing `ghex`
 
 You can open files from your unzipped Wekan Sandstorm grain directory `data/wiredTigerDb/` to see if there is still some data that is not yet overwritten with other data.
+
+## 12) Moving data from Sandstorm to Standalone Wekan like Snap or Docker
+
+12.1 Compare databases of Sandstorm and Docker Wekan with mongo GUI https://nosqlbooster.com/
+
+12.2 Create new user to Standalone Wekan
+
+12.3 Copy new user bcrypt password structure created bcrypt encrypted password from Sandstorm to Docker wekan structure. It's at users collection/table.
+
+12.4 Login
+
+12.5 Here is info about script how to save all from MongoDB to .JSON textfiles https://forums.rocket.chat/t/big-issue-with-custom-javascript/261/4
+and most likely how to get them back to mongodb
+so just copying all of those boards JSON files and restoring to MongoDB database would work
+and editing JSON files with any plain text editor. For big files you can try JEdit.
+
+12.6 Here is how to backup and restore mongodb in docker, snap etc https://github.com/wekan/wekan/wiki/Backup
+
+12.7 All Wekan Docker settings are in this textfile https://raw.githubusercontent.com/wekan/wekan/devel/docker-compose-build.yml
