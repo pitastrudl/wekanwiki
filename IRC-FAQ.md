@@ -4,6 +4,8 @@
 
 ## QA, answers by [xet7](https://github.com/xet), Maintainer of Wekan
 
+## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel.
+
 ***
 
 ### Q: Wekan Internal Server Error
@@ -48,7 +50,7 @@ A:
 - Fastest: If you want fast answers, get [Commercial Support](https://wekan.team/commercial-support/).
 - Medium speed: If you have time to wait, [add new GitHub issue](https://github.com/wekan/wekan/issues).
 - Slow: [Wekan Community Chat with webbroser and mobile Rocket.Chat](https://chat.vanila.io/channel/wekan)
-- Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some Wekan users prefer it.
+- Slowest: If you want to chat on IRC, please stay at IRC idling, and ask question again also at some other day. Sometimes there is Internet connectivity issues, if it looks like xet7 is not online. IRC is very nice, some Wekan users prefer it. Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer.
 
 ***
 
