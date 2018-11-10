@@ -211,4 +211,4 @@ You can also ask question when you have promised to wait for answer for one week
 b) If you would like to get your answer sooner, you can add search about
 existing GitHub issues, and if there is not any, add new GitHub issue to [Wekan Feature Requests and Bugs](https://github.com/wekan/wekan/issues). Also at IRC chat scrolls up and details
 get lost easily, so IRC is only useful for general chat, not for a long detail.
-Most likely at IRC you will be asked to add a new GitHub issue.
+Most likely at IRC you will be asked to add a new GitHub issue anyway.
