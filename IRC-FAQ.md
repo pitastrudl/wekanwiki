@@ -209,4 +209,4 @@ to Enter Freenode IRC #wekan and idle at IRC channel for one week.
 You can also ask question when you have promised to wait for answer for one week.
 
 b) If you would like to get your answer sooner, you can add search about
-existing GitHub issues, and if there is not any, add new GitHub issue to [Wekan Feature Requests and Bugs].(https://github.com/wekan/wekan/issues).
+existing GitHub issues, and if there is not any, add new GitHub issue to [Wekan Feature Requests and Bugs](https://github.com/wekan/wekan/issues).
