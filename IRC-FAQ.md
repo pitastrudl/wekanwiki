@@ -79,7 +79,7 @@ A: Use [Wekan REST API](https://github.com/wekan/wekan/wiki/REST-API). For examp
 
 ***
 
-### QA: Recuing Subtask board
+### QA: Rescuing Subtask board
 ```
 [18:33:29] <wekanuser> hello I have a wekan board that
 never loads, I just get the spinner. all the other
