@@ -4,7 +4,7 @@
 
 ## QA, answers by [xet7](https://github.com/xet), Maintainer of Wekan
 
-## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel.
+## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
 
@@ -189,3 +189,24 @@ a docker x reverse proxy x wekan question here ?
 ```
 
 A: Hmm, it seems you did not ask. Just guessing, maybe it's about [Traefik reverse proxy and Docker](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs).
+
+***
+
+### Congratulations ! You did read the whole IRC FAQ !
+
+Your next requirement is to tick following box to paper you write on post-it-note attached to
+your laptop display:
+
+[_] From beginning of today ____________ (YYYY-MM-DD) I will stay at Wekan IRC channel
+for at least one week without leaving IRC channel, keeping IRC channel open
+and logged in for 24h x 7 days, so that I can get license to ask questions and wait
+patiently for the whole week for answer without leaving IRC channel.
+
+Now:
+
+a) If you are able to all of above and tick that box, you have now have license
+to Enter Freenode IRC #wekan and idle at IRC channel for one week.
+You can also ask question when you have promised to wait for answer for one week.
+
+b) If you would like to get your answer sooner, you can add search about
+existing GitHub issues, and if there is not any, add new GitHub issue to [Wekan Feature Requests and Bugs].(https://github.com/wekan/wekan/issues).
