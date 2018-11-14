@@ -107,4 +107,6 @@ Checkout instructions for setup with [[Caddy Webserver Config]] and [[Nginx Webs
 
 ## Windows
 
+Building on Windows (if it works) is a lot slower than on Linux/Mac.
+
 [Windows](https://github.com/wekan/wekan/wiki/Windows)
