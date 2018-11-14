@@ -1,8 +1,6 @@
 ## Build from source
 
-To have [Node 100% CPU fixes](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v084-2018-04-16-wekan-release):
-1) Increase ulimit for node in systemd config to 100 000
-2) Use Fibers fixed [node source from Sandstorm](https://github.com/sandstorm-io/node/commits/sandstorm) or binary [copied from Sandstorm](https://github.com/wekan/wekan-mongodb/issues/2#issuecomment-381453161) or downloaded as node binary or tar.gz package from https://releases.wekan.team , related fixes are in Wekan GitHub repo Dockerfile, snapcraft.yaml and wekan/server/authentication.js 
+To have [Node 100% CPU fixes](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v084-2018-04-16-wekan-release): Increase ulimit for node in systemd config to 100 000
 
 Wekan:
 - On any x64 hardware that has Ubuntu 14.04 or Debian 9 or newer installed directly or in VM:
