@@ -1,5 +1,9 @@
 Also see: [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
 
+# Beginnings of build and run scripts
+
+rebuild-wekan.bat and start-wekan.bat at https://github.com/wekan/wekan
+
 # Alternative: Docker, without build from source
 
 Use Docker Compose:
