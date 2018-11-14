@@ -1,4 +1,12 @@
-## Build from source
+## Build from source on Mac
+
+[Build from source on Mac](https://github.com/wekan/wekan/wiki/Mac)
+
+## Build from source on VirtualBox
+
+[Virtual Appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+
+## Build from source on Linux
 
 To have [Node 100% CPU fixes](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v084-2018-04-16-wekan-release): Increase ulimit for node in systemd config to 100 000
 
