@@ -4,7 +4,7 @@
 
 ## Build from source on VirtualBox
 
-[Virtual Appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+At [Virtual Appliance](https://github.com/wekan/wekan/wiki/virtual-appliance) there is build scripts and all dependencies installed already.
 
 ## Build from source on Linux
 
