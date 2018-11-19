@@ -7,7 +7,7 @@
 
 Use this docker-compose.yml:
 
-https://github.com/wekan/wekan/blob/devel/docker-compose.yml
+https://raw.githubusercontent.com/wekan/wekan/devel/docker-compose.yml
 
 Then, from the directory containing the `docker-compose.yml` (i.e. `/home/johndoe/wekan`), simply run `docker-compose up`. If you want it to be deamonized, you could run `docker-compose up -d`.
 
