@@ -5,24 +5,9 @@
 1. Say we want to save our Wekan data on the host in directory `/home/johndoe/wekan/data`
 1. In a given directory (say `/home/johndoe/wekan`), create a `docker-compose.yml` file with:
 
-```yaml
-version: '2'
-services:
-  wekan:
-    image: wekanteam/wekan:latest
-    links:
-      - wekandb
-    environment:
-      - MONGO_URL=mongodb://wekandb/wekan
-      - ROOT_URL=http://localhost:80
-    ports:
-      - 80:80
+Use this docker-compose.yml:
 
-  wekandb:
-    image: mongo:3.2.14
-    volumes:
-      - /home/johndoe/wekan/data:/data/db
-```
+https://github.com/wekan/wekan/blob/devel/docker-compose.yml
 
 Then, from the directory containing the `docker-compose.yml` (i.e. `/home/johndoe/wekan`), simply run `docker-compose up`. If you want it to be deamonized, you could run `docker-compose up -d`.
 
@@ -32,17 +17,17 @@ Your wekan data are in `/home/johndoe/wekan/data` and thus can be backed up.
 If the default host port 80 has been used and you would like to set up Wekan for another port, say, 1234, the configuration above
 ```
   ports:
-    - 80:80
+    - 80:8080
 ```
 can be replaced by
 ```
   ports:
-    - 1234:80
+    - 1234:8080
 ```
 
 also need to change
 ```
- - ROOT_URL=http://localhost:80
+ - ROOT_URL=http://localhost
 ```
 
 to the new port
@@ -58,7 +43,7 @@ Above method will create an instance of Wekan without mailing features (users in
 
 ```yaml
 wekan:
-  image: wekanteam/wekan:latest
+  image: quay.io/wekan/wekan
   links:
     - wekandb
     - mailserver
@@ -70,7 +55,7 @@ wekan:
     - 8081:80
 
 wekandb:
-   image: mongo:3.2.14
+   image: mongo:3.2.21
    volumes:
      - /home/wekan/data:/data/db
 
