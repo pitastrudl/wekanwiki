@@ -1,10 +1,24 @@
-Upcoming Wekan platform.
+Friend Cloud OS: Secure encrypted skinnable fast Open Source desktop in webbrowser/mobile/desktop app. Wekan as one app at Friend.
+
+## Contributor Agreement
+
+Please sign [Contributor Agreement](https://friendup.cloud/contributors/) and come to build secure encrypted Open Source Friend Cloud OS.
+
+Also looking for partners, please come to developer chat at Discord, link below.
+
+## Chat
+
+[Friend developer chat at Discord](https://discord.gg/HQ93NFG) - [direct link](https://discordapp.com/channels/459616484369498123/459616484369498131). At Chat above also looking for new contributors to sign [Contributor Agreement](https://friendup.cloud/contributors/) and partners (making press release with m0ns00n).
+
+Not in use currently: IRC at Freenode #friendup
 
 ## Website
 
 [Friend Website](https://friendup.cloud)
 
-[Long way: How to setup Friend+Wekan+Android app](https://github.com/wekan/wekan/issues/480#issuecomment-428758143)
+## Video
+
+https://www.youtube.com/watch?v=SB4dNC7u2MU
 
 ## Roadmap
 
@@ -13,12 +27,6 @@ Upcoming Wekan platform.
 - Keep all Wekan attachment files on any Friend disk drive
 - Use Wekan to access Friend Shop
 - Use Wekan to access other Friend Apps and control them with upcoming [IFTTT workflows](https://github.com/wekan/wekan/issues/1160)
-
-## Chat
-
-[Friend developer chat at Discord](https://discord.gg/HQ93NFG) - [direct link](https://discordapp.com/channels/459616484369498123/459616484369498131)
-
-IRC at Freenode #friendup
 
 ## Screenshot
 
@@ -30,14 +38,20 @@ Wekan Friend development version at Friend Desktop. Not released to Friend Store
 
 ## Source code
 
-[Friend source code at GitHub](https://github.com/FriendUPCloud/friendup) , newest v1.2rc1 source code has been added 2018-08-12. Mobile apps are not at GitHub yet.
+[Friend Server source code at GitHub](https://github.com/FriendUPCloud/friendup). Mobile apps are not at GitHub yet.
 
-[Wekan FriendUPApp source is here](https://github.com/wekan/FriendUPApp)
+[Friend Apps source code at GitHub](https://github.com/FriendUPCloud/friend-applications)
+
+[Wekan FriendUPApp source code at GitHub](https://github.com/wekan/FriendUPApp)
 
 Friend repos:
 
 - https://github.com/FriendSoftwareLabs/
 - https://github.com/FriendUPCloud/
+
+## Install
+
+[Long way: How to setup Friend+Wekan+Android app](https://github.com/wekan/wekan/issues/480#issuecomment-428758143)
 
 ## Demo
 
