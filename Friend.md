@@ -2,7 +2,7 @@ Friend Cloud OS: Secure encrypted skinnable fast Open Source desktop in webbrows
 
 ## Contributor Agreement
 
-Please sign [Contributor Agreement](https://friendup.cloud/contributors/) and come to build secure encrypted Open Source Friend Cloud OS.
+Please sign [Contributor Agreement](https://friendup.cloud/contributors/) and come to build secure encrypted Open Source Friend Cloud OS that has Wekan app.
 
 Also looking for partners, please come to developer chat at Discord, link below.
 
