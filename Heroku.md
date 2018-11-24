@@ -11,4 +11,4 @@ change from email at Accounts.emailTeamplates.from , new file in server folder c
 `Meteor.startup(function () });` . TODO: Test and find a way to use API keys instead.
 
 [heroku_button]: https://www.herokucdn.com/deploy/button.png
-[heroku_deploy]: https://heroku.com/deploy?template=https://github.com/wekan/wekan/tree/master
+[heroku_deploy]: https://heroku.com/deploy?template=https://github.com/wekan/wekan/tree/devel
