@@ -13,7 +13,8 @@
 A: [LDAP for Standalone is now available](https://github.com/wekan/wekan/wiki/LDAP).
 
 ```
-[17:56:10] <regdude> Hi! I'm trying to setup Wekan with LDAP, but can't seem to get it to work.
+[17:56:10] <regdude> Hi! I'm trying to setup Wekan with LDAP,
+but can't seem to get it to work.
 Where could I found logs for why LDAP is not working?
 [17:56:18] <regdude> does not seem to send out any LDAP packets
 [17:58:31] <regdude> oh, it does not do anything
