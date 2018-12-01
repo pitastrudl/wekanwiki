@@ -8,6 +8,20 @@
 
 ***
 
+### Q: LDAP?
+
+A: [LDAP for Standalone is now available](https://github.com/wekan/wekan/wiki/LDAP).
+
+```
+[17:56:10] <regdude> Hi! I'm trying to setup Wekan with LDAP, but can't seem to get it to work.
+Where could I found logs for why LDAP is not working?
+[17:56:18] <regdude> does not seem to send out any LDAP packets
+[17:58:31] <regdude> oh, it does not do anything
+```
+
+Please see is there existing issue at [LDAP Bugs and Feature Requests](https://github.com/wekan/wekan-ldap/issues), or add a new one.
+
+
 ### Q: Wekan Internal Server Error
 
 2018-11-09
@@ -25,12 +39,6 @@
 ```
 
 A: See 4) at https://github.com/wekan/wekan/wiki/Adding-users . This is Stanalone Wekan (Snap, Docker, Source) email setting. This has nothing to do with Sandstorm.
-
-***
-
-### Q: LDAP?
-
-A: [LDAP for Standalone is now available](https://github.com/wekan/wekan/wiki/LDAP).
 
 ***
 
