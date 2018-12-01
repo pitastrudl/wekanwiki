@@ -20,7 +20,7 @@ Where could I found logs for why LDAP is not working?
 [17:58:31] <regdude> oh, it does not do anything
 ```
 
-Please see is there existing issue at [LDAP Bugs and Feature Requests](https://github.com/wekan/wekan-ldap/issues), or add a new one.
+Please see is there existing issues at [LDAP Bugs and Feature Requests](https://github.com/wekan/wekan-ldap/issues), or add a new one.
 
 
 ### Q: Wekan Internal Server Error
