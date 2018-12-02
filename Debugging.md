@@ -1,5 +1,9 @@
 ## TODO
 
+[Quote from advise](https://github.com/meteor/meteor/issues/9796#issuecomment-443520767):
+
+> Identify the core service your app is providing and make sure it is running independently. Put everything non-critical, including reporting, on some other system.
+
 [Look at scaling tips here](https://github.com/meteor/meteor/issues/9796#issuecomment-411373831), quote:
 
 > smeijer commented 25 days ago
