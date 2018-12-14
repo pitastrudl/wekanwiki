@@ -24,8 +24,9 @@ Please see is there existing issues at [LDAP Bugs and Feature Requests](https://
 
 ### Q: Is there in Wekan: My Cards: List of all boards/lists/cards for every card where person is assigned to card ?
 ```
-[15:25:23] <superlou> If I have a Wekan board per project, with people assigned cards in multiple projects, is there a way to provide a list of the tasks for a person across all of their projects?
-[16:20:30] * superlou lopetti (Remote host closed the connection)
+[15:25:23] <superlou> If I have a Wekan board per project, with people assigned
+cards in multiple projects, is there a way to provide a list of the tasks for
+a person across all of their projects?
 ```
 
 A: Not yet. I added [Feature Request for that](https://github.com/wekan/wekan/issues/2055). In future, please add feature requests yourself.
