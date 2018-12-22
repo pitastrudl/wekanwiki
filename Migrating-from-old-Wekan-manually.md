@@ -6,8 +6,6 @@ Here are some starting points.
 
 https://github.com/wekan/wekan/wiki/Backup
 
-Yes, it is very easy to lose data when trying to upgrade. Your server harddrive can go broken very easily. And [random script kiddies are deleting all MongoDB data](https://github.com/wekan/wekan/issues/1908).
-
 Do backups to multiple places. And test does restore work, with restore script already made.
 
 ## 2) You can save all data from MongoDB to .json files and compare them
