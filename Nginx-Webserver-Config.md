@@ -50,6 +50,7 @@ server {
     # If you have Wekan at https://example.com/wekan , change location to:
     # location /wekan {
     location / {
+        # proxy_pass http://127.0.0.1:3001/wekan;
         proxy_pass http://127.0.0.1:3001;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade; # allow websockets
