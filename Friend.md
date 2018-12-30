@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=SB4dNC7u2MU
 - Use Friend file dialogs to add file to Wekan
 - Keep all Wekan attachment files on any Friend disk drive
 - Use Wekan to access Friend Shop
-- Use Wekan to access other Friend Apps and control them with upcoming [IFTTT workflows](https://github.com/wekan/wekan/issues/1160)
+- Use Wekan to access other Friend Apps and control them with Wekan [IFTTT workflows](https://github.com/wekan/wekan/issues/1160)
 
 ## Screenshot
 
