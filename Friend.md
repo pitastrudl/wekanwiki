@@ -49,10 +49,6 @@ Friend repos:
 - https://github.com/FriendSoftwareLabs/
 - https://github.com/FriendUPCloud/
 
-## Install
-
-[Long way: How to setup Friend+Wekan+Android app](https://github.com/wekan/wekan/issues/480#issuecomment-428758143)
-
 ## Demo
 
 Sign Up to Friend:
@@ -94,3 +90,70 @@ Old:
 [Friend announces partnership with Hove Medical Systems AS](https://friendup.cloud/friend-hove-medical-partnership/)
 
 [Friend interview at FLOSS450](https://twit.tv/shows/floss-weekly/episodes/450)
+
+## Install from Source
+
+[Long way: How to setup Friend+Wekan+Android app](https://github.com/wekan/wekan/issues/480#issuecomment-428758143)
+
+### 1. Setup new Ubuntu 16.04 64bit server or VM
+
+Install script currently works only on Ubuntu 16.04 (and similar Xubuntu 16.04 64bit etc).
+
+## 2. Clone repo
+
+```
+sudo apt-get update
+sudo apt-get install git
+mkdir ~/repos
+cd repos
+# Friend
+git clone https://github.com/FriendUPCloud/friendup
+# Friend Apps
+git clone https://github.com/FriendUPCloud/friend-applications
+# Friend Chat
+git clone https://github.com/FriendSoftwareLabs/friendchat
+# Wekan App
+git clone https://github.com/wekan/FriendUPApp
+# Optional: Webmail
+git clone https://github.com/RainLoop/rainloop-webmail
+# Install Friend to ~/repos/friendup/build directory
+cd friendup
+./install.sh
+# Add Wekan app
+cd ~/repos/friendup/build/resources/webclient/apps
+ln -s ~/repos/FriendUPApp/Wekan Wekan
+# Add other apps
+cd ~/repos/friendup/build/resources/webclient/apps
+ln -s ~/repos/FriendUPCloud/friend-applications/Astray Astray
+ln -s ~/repos/FriendUPCloud/friend-applications/CNESSatellites CNESSatellites
+ln -s ~/repos/FriendUPCloud/friend-applications/CubeSlam CubeSlam
+ln -s ~/repos/FriendUPCloud/friend-applications/Doom Doom
+ln -s ~/repos/FriendUPCloud/friend-applications/FriendBrowser FriendBrowser
+ln -s ~/repos/FriendUPCloud/friend-applications/GameOfBombs GameOfBombs
+ln -s ~/repos/FriendUPCloud/friend-applications/GeoGuessr GeoGuessr
+ln -s ~/repos/FriendUPCloud/friend-applications/Instagram Instagram
+ln -s ~/repos/FriendUPCloud/friend-applications/InternetArchive InternetArchive
+ln -s ~/repos/FriendUPCloud/friend-applications/MissileGame MissileGame
+ln -s ~/repos/FriendUPCloud/friend-applications/Photopea Photopea
+ln -s ~/repos/FriendUPCloud/friend-applications/PolarrPhotoEditor PolarrPhotoEditor
+ln -s ~/repos/FriendUPCloud/friend-applications/Swooop Swooop
+ln -s ~/repos/FriendUPCloud/friend-applications/TED TED
+# Optional: Add custom modules
+cd ~/repos/friendup/build/modules
+ln -s ~/repos/mysupermodule mysupermodule
+# Install [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
+sudo apt-get -y install snapd
+sudo snap install wekan
+# [ROOT_URL settings](https://github.com/wekan/wekan/wiki/Settings)
+sudo snap set wekan root-url='http://localhost:5000'
+sudo snap set wekan port='5000'
+# Configure [trusted url](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) to allow Friend to iframe
+# or set browser policy disabled
+sudo snap set wekan browser-policy-enabled='false'
+sudo snap start wekan
+sudo snap enable wekan
+```
+
+Using Friend Android app to connect to your Friend server URL.
+
+There is also Friend iOS app, but I think it's not yet officially released. If someone is interested, invite to iOS Testflight can be had from [Friend chat](https://github.com/wekan/wekan/wiki/Friend).
