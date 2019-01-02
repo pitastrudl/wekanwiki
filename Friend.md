@@ -99,30 +99,49 @@ Old:
 
 Install script currently works only on Ubuntu 16.04 (and similar Xubuntu 16.04 64bit etc).
 
-## 2. Clone repo
+### 2. Install git and create repos directory
 
 ```
 sudo apt-get update
 sudo apt-get install git
 mkdir ~/repos
 cd repos
-# Friend
+```
+### 3. Clone Friend server repo
+```
 git clone https://github.com/FriendUPCloud/friendup
-# Friend Apps
+```
+### 4. Clone Friend Apps repos
+```
 git clone https://github.com/FriendUPCloud/friend-applications
-# Friend Chat
+```
+### 5. Clone Friend Chat repo
+```
 git clone https://github.com/FriendSoftwareLabs/friendchat
-# Wekan App
+```
+### 6. Clone Wekan App repo
+```
 git clone https://github.com/wekan/FriendUPApp
-# Optional: Webmail
+```
+### 7. Optional: Clone Webmail repo
+```
 git clone https://github.com/RainLoop/rainloop-webmail
-# Install Friend to ~/repos/friendup/build directory
+```
+### 8. Install Friend to `~/repos/friendup/build` directory
+This will install:
+- MySQL database, credentials are in install.sh script, can be changed
+- Untrusted SSL certificate for Friend with OpenSSL command
+```
 cd friendup
 ./install.sh
-# Add Wekan app
+```
+### 9. Add Wekan app
+```
 cd ~/repos/friendup/build/resources/webclient/apps
 ln -s ~/repos/FriendUPApp/Wekan Wekan
-# Add other apps
+```
+### 10. Add other apps
+```
 cd ~/repos/friendup/build/resources/webclient/apps
 ln -s ~/repos/FriendUPCloud/friend-applications/Astray Astray
 ln -s ~/repos/FriendUPCloud/friend-applications/CNESSatellites CNESSatellites
@@ -138,21 +157,67 @@ ln -s ~/repos/FriendUPCloud/friend-applications/Photopea Photopea
 ln -s ~/repos/FriendUPCloud/friend-applications/PolarrPhotoEditor PolarrPhotoEditor
 ln -s ~/repos/FriendUPCloud/friend-applications/Swooop Swooop
 ln -s ~/repos/FriendUPCloud/friend-applications/TED TED
-# Optional: Add custom modules
+```
+### 11. Optional: Add custom modules
+```
 cd ~/repos/friendup/build/modules
 ln -s ~/repos/mysupermodule mysupermodule
-# Install [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
+```
+### 12. Install [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
+```
 sudo apt-get -y install snapd
 sudo snap install wekan
-# [ROOT_URL settings](https://github.com/wekan/wekan/wiki/Settings)
+```
+### 13. [ROOT_URL settings](https://github.com/wekan/wekan/wiki/Settings)
+```
 sudo snap set wekan root-url='http://localhost:5000'
 sudo snap set wekan port='5000'
-# Configure [trusted url](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) to allow Friend to iframe
-# or set browser policy disabled
+```
+### 14a) Trusted URL
+Configure [trusted url](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys) to allow Friend to iframe Wekan.
+```
+sudo snap set wekan trusted-url='https://friendup.example.com'
+```
+### 14b) Disable browser policy and allow any website to iframe Wekan
+Not recommended.
+```
 sudo snap set wekan browser-policy-enabled='false'
+```
+### 15) Start Wekan
+```
 sudo snap start wekan
 sudo snap enable wekan
 ```
+### 16) Start Friend
+a) To background:
+```
+cd ~/repos/friendup/build
+./nohup_FriendCore.sh
+```
+b) to foreground, useful when developing:
+```
+./Phonix_FriendCore.sh
+```
+or some of the following
+```
+./Phonix_FriendCoreGDB.sh
+./ValgrindGriendCore.sh
+```
+### 17) Use with webbrowser
+
+Chrome or Chromium works best 32bit/64bit OS and also with Raspberry Pi on ARM.
+
+https://localhost:6502/webclient/index.html
+
+Username: fadmin
+
+Password: securefassword
+
+### 18) Use with mobile app
+
+Play Store: FriendUP by Friend Software Labs
+
+iOS App Store for iPhone/iPad: If not at App Store, ask 
 
 Using Friend Android app to connect to your Friend server URL.
 
