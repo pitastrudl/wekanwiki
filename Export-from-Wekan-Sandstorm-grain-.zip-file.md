@@ -30,7 +30,7 @@ Use Sandstorm arrow down button to download Wekan grain in .zip file to your hom
 unzip "YOUR-GRAIN-NAME-HERE.zip"
 ```
 
-## 6) Repair database
+## 6) Repair database, if it does not open
 
 ```
 .meteor/packages/meteor-tool/1.6.0_1/mt-os.linux.x86_64/dev_bundle/mongodb/bin/mongod --dbpath "./YOUR-GRAIN-NAME-HERE/data/wiredTigerDb" --repair
