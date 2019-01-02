@@ -91,9 +91,9 @@ Old:
 
 [Friend interview at FLOSS450](https://twit.tv/shows/floss-weekly/episodes/450)
 
-## Install from Source
+***
 
-[Long way: How to setup Friend+Wekan+Android app](https://github.com/wekan/wekan/issues/480#issuecomment-428758143)
+## Install from Source
 
 ### 1. Setup new Ubuntu 16.04 64bit server or VM
 
