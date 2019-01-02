@@ -20,7 +20,7 @@ For Exchange, you can use [DavMail](http://davmail.sourceforge.net), Wekan SMTP 
 
 Another way is to [Configure Postfix to relay to Exchange with NTLM authentication](https://www.linuxquestions.org/questions/linux-newbie-8/configure-postfix-to-relay-to-exchange-server-with-ntlm-authentication-4175410961/#post4712832)
 
-For Exchange usage there is also [Exchange Calendar extension for Thunderbird Email client](https://github.com/ExchangeCalendar/exchangecalendar/releases), info how to use it is at [article at threenine.co.uk](https://threenine.co.uk/setup-office365-calendar-with-thunderbird/). Developing Wekan Calendar feature [is in progress](https://github.com/wekan/wekan/issues/808).
+For Exchange usage there is also [Exchange Calendar extension for Thunderbird Email client](https://github.com/ExchangeCalendar/exchangecalendar/releases), info how to use it is at [article at threenine.co.uk](https://threenine.co.uk/setup-office365-calendar-with-thunderbird/). Wekan has [Calendar feature](https://github.com/wekan/wekan/issues/808).
 
 Wekan Email settings are required in both MAIL_URL and Admin Panel.
 
