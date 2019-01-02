@@ -28,6 +28,7 @@
 
 # <a name="Repair"></a>Repair
 
+* [Using Meteor MongoDB to repair files](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 * [Repair MongoDB](https://github.com/wekan/wekan-mongodb/issues/6#issuecomment-424004116)
 
 # <a name="Features"></a>Features
