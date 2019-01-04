@@ -72,13 +72,58 @@ db.users.find();
 exit
 ```
 
-## 11) Dump database
+## 11a) Dump database to MongoDB dump format
 
 ```
 mongodump --db meteor
 ```
 
-## 13) Restore:
+## 11b) Dump database to JSON text files
+
+Save this to `dump-json.sh` and then `chmod +x dump-json.sh && ./dump.sh meteor filesdir`
+```
+#!/bin/bash
+
+if [ ! $1 ]; then
+        echo " Example of use: $0 database_name [dir_to_store]"
+        exit 1
+fi
+db=$1
+out_dir=$2
+if [ ! $out_dir ]; then
+        out_dir="./"
+else
+        mkdir -p $out_dir
+fi
+
+tmp_file="fadlfhsdofheinwvw.js"
+echo "print('_ ' + db.getCollectionNames())" > $tmp_file
+cols=`mongo $db $tmp_file | grep '_' | awk '{print $2}' | tr ',' ' '`
+for c in $cols
+do
+    mongoexport -d $db -c $c -o "$out_dir/exp_${db}_${c}.json"
+done
+rm $tmp_file
+```
+
+## 12) Save attachments to files
+
+[Download NoSQLBooster GUI webpage](https://nosqlbooster.com/downloads)
+
+If you download AppImage for Linux, run it with:
+```
+chmod +x nosqlbooster4mongo*.AppImage
+./nosqlbooster... (full filename here)
+```
+It can install NoSQLbooster to Linux Menu/Programming/NoSQLBooster for MongoDB.
+
+With it connect to localhost:27017
+
+Double click `cfs_gridfs.attachments.files` and right click filename and Download file.
+
+<img src="https://wekan.github.io/nosqlbooster.png" width="100%" alt="Wekan logo" />
+
+## 13) Optional: Restore
 
 a) Restore data to Standalone Wekan Snap
 
