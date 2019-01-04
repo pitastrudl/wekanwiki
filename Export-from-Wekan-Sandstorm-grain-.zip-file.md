@@ -81,6 +81,8 @@ mongodump --db meteor
 ## 11b) Dump database to JSON text files
 
 Save this to `dump-json.sh` and then `chmod +x dump-json.sh && ./dump.sh meteor filesdir`
+
+Script is originally [from this Rocket.Chat issue](https://forums.rocket.chat/t/big-issue-with-custom-javascript/261/4)
 ```
 #!/bin/bash
 
