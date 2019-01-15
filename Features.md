@@ -44,6 +44,8 @@ Not all from [CHANGELOG](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
 
 ![Wekan member settings screenshot](https://wekan.github.io/screenshot-member-settings.png)
 
+NOTE: Edit Notification duplicate was removed from above menu at https://github.com/wekan/wekan/pull/1948 so Edit Notification is only available at below menu screenshot. 
+
 ### Member settings / Edit Notification
 
 ![Wekan edit notification screenshot](https://wekan.github.io/screenshot-member-settings-edit-notification.png)
