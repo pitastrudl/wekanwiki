@@ -4,6 +4,10 @@
 You can convert special characters of your password at https://www.url-encode-decode.com
 and copy converted characters to your password.
 
+## Check does your email server require authentication like username and password, like IBM Lotus
+
+If it does not require username and password, [don't include them in MAIL_URL](https://github.com/wekan/wekan/issues/2106).
+
 ## Config
 
 Mail configuration if done by settings of `MAIL_URL` & `MAIL_FROM` environment parameters. Way of setting is due your instalation method e.g. [snap](https://github.com/wekan/wekan-snap/wiki/Install#6-email-and-other-settings), in docker-compose.yml file etc.
