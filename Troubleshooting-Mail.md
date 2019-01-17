@@ -4,9 +4,9 @@
 You can convert special characters of your password at https://www.url-encode-decode.com
 and copy converted characters to your password.
 
-## Check does your email server require authentication like username and password, like IBM Lotus
+## Check is username and password required
 
-If it does not require username and password, [don't include them in MAIL_URL](https://github.com/wekan/wekan/issues/2106).
+If your email server does not require authentication like username and password, [don't include them in MAIL_URL](https://github.com/wekan/wekan/issues/2106). For example, IBM Lotus does not require username and password.
 
 ## Config
 
