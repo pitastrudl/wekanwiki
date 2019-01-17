@@ -6,7 +6,7 @@ and copy converted characters to your password.
 
 ## Check is username and password required
 
-If your email server does not require authentication like username and password, [don't include them in MAIL_URL](https://github.com/wekan/wekan/issues/2106). For example, IBM Lotus does not require username and password.
+If your email server does not require authentication like username and password, [don't include them in MAIL_URL](https://github.com/wekan/wekan/issues/2106). For example, IBM Notes does not require username and password.
 
 ## Config
 
