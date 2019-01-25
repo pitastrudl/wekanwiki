@@ -332,4 +332,4 @@ curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
 
 # In Wekan code
 
-If you believe that code is the best documentation, be our guest: [models/cards.js](https://github.com/wekan/wekan/blob/devel/models/users.js "Swimlane API code")
+If you believe that code is the best documentation, be our guest: [models/cards.js](https://github.com/wekan/wekan/blob/devel/models/users.js "User API code")
