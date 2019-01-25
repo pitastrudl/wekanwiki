@@ -1,3 +1,7 @@
+# Disclaimer
+
+This page tries to be as up to date as possible. If you see something wrong here, feel free to update the page and help other people like you, that greatly depends on our APIs. If you don't feel comfortable doing this kind of changes, please contact us by creating an [issue](https://github.com/wekan/wekan/issues/new).
+
 ## Add New Board Member with Role
 This example adds with normal role. See examples below for other roles.
 ```
