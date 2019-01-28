@@ -42,6 +42,10 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
     Include /etc/letsencrypt/options-ssl-apache.conf
     ServerSignature Off
 
+    <Location />
+     require all granted
+    </Location>
+
     ProxyPassMatch   "^/(sockjs\/.*\/websocket)$" "ws://127.0.0.1:3001/$1"
     ProxyPass        "/" "http://127.0.0.1:3001/"
     ProxyPassReverse "/" "http://127.0.0.1:3001/"
