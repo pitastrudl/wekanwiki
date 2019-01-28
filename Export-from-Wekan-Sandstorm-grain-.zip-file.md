@@ -107,6 +107,10 @@ do
 done
 rm $tmp_file
 ```
+It's also possible to restore JSON files like described [at stackoverflow](https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb) this way, but because userIDs etc can be different, there is no mapping to other users, so you may need to change JSON files some way:
+```
+for file in *.json; do c=${file#*exp_yourdbname_}; c=${c%.json}; mongoimport --db yourdbname --collection "${c}" --file "${file}"; done
+```
 
 ## 12) Save attachments to files
 
