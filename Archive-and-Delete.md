@@ -1,3 +1,5 @@
+These are on Standalone Wekan: Snap/Docker/Source/VirtualBox. Some of these are also at Sandstorm Wekan.
+
 ## Move to Archive: Restore possible
 
 Board => ☰ => Move Board to Archive
