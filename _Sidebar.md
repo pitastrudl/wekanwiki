@@ -34,6 +34,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) and Auth0
