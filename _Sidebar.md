@@ -37,6 +37,7 @@
 * [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
+* [Keycloak OIDC Integration](https://github.com/wekan/wekan/wiki/Keycloak---OIDC-Integration)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) and Auth0
 * [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
 * [Custom CSS themes](https://github.com/wekan/wekan/wiki/Custom-CSS-themes)
