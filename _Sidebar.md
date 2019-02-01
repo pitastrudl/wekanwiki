@@ -38,6 +38,7 @@
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
 * [Keycloak](https://github.com/wekan/wekan/wiki/Keycloak)
+* [Azure](https://github.com/wekan/wekan/wiki/Azure)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) and Auth0
 * [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
 * [Custom CSS themes](https://github.com/wekan/wekan/wiki/Custom-CSS-themes)
