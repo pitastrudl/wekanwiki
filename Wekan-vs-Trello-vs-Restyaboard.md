@@ -5,7 +5,7 @@ Anyone, please feel free correct if there is anything wrong or outdated info bel
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Price | Free and Open Source, [MIT license](https://github.com/wekan/wekan/blob/devel/LICENSE). Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based | Open Core
-Whitelabeling | [Not yet](https://github.com/wekan/wekan/issues/1196) | No | $ Yes
+Whitelabeling | Yes. Admin Panel/Layout: Hide Logo, Custom Product Name | No | $ Yes
 Theming | [Not yet](https://github.com/wekan/wekan/issues/781) | No | $ Yes
 Redistributing | Yes | No | $ Yes
 Hosting | [Self-host or SaaS provider](https://github.com/wekan/wekan/wiki/Platforms) | SaaS | Self-host
@@ -18,14 +18,14 @@ Activities fetch | WebSocket | WebSocket | Polling (Better, for easy scaling)
 Multiple language | Yes | Yes | Yes
 Keyboard shortcuts | Yes | Yes | Yes
 Boards | Yes | Yes | Yes
-Closed boards listing | Yes, at Recycle Bin | Yes | Yes
+Closed boards listing | Yes, at Archive | Yes | Yes
 Starred boards listing | No, starred and non-starred at All Boards | No | Yes
 Add board with predefined templates | Import Board from Trello or Wekan | No | Yes
 Board stats | [Yes](https://github.com/wekan/wekan/wiki/Features#stats) | No | Yes
 Board - Add members | Yes | Yes | Yes
 Board - Remove members | Yes | Yes | Yes
-Close board | Yes, move to Recycle Bin | Yes | Yes
-Delete board | Yes, from Recycle Bin | Yes | Yes
+Close board | Yes, move to Archive | Yes | Yes
+Delete board | Yes, from Archive | Yes | Yes
 Subscribe board | Yes | Yes | Yes
 Copy board | Export / Import board | Yes | Yes
 Starred board | Yes | Yes | Yes
@@ -40,14 +40,14 @@ Board sync with google calendar | No | Yes | Yes
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Create list | Yes | Yes | Yes
-List color | No | No | Yes
+List color | Yes | No | Yes
 Copy list | No | Yes | Yes
 Move list | No. Only at same board with dragging. | Yes | Yes
 Subscribe list | Yes | Yes | Yes
 Remove list | Yes | Yes | Yes
 Move all cards in this list | No. Only multiselect-drag to the same board. | Yes | Yes
 Archive all cards in this list | No | Yes | Yes
-Archive this list | Yes. Move list to Recycle Bin. | Yes | Yes
+Archive this list | Yes | Yes | Yes
 Show attachments in list | No. Only on card. | No | Yes
 
 ## Basic features: Cards
@@ -55,7 +55,7 @@ Show attachments in list | No. Only on card. | No | Yes
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Filter cards | Yes, also with Regex | Yes | Yes
-Archived items | Yes, at Recycle Bin | Yes | Yes
+Archived items | Yes | Yes | Yes
 Card stickers | No | Yes | No
 Card labels | Yes | Yes | Yes
 Card labels color change | Yes | Yes | Yes
@@ -67,6 +67,7 @@ Add cards & reply via Email | No | Yes | Yes
 Multiple card view | No | No | Yes
 Expandable card view | No | No | Yes
 Card ID display	| No | No | Yes
+Card color | Yes | No | ?
 Card color on card list | No | No | Yes
 Card action on card list | Only multiple selection and WIP Limit | Yes | No
 Card - Set due date | Yes | Yes | Yes
@@ -78,7 +79,7 @@ Card - Add attachment | Yes | Yes | Yes
 Move card | Yes | Yes | Yes
 Copy card | Yes | Yes | Yes
 Subscribe card | Yes | Yes | Yes
-Archive card | Yes, move to Recycle Bin | Yes | Yes
+Archive card | Yes | Yes | Yes
 Vote card | No | Yes | Yes
 Share card | No | Yes | Yes
 Print card | No | Yes | No
@@ -169,7 +170,7 @@ Features | Wekan | Trello | Restyaboard
 Additional settings | No in Web UI, most settings at CLI | Yes | Yes (Basic only)
 Profile	| Yes | Yes | Yes
 Add a new email address | Register / Invite | Yes | No
-Roles management | [Some roles](https://github.com/wekan/wekan/issues/1861) | No | Yes
+Roles management | On web board+[API](https://github.com/wekan/wekan/wiki/REST-API-Role) | No | Yes
 Settings management | Only some at Web UI, most settings at CLI | No | Yes
 Users management | Standalone Admin Panel: Yes edit. [Adding users](https://github.com/wekan/wekan/wiki/Adding-users). [No removing user yet](https://github.com/wekan/wekan/issues/1289). | Yes? | Yes
 Permanently delete your entire account forever?	| No | Yes | Yes (Admin can delete)
@@ -249,5 +250,5 @@ SEO Checklist | No | No | $ Yes
 
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
-iOS Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend) | Yes | Yes
-Android Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend) | Yes | No
+iOS Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend). Mobile browser works. | Yes | Yes
+Android Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend). Mobile browser works. | Yes | No
