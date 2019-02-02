@@ -19,6 +19,10 @@ https://api-URL.SUBDOMAIN.sandcats.io#APIKEY
 ```
 curl https://Bearer:APIKEY@api-URL.SUBDOMAIN.sandcats.io/api/boards/sandstorm/export?authToken=#APIKEY > wekanboard.json
 ```
+For local Sandstorm install:
+```
+curl http://Bearer:APIKEY@api-URL.local.sandstorm.io:6080/api/boards/sandstorm/export?authToken=#APIKEY > wekanboard.json
+```
 
 ***
 
