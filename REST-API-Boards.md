@@ -1,7 +1,3 @@
-## Newest on edge
-
-[Newest API additions are available only on edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs)
-
 # Disclaimer
 
 This page tries to be as up to date as possible. If you see something wrong here, feel free to update the page and help other people like you, that greatly depends on our APIs. If you don't feel comfortable doing this kind of changes, please contact us by creating an [issue](https://github.com/wekan/wekan/issues/new).
