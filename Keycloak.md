@@ -1,6 +1,6 @@
 ## OIDC Integration
 
-[Outstanding Bug](https://github.com/wekan/wekan/issues/1874#issuecomment-459818460): When the user is registered, in the users table of the mongo database,  the following "profile" item is not being created "boardView" with value of "board-view-lists"  Creating the entry manually resolves the issue.
+[Outstanding Bug](https://github.com/wekan/wekan/issues/1874#issuecomment-460802250): Create the first user (admin) with the regular process.  Then the remaining users can use the Register with OIDC process.
 
 Environment Variables that need to be set in your Wekan environment:
 
