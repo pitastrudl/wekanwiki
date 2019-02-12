@@ -141,6 +141,8 @@ Currently Full Name is not preserved, so you need to change it.
 ### 1) Auth0 / Applications / Add / Regular Web Application
 
 ### 2) Auth0 Settings
+
+These need fixes to make working.
 ```
 Client ID:                                 <== Copy to below snap settings
 Secret:                                    <== Copy to below snap settings
@@ -162,4 +164,32 @@ sudo snap set wekan oauth2-server-url='https://youraccount.eu.auth0.com'
 sudo snap set wekan oauth2-auth-endpoint='/authorize'
 sudo snap set wekan oauth2-userinfo-endpoint='/userinfo'
 sudo snap set wekan oauth2-token-endpoint='/oauth/token'
+```
+
+### 4) Auth0 ID provider to Custom OAuth RocketChat
+
+These do work currently so that Auth0 passwordless login to RocketChat does work,
+but there is some additional code also that is not added as PR to RocketChat yet.
+Code mainly has generating custom authorization cookie from user email with addition to
+RocketChat API, and using it and login_token + rc_token to check on RocketChat login page
+using router repeating trigger so that if those cookies exist then automatically login
+user in using RocketChat Custom OAuth2.
+
+```
+Enable: [X] True
+URL: https://example.eu.auth0.com/
+Token Path: oauth/token
+Token Sent Via: Payload
+Identity Token Sent Via: Same as "Token Sent Via"
+Identity Path: userinfo
+Authorize Path: authorize
+Scope: openid profile email
+ID: 12345abcde
+Secret: abcde54321
+Login Style: Redirect
+Button Text: JOIN CHAT
+Button Text Color: #FFFFFF
+Button Color: #000000
+Username field: (empty)
+Merge users: [X] True
 ```
