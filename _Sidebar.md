@@ -123,6 +123,7 @@
 
 # <a name="Development"></a>Development
 
+* [Kadira integration](https://github.com/wekan/wekan/issues/2152)
 * [Debugging](https://github.com/wekan/wekan/wiki/Debugging)
 * [Developer Docs](https://github.com/wekan/wekan/wiki/Developer-Documentation)
 * [Adding new Snap setting to code](https://github.com/wekan/wekan/wiki/Adding-new-Snap-settings-to-code)
