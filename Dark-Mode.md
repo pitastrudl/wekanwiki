@@ -6,6 +6,7 @@ Chrome Desktop Browser
 
 Firefox Desktop and Mobile Browser
 - [Dark Mode Webextension](https://addons.mozilla.org/en-US/android/addon/dark-mode-webextension/) - changes all webpages to dark, including Wekan.
+- There is dark themes, depends what someone likes
 
 Thunderbird Email
 - [TT DeepDark - Dark Theme](https://addons.thunderbird.net/en-US/thunderbird/addon/tt-deepdark/) - after installing click Edit/Preferences/Display/Colors/Font&Colors-Colors Text: Grey Background: Black and also Plain Text Messages Color: Black.
