@@ -10,4 +10,6 @@ Thunderbird Email
 Qubes OS Desktop
 - Start / System Tools / Appearance / Styles: Adwaita-dark
 
-[Android M: Dark Theme](https://www.phonearena.com/news/Finally-Android-M-scores-a-new-system-wide-dark-UI-theme_id69814)
+Android M
+
+- [Dark Theme](https://www.phonearena.com/news/Finally-Android-M-scores-a-new-system-wide-dark-UI-theme_id69814)
