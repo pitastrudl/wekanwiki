@@ -88,6 +88,8 @@ http {
 	# Basic Settings
 	##
 
+        ## Max attachment size that can be uploaded to Wekan:
+        client_max_body_size 100M;
 	sendfile on;
 	tcp_nopush on;
 	tcp_nodelay on;
