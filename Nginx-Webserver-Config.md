@@ -179,6 +179,8 @@ cd /etc/nginx/sites-enabled
 ln -s ../sites-available/example.com.conf example.com.conf
 ```
 
+:heavy_exclamation_mark: Check if the user "www-data" exist on your system, if no, you can set "nginx" user in /etc/nginx/nginx.conf
+
 Test nginx config for errors:
 
 ```
