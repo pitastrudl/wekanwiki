@@ -11,6 +11,10 @@ Environment Variables that need to be set in your Wekan environment:
 * OAUTH2_USERINFO_ENDPOINT = `/realms/<keycloak realm>/protocol/openid-connect/userinfo`
 * OAUTH2_TOKEN_ENDPOINT = `/realms/<keycloak realm>/protocol/openid-connect/token`
 * OAUTH2_SECRET = `<keycloak client secret>`
+* OAUTH2_ID_MAP = `uid`
+* OAUTH2_USERNAME_MAP = `uid`
+* OAUTH2_FULLNAME_MAP = `displayName`
+* OAUTH2_EMAIL_MAP = `email`
 > When creating a Client in keycloak, ensure the access type is confidential under the settings tab.  After clicking save, you will have a Credentials tab.  You can retrieve the secret from that location.
 
 Under the Client area in Keycloak, click on the Mappers area and "create" the two following mappers:
@@ -27,17 +31,5 @@ Under the Client area in Keycloak, click on the Mappers area and "create" the tw
 * Add to userinfo : on
 * Multivalued: off
 
-2. id  
-* Name: id
-* Consent Required: Off
-* Mapper Type: User Property
-* User Attribute: username
-* Token Claim Name: id
-* Claim JSON Type: String
-* Add to ID token: on
-* Add to access token : on
-* Add to userinfo : on
-
 Then Edit the existing username mapper and update the following:  
 * Token Claim Name: uid
-
