@@ -8,7 +8,7 @@ Please read the meteor style guide before making any significant contribution.
 
 ## Getting Started
 
-- Install [Wekan from source](https://github.com/wekan/wekan) with rebuild-wekan.sh script, with options 1 to install dependencies and 2 to rebuild source, to your Linux computer (Debian 9 or Ubuntu 14.04), or try installing it via the [[virtual appliance|virtual-appliance]]
+- Install [Wekan from source](https://github.com/wekan/wekan) with rebuild-wekan.sh script, with options 1 to install dependencies and 2 to rebuild source, to your Linux computer (Debian 9 or Ubuntu 14.04 or newer), or try installing it via the [[virtual appliance|virtual-appliance]]
 - You can use for example [Visual Studio Code](https://code.visualstudio.com/) for editing code, it has Meteor.js etc plugins 
 - When changing database schema, [migrations can be used](https://github.com/wekan/wekan/blob/devel/server/migrations.js).
 - [Excellent example how pull requests are improved and integrated, and not needed commits removed](https://github.com/wekan/wekan/pull/1470)
