@@ -148,7 +148,7 @@ Client ID:                                 <== Copy to below snap settings
 Secret:                                    <== Copy to below snap settings
 Account url: youraccount.eu.auth0.com      <== Copy to below snap settings
 Application Logo:                          <== Add your logo
-Application Type: Regular Web Application
+Application Type: Single Page Application
 Token Endpoint Authentication Method: Post
 Allowed Callback URLs: https://wekan.example.com/_oauth/oidc  <== Change your Wekan address
 Allowed Web Origins: https://wekan.example.com                <== Change your Wekan address
@@ -169,6 +169,16 @@ sudo snap set wekan oauth2-username-map='email'
 sudo snap set wekan oauth2-fullname-map='name'
 sudo snap set wekan oauth2-email-map='email'
 ```
+If you have other settings set of oauth2, set them to empty:
+```
+sudo snap set oauth2-request-permissions=''
+sudo snap set oauth2-id-token-whitelist-fields=''
+```
+For login to work, you need to:
+- Create first Admin user
+- Add other users with REST API or Password registration
+- Login with OIDC button
+- Have Auth0 configured for passwordless email login (on some other login)
 
 ### 4) Auth0 ID provider to Custom OAuth RocketChat
 
