@@ -1,6 +1,4 @@
-# Current bugs and progress, help welcome
-
-- [OAuth2 bug](https://github.com/wekan/wekan/issues/1874)
+- [OAuth2 small bug](https://github.com/wekan/wekan/issues/1874) - currently OAuth2 works mostly
 
 # OAuth2 providers
 
