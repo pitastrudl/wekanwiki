@@ -4,9 +4,9 @@
 
 # OAuth2 providers
 
-You can use any OAuth2 provider for logging into Wekan, for example:
-- [Rocket.Chat](https://github.com/wekan/wekan/wiki/OAuth2#rocketchat-providing-oauth2-login-to-wekan) - not tested yet
+You can use some OAuth2 providers for logging into Wekan, for example:
 - [Auth0](https://github.com/wekan/wekan/wiki/OAuth2#auth0) - works
+- [Rocket.Chat](https://github.com/wekan/wekan/wiki/OAuth2#rocketchat-providing-oauth2-login-to-wekan) - not tested yet
 - Google - not tested yet
 
 You can ask your identity provider (LDAP, SAML etc) do they support adding OAuth2 application like Wekan.
