@@ -2,14 +2,12 @@
 
 - [OAuth2 bug](https://github.com/wekan/wekan/issues/1874)
 
-- [Auth0 progress](https://github.com/wekan/wekan/issues/1722)
-
 # OAuth2 providers
 
 You can use any OAuth2 provider for logging into Wekan, for example:
-- [Rocket.Chat](https://github.com/wekan/wekan/wiki/OAuth2#rocketchat-providing-oauth2-login-to-wekan)
-- [Auth0](https://github.com/wekan/wekan/wiki/OAuth2#auth0)
-- Google
+- [Rocket.Chat](https://github.com/wekan/wekan/wiki/OAuth2#rocketchat-providing-oauth2-login-to-wekan) - not tested yet
+- [Auth0](https://github.com/wekan/wekan/wiki/OAuth2#auth0) - works
+- Google - not tested yet
 
 You can ask your identity provider (LDAP, SAML etc) do they support adding OAuth2 application like Wekan.
 
@@ -136,13 +134,10 @@ Currently Full Name is not preserved, so you need to change it.
 
 # Auth0
 
-[Auth0](https://auth0.com) can provide Google/Facebook/LinkedIn etc login options to Wekan.
+[Auth0](https://auth0.com) can provide PasswordlessEmail/Google/Facebook/LinkedIn etc login options to Wekan.
 
-### 1) Auth0 / Applications / Add / Regular Web Application
+### 1) Auth0 / Applications / Add / Regular Web Application / Auth0 Settings
 
-### 2) Auth0 Settings
-
-These need fixes to make working.
 ```
 Client ID:                                 <== Copy to below snap settings
 Secret:                                    <== Copy to below snap settings
@@ -156,7 +151,21 @@ Use Auth0 instead of the IdP to do Single Sign On: [X]
 ```
 If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
 
-### 3) Snap settings, change to it from above client-id, secret and server-url
+2) Auth0 Dashboard => Rules => Add Rule
+
+Rule Name: Encrich Wekan login
+```
+  function (user, context, callback) {
+    user.user_metadata = user.user_metadata || {};
+    var ns = "https://boards.example.com/";
+    context.idToken[ns + "id"] = user.user_id;
+    context.idToken[ns + "email"] = user.email;
+    context.idToken[ns + "name"] = user.name || user.user_metadata.name;
+    callback(null, user, context);
+  }
+```
+
+### 3) Snap settings, change to it from above client-id, secret, server-url and web-origin (=namespace for rules function above)
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
@@ -164,15 +173,10 @@ sudo snap set wekan oauth2-server-url='https://youraccount.eu.auth0.com'
 sudo snap set wekan oauth2-auth-endpoint='/authorize'
 sudo snap set wekan oauth2-userinfo-endpoint='/userinfo'
 sudo snap set wekan oauth2-token-endpoint='/oauth/token'
-sudo snap set wekan oauth2-id-map='email'
-sudo snap set wekan oauth2-username-map='email'
-sudo snap set wekan oauth2-fullname-map='name'
-sudo snap set wekan oauth2-email-map='email'
-```
-If you have other settings set of oauth2, set them to empty:
-```
-sudo snap set oauth2-request-permissions=''
-sudo snap set oauth2-id-token-whitelist-fields=''
+sudo snap set wekan oauth2-id-map='https://boards.example.com/id'
+sudo snap set wekan oauth2-username-map='https://boards.example.com/email'
+sudo snap set wekan oauth2-fullname-map='https://boards.example.com/name'
+sudo snap set wekan oauth2-email-map='https://boards.example.com/email'
 ```
 For login to work, you need to:
 - Create first Admin user
