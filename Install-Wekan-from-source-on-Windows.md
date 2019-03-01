@@ -1,20 +1,19 @@
 Also see: [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
 
-# Beginnings of build and run scripts
 
-rebuild-wekan.bat and start-wekan.bat at https://github.com/wekan/wekan
+# THIS WORKS
+a) Lowest resource usage: [Windows Subsystem for Linux, build from source](https://github.com/wekan/wekan/issues/2066#issuecomment-468328001)
 
-# Alternative: Docker, without build from source
+b) Docker for Windows, [build from source](https://github.com/wekan/wekan-dev/issues/12#issuecomment-468657290)
 
-Use Docker Compose:
-https://github.com/wekan/wekan-mongodb
 
-Or adding also MongoDB mirroring to PostgreSQL:
-https://github.com/wekan/wekan-postgresql
+***
 
-# Source install required dependencies
+# OLD INFO BELOW, DOES NOT WORK
 
-Questions, comments to issue about nexe https://github.com/wekan/wekan/issues/710
+### Source install required dependencies
+
+Questions, comments to old closed issue about nexe https://github.com/wekan/wekan/issues/710
 
 Beginnings of build and run scripts, please add PRs for additional fixes etc:
 - https://github.com/wekan/wekan/blob/edge/rebuild-wekan.bat
