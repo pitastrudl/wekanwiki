@@ -89,7 +89,7 @@ For [Wekan Platforms](https://github.com/wekan/wekan/wiki/Platforms), it means t
 * Version number is only incrementing number. Wekan has been in production use for a long time already, so v1.00 is not about being production ready. There has been many performance improvements, but there is still a lot to improve.
 * Wekan still has bugs, like any other software. So this is not about being bug free.
 * Wekan will keep changing, and providing migrations from old to newest version. In that sense, Wekan has been LTS release as long as it's been maintained already. There have been many fixes to make migrations possible, and adding more fixes will continue.
-* Development happens in devel branch. When release is made, devel branch is merged to master and friend branches.
+* Development happens in in edge branch. When release is made, edge branch is merge merged to devel/master/meteor-1.8 branches.
 
 # Features
 
