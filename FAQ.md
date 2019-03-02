@@ -43,7 +43,7 @@ that by providing one-click installation on various platforms.
 
 ## What is Wekan Team?
 
-[Wekan team](https://wekan.team) is Wekan Commercial Support company run by CEO [xet7](https://github.com/xet7), current maintainer of Wekan. xet7 does respond to feedback at GitHub issues very actively, because Wekan is community driven Open Source project. For example, there has been some UI changes proposed, that xet7 implemented, but because of feedback from other Wekan users, UI changes were reverted back to original. Because conflicting opinions can not be implemented, sometimes xet7 has to behave like benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything. Wekan development speed increases when new Wekan contributors join and start to send PRs to existing issues.
+[Wekan team](https://wekan.team) is Wekan Commercial Support company run by CEO [xet7](https://github.com/xet7), current maintainer of Wekan. xet7 does respond to feedback at GitHub issues very actively, because Wekan is community driven Open Source project. For example, there has been some UI changes proposed, that xet7 implemented, but because of feedback from other Wekan users, UI changes were reverted back to original. Because conflicting opinions can not be implemented, sometimes xet7 has to behave like benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything. Wekan development speed increases when new Wekan contributors join and start to send PRs to existing and new issues.
 
 ## How to convince my company management that Wekan "is less evil" than Trello?
 
