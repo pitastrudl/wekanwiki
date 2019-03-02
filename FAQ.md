@@ -18,8 +18,8 @@ that by providing one-click installation on various platforms.
 - Wekan is used in [most countries of the world](https://snapcraft.io/wekan).
 - Wekan largest user has 13k users using Wekan in their company.
 - Wekan has been [translated](https://transifex.com/wekan/wekan) to about 50 languages.
-- [Features][features]: Wekan has real-time user interface.
-- [Platforms][platforms]: Wekan supports many platforms.
+- [Features][https://github.com/wekan/wekan/wiki/Features]: Wekan has real-time user interface.
+- [Platforms][https://github.com/wekan/wekan/wiki/Platforms]: Wekan supports many platforms.
   Wekan is critical part of new platforms Wekan is currently being integrated to.
 - [Integrations][integrations]: Current possible integrations and future plans.
 
