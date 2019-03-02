@@ -3,7 +3,7 @@
 
 ## About Wekan
 
-Wekan is an completely [Open Source][open_source] and [Free software][free_software]
+Wekan is an completely Open Source and Free software
 collaborative [kanban board](https://en.wikipedia.org/wiki/Kanban_board) application with MIT license.
 
 Whether you’re maintaining a personal todo list, planning your holidays with some friends,
