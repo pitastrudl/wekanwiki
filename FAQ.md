@@ -1,29 +1,49 @@
 > **»The only stupid question is the one that is not asked.«**  
 > *– Hull, E., K. Jackson, et al. (2005).*
 
-## What Wekan is not?
-* Not a single Company: It has always been [Open Source](https://en.wikipedia.org/wiki/Open-source_software) and [Free software](https://en.wikipedia.org/wiki/Free_software). Most of the work is done at free time. There is [Commercial Support](https://wekan.team) and [Hosting](https://github.com/wekan/wekan/wiki/Platforms) provided by various companies.
-* Not a single Product: There are some missing features, and [more features are added all the time](https://blog.wekan.team). There are [Features of many use cases](https://github.com/wekan/wekan/wiki/Features)
-* Not a Startup: We have no exit plan. Wekan is still mostly done at free time, by developers scratching their itch and needing Wekan for their own use cases, so when some support us with [Commercial Support or Bounties](https://wekan.team) it just increases speed of adding new features.
-* Not have hired departments: There is no hired marketing team/hired development team/hired QA team. Wekan is tested by it's users. Bugs and feature requests are submitted to [GitHub issues](https://github.com/wekan/wekan/issues).
+## About Wekan
 
-## What is Wekan?
-Wekan is an open-source and free software _[kanban board][kanban]_ that lets you organize things in cards, and cards in lists. More info at [Readme][].
+Wekan is an completely [Open Source][open_source] and [Free software][free_software]
+collaborative [kanban board](https://en.wikipedia.org/wiki/Kanban_board) application with MIT license.
 
-[readme]: https://github.com/wekan/wekan/blob/master/README.md
-[kanban]: https://en.wikipedia.org/wiki/Kanban_board
+Whether you’re maintaining a personal todo list, planning your holidays with some friends,
+or working in a team on your next revolutionary idea, Kanban boards are an unbeatable tool
+to keep your things organized. They give you a visual overview of the current state of your project,
+and make you productive by allowing you to focus on the few items that matter the most.
+
+Since Wekan is a free software, you don’t have to trust us with your data and can
+install Wekan on your own computer or server. In fact we encourage you to do
+that by providing one-click installation on various platforms.
+
+- Wekan is used in [most countries of the world](https://snapcraft.io/wekan).
+- Wekan largest user has 13k users using Wekan in their company.
+- Wekan has been [translated](https://transifex.com/wekan/wekan) to about 50 languages.
+- [Features][features]: Wekan has real-time user interface.
+- [Platforms][platforms]: Wekan supports many platforms.
+  Wekan is critical part of new platforms Wekan is currently being integrated to.
+- [Integrations][integrations]: Current possible integrations and future plans.
+
+## Requirements
+
+- 64bit: Linux [Snap](https://github.com/wekan/wekan-snap/wiki/Install) or [Sandstorm](https://sandstorm.io) /
+  [Mac](https://github.com/wekan/wekan/wiki/Mac) / [Windows](https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows).
+  [More Platforms](https://github.com/wekan/wekan/wiki/Platforms). [ARM progress](https://github.com/wekan/wekan/issues/1053#issuecomment-410919264).
+- 1 GB RAM minimum free for Wekan. Production server should have miminum total 4 GB RAM.
+  For thousands of users, for example with [Docker](https://github.com/wekan/wekan/blob/devel/docker-compose.yml): 3 frontend servers,
+  each having 2 CPU and 2 wekan-app containers. One backend wekan-db server with many CPUs.
+- Enough disk space and alerts about low disk space. If you run out disk space, MongoDB database gets corrupted.
+- SECURITY: Updating to newest Wekan version very often. Please check you do not have automatic updates of Sandstorm or Snap turned off.
+  Old versions have security issues because of old versions Node.js etc. Only newest Wekan is supported.
+  Wekan on Sandstorm is not usually affected by any Standalone Wekan (Snap/Docker/Source) security issues.
+- [Reporting all new bugs immediately](https://github.com/wekan/wekan/issues).
+  New features and fixes are added to Wekan [many times a day](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md).
+- [Backups](https://github.com/wekan/wekan/wiki/Backup) of Wekan database once a day miminum.
+  Bugs, updates, users deleting list or card, harddrive full, harddrive crash etc can eat your data. There is no undo yet.
+  Some bug can cause Wekan board to not load at all, requiring manual fixing of database content.
 
 ## What is Wekan Team?
-[Wekan team](https://github.com/wekan/wekan/wiki/Team) is small amount of contributors from all around the world donating their free time and servers. There is no benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything.
 
-## Policy about Wekan UI changes?
-
-- No removing of menu options default Wekan UI. Current Wekan UI is in Wekan long time users muscle memory. There is huge support cost if some option suddenly disappears or changes place.
-- No changing how Wekan by default looks. Some differences have been tried, and then went back to original, because current look is what is clear to see also with older eyes.
-- If you would like to change UI, use upcoming [Custom CSS](https://github.com/wekan/wekan/wiki/Custom-CSS-themes) or [add new Role](https://github.com/wekan/wekan/issues/1994).
-- For current features, there will be bugfixes. They will not be removed or moved around.
-- For new features, it's preferable to add option to Standalone Wekan Admin Panel and Snap/Docker/Source environment variables to optionally turn on new features.
-- At Sandstorm, default one board per grain will be kept, because it is in Wekan Sandstorm long time users muscle memory. Nothing should be removed from current menus. New features can be added to menus to turn them on optionally. Features that require multi board support will be disabled, or maybe be made to work between grains with PowerBox. There will be fixes to Sandstorm bugs etc.
+[Wekan team](https://wekan.team) is Wekan Commercial Support company, that hae CEO [xet7](https://github.com/xet7), current maintainer of Wekan. xet7 does respond to feedback at GitHub issues very actively, because Wekan is community driven Open Source project. For example, there has been some UI changes proposed, that xet7 implemented, but because of feedback from other Wekan users, UI change was reverted back to original. Because conflicting opinions can not be implemented, sometimes xet7 needs to behave like benevolent dictator. Every Wekan team member is free to choose what to contribute and when. We can not force anybody to implement anything. Wekan development speed increases when new Wekan contributors join and start to send PRs to existing issues.
 
 ## How to convince my company management that Wekan "is less evil" than Trello?
 
