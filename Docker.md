@@ -110,7 +110,7 @@ docker run -d --restart=always --name wekan-db mongo:3.2.20
 specify docker variables
 
 ```
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:80 quay.io/wekan/wekan
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://localhost:8080" -p 8080:8080 quay.io/wekan/wekan
 ```
 
 
