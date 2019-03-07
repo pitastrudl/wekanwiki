@@ -8,6 +8,101 @@ mongo=$"/snap/wekan/$version/bin/mongo"
 $mongo --port 27019
 ```
 
+***
+
+# Snap backup-restore v2
+
+Originally from https://github.com/wekan/wekan-snap/issues/62#issuecomment-470622601
+
+## Backup
+
+wekan-backup.sh
+```
+#!/bin/bash
+export LC_ALL=C
+
+version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+now=$(date +"%Y%m%d-%H%M%S")
+parent_dir="/data/backups/wekan"
+backup_dir="${parent_dir}/${now}"
+log_file="${parent_dir}/backup-progress.log.${now}"
+
+error () {
+  printf "%s: %s\n" "$(basename "${BASH_SOURCE}")" "${1}" >&2
+  exit 1
+}
+
+trap 'error "An unexpected error occurred."' ERR
+
+take_backup () {
+  mkdir -p "${backup_dir}"
+
+  cd "${backup_dir}"
+
+  /snap/wekan/$version/bin/mongodump --quiet --port 27019
+
+  cd ..
+
+  tar -zcf "${now}.tar.gz" "${now}"
+
+  rm -rf "${now}"
+}
+
+printf "\n======================================================================="
+printf "\nWekan Backup"
+printf "\n======================================================================="
+printf "\nBackup in progress..."
+
+take_backup 2> "${log_file}"
+
+if [[ -s "${log_file}" ]]
+then
+  printf "\nBackup failure! Check ${log_file} for more information."
+  printf "\n=======================================================================\n\n"
+else
+  rm "${log_file}"
+  printf "...SUCCESS!\n"
+  printf "Backup created at ${backup_dir}.tar.gz"
+  printf "\n=======================================================================\n\n"
+fi
+```
+wekan-restore.sh
+```
+#!/bin/bash
+
+makesRestore()
+{
+    file=$1
+
+    ext=$"$(basename $file)"
+    parentDir=$"${file:0:${#file}-${#ext}}"
+    cd "${parentDir}"
+
+    printf "\nMakes the untar of the archive.\n"
+
+    tar -zxvf "${file}"
+    file="${file:0:${#file}-7}"
+
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    restore=$"/snap/wekan/${version}/bin/mongorestore"
+
+    printf "\nThe database restore is in progress.\n\n"
+
+    $restore --quiet --drop -d wekan --port 27019 "${file}/dump/wekan"
+
+    rm -rf "${file}"
+
+    printf "\nRestore done.\n"
+}
+
+makesRestore $1
+```
+
+***
+
+# Snap backup-restore v1
+
 ## Backup script for MongoDB Data, if running Snap MongoDB at port 27019
 
 ```sh
