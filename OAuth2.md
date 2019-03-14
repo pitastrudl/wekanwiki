@@ -163,6 +163,7 @@ Rule Name: Encrich Wekan login
     context.idToken[ns + "id"] = user.user_id;
     context.idToken[ns + "email"] = user.email;
     context.idToken[ns + "name"] = user.name || user.user_metadata.name;
+    context.idToken[ns + "picture"] = user.picture;
     callback(null, user, context);
   }
 ```
