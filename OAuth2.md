@@ -155,7 +155,7 @@ Rule Name: Encrich Wekan login
 ```
   function (user, context, callback) {
     // Only use this rule for Auth0 Dashboard / Applications / Application name
-    if(context.clientName !== 'Auth0-Application-Name'){
+    if(context.clientName !== 'WekanApplication'){
       return callback(null, user, context);
     }
     user.user_metadata = user.user_metadata || {};
