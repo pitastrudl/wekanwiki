@@ -154,7 +154,7 @@ If you  need more info, they are at bottom of the page Advanced Settings / Endpo
 Rule Name: Encrich Wekan login
 ```
   function (user, context, callback) {
-    // Only use this rule for Auth0 Dashboard / Applications / Application name
+    // Only use this rule for Auth0 Dashboard / Applications / WekanApplication
     if(context.clientName !== 'WekanApplication'){
       return callback(null, user, context);
     }
