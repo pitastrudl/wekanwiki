@@ -154,6 +154,10 @@ If you  need more info, they are at bottom of the page Advanced Settings / Endpo
 Rule Name: Encrich Wekan login
 ```
   function (user, context, callback) {
+    // Only use this rule for Auth0 Dashboard / Applications / Application name
+    if(context.clientName !== 'Auth0-Application-Name'){
+      return callback(null, user, context);
+    }
     user.user_metadata = user.user_metadata || {};
     var ns = "https://boards.example.com/";
     context.idToken[ns + "id"] = user.user_id;
