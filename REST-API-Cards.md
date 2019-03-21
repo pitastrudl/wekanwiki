@@ -4,9 +4,27 @@ This page tries to be as up to date as possible. If you see something wrong here
 
 # Retrieve cards by swimlane id
 
-Please somebody add example by looking this:
+| API URL / Code Link | Requires Admin Auth | HTTP Method |
+| :--- | :--- | :--- |
+| [/api/boards/:boardId/swimlanes/:swimlaneId/cards](https://github.com/wekan/wekan/blob/c115046a7c86b30ab5deb8762d3ef7a5ea3f4f90/models/cards.js#L487) | `yes` | `GET` |
 
-[Issue](https://github.com/wekan/wekan/issues/1934) and [code](https://github.com/wekan/wekan/pull/1944/commits/be42b8d4cbdfa547ca019ab2dc9a590a115cc0e2). Also add to [Swimlanes page](https://github.com/wekan/wekan/wiki/REST-API-Swimlanes)
+```shell
+curl -H "Authorization: Bearer t7iYB86mXoLfP_XsMegxF41oKT7iiA9lDYiKVtXcctl" \
+     -X GET \
+     http://localhost:3000/api/boards/YRgy7Ku6uLFv2pYwZ/swimlanes/PgTuf6sFJsaxto5dC/cards
+```
+## Result example
+
+```shell
+{
+    "_id": "AzEeHS7KAGeYZCcak",
+    "title": "Create Auth Code",
+    "description": "Create Auth Code for application.",
+    "listId": "RPRtDTQMKpShpgqoj"
+  },
+  {
+...
+```
 
 # Add Card to List-Board-Swimlane
 
