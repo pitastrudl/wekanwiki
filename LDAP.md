@@ -51,7 +51,7 @@ services:
     #image: wekanteam/wekan:latest
     #
     # Quay, usually works, updates faster:
-    image: quay.io/wekan/wekan:edge
+    image: quay.io/wekan/wekan:meteor-1.8
     container_name: wekan-app
     restart: always
     networks:
