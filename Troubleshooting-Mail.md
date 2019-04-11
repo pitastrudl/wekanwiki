@@ -263,19 +263,22 @@ To define a sender name for the mails automatically sent by Wekan.
 1. ...`export MAIL_FROM='Thomas Anderson <neo@matrix.org>'`
 
 ## Using mail service from zoho
-If you have your personal mail on zoho for your domain example.com, then follow these steps to add MAIL_URL
+If you have your personal mail on zoho for your domain example.com, then follow these steps to add MAIL_URL.
 Let's assume following username
 username=user1@example.com
 password=12@3424dsfsf
 
 Step 1: encode the username and password
+
 encoded username: user1%40example.com
 encoded password: 12%403424dsfsf
 
 Step 2: form MAIL_URL
+
 MAIL_URL=smtps://user1%40example.com:12%403424dsfsf@smtp.zoho.com:465/
 
 By default zoho uses port number 465 with TLS enabled.
 
 Step 3: form MAIL_FROM
+
 MAIL_FROM=Wekan Notifications <user1@example.com>
