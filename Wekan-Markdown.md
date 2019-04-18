@@ -1,4 +1,8 @@
 Wekan uses GFM (Github Flavored Markdown).
-We use the following project that ports GFM to meteor: https://github.com/perak/markdown.
+We use the following project that ports GFM to meteor: https://github.com/perak/markdown. Unfortunately this parser implements only gfm v0.28 (current is 0.29). It's appears that the parser uses v0.3.1 of marked.js and its changelog in that version is not documented. Therefore It's also possible that only gfm 0.27 is supported.
 
-For guides, just search the web. github offers a [guide](https://guides.github.com/features/mastering-markdown/) and the [GFM list of features](https://github.github.com/gfm/).
+## List of guides (from web archive):
+* [GFM 0.28 list of features](https://web.archive.org/web/20190405063005/https://github.github.com/gfm/).
+* [GFM 0.27 list of features](https://web.archive.org/web/20170314184131/https://github.github.com/gfm/).
+
+## Where can I use the markdown?
