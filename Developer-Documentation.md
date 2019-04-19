@@ -6,6 +6,15 @@ Please read the meteor style guide before making any significant contribution.
 
 # Tips for new developers
 
+## Finding code
+
+There is find.sh script that ignores generated directories, finds code in subdirectories, and paginates with less. For example, finding how search cards is implemented:
+```
+cd wekan
+./find.sh js-search
+```
+When you run this, you see .jade template files where is search input box, and .js files where is the search code. CSS is in .styl files.
+
 ## Getting Started
 
 - Install [Wekan from source](https://github.com/wekan/wekan) with rebuild-wekan.sh script, with options 1 to install dependencies and 2 to rebuild source, to your Linux computer (Debian 9 or Ubuntu 14.04 or newer), or try installing it via the [[virtual appliance|virtual-appliance]]
