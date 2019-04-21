@@ -189,6 +189,8 @@ Rule Name: Encrich Wekan login
 ### 3) Snap settings, change to it from above client-id, secret, server-url and web-origin (=namespace for rules function above).
 
 Note: namespace works for multiple apps. For example, you can use same namespace url for many different wekan board apps that have different client-id etc, and different board url, and still use same namespace url like https://boards.example.com .
+
+CHANGE BELOW ONLY CLIENT-ID, SECRET, YOURACCOUNT, AND SERVER-URL. DO NOT CHANGE id/email/name AT END OR URLS OR ANYTHING ELSE, BECAUSE THEN IT DOES NOT WORK.
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
