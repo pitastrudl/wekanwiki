@@ -94,8 +94,9 @@ Access Token URL: https://chat.example.com/oauth/token
 Save Changes.
 
 ### 4) Add Wekan settings
-
+Copy below commands to `auth.sh` textfile and then run it with `bash auth.sh`.
 ```
+sudo snap set wekan oauth2-enabled='true'
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
 sudo snap set wekan oauth2-server-url='https://chat.example.com/'
