@@ -17,7 +17,8 @@ usage somewhat daily, and it has become my favourite productivity tool.
 because of closed sandbox model we changed into standalone snap install.
 [09:28:02] <sfielding> Ldap integration works as expected
 [09:34:42] <sfielding> Only situation where I end up using tedious
-copy & paste string transferring is when moving checklists from one card to another.
+copy & paste string transferring is when moving checklists
+from one card to another.
 [12:49:45] <xet7> sfielding: click card hamburger menu =>
 Copy Checklist Template to Many Cards
 ```
