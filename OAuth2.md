@@ -35,7 +35,7 @@ sudo snap install rocketchat-server
 [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install) has Node at port 3001 and MongoDB at port 27019.
 ```
 sudo snap install wekan
-sudo snap set wekan root-url="https://wekan.example.com"
+sudo snap set wekan root-url="https://boards.example.com"
 sudo snap set wekan port='3001'
 sudo snap set core refresh.schedule=02:00-04:00
 sudo snap set wekan with-api='true'
@@ -51,7 +51,7 @@ sudo nano /var/snap/wekan/common/Caddyfile
 ```
 Add Caddy config:
 ```
-wekan.example.com {
+boards.example.com {
         proxy / localhost:3001 {
           websocket
           transparent
@@ -83,7 +83,7 @@ Add settings:
 ```
 Active: [X] True
 Application Name: Wekan
-Redirect URI: https://wekan.example.com/_oauth/oidc
+Redirect URI: https://boards.example.com/_oauth/oidc
 Client ID: abcde12345         <=== Rocket.Chat generates random text to here
 Client Secret: 54321abcde     <=== Rocket.Chat generates random text to here
 Authorization URL: https://chat.example.com/oauth/authorize
@@ -96,15 +96,28 @@ Save Changes.
 ```
 sudo snap set wekan oauth2-client-id='abcde12345'
 sudo snap set wekan oauth2-secret='54321abcde'
-sudo snap set wekan oauth2-server-url='https://chat.example.com'
-sudo snap set wekan oauth2-auth-endpoint='/oauth/authorize'
-sudo snap set wekan oauth2-userinfo-endpoint='/oauth/userinfo'
-sudo snap set wekan oauth2-token-endpoint='/oauth/token'
+sudo snap set wekan oauth2-server-url='https://chat.example.com/'
+sudo snap set wekan oauth2-auth-endpoint='oauth/authorize'
+sudo snap set wekan oauth2-userinfo-endpoint='oauth/userinfo'
+sudo snap set wekan oauth2-token-endpoint='oauth/token'
+sudo snap set wekan oauth2-id-map='preffered_username'
+sudo snap set wekan oauth2-username-map='preffered_username'
+sudo snap set wekan oauth2-fullname-map='preffered_username'
+sudo snap set wekan oauth2-email-map='email'
+```
+### If login does not work, debug it
+```
+sudo snap set wekan debug='true'
+```
+Click Oidc button. Then:
+```
+sudo snap logs wekan.wekan
+sudo systemctl status snap.wekan.wekan
 ```
 
 ### 5) Login to Wekan
 
-1) Go to https://wekan.example.com
+1) Go to https://boards.example.com
 
 2) Click `Sign in with Oidc`
 
@@ -143,8 +156,8 @@ Account url: youraccount.eu.auth0.com      <== Copy to below snap settings
 Application Logo:                          <== Add your logo
 Application Type: Single Page Application
 Token Endpoint Authentication Method: Post
-Allowed Callback URLs: https://wekan.example.com/_oauth/oidc  <== Change your Wekan address
-Allowed Web Origins: https://wekan.example.com                <== Change your Wekan address
+Allowed Callback URLs: https://boards.example.com/_oauth/oidc  <== Change your Wekan address
+Allowed Web Origins: https://boards.example.com                <== Change your Wekan address
 Use Auth0 instead of the IdP to do Single Sign On: [X]
 ```
 If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
