@@ -20,7 +20,7 @@ because of closed sandbox model we changed into standalone snap install.
 copy & paste string transferring is when moving checklists
 from one card to another.
 [12:49:45] <xet7> sfielding: click card hamburger menu =>
-Copy Checklist Template to Many Cards
+                  Copy Checklist Template to Many Cards
 ```
 
 ### Q: LDAP?
