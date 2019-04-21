@@ -2,6 +2,8 @@
 
 [Outstanding Bug](https://github.com/wekan/wekan/issues/1874#issuecomment-460802250): Create the first user (admin) with the regular process.  Then the remaining users can use the Register with OIDC process.
 
+Keycloak settings: [realm-export.zip](https://wekan.github.io/keycloak/realm-export.zip)
+
 Environment Variables that need to be set in your Wekan environment:
 
 * OAUTH2_ENABLED = TRUE
@@ -16,3 +18,19 @@ Environment Variables that need to be set in your Wekan environment:
 * OAUTH2_FULLNAME_MAP = `given_name`
 * OAUTH2_EMAIL_MAP = `email`
 > When creating a Client in keycloak, ensure the access type is confidential under the settings tab.  After clicking save, you will have a Credentials tab.  You can retrieve the secret from that location.
+
+## Snap
+Copy below commands to `auth.sh` textfile, make it executeable `chmod +x auth.sh` and run it with `./auth.sh`.
+```
+sudo snap set wekan oauth2-enabled='true'
+sudo snap set wekan oauth2-client-id='abcd1234'
+sudo snap set wekan oauth2-secret='1234abcd'
+sudo snap set wekan oauth2-server-url='https://example.com/auth'
+sudo snap set wekan oauth2-auth-endpoint='/realms/<keycloak realm>/protocol/openid-connect/auth'
+sudo snap set wekan oauth2-userinfo-endpoint='/realms/<keycloak realm>/protocol/openid-connect/userinfo'
+sudo snap set wekan oauth2-token-endpoint='/realms/<keycloak realm>/protocol/openid-connect/token'
+sudo snap set wekan oauth2-id-map='preferred_username'
+sudo snap set wekan oauth2-username-map='preferred_username'
+sudo snap set wekan oauth2-fullname-map='given_name'
+sudo snap set wekan oauth2-email-map='email'
+```
