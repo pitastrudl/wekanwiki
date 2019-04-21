@@ -28,6 +28,8 @@ https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml#L146-L166
 [Rocket.Chat Snap](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/) has Node at port 3000 and mongodb at port 27017.
 ```
 sudo snap install rocketchat-server
+sudo systemctl disable rocketchat-server.rocketchat-caddy
+sudo systemctl stop rocketchat-server.rocketchat-caddy
 ```
 
 ### 2) Install Wekan
@@ -35,7 +37,7 @@ sudo snap install rocketchat-server
 [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install) has Node at port 3001 and MongoDB at port 27019.
 ```
 sudo snap install wekan
-sudo snap set wekan root-url="https://boards.example.com"
+sudo snap set wekan root-url='https://boards.example.com'
 sudo snap set wekan port='3001'
 sudo snap set core refresh.schedule=02:00-04:00
 sudo snap set wekan with-api='true'
