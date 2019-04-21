@@ -95,6 +95,8 @@ Save Changes.
 
 ### 4) Add Wekan settings
 Copy below commands to `auth.sh` textfile, make it executeable `chmod +x auth.sh` and run it with `./auth.sh`.
+
+**CHANGE BELOW ONLY CLIENT-ID, SECRET AND SERVER-URL. DO NOT CHANGE ANYTHING ELSE, BECAUSE THEN IT DOES NOT WORK.**
 ```
 sudo snap set wekan oauth2-enabled='true'
 sudo snap set wekan oauth2-client-id='abcde12345'
