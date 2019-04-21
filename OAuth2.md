@@ -37,15 +37,15 @@ sudo systemctl stop rocketchat-server.rocketchat-caddy
 [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install) has Node at port 3001 and MongoDB at port 27019.
 ```
 sudo snap install wekan
-sudo snap set wekan root-url='https://boards.example.com'
+sudo snap set wekan root-url='https://BOARDS.YOURDOMAIN.COM'
 sudo snap set wekan port='3001'
 sudo snap set core refresh.schedule=02:00-04:00
 sudo snap set wekan with-api='true'
 ```
 Email settings [ARE NOT REQUIRED](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail), Wekan works without setting up Email.
 ```
-sudo snap set wekan mail-url='smtps://user:pass@mailserver.example.com:453'
-sudo snap set wekan mail-from='Wekan Boards <support@example.com>'
+sudo snap set wekan mail-url='smtps://user:pass@MAILSERVER.YOURDOMAIN.COM:453'
+sudo snap set wekan mail-from='Wekan Boards <support@YOURDOMAIN.COM>'
 ```
 Edit Caddyfile:
 ```
@@ -53,14 +53,14 @@ sudo nano /var/snap/wekan/common/Caddyfile
 ```
 Add Caddy config:
 ```
-boards.example.com {
+boards.yourdomain.com {
         proxy / localhost:3001 {
           websocket
           transparent
         }
 }
 
-chat.example.com {
+chat.yourdomain.com {
         proxy / localhost:3000 {
           websocket
           transparent
@@ -74,9 +74,9 @@ sudo snap set wekan caddy-enabled='true'
 
 ### 3) Add Rocket.Chat settings
 
-Login to Rocket.Chat at https://chat.example.com .
+Login to Rocket.Chat at https://chat.yourdomain.com .
 
-Accept chat URL to be https://chat.example.com .
+Accept chat URL to be https://chat.yourdomain.com .
 
 Click: (3 dots) Options / Administration / OAuth Apps / NEW APPLICATION
 
