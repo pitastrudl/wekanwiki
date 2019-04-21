@@ -23,9 +23,9 @@ Environment Variables that need to be set in your Wekan environment:
 Copy below commands to `auth.sh` textfile, make it executeable `chmod +x auth.sh` and run it with `./auth.sh`.
 ```
 sudo snap set wekan oauth2-enabled='true'
-sudo snap set wekan oauth2-client-id='abcd1234'
-sudo snap set wekan oauth2-secret='1234abcd'
-sudo snap set wekan oauth2-server-url='https://example.com/auth'
+sudo snap set wekan oauth2-client-id='<Keycloak create Client ID>'
+sudo snap set wekan oauth2-secret='<Keycloak Client secret>'
+sudo snap set wekan oauth2-server-url='<Keycloak server name>/auth'
 sudo snap set wekan oauth2-auth-endpoint='/realms/<keycloak realm>/protocol/openid-connect/auth'
 sudo snap set wekan oauth2-userinfo-endpoint='/realms/<keycloak realm>/protocol/openid-connect/userinfo'
 sudo snap set wekan oauth2-token-endpoint='/realms/<keycloak realm>/protocol/openid-connect/token'
