@@ -80,28 +80,30 @@ Accept chat URL to be https://chat.example.com .
 
 Click: (3 dots) Options / Administration / OAuth Apps / NEW APPLICATION
 
+CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE, AND URLs TO LOWER CASE.
+
 Add settings:
 
 ```
 Active: [X] True
-Application Name: Wekan
-Redirect URI: https://boards.example.com/_oauth/oidc
+Application Name: WEKAN
+Redirect URI: https://BOARDS.YOURDOMAIN.COM/_oauth/oidc
 Client ID: abcde12345         <=== Rocket.Chat generates random text to here
 Client Secret: 54321abcde     <=== Rocket.Chat generates random text to here
-Authorization URL: https://chat.example.com/oauth/authorize
-Access Token URL: https://chat.example.com/oauth/token
+Authorization URL: https://CHAT.YOURDOMAIN.COM/oauth/authorize
+Access Token URL: https://CHAT.YOURDOMAIN.COM/oauth/token
 ```
 Save Changes.
 
 ### 4) Add Wekan settings
 Copy below commands to `auth.sh` textfile, make it executeable `chmod +x auth.sh` and run it with `./auth.sh`.
 
-CHANGE BELOW ONLY CLIENT-ID, SECRET AND SERVER-URL. DO NOT CHANGE ANYTHING ELSE, BECAUSE THEN IT DOES NOT WORK.
+CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE, AND URLs TO LOWER CASE.
 ```
 sudo snap set wekan oauth2-enabled='true'
-sudo snap set wekan oauth2-client-id='abcde12345'
-sudo snap set wekan oauth2-secret='54321abcde'
-sudo snap set wekan oauth2-server-url='https://chat.example.com/'
+sudo snap set wekan oauth2-client-id='YOUR-CLIENT-ID'
+sudo snap set wekan oauth2-secret='YOUR-CLIENT-SECRET'
+sudo snap set wekan oauth2-server-url='https://CHAT.YOURDOMAIN.COM/'
 sudo snap set wekan oauth2-auth-endpoint='oauth/authorize'
 sudo snap set wekan oauth2-userinfo-endpoint='oauth/userinfo'
 sudo snap set wekan oauth2-token-endpoint='oauth/token'
@@ -154,30 +156,33 @@ Currently Full Name is not preserved, so you need to change it.
 
 ### 1) Auth0 / Applications / Add / Regular Web Application / Auth0 Settings
 
+CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE, AND URLs TO LOWER CASE.
 ```
 Client ID:                                 <== Copy to below snap settings
 Secret:                                    <== Copy to below snap settings
-Account url: youraccount.eu.auth0.com      <== Copy to below snap settings
+Account url: YOURACCOUNT.eu.auth0.com      <== Copy to below snap settings
 Application Logo:                          <== Add your logo
 Application Type: Single Page Application
 Token Endpoint Authentication Method: Post
-Allowed Callback URLs: https://boards.example.com/_oauth/oidc  <== Change your Wekan address
-Allowed Web Origins: https://boards.example.com                <== Change your Wekan address
+Allowed Callback URLs: https://BOARDS.YOURDOMAIN.COM/_oauth/oidc  <== Change your Wekan address
+Allowed Web Origins: https://BOARDS.YOURDOMAIN.COM                <== Change your Wekan address
 Use Auth0 instead of the IdP to do Single Sign On: [X]
 ```
 If you  need more info, they are at bottom of the page Advanced Settings / Endpoint / OAuth
 
 2) Auth0 Dashboard => Rules => Add Rule
 
+CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE, AND URLs TO LOWER CASE.
+
 Rule Name: Encrich Wekan login
 ```
   function (user, context, callback) {
     // Only use this rule for Auth0 Dashboard / Applications / WekanApplication
-    if(context.clientName !== 'WekanApplication'){
+    if(context.clientName !== 'YOUR-APPLICATION-NAME'){
       return callback(null, user, context);
     }
     user.user_metadata = user.user_metadata || {};
-    var ns = "https://boards.example.com/";
+    var ns = "https://BOARDS.YOURDOMAIN.COM/";
     context.idToken[ns + "id"] = user.user_id;
     context.idToken[ns + "email"] = user.email;
     context.idToken[ns + "name"] = user.name || user.user_metadata.name;
@@ -190,18 +195,18 @@ Rule Name: Encrich Wekan login
 
 Note: namespace works for multiple apps. For example, you can use same namespace url for many different wekan board apps that have different client-id etc, and different board url, and still use same namespace url like https://boards.example.com .
 
-CHANGE BELOW ONLY CLIENT-ID, SECRET, YOURACCOUNT, AND SERVER-URL. DO NOT CHANGE id/email/name AT END OR URLS OR ANYTHING ELSE, BECAUSE THEN IT DOES NOT WORK.
+CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE. 
 ```
-sudo snap set wekan oauth2-client-id='abcde12345'
-sudo snap set wekan oauth2-secret='54321abcde'
-sudo snap set wekan oauth2-server-url='https://youraccount.eu.auth0.com'
+sudo snap set wekan oauth2-client-id='YOUR-CLIENT-ID'
+sudo snap set wekan oauth2-secret='YOUR-SECRET'
+sudo snap set wekan oauth2-server-url='https://YOURACCOUNT.eu.auth0.com'
 sudo snap set wekan oauth2-auth-endpoint='/authorize'
 sudo snap set wekan oauth2-userinfo-endpoint='/userinfo'
 sudo snap set wekan oauth2-token-endpoint='/oauth/token'
-sudo snap set wekan oauth2-id-map='https://boards.example.com/id'
-sudo snap set wekan oauth2-username-map='https://boards.example.com/email'
-sudo snap set wekan oauth2-fullname-map='https://boards.example.com/name'
-sudo snap set wekan oauth2-email-map='https://boards.example.com/email'
+sudo snap set wekan oauth2-id-map='https://BOARDS.YOURDOMAIN.COM/id'
+sudo snap set wekan oauth2-username-map='https://BOARDS.YOURDOMAIN.COM/email'
+sudo snap set wekan oauth2-fullname-map='https://BOARDS.YOURDOMAIN.COM/name'
+sudo snap set wekan oauth2-email-map='https://BOARDS.EXAMPLE.COM/email'
 ```
 For login to work, you need to:
 - Create first Admin user
@@ -218,17 +223,18 @@ RocketChat API, and using it and login_token + rc_token to check on RocketChat l
 using router repeating trigger so that if those cookies exist then automatically login
 user in using RocketChat Custom OAuth2.
 
+CHANGE BELOW ONLY THOSE THAT ARE UPPER CASE, AND URLs TO LOWER CASE.
 ```
 Enable: [X] True
-URL: https://example.eu.auth0.com/
+URL: https://YOURACCOUNT.eu.auth0.com/
 Token Path: oauth/token
 Token Sent Via: Payload
 Identity Token Sent Via: Same as "Token Sent Via"
 Identity Path: userinfo
 Authorize Path: authorize
 Scope: openid profile email
-ID: 12345abcde
-Secret: abcde54321
+ID: YOUR-ACCOUNT-ID
+Secret: YOUR-ACCOUNT-SECRET
 Login Style: Redirect
 Button Text: JOIN CHAT
 Button Text Color: #FFFFFF
