@@ -23,7 +23,7 @@ sudo snap set wekan oauth2-username-map='preferred_username'
 sudo snap set wekan oauth2-fullname-map='given_name'
 sudo snap set wekan oauth2-email-map='email'
 ```
-### Debugging, if it does not work
+### Debugging, if Snap OIDC login does not work
 ```
 sudo snap set wekan debug='true'
 ```
@@ -50,7 +50,7 @@ sudo systemctl status snap.wekan.wekan
 - OAUTH2_FULLNAME_MAP=given_name
 - OAUTH2_EMAIL_MAP=email
 ```
-### Debugging, if it does not work
+### Debugging, if Docker OIDC login does not work
 ```
 docker logs wekan-app
 ```
