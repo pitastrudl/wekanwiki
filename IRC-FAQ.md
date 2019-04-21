@@ -11,15 +11,15 @@
 ### Q: Copying Checklists?
 
 ```
-[18:38:05] * Topic for #wekan is: Wekan - Open Source kanban - ANSWERS TO IRC QUESTIONS: https://github.com/wekan/wekan/wiki/IRC-FAQ
-[18:38:05] * Topic for #wekan set by xet7!~xet7@147.75.80.125 (Wed Nov  7 18:36:41 2018)
-[18:38:05] * ChanServ gives channel operator status to xet7
-[09:21:47] * sfielding (~sfielding@hajaan.nu) liittyi
-[09:25:51] <sfielding> I have now about one year of exp with Wekan usage somewhat daily, and it has become my favourite productivity tool.
-[09:27:36] <sfielding> Initially we used it with Sandstorm, but because of closed sandbox model we changed into standalone snap install.
+[09:25:51] <sfielding> I have now about one year of exp with Wekan
+usage somewhat daily, and it has become my favourite productivity tool.
+[09:27:36] <sfielding> Initially we used it with Sandstorm, but
+because of closed sandbox model we changed into standalone snap install.
 [09:28:02] <sfielding> Ldap integration works as expected
-[09:34:42] <sfielding> Only situation where I end up using tedious copy & paste string transferring is when moving checklists from one card to another.
-[12:49:45] <xet7> sfielding: click card hamburger menu => Copy Checklist Template to Many Cards
+[09:34:42] <sfielding> Only situation where I end up using tedious
+copy & paste string transferring is when moving checklists from one card to another.
+[12:49:45] <xet7> sfielding: click card hamburger menu =>
+Copy Checklist Template to Many Cards
 ```
 
 ### Q: LDAP?
