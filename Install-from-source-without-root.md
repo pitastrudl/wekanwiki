@@ -2,8 +2,8 @@
 
 * Install [nvm](https://github.com/creationix/nvm)
 * `source NVMPATH/nvm.sh` for example `source ~/.nvm/nvm.sh`
-* `nvm install v8.11.3`
-* `nvm use v8.11.3`
+* `nvm install v8.16.0`
+* `nvm use v8.16.0`
 * `nvm install-latest-npm`
 * `cd ~`
 * Clone repo to home: `git clone https://github.com/wekan/wekan.git`
