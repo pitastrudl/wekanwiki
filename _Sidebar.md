@@ -54,7 +54,7 @@
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 * [Demo](https://wekan.indie.host/b/t2YaGmyXgNkppcFBq/wekan-fork-roadmap)
 * [Swimlane Documentation](https://github.com/wekan/wekan/wiki/Swimlanes)
-* [Wekan Markdown] (https://github.com/wekan/wekan/wiki/Wekan-Markdown)
+* [Wekan Markdown](https://github.com/wekan/wekan/wiki/Wekan-Markdown)
 
 # Email
 
