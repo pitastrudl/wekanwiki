@@ -6,3 +6,6 @@ We use the following project that ports GFM to meteor: https://github.com/wekan/
 * [GFM 0.27 list of features](https://web.archive.org/web/20170314184131/https://github.github.com/gfm/).
 
 ## Where can I use the markdown?
+* Card name.
+* Board name - Works on board view only. 
+* Card description, list and task list.
