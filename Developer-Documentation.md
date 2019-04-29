@@ -94,4 +94,4 @@ It's possible to import your existing boards from Trello. Instructions [[here|mi
 
 [rocket_chat]: https://chat.indie.host/channel/wekan
 [vanila_badge]: https://vanila.io/img/join-chat-button2.png
-[vanila_chat]: https://chat.vanila.io/channel/wekan
+[vanila_chat]: https://community.vanila.io/wekan
