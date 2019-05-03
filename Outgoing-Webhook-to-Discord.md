@@ -26,3 +26,10 @@ Wekan generated webhooks are Slack compatible. Discord does not know anything ab
 
 When making Wekan Outgoing Webhook to Rocket.Chat and Slack, there is no need to add anything to Webhook URL when those that is added to Wekan board. Discord in this case has decided to implement multiple Incoming Webhook formats and require specifying format in URL.
 
+## Riot
+
+Wekan boards have Outgoing Webhooks for board change messages, those can be bridged to Riot:
+https://github.com/vector-im/riot-web/issues/4978
+
+If you have some Riot bot, you can make it call Wekan REST API to make changes to Wekan.
+First [login to API as form data, with admin username and password](https://github.com/wekan/wekan/wiki/REST-API#example-call---as-form-data). Then use that Bearer token [to edit Wekan](https://wekan.github.io/api/).
