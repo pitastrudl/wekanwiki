@@ -34,6 +34,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
 * [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
 * [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
