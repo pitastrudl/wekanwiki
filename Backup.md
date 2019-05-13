@@ -221,7 +221,3 @@ makesRestore $1
 Download Wekan grain with arrow down download button to .zip file. You can restore it later.
 
 [Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
-
-## Python Backup Script for Wekan Docker environment
-
-[Use Python to backup your Mongo Data, with automatic cleanup](https://github.com/wekan/wekan/wiki/Python-Backup-Script-for-Wekan-Docker-environment)
