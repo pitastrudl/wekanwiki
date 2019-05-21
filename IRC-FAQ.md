@@ -12,20 +12,23 @@
 
 ```
 [13:17:27] <leOff> hi everyone
-[13:18:07] <leOff> was wondering if i could get some help regarding ldap group filtering
- .. documentation is pretty much inexistent
+[13:18:07] <leOff> was wondering if i could get some help regarding ldap
+group filtering .. documentation is pretty much inexistent
 [13:19:58] <leOff> in particular, what exactly are the keys
 ldap-group-filter-member-attribute ,
-ldap-group-filter-member-format and ldap-group-filter-member-name supposed to point to
-[13:21:15] <leOff> ldap-group-filter-member-attribute is it the membership attribute
-which is part of the user entry, or is it the member list attribute in the group entry?
-[13:21:59] <leOff> ldap-group-filter-member-format ... this one i have no idea what
-might be
-[13:23:20] <leOff> and finally, ldap-group-filter-member-name is it and enumeration of
-the group names (related to ldap-group-filter-member-attribute probably) which are
-allowed to login?
-[13:25:30] <leOff> I REALLY would like to limit my groups available since i have some
- very large groups .. up to 15k users
+ldap-group-filter-member-format and ldap-group-filter-member-name
+supposed to point to
+[13:21:15] <leOff> ldap-group-filter-member-attribute is it
+the membership attribute which is part of the user entry,
+or is it the member list attribute in the group entry?
+[13:21:59] <leOff> ldap-group-filter-member-format ...
+this one i have no idea what might be
+[13:23:20] <leOff> and finally, ldap-group-filter-member-name
+is it and enumeration of the group names
+(related to ldap-group-filter-member-attribute probably)
+which are allowed to login?
+[13:25:30] <leOff> I REALLY would like to limit my groups
+available since i have some very large groups .. up to 15k users
 ```
 A: https://github.com/wekan/wekan/issues/2356#issuecomment-494573761
 
