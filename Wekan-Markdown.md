@@ -9,6 +9,8 @@ Newest Wekan uses newest markdown.
 
 **Note**: In order to use gfm checklist and other v0.28+ features, you need Wekan v2.61+.
 
+[Checklist on markdown does not work yet](https://github.com/wekan/wekan/issues/2419)
+
 ## List of guides (from web archive):
 * [Guide](https://guides.github.com/features/mastering-markdown/).
 * [List of features](https://github.github.com/gfm/).
