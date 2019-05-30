@@ -1,6 +1,98 @@
+[Caddy OAuth2 with Let's Encrypt SSL example]
+
+***
+
+## CloudFlare free wildcard SSL
+
+Also works with other SSL certs.
+
+### 1) Requirements: You have changed nameservers to CloudFlare.
+
+### 2) Get CloudFlare SSL wildcard Origin Certificate
+
+Go to CloudFlare login/example.com/Crypto/Origin Certificates.
+Create and download certs for `*.example.com, example.com`
+
+### 3) Create directory /var/snap/wekan/common/certs
+```
+sudo su
+cd /var/snap/wekan/common
+mkdir certs
+cd certs
+```
+### 4) Create cert file
+Create file: `example.com.pem` with content of CloudFlare Origin Certificates.
+```
+nano example.com.pem
+```
+There add certs:
+```
+-----BEGIN PRIVATE KEY-----
+-----END PRIVATE KEY-----
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
+```
+
+Then Save: Ctrl-o Enter
+
+Then Exit: Ctrl-x.
+
+### 5) Set permissions rw-r--r-- to example.com.pem:
+```
+chmod 644 example.com.pem
+```
+
+### 6) Edit Caddy webserver config
+```
+sudo nano /var/snap/wekan/common/Caddyfile
+```
+There change config:
+```
+http://example.com https://example.com {
+        tls {
+            load /var/snap/wekan/common/certs
+            alpn http/1.1
+        }
+        proxy / localhost:3001 {
+          websocket
+          transparent
+        }
+}
+```
+Save: Ctrl-o Enter
+
+Exit: Ctrl-x
+
+Enable Caddy:
+```
+sudo snap set wekan caddy-enabled='true'
+```
+
+### 7) Enable CloudFlare SSL
+
+Click CloudFlare login/example.com/DNS.
+
+Check that status of your domains have orange cloud color, so traffic goes through CloudFlare SSL.
+
+Click CloudFlare login/example.com/Page Rules.
+Set for example:
+```
+1) http://example.com/*
+Always Use HTTPS
+2) http://*.example.com/*
+Always use HTTPS
+```
+Optionally, if you want caching:
+```
+3) *example.com/*
+Cache Level: Cache Everything
+```
+
+***
+
 [List of Let's Encrypt implementations](https://community.letsencrypt.org/t/list-of-client-implementations/2103)
 
-## Caddy webserver config
+## Caddy webserver config with logs
 
 Create directory for caddy, website and logs:
 ```bash
