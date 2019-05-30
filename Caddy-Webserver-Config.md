@@ -2,7 +2,7 @@
 
 ***
 
-## CloudFlare free wildcard SSL
+## CloudFlare free wildcard SSL *start*
 
 Also works with other SSL certs.
 
@@ -87,8 +87,11 @@ Optionally, if you want caching:
 3) *example.com/*
 Cache Level: Cache Everything
 ```
+## CloudFlare free wildcard SSL *end*
 
 ***
+
+## Other config stuff
 
 [List of Let's Encrypt implementations](https://community.letsencrypt.org/t/list-of-client-implementations/2103)
 
