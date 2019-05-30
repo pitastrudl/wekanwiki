@@ -51,7 +51,7 @@ Edit Caddyfile:
 ```
 sudo nano /var/snap/wekan/common/Caddyfile
 ```
-Add Caddy config:
+Add Caddy config. This uses free Let's Encrypt SSL. You can also use [free CloudFlare wildcard SSL or any other SSL cert](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config).
 ```
 boards.yourdomain.com {
         proxy / localhost:3001 {
