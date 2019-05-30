@@ -1,4 +1,4 @@
-[Caddy OAuth2 with Let's Encrypt SSL example]
+[Caddy OAuth2 with Let's Encrypt SSL example](https://github.com/wekan/wekan/wiki/OAuth2)
 
 ***
 
