@@ -25,9 +25,9 @@
 
 ### a) Insert Card Templates
 
-1. Go to some board
-2. Click Add Card
-3. Click Template
+1. Go to some board.
+2. Click Add Card.
+3. Click Template.
 5. Write new Title for template card you are planning to add.
 4. Search for Template Card name or see that Template Card name is visible.
 6. Click that Template Card.
