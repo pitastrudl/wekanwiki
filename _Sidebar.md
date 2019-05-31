@@ -35,6 +35,7 @@
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
+* [Templates](https://github.com/wekan/wekan/wiki/Templates)
 * [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
 * [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
