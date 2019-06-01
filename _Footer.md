@@ -1,1 +1,1 @@
-Maybe think to remove this feature ? lul
+Wekan - OpenSource Kanban
