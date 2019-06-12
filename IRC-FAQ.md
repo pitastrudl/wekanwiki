@@ -7,6 +7,19 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: LDAP Bug: [ERROR] InvalidCredentialsError: 80090308: LdapErr: DSID-0C090400
+
+```
+[14:58:26] hello everyone. I am getting this erro:
+[14:58:30] Error
+[14:58:31] [ERROR] InvalidCredentialsError: 80090308:
+LdapErr: DSID-0C090400, comment: AcceptSecurityContext error, data 52e, v1db1
+[14:59:19] can someone check this and tell me if I did
+something wrong? : https://paste.ee/p/uuUDb
+[14:59:33] The credentials are correct
+[15:26:09] This is the error in my syslog: https://paste.ee/p/mJdtL
+```
+A: https://github.com/wekan/wekan/issues/2490
 
 ### Q: LDAP Group Filtering
 
