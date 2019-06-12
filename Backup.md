@@ -221,3 +221,211 @@ makesRestore $1
 Download Wekan grain with arrow down download button to .zip file. You can restore it later.
 
 [Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
+
+# Cloud Backup with rclone
+```
+sudo su
+export EDITOR=nano
+crontab -e
+```
+Backup every 15 minutes. Also set Wekan mail url manually once a day because of [bug](https://github.com/wekan/wekan-snap/issues/78).
+```
+# m h  dom mon dow   command
+15 * * * * /root/backup.sh >> /root/backup.log.txt 2>&1
+15 17 * * * snap set wekan mail-url='smtps://boards%40example.com:user@mail.example.com.com:465/'
+15 17 * * * snap set wekan mail-from='Wekan Boards Support <boards@example.com>'
+```
+/root/backup.sh, that is set executeable: chmod +x backup.sh
+
+Uses [rclone](https://rclone.org).
+```
+cd /root
+./backup-wekan.sh
+./backup-rocketchat.sh
+./backup-staticsite.sh
+#rsync -aur --progress /root/backups /home/admin/
+#chown admin:admin /home/admin -R
+rclone move backups cloudname:backup.example.com
+```
+/root/rclone-ls-all.sh , shows directory contests at cloud:
+```
+rclone lsd cloudname:
+```
+/root/backup-wekan.sh
+```
+#!/bin/bash
+
+makeDump()
+{
+
+    backupdir="/root/backups/wekan"
+
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Prepares.
+    now=$(date +'%Y-%m-%d_%H.%M.%S')
+    mkdir -p $backupdir/$version-$now
+
+    # Targets the dump file.
+    #dump=$"/snap/wekan/$version/bin/mongodump"
+
+    # Makes the backup.
+    cd $backupdir/$version-$now
+    printf "\nThe database backup is in progress.\n\n"
+    mongodump --port 27019
+
+    # Makes the tar.gz file.
+    cd ..
+    printf "\nMakes the tar.gz file.\n"
+    tar -zcvf $version-$now.tar.gz $version-$now
+
+    # Cleanups
+    rm -rf $version-$now
+
+    # End.
+    printf "\nBackup done.\n"
+    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
+}
+
+# Checks is the user is sudo/root
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+# Starts
+makeDump
+```
+/root/backup-rocketchat.sh
+```
+#!/bin/bash
+
+makeDump()
+{
+
+    backupdir="/root/backups/rocketchat"
+
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Prepares.
+    now=$(date +'%Y-%m-%d_%H.%M.%S')
+    mkdir -p $backupdir/$version-$now
+
+    # Targets the dump file.
+    dump=$"/snap/wekan/$version/bin/mongodump"
+
+    # Makes the backup.
+    cd $backupdir/$version-$now
+    printf "\nThe database backup is in progress.\n\n"
+    $dump --port 27017
+
+    # Makes the tar.gz file.
+    cd ..
+    printf "\nMakes the tar.gz file.\n"
+    tar -zcvf $version-$now.tar.gz $version-$now
+
+    # Cleanups
+    rm -rf $version-$now
+
+    # End.
+    printf "\nBackup done.\n"
+    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
+}
+
+# Checks is the user is sudo/root
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+# Starts
+makeDump
+```
+/root/backup-website.sh
+```
+#!/bin/bash
+
+makeDump()
+{
+
+    backupdir="/root/backups/example.com"
+
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Prepares.
+    now=$(date +'%Y-%m-%d_%H.%M.%S')
+    mkdir -p $backupdir/$version-$now
+
+    # Makes the backup.
+    cd $backupdir/$version-$now
+    printf "\nThe file backup is in progress.\n\n"
+
+    # Makes the tar.gz file.
+    cd ..
+    printf "\nMakes the tar.gz file.\n"
+    cp -pR /var/snap/wekan/common/example.com $version-$now
+    tar -zcvf $version-$now.tar.gz $version-$now
+
+    # Cleanups
+    rm -rf $version-$now
+
+    # End.
+    printf "\nBackup done.\n"
+    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
+}
+
+# Checks is the user is sudo/root
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+# Starts
+makeDump
+```
+/var/snap/wekan/common/Caddyfile
+```
+chat.example.com {
+	proxy / localhost:3000 {
+	  websocket
+	  transparent
+	}
+}
+
+https://boards.example.com {
+	proxy / localhost:3001 {
+	  websocket
+	  transparent
+	}
+}
+
+example.com {
+	root /var/snap/wekan/common/example.com
+	fastcgi / /var/run/php/php7.0-fpm.sock php
+}
+
+matomo.example.com {
+        root /var/snap/wekan/common/matomo.example.com
+        fastcgi / /var/run/php/php7.0-fpm.sock php
+}
+
+# Example CloudFlare free wildcard SSL Origin Certificate, there is example.com.pem at certificates directory with private key at to and cert at bottom.
+http://example.com https://example.com {
+        tls {
+            load /var/snap/wekan/common/certificates
+            alpn http/1.1
+        }
+        root /var/snap/wekan/common/rantapuisto
+        browse
+}
+
+static.example.com {
+	root /var/snap/wekan/common/hydesoft.fi
+}
+```
