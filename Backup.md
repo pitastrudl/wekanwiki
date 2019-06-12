@@ -1,3 +1,5 @@
+[Cloud Backup with rclone](https://github.com/wekan/wekan/wiki/Backup#cloud-backup-with-rclone)
+
 ## MongoDB shell on Wekan Snap
 
 mongoshell.sh
@@ -222,7 +224,7 @@ Download Wekan grain with arrow down download button to .zip file. You can resto
 
 [Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
-# Cloud Backup with rclone
+# Cloud Backup with [rclone](https://rclone.org)
 ```
 sudo su
 export EDITOR=nano
