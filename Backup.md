@@ -244,9 +244,7 @@ Uses [rclone](https://rclone.org).
 cd /root
 ./backup-wekan.sh
 ./backup-rocketchat.sh
-./backup-staticsite.sh
-#rsync -aur --progress /root/backups /home/admin/
-#chown admin:admin /home/admin -R
+./backup-website.sh
 rclone move backups cloudname:backup.example.com
 ```
 /root/rclone-ls-all.sh , shows directory contests at cloud:
