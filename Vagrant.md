@@ -27,12 +27,13 @@ sudo snap install wekan
 sudo snap set wekan root-url="http://localhost:8080"
 sudo systemctl restart snap.wekan.wekan
 ```
+8) Type 'vagrant up' to start the VM and wait for it to boot.
 
-8) Got to your local browser and type in `localhost:8080`
+9) Got to your local browser and type in `localhost:8080`
 
-9) You can go inside VM with `vagrant ssh`
+10) You can go inside VM with `vagrant ssh`
 
-10) Look at [Ubuntu snap wiki](https://github.com/wekan/wekan-snap/wiki) for additional configuration, backups etc
+11) Look at [Ubuntu snap wiki](https://github.com/wekan/wekan-snap/wiki) for additional configuration, backups etc
 
 ## Deleting
 
