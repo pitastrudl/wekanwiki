@@ -7,6 +7,15 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Rules as code?
+
+```
+[23:40:03] <IRC-Source_15> Hey does anyone know
+if it is possible to code in rules (as opposed to using the front end UI)?
+```
+A: Not yet. There are [Rules issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+rules+label%3AFeature%3ACards%3AIFTTT-Rules) about Rules variables. If you have ideas how to make translated Rules UI have also translated code, please add new GitHub issue Feature Request or PR.
+
+***
 ### Q: LDAP Bug: [ERROR] InvalidCredentialsError: 80090308: LdapErr: DSID-0C090400
 
 ```
