@@ -6,6 +6,7 @@ You can use some OAuth2 providers for logging into Wekan, for example:
 - [Auth0](https://github.com/wekan/wekan/wiki/OAuth2#auth0) - works
 - [Rocket.Chat](https://github.com/wekan/wekan/wiki/OAuth2#rocketchat-providing-oauth2-login-to-wekan) - works
 - Google - not tested yet
+- [LemonLDAP::NG](https://github.com/wekan/wekan/wiki/OAuth2#lemonldapng) - works
 
 You can ask your identity provider (LDAP, SAML etc) do they support adding OAuth2 application like Wekan.
 
@@ -242,3 +243,34 @@ Button Color: #000000
 Username field: (empty)
 Merge users: [X] True
 ```
+
+# lemonldapng
+
+Official documentation : https://lemonldap-ng.org/documentation/latest/applications/wekan
+
+## Wekan Config
+
+Basically, you need to set theses variables to your wekan env : 
+
+```
+OAUTH2_ENABLED: TRUE
+OAUTH2_CLIENT_ID: ClientID
+OAUTH2_SECRET: Secret
+OAUTH2_SERVER_URL: https://auth.example.com/
+OAUTH2_AUTH_ENDPOINT: oauth2/authorize
+OAUTH2_USERINFO_ENDPOINT: oauth2/userinfo
+OAUTH2_TOKEN_ENDPOINT: oauth2/token
+OAUTH2_ID_MAP: sub
+```
+
+## LemonLDAP::NG Config
+
+You need to set a new OpenID Connect Relay Party (RP) with theses parameters : 
+
+* Client ID: the same you set in Wekan configuration (same as OAUTH2_CLIENT_ID)
+* Client Secret: the same you set in Wekan configuration (same as OAUTH2_SECRET)
+* Add the following exported attributes
+    * name: session attribute containing the user's full name
+    * email: session attribute containing the user's email or _singleMail
+
+See LLNG doc for more details
