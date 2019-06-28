@@ -116,6 +116,7 @@
 
 * [Outgoing Webhook to Discord/Slack/RocketChat/Riot](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
 * [Outgoing Webhook to NodeRed](https://github.com/wekan/wekan/issues/2017)
+* [Outgoing Webhook to PowerShell](https://github.com/wekan/wekan/issues/2518)
 * [Security: Webhook and CA](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
 * [Outgoing Webhooks Data](https://github.com/wekan/wekan/wiki/Webhook-data)
 * [Outgoing Webhooks and Let's Encrypt](https://github.com/wekan/wekan/wiki/WebHook-And-CA)
