@@ -7,6 +7,29 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Board cleanup?
+
+```
+[18:02:20] <Rojola> hi
+[18:02:29] <Rojola> May I please ask for help bugfixing a wekan board?
+[18:02:53] <Rojola> There are many boards with many cards,
+and since about 2 days, everything got very, very, very slow
+[18:03:06] <Rojola> we must restart the board every
+2 minutes to be able to access it
+[18:03:11] <Rojola> it's a nightmare
+[18:03:23] <Rojola> you add a card / comment,  just to realize,
+it has not been saved to the server
+[18:03:38] <Rojola> the board has stopped working after over 1,5 years
+[18:17:03] <Rojola> I'm AFK for a while,  but I will check
+for answers a little later
+[23:44:45] <Rojola> is there still nobody around?
+[02:25:22] <Rojola1> is anyone here?
+[02:25:24] <Rojola1> xet7?
+[02:25:27] <Rojola1> anyone?
+```
+A: I was at meeting or sleeping when you asked. When I came back to IRC you were not online. Anyway, you can [make backup](https://github.com/wekan/wekan/wiki/Backup) and do some [cleanup](https://github.com/wekan/wekan-cleanup) to delete 1,5 years worth of activities etc. Next time, if you have questions, you get faster answers at [GitHub issues](https://github.com/wekan/wekan/issues), because I get email notifications of all new issues and comments on issues.
+
+***
 ### Q: Rules as code?
 
 ```
