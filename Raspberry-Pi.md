@@ -51,7 +51,7 @@ There change ROOT_URL to have your IP address. Save and Exit: Ctrl-o Enter Ctrl-
 
 ### How to use bundle
 
-1) On any Ubuntu 18.04 arm64 server:
+#### a) On any Ubuntu 18.04 arm64 server
 ```
 wget https://releases.wekan.team/raspi3/wekan-2.94-arm64-bundle.tar.gz
 tar -xzf wekan-2.94-arm64-bundle.tar.gz
@@ -75,6 +75,25 @@ and then allow it:
 sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
 ```
 [Adding users](https://github.com/wekan/wekan/wiki/Adding-users)
+
+#### b) Other CPU architectures
+
+Do as above, but then also install node packages for your architecture:
+```
+cd bundle/programs/server
+npm install
+npm install node-gyp node-pre-gyp fibers
+cd ../../..
+```
+Then start Wekan
+```
+./start-wekan.sh
+```
+
+#### c) Even more something?
+
+Well, you could get some other newest Meteor x64 bundle, like RocketChat, and this way make it run on your CPU architecture, that has required Node+NPM+MongoDB.
+
 ### How this was done
 
 1) Bundle at https://releases.wekan.team/raspi3/ was created this way originally on Xubuntu 19.10 x64:
@@ -125,25 +144,32 @@ Save and Exit: Ctrl-o Enter Ctrl-x Enter
 - Username wekan
 - Password wekan
 
-6) Download your Wekan x64 bundle
+6) Download bundle etc
 
+See above about downloading bundle, start-wekan.sh, dependencies etc.
+
+7) Shutdown RasPi3
+``` 
+sudo shutdown -h now
 ```
-wget https://releases.wekan.team/wekan-VERSION
 
+8) At computer, insert SD card and unmount partitions:
+```
 sudo umount /dev/mmcblk0p1 /dev/mmcblk0p2
- Requirements for any CPU architecture:
-- Has Node.js, NPM and MongoDB
-- https://github.com/wekan/wekan master branch has Meteor 1.6, requires Node 8.16.0, and MongoDB 3.2.x or earlier
-- https://github.com/wekan/wekan meteor-1.8 branch has Meteor 1.8.x, requires Node 8.16.0, MongoDB 3.6.x or newer, for example MongoDB 4.0.10 work too.
+```
+9) Read SD card to image
+```
+sudo dd if=/dev/mmcblk0 of=wekan-2.94-raspi3-ubuntu18.04server.img conv=sync status=progress
+```
+10) Resize image to smaller from 32 GB to 4.5 GB:
 
-
-# Originally from: https://evilshit.wordpress.com/2014/02/07/how-to-trim-disk-images-to-partition-size/
-
-## Unmount SD card partitions:
-# sudo umount /dev/mmcblk0p1 /dev/mmcblk02
-## Read SD card to image:
-# sudo dd if=/dev/mmcblk0 of=wekan-2.94-raspi3-ubuntu18.04server.img conv=sync status=progress
-## Resize image to smaller from 32 GB to 4.5 GB:
-# sudo ./resize.sh wekan-2.94-raspi3-ubuntu18.04server.img
-## Make .7z archive to pack about 4.5 GB to about 800 MB:
-# 7z a wekan-2.94-raspi3-ubuntu18.04server.img.7z wekan-2.94-raspi3-ubuntu18.04server.img
+Resize script is [originally from here](https://evilshit.wordpress.com/2014/02/07/how-to-trim-disk-images-to-partition-size/).
+```
+wget https://releases.wekan.team/raspi3/resize.sh
+chmod +x resize.sh
+sudo ./resize.sh wekan-2.94-raspi3-ubuntu18.04server.img
+```
+11) Make .7z archive to pack about 4.5 GB to about 800 MB:
+```
+7z a wekan-2.94-raspi3-ubuntu18.04server.img.7z wekan-2.94-raspi3-ubuntu18.04server.img
+```
