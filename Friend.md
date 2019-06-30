@@ -22,11 +22,7 @@ https://www.youtube.com/watch?v=SB4dNC7u2MU
 
 ## Roadmap
 
-- Friend login also logins to Wekan app
-- Use Friend file dialogs to add file to Wekan
-- Keep all Wekan attachment files on any Friend disk drive
-- Use Wekan to access Friend Shop
-- Use Wekan to access other Friend Apps and control them with Wekan [IFTTT workflows](https://github.com/wekan/wekan/issues/1160)
+It's possible to use Wekan with Friend and [there will be more Wekan integration to Friend](https://github.com/wekan/wekan/milestone/60) so [now 2019-06-30 that Wekan also works at RasPi3](https://github.com/wekan/wekan/wiki/Raspberry-Pi) like Friend already works, it makes possible local RasPi3-only network.
 
 ## Screenshot
 
