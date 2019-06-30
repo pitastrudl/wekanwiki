@@ -1,5 +1,7 @@
 ## Wekan for RasPi3 arm64 and other CPU architectures
 
+<img src="https://wekan.github.io/wekan-raspi3.png" width="100%" alt="Wekan on RasPi3" />
+
 - Ubuntu 18.04 Server arm64 for RasPi3
 - Has MongoDB 3.6.x running
 - Wekan v2.94 that has Meteor 1.8.1
@@ -46,6 +48,10 @@ There change ROOT_URL to have your IP address. Save and Exit: Ctrl-o Enter Ctrl-
 ```
 ./start-wekan.sh
 ```
+And maybe [run as service](https://www.certdepot.net/rhel7-install-wekan/)
+
+Or start at boot, by having [at bottom of /etc/rc.local](https://github.com/wekan/wekan/blob/devel/releases/virtualbox/etc-rc.local.txt).
+
 6) On other computer, with webbrowser go to http://192.168.0.12 (or other of your IP address you changed to start-wekan.sh)
 
 ### How to use bundle
