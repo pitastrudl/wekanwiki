@@ -8,7 +8,7 @@ Note: Raspbian is not recommended, because it is 32bit and has [32bit MongoDB th
 
 ### Download
 
-.7z size 876 MB, unarchived RasPi3 .img size of 4.5 GB:
+.7z size 876 MB, unarchived RasPi3 .img size of 4.5 GB. At first boot disk image expands to full SD card size.
 
 https://releases.wekan.team/raspi3/wekan-2.94-raspi3-ubuntu18.04server.img.7z
 
@@ -24,8 +24,6 @@ sudo apt-get install p7zip-full
 7z x wekan-2.94-raspi3-ubuntu18.04server.img.7z
 sudo dd if=wekan-2.94-raspi3-ubuntu18.04server.img of=/dev/mmcblk0 conv=sync status=progress bs=100M
 ```
-
-At first boot disk image expands to full SD card size.
 
 2) Login for Wekan files
 - Username wekan
