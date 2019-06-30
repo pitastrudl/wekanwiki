@@ -1,4 +1,4 @@
-[Blogpost about this](https://blog.wekan.team/2019/06/wekan-on-raspi3-and-arm64-server-now-works-and-whats-next-with-cncf/index.html)
+[Blogpost about this here](https://blog.wekan.team/2019/06/wekan-on-raspi3-and-arm64-server-now-works-and-whats-next-with-cncf/index.html) - [Twitter tweet about this here](https://twitter.com/WekanApp/status/1145168007901134848)
 
 ## Wekan for RasPi3 arm64 and other CPU architectures
 
