@@ -26,7 +26,7 @@ It's possible to use Wekan with Friend and [there will be more Wekan integration
 
 Then on local network you can use RasPi3 Cromium or Friend mobile/tablet Android/iOS app to connect to local network Friend desktop, also possible without connection to Internet.
 
-If using RasPi4 with 4 GB RAM instead, it's possible to run Wekan+Friend+Desktop etc on same RasPi4.
+If using RasPi4 with 4 GB RAM instead, it's possible to run Wekan+Friend+Desktop etc on same RasPi4, servers+client webbrowser.
 
 ## Screenshot
 
