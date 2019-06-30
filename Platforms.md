@@ -12,6 +12,10 @@ Downloading and installing Wekan on various platforms.
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
+*** 
+## Testing: [RasPi 3, arm64 and other CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
+
+New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used for production.
 
 ***
 
