@@ -8,6 +8,16 @@
 
 Note: Raspbian is not recommended, because it is 32bit and has [32bit MongoDB that has file size limit of 2 GB](https://www.mongodb.com/blog/post/32-bit-limitations), if it grows bigger then it gets corrupted. That's why here is arm64 version of Ubuntu 18.04.
 
+To test RasPi3, xet7 tested it with all his Wekan boards data:
+```
+mongorestore --drop --noIndexRestore
+```
+<img src="https://wekan.github.io/wekan-raspi3-with-all-data.jpg" width="100%" alt="Wekan on RasPi3" />
+
+When using Firefox on network laptop (Core 2 Duo laptop, 8 GB RAM, SSD harddisk) to browse RasPi Wekan server, small boards load at about 3 seconds at first time. When loading, node CPU usage goes to about 100%. MongoDB CPU usage stays low, sometimes goes to 18%. This is because indexes has been added to Wekan MongoDB database. Loading my biggest Wekan board at first time takes 45 seconds, and next time takes about 2 seconds, because data is at browser cache. When Wekan browser tab is closed, node CPU usage drops 4-23%. 
+
+<img src="https://wekan.github.io/wekan-raspi3-cpu-usage.jpg" width="100%" alt="Wekan on RasPi3" />
+
 ### Download
 
 .7z size 876 MB, unarchived RasPi3 .img size of 4.5 GB. At first boot disk image expands to full SD card size.
@@ -44,7 +54,11 @@ nano start-wekan.sh
 ```
 There change ROOT_URL to have your IP address. Save and Exit: Ctrl-o Enter Ctrl-x Enter
 
-5) Start Wekan:
+5) Restore your Wekan dump subdirectory
+```
+mongorestore --drop --noIndexRestore
+```
+6) Start Wekan:
 ```
 ./start-wekan.sh
 ```
@@ -52,7 +66,7 @@ And maybe [run as service](https://www.certdepot.net/rhel7-install-wekan/)
 
 Or start at boot, by having [at bottom of /etc/rc.local](https://github.com/wekan/wekan/blob/devel/releases/virtualbox/etc-rc.local.txt).
 
-6) On other computer, with webbrowser go to http://192.168.0.12 (or other of your IP address you changed to start-wekan.sh)
+7) On other computer, with webbrowser go to http://192.168.0.12 (or other of your IP address you changed to start-wekan.sh)
 
 ### How to use bundle
 
