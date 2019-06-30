@@ -2,8 +2,9 @@
 
 - Ubuntu 18.04 Server arm64 for RasPi3
 - Has MongoDB 3.6.x running
+- Wekan v2.94 that has Meteor 1.8.1
 
-Note: Raspbian is not recommended, because it is 32bit and has 32bit MongoDB that has file size limit of 2 GB, if it grows bigger then it gets corrupted. That's why here is arm64 version of Ubuntu 18.04.
+Note: Raspbian is not recommended, because it is 32bit and has [32bit MongoDB that has file size limit of 2 GB](https://www.mongodb.com/blog/post/32-bit-limitations), if it grows bigger then it gets corrupted. That's why here is arm64 version of Ubuntu 18.04.
 
 ### Download
 
