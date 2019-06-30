@@ -95,7 +95,7 @@ Well, you could get some other newest Meteor x64 bundle, like RocketChat, and th
 
 ### How this was done
 
-1) Bundle at https://releases.wekan.team/raspi3/ was created this way originally on Xubuntu 19.10 x64:
+1) Bundle at https://releases.wekan.team/raspi3/ was created this way originally on Xubuntu 19.10 x64. This is because officially Meteor only supports x32 and x64. One workaround would be to [add patch to allow other architecture, like this](https://github.com/wekan/meteor/commit/014fe0469bc75eb0371b90464befebc883a08a26). But better workaround is to just build bundle on x64 and then on other architectures download bundle and reinstall npm packages.
 ```
 git clone https://github.com/wekan/wekan
 cd wekan
