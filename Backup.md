@@ -91,7 +91,7 @@ makesRestore()
 
     printf "\nThe database restore is in progress.\n\n"
 
-    $restore --quiet --drop -d wekan --port 27019 "${file}/dump/wekan"
+    $restore --quiet --drop --noIndexRestore -d wekan --port 27019 "${file}/dump/wekan"
 
     rm -rf "${file}"
 
@@ -186,7 +186,7 @@ makesRestore()
 
     # Restores.
     printf "\nThe database restore is in progress.\n\n"
-    $restore -d wekan --port 27019 $file/dump/wekan
+    $restore --drop --noIndexRestore wekan --port 27019 $file/dump/wekan
     printf "\nRestore done.\n"
 
     # Cleanups
