@@ -7,6 +7,23 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Board crashes?
+
+```
+<Rojola> Board crashes on server that has Wekan and RocketChat installed.
+<Rojola> /var/log/syslog contains a lot
+```
+A: Well, what does /var/log/syslog contain?
+Without that info it's kind of hard to debug.
+I do have server at AWS LightSail that has 4 GB RAM and 60 GB SSD,
+running Snap versions of Wekan and RocketChat on same server,
+and it does not crash.
+
+You could try export that board to Wekan JSON, and then import that Wekan JSON.
+
+BTW, I did yesterday release [Wekan v2.95 with these new features](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v295-2019-07-01-wekan-release).
+
+***
 ### Q: Board cleanup?
 
 ```
