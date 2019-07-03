@@ -6,6 +6,45 @@
 
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
+### Q: Wekan on Sandstorm features?
+At IRC #sandstorm
+```
+[20:40:57] <pwa2> are desktop notifications from
+wekan possible in sandstorm?  I see references to
+notifications throughout the code, but haven't
+been able to answer this question on my own. Thanks.
+[21:05:22] <xet7> pwa2: Wekan does not yet have push
+notifications https://github.com/wekan/wekan/issues/2026 ,
+sometime they will be added. I don't know yet would
+they work on Sandstorm, because I can't test yet.
+[21:11:38] <pwa2> @xet7 thanks!
+[21:12:11] <xet7> :)
+[21:16:59] <pwa2> i've read the issue reports regarding
+email notifications in wekan, where they have to be
+configured both at the board level and at the member
+settings level. However, the wekan app in sandstorm does
+not have the "Edit Notifications" menu item.  So are
+email notifications from Wekan under Sandstorm not
+implemented either?  Or is there some configuration
+switch someplace?  "Change Password" and
+"Change Language" are also missing from Member Settings
+under Sandstorm, which makes some sense.
+[21:19:58] <xet7> pwa2: I need to add code to Wekan
+to enable Wekan to send email at Sandtorm
+https://github.com/wekan/wekan/issues/2208#issuecomment-469290305
+[21:20:52] <xet7> pwa2: Sandstorm apps need special
+code for accessing outside secure sandboxed grain
+[21:21:57] <pwa2> @xet7 thanks again!
+[21:23:10] <xet7> pwa2: It's not possible to change
+password in Sandstorm, because Sandtorm does not store
+passwords at all, it has 3rd party auth
+Google/LDAP/Passwordless etc. I only recently enabled
+multiple boards, not all of user management is
+implemented yet https://github.com/wekan/wekan/issues/2405
+[21:23:44] <xet7> pwa2: I will fix all those,
+but it takes some time to develop.
+```
+
 ***
 ### Q: Board crashes?
 
