@@ -31,12 +31,16 @@
 * [Using Meteor MongoDB to repair files](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 * [Repair MongoDB](https://github.com/wekan/wekan-mongodb/issues/6#issuecomment-424004116)
 
+# <a name="Themes"></a> Themes
+
+* [Themes](https://github.com/wekan/wekan/wiki/Custom-CSS-themes)
+* [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
+
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
 * [Templates](https://github.com/wekan/wekan/wiki/Templates)
-* [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
 * [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
@@ -44,7 +48,6 @@
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) and Auth0
 * [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
-* [Custom CSS themes](https://github.com/wekan/wekan/wiki/Custom-CSS-themes)
 * [Custom Fields](https://github.com/wekan/wekan/wiki/Custom-Fields)
 * [Due Date](https://github.com/wekan/wekan/wiki/Due-Date)
 * [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
