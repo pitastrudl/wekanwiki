@@ -1,4 +1,8 @@
-Here are some links for Dark Mode, while Wekan does not yet have it.
+## Wekan Dark Mode
+
+![dark wekan](https://wekan.github.io/wekan-dark-mode.png)
+
+## Other Dark Modes
 
 Chrome Desktop Browser
 - [Dark Mode Extension](https://chrome.google.com/webstore/detail/dark-mode-for-chrome/geooakdjiamlhpechokegobmhdmlgidk) - changes all webpages to dark, including Wekan.
