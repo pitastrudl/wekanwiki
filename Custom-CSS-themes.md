@@ -1,16 +1,27 @@
-There will be upcoming Custom CSS feature with input box and Save button in Admin Panel / Layout.
+All Wekan themes are directly integrated to Wekan. There is no custom CSS feature yet.
 
-[Policy about Wekan UI changes](https://github.com/wekan/wekan/wiki/FAQ#policy-about-wekan-ui-changes)
+Alternatives for having new theme in Wekan:
+- If you would like to have some new theme, please add screenshot mockup to [new Wekan issue](https://github.com/wekan/wekan/issues).
+- If possible, you can also try to create those CSS changes with [Stylish browser extension](https://userstyles.org/) and add those to new issue too.
+- You can also add pull request to master branch to add custom theme, if you figure out [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to wekan/client/components/boards/boardColors.styl, wekan/models/boards.js and wekan/server/migrations.js . In that commit is also changes to other files, you don't need to change those files.
 
-Contents:
-- Dark theme
-- White theme
+There are currently board color modes/themes, and these full themes:
+- Dark: modified from below by @lonix1 and more changes by xet7
+- Relax: Light green background that helps Wekan users to relax in company of Wekan contributor that sent theme CSS.
+
+Upcoming full themes that will be added by xet7:
+- Corteza, that will be mostly-white theme, although different than example of white theme below
+- Octopus, that will have different colors and some Wekan features hidden
+
+![dark wekan](https://wekan.github.io/wekan-dark-mode.png)
 
 ## Dark theme
 
 [by @lonix1](https://github.com/wekan/wekan/issues/1149), could look a little like this screenshot mockup:
 
+<!--
 ![dark wekan](https://user-images.githubusercontent.com/11541071/28684178-574c0852-72fb-11e7-9c39-d11281863c3a.png)
+-->
 
 lonix1 created some css overrides with Stylish. It's not complete but I'm happy with it. I work in swimlanes mode, so that is what I changed (not list mode or calendar mode).
 
