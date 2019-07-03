@@ -1,3 +1,5 @@
+Also see: [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
+
 All Wekan themes are directly integrated to Wekan. There is no custom CSS feature yet.
 
 Alternatives for having new theme in Wekan:
