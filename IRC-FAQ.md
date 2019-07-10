@@ -6,6 +6,12 @@
 
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
+***
+### Q: Unsaved changes indicator?
+
+A: Added Feature Request https://github.com/wekan/wekan/issues/2537
+
+***
 ### Q: Wekan on Sandstorm features?
 At IRC #sandstorm
 ```
