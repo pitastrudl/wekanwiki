@@ -1,4 +1,14 @@
-[Cloud Backup with rclone](https://github.com/wekan/wekan/wiki/Backup#cloud-backup-with-rclone)
+## Combining old and new Wekan version data
+
+Note: Do mongodump/mongorestore only when Wekan is stopped: wekan.wekan (Snap) or wekan-app (Docker).
+
+1. From new Wekan export all boards to Wekan JSON.
+2. Backup new Wekan with mongodump.
+3. Backup old Wekan with mongodump.
+4. Restore old Wekan data to new Wekan with mongorestore.
+5. Restore new Wekan JSON exported boards by importing them.
+
+## [Cloud Backup with rclone](https://github.com/wekan/wekan/wiki/Backup#cloud-backup-with-rclone)
 
 ## MongoDB shell on Wekan Snap
 
