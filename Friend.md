@@ -222,3 +222,14 @@ iOS App Store for iPhone/iPad: If not at App Store, ask
 Using Friend Android app to connect to your Friend server URL.
 
 There is also Friend iOS app, but I think it's not yet officially released. If someone is interested, invite to iOS Testflight can be had from [Friend chat](https://github.com/wekan/wekan/wiki/Friend).
+
+
+# Adding app icons to Friend desktop menus
+
+@CraigL: I found that when I added my web apps to the Dock (by dragging the .jsx file onto it) The app list (on the left side) in the Dock editor showed the full path of the application even after adding a "Display Name" field entry. What I did was to use the Display Name entry for the App list (if available). What I ended up with was:
+Orig:
+     App List => /Home/apps/Youtube/YouTube.jsx
+New:
+     App List => YouTube
+
+[My change is here](https://github.com/344Clinton/friendup/commit/6943cc3c05d74adc147950fb2a272d025b50e680). The fix was simple enough. Tracking it down took me a long time :grinning:
