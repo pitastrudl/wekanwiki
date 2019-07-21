@@ -29,6 +29,7 @@ New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can 
 - [Univention interview at FLOSS Weekly 480](https://twit.tv/shows/floss-weekly/episodes/480) 
 - VM based on Debian. Free and Enterprise versions of Univention are same, only difference is paid support.
 - Univention VM can replace Windows Server Active Directory etc. Has web UI, LDAP server, Users/Groups management, adding user to app.
+- Wekan LDAP login is integrated to Univention LDAP. Create at Univention web UI at Users management LDAP Domain Admin user, and add Wekan app for that user, to get Wekan Admin Panel. Normal users don't have Admin Panel.
 - Has Wekan, RocketChat, WordPress, OnlyOffice, NextCloud, OpenXChange, etc. Some apps are full free versions, some other apps require payment for more features. Wekan is full free version.
 - Wekan on Univention is based Wekan Docker version. Upgrading all apps on Univention upgrades also Wekan to newest available Wekan version.
 - Newer version of Wekan will be released when building and testing is done.
