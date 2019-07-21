@@ -22,8 +22,8 @@ New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can 
 ## <a name="ProductionUnivention"></a>Production: [Univention](https://www.univention.com/products/univention-app-center/app-catalog/wekan/) platform, many apps and Wekan.
 
 - Virtual Appliances Download: [VirtualBox, KVM, VMware, VMware ESX](https://www.univention.com/products/univention-app-center/app-catalog/wekan/)
+- [Video of installing Univention Wekan Appliance](https://wekan.github.io/UCS-4.4-with-wekan-10.200.2.25.webm)
 - [Wekan for Univention Feature Requests and Bug Reports](https://github.com/wekan/univention)
-
 - [Univention Open Source repos](https://github.com/Univention)
 - [Univention interview at FLOSS Weekly 480](https://twit.tv/shows/floss-weekly/episodes/480) 
 - VM based on Debian. Free and Enterprise versions of Univention are same, only difference is paid support.
