@@ -19,6 +19,20 @@ New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can 
 
 ***
 
+## <a name="ProductionUnivention"></a>Production: [Univention](https://www.univention.com/products/univention-app-center/app-catalog/wekan/) platform, many apps and Wekan.
+
+- VM based on Debian. Free and Enterprise versions of Univention are same, only difference is paid support.
+- Can replace Windows server. Has web UI, LDAP server, Users/Groups management.
+- Has Wekan, RocketChat, WordPress, OnlyOffice, NextCloud, OpenXChange, etc. Some apps are full free versions, some other apps require payment for more features. Wekan is full free version.
+- Virtual Appliances Download: [VirtualBox, KVM, VMware, VMware ESX](https://www.univention.com/products/univention-app-center/app-catalog/wekan/)
+- Newer version of Wekan will be released when building and testing is done.
+
+[Wekan for Univention Feature Requests and Bug Reports](https://github.com/wekan/univention)
+
+[Univention Open Source repos](https://github.com/Univention)
+
+***
+
 ## <a name="ProductionSandstorm"></a>Production: [Sandstorm](https://sandstorm.io) platform, many apps and Wekan.
 
 * **[Sandstorm info at Wekan wiki](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
