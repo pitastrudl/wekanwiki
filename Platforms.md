@@ -84,7 +84,7 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
   - [Keycloak](https://github.com/wekan/wekan/wiki/Keycloak) has [these bugs](https://github.com/wekan/wekan/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+keycloak)
   - [CAS](https://github.com/wekan/wekan/issues/1925)
 
-Usually for production you just install Ubuntu 18.04 or Debian 9 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
+Usually for production you just install Ubuntu 18.04 or Debian 10 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
 ## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken.
 
