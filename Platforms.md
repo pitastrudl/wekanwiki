@@ -27,6 +27,7 @@ New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can 
 - Has Wekan, RocketChat, WordPress, OnlyOffice, NextCloud, OpenXChange, etc. Some apps are full free versions, some other apps require payment for more features. Wekan is full free version.
 - Wekan on Univention is based Wekan Docker version. Upgrading all apps on Univention upgrades also Wekan to newest available Wekan version.
 - Newer version of Wekan will be released when building and testing is done.
+- [Univention interview at FLOSS Weekly 480](https://twit.tv/shows/floss-weekly/episodes/480) 
 
 [Wekan for Univention Feature Requests and Bug Reports](https://github.com/wekan/univention)
 
