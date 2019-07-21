@@ -31,14 +31,16 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 
 **Works**
 - Google/GitHub/LDAP/SAML/Passwordless email login.
+- Import from Wekan JSON.
 - Free SSL at https://yourservername.sandcats.io domain.
 - [Rescuing MongoDB data from Sandstorm Grain .zip file to Standalone Wekan](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
 **Does not work**
-- [Import](https://github.com/wekan/wekan/issues/1430), needs [workarounds](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file).
+- Import from Trello does not import attachments, because Sandstorm-compatible HTTP-access from Wekan to outside of Wekan grain sandbox is not implemented yet 
 - [Copying/Moving card to another board](https://github.com/wekan/wekan/issues/1729).
 - [REST API](https://github.com/wekan/wekan/issues/1279) 
 - [Outgoing Webhooks](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
+- [Email from Wekan](https://github.com/wekan/wekan/issues/2208#issuecomment-469290305)
 
 ***
 
