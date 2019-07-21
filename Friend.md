@@ -49,6 +49,8 @@ Friend repos:
 - https://github.com/FriendSoftwareLabs/
 - https://github.com/FriendUPCloud/
 
+[Docker: In progress](https://github.com/wekan/docker-friendup)
+
 ## Demo
 
 Sign Up to Friend:
