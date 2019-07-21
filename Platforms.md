@@ -64,7 +64,7 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 ## Standalone Wekan: Docker, Snap, etc others non-Sandstorm 
 
 **Works on Snap and Docker**
-- Import from Trello [with bug workaround](https://github.com/wekan/wekan/issues/1903), and Import/Export Wekan.
+- Import from Trello, and Import/Export Wekan.
 - Copying/Moving card to another board.
 - Login
   - Password auth
