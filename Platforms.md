@@ -23,7 +23,7 @@ New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can 
 
 - Virtual Appliances Download: [VirtualBox, KVM, VMware, VMware ESX](https://www.univention.com/products/univention-app-center/app-catalog/wekan/)
 - [Video of installing Univention Wekan Appliance](https://wekan.github.io/UCS-4.4-with-wekan-10.200.2.25.webm)
-- After installing, you get license key file in email. Go with webbrowser to VM ip address like http://192.x.x.x and upload license. After that also on VM screen console login as root is possible. There is KDE desktop with command `startx`.
+- After installing, you get license key file in email. Go with webbrowser to VM ip address like http://192.x.x.x and upload license. After that also on VM screen console login as root is possible. If you install KDE app with webbrowser, you get KDE on VM screen.
 - [Wekan for Univention Feature Requests and Bug Reports](https://github.com/wekan/univention)
 - [Univention Open Source repos](https://github.com/Univention)
 - [Univention interview at FLOSS Weekly 480](https://twit.tv/shows/floss-weekly/episodes/480) 
