@@ -1,3 +1,11 @@
+## Upgrades
+
+[Wekan v3.00 upgrade instructions, in progress for all Wekan platforms](https://github.com/wekan/wekan/issues/2533#issuecomment-515235545)
+
+***
+
+## Downloads
+
 Downloading and installing Wekan on various platforms.
 
 ## Related 
