@@ -99,6 +99,21 @@ sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
 ```
 [Adding users](https://github.com/wekan/wekan/wiki/Adding-users)
 
+#### Upgrade bundle
+
+Stop Wekan. Then:
+```
+cd ~/repos
+rm -rf bundle
+wget https://releases.wekan.team/wekan-3.00.tar.gz
+tar -xzf wekan-3.00.tar.gz
+cd bundle/programs/server
+npm install
+npm install node-gyp node-pre-gyp fibers
+cd ../../..
+```
+Then Start Wekan.
+
 #### b) Other CPU architectures
 
 Do as above, but then also install node packages for your architecture:
