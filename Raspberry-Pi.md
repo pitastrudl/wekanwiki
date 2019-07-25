@@ -107,8 +107,8 @@ Then, for example:
 ```
 cd ~/repos
 rm -rf bundle
-wget https://releases.wekan.team/wekan-3.00.tar.gz
-tar -xzf wekan-3.00.tar.gz
+wget https://releases.wekan.team/wekan-3.01.zip
+unzip wekan-3.01.zip
 cd bundle/programs/server
 npm install
 npm install node-gyp node-pre-gyp fibers
