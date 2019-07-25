@@ -101,7 +101,9 @@ sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
 
 #### Upgrade bundle
 
-Stop Wekan. Then:
+Stop Wekan. See what is newest bundle version at https://releases.wekan.team .
+
+Then, for example:
 ```
 cd ~/repos
 rm -rf bundle
