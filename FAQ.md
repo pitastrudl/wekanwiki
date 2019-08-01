@@ -123,11 +123,7 @@ No. It's not possible in web browser to a) Install npm modules inside Docker or 
 
 ## Can Wekan be rewritten in another programming language?
 
-Yes. There are following 2 options, depending do you have time or money:
-
-1. Time: You can do the rewrite, and add pull request to Wekan devel branch that implements all of Wekan current functionality in another programming language, including same MIT license, Trello Import, Wekan Import/Export with attachments from all versions of Wekan, migrations from all versions of Wekan MongoDB schema to all other databases, support for same [REST API](https://github.com/wekan/wekan/wiki/REST-API) compatibility, all the same [Platforms](https://github.com/wekan/wekan/wiki/Platforms) support Wekan already has, exactly same look, all of Wekan's bugs fixed and feature requests implemented, scalable multi-layer secure GDPR compliant architecture design and implementation, encrypted database support, 100% test coverage of features, Coverity Scanned security, fully developer and end user documentation for all platforms, and well commented code.
-
-2. Money: 5 year of programming time for new version of Wekan. It is calculated this way: Effort used before adding current Wekan to GitHub is likely minimum 2 years, and after adding Wekan to GitHub, current version of Wekan is [3 years of effort](https://www.openhub.net/p/wekan) that includes [2 years of programming time](https://www.openhub.net/p/730403/contributors/3137056998714607) by xet7, so that makes total 5 years that was used to implement current version of Wekan, so I expect that same would be needed for rewrite. Monthly salary needs to be enough, so I can pay my bills and loans and live normal life with enough time to rest from coding, please contact x@xet7.org for more details.
+[xet7 tried to rewrite, but it's only at very early steps](https://github.com/wekan/demo/wiki/Roadmap).
 
 # History
 
