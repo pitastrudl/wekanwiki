@@ -20,6 +20,12 @@ Downloading and installing Wekan on various platforms.
 * [Wekan bug reports and feature requests](https://github.com/wekan/wekan/issues)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
+***
+
+## Testing: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
+
+New at 2019-08-04. For Ubuntu, CentOS and SLES. Not tested yet.
+
 *** 
 ## Testing: [RasPi 3, arm64 and other CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
 
