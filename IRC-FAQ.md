@@ -7,6 +7,60 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Wekan crashing?
+
+```
+[15:20:04] <Rojola> hi
+[15:20:12] <Rojola> xet7, are you there by any chance?
+[15:20:18] <Rojola> I told you about my problems with
+wekan
+[15:20:23] <Rojola> now, at this very moment, I am having
+one
+[15:20:30] <Rojola> Normally I just restart the board to
+keep working
+[15:20:48] <Rojola> but it's a Saturday, so nobody
+currently works on the board, and I can let the board
+struggle without restarting it
+[15:20:54] <Rojola> this gives us time for finding
+out what's wrong
+[15:21:21] <Rojola> the error in the browser reads:
+[15:21:22] <Rojola> ---
+[15:21:24] <Rojola> This page isn’t working
+[15:21:24] <Rojola> ***.***.***.*** didn’t send any data.
+[15:21:24] <Rojola> ERR_EMPTY_RESPONSE
+[15:21:25] <Rojola> ---
+[15:21:29] <Rojola> ^ I masked the IP
+[15:22:03] <Rojola> I added many cards to the board, and
+I had no idea, that the server died in the background
+[15:22:15] <Rojola> so, if I restart the board now,
+I will loose all the cards which I added
+[15:23:21] <Rojola> I heavily depend on wekan for
+my life, and it scares me when it glitches
+[15:23:31] <Rojola> especially since the board
+struggles so much so often
+[15:23:49] <Rojola> also an issue is, when I add
+cards, and then they vanish
+[15:24:09] <Rojola> that happened a short while
+ago - I added 2 cards, then they were gone
+[15:44:02] <Rojola> xet7, I realized, the
+server is not dead.
+[15:44:08] <Rojola> It's just very, very,
+very slow
+[15:44:21] <Rojola> after like... an hour...
+a board loaded
+[15:44:31] <Rojola> most cards are lost, though
+[15:44:55] <Rojola> I don't know how to
+bugfix this
+```
+A: xet7 was not online at IRC when
+you asked about this. It would be nice
+if you sometime have time to be online again
+and would have time to do some debugging,
+for example are there some errors, logs etc.
+Meanwhile, xet7 tries to debug this on his
+own boards.
+
+***
 ### Q: Unsaved changes indicator?
 
 A: Added Feature Request https://github.com/wekan/wekan/issues/2537
