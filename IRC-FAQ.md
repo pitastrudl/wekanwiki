@@ -52,13 +52,9 @@ a board loaded
 [15:44:55] <Rojola> I don't know how to
 bugfix this
 ```
-A: xet7 was not online at IRC when
-you asked about this. It would be nice
-if you sometime have time to be online again
-and would have time to do some debugging,
-for example are there some errors, logs etc.
-Meanwhile, xet7 tries to debug this on his
-own boards.
+A: You should upgrade to newest Wekan, or
+be online when xet7 is online to debug.
+xet7's own boards are not crashing.
 
 ***
 ### Q: Unsaved changes indicator?
