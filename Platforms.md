@@ -24,7 +24,8 @@ Downloading and installing Wekan on various platforms.
 
 ## Testing: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
 
-New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES. Not tested yet.
+New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
+[Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
 
 *** 
 ## Testing: [RasPi 3, arm64 and other CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
