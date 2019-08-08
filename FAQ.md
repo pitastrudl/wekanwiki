@@ -69,9 +69,18 @@ Wekan:
 - There has been some code reviews done by security researchers https://wekan.github.io/hall-of-fame/ and there has been fixes to Wekan related to that.
 - xet7 tries to be less evil by trying to listen to some user feedback. For example, someone suggested [inner shadow](https://github.com/wekan/wekan/issues/1690), so it was added, but because of feedback from users inner shadow was removed. Same with removing and adding back [SMTP settings in Admin Panel](https://github.com/wekan/wekan/issues/1790). Unfortunately it's not possible to make everyone happy because different people have different opinions, so xet7 tries to select something that makes some sense. Improvement suggestions welcome.
 
+## Why xet7 does not offer paid hosting for Wekan
+
+- xet7's customers [pay xet7 for features, fixes and support etc](https://wekan.team) for exactly the reason that Wekan source code and updates are free
+- You can self-host and have control of their own data
+- Wekan is used at hospitals, private offline networks, etc
+- xet7 does not need responsibility for someone elses critical data, and getting GDPR violation sanction payment demands
+- Anyone that uses Wekan is responsible to do at least [daily backups](https://github.com/wekan/wekan/wiki/Backup)
+- There are already many hosting providers that offer Wekan hosting, backups etc.
+
 ## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
 
-Depends on free time of xet7. Usually:
+Usually:
 * Fastest: multiple times a day. Sometimes this is 7 releases per day. This is usually because some bug is found and new releases are done in rapid schedule until bug is fixed. Also sometimes there is many new pull requests per day, or fast pace of adding new features. This is like said by Eric S. Raymond: ["Release early. Release often. And listen to your customers."](https://en.wikipedia.org/wiki/Release_early,_release_often)
 * Slowest: Once a month.
 * One release contains anything from one typo fix to many major features and bugfixes.
