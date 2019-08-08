@@ -76,7 +76,7 @@ Wekan:
 - Wekan is used at hospitals, private offline networks, etc
 - xet7 does not need responsibility for someone elses critical data, and getting GDPR violation sanction payment demands
 - Anyone that uses Wekan is responsible to do at least [daily backups](https://github.com/wekan/wekan/wiki/Backup) and have automatic updates like with Snap or Sandstorm. Do not leave old Wekan directly Internet accessible please!
-- There are already many hosting providers that offer Wekan hosting, backups etc.
+- There are already many hosting providers that offer Wekan hosting, backups etc, see [Platforms](https://github.com/wekan/wekan/wiki/Platforms).
 
 ## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
 
