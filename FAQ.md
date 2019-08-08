@@ -72,10 +72,10 @@ Wekan:
 ## Why xet7 does not offer paid hosting for Wekan
 
 - xet7's customers [pay xet7 for features, fixes and support etc](https://wekan.team) for exactly the reason that Wekan source code and updates are free
-- You can self-host and have control of their own data
+- You can self-host and have control of your own data
 - Wekan is used at hospitals, private offline networks, etc
 - xet7 does not need responsibility for someone elses critical data, and getting GDPR violation sanction payment demands
-- Anyone that uses Wekan is responsible to do at least [daily backups](https://github.com/wekan/wekan/wiki/Backup)
+- Anyone that uses Wekan is responsible to do at least [daily backups](https://github.com/wekan/wekan/wiki/Backup) and have automatic updates like with Snap or Sandstorm. Do not leave old Wekan directly Internet accessible please!
 - There are already many hosting providers that offer Wekan hosting, backups etc.
 
 ## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
