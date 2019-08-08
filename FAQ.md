@@ -69,15 +69,6 @@ Wekan:
 - There has been some code reviews done by security researchers https://wekan.github.io/hall-of-fame/ and there has been fixes to Wekan related to that.
 - xet7 tries to be less evil by trying to listen to some user feedback. For example, someone suggested [inner shadow](https://github.com/wekan/wekan/issues/1690), so it was added, but because of feedback from users inner shadow was removed. Same with removing and adding back [SMTP settings in Admin Panel](https://github.com/wekan/wekan/issues/1790). Unfortunately it's not possible to make everyone happy because different people have different opinions, so xet7 tries to select something that makes some sense. Improvement suggestions welcome.
 
-## Why xet7 does not offer paid hosting for Wekan
-
-- xet7's customers [pay xet7 for features, fixes and support etc](https://wekan.team) for exactly the reason that Wekan source code and updates are free
-- You can self-host and have control of your own data
-- Wekan is used at hospitals, private offline networks, etc
-- xet7 does not need responsibility for someone elses critical data, and getting GDPR violation sanction payment demands
-- Anyone that uses Wekan is responsible to do at least [daily backups](https://github.com/wekan/wekan/wiki/Backup) and have automatic updates like with Snap or Sandstorm. Do not leave old Wekan directly Internet accessible please!
-- There are already many hosting providers that offer Wekan hosting, backups etc, see [Platforms](https://github.com/wekan/wekan/wiki/Platforms).
-
 ## When new version of Wekan will be released? When my pull request will be tested, commented or merged?
 
 Usually:
