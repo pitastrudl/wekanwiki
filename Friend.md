@@ -1,3 +1,5 @@
+[Wekan integration to Friend TODO list, In Progress](https://github.com/FriendUPCloud/friendup/issues/114)
+
 Friend Cloud OS: Secure encrypted skinnable fast Open Source desktop in webbrowser/mobile/desktop app. Wekan as one app at Friend.
 
 ## Contributor Agreement
