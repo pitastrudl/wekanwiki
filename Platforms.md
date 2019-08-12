@@ -50,7 +50,7 @@ npm install
 #npm install node-gyp node-pre-gyp fibers  (maybe not needed, try first without)
 cd ../../..
 ```
-Then modify start-wekan.sh or start-wekan.bat for Node and MongoDB paths.
+Then modify `start-wekan.sh` or `start-wekan.bat` for Node and MongoDB paths.
 See [Raspberry Pi page](https://github.com/wekan/wekan/wiki/Raspberry-Pi) for info about systemd etc.
 
 ***
