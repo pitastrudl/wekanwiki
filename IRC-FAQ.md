@@ -7,6 +7,15 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Older Node version?
+
+```
+[16:47:42] <imestin> Is Wekan compatible with older
+versions of Node?
+```
+A: You can try, but older Node versions have
+security issues that are fixed in newest Node version.
+
 ### Q: Wekan crashing?
 
 ```
