@@ -28,7 +28,7 @@ New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
 [Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
 
 *** 
-## Testing: Bundle for [RasPi 3, arm64 and any Node+Mongo CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
+## Testing: Bundle for [RasPi 3, arm64, Windows and any Node+Mongo CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
 
 New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used for production.
 
