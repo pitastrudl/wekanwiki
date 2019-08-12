@@ -111,7 +111,7 @@ wget https://releases.wekan.team/wekan-3.01.zip
 unzip wekan-3.01.zip
 cd bundle/programs/server
 npm install
-npm install node-gyp node-pre-gyp fibers
+npm install node-gyp node-pre-gyp fibers    (maybe not needed)
 cd ../../..
 ```
 Then Start Wekan.
