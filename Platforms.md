@@ -28,9 +28,30 @@ New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
 [Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
 
 *** 
-## Testing: [RasPi 3, arm64 and other CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
+## Testing: Bundle for [RasPi 3, arm64 and any Node+Mongo CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
 
 New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used for production.
+
+Stop Wekan. Download newest bundle version at https://releases.wekan.team .
+
+Install Node 8.16.0 and some MongoDB like 3.2.x - 4.x. Preferred 4.x if available.
+Bundle works for Windows native Node.js and MongoDB, arm64 server, etc any CPU node+mongodb.
+Building from source does not seem to work on Windows.
+
+Then, for example:
+```
+mkdir repos
+cd ~/repos
+rm -rf bundle
+wget https://releases.wekan.team/wekan-3.01.zip
+unzip wekan-3.01.zip
+cd bundle/programs/server
+npm install
+#npm install node-gyp node-pre-gyp fibers  (maybe not needed, try first without)
+cd ../../..
+```
+Then modify start-wekan.sh or start-wekan.bat for Node and MongoDB paths.
+See [Raspberry Pi page](https://github.com/wekan/wekan/wiki/Raspberry-Pi) for info about systemd etc.
 
 ***
 
