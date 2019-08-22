@@ -29,10 +29,10 @@ to Wekan very often, [search ChangeLog page form "mobile"](https://github.com/we
 But if Wekan does not load at all in some browser, like [new Firefox Mobile](https://github.com/wekan/wekan/issues/2643), [Vivaldi](https://github.com/wekan/wekan/issues/2618),
 [Internet Explorer](https://github.com/wekan/wekan/issues/2641),
 that webbrowser is broken, and does not have all features
-that Wekan requires. Wekan works just fine in
+that Wekan requires. Old Mobile Firefox did work, but new one
+does not. If Mobile Firefox would have same features as desktop Firefox,
+it would work OK. Wekan works just fine in
 Mobile Chrome, Chrome, Chromium, Chromium Edge and Firefox.
-If Mobile Firefox would have same features as desktop Firefox,
-it would work OK.
 
 ### Q: Older Node version?
 
