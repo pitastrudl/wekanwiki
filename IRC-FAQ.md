@@ -7,6 +7,33 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Wekan on mobile webbrowser?
+
+```
+[05:44:18] <Rojola> hi
+[05:44:41] <Rojola> since over a week, cards can not
+be opened on mobile devices
+[05:44:55] <Rojola> Android Tablet / Android Phone
+[05:45:15] <Rojola> In Chrome, wekan has never
+worked for me on _mobile_ devices.
+[05:45:29] <Rojola> But, since more than a week,
+it's NOT working in Firefox either
+[05:45:32] <Rojola> that's a huge problem
+[05:45:40] <Rojola> as you can not open cards,
+you can only _read_ the title
+[05:45:50] <Rojola> but you can not add
+comments or read comments or the description
+```
+A: Wekan works for me on mobile Chrome. There are mobile fixes
+to Wekan very often, [search ChangeLog page form "mobile"](https://github.com/wekan/wekan/blob/master/CHANGELOG.md).
+But if Wekan does not load at all in some browser, like [new Firefox Mobile](https://github.com/wekan/wekan/issues/2643), [Vivaldi](https://github.com/wekan/wekan/issues/2618),
+[Internet Explorer](https://github.com/wekan/wekan/issues/2641),
+that webbrowser is broken, and does not have all features
+that Wekan requires. Wekan works just fine in
+Mobile Chrome, Chrome, Chromium, Chromium Edge and Firefox.
+If Mobile Firefox would have same features as desktop Firefox,
+it would work OK.
+
 ### Q: Older Node version?
 
 ```
