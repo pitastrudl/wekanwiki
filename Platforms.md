@@ -38,6 +38,10 @@ Install Node 8.16.0 and some MongoDB like 3.2.x - 4.x. Preferred 4.x if availabl
 Bundle works for Windows native Node.js and MongoDB, arm64 server, etc any CPU node+mongodb.
 Building from source does not seem to work on Windows.
 
+Extra steps for CentOS 6:
+- Install gcc-4.9.3 and boost
+- Add gcc to path, for example: `export LD_LIBRARY_PATH=/root/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/:$LD_LIBRARY_PATH`
+
 Then, for example:
 ```
 mkdir repos
@@ -47,7 +51,7 @@ wget https://releases.wekan.team/wekan-3.01.zip
 unzip wekan-3.01.zip
 cd bundle/programs/server
 npm install
-#npm install node-gyp node-pre-gyp fibers  (maybe not needed, try first without)
+npm install node-gyp node-pre-gyp fibers
 cd ../../..
 ```
 Then modify `start-wekan.sh` or `start-wekan.bat` for Node and MongoDB paths.
