@@ -41,6 +41,7 @@ Building from source does not seem to work on Windows.
 Extra steps for CentOS 6:
 - Install gcc-4.9.3 and boost
 - Add gcc to path, for example: `export LD_LIBRARY_PATH=/root/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/:$LD_LIBRARY_PATH`
+- At below fibers step, do instead `npm install fibers@2.0.1`
 
 Then, for example:
 ```
