@@ -19,6 +19,7 @@ has the same issue
 even in the dev-version
 ```
 A: What Wekan version? What Mobile Chrome version?
+
 With Wekan v3.26.0 and Mobile Chrome 76.0.3909.132 on both
 OnePlus 3 (Android 9; ONEPLUS A3003 Build/PKQ1.181203.001)
 and Galaxy Note 3 (Android 5.0; SM-N9005 Build/LRX21V)
@@ -28,7 +29,10 @@ that menu option above Chrome Settings.
 Please update your Wekan with `sudo snap refresh` - 
 also check that if you use `https` in Wekan,
 you also set it in root-url, like:
-`sudo snap set wekan root-url='https://wekan.example.com'`
+
+```
+sudo snap set wekan root-url='https://wekan.example.com'
+```
 
 ### Q: Wekan on mobile webbrowser?
 
