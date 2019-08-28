@@ -26,8 +26,12 @@ and Galaxy Note 3 (Android 5.0; SM-N9005 Build/LRX21V)
 I can open boards, lists and cards both in mobile mode
 and desktop mode that is selected from Crome menu,
 that menu option above Chrome Settings.
-Please update your Wekan with `sudo snap refresh` - 
-also check that if you use `https` in Wekan,
+
+Please update your Wekan with
+```
+sudo snap refresh
+```
+Also check that if you use `https` in Wekan,
 you also set it in root-url, like:
 
 ```
