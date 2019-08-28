@@ -7,6 +7,25 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Wekan on mobile Chrome?
+```
+[15:49:52] <Rojola1> xet7, I saw your answer to the
+mobile card question
+[15:50:13] <Rojola1> it really won't work in Chrome
+[15:50:19] <Rojola1> everyone in the organization
+has the same issue
+[15:50:27] <Rojola1> every phone, every tablet
+[15:50:40] <Rojola1> Chrome in the newest version,
+even in the dev-version
+```
+A: What Wekan version? What Mobile Chrome version?
+With Wekan v3.26.0 and Mobile Chrome 76.0.3909.132 on both
+OnePlus 3 (Android 9; ONEPLUS A3003 Build/PKQ1.181203.001)
+and Galaxy Note 3 (Android 5.0; SM-N9005 Build/LRX21V)
+I can open boards, lists and cards both in mobile mode
+and desktop mode that is selected from browser menu.
+Please update your Wekan with `sudo snap refresh`
+
 ### Q: Wekan on mobile webbrowser?
 
 ```
