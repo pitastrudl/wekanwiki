@@ -22,11 +22,6 @@ It will be fixes sometime in near future.
 [12:52:55] <MarioSC> The second problem is the archive... when you
 open the archive to delete a card,  all of a sudden, already archived
 lists show in the board again until you reload it.
-[12:54:07] <MarioSC> The third and almost biggest issue is, that
-we must often restart the wekan board
-[12:54:19] <MarioSC> all of a sudden,  the board does not work again
-[12:54:29] <MarioSC> is such cases, it loads and loads and loads...
-but the board never shows
 ```
 A: That's a new bug, thanks for reporting it.
 xet7 will try how that happens.
@@ -57,6 +52,11 @@ elsewhere.
 
 #### Q: CPU usage?
 ```
+[12:54:07] <MarioSC> The third and almost biggest issue is, that
+we must often restart the wekan board
+[12:54:19] <MarioSC> all of a sudden,  the board does not work again
+[12:54:29] <MarioSC> is such cases, it loads and loads and loads...
+but the board never shows
 [13:20:22] <MarioSC> I just found out,  that "node" uses
 all the cpu power!
 [13:20:47] <MarioSC> but the debugging site says this
