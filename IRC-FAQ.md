@@ -9,7 +9,8 @@
 ***
 ### Q: Other mobile browsers?
 ```
-[12:48:54] <MarioSC> For example, on an Oppo phone,  clicking on cards works in Google Chrome.
+[12:48:54] <MarioSC> For example, on an Oppo phone,  clicking on cards
+works in Google Chrome.
 [12:49:12] <MarioSC> On Samsung devices,  clicking on cards fails
 ```
 A: It's a [bug in Meteor](https://github.com/wekan/wekan/issues/2643),
@@ -18,10 +19,14 @@ It will be fixes sometime in near future.
 
 ### Q: Showing archive?
 ```
-[12:52:55] <MarioSC> The second problem is the archive... when you open the archive to delete a card,  all of a sudden, already archived lists show in the board again until you reload it.
-[12:54:07] <MarioSC> The third and almost biggest issue is,  that we must often restart the wekan board
+[12:52:55] <MarioSC> The second problem is the archive... when you
+open the archive to delete a card,  all of a sudden, already archived
+lists show in the board again until you reload it.
+[12:54:07] <MarioSC> The third and almost biggest issue is, that
+we must often restart the wekan board
 [12:54:19] <MarioSC> all of a sudden,  the board does not work again
-[12:54:29] <MarioSC> is such cases, it loads and loads and loads... but the board never shows
+[12:54:29] <MarioSC> is such cases, it loads and loads and loads...
+but the board never shows
 ```
 A: That's a new bug, thanks for reporting it.
 xet7 will try how that happens.
