@@ -7,6 +7,66 @@
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 
 ***
+### Q: Other mobile browsers?
+```
+[12:48:54] <MarioSC> For example, on an Oppo phone,  clicking on cards works in Google Chrome.
+[12:49:12] <MarioSC> On Samsung devices,  clicking on cards fails
+```
+A: It's a [bug in Meteor](https://github.com/wekan/wekan/issues/2643),
+mobile browsers are detected wrong, so it uses wrong javascript bundle.
+It will be fixes sometime in near future.
+
+### Q: Showing archive?
+```
+[12:52:55] <MarioSC> The second problem is the archive... when you open the archive to delete a card,  all of a sudden, already archived lists show in the board again until you reload it.
+[12:54:07] <MarioSC> The third and almost biggest issue is,  that we must often restart the wekan board
+[12:54:19] <MarioSC> all of a sudden,  the board does not work again
+[12:54:29] <MarioSC> is such cases, it loads and loads and loads... but the board never shows
+```
+A: That's a new bug, thanks for reporting it.
+xet7 will try how that happens.
+
+### Q: Colored text?
+```
+[13:06:20] <MarioSC> Whenever we want to make titles or
+descriptions or comments colored, we must use
+outdated (deprecate) html tags
+[13:06:43] <MarioSC> <span style="color:#ff0000;">
+Important</span>  won't work
+[13:06:49] <MarioSC> so we have to go with:
+[13:06:55] <MarioSC> <font color="red">Important</font>
+[13:07:04] <MarioSC> which is really deprecated
+[13:07:21] <MarioSC> Ideal would be, if the board
+understood all kinds of html...
+[13:07:25] <MarioSC> especially things like:
+[13:07:42] <MarioSC> font-weight
+[13:07:45] <MarioSC> text-decoration
+[13:07:51] <MarioSC> font-variant
+[13:07:56] <MarioSC> color
+[13:08:00] <MarioSC> background-color
+```
+A: Currently [some GitHub markdown](https://guides.github.com/features/mastering-markdown/)
+works. It needs some research is it possible
+to enable more html, or have visual editor
+elsewhere.
+
+#### Q: CPU usage?
+```
+[13:20:22] <MarioSC> I just found out,  that "node" uses
+all the cpu power!
+[13:20:47] <MarioSC> but the debugging site says this
+was solved...
+[13:20:50] <MarioSC> https://github.com/wekan/wekan/wiki/Debugging
+[13:21:23] <MarioSC> > There is on-going 100% CPU usage
+Meteor issue and hopefully fixes to Node.js will land in
+Node v8.12 sometime. Node 8.12 is now released and official
+version included at Wekan.
+[13:21:42] <MarioSC> the wekan installation is up to date
+[13:21:51] <MarioSC> the board is currently frozen again
+```
+A: It could be [this issue](https://github.com/wekan/wekan/issues/2658)
+but only some users have that problem. It needs more research.
+
 ### Q: Wekan on mobile Chrome?
 ```
 [15:49:52] <Rojola1> xet7, I saw your answer to the
