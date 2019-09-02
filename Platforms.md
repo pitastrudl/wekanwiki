@@ -79,36 +79,12 @@ If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs
 
 ***
 
-## SaaS: Wekan ready paid services, just start using.
+## Production: SaaS, Wekan ready paid services, just start using.
 
 * [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) - Sandstorm Wekan
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron) - Standalone Wekan
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters) - Standalone Wekan
 * [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo) - Standalone Wekan
-
-## Standalone Wekan info: Snap, Docker, Source, etc others non-Sandstorm 
-
-**Works on Snap and Docker**
-- Import from Trello, and Import/Export Wekan.
-- Copying/Moving card to another board.
-- [IFTTT](https://github.com/wekan/wekan/issues/1160)
-- [REST API](https://github.com/wekan/wekan/wiki/REST-API)
-- [Outgoing Webhooks](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
-- [Backup and Restore](https://github.com/wekan/wekan/wiki/Backup)
-- Login
-  - Password auth
-  - [OAuth2, Auth0 and Google](https://github.com/wekan/wekan/wiki/OAuth2)
-  - [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
-  - [Auth0](https://github.com/wekan/wekan/issues/1722)
-  - [Azure](https://github.com/wekan/wekan/wiki/Azure)
-
-**Does not work fully yet, being tested at [bleeding edge](https://github.com/wekan/wekan-snap/wiki/Snap-Developer-Docs)**
-- Login
-  - [Header Login](https://github.com/wekan/wekan/issues/2019) development in progress
-  - [Keycloak](https://github.com/wekan/wekan/wiki/Keycloak) has [these bugs](https://github.com/wekan/wekan/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+keycloak)
-  - [CAS](https://github.com/wekan/wekan/issues/1925)
-
-Usually for production you just install Ubuntu 18.04 or Debian 10 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
 ## <a name="ProductionDocker"></a>Not exposed to Internet: Docker. No automatic upgrades.
 
