@@ -82,16 +82,6 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 
 Usually for production you just install Ubuntu 18.04 or Debian 10 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
-## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken.
-
-Only Standalone Wekan. If security is critical, keep behind firewall, without any ports open to Internet.
-
-* [Docker](https://github.com/wekan/wekan/wiki/Docker)
-  * [Windows](https://github.com/wekan/wekan/wiki/Windows) + build from source
-  * [Mac](https://github.com/wekan/wekan/wiki/Mac)
-  * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
-* [Proxy](https://github.com/wekan/wekan/issues/1480)
-
 ## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan.
 
 If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update. If security is critical, keep behind firewall, without any ports open to Internet.
@@ -110,6 +100,16 @@ If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs
   * [AWS](https://github.com/wekan/wekan/wiki/AWS)
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
   * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
+
+## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken.
+
+Only Standalone Wekan. If security is critical, keep behind firewall, without any ports open to Internet. Keep backups, Docker is more complex than others above.
+
+* [Docker](https://github.com/wekan/wekan/wiki/Docker)
+  * [Windows](https://github.com/wekan/wekan/wiki/Windows) + build from source
+  * [Mac](https://github.com/wekan/wekan/wiki/Mac)
+  * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
+* [Proxy](https://github.com/wekan/wekan/issues/1480)
 
 ## SaaS: Wekan ready paid services, just start using.
 
