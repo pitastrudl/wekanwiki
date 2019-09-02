@@ -133,15 +133,9 @@ See [Raspberry Pi page](https://github.com/wekan/wekan/wiki/Raspberry-Pi) for in
 ## <a name="Development"></a>Development: Not updated automatically.
 * [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance) - old
 * [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only. Source, Snap, Docker, Sandstorm, Meteor bundle and Windows build instructions.
-* [Meteor Bundle](https://github.com/wekan/wekan/wiki/Meteor-bundle)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming:
   * [Friend](https://github.com/wekan/wekan/wiki/Friend) - Snap Standalone Wekan
-
-## Does not work yet: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
-
-New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
-[Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
 
 ## Operating Systems
 
@@ -161,6 +155,11 @@ New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
 * [Heroku](https://github.com/wekan/wekan/wiki/Heroku) ?
 * [Google Cloud](https://github.com/wekan/wekan/wiki/Google-Cloud) ?
 * [Cloud Foundry](https://github.com/wekan/wekan/wiki/Cloud-Foundry) ?
+
+## Does not work yet: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
+
+New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
+[Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
 
 # More
 
