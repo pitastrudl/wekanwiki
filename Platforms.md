@@ -22,44 +22,6 @@ Downloading and installing Wekan on various platforms.
 
 ***
 
-## Testing: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
-
-New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
-[Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
-
-*** 
-## Testing: Bundle for [RasPi 3, arm64, Windows and any Node+Mongo CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
-
-New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used for production.
-
-Stop Wekan. Download newest bundle version at https://releases.wekan.team .
-
-Install Node 8.16.0 and some MongoDB like 3.2.x - 4.x. Preferred 4.x if available.
-Bundle works for Windows native Node.js and MongoDB, arm64 server, etc any CPU node+mongodb.
-Building from source does not seem to work on Windows.
-
-Extra steps for CentOS 6:
-- Install gcc-4.9.3 and boost
-- Add gcc to path, for example: `export LD_LIBRARY_PATH=/root/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/:$LD_LIBRARY_PATH`
-- At below fibers step, do instead `npm install fibers@2.0.1`
-
-Then, for example:
-```
-mkdir repos
-cd ~/repos
-rm -rf bundle
-wget https://releases.wekan.team/wekan-3.01.zip
-unzip wekan-3.01.zip
-cd bundle/programs/server
-npm install
-npm install node-gyp node-pre-gyp fibers
-cd ../../..
-```
-Then modify `start-wekan.sh` or `start-wekan.bat` for Node and MongoDB paths.
-See [Raspberry Pi page](https://github.com/wekan/wekan/wiki/Raspberry-Pi) for info about systemd etc.
-
-***
-
 ## <a name="ProductionUnivention"></a>Production: [Univention](https://www.univention.com/products/univention-app-center/app-catalog/wekan/) platform, many apps and Wekan.
 
 - Virtual Appliances Download: [VirtualBox, KVM, VMware, VMware ESX](https://www.univention.com/products/univention-app-center/app-catalog/wekan/)
@@ -170,18 +132,51 @@ If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters) - Standalone Wekan
 * [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo) - Standalone Wekan
 
+*** 
+## Testing: Bundle for [RasPi 3, arm64, Windows and any Node+Mongo CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
+
+New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used for production.
+
+Stop Wekan. Download newest bundle version at https://releases.wekan.team .
+
+Install Node 8.16.0 and some MongoDB like 3.2.x - 4.x. Preferred 4.x if available.
+Bundle works for Windows native Node.js and MongoDB, arm64 server, etc any CPU node+mongodb.
+Building from source does not seem to work on Windows.
+
+Extra steps for CentOS 6:
+- Install gcc-4.9.3 and boost
+- Add gcc to path, for example: `export LD_LIBRARY_PATH=/root/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/:$LD_LIBRARY_PATH`
+- At below fibers step, do instead `npm install fibers@2.0.1`
+
+Then, for example:
+```
+mkdir repos
+cd ~/repos
+rm -rf bundle
+wget https://releases.wekan.team/wekan-3.01.zip
+unzip wekan-3.01.zip
+cd bundle/programs/server
+npm install
+npm install node-gyp node-pre-gyp fibers
+cd ../../..
+```
+Then modify `start-wekan.sh` or `start-wekan.bat` for Node and MongoDB paths.
+See [Raspberry Pi page](https://github.com/wekan/wekan/wiki/Raspberry-Pi) for info about systemd etc.
+
 ***
 
 ## <a name="Development"></a>Development: Not updated automatically.
-* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance)
+* [Virtual appliance](https://github.com/wekan/wekan/wiki/virtual-appliance) - old
 * [Source](https://github.com/wekan/wekan/wiki/Source) for development usage only. Source, Snap, Docker, Sandstorm, Meteor bundle and Windows build instructions.
 * [Meteor Bundle](https://github.com/wekan/wekan/wiki/Meteor-bundle)
 * [Vagrant](https://github.com/wekan/wekan/wiki/Vagrant)
 * Upcoming:
-  * [EthKan](https://github.com/EthKan) - Snap Standalone Wekan
   * [Friend](https://github.com/wekan/wekan/wiki/Friend) - Snap Standalone Wekan
-  * [arm64](https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html) - Snap Standalone Wekan
-  * [Snap for other processor architectures](https://github.com/wekan/wekan-snap/issues/46)
+
+## Testing: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
+
+New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
+[Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
 
 ## Operating Systems
 
