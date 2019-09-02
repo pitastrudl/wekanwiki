@@ -58,7 +58,35 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 
 ***
 
-## Standalone Wekan: Snap, Docker, etc others non-Sandstorm 
+## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan.
+
+If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update. If security is critical, keep behind firewall, without any ports open to Internet.
+
+* **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. 
+  * **Debian, Ubuntu and Linux Mint based distros**
+  * Arch
+  * Fedora
+  * Solus
+  * OpenSUSE
+  * Gentoo
+  * Manjaro
+  * Elementary OS
+  * CentOS 7
+* Cloud: Some additional info
+  * [AWS](https://github.com/wekan/wekan/wiki/AWS)
+  * [Azure](https://github.com/wekan/wekan/wiki/Azure)
+  * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
+
+***
+
+## SaaS: Wekan ready paid services, just start using.
+
+* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) - Sandstorm Wekan
+* [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron) - Standalone Wekan
+* [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters) - Standalone Wekan
+* [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo) - Standalone Wekan
+
+## Standalone Wekan info: Snap, Docker, Source, etc others non-Sandstorm 
 
 **Works on Snap and Docker**
 - Import from Trello, and Import/Export Wekan.
@@ -82,30 +110,9 @@ Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get)
 
 Usually for production you just install Ubuntu 18.04 or Debian 10 VM (or without VM) and install Snap. Minimum 2 GB RAM required, preferably 4 GB or more. Requires KVM/XEN/HyperV VM or Bare Metal, where Linux kernel 3.x or 4.x or newer works, and also Snap works without problems. Requires working websockets.
 
-## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan.
+## <a name="ProductionDocker"></a>Not exposed to Internet: Docker. No automatic upgrades.
 
-If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update. If security is critical, keep behind firewall, without any ports open to Internet.
-
-* **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. 
-  * **Debian, Ubuntu and Linux Mint based distros**
-  * Arch
-  * Fedora
-  * Solus
-  * OpenSUSE
-  * Gentoo
-  * Manjaro
-  * Elementary OS
-  * CentOS 7
-* Cloud: Some additional info
-  * [AWS](https://github.com/wekan/wekan/wiki/AWS)
-  * [Azure](https://github.com/wekan/wekan/wiki/Azure)
-  * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
-
-***
-
-## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken.
-
-Only Standalone Wekan. If security is critical, keep behind firewall, without any ports open to Internet. Keep backups, Docker is more complex than others above.
+Keep backups, Docker is more complex than others above. Use only if you have time to test new release first, and it's critical nothing gets broken. Because Docker does not have automatic updates, please keep behind firewall, without any ports open to Internet, because Wekan gets new security etc updates to Node.js and other dependencies often.
 
 * [Docker](https://github.com/wekan/wekan/wiki/Docker)
   * [Windows](https://github.com/wekan/wekan/wiki/Windows) + build from source
@@ -113,17 +120,11 @@ Only Standalone Wekan. If security is critical, keep behind firewall, without an
   * [SLES 64bit](https://github.com/wekan/wekan/wiki/Install-Wekan-Docker-on-SUSE-Linux-Enterprise-Server-12-SP1)
 * [Proxy](https://github.com/wekan/wekan/issues/1480)
 
-## SaaS: Wekan ready paid services, just start using.
-
-* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) - Sandstorm Wekan
-* [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron) - Standalone Wekan
-* [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters) - Standalone Wekan
-* [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo) - Standalone Wekan
-
 *** 
-## Testing: Bundle for [RasPi 3, arm64, Windows and any Node+Mongo CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi)
+## Not exposed to Internet: Bundle for [RasPi 3, arm64, Windows and any Node+Mongo CPU architectures](https://github.com/wekan/wekan/wiki/Raspberry-Pi). No automatic updates, no sandboxing.
 
-New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used for production.
+New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used, but there
+is no automatic updates and no sandboxing.
 
 Stop Wekan. Download newest bundle version at https://releases.wekan.team .
 
@@ -161,7 +162,7 @@ See [Raspberry Pi page](https://github.com/wekan/wekan/wiki/Raspberry-Pi) for in
 * Upcoming:
   * [Friend](https://github.com/wekan/wekan/wiki/Friend) - Snap Standalone Wekan
 
-## Testing: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
+## Does not work yet: [DEB/RPM packages at Packager.io](https://packager.io/gh/wekan/wekan)
 
 New at 2019-08-04. For Ubuntu, Debian, CentOS and SLES.
 [Testing how to get it working in progress here](https://github.com/wekan/wekan/issues/2582).
