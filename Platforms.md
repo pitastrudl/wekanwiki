@@ -101,6 +101,8 @@ If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
   * [OpenShift](https://github.com/wekan/wekan/wiki/OpenShift)
 
+***
+
 ## <a name="ProductionDocker"></a>Production: Docker. No automatic upgrades, use if you have time to test new release first, and it's critical nothing gets broken.
 
 Only Standalone Wekan. If security is critical, keep behind firewall, without any ports open to Internet. Keep backups, Docker is more complex than others above.
