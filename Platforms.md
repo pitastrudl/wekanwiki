@@ -102,6 +102,9 @@ Keep backups, Docker is more complex than others above. Use only if you have tim
 New at 2019-06-30. If CPU architecture has enough RAM and fast harddisk, it can be used, but there
 is no automatic updates and no sandboxing.
 
+New at 2019-09-08. You can also try [bash install script and automatic
+upgrade script](https://github.com/wekan/wekan-bash-install-autoupgrade).
+
 Stop Wekan. Download newest bundle version at https://releases.wekan.team .
 
 Install Node 8.16.0 and some MongoDB like 3.2.x - 4.x. Preferred 4.x if available.
