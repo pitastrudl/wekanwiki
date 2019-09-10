@@ -73,9 +73,9 @@ installs. You can also [enable Admin Panel manually](https://github.com/wekan/we
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
 
-Example for latest Wekan:
+Example for latest Wekan, port 2000 to Docker Wekan internal port 8080:
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.22
+docker run -d --restart=always --name wekan-db mongo:4.0
 
 docker run -d --restart=always --name wekan --link "wekan-db:db" -e "WITH_API=true" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:2000" -p 2000:8080 quay.io/wekan/wekan
 ```
