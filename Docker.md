@@ -69,6 +69,8 @@ installs. You can also [enable Admin Panel manually](https://github.com/wekan/we
 
 ## Quay
 
+There is much more settings at well-documented [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml), those can also be added to be used below.
+
 [![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
@@ -88,9 +90,7 @@ For latest development version, use without tag:
 quay.io/wekan/wekan
 ```
 
-There is much more complete well-documented `docker-compose.yml` at [wekan-mongodb](https://github.com/wekan/wekan-mongodb) with instructions on installing there also.
-
-## Docker Hub - usually broken
+## Docker Hub - sometimes broken
 
 Currently there are two dockerhub builds for wekan. One at [mquandalle dockerhub](https://hub.docker.com/r/mquandalle/wekan/builds/) and another at [wekanteam dockerhub](https://hub.docker.com/r/wekanteam/wekan/builds/). 
 
