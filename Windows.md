@@ -1,6 +1,33 @@
-a) [Docker](https://github.com/wekan/wekan/wiki/Docker)
+a) Bundle with Windows Node+MongoDB - highest performance, lowest RAM usage
 
-b) Windows Subsystem for Linux on Windows 10
+1. Install newest Node.js v8.x.x for Windows
+https://nodejs.org/dist/v8.16.1/
+
+2. Install MongoDB 4.x for Windows
+https://www.mongodb.com/download-center/community
+
+3. Download and newest Wekan bundle wekan-3.xx.zip from https://releases.wekan.team
+
+4. Unzip wekan-3.xx.zip, it has directory name `bundle`
+
+5. Like at [bundle wiki page](https://github.com/wekan/wekan/wiki/Platforms#not-exposed-to-internet-bundle-for-raspi-3-arm64-windows-and-any-nodemongo-cpu-architectures-no-automatic-updates-no-sandboxing), similarly do for bundle:
+```
+cd bundle/programs/server
+npm install
+npm install node-gyp node-pre-gyp fibers
+cd ..\..\..
+```
+6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Edit it for your [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) etc settings.
+
+7. Start Wekan:
+```
+cd bundle
+start-wekan.bat
+```
+
+b) [Docker](https://github.com/wekan/wekan/wiki/Docker)
+
+c) Windows Subsystem for Linux on Windows 10
 - [Install Windows Subsystem for Linux](https://wiki.debian.org/InstallingDebianOn/Microsoft/Windows/SubsystemForLinux)
 - Install Debian from Windows Store
 - Use [VirtualBox scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox) of rebuild-wekan.sh etc to install and build Wekan
