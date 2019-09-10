@@ -14,7 +14,7 @@
 
 [Backup and Upgrade](https://github.com/wekan/wekan-mongodb#backup-before-upgrading)
 
-Quay: `image: quay.io/wekan/wekan:v1.07`
+Quay: `image: quay.io/wekan/wekan:v3.37`
 Docker Hub: maybe is broken.
 
 Based on Debian 10, Docker image at Quay.io Docker reqistry
@@ -75,13 +75,13 @@ installs. You can also [enable Admin Panel manually](https://github.com/wekan/we
 
 Example for latest Wekan:
 ```
-docker run -d --restart=always --name wekan-db mongo:3.2.20
+docker run -d --restart=always --name wekan-db mongo:3.2.22
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:8080" -p 8080:80 quay.io/wekan/wekan
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "WITH_API=true" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:2000" -p 2000:8080 quay.io/wekan/wekan
 ```
 Specific release in above URL, not latest:
 ```
-quay.io/wekan/wekan:v1.25
+quay.io/wekan/wekan:v3.37
 ```
 For latest development version, use without tag:
 ```
