@@ -112,13 +112,17 @@ docker cp wekan-db:/dump .
 docker cp dump wekan-db:/data/
 docker exec -it wekan-db bash
 cd /data
-mongorestore --drop --noIndexRestore --db wekan /data/dump/wekan/
+## Only if you get errors about existing indexes, use this instead:
+## mongorestore --drop --noIndexRestore --db wekan /data/dump/wekan/
+mongorestore --drop --db wekan /data/dump/wekan/
 exit
 ```
 
 That dbname can be for example wekan:
 ```
-mongorestore --drop --noIndexRestore --db wekan /data/dump/wekan/
+## Only if you get errors about existing indexes, use this instead:
+## mongorestore --drop --noIndexRestore --db wekan /data/dump/wekan/
+mongorestore --drop --db wekan /data/dump/wekan/
 ```
 
 9b) Or restore to another mongo database, in different port:
@@ -187,7 +191,9 @@ if [ $? = 0 ]; then
     tar -zx -f $1 -C $SCRIPTPATH/backups/$DATE-restore
     docker exec -t wekan-db bash -c "rm -fr /restore ; mkdir /restore"
     docker cp $SCRIPTPATH/backups/$DATE-restore/wekan wekan-db:/restore
-    docker exec -t wekan-db bash -c "mongorestore --drop --noIndexRestore --db wekan /restore/wekan/"
+    ## Only if you get errors about existing indexes, use this instead:
+    ## docker exec -t wekan-db bash -c "mongorestore --drop --noIndexRestore --db wekan /restore/wekan/"
+    docker exec -t wekan-db bash -c "mongorestore --drop --db wekan /restore/wekan/"
   fi
 else
   echo "wekan-db container is not running"
