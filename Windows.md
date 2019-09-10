@@ -25,6 +25,8 @@ cd bundle
 start-wekan.bat
 ```
 
+8. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
+
 ## b) [Docker](https://github.com/wekan/wekan/wiki/Docker)
 
 ## c) Windows Subsystem for Linux on Windows 10
