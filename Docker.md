@@ -1,3 +1,26 @@
+## Using only Docker commands
+
+[![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
+
+There is much more settings at well-documented [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml), those can also be added to be used below.
+
+[Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
+
+Example for latest Wekan, port 2000 to Docker Wekan internal port 8080:
+```
+docker run -d --restart=always --name wekan-db mongo:4.0
+
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "WITH_API=true" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:2000" -p 2000:8080 quay.io/wekan/wekan
+```
+Specific release in above URL, not latest:
+```
+quay.io/wekan/wekan:v3.37
+```
+For latest development version, use without tag:
+```
+quay.io/wekan/wekan
+```
+
 ## DockerBunker: Easy Docker management
 
 [Managing Docker containers with DockerBunker](https://github.com/chaosbunker/dockerbunker)
@@ -66,29 +89,6 @@ TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring
 
 First registered Wekan user will get Admin Panel on new Docker and source based
 installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
-
-## Quay
-
-There is much more settings at well-documented [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml), those can also be added to be used below.
-
-[![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
-
-[Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
-
-Example for latest Wekan, port 2000 to Docker Wekan internal port 8080:
-```
-docker run -d --restart=always --name wekan-db mongo:4.0
-
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "WITH_API=true" -e "MONGO_URL=mongodb://db" -e "ROOT_URL=http://192.168.1.200:2000" -p 2000:8080 quay.io/wekan/wekan
-```
-Specific release in above URL, not latest:
-```
-quay.io/wekan/wekan:v3.37
-```
-For latest development version, use without tag:
-```
-quay.io/wekan/wekan
-```
 
 ## Docker Hub - sometimes broken
 
