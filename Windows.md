@@ -2,32 +2,38 @@
 
 This has **highest performance and lowest RAM usage**, because there is no virtualization like Docker, Windows Subsystem for Linux, etc. Wekan is run with Windows native version of Node.js and MongoDB, directly at Windows filesystem.
 
-1. Install newest Node.js v8.x.x for Windows
+1. If you have important data in Wekan, do [backup](https://github.com/wekan/wekan/wiki/Backup).
+
+2. Install newest Node.js v8.x.x for Windows
 https://nodejs.org/dist/v8.16.1/
 
-2. Install MongoDB 4.x for Windows
+3. Install MongoDB 4.x for Windows
 https://www.mongodb.com/download-center/community
 
-3. Download and newest Wekan bundle wekan-3.xx.zip from https://releases.wekan.team
+4. Download and newest Wekan bundle wekan-3.xx.zip from https://releases.wekan.team
 
-4. Unzip wekan-3.xx.zip, it has directory name `bundle`
+5. Unzip wekan-3.xx.zip, it has directory name `bundle`
 
-5. Like at [bundle wiki page](https://github.com/wekan/wekan/wiki/Platforms#not-exposed-to-internet-bundle-for-raspi-3-arm64-windows-and-any-nodemongo-cpu-architectures-no-automatic-updates-no-sandboxing), similarly do for bundle:
+6. Like at [bundle wiki page](https://github.com/wekan/wekan/wiki/Platforms#not-exposed-to-internet-bundle-for-raspi-3-arm64-windows-and-any-nodemongo-cpu-architectures-no-automatic-updates-no-sandboxing), similarly do for bundle:
 ```
 cd bundle/programs/server
 npm install
 npm install node-gyp node-pre-gyp fibers
 cd ..\..\..
 ```
-6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Edit it for your [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) etc settings.
+7. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Edit it for your [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) etc settings.
 
-7. Start Wekan:
+8. Start Wekan:
 ```
 cd bundle
 start-wekan.bat
 ```
 
-8. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
+9. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
+
+
+***
+
 
 ## b) [Docker](https://github.com/wekan/wekan/wiki/Docker)
 
