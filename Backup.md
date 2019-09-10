@@ -101,7 +101,10 @@ makesRestore()
 
     printf "\nThe database restore is in progress.\n\n"
 
-    $restore --quiet --drop --noIndexRestore -d wekan --port 27019 "${file}/dump/wekan"
+    ## Only if you get errors about existing indexes, use this below instead:
+    ## $restore --quiet --drop --noIndexRestore -d wekan --port 27019 "${file}/dump/wekan"
+
+    $restore --quiet --drop -d wekan --port 27019 "${file}/dump/wekan"
 
     rm -rf "${file}"
 
@@ -196,7 +199,9 @@ makesRestore()
 
     # Restores.
     printf "\nThe database restore is in progress.\n\n"
-    $restore --drop --noIndexRestore wekan --port 27019 $file/dump/wekan
+    ## Only if you get errors about existing indexes, use this below instead:
+    ## $restore --drop --noIndexRestore wekan --port 27019 $file/dump/wekan
+    $restore --drop wekan --port 27019 $file/dump/wekan
     printf "\nRestore done.\n"
 
     # Cleanups
@@ -433,11 +438,11 @@ http://example.com https://example.com {
             load /var/snap/wekan/common/certificates
             alpn http/1.1
         }
-        root /var/snap/wekan/common/rantapuisto
+        root /var/snap/wekan/common/example.com
         browse
 }
 
 static.example.com {
-	root /var/snap/wekan/common/hydesoft.fi
+	root /var/snap/wekan/common/static.example.com
 }
 ```
