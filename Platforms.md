@@ -41,9 +41,7 @@ Downloading and installing Wekan on various platforms.
 
 [Security audited](https://sandstorm.io/news/2017-03-02-security-review), recommended for security critical use on public internet or internal network. [Sandstorm Security Features](https://docs.sandstorm.io/en/latest/using/security-practices/). Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
 
-Use SaaS or install to your own server. Automatic updates, tested before release. Sandstorm Wekan has different features than Standalone.
-
-Please support Sandstorm by [subscribing to paid plan](https://sandstorm.io/get). Free plans [will be discontinued](https://sandstorm.io/news/2018-08-27-discontinuing-free-plan) because there is not enough paid subscribers to pay for server costs. xet7 has spent countless hours to keeping Wekan working on Sandstorm platform, and [many depend on Sandstorm daily. Wekan Team website](https://wekan.team) and [blog](https://blog.wekan.team) run on Sandstorm Oasis, using account paid by xet7. xet7 plans to add more fixes to features to Sandstorm platform. You can also support Wekan on Sandstorm by using [Commercial Support by xet7](https://wekan.team).
+Install to your own server. Automatic updates, tested before release. Sandstorm Wekan has different features than Standalone.
 
 **Works**
 - Google/GitHub/LDAP/SAML/Passwordless email login.
@@ -83,7 +81,6 @@ If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs
 
 ## Production: SaaS, Wekan ready paid services, just start using.
 
-* [Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) - Sandstorm Wekan
 * [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron) - Standalone Wekan
 * [Indiehosters](https://github.com/wekan/wekan/wiki/Indiehosters) - Standalone Wekan
 * [Scalingo](https://github.com/wekan/wekan/wiki/Scalingo) - Standalone Wekan
