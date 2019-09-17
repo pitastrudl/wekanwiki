@@ -14,7 +14,7 @@
 
 # <a name="Support"></a>Support priorities for new features and bugfixes
 
-1) [Commercial Support and Bounties](https://wekan.team)
+1) [Commercial Support](https://wekan.team/commercial-support/)
 2) [Community Support](https://github.com/wekan/wekan/issues)
 3) [Debugging](https://github.com/wekan/wekan/wiki/Debugging)
 
