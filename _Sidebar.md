@@ -20,7 +20,7 @@
 
 # <a name="Security"></a>Security
 
-* [Security Disclosure and details of Security in Wekan](https://github.com/wekan/wekan/blob/devel/SECURITY.md)
+* [Security Disclosure and details of Security in Wekan](https://github.com/wekan/wekan/blob/master/SECURITY.md)
 * [Security issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+label%3ASecurity)
 
 # Backup
