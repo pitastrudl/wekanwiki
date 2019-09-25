@@ -20,14 +20,14 @@ When you run this, you see .jade template files where is search input box, and .
 - Currently Wekan development is done mainly at Ubuntu 16.04 64bit, but building Wekan does work on any Debian 9 64bit or Ubuntu 14.04 64bit or newer.
 - Install [Wekan from source](https://github.com/wekan/wekan) with rebuild-wekan.sh script, with options 1 to install dependencies and 2 to rebuild source, to your Linux computer (Debian 9 or Ubuntu 14.04 or newer), or try installing it via the [[virtual appliance|virtual-appliance]]
 - You can use for example [Visual Studio Code](https://code.visualstudio.com/) for editing code, it has Meteor.js etc plugins 
-- When changing database schema, [migrations can be used](https://github.com/wekan/wekan/blob/devel/server/migrations.js).
+- When changing database schema, [migrations can be used](https://github.com/wekan/wekan/blob/master/server/migrations.js).
 - [Excellent example how pull requests are improved and integrated, and not needed commits removed](https://github.com/wekan/wekan/pull/1470)
 - Ask questions at [![Wekan chat][vanila_badge]][vanila_chat]
   -  We used to be at ~~[Rocket.Chat][rocket_chat]~~ but that's been discontinued.
 - You can ask anything, we are here to help. But also consult the sources that are already available.
   - Look through old [pull requests](https://github.com/wekan/wekan/pulls)
   - Read Wekan source code, you can use some git history viewer GUI like gitk
-  - Read [Meteor documentation](https://docs.meteor.com/) for [Meteor version](https://github.com/wekan/wekan/blob/devel/.meteor/release) in use, other versions mentioned at [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile)
+  - Read [Meteor documentation](https://docs.meteor.com/) for [Meteor version](https://github.com/wekan/wekan/blob/master/.meteor/release) in use, other versions mentioned at [Dockerfile](https://github.com/wekan/wekan/blob/master/Dockerfile)
 - Docker up-to-date way: You can  clone wekan/wekan repo and update docker-compose.yml file ROOT_URL etc as documented at https://github.com/wekan/wekan-mongodb commented docker-compose.yml file, install docker, and build from source with docker with "docker-compose up -d --build"
 - Docker not up-to-date way: [Docker environment for Wekan development](https://github.com/wekan/wekan-dev). 
 

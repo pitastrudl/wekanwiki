@@ -252,7 +252,7 @@ I do have server at AWS LightSail that has 4 GB RAM and 60 GB SSD,
 running [Snap versions of Wekan and RocketChat installed this way](https://github.com/wekan/wekan/wiki/OAuth2)
 on same server, and it does not crash.
 
-BTW, I did yesterday release [Wekan v2.95 with these new features](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v295-2019-07-01-wekan-release).
+BTW, I did yesterday release [Wekan v2.95 with these new features](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v295-2019-07-01-wekan-release).
 
 ***
 ### Q: Board cleanup?

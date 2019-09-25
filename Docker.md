@@ -88,7 +88,7 @@ TODO: [Docker Compose: Wekan <=> MongoDB <=> ToroDB => MySQL read-only mirroring
 ## Admin Panel
 
 First registered Wekan user will get Admin Panel on new Docker and source based
-installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
+installs. You can also [enable Admin Panel manually](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease)
 
 ## Docker Hub - sometimes broken
 

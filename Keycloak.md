@@ -37,7 +37,7 @@ sudo systemctl status snap.wekan.wekan
 
 ## Docker
 
-[docker-compose.yml](https://github.com/wekan/wekan/blob/devel/docker-compose.yml)
+[docker-compose.yml](https://github.com/wekan/wekan/blob/master/docker-compose.yml)
 ```
 - DEBUG=true
 - OAUTH2_ENABLED=true

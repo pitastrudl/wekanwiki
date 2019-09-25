@@ -9,7 +9,7 @@ Anyone: If you get this working, edit this wiki and add remaining to be installe
 - Update [Install from source](https://github.com/wekan/wekan/wiki/Install-and-Update#install-mongodb-1) so then this temporary page can possibly be removed later
 
 ## Related info
-- Node.js and npm version downloaded at [Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile)
+- Node.js and npm version downloaded at [Dockerfile](https://github.com/wekan/wekan/blob/master/Dockerfile)
 - https://gist.github.com/isaacs/579814
 - http://linuxbrew.sh
 

@@ -68,7 +68,7 @@ mongorestore --drop --noIndexRestore
 ```
 And maybe [run as service](https://www.certdepot.net/rhel7-install-wekan/)
 
-Or start at boot, by having [at bottom of /etc/rc.local](https://github.com/wekan/wekan/blob/devel/releases/virtualbox/etc-rc.local.txt).
+Or start at boot, by having [at bottom of /etc/rc.local](https://github.com/wekan/wekan/blob/master/releases/virtualbox/etc-rc.local.txt).
 
 7) On other computer, with webbrowser go to http://192.168.0.12 (or other of your IP address you changed to start-wekan.sh)
 

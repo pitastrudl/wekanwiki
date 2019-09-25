@@ -32,7 +32,7 @@
 
 1) Increase ulimit system wide to 100 000 in systemd config.
 
-2) Wekan Javascript code has [increaded fiber poolsize](https://github.com/wekan/wekan/blob/devel/server/authentication.js#L5-L9).
+2) Wekan Javascript code has [increaded fiber poolsize](https://github.com/wekan/wekan/blob/master/server/authentication.js#L5-L9).
 
 3) There is [on-going 100% CPU usage Meteor issue](https://github.com/meteor/meteor/issues/9796#issuecomment-400079380) and hopefully [fixes to Node.js will land in Node v8.12](https://github.com/nodejs/node/pull/21593#issuecomment-403636667) sometime. Node 8.12 is now released and official version included at Wekan.
 
@@ -42,13 +42,13 @@
 
 ## Current versions of dependencies
 
-[Dockerfile](https://github.com/wekan/wekan/blob/devel/Dockerfile), versions of Meteor.js, Node etc listed at beginning.
+[Dockerfile](https://github.com/wekan/wekan/blob/master/Dockerfile), versions of Meteor.js, Node etc listed at beginning.
 
-[Included Meteor packages](https://github.com/wekan/wekan/blob/devel/.meteor/packages)
+[Included Meteor packages](https://github.com/wekan/wekan/blob/master/.meteor/packages)
 
-[Included Meteor package versions](https://github.com/wekan/wekan/blob/devel/.meteor/versions)
+[Included Meteor package versions](https://github.com/wekan/wekan/blob/master/.meteor/versions)
 
-[Added packages at package.json](https://github.com/wekan/wekan/blob/devel/package.json)
+[Added packages at package.json](https://github.com/wekan/wekan/blob/master/package.json)
 
 ## Build from source
 

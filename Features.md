@@ -1,6 +1,6 @@
 # Current
 
-Not all from [CHANGELOG](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md) are added to here yet.
+Not all from [CHANGELOG](https://github.com/wekan/wekan/blob/master/CHANGELOG.md) are added to here yet.
 
 ## Kanban
 
@@ -105,7 +105,7 @@ Tip: Normally you archive a card so you can restore it back. If you want to dele
 
 NOTE: There is user admin as "People" in Admin Panel, but no screenshot here yet.
 
-* Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
+* Source and Docker platforms: [Admin Panel](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v0111-rc2-2017-03-05-wekan-prerelease): Self-registration, or change to invite-only and inviting users to boards. SMTP Settings.
 
 ![Wekan Admin Panel registration disable screenshot](https://wekan.github.io/screenshot-admin-panel-registration.png)
 
@@ -184,7 +184,7 @@ ElasticSearch / Kibana (ELK)](https://github.com/wekan/wekan-logstash)
 
 # Already merged, will be at next version
 
-* [Changelog](https://github.com/wekan/wekan/blob/devel/CHANGELOG.md)
+* [Changelog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md)
 
 # Wishes for pull requests
 

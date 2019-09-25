@@ -29,7 +29,7 @@ sed -i 's|FindThisText|ReplaceWithThisText|g' *
 
 ### Newest
 - Schema https://github.com/wekan/wekan/tree/devel/models
-- Migrations https://github.com/wekan/wekan/blob/devel/server/migrations.js
+- Migrations https://github.com/wekan/wekan/blob/master/server/migrations.js
 
 ## 5) Some migrations could be missing
 
