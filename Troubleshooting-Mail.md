@@ -4,6 +4,34 @@
 You can convert special characters of your password at https://www.url-encode-decode.com
 and copy converted characters to your password.
 
+## Example: AWS SES
+
+```
+sudo snap set wekan mail-url="smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587"
+sudo snap set wekan mail-from="Wekan Team Boards <info@example.com>"
+```
+
+## Example: username contains @
+
+Below `@` is urlencoded to `%40`
+
+```
+sudo snap set wekan mail-url="smtps://user%40provider.com:xxxxxx@smtp.provider.com:587"
+sudo snap set wekan mail-from="Boards Support <user@provider.com>"
+```
+
+If settings happends to disappear, it's possible set cron job to run those at morning, see: https://crontab.guru
+```
+sudo su
+export EDITOR=nano
+crontab -e
+``
+There at bottom add these. Optional is to add to end of snap command `2>&1` to disable output,if there is any.
+```
+06 00 * * * sudo snap set wekan mail-url="smtps://user%40provider.com:xxxxxx@smtp.provider.com:587"
+06 01 * * * sudo snap set wekan mail-from="Boards Support <user@provider.com>"
+```
+
 ## Check is username and password required
 
 If your email server does not require authentication like username and password, [don't include them in MAIL_URL](https://github.com/wekan/wekan/issues/2106). For example, IBM Notes does not require username and password.
