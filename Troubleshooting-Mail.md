@@ -25,7 +25,7 @@ If settings happends to disappear, it's possible set cron job to run those at mo
 sudo su
 export EDITOR=nano
 crontab -e
-``
+```
 There at bottom add these. Optional is to add to end of snap command `2>&1` to disable output,if there is any.
 ```
 06 00 * * * sudo snap set wekan mail-url="smtps://user%40provider.com:xxxxxx@smtp.provider.com:587"
