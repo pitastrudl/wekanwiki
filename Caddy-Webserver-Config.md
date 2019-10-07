@@ -66,6 +66,8 @@ Exit: Ctrl-x
 Enable Caddy:
 ```
 sudo snap set wekan caddy-enabled='true'
+sudo snap set wekan port='3001'
+sudo snap set wekan root-url='https://example.com'
 ```
 
 ### 7) Enable CloudFlare SSL
