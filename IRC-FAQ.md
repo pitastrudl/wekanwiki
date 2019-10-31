@@ -17,15 +17,6 @@ A: It's a [bug in Meteor](https://github.com/wekan/wekan/issues/2643),
 mobile browsers are detected wrong, so it uses wrong javascript bundle.
 It will be fixes sometime in near future.
 
-### Q: Showing archive?
-```
-[12:52:55] <MarioSC> The second problem is the archive... when you
-open the archive to delete a card,  all of a sudden, already archived
-lists show in the board again until you reload it.
-```
-A: That's a new bug, thanks for reporting it.
-xet7 will try how that happens.
-
 ### Q: Colored text?
 ```
 [13:06:20] <MarioSC> Whenever we want to make titles or
