@@ -8,7 +8,7 @@ https://wekan.github.io/api/v3.46/#wekan-rest-api-customfields
 https://wekan.github.io/api/v3.46/#put_board_list_card
 
 4) When writing Custom Field value to card, like text field, content type needs to be "application/json" and the string needs to be an array:
-``
+```
 -d '{ "customFields" : [ { "_id" : "oZHkpcaxDHnbkbqGo", "value" : "foobar" } ] }'
 ```
 5) For other types of Custom Fields, you can look at Custom Field structure from MongoDB database with [nosqlbooster](https://nosqlbooster.com/downloads) that can also login through ssh to server Wekan snap MongoDB port 27019
