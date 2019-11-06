@@ -2,7 +2,7 @@
 
 GitHub Username | Location | Position | Details
 ------------ | ------------ | ------------ | ------------
-[xet7](https://github.com/xet7) | xet7 | Finland | Maintainer since 2016-12 | Source/Docker/Ubuntu snap/VirtualBox releases, testing and merging pull requests, organizing and answering issues, updating wiki and website, some features. Ask anytime at tagging @xet7 .
+[xet7](https://github.com/xet7) | Finland | Maintainer since 2016-12 | Source/Docker/Ubuntu snap/VirtualBox releases, testing and merging pull requests, organizing and answering issues, updating wiki and website, some features. Ask anytime at tagging @xet7 .
 
 # Current most frequent Contributors
 
