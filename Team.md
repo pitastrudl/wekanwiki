@@ -1,10 +1,28 @@
-# Current Contributors
+# Current Team
 
-See newest contributors at [ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md)
+GitHub Username | Location | Position | Details
+------------ | ------------ | ------------ | ------------
+[xet7](https://github.com/xet7) | xet7 | Finland | Maintainer since 2016-12 | Source/Docker/Ubuntu snap/VirtualBox releases, testing and merging pull requests, organizing and answering issues, updating wiki and website, some features. Ask anytime at tagging @xet7 .
+
+# Current most frequent Contributors
+
+Also, see newest contributors at [ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md)
+
+GitHub Username | Location | Position | Details
+------------ | ------------ | ------------ | ------------
+[whowillcare](https://github.com/whowillcare) | Universe | Contributor | Added WYSIWYG card comment editor that can be turned off with `sudo snap set wekan richer-card-comment-editor='false'`, Global webhook to Admin Panel, etc a lot of features.
+[juliensl](https://github.com/juliensl) | Universe | Contributor | Can help finding in which Wekan version Docker tag something worked and in next version broke, please tag @juliensl when that is needed, he saves a lot of time of xet7
+[justinr1234](https://github.com/xet7) | Universe | Contributor | Added more MongoDB indexes for huge Wekan speedup. Added prettier that formats code style. Etc.
+[road42](https://github.com/road42) | Universe | Contributor | Devcontainer etc.
+[Akuket](https://github.com/Akuket) | Universe | Contributor | Added LDAP to Wekan. Etc.
+[bentiss](https://github.com/bentiss) | Universe | Contributor | Added OpenAPI docs generation, swimlanes etc.
+[liske](https://github.com/liske) | Germany | Contributor | Added REST API, card time etc fixes.
+[urakagi](https://github.com/urakagi) | Taiwan | Contributor | Fixed app hang. [In the filter menu, 1) Turning on "show archive" will request archived lists and show them on the ListView. 2) Turning on "hide empty lists" will hide empty lists on the ListView](https://github.com/wekan/wekan/pull/2632). Etc.
+[jymcheong](https://github.com/jymcheong) | Universe | Contributor | Added Card Open Webhook.
 
 ***
 
-# Some Contributors - not up-to-date
+# Previous Contributors
 
 This page lists some of the contributors that have donated their time, resources or code to the project. This list is not up-to-date.
 
