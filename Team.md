@@ -4,7 +4,7 @@ GitHub Username | Location | Position | Details
 ------------ | ------------ | ------------ | ------------
 [xet7](https://github.com/xet7) | Finland | Maintainer since 2016-12 | Source/Docker/Ubuntu snap/VirtualBox releases, testing and merging pull requests, organizing and answering issues, updating wiki and website, some features.
 
-If anyone finds what issue can be closed, is already fixed, you find how to fix it, or can check with Docker version tags in what version something broke and in next was fixed, please add comment to issue about it. xet7 gets email from every new issue and comment to issue. Thanks!
+If anyone finds what issue can be closed, is already fixed, you find how to fix it, or can check with Docker version tags in what version something broke and in next was fixed, please add comment to issue about it. xet7 gets email from every new issue and comment to issue. Pull requests very welcome. Thanks!
 
 # Current most frequent Contributors
 
