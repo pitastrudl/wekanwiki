@@ -16,7 +16,7 @@ GitHub Username | Location | Position | Details
 [road42](https://github.com/road42) | Universe | Contributor | Devcontainer etc.
 [Akuket](https://github.com/Akuket) | Universe | Contributor | Added LDAP to Wekan. Etc.
 [bentiss](https://github.com/bentiss) | Universe | Contributor | Added OpenAPI docs generation, swimlanes etc.
-[liske](https://github.com/liske) | Germany | Contributor | Added REST API, card time etc fixes.
+[liske](https://github.com/liske) | Germany | Contributor | Added card REST API fix, card time fix etc.
 [urakagi](https://github.com/urakagi) | Taiwan | Contributor | Fixed app hang. [In the filter menu, 1) Turning on "show archive" will request archived lists and show them on the ListView. 2) Turning on "hide empty lists" will hide empty lists on the ListView](https://github.com/wekan/wekan/pull/2632). Etc.
 [jymcheong](https://github.com/jymcheong) | Universe | Contributor | Added Card Open Webhook.
 
