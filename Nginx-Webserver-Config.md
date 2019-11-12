@@ -1,3 +1,8 @@
+## CentOS 7
+
+If you use Nginx in front of Wekan on CentOS 7, you should
+[disable selinux to prevent Nginx permission denied error](https://github.com/wekan/wekan/issues/2792).
+
 ## [Attachment file size](https://github.com/wekan/wekan/issues/2103#issuecomment-455014303)
 
 [Meteor.js on Ubuntu 14.04 with nginx](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx)
