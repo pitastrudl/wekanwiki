@@ -106,11 +106,11 @@ upgrade script](https://github.com/wekan/wekan-bash-install-autoupgrade).
 
 Stop Wekan. Download newest bundle version at https://releases.wekan.team .
 
-Install Node 8.16.0 and some MongoDB like 3.2.x - 4.x. Preferred 4.x if available.
+Install Node 8.16.2 and some MongoDB like 3.2.x - 4.x. Preferred 4.x if available.
 Bundle works for Windows native Node.js and MongoDB, arm64 server, etc any CPU node+mongodb.
 Building from source does not seem to work on Windows.
 
-Extra steps for CentOS 6:
+Extra steps only for CentOS 6:
 - Install gcc-4.9.3 and boost
 - Add gcc to path, for example: `export LD_LIBRARY_PATH=/root/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/:$LD_LIBRARY_PATH`
 - At below fibers step, do instead `npm install fibers@2.0.1`
