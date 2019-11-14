@@ -120,7 +120,7 @@ Then, for example:
 mkdir repos
 cd ~/repos
 rm -rf bundle
-wget https://releases.wekan.team/wekan-3.01.zip
+wget https://releases.wekan.team/wekan-3.52.zip
 unzip wekan-3.01.zip
 cd bundle/programs/server
 npm install
