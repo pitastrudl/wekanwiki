@@ -98,7 +98,7 @@ At docker-compose.yml is these lines:
     #-------------------------------------------------------------------------------------
 ```
 Uncomment from those this way:
-``
+```
     build:
       context: .
       dockerfile: Dockerfile
