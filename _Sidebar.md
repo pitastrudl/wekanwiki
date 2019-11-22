@@ -3,7 +3,7 @@
 # <a name="General"></a>General
 
 * [About](https://github.com/wekan/wekan/wiki)
-* [Testing Edge](https://github.com/wekan/wekan/wiki/Testing-Edge)
+* [Testing Edge](https://github.com/wekan/wekan/wiki/Test-Edge)
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 * [IRC FAQ](https://github.com/wekan/wekan/wiki/IRC-FAQ) - answers to questions asked at IRC
 * [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license) - board at Wekan demo
