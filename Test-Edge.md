@@ -78,7 +78,21 @@ image: quay.io/wekan/wekan:v3.55
 image: wekanteam/wekan:v3.55
 ```
 
-## Build Docker version from source
+### How to change Docker version
+
+1) Backup first
+https://github.com/wekan/wekan/wiki/Backup
+
+```
+docker-compose stop
+docker rm wekan-app
+```
+2) Change version tag. Then:
+```
+docker-compose up -d
+```
+
+### Build Docker version from source
 
 At docker-compose.yml is these lines:
 
@@ -116,20 +130,6 @@ Uncomment from those this way:
 Then start Wekan to http://localhost this way:
 ```
 docker-compose up -d --build
-```
-
-## How to change Docker version
-
-1) Backup first
-https://github.com/wekan/wekan/wiki/Backup
-
-```
-docker-compose stop
-docker rm wekan-app
-```
-2) Change version tag. Then:
-```
-docker-compose up -d
 ```
 
 ## Sandstorm
