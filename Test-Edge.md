@@ -1,6 +1,6 @@
 ## Testers to ping with new Wekan Edge release
-- All those whose issues were fixed
-- @saschafoerster 
+- All those whose issues were fixed [at ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md)
+- @saschafoerster
 
 Those should reply to new issue that has name `Test Edge Wekan (version-number-here)` at https://github.com/wekan/wekan/issues .
 
