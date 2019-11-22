@@ -4,7 +4,7 @@
 
 Those should reply to new issue that has name `Test Edge Wekan (version-number-here)` at https://github.com/wekan/wekan/issues .
 
-## Why test
+## Why test?
 
 https://github.com/wekan/wekan/issues/2811
 
