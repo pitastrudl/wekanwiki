@@ -73,7 +73,7 @@ image: wekanteam/wekan
 ```
 image: quay.io/wekan/wekan:v3.55
 ```
-[Docker Hub tags](https://hub.docker.com/r/wekanteam/wekan/tags)
+[Docker Hub tags](https://hub.docker.com/r/wekanteam/wekan/tags):
 ```
 image: wekanteam/wekan:v3.55
 ```
