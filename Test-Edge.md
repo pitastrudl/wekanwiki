@@ -1,6 +1,8 @@
-## Testers to ping with new release
+## Testers to ping with new Wekan Edge release
 - All those whose issues were fixed
 - @saschafoerster 
+
+Those should reply to new issue that has name `Test Edge Wekan (version-number-here)` at https://github.com/wekan/wekan/issues .
 
 ## Why test
 
