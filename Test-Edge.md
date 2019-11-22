@@ -10,7 +10,7 @@ https://github.com/wekan/wekan/issues/2811
 
 1. There is many new issues about some same new feature or bug. Yes, also when some notices new feature that is already [at ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md), they add issue about it, usually asking "Can this feature be turned off or made optional?". This is usually if new feature changes some old workflow radically.
 2. Many do tag @xet7 that are you aware of the issue.
-3. Someone yells at IRC that "this is too much, it's time to fork Wekan". Well, because he gets yelled at by all users of Wekan at his company.
+3. Someone yells at IRC that "this is too much, it's time to fork Wekan". Well, that's because he gets yelled at by all users of Wekan at his company.
 4. xet7 does not have time to answer those, he just fixes the issue - usually at the same day, makes new release, closes all related issues with last comment "Please try Wekan (version-number-here)".
 5. There is [only one comment](https://github.com/wekan/wekan/issues/2812#issuecomment-555860032) that says "This resolved things for me. Thanks for such a quick fix. This is an invaluable piece of software for me!"
 6. xet7 thinks this is great normal development day: Got some features added, got some bugs fixes, and happily goes to sleep well. Because above 1-5 has happened many times before, it's just normal.
@@ -52,7 +52,7 @@ sudo snap refresh wekan --stable --amend
 
 ## Docker
 
-docker-compose.yml is at https://github.com/wekan/wekan .
+`docker-compose.yml` is at https://github.com/wekan/wekan .
 
 ### Latest development version from master branch
 
@@ -68,12 +68,52 @@ image: wekanteam/wekan
 ### Example of using release tags
 
 Quay:
-``
+```
 image: quay.io/wekan/wekan:v3.55
 ```
 Docker Hub:
 ```
 image: wekanteam/wekan:v3.55
+```
+
+## Build Docker version from source
+
+At docker-compose.yml is these lines:
+
+```
+    #-------------------------------------------------------------------------------------
+    # ==== BUILD wekan-app DOCKER CONTAINER FROM SOURCE, if you uncomment these ====
+    # ==== and use commands: docker-compose up -d --build
+    #build:
+    #  context: .
+    #  dockerfile: Dockerfile
+    #  args:
+    #    - NODE_VERSION=${NODE_VERSION}
+    #    - METEOR_RELEASE=${METEOR_RELEASE}
+    #    - NPM_VERSION=${NPM_VERSION}
+    #    - ARCHITECTURE=${ARCHITECTURE}
+    #    - SRC_PATH=${SRC_PATH}
+    #    - METEOR_EDGE=${METEOR_EDGE}
+    #    - USE_EDGE=${USE_EDGE}
+    #-------------------------------------------------------------------------------------
+```
+Uncomment from those this way:
+``
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NODE_VERSION=${NODE_VERSION}
+        - METEOR_RELEASE=${METEOR_RELEASE}
+        - NPM_VERSION=${NPM_VERSION}
+        - ARCHITECTURE=${ARCHITECTURE}
+        - SRC_PATH=${SRC_PATH}
+        - METEOR_EDGE=${METEOR_EDGE}
+        - USE_EDGE=${USE_EDGE}
+```
+Then start Wekan to http://localhost this way:
+```
+docker-compose up -d --build
 ```
 
 ## How to change Docker version
