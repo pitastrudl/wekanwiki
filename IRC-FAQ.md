@@ -8,9 +8,45 @@
 ***
 ### Q: Fork?
 ```
-<Dalisay> Really, wekan could be so promising,  but I think it's time for a fork
+[15:24:31] <Dalisay> hi
+[15:25:13] <Dalisay> I don't mean to come across ungrateful.
+[15:25:29] <Dalisay> But I really want to mention,  that wekan should be tested much better before releasing a new version.
+[15:25:46] <Dalisay> It's not important to release a new version every day.
+[15:25:58] <Dalisay> It's okay if there is a new version only every 2 weeks.
+[15:26:09] <Dalisay> But whenever there is a new version, it should be stable.
+[15:26:14] <Dalisay> really stable.  rocksolid.
+[15:26:32] <Dalisay> We can not move cards!
+[15:26:35] <Dalisay> We can not add cards
+[15:27:00] <Dalisay> and when I run "snap revert wekan",  I get the other version which has the bug of the unsorted columns
+[15:28:10] <Dalisay> I really understand that it's open source and free software.
+[15:28:24] <Dalisay> But people trust wekan in real life.  They use it on a daily basis in their work life.
+[15:28:36] <Dalisay> It's a nightmare, when you come to work in the morning, and nothing works any more
+[15:28:55] <Dalisay> The previous version has a major bug  (the lists that could not be sorted and showed in the wrong order)
+[15:29:06] <Dalisay> and the current version is also buggy (can't move cards / can't add new cards)
+[15:29:20] <Dalisay> These updates come via snap automatically.
+[15:29:27] <Dalisay> That involves a lot of trust.
+[15:30:51] <Dalisay> There really must be more testing.
+[15:31:14] <Dalisay> Also the github issues page has reports already.
+[15:32:20] <Dalisay> This user also explains what I just said:
+[15:32:21] <Dalisay> https://github.com/wekan/wekan/issues/2814#issuecomment-555427628
+[15:33:20] <Dalisay> "snap revert wekan"  messes up the list order because this was a bug in the previous version
+[15:33:30] <Dalisay> so there is no bug-free version available now.
+[15:33:36] <Dalisay> I am not talking about small bugs.
+[15:34:03] <Dalisay> these are all bugs that massively mess up the functionality to a degree, that it renders the board useless
+[15:34:42] <Dalisay> Wekan is such a promising project.
+[15:34:47] <Dalisay> But the testing must be much better.
+[15:54:46] <Dalisay> aaaaaaaaaaaand OPENING cards on Samsung phones & tablets stopped working again!
+[15:54:55] <Dalisay> it worked in the "edge" version of wekan
+[15:54:59] <Dalisay> now it does not work any more
+[15:55:12] <Dalisay> cards can NOT be opened any more on Samsung phones & tablets
+[15:55:24] <Dalisay> constantly, there is something that breaks
+[15:55:53] <Dalisay> Really, wekan could be so promising,  but I think it's time for a fork
+[15:58:56] <Dalisay> https://github.com/wekan/wekan/issues/2814
+[15:59:22] <Dalisay> https://github.com/wekan/wekan/issues/2810
+[16:00:14] <Dalisay> bye, cya later
 ```
 A: 
+- Please test Wekan v3.55, are issues you m
 - Do you have time to be Wekan co-maintainer?
 - What is URL to your fork? Please send it to me with email to x@xet7.org . Thanks! Currently there is about 2200 forks of Wekan, it would be hard to find without exact URL.
 - What features and fixes have you implemented to Wekan?
