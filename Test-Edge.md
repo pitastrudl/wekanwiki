@@ -3,8 +3,8 @@
 https://github.com/wekan/wekan/issues/2811
 
 ## Who should test
-- If you are the person in your company that gets yelled at when something breaks in new version of Wekan
-- If you think xet7 releasing new version of Wekan every day directly to stable production Snap channel is in any way risky
+- If you are the person in your company that gets yelled at when something breaks in new version of Wekan.
+- If you think xet7 releasing new version of Wekan every day directly to stable production Snap channel is in any way risky.
 
 ## What usually happens when Wekan gets broken
 
