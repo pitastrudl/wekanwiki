@@ -4,7 +4,15 @@ https://github.com/wekan/wekan/issues/2811
 
 ## Who should test
 - If you are the person in your company that gets yelled at when something breaks in new version of Wekan
-- If you think xet7 releasing new version of Wekan every day directly to stable production channel is in any way risky
+- If you think xet7 releasing new version of Wekan every day directly to stable production Snap channel is in any way risky
+
+## What usually happens when Wekan gets broken
+
+1. There is many new issues about some same new feature or bug. Yes, when someone notices new feature that is [at ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md), they add issue about it.
+2. Many do tag @xet7 that are you aware of the issue.
+3. Someone yells at IRC that "this is too much, it's time to fork Wekan". Well, because he get's yelled at by all users of Wekan at his company.
+4. xet7 does not have time to answer those, he just fixes the issue - usually at the same day, makes new release, closes all related issues with last comment "Please try Wekan (version-number-here)".
+5. There is [only one comment](https://github.com/wekan/wekan/issues/2812#issuecomment-555860032) that says "This resolved things for me. Thanks for such a quick fix. This is an invaluable piece of software for me!"
 
 ## Testers to ping with new release
 - All those whose issues were fixed
@@ -48,7 +56,7 @@ docker-compose.yml is at https://github.com/wekan/wekan .
 ### Latest development version from master branch
 
 Quay:
-``
+```
 image: quay.io/wekan/wekan
 ```
 Docker Hub:
