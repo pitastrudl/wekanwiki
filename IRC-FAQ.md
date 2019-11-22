@@ -62,8 +62,8 @@ A:
 - What is URL to your fork? Please send it to me with email to x@xet7.org . Thanks! Currently there is about 2200 forks of Wekan, it would be hard to find without exact URL.
 - What features and fixes have you implemented to Wekan?
 - [What usually happens when Wekan gets broken](https://github.com/wekan/wekan/wiki/Test-Edge#what-usually-happens-when-wekan-gets-broken).
-- [Benefits of contributing your features to upstream Wekan](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html)
-- [What was Wekan fork](https://github.com/wekan/wekan/wiki/FAQ#what-was-wekan-fork--wefork)
+- [Benefits of contributing your features to upstream Wekan](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html).
+- [What was Wekan fork](https://github.com/wekan/wekan/wiki/FAQ#what-was-wekan-fork--wefork).
 
 ***
 ### Q: Other mobile browsers?
