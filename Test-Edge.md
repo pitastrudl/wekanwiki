@@ -1,3 +1,7 @@
+## Testers to ping with new release
+- All those whose issues were fixed
+- @saschafoerster 
+
 ## Why test
 
 https://github.com/wekan/wekan/issues/2811
@@ -14,10 +18,6 @@ https://github.com/wekan/wekan/issues/2811
 4. xet7 does not have time to answer those, he just fixes the issue - usually at the same day, makes new release, closes all related issues with last comment "Please try Wekan (version-number-here)".
 5. There is [only one comment](https://github.com/wekan/wekan/issues/2812#issuecomment-555860032) that says "This resolved things for me. Thanks for such a quick fix. This is an invaluable piece of software for me!"
 6. xet7 thinks this is great normal development day: Got some features added, got some bugs fixes, and happily goes to sleep well. This is because above 1-5 has happened many times before, it's just normal.
-
-## Testers to ping with new release
-- All those whose issues were fixed
-- @saschafoerster 
 
 ## ChangeLog
 
