@@ -69,11 +69,11 @@ image: wekanteam/wekan
 
 ### Example of using release tags
 
-Quay:
+[Quay tags](https://quay.io/repository/wekan/wekan?tag=latest&tab=tags):
 ```
 image: quay.io/wekan/wekan:v3.55
 ```
-Docker Hub:
+[Docker Hub tags](https://hub.docker.com/r/wekanteam/wekan/tags)
 ```
 image: wekanteam/wekan:v3.55
 ```
