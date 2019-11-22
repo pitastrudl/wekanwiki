@@ -8,7 +8,7 @@ https://github.com/wekan/wekan/issues/2811
 
 ## What usually happens when Wekan gets broken
 
-1. There is many new issues about some same new feature or bug. Yes, when someone notices new feature that is [at ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md), they add issue about it.
+1. There is many new issues about some same new feature or bug. Yes, when some notices new feature that is already [at ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md), they add issue about it.
 2. Many do tag @xet7 that are you aware of the issue.
 3. Someone yells at IRC that "this is too much, it's time to fork Wekan". Well, because he get's yelled at by all users of Wekan at his company.
 4. xet7 does not have time to answer those, he just fixes the issue - usually at the same day, makes new release, closes all related issues with last comment "Please try Wekan (version-number-here)".
