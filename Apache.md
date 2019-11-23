@@ -1,7 +1,7 @@
 ## 1) Enable Mod_Proxy
 
 ```
-sudo a2enmod proxy proxy_http proxy_wstunnel
+sudo a2enmod ssl proxy proxy_http proxy_wstunnel proxy_balancer
 ```
 
 [Apache Mod_Proxy documentation](http://httpd.apache.org/docs/current/mod/mod_proxy.html)
