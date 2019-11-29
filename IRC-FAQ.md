@@ -6,6 +6,18 @@
 
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 ***
+### Q: Import multiple Trello boards?
+
+```
+[13:15:32] <netopejr> Hello, i there way how to import multiple
+Trello booards? I have over 100 boards which i need to migrate
+to Wekan. Importing via add board -> import -> from trello
+works more or less but its time consuming.
+```
+
+A: Not currently. If you would like to sponsor developing that
+feature, you can contact support@wekan.team .
+
 ### Q: Fork?
 ```
 [15:24:31] <Dalisay> hi
