@@ -6,6 +6,63 @@
 
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 ***
+### Q: CPU usage, and max 20 comments visible?
+
+```
+[16:11:09] <Dalisay> hi
+[16:11:23] <Dalisay> and here we go again,  again wekan
+has been released without enough testing
+[16:11:31] <Dalisay> Comments can NOT be added any more
+[16:11:42] <Dalisay> the comments only show in
+the comment-counter on the minicard
+[16:11:53] <Dalisay> but, the comments are
+not visible when scrolling down
+```
+A: What new Wekan release? I tested newest versions Wekan for Snap/Docker/Sandstorm, and comments can be added to card. Please add new issue with more details https://github.com/wekan/wekan/issues
+
+If you mean bug about [only 20 newest comments visible](https://github.com/wekan/wekan/issues/2377), that bug is not fixed yet, because my customers have demanded that I first develop some more important features.
+```
+[16:12:46] <Dalisay> and of course, opening cards on
+various phones also stopped working again
+```
+A: What phone models? What browser name and version?
+
+Unfortunately, when there is new version of some browser, new features and fixes in that browser [can break Wekan](https://github.com/wekan/wekan/issues/2827#issuecomment-559258426).
+```
+[16:12:54] <Dalisay> yes, it's open source
+[16:12:57] <Dalisay> yes, it's free
+[16:13:02] <Dalisay> but this is not okay any more
+[16:13:27] <Dalisay> if this does not change,  I will
+gather a group of developers to make a reasonable fork
+```
+A: I don't know why you think fork would be necessary. I welcome all new contributors and co-maintainers, and help them to get up to speed. You can send your pull requests to Wekan https://github.com/wekan/wekan/pulls . I do have also [blog post about it](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html). All what I do on Wekan is based of feedback at GitHub issues, chats and emails. Wekan is friendly Community driven Open Source project. I do also provide [Commercial Support](https://wekan.team/commercial-support) for features and fixes.
+```
+[16:14:01] <Dalisay> in my opinion,  the board is still in
+an eary RC state,  and not stable by any means
+[16:14:04] <Dalisay> so many bugs all the time
+[16:14:09] <Dalisay> we are not talking about minor bugs.
+[17:50:41] <Dalisay> oh, and the VERY old bug is also back again:
+[17:50:42] <Dalisay> https://pastebin.com/raw/qpPiaWp6
+[17:50:53] <Dalisay> CPU overload because of wekan
+[17:51:43] <Dalisay> this is the fastest server we have
+ever run,  and wekan is the only software on it
+[17:51:48] <Dalisay> yet, it still overpowers the CPU
+[17:51:59] <Dalisay> wekan is really not ready to be used on a daily basis
+[17:52:12] <Dalisay> We have many boards and many users,  and we rely on wekan
+[17:52:23] <Dalisay> it disrupts our work life more than it helps us
+[17:53:01] <Dalisay> no matter if wekan is open source or not,
+some minimum standards of quality should be maintained
+[17:55:37] <Dalisay> Here, that's a bug from the year 2016 !
+[17:55:38] <Dalisay> https://github.com/wekan/wekan/issues/718
+[17:55:44] <Dalisay> this bug is 3 years old
+[17:56:00] <Dalisay> that's again not a minor thing
+[17:56:11] <Dalisay> that's a major thing that disrupts the work flow
+[17:56:20] <Dalisay> it means, that the server admin will be called
+all the time to restart the board
+```
+A: Yes, that bug is back, to fix 2 other bugs. [I added explanation](https://github.com/wekan/wekan/issues/718#issuecomment-561377824).
+
+***
 ### Q: Import multiple Trello boards?
 
 ```
@@ -15,8 +72,7 @@ to Wekan. Importing via add board -> import -> from trello
 works more or less but its time consuming.
 ```
 
-A: Not currently. If you would like to sponsor developing that
-feature, you can contact support@wekan.team .
+A: Maybe it would be possible to use REST API to get list of boards, and then get export URLs of those boards to download them. But there is no official feature for multi board export yet. If you would like to sponsor developing that feature, you can contact support@wekan.team .
 
 ### Q: Fork?
 ```
