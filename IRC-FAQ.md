@@ -6,7 +6,7 @@
 
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 ***
-### Q: CPU usage, and max 20 comments visible?
+### Q: CPU usage, max 20 comments visible, and bugs in new webbrowser versions?
 
 ```
 [16:11:09] <Dalisay> hi
