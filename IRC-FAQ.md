@@ -6,8 +6,7 @@
 
 ## Answers to IRC questions are added to this wiki page, because most coming to IRC channel leave immediately, and don't wait for answer. Real IRC users know idling and stay at IRC channel. It is required that you read everything in this page before coming to IRC channel.
 ***
-### Q: CPU usage, max 20 comments visible, and bugs in new webbrowser versions?
-
+### Q: Max 20 comments visible?
 ```
 [16:11:09] <Dalisay> hi
 [16:11:23] <Dalisay> and here we go again,  again wekan
@@ -21,6 +20,8 @@ not visible when scrolling down
 A: What new Wekan release? I tested newest versions Wekan for Snap/Docker/Sandstorm, and comments can be added to card. Please add new issue with more details https://github.com/wekan/wekan/issues
 
 If you mean bug about [only 20 newest comments visible](https://github.com/wekan/wekan/issues/2377), that bug is not fixed yet, because my customers have demanded that I first develop some more important features.
+
+### Q: Bugs in new webbrowser versions?
 ```
 [16:12:46] <Dalisay> and of course, opening cards on
 various phones also stopped working again
@@ -28,6 +29,8 @@ various phones also stopped working again
 A: What phone models? What browser name and version?
 
 Unfortunately, when there is new version of some browser, new features and fixes in that browser [can break Wekan](https://github.com/wekan/wekan/issues/2827#issuecomment-559258426).
+
+### Q: Contributing to Wekan?
 ```
 [16:12:54] <Dalisay> yes, it's open source
 [16:12:57] <Dalisay> yes, it's free
@@ -36,6 +39,8 @@ Unfortunately, when there is new version of some browser, new features and fixes
 gather a group of developers to make a reasonable fork
 ```
 A: I don't know why you think fork would be necessary. I welcome all new contributors and co-maintainers, and help them to get up to speed. You can send your pull requests to Wekan https://github.com/wekan/wekan/pulls . I do have also [blog post about it](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/index.html). All what I do on Wekan is based of feedback at GitHub issues, chats and emails. Wekan is friendly Community driven Open Source project. I do also provide [Commercial Support](https://wekan.team/commercial-support) for features and fixes.
+
+### Q: CPU usage?
 ```
 [16:14:01] <Dalisay> in my opinion,  the board is still in
 an eary RC state,  and not stable by any means
