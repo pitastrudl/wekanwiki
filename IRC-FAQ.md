@@ -19,7 +19,7 @@ not visible when scrolling down
 ```
 A: What new Wekan release? I tested newest versions Wekan for Snap/Docker/Sandstorm, and comments can be added to card. Please add new issue with more details https://github.com/wekan/wekan/issues
 
-If you mean bug about [only 20 newest comments visible](https://github.com/wekan/wekan/issues/2377), that bug is not fixed yet, because my customers have demanded that I first develop some more important features.
+If you mean bug about [only 20 newest comments visible](https://github.com/wekan/wekan/issues/2377), that bug is not fixed yet. I will fix that.
 
 ### Q: Bugs in new webbrowser versions?
 ```
