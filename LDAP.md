@@ -177,9 +177,10 @@ services:
       # LDAP_BACKGROUND_SYNC : If the sync of the users should be done in the background
       # example : LDAP_BACKGROUND_SYNC=true
       - LDAP_BACKGROUND_SYNC=false
-      # LDAP_BACKGROUND_SYNC_INTERVAL : At which interval does the background task sync in milliseconds
-      # example : LDAP_BACKGROUND_SYNC_INTERVAL=12345
-      - LDAP_BACKGROUND_SYNC_INTERVAL=100
+      # LDAP_BACKGROUND_SYNC_INTERVAL : At which interval does the background task sync
+      # example : LDAP_BACKGROUND_SYNC_INTERVAL='every 15 minutes'
+      # for more info: http://bunkat.github.io/later/parsers.html#text
+      - LDAP_BACKGROUND_SYNC_INTERVAL='every 1 hour'
       # LDAP_BACKGROUND_SYNC_KEEP_EXISTANT_USERS_UPDATED : 
       # example : LDAP_BACKGROUND_SYNC_KEEP_EXISTANT_USERS_UPDATED=true
       - LDAP_BACKGROUND_SYNC_KEEP_EXISTANT_USERS_UPDATED=false
