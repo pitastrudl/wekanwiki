@@ -2,6 +2,70 @@
 
 LDAP is available on Snap Stable channel. Settings can be seen with command `wekan.help` and from repo https://github.com/wekan/wekan-ldap . More settings at https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys
 
+You see all settings with:
+```
+wekan.help | less
+```
+For ROOT_URL, see [Settings](https://github.com/wekan/wekan/wiki/Settings)
+
+For Caddy/Wekan/RocketChat Snap settings, see [Snap install page](https://github.com/wekan/wekan-snap/wiki/Install), [OAuth2 page](https://github.com/wekan/wekan/wiki/OAuth2#snap) and [Caddy page](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config). Instead of Caddy you can also use [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config) or [Apache](https://github.com/wekan/wekan/wiki/Apache).
+
+
+### Active Directory LDAP part
+[Source](https://github.com/wekan/wekan/issues/2822#issuecomment-568314135)
+```
+snap set wekan ldap-enable='true'
+snap set wekan default-authentication-method='ldap'
+snap set wekan ldap-port='389'
+snap set wekan ldap-host='192.168.1.100'
+snap set wekan ldap-basedn='OU=Domain Users,DC=sub,DC=domain,DC=tld'
+snap set wekan ldap-login-fallback='false'
+snap set wekan ldap-reconnect='true'
+snap set wekan ldap-timeout='10000'
+snap set wekan ldap-idle-timeout='10000'
+snap set wekan ldap-connect-timeout='10000'
+snap set wekan ldap-authentication='true'
+snap set wekan ldap-authentication-userdn='CN=LDAP-User,OU=Service Accounts,DC=sub,DC=domain,DC=tld'
+snap set wekan ldap-authentication-password='<password>'
+snap set wekan ldap-log-enabled='true'
+snap set wekan ldap-background-sync='true'
+snap set wekan ldap-background-sync-interval='every 1 minute'
+snap set wekan ldap-background-sync-keep-existant-users-updated='true'
+snap set wekan ldap-background-sync-import-new-users='true'
+snap set wekan ldap-encryption='false'
+snap set wekan ldap-user-search-field='sAMAccountName'
+snap set wekan ldap-username-field='sAMAccountName'
+snap set wekan ldap-fullname-field='cn'
+```
+### OpenLDAP
+[Source](https://github.com/wekan/wekan/issues/2822#issuecomment-564451384)
+```
+sudo snap set wekan default-authentication-method='ldap'
+sudo snap set wekan ldap-authentication='true'
+sudo snap set wekan ldap-authentication-password='********'
+sudo snap set wekan ldap-authentication-userdn='cn=admin,dc=*******,dc=lan'
+sudo snap set wekan ldap-background-sync='true'
+sudo snap set wekan ldap-background-sync-import-new-users='true'
+sudo snap set wekan ldap-background-sync-interval='Every 1 minute'
+sudo snap set wekan ldap-basedn='dc=*****,dc=lan'
+sudo snap set wekan ldap-email-field='mail'
+sudo snap set wekan ldap-enable='true'
+sudo snap set wekan ldap-fullname-field='cn'
+sudo snap set wekan ldap-group-filter-enable='false'
+sudo snap set wekan ldap-group-filter-id-attribute='cn'
+sudo snap set wekan ldap-group-filter-objectclass='groupOfUniqueNames'
+sudo snap set wekan ldap-host='192.168.100.7'
+sudo snap set wekan ldap-log-enabled='false'
+sudo snap set wekan ldap-login-fallback='true'
+sudo snap set wekan ldap-merge-existing-users='true'
+sudo snap set wekan ldap-port='389'
+sudo snap set wekan ldap-sync-admin-groups='administrator'
+sudo snap set wekan ldap-user-search-field='uid'
+sudo snap set wekan ldap-user-search-filter='(&(objectclass=inetOrgPerson))'
+sudo snap set wekan ldap-user-search-scope='sub'
+sudo snap set wekan ldap-username-field='uid'
+```
+
 ## Docker
 
 LDAP login works now by using this docker-compose.yml file:
