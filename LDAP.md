@@ -6,7 +6,7 @@ You see all settings with:
 ```
 wekan.help | less
 ```
-For ROOT_URL, see [Settings](https://github.com/wekan/wekan/wiki/Settings)
+For root-url, see [Settings](https://github.com/wekan/wekan/wiki/Settings)
 
 For Caddy/Wekan/RocketChat Snap settings, see [Snap install page](https://github.com/wekan/wekan-snap/wiki/Install), [OAuth2 page](https://github.com/wekan/wekan/wiki/OAuth2#snap) and [Caddy page](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config). Instead of Caddy you can also use [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config) or [Apache](https://github.com/wekan/wekan/wiki/Apache).
 
