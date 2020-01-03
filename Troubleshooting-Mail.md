@@ -10,6 +10,20 @@ and copy converted characters to your password.
 sudo snap set wekan mail-url="smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587"
 sudo snap set wekan mail-from="Wekan Team Boards <info@example.com>"
 ```
+## Example: UCS
+
+### In admin panel (within admin account on Wekan app itself)
+- SMTP Host: `smtp.example.com:25/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false`
+- SMTP Port: `25`
+- Username: `webadmin%40example.com`
+- [_] TLS Support UNCHECKED
+- From: `WeKan Admin <webadmin@example.com>`
+ 
+### Settings in Wekan App settings in UCS dashboard
+- URL settings: `https://www.example.com/wekan`
+- LDAP Settings: `(&(objectClass=person)(mailPrimaryAddress=*)(!(shadowExpire=*))(sambaBadPasswordTime=0)(wekanActivated=TRUE)(uid=<some_user_name>))`
+- Mail URL: `smtp://webadmin%40example.com:password@example.com:25/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false`
+- Mail From: `Wekan Notifications <webadmin@example.com>`
 
 ## Example: username contains @
 
