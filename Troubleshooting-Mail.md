@@ -17,7 +17,7 @@ sudo snap set wekan mail-from="Wekan Team Boards <info@example.com>"
 - SMTP Port: `25`
 - Username: `webadmin%40example.com`
 - [_] TLS Support UNCHECKED
-- From: `WeKan Admin <webadmin@example.com>`
+- From: `Wekan Admin <webadmin@example.com>`
  
 ### Settings in Wekan App settings in UCS dashboard
 - URL settings: `https://www.example.com/wekan`
