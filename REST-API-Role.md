@@ -9,7 +9,7 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
      -H "Content-type:application/json" \
      -X POST \
      http://localhost:3000/api/boards/BOARD-ID-HERE/members/USER-ID-HERE/add \
-     -d '{"action": "add","isAdmin": "false", "isNoComments":"false", "isCommentOnly": "false"}'
+     -d '{"action": "add","isAdmin": "false", "isNoComments":"false", "isCommentOnly": "false", "isWorker": "false" }'
 ```
 
 ## Remove Member from Board
@@ -29,7 +29,7 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
      -H "Content-type:application/json" \
      -X POST \
      http://localhost:3000/api/boards/BOARD-ID-HERE/members/USER-ID-HERE \
-     -d '{"isAdmin": "true", "isNoComments":"false", "isCommentOnly": "false"}'
+     -d '{"isAdmin": "true", "isNoComments":"false", "isCommentOnly": "false", "isWorker": "false"}'
 ```
 ## Normal
 ```
@@ -37,7 +37,7 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
      -H "Content-type:application/json" \
      -X POST \
      http://localhost:3000/api/boards/BOARD-ID-HERE/members/USER-ID-HERE \
-     -d '{"isAdmin": "false", "isNoComments":"false", "isCommentOnly": "false"}'
+     -d '{"isAdmin": "false", "isNoComments":"false", "isCommentOnly": "false", "isWorker": "false"}'
 ```
 ## No Comments
 ```
@@ -45,7 +45,7 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
      -H "Content-type:application/json" \
      -X POST \
      http://localhost:3000/api/boards/BOARD-ID-HERE/members/USER-ID-HERE \
-     -d '{"isAdmin": "false", "isNoComments":"true", "isCommentOnly": "false"}'
+     -d '{"isAdmin": "false", "isNoComments":"true", "isCommentOnly": "false", "isWorker": "false"}'
 ```
 ## Comment Only
 ```
@@ -53,5 +53,16 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
      -H "Content-type:application/json" \
      -X POST \
      http://localhost:3000/api/boards/BOARD-ID-HERE/members/USER-ID-HERE \
-     -d '{"isAdmin": "false", "isNoComments":"false", "isCommentOnly": "true"}'
+     -d '{"isAdmin": "false", "isNoComments":"false", "isCommentOnly": "true", "isWorker": "false"}'
 ```
+## Worker
+- Can: move cards, can assign himself to card, can comment.
+- Cannot: anything else including revoke card, change settings, create/delete/edit cards/tags and so on...
+```
+curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
+     -H "Content-type:application/json" \
+     -X POST \
+     http://localhost:3000/api/boards/BOARD-ID-HERE/members/USER-ID-HERE \
+     -d '{"isAdmin": "false", "isNoComments":"false", "isCommentOnly": "false", "isWorker": "true"}'
+```
+
