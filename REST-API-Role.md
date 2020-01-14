@@ -11,6 +11,10 @@ curl -H "Authorization: Bearer a6DM_gOPRwBdynfXaGBaiiEwTiAuigR_Fj_81QmNpnf" \
      http://localhost:3000/api/boards/BOARD-ID-HERE/members/USER-ID-HERE/add \
      -d '{"action": "add","isAdmin": "false", "isNoComments":"false", "isCommentOnly": "false", "isWorker": "false" }'
 ```
+like
+```
+/api/boards/{boardid}/members/{MEMBERID}/add Body{ "action" : add, "isadmin" : false ...........
+```
 
 ## Remove Member from Board
 ```
