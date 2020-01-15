@@ -6,10 +6,9 @@ There is currently:
 - Card hamburger menu / Copy Checklist Template to Many Cards
 
 There is not currently:
-- [Shared templates](https://github.com/wekan/wekan/issues/2209).
 - [Notification Email templates](https://github.com/wekan/wekan/issues/2148).
 - [Email templates](https://github.com/wekan/wekan/issues/2022).
-- [Checklist templates. Import and Export Checklists](https://github.com/wekan/wekan/issues/904).
+- [Import and Export Checklists](https://github.com/wekan/wekan/issues/904).
 
 Related currently at [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license):
 - [Collapsible Swimlanes with count](https://github.com/wekan/wekan/issues/2804)
