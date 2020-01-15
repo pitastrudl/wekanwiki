@@ -1,6 +1,28 @@
 [Templates feature requests and bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+templates+label%3AFeature%3ATemplates)
 
 ***
+There is currently:
+- [Per-user templates](https://github.com/wekan/wekan/issues/2209), it works as described below.
+- Card hamburger menu / Copy Checklist Template to Many Cards
+
+There is not currently:
+- [Shared templates](https://github.com/wekan/wekan/issues/2209).
+- [Notification Email templates](https://github.com/wekan/wekan/issues/2148).
+- [Email templates](https://github.com/wekan/wekan/issues/2022).
+- [Checklist templates. Import and Export Checklists](https://github.com/wekan/wekan/issues/904).
+
+Related currently at [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license):
+- [Collapsible Swimlanes with count](https://github.com/wekan/wekan/issues/2804)
+- [Single fixed list titles static at top of swimlanes view](https://github.com/wekan/wekan/issues/2805).
+- Prettify email notifications (by some another Wekan contributor).
+- [Main Boards](https://github.com/wekan/wekan/issues/2796).
+- [Teams/Organization Templates](https://github.com/wekan/wekan/issues/802).
+- [Bug: Board templates aren't created automatically whenever the user was created by REST API or OAuth2](https://github.com/wekan/wekan/issues/2339).
+
+
+***
+
+# Current Per-User Templates Feature
 
 ## 1) All Boards page, top right: Templates
 
