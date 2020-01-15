@@ -14,11 +14,13 @@ There is not currently:
 Related currently at [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license):
 - [Collapsible Swimlanes with count](https://github.com/wekan/wekan/issues/2804)
 - [Single fixed list titles static at top of swimlanes view](https://github.com/wekan/wekan/issues/2805).
-- Prettify email notifications (by some another Wekan contributor).
 - [Main Boards/Organizing Boards/Nested Tabs](https://github.com/wekan/wekan/issues/2796) + [Shared templates](https://github.com/wekan/wekan/issues/2209) + [Top Level Projects](https://github.com/wekan/wekan/issues/641).
 - [Teams/Organization Templates](https://github.com/wekan/wekan/issues/802).
 - [Bug: Board templates aren't created automatically whenever the user was created by REST API or OAuth2](https://github.com/wekan/wekan/issues/2339).
 
+At Roadmap of some other Wekan Contributors:
+
+- Prettify email notifications.
 
 ***
 
