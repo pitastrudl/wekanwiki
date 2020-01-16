@@ -10,6 +10,22 @@ Note: Do mongodump/mongorestore only when Wekan is stopped: wekan.wekan (Snap) o
 
 ## [Cloud Backup with rclone](https://github.com/wekan/wekan/wiki/Backup#cloud-backup-with-rclone)
 
+## Using Snap Mongo commands on your bash CLI
+
+Add to your `~/.bashrc`
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
+export PATH="$PATH:/snap/wekan/current/bin"
+```
+Then you can backup:
+```
+mongodump --port 27019
+```
+And restore:
+```
+mongorestore --drop --port 27019
+```
+
 ## MongoDB shell on Wekan Snap
 
 mongoshell.sh
