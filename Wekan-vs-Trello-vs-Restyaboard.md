@@ -260,5 +260,5 @@ SEO Checklist | No | No | $ Yes
 
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
-iOS Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend). Mobile browser works. | Yes | Yes
-Android Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend). Mobile browser works. | Yes | No
+iOS Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend). Mobile Chrome browser works. | Yes | Yes
+Android Mobile App | [Not yet](https://github.com/wekan/wekan/wiki/Friend). Mobile Chrome browser works. | Yes | No
