@@ -30,10 +30,16 @@ Subscribe board | Yes | Yes | Yes
 Copy board | Export / Import board | Yes | Yes
 Starred board | Yes | Yes | Yes
 Unstarred board | Yes | Yes | Yes
-Swimlanes | Yes | External [Chrome Add-On](https://chrome.google.com/webstore/detail/swimlanes-for-trello/lhgcmlaedabaaaihmfdkldejjjmialgl) and [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/swimlanes-for-trello/) | No
 Board text list view | [No](https://github.com/wekan/wekan/issues/1862) | No | Yes
 Board calendar view | Yes, for Start/End Date | Yes | Yes
 Board sync with google calendar | No | Yes | Yes
+
+## Basic features: Swimlanes
+
+Features | Wekan | Trello | Restyaboard
+------------ | ------------- | ------------- | -------------
+Swimlanes | Yes | External [Chrome Add-On](https://chrome.google.com/webstore/detail/swimlanes-for-trello/lhgcmlaedabaaaihmfdkldejjjmialgl) and [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/swimlanes-for-trello/) | No
+Change Swimlane Color | Yes | ? | ?
 
 ## Basic features: Lists
 
@@ -54,6 +60,7 @@ Show attachments in list | No. Only on card. | No | Yes
 
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
+Map card | [Not yet](https://github.com/wekan/wekan/issues/755) | No | ?
 Filter cards | Yes, also with Regex | Yes | Yes
 Archived items | Yes | Yes | Yes
 Card stickers | No | Yes | No
@@ -108,7 +115,7 @@ Checklist - Select emoji | [No](https://github.com/wekan/wekan/issues/1537) | Ye
 
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
-Search | On same board, also with regex. And add linked card search from any board. | Yes | $ Yes
+Search | Only on one board, also with regex. And add linked card search from any board. | Yes | $ Yes
 Save search | No | Yes | No
 
 ## Basic features: Organizations
@@ -147,9 +154,10 @@ Undo from activities | No | No | Yes
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 API explorer | No | No | Yes
+OpenAPI | [Yes](https://github.com/wekan/wekan/tree/master/openapi) [here](https://wekan.github.io/api/) | ? | ?
 Developer applications | Yes, using REST API | Yes | Yes
-Authorized OAuth applications | No, REST API is password login for admin | Yes | Yes
-Webhooks | Yes | Yes | Yes
+Authorized OAuth applications | No, REST API [login as admin to get Bearer token](https://github.com/wekan/wekan/wiki/REST-API#example-call---as-form-data) | Yes | Yes
+Webhooks | Yes, per board or global at Admin Panel | Yes | Yes
 Zapier (IFTTT like workflow automation with 500+ websites) | Yes | Yes | $ Yes
 Integrated IFTTT | [Yes](https://github.com/wekan/wekan/wiki/IFTTT) | No | No
 
@@ -159,11 +167,11 @@ Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Email-to-board settings | No, requires your code to use REST API | Yes | Yes
 Email templates management | No | No | Yes
-Notifications settings | No | Yes | Yes
-Disable desktop notification | No desktop notifications | No | Yes
-User configuration to change default subscription on cards and boards | No | No | Yes
+Notifications settings | [Not yet](https://github.com/wekan/wekan/issues/2471) | Yes | Yes
+Disable desktop notification | [No desktop/push notifications yet](https://github.com/wekan/wekan/issues/2026) | No | Yes
+User configuration to change default subscription on cards and boards | Yes | No | Yes
 Card notification & highlight | No | No | Yes
-Notification for card overdue | No | Yes | Yes
+Notification for card overdue | Yes, see snap/docker-compose.yml email settings | Yes | Yes
 
 ## Basic features: Settings
 
@@ -183,7 +191,7 @@ Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Login with username or email | Yes | Yes | Yes
 LDAP login | Standalone: [Yes](https://github.com/wekan/wekan/wiki/LDAP). Sandstorm: Yes. | No | $ Yes
-SAML login | Standalone: Not yet, needs fixes to Rocket.Chat SAML => Wekan App [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2). Sandstorm: Yes | No | No
+SAML login | Standalone: [Not yet](https://github.com/wekan/wekan/issues/708). Sandstorm: Yes | No | No
 Google login | Not yet, needs fixes to [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) | Yes | No
 GitHub login | Standalone: Not yet, needs fixes to [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2). Sandstorm: Yes. | No | No
 Passwordless email login | Standalone: No. Sandstorm: Yes. | No | No
@@ -206,7 +214,7 @@ Change background | Color only | Color and image | Color and image
 Change background - custom | No | $ Gold or Business Class Only | Yes
 Background image from flickr | No | No | Yes
 Productivity beats | No | No | Yes (Alpha)
-Show attachments in board | No (not at All Boards view, only on Cards) | No | Yes
+Show attachments in board | No, only at each card | No | Yes
 
 ## Apps for productivity
 
@@ -226,7 +234,7 @@ Introduction video | No | No | Yes
 List sorting by due date | No | No | Yes
 Home screen | No | No | Yes
 Apps Integration | All integrated in | Yes | Yes
-Chat | No. You could use Rocket.Chat etc. | No | $ Yes
+Chat | No. You could use [Rocket.Chat](https://github.com/wekan/wekan/wiki/OAuth2) | No | $ Yes
 Dashboard Charts | [Not yet](https://github.com/wekan/wekan-dashing-go) | No | $ Yes
 Hide Card Created Date App | No | No | Yes
 Hide Card ID App | No | No | Yes
