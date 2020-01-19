@@ -1,14 +1,13 @@
 Also see: [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
 
-All Wekan themes are directly integrated to Wekan. There is no custom CSS feature yet.
-
-Alternatives for having new theme in Wekan:
-- If you would like to have some new theme, please add screenshot mockup to [new Wekan issue](https://github.com/wekan/wekan/issues).
-- If possible, you can also try to create those CSS changes with [Stylish browser extension](https://userstyles.org/) and add those to new issue too.
-- You can also add pull request to master branch to add custom theme, if you figure out [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to these files. In that commit is also changes to other files, you don't need to change those files.
+All Wekan themes are directly integrated to Wekan. You can add pull request to master branch to add custom theme, you can see from [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to these files. In that commit is also changes to other files, you don't need to change those files.
   - `wekan/client/components/boards/boardColors.styl`
   - `wekan/models/boards.js`
   - `wekan/server/migrations.js`
+
+Alternatives for sending new theme as pull request:
+- If you would like to have some new theme, please add screenshot mockup to [new Wekan issue](https://github.com/wekan/wekan/issues).
+- If possible, you can also try to create those CSS changes with [Stylish browser extension](https://userstyles.org/) and add those to new issue too.
 
 There are currently board color modes/themes, and these full themes:
 - Dark: modified from below by @lonix1 and more changes by xet7
