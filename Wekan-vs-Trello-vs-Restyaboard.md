@@ -15,12 +15,12 @@ Hosting | [Self-host or SaaS provider](https://github.com/wekan/wekan/wiki/Platf
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Activities fetch | WebSocket | WebSocket | Polling (Better, for easy scaling)
-Multiple language | Yes | Yes | Yes
+Multiple language | Yes 52 | Yes 23 | Yes 38
 Keyboard shortcuts | Yes | Yes | Yes
 Boards | Yes | Yes | Yes
 Closed boards listing | Yes, at Archive | Yes | Yes
 Starred boards listing | No, starred and non-starred at All Boards | No | Yes
-Add board with predefined templates | Import Board from Trello or Wekan | No | Yes
+Add board with predefined templates | Personal templates, Import Board from Trello or Wekan | No | Yes
 Board stats | [Yes](https://github.com/wekan/wekan/wiki/Features#stats) | No | Yes
 Board - Add members | Yes | Yes | Yes
 Board - Remove members | Yes | Yes | Yes
@@ -60,13 +60,14 @@ Card stickers | No | Yes | No
 Card labels | Yes | Yes | Yes
 Card labels color change | Yes | Yes | Yes
 Cards | Yes | Yes | Yes
+Paste multiline text as one or many cards | No | Yes | ?
 Create cards | Yes | Yes | Yes
 Delete cards | Yes | Yes | Yes
 Instant add card | No | No | $ Yes
 Add cards & reply via Email | No | Yes | Yes
 Multiple card view | No | No | Yes
 Expandable card view | No | No | Yes
-Card ID display	| No | No | Yes
+Card ID display	| [Not yet](https://github.com/wekan/wekan/issues/2450) | No | Yes
 Card color | Yes | No | ?
 Card color on card list | No | No | Yes
 Card action on card list | Only multiple selection and WIP Limit | Yes | No
@@ -88,7 +89,7 @@ Reply comment on card | No, only adding another comment | No | Yes
 Remove comment on card | Yes | Yes | Yes
 Nested comments | No | No | Yes
 Card resizable view | No | No | Yes
-Show attachments in card | Yes. Also images in slideshow. | Yes | Yes
+Show attachments in card | JPG/PNG/GIF images in slideshow. | Yes | Yes
 Card history filtering | No | No | Yes
 Button to delete all archived items | [Not yet](https://github.com/wekan/wekan/issues/1625) | No | Yes
 
@@ -97,6 +98,7 @@ Button to delete all archived items | [Not yet](https://github.com/wekan/wekan/i
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Checklist - Add item | Yes | Yes | Yes
+Copy multiple lines from Excel/Project and paste as one or many checklist items | [Not yet](https://github.com/wekan/wekan/issues/1846) | Yes | ?
 Checklist - Remove item | Yes | Yes | Yes
 Checklist - Convert to card | No | Yes | Yes
 Checklist - Mention member | No | Yes | Yes
