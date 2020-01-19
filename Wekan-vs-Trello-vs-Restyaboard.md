@@ -6,7 +6,7 @@ Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Price | Free and Open Source, [MIT license](https://github.com/wekan/wekan/blob/master/LICENSE). Free for Commercial Use. | Free, Monthly payment, Annual Subscription, Quote-based | Open Core
 Whitelabeling | Yes. Admin Panel/Layout: Hide Logo, Custom Product Name. | No | $ Yes
-Theming | [Not yet](https://github.com/wekan/wekan/issues/781) | No | $ Yes
+Theming | [Yes](https://github.com/wekan/wekan/wiki/Custom-CSS-themes) | No | $ Yes
 Redistributing | Yes | No | $ Yes
 Hosting | [Self-host or SaaS provider](https://github.com/wekan/wekan/wiki/Platforms) | SaaS | Self-host
 
