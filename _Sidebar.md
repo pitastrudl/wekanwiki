@@ -120,6 +120,7 @@
 # Webhooks
 
 * [Global Webhook](https://github.com/wekan/wekan/pull/2665)
+* [Limiting Webhook data](https://github.com/wekan/wekan/issues/2830)
 * [Outgoing Webhook to Discord/Slack/RocketChat/Riot](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
 * [Outgoing Webhook to NodeRed](https://github.com/wekan/wekan/issues/2017)
 * [Outgoing Webhook to PowerShell](https://github.com/wekan/wekan/issues/2518)
