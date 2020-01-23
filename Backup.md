@@ -8,6 +8,25 @@ Note: Do mongodump/mongorestore only when Wekan is stopped: wekan.wekan (Snap) o
 4. Restore old Wekan data to new Wekan with mongorestore.
 5. Restore new Wekan JSON exported boards by importing them.
 
+## Rescuing board that does not load
+
+Wekan web UI Import/Export JSON does not have all content currently. To upgrade from old Wekan version, use mongodump/mongorestore to newest Wekan, like described below.
+
+To import big JSON file, on Linux you can use xclip to copy textfile to clipboard:
+```
+sudo apt-get install xclip
+cat board.json | xclip -se c
+```
+Then paste to webbrowser Wekan Add Board / Import / From previous export.
+
+You can [save all MongoDB database content as JSON files](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file). Files are base64 encoded in JSON files.
+
+Export board to Wekan JSON, and import as Wekan JSON can make some part of board to load, but you should check is some data missing.
+
+With Wekan Snap, you can use [nosqlbooster GUI](https://nosqlbooster.com/downloads) to login through SSH to Wekan server localhost port 27019 and browse data.
+
+You could use [daff](https://github.com/paulfitz/daff) to compare tables.
+
 ## [Cloud Backup with rclone](https://github.com/wekan/wekan/wiki/Backup#cloud-backup-with-rclone)
 
 ## Using Snap Mongo commands on your bash CLI
