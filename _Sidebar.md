@@ -77,9 +77,10 @@
 * [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
 * [From old Wekan manually](https://github.com/wekan/wekan/wiki/Migrating-from-old-Wekan-manually)
 
-# <a name="Settings"></a>Settings
+# <a name="Settings"></a>Required Settings
 
-* [Settings](https://github.com/wekan/wekan/wiki/Settings)
+* [Ports, hostsfile, how Internet works](https://github.com/wekan/wekan/issues/2896)
+* [ROOT_URL Settings](https://github.com/wekan/wekan/wiki/Settings)
 
 # <a name="Platforms"></a>Download
 
