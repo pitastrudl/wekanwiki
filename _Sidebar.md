@@ -121,7 +121,7 @@
 
 # Webhooks
 
-* [Global Webhook / 2-way Webhook](https://github.com/wekan/wekan/pull/2665)
+* [Global Webhook](https://github.com/wekan/wekan/pull/2665)
 * [Limiting Webhook data](https://github.com/wekan/wekan/issues/2830)
 * [Receiving Webhooks](https://github.com/wekan/wekan/wiki/Receiving-Webhooks)
 * [Outgoing Webhook to Discord/Slack/RocketChat/Riot](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
