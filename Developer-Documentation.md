@@ -47,7 +47,8 @@ When you run this, you see .jade template files where is search input box, and .
   - create a PR from your feature-branch to `wekan/edge` directly so that you can continue your work without interruption.
 - Keep your local forks updated with this repo by setting your `git upstream` value as described [here](https://robots.thoughtbot.com/keeping-a-github-fork-updated).
   - before submitting a PR make sure you `rebase` your local branch as described [here](http://push.cwcon.org/learn/stay-updated#on_your_computer_routine_tasks)
-  - If you accidentally mess around on your `edge` branch, follow these steps [here](http://push.cwcon.org/learn/stay-updated#oops_i_was_messing_around_on_) to clean it up.
+  - If you accidentally mess around on your `edge` branch, follow these steps [here](http://push.cwcon.org/learn/stay-updated#oops_i_was_messing_around_on_) to clean it up. Note: currently there is only master branch, not devel or edge branches.
+  - [Here is how to remove commits from pull request](https://stackoverflow.com/questions/36168839/how-to-remove-commits-from-pull-request)
 
 ## Preventing Travis CI lint errors before submitting pull requests
 
