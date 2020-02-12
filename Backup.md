@@ -13,6 +13,10 @@ Open Source solution for consistent backups of multi-shard MongoDB
 - [Video webm](https://video.fosdem.org/2020/UD2.119/perconamongodb.webm)
 - [Same Video mp4](https://video.fosdem.org/2020/UD2.119/perconamongodb.mp4)
 
+## Related Sandstorm issue
+
+[Creating a backup while the grain is running could cause corruption](https://github.com/sandstorm-io/sandstorm/issues/3186).
+
 ## Combining old and new Wekan version data
 
 Note: Do mongodump/mongorestore only when Wekan is stopped: wekan.wekan (Snap) or wekan-app (Docker).
