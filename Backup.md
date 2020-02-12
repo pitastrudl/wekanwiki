@@ -1,3 +1,18 @@
+## Related talk about MongoDB backup
+
+Related talk, search for "mongodb" this page:
+https://fosdem.org/2020/schedule/events/
+
+There is this:
+
+Percona Backup for MongoDB: Status and Plans
+
+Open Source solution for consistent backups of multi-shard MongoDB
+
+- [Slides](https://fosdem.org/2020/schedule/event/perconamongodb/attachments/slides/3768/export/events/attachments/perconamongodb/slides/3768/Percona_Backup_for_MongoDB.pdf)
+- [Video webm](https://video.fosdem.org/2020/UD2.119/perconamongodb.webm)
+- [Same Video mp4](https://video.fosdem.org/2020/UD2.119/perconamongodb.mp4)
+
 ## Combining old and new Wekan version data
 
 Note: Do mongodump/mongorestore only when Wekan is stopped: wekan.wekan (Snap) or wekan-app (Docker).
