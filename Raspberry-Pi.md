@@ -64,6 +64,7 @@ With RasPi, you need:
 Boot RasPi.
 
 Username: ubuntu
+
 Password: ubuntu
 
 This info is from https://wiki.ubuntu.com/ARM/RaspberryPi
