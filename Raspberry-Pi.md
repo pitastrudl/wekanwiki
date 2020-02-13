@@ -208,7 +208,9 @@ It is much more recommended to use [email sending service like AWS SES or some o
 If your router has ports forwarded to your RasPi (in virtual server settings at http://192.168.0.1), then you could also [install nginx and Let's Encrypt SSL](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh) in front of Wekan.
 
 ***
-OLD NOT NEEDED INFO BELOW. IF YOU DID ALL OF THE ABOVE, YOU SHOULD HAVE WEKAN RUNNING ALREADY.
+
+# STOP HERE. OLD NOT NEEDED INFO BELOW.
+
 ***
 
 ### b) Running Wekan with startup script
