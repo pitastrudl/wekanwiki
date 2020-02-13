@@ -237,7 +237,7 @@ sudo systemctl start wekan
 If it works, delete old files:
 ```
 rm -rf old
-``
+```
 
 
 ***
