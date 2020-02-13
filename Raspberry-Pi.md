@@ -4,13 +4,18 @@
 
 <img src="https://wekan.github.io/wekan-raspi3.png" width="100%" alt="Wekan on RasPi3" />
 
-- Ubuntu 18.04 Server arm64 for RasPi3
-- Has MongoDB 3.6.x running
-- Wekan v2.94 that has Meteor 1.8.1
+Newest Wekan:
+- Ubuntu 19.10 Server arm64 for RasPi3 and RasPi4
+- MongoDB 3.6.x
+- Newest Wekan with newest Meteor
 
 Note: Raspbian is not recommended, because it is 32bit and has [32bit MongoDB that has file size limit of 2 GB](https://www.mongodb.com/blog/post/32-bit-limitations), if it grows bigger then it gets corrupted. That's why here is arm64 version of Ubuntu 18.04.
 
 To test RasPi3, xet7 tested it with all his Wekan boards data:
+```
+mongorestore --drop
+```
+If there is errors in restoring, try:
 ```
 mongorestore --drop --noIndexRestore
 ```
@@ -23,6 +28,27 @@ When using Firefox on network laptop (Core 2 Duo laptop, 8 GB RAM, SSD harddisk)
 I did also test Wekan arm64 on arm64 bare metal server, same Wekan bundle worked there.
 
 ### Download
+
+1. For your RasPi, download Ubuntu 19.10 64bit Server from:
+
+https://ubuntu.com/download/raspberry-pi
+
+It seems that [RasPi website](https://www.raspberrypi.org/documentation/installation/installing-images/) recommends [BalenaEtcher GUI](https://www.balena.io/etcher/) for writing image to SD Card.
+
+For Linux dd users, after unarchiving in file manager, if sd card is /dev/sdb, it's for example:
+```
+sudo su
+dd if=ubuntu.img of=/dev/sdb conv=sync bs=40M status=progress
+sync
+exit
+```
+And wait for SD card light stop blinking, so it has written everything.
+
+2. Boot RasPi with your newly written SD card.
+
+
+
+# Old info below
 
 .7z size 876 MB, unarchived RasPi3 .img size of 4.5 GB. At first boot disk image expands to full SD card size.
 
