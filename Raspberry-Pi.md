@@ -130,7 +130,7 @@ Then unzip file:
 unzip wekan*.zip
 ```
 
-### a) Running Wekan as service
+### 6. Running Wekan as service
 
 If you would like to run node as non-root user, and still have node at port 80, you could add capability to it, by first looking where node binary is:
 ```
@@ -206,6 +206,30 @@ MAIL_FROM='Board Support <wekan@example.com>'
 It is much more recommended to use [email sending service like AWS SES or some other service](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail) that can ensure delivering email correctly, for Wekan email notifications etc.
 
 If your router has ports forwarded to your RasPi (in virtual server settings at http://192.168.0.1), then you could also [install nginx and Let's Encrypt SSL](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh) in front of Wekan.
+
+## 7. Updating Wekan
+Stop Wekan and move old stuff away:
+```
+sudo systemctl stop wekan
+mkdir old
+mv wekan*.zip old/
+mv bundle old/
+```
+Download new Wekan version:
+```
+elinks https://releases.wekan.team/raspi3/
+```
+There with keyboard arrow keys go move to top of newest `wekan-3.xx-arm64.zip` and press Enter to download.
+
+Also check README.md about what Node version newest Wekan uses.
+
+In elinks press `q` to exit elinks
+
+Unzip and start Wekan:
+```
+unzip wekan*.zip
+sudo systemctl start wekan
+```
 
 ***
 
