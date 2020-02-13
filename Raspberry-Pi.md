@@ -118,7 +118,10 @@ elinks https://releases.wekan.team/raspi3/
 Download there from files like these:
 ```
 wekan-3.xx-arm64.zip
-start-wekan.sh
+```
+Also download newest start-wekan.sh:
+```
+wget https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.sh
 ```
 With elinks, you can use arrow keys to navigate, and enter to download file to current directory.
 
@@ -137,7 +140,36 @@ Make start-wekan.sh executeable, and edit it:
 chmod +x start-wekan.sh
 nano start-wekan.sh
 ```
-There change
+There change ROOT_URL like [described here](https://github.com/wekan/wekan/Settings),
+for example your RasPi IP address and port, and MongoDB URL:
+```
+export ROOT_URL=http://192.168.0.x:2000
+export PORT=2000
+export MONGO_URL='mongodb://127.0.0.1:27017/wekan'
+```
+If you would like to run node as non-root user, and still have node at port 80, you could add capability to it, by first looking where node binary is:
+```
+which node
+```
+And then adding capability to that path of node, for example:
+```
+sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
+```
+Then change to start-wekan.sh:
+```
+export ROOT_URL=http://192.168.0.x
+export PORT=80
+export MONGO_URL='mongodb://127.0.0.1:27017/wekan'
+```
+Also in start-wekan changing directory like this:
+```
+cd bundle
+node main.js
+```
+You need to check that it changes to correct directory, so that it can start `node main.js`
+
+
+
 
 ***
 
