@@ -2,14 +2,42 @@
 
 ## Install Wekan for RasPi3 or RasPi4
 
-Newest Wekan:
+Look at webbrowser files at https://releases.wekan.team/raspi3/
+
+Download and open README.md, there could be text similar to this:
+```
+README
+Currently uses Node v12.15.0 and MongoDB v3.x or v4.x
+Built on Ubuntu 19.10 64bit arm64 on RasPi4.
+Should work on RasPi3 and RasPi4 on Ubuntu 19.10 64bit arm64.
+Install info here:
+https://github.com/wekan/wekan/wiki/Raspberry-Pi
+```
+You should always check what distro, node etc version it has, before downloading and installing.
+
+As of 2020-02-13, newest Wekan:
 - Ubuntu 19.10 Server arm64 for RasPi3 and RasPi4
 - MongoDB 3.6.x
 - Newest Wekan with newest Meteor
 
+If you have RasPi3, 1 GB RAM can only run Wekan Node.js + MongoDB. There is not enough RAM to run also Ubuntu desktop at the same RasPi.
+
+If you have RasPi3, you can install textmode webbrowser, and download files with it:
+```
+sudo apt-get install elinks
+elinks https://releases.wekan.team/raspi3/
+```
+
+If you have RasPi4 with 4 GB RAM, you can also install Ubuntu Desktop with:
+```
+sudo apt-get install ubuntu-desktop
+```
+
 ### 1. Download Ubuntu 19.10 64bit Server for RasPi and write to SD Card
 
 Download from: https://ubuntu.com/download/raspberry-pi
+
+Alternatively, if that link does not work, go to https://ubuntu.com, Download, IoT RasPi arm, and there select 64bit Server for your RasPi.
 
 It seems that [RasPi website](https://www.raspberrypi.org/documentation/installation/installing-images/) recommends [BalenaEtcher GUI](https://www.balena.io/etcher/) for writing image to SD Card.
 
@@ -48,10 +76,24 @@ top
 ```
 When you see `apt` or `dpkg`, automatic updates are still running. Wait for updates to finish. Then press `q` to quit top.
 
-### 4. Install remaining updates
+### 4. Install remaining updates and reboot
 ```
-sudo 
+sudo apt-get update
+sudo apt-get -y dist-upgrade
+sudo reboot
 ```
+### 5. Login and install Wekan related files
+
+Look at webbrowser files at https://releases.wekan.team/raspi3/
+
+Download and open README.md, there could be text similar to this:
+```
+README
+Currently uses Node v12.15.0 and MongoDB v3.x or v4.x
+Built on Ubuntu 19.10 arm64 on RasPi4.
+Should work on RasPi3 and RasPi4 on Ubuntu 19.10.
+```
+
 
 ## Wekan for RasPi3 arm64 and other CPU architectures
 
