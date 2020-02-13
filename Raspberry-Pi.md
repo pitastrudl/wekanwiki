@@ -115,12 +115,29 @@ Then look again files:
 ```
 elinks https://releases.wekan.team/raspi3/
 ```
-Download there from file like this:
+Download there from files like these:
 ```
 wekan-3.xx-arm64.zip
+start-wekan.sh
 ```
 With elinks, you can use arrow keys to navigate, and enter to download file to current directory.
 
+Then unzip file:
+```
+unzip wekan*.zip
+```
+Look at what is your IP address at eth0, for example 192.168.0.x, with this command, and write it somewhere to your other computer or phone or paper:
+```
+ip address
+```
+You could also login to your router for example at http://192.168.0.1 to set static IP pointing always to your specific RasPi IP address, so that address would not change.
+
+Make start-wekan.sh executeable, and edit it:
+```
+chmod +x start-wekan.sh
+nano start-wekan.sh
+```
+There change
 
 ***
 
