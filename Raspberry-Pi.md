@@ -129,6 +129,82 @@ Then unzip file:
 ```
 unzip wekan*.zip
 ```
+
+### a) Running Wekan as service
+
+If you would like to run node as non-root user, and still have node at port 80, you could add capability to it, by first looking where node binary is:
+```
+which node
+```
+And then adding capability to that path of node, for example:
+```
+sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
+```
+This is modified version from https://www.certdepot.net/rhel7-install-wekan/
+
+Edit this new service file:
+```
+sudo nano /etc/systemd/system/wekan.service
+```
+There add this text:
+```
+[Unit]
+Description=The Wekan Service
+After=syslog.target network.target
+
+[Service]
+EnvironmentFile=/etc/default/wekan
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/bundle
+ExecStart=/usr/local/bin/node main.js
+Restart=on-failure
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
+```
+Look at what is your IP address at eth0, for example 192.168.0.x, with this command, and write it somewhere to your other computer or phone or paper:
+```
+ip address
+```
+IP address will be added as your ROOT_URL.
+
+You could also login to your router for example at http://192.168.0.1 to set static IP pointing always to your specific RasPi IP address, so that address would not change.
+
+Then edit this file:
+```
+sudo nano /etc/default/wekan
+```
+There add this text:
+```
+NODE_ENV=production
+WITH_API=true
+MONGO_URL=mongodb://127.0.0.1:27017/wekan
+ROOT_URL=http://192.168.0.x
+PORT=80
+```
+There are [many more other possible settings here that you can optionally add](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.sh)
+
+Note: Configuring email is not required to use Wekan.
+
+If you really would like to install email sending server,
+you could install [postfix](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh#L63-L67), but that would probably make your mail to spam banning lists. You would add to above settings:
+```
+MAIL_URL='smtp://127.0.0.1:25/'
+MAIL_FROM='Board Support <wekan@example.com>'
+```
+
+It is much more recommended to use [email sending service like AWS SES or some other service](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail) that can ensure delivering email correctly, for Wekan email notifications etc.
+
+
+If your router has ports forwarded to your RasPi (in virtual server settings at http://192.168.0.1), then you could also [install nginx and Let's Encrypt SSL](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh) in front of Wekan.
+
+***
+OLD NOT NEEDED INFO BELOW. IF YOU DID ALL OF THE ABOVE, YOU SHOULD HAVE WEKAN RUNNING ALREADY.
+***
+
+### b) Running Wekan with startup script
 Look at what is your IP address at eth0, for example 192.168.0.x, with this command, and write it somewhere to your other computer or phone or paper:
 ```
 ip address
@@ -168,8 +244,10 @@ node main.js
 ```
 You need to check that it changes to correct directory, so that it can start `node main.js`
 
-
-
+And then start Wekan with:
+```
+./start-wekan.sh
+``
 
 ***
 
