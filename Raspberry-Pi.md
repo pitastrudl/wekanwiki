@@ -89,6 +89,11 @@ sudo reboot
 
 Look at webbrowser files at https://releases.wekan.team/raspi3/
 
+Or install elinks textmode browser and download with it:
+```
+sudo apt-get install elinks
+elinks https://releases.wekan.team/raspi3
+```
 Download and open README.md, there could be text similar to this:
 ```
 README
@@ -96,6 +101,29 @@ Currently uses Node v12.15.0 and MongoDB v3.x or v4.x
 Built on Ubuntu 19.10 arm64 on RasPi4.
 Should work on RasPi3 and RasPi4 on Ubuntu 19.10 64bit.
 ```
+Install these:
+```
+sudo apt-get install npm mongodb-server mongodb-clients mongodb-tools zip unzip
+sudo npm -g install npm
+sudo npm -g install n
+```
+Then from README.md you downloaded, look at Node version, and install it, for example:
+```
+sudo n 12.15.0
+```
+Then look again files:
+```
+elinks https://releases.wekan.team/raspi3/
+```
+Download there from file like this:
+```
+wekan-3.xx-arm64.zip
+```
+With elinks, you can use arrow keys to navigate, and enter to download file to current directory.
+
+
+***
+
 
 ## Wekan for RasPi3 arm64 and other CPU architectures
 
