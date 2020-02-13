@@ -194,6 +194,9 @@ sudo systemctl enable wekan
 
 Wekan should work at your ROOT_URL in your webbrowser like http://192.168.0.x
 
+
+## 7. Optional: Email
+
 Note: Configuring email is not required to use Wekan.
 
 If you really would like to install email sending server,
@@ -202,12 +205,13 @@ you could install [postfix](https://github.com/wekan/wekan-bash-install-autoupgr
 MAIL_URL='smtp://127.0.0.1:25/'
 MAIL_FROM='Board Support <wekan@example.com>'
 ```
-
 It is much more recommended to use [email sending service like AWS SES or some other service](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail) that can ensure delivering email correctly, for Wekan email notifications etc.
+
+## 8. Optional: Nginx and Let's Encrypt SSL
 
 If your router has ports forwarded to your RasPi (in virtual server settings at http://192.168.0.1), then you could also [install nginx and Let's Encrypt SSL](https://github.com/wekan/wekan-bash-install-autoupgrade/blob/master/install.sh) in front of Wekan.
 
-## 7. Updating Wekan
+## 9. Updating Wekan
 Stop Wekan and move old stuff away:
 ```
 sudo systemctl stop wekan
@@ -230,6 +234,11 @@ Unzip and start Wekan:
 unzip wekan*.zip
 sudo systemctl start wekan
 ```
+If it works, delete old files:
+```
+rm -rf old
+``
+
 
 ***
 
