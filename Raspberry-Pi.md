@@ -33,6 +33,8 @@ If you have RasPi4 with 4 GB RAM, you can also install Ubuntu Desktop with:
 sudo apt-get install ubuntu-desktop
 ```
 
+Note: Raspbian is not recommended, because it is 32bit and has [32bit MongoDB that has file size limit of 2 GB](https://www.mongodb.com/blog/post/32-bit-limitations), if it grows bigger then it gets corrupted. That's why here is 64bit arm64 version of Ubuntu.
+
 ### 1. Download Ubuntu 19.10 64bit Server for RasPi and write to SD Card
 
 Download from: https://ubuntu.com/download/raspberry-pi
@@ -91,9 +93,8 @@ Download and open README.md, there could be text similar to this:
 README
 Currently uses Node v12.15.0 and MongoDB v3.x or v4.x
 Built on Ubuntu 19.10 arm64 on RasPi4.
-Should work on RasPi3 and RasPi4 on Ubuntu 19.10.
+Should work on RasPi3 and RasPi4 on Ubuntu 19.10 64bit.
 ```
-
 
 ## Wekan for RasPi3 arm64 and other CPU architectures
 
@@ -103,8 +104,6 @@ Newest Wekan:
 - Ubuntu 19.10 Server arm64 for RasPi3 and RasPi4
 - MongoDB 3.6.x
 - Newest Wekan with newest Meteor
-
-Note: Raspbian is not recommended, because it is 32bit and has [32bit MongoDB that has file size limit of 2 GB](https://www.mongodb.com/blog/post/32-bit-limitations), if it grows bigger then it gets corrupted. That's why here is arm64 version of Ubuntu 18.04.
 
 To test RasPi3, xet7 tested it with all his Wekan boards data:
 ```
