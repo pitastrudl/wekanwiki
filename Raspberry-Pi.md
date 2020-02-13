@@ -1,5 +1,35 @@
 [Blogpost](https://blog.wekan.team/2019/06/wekan-on-raspi3-and-arm64-server-now-works-and-whats-next-with-cncf/index.html) - [Blogpost repost at dev.to](https://dev.to/xet7/wekan-on-raspi3-and-arm64-server-now-works-and-what-s-next-with-cncf-pbk) - [Thanks at CNCF original issue](https://github.com/cncf/cluster/issues/45#issuecomment-507036930) - [Twitter tweet](https://twitter.com/WekanApp/status/1145168007901134848) - [HN](https://news.ycombinator.com/item?id=20318237)
 
+## Install Wekan for RasPi3 or RasPi4
+
+Newest Wekan:
+- Ubuntu 19.10 Server arm64 for RasPi3 and RasPi4
+- MongoDB 3.6.x
+- Newest Wekan with newest Meteor
+
+### Download
+
+1. For your RasPi, download Ubuntu 19.10 64bit Server from:
+
+https://ubuntu.com/download/raspberry-pi
+
+It seems that [RasPi website](https://www.raspberrypi.org/documentation/installation/installing-images/) recommends [BalenaEtcher GUI](https://www.balena.io/etcher/) for writing image to SD Card.
+
+For Linux dd users, after unarchiving in file manager, if sd card is /dev/sdb, it's for example:
+```
+sudo su
+dd if=ubuntu.img of=/dev/sdb conv=sync bs=40M status=progress
+sync
+exit
+```
+And wait for SD card light stop blinking, so it has written everything.
+
+2. Boot RasPi with your newly written SD card.
+
+
+
+
+
 ## Wekan for RasPi3 arm64 and other CPU architectures
 
 <img src="https://wekan.github.io/wekan-raspi3.png" width="100%" alt="Wekan on RasPi3" />
@@ -26,27 +56,6 @@ When using Firefox on network laptop (Core 2 Duo laptop, 8 GB RAM, SSD harddisk)
 <img src="https://wekan.github.io/wekan-raspi3-cpu-usage.jpg" width="100%" alt="Wekan on RasPi3" />
 
 I did also test Wekan arm64 on arm64 bare metal server, same Wekan bundle worked there.
-
-### Download
-
-1. For your RasPi, download Ubuntu 19.10 64bit Server from:
-
-https://ubuntu.com/download/raspberry-pi
-
-It seems that [RasPi website](https://www.raspberrypi.org/documentation/installation/installing-images/) recommends [BalenaEtcher GUI](https://www.balena.io/etcher/) for writing image to SD Card.
-
-For Linux dd users, after unarchiving in file manager, if sd card is /dev/sdb, it's for example:
-```
-sudo su
-dd if=ubuntu.img of=/dev/sdb conv=sync bs=40M status=progress
-sync
-exit
-```
-And wait for SD card light stop blinking, so it has written everything.
-
-2. Boot RasPi with your newly written SD card.
-
-
 
 # Old info below
 
