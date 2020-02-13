@@ -7,11 +7,9 @@ Newest Wekan:
 - MongoDB 3.6.x
 - Newest Wekan with newest Meteor
 
-### Download
+### 1. Download Ubuntu 19.10 64bit Server for RasPi and write to SD Card
 
-1. For your RasPi, download Ubuntu 19.10 64bit Server from:
-
-https://ubuntu.com/download/raspberry-pi
+Download from: https://ubuntu.com/download/raspberry-pi
 
 It seems that [RasPi website](https://www.raspberrypi.org/documentation/installation/installing-images/) recommends [BalenaEtcher GUI](https://www.balena.io/etcher/) for writing image to SD Card.
 
@@ -24,11 +22,36 @@ exit
 ```
 And wait for SD card light stop blinking, so it has written everything.
 
-2. Boot RasPi with your newly written SD card.
+### 2. Preparing for booting RasPi
 
+With RasPi, you need:
+- Ubuntu SD card inserted to your RasPi.
+- Ethernet cable connected to your router/modem/hub, with connection to Internet.
+- USB keyboard and mouse connected.
+- Monitor connected to HDMI. Or alternatively, look at your router webpage http://192.168.0.1 (or similar) what is your RasPi IP address, and ssh ubuntu@192.168.0.x with password ubuntu.
+- Power cable.
 
+Boot RasPi.
 
+Username: ubuntu
+Password: ubuntu
 
+This info is from https://wiki.ubuntu.com/ARM/RaspberryPi
+
+It will ask you to change your password at first login.
+
+### 3. Wait for updates to finish
+
+After login, type:
+```
+top
+```
+When you see `apt` or `dpkg`, automatic updates are still running. Wait for updates to finish. Then press `q` to quit top.
+
+### 4. Install remaining updates
+```
+sudo 
+```
 
 ## Wekan for RasPi3 arm64 and other CPU architectures
 
