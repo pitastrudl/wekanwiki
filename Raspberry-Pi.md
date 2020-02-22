@@ -13,7 +13,7 @@ Look at webbrowser files at https://releases.wekan.team/raspi3/
 Download and open README.md, there could be text similar to this:
 ```
 README
-Currently uses Node v12.15.0 and MongoDB v3.x or v4.x
+Currently uses Node v12.16.1 and MongoDB v3.x or v4.x
 Built on Ubuntu 19.10 64bit arm64 on RasPi4.
 Should work on RasPi3 and RasPi4 on Ubuntu 19.10 64bit arm64.
 Install info here:
@@ -103,7 +103,7 @@ elinks https://releases.wekan.team/raspi3
 Download and open README.md, there could be text similar to this:
 ```
 README
-Currently uses Node v12.15.0 and MongoDB v3.x or v4.x
+Currently uses Node v12.16.1 and MongoDB v3.x or v4.x
 Built on Ubuntu 19.10 arm64 on RasPi4.
 Should work on RasPi3 and RasPi4 on Ubuntu 19.10 64bit.
 ```
