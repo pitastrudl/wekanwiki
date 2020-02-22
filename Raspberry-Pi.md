@@ -115,7 +115,7 @@ sudo npm -g install n
 ```
 Then from README.md you downloaded, look at Node version, and install it, for example:
 ```
-sudo n 12.15.0
+sudo n 12.16.1
 ```
 Then look again files:
 ```
