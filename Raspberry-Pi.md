@@ -1,5 +1,11 @@
 [Blogpost](https://blog.wekan.team/2019/06/wekan-on-raspi3-and-arm64-server-now-works-and-whats-next-with-cncf/index.html) - [Blogpost repost at dev.to](https://dev.to/xet7/wekan-on-raspi3-and-arm64-server-now-works-and-what-s-next-with-cncf-pbk) - [Thanks at CNCF original issue](https://github.com/cncf/cluster/issues/45#issuecomment-507036930) - [Twitter tweet](https://twitter.com/WekanApp/status/1145168007901134848) - [HN](https://news.ycombinator.com/item?id=20318237)
 
+## Bundle files
+
+Bundle for x64 is at https://releases.wekan.team filename wekan-3.xx.zip
+
+Bundle for arm64 is at https://releases.wekan.team/raspi/ filename wekan-3.xx-arm64.zip
+
 ## Install Wekan to RasPi3, RasPi4 or any arm64 server
 
 Look at webbrowser files at https://releases.wekan.team/raspi3/
@@ -117,7 +123,7 @@ elinks https://releases.wekan.team/raspi3/
 ```
 Download there from files like these:
 ```
-wekan-3.xx-arm64.zip
+wget https://releases.wekan.team/raspi3/wekan-3.xx-arm64.zip
 ```
 Also download newest start-wekan.sh:
 ```
