@@ -4,7 +4,7 @@
 
 Bundle for x64 is at https://releases.wekan.team filename wekan-3.xx.zip
 
-Bundle for arm64 is at https://releases.wekan.team/raspi/ filename wekan-3.xx-arm64.zip
+Bundle for arm64 is at https://releases.wekan.team/raspi3/ filename wekan-3.xx-arm64.zip
 
 ## Install Wekan to RasPi3, RasPi4 or any arm64 server
 
