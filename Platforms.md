@@ -2,6 +2,8 @@
 
 Downloading and installing Wekan on various platforms.
 
+Only newest Wekan is supported. Please check you are running newest Wekan, because old versions of Wekan have old Node.js and other dependency etc vulnerabilities.
+
 ## Related 
 
 * [Wekan new release ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md)
