@@ -4,6 +4,7 @@
 - [LDAP issues](https://github.com/wekan/wekan-ldap/issues)
 - [Univention LDAP related issues](https://github.com/wekan/univention/issues)
 - [Teams/Organizations feature related LDAP plans](https://github.com/wekan/wekan/issues/802). Needs info from LDAP experts to describe how LDAP works.
+- [Wekan LDAP code](https://github.com/wekan/wekan/tree/master/packages/wekan-ldap)
 
 ***
 
