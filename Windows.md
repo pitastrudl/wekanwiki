@@ -94,11 +94,15 @@ WITH_API=true RICHER_CARD_COMMENT_EDITOR=false ROOT_URL=http://192.168.0.200:400
 ```
 ## d) VirtualBox with Ubuntu 19.10 64bit
 
-Install Ubuntu to VirtualBox and then Wekan.
+Install Ubuntu to VirtualBox and then Wekan, for example Wekan Snap.
 
-[UCS has VirtualBox VM](https://github.com/wekan/wekan/wiki/Platforms#production-univention-platform-many-apps-and-wekan)
+Currently Snap works only when installed to Ubuntu 19.10 64bit running on VirtualBox VM.
 
-[Related VM info and old VM here](https://github.com/wekan/wekan/wiki/Virtual-Appliance)
+https://github.com/wekan/wekan-snap/wiki/Install
+
+[Related VM info how to expose port with bridged networking](https://github.com/wekan/wekan/wiki/Virtual-Appliance)
+
+[UCS has prebuilt VirtualBox VM](https://github.com/wekan/wekan/wiki/Platforms#production-univention-platform-many-apps-and-wekan)
 
 ***
 
@@ -158,10 +162,6 @@ REM    edit "start-wekan.bat" to "cd" to correct bundle directory to run "node m
 ## g) Snap
 
 Sometime Snap could start working on WSL2, if all required options are enabled in Linux kernel included to Windows.
-
-Currently Snap works only when installed to Ubuntu 19.10 64bit running on VirtualBox VM.
-
-https://github.com/wekan/wekan-snap/wiki/Install
 
 ## Related
 
