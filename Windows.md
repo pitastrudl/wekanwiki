@@ -14,7 +14,7 @@ https://www.mongodb.com/download-center/community
 
 5. Unzip wekan-3.xx.zip, it has directory name `bundle`
 
-6. Like at [bundle wiki page](https://github.com/wekan/wekan/wiki/Platforms#not-exposed-to-internet-bundle-for-raspi-3-arm64-windows-and-any-nodemongo-cpu-architectures-no-automatic-updates-no-sandboxing), similarly do for bundle:
+6. (This in not required) Like at [bundle wiki page](https://github.com/wekan/wekan/wiki/Platforms#not-exposed-to-internet-bundle-for-raspi-3-arm64-windows-and-any-nodemongo-cpu-architectures-no-automatic-updates-no-sandboxing), similarly do for bundle:
 ```
 cd bundle/programs/server
 npm install
