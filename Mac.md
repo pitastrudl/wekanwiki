@@ -26,8 +26,6 @@ export MONGO_URL='mongodb://127.0.0.1:27017/wekan'
 - [Docker](https://github.com/wekan/wekan/wiki/Docker)
 - [Docker Dev Environment](https://github.com/wekan/wekan-dev)
 
-## b) [Docker](https://github.com/wekan/wekan/wiki/Docker)
-
 If you don't need to build Wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
 ```
 docker-compose up -d
