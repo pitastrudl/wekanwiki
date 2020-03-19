@@ -4,8 +4,8 @@ This has **highest performance and lowest RAM usage**, because there is no virtu
 
 1. If you have important data in Wekan, do [backup](https://github.com/wekan/wekan/wiki/Backup).
 
-2. Install newest Node.js v8.x.x for Windows
-https://nodejs.org/dist/v8.16.1/
+2. Install newest Node.js v12.x.x for Windows
+https://nodejs.org/dist/v12.16.1/
 
 3. Install MongoDB 4.x for Windows
 https://www.mongodb.com/download-center/community
