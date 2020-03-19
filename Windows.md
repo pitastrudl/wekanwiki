@@ -88,6 +88,11 @@ More info at https://github.com/wekan/wekan/wiki/Raspberry-Pi
 - You could try to proxy from IIS SSL website to Wekan localhost port, for example when ROOT_URL=https://example.com and PORT=3001 , and you make IIS config that supports websockets proxy to Wekan http port 3001.
 
 If you need to build from source, do as above, and build Wekan with `wekan/rebuild-wekan.sh`.
+After building, if you like to start meteor faster by excluding some parts, have rebuilds after file change, and test on local network devices, try with your computer IP address:
+```
+WITH_API=true RICHER_CARD_COMMENT_EDITOR=false ROOT_URL=http://192.168.0.200:4000 meteor --exclude-archs web.browser.legacy,web.cordova --port 4000
+```
+
 
 ## e) Probaby does not work
 
