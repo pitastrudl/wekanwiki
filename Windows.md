@@ -92,13 +92,23 @@ After building, if you like to start meteor faster by excluding some parts, have
 ```
 WITH_API=true RICHER_CARD_COMMENT_EDITOR=false ROOT_URL=http://192.168.0.200:4000 meteor --exclude-archs web.browser.legacy,web.cordova --port 4000
 ```
+## d) VirtualBox with Ubuntu 19.10 64bit
 
+Install Ubuntu to VirtualBox and then Wekan.
+
+[UCS has VirtualBox VM](https://github.com/wekan/wekan/wiki/Platforms#production-univention-platform-many-apps-and-wekan)
+
+[Related VM info and old VM here](https://github.com/wekan/wekan/wiki/Virtual-Appliance)
+
+***
+
+# BELOW: DOES NOT WORK
 
 ## e) Probaby does not work
 
 [Install from source directly on Windows](https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows) to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
 
-## d) Install Meteor on Windows - does not build correctly, gives errors
+## f) Install Meteor on Windows - does not build correctly, gives errors
 
 https://github.com/zodern/windows-meteor-installer/
 
@@ -145,6 +155,13 @@ meteorz --port 4000
 REM c) For production, after Wekan is built to "wekan/.build/bundle",
 REM    edit "start-wekan.bat" to "cd" to correct bundle directory to run "node main.js"
 ```
+## g) Snap
+
+Sometime Snap could start working on WSL2, if all required options are enabled in Linux kernel included to Windows.
+
+Currently Snap works only when installed to Ubuntu 19.10 64bit running on VirtualBox VM.
+
+https://github.com/wekan/wekan-snap/wiki/Install
 
 ## Related
 
