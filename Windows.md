@@ -34,21 +34,110 @@ start-wekan.bat
 
 ***
 
-## b) Install Meteor on Windows
+## b) [Docker](https://github.com/wekan/wekan/wiki/Docker)
+
+If you don't need to build Wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
+```
+docker-compose up -d
+```
+
+If you like to build from source, clone Wekan repo:
+```
+git clone https://github.com/wekan/wekan
+```
+Then edit docker-compose.yml with [these lines uncommented](https://github.com/wekan/wekan/blob/master/docker-compose.yml#L132-L142) this way:
+```
+   #-------------------------------------------------------------------------------------
+    # ==== BUILD wekan-app DOCKER CONTAINER FROM SOURCE, if you uncomment these ====
+    # ==== and use commands: docker-compose up -d --build
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NODE_VERSION=${NODE_VERSION}
+        - METEOR_RELEASE=${METEOR_RELEASE}
+        - NPM_VERSION=${NPM_VERSION}
+        - ARCHITECTURE=${ARCHITECTURE}
+        - SRC_PATH=${SRC_PATH}
+        - METEOR_EDGE=${METEOR_EDGE}
+        - USE_EDGE=${USE_EDGE}
+    #-------------------------------------------------------------------------------------
+```
+Then you can build Wekan with 
+```
+docker-compose up -d --build
+```
+
+## c) Windows Subsystem for Linux on Windows 10
+- [Install Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install) in PowerShell as Administrator `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux` and reboot
+- Install Ubuntu 18.04 from Windows Store
+
+If you don't need to build from source, download newest wekan-VERSION.zip from https://releases.wekan.team and unzip it. Then:
+```
+sudo apt update
+sudo apt install npm mongodb-server mongodb-clients
+sudo npm -g install n
+sudo n 12.16.1
+sudo npm -g install npm
+```
+Then edit `start-wekan.sh` to start at correct port, ROOT_URL setting, and MONGO_URL to port 27017, cd to correct bundle directory where `node main.js` can be run, and then:
+```
+./start-wekan.sh
+```
+More info at https://github.com/wekan/wekan/wiki/Raspberry-Pi
+- You could try to proxy from IIS SSL website to Wekan localhost port, for example when ROOT_URL=https://example.com and PORT=3001 , and you make IIS config that supports websockets proxy to Wekan http port 3001.
+
+If you need to build from source, do as above, and build Wekan with `wekan/rebuild-wekan.sh`.
+
+## e) Probaby does not work: [Install from source directly on Windows](https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows) to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
+
+## d) Install Meteor on Windows - does not build correctly, gives errors
 
 https://github.com/zodern/windows-meteor-installer/
 
-## c) [Docker](https://github.com/wekan/wekan/wiki/Docker)
+```
+REM Install Chocolatey from
+REM https://chocolatey.org/install
+REM in PowerShell as Administrator
 
-## d) Windows Subsystem for Linux on Windows 10
-- [Install Windows Subsystem for Linux](https://wiki.debian.org/InstallingDebianOn/Microsoft/Windows/SubsystemForLinux)
-- Install Debian from Windows Store
-- Use [VirtualBox scripts](https://github.com/wekan/wekan-maintainer/tree/master/virtualbox) of rebuild-wekan.sh etc to install and build Wekan
-- Run Wekan locally with meteor at http://localhost:3000 : `cd wekan && meteor`
-- Or: try to modify start-wekan.sh etc to run wekan at http://ip-address or http://example.com
-- You could try to proxy from IIS SSL website to Wekan localhost port, for example when ROOT_URL=https://example.com and PORT=3001 , and you make IIS config that supports websockets proxy to Wekan http port 3001.
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-## e) Probaby does not work: [Install from source directly on Windows](https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows) to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
+REM Install with cmd.exe or PowerShell as Administrator
+REM - nodejs-lts, that is 12.x
+REM - ndm, that is npm package manager for Windows
+
+choco install -y nodejs-lts ndm git
+
+REM Close and open cmd.exe or PowerShell as normal user.
+REM Update npm:
+
+npm -g install npm
+
+REM Install meteor using https://github.com/zodern/windows-meteor-installer/
+
+npm i -g @zodern/windows-meteor-installer
+
+REM Close and open cmd.exe or PowerShell as normal user.
+
+git clone https://github.com/wekan/wekan
+cd wekan
+
+REM a) For development, available at local network, at your computer IP address. Does rebuild when code changes.
+
+SET WITH_API=true
+SET RICHER_CARD_EDITOR=false
+SET ROOT_URL=http://192.168.0.200:4000
+meteorz --port 4000
+
+REM b) For development, available only at http://localhost:4000 . Does rebuild when code changes.
+
+SET WITH_API=true
+SET RICHER_CARD_EDITOR=false
+meteorz --port 4000
+
+REM c) For production, after Wekan is built to "wekan/.build/bundle",
+REM    edit "start-wekan.bat" to "cd" to correct bundle directory to run "node main.js"
+```
 
 ## Related
 
