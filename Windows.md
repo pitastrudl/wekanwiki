@@ -89,7 +89,9 @@ More info at https://github.com/wekan/wekan/wiki/Raspberry-Pi
 
 If you need to build from source, do as above, and build Wekan with `wekan/rebuild-wekan.sh`.
 
-## e) Probaby does not work: [Install from source directly on Windows](https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows) to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
+## e) Probaby does not work
+
+[Install from source directly on Windows](https://github.com/wekan/wekan/wiki/Install-Wekan-from-source-on-Windows) to get Wekan running natively on Windows. [git clone on Windows has been fixed](https://github.com/wekan/wekan/issues/977). Related: [running standalone](https://github.com/wekan/wekan/issues/883) and [nexe](https://github.com/wekan/wekan/issues/710).
 
 ## d) Install Meteor on Windows - does not build correctly, gives errors
 
