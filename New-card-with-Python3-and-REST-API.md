@@ -1,5 +1,6 @@
 Also see:
 - https://wekan.github.io/api/
+- In the right menu, scroll down REST API Docs etc =====>
 - https://github.com/pycurl/pycurl/tree/master/examples/quickstart
 
 # Install
