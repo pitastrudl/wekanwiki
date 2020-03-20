@@ -7,3 +7,5 @@ Related to docker-compose.yml at https://github.com/wekan/wekan , using Docker S
 [MongoDB replication docs](https://docs.mongodb.com/manual/replication/)
 
 [MongoDB compatible databases](https://github.com/wekan/wekan/issues/2852)
+
+[AWS](https://github.com/wekan/wekan/wiki/AWS)
