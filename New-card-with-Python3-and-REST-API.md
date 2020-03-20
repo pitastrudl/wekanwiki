@@ -1,7 +1,9 @@
 Also see:
 - https://wekan.github.io/api/
-- In the right menu, scroll down REST API Docs etc =====>
+- [API Login to get Bearer token](https://github.com/wekan/wekan/wiki/REST-API#example-call---as-form-data)
+- In the right menu, scroll down REST API Docs etc links =====>
 - https://github.com/pycurl/pycurl/tree/master/examples/quickstart
+- Wekan-Gogs integration with Node.js https://github.com/wekan/wekan-gogs
 
 # Install
 
