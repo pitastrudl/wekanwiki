@@ -2,9 +2,13 @@
 
 [![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
 
+## Note: docker-compose.yml works
+
 There is much more settings at well-documented [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml), those can also be added to be used below.
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
+
+## Note: currently docker command examples do not work, help welcome
 
 Example for latest Wekan, port 2000 to Docker Wekan internal port 8080:
 ```
