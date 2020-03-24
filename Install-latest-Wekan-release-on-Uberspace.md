@@ -1,3 +1,7 @@
+**NOTE**:
+- [Newest Node/Mongo/Meteor versions](https://github.com/wekan/wekan/blob/master/Dockerfile).
+- For x64 wekan-VERSION.zip is at https://releases.wekan.team and some related install info https://github.com/wekan/wekan/wiki/Raspberry-Pi
+
 **Purpose**: Install latest Wekan release on [Uberspace](https://uberspace.de/) 6 and run as [daemontools](https://cr.yp.to/daemontools/faq/create.html) service in local userspace.
 
 This script installs Wekan on a fresh Uberspace 6. It setup Node 4, MongoDB, a Port, installs Wekan and starts it as a service. It's tested with Wekan versions 0.32 and 0.63. 
