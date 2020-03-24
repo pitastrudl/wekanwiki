@@ -24,6 +24,8 @@ Enable MongoDB
 
 ## Installation
 
+Newest wekan-VERSION.zip at https://releases.wekan.team
+
 As wekan
 
 	$ cd
