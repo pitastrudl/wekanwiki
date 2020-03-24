@@ -34,46 +34,6 @@ Only newest Wekan is supported. Please check you are running newest Wekan, becau
 - Newer version of Wekan will be released when building and testing is done.
 
 ***
-
-## <a name="ProductionSandstorm"></a>Production: [Sandstorm](https://sandstorm.io) platform, many apps and Wekan.
-
-* If you have any grains at Sandstorm's **Oasis montly paid service**, please move those to self-hosted, because [only **Oasis grain hosting** part is shutting down](https://sandstorm.io/news/2019-09-15-shutting-down-oasis) - [HN](https://news.ycombinator.com/item?id=20979428). This does not affect any other parts like self-hosting at sandcats.io, App Market, updates, etc.
-
-* **[Sandstorm info at Wekan wiki](https://github.com/wekan/wekan/wiki/Sandstorm)** on Debian 64bit, Ubuntu 64bit
-
-[Security audited](https://sandstorm.io/news/2017-03-02-security-review), recommended for security critical use on public internet or internal network. [Sandstorm Security Features](https://docs.sandstorm.io/en/latest/using/security-practices/). Sandstorm is [completely Open Source](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), including [Blackrock Clustering](https://github.com/sandstorm-io/blackrock).
-
-Install to your own server. Automatic updates, tested before release. Sandstorm Wekan has different features than Standalone.
-
-**Works**
-- Google/GitHub/LDAP/SAML/Passwordless email login.
-- Import from Wekan JSON.
-- Free SSL at https://yourservername.sandcats.io domain.
-- [Rescuing MongoDB data from Sandstorm Grain .zip file to Standalone Wekan](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
-
-**Does not work**
-- Import from Trello does not import attachments, because Sandstorm-compatible HTTP-access from Wekan to outside of Wekan grain sandbox is not implemented yet 
-- [Copying/Moving card to another board](https://github.com/wekan/wekan/issues/1729).
-- [REST API](https://github.com/wekan/wekan/issues/1279) 
-- [Outgoing Webhooks](https://github.com/wekan/wekan/wiki/Outgoing-Webhook-to-Discord)
-- [Email from Wekan](https://github.com/wekan/wekan/issues/2208#issuecomment-469290305)
-
-***
-
-## <a name="ProductionSnap"></a>Production: Snap for Linux, install to your own server or laptop. Automatic Updates. Only Standalone Wekan.
-
-If on Snap Stable automatic update breaks something, [report Wekan for Snap bugs and feature requests here](https://github.com/wekan/wekan-snap/issues), so it can be fixed on some automatic update. If security is critical, keep behind firewall, without any ports open to Internet.
-
-* **[Install Snap](https://github.com/wekan/wekan-snap/wiki/Install)** on Linux 64bit. 
-  * **Debian, Ubuntu and Linux Mint based distros**
-  * Arch
-  * Fedora
-  * Solus
-  * OpenSUSE
-  * Gentoo
-  * Manjaro
-  * Elementary OS
-  * CentOS 7
 * Cloud: Some additional info
   * [AWS](https://github.com/wekan/wekan/wiki/AWS)
   * [Azure](https://github.com/wekan/wekan/wiki/Azure)
