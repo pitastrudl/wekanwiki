@@ -2,11 +2,43 @@
 
 [![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
 
+[Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
+
 ## Note: docker-compose.yml works
 
 There is much more settings at well-documented [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml), those can also be added to be used below.
 
-[Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
+If you don't need to build Wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
+```
+docker-compose up -d
+```
+
+If you like to build from source, clone Wekan repo:
+```
+git clone https://github.com/wekan/wekan
+```
+Then edit docker-compose.yml with [these lines uncommented](https://github.com/wekan/wekan/blob/master/docker-compose.yml#L132-L142) this way:
+```
+   #-------------------------------------------------------------------------------------
+    # ==== BUILD wekan-app DOCKER CONTAINER FROM SOURCE, if you uncomment these ====
+    # ==== and use commands: docker-compose up -d --build
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NODE_VERSION=${NODE_VERSION}
+        - METEOR_RELEASE=${METEOR_RELEASE}
+        - NPM_VERSION=${NPM_VERSION}
+        - ARCHITECTURE=${ARCHITECTURE}
+        - SRC_PATH=${SRC_PATH}
+        - METEOR_EDGE=${METEOR_EDGE}
+        - USE_EDGE=${USE_EDGE}
+    #-------------------------------------------------------------------------------------
+```
+Then you can build Wekan with 
+```
+docker-compose up -d --build
+```
 
 ## Note: Currently these Docker command examples do not work, help welcome
 
