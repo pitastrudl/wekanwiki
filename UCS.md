@@ -1,4 +1,4 @@
-<img src="https://www.univention.com/wp-content/themes/univention/assets/images/univention-logo.svg" width="20%" alt="Univention logo" />
+<img src="https://www.univention.com/wp-content/themes/univention/assets/images/univention-logo.svg" width="30%" alt="Univention logo" />
 
 ## <a name="ProductionUnivention"></a>Production: [Univention](https://www.univention.com/products/univention-app-center/app-catalog/wekan/) platform, many apps and Wekan.
 
