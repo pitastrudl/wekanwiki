@@ -8,7 +8,7 @@ There is much more settings at well-documented [docker-compose.yml](https://raw.
 
 [Many tags available](https://quay.io/repository/wekan/wekan?tab=tags)
 
-## Note: currently docker command examples do not work, help welcome
+## Note: Currently these Docker command examples do not work, help welcome
 
 Example for latest Wekan, port 2000 to Docker Wekan internal port 8080:
 ```
