@@ -17,7 +17,7 @@ python3 newcard.py
 ```
 Debian/Ubuntu
 ```
-sudo apt-get install python3 python3-pip python3-pycurl
+sudo apt-get -y install python3 python3-pip python3-pycurl
 sudo pip3 install pip --upgrade
 sudo pip3 install certifi json
 chmod +x newcard.py
