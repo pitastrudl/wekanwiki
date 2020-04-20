@@ -152,6 +152,7 @@ See the related tickets [#92] and [#97] for more information.
 ## Why am I called a troll?
 * You use word "shame", that means you would like to have a feature or fix without contributing any code or payment yourself, worded in a way to make it itch conscience.
 * You used some other troll worlds, like "pain I feel", "ugly", "sad subject", not appreciating all the hard work that has went to creating Wekan, [like here](https://github.com/wekan/wekan/issues/2120#issuecomment-616060106).
+* You commented ["no good way of doing it manually"](https://github.com/wekan/wekan/issues/2120#issuecomment-616655446) when I in [previous comment told how to do it manually](https://github.com/wekan/wekan/issues/2120#issuecomment-616085823). Like, why it's "no good", like more negative trolling?
 * You want a feature, but you add thumbs down emoji reactions
 * You are adding image reactions
 * You want priorities changed. Current priorities are:
