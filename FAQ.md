@@ -150,6 +150,7 @@ See the related tickets [#92] and [#97] for more information.
 # Etiquette
 
 ## Why am I called a troll?
+* You use word "shame", that means you would like to have a feature or fix without contributing any code or payment yourself, worded in a way to make it itch conscience.
 * You want a feature, but you add thumbs down emoji reactions
 * You are adding image reactions
 * You want priorities changed. Current priorities are:
