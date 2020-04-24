@@ -20,7 +20,7 @@ Debian/Ubuntu
 sudo apt-get -y install python3 python3-pip python3-pycurl python3-simplejson
 sudo pip3 install pip --upgrade
 sudo pip3 install certifi
-chmod +x newcard.py
+chmod +x wekan.py
 ./wekan.py
 ```
 
