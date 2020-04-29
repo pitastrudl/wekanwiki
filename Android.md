@@ -16,9 +16,9 @@ At AnLinux choose:
 When you get from Termux to Ubuntu bash, you can install Wekan similarly like arm64 or x64:
 https://github.com/wekan/wekan/wiki/Raspberry-Pi
 
-And edit start-wekan.sh so you can start Wekan for example:
+Edit start-wekan.sh so you can start Wekan for example:
 ```
 ROOT_URL=http://localhost:2000
 PORT=2000
 ```
-And at Android webbrowser like Chrome and Firefox browse to http://localhost:2000
+At Android webbrowser like Chrome and Firefox browse to http://localhost:2000
