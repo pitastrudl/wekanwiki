@@ -46,7 +46,7 @@ Requirements:
 - 1 Android device that has:
   - Wekan installed according to steps 1-3 above
   - Android VNC client to local AnLinux Ubuntu desktop
-  - Firefox installed with apt-get to that Ubuntu desktop, browsing Wekan at http://IP-ADDRESS:2020
+  - Firefox installed with apt-get to that Ubuntu desktop, browsing Wekan at http://IP-ADDRESS:2000
   - Using ChromeCast to show Android full screen at TV
 
 This way, you have:
