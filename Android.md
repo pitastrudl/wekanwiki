@@ -13,7 +13,7 @@ At AnLinux choose:
 
 ## 2) At Termux
 
-When you get from Termux to Ubuntu bash, you can install Wekan similarly like Raspberry Pi arm64:
+When you get from Termux to Ubuntu bash, you can install Wekan similarly like arm64 or x64:
 https://github.com/wekan/wekan/wiki/Raspberry-Pi
 
 And edit start-wekan.sh so you can start Wekan for example:
