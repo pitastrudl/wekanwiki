@@ -34,4 +34,4 @@ Edit start-wekan.sh so you can start Wekan for example:
 ROOT_URL=http://IP-ADDRESS:2000
 PORT=2000
 ```
-Then you can use any computer or mobile phone webbrowser at WLAN to use Wekan at http://IP-ADDRESS:2000 like http://192.168.0.100:2000
+Then you can use any computer or mobile phone Javascript capable webbrowser at WLAN to use Wekan at http://IP-ADDRESS:2000 like http://192.168.0.100:2000
