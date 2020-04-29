@@ -34,4 +34,22 @@ Edit start-wekan.sh so you can start Wekan for example:
 ROOT_URL=http://IP-ADDRESS:2000
 PORT=2000
 ```
-Then you can use any computer or mobile phone Javascript capable webbrowser at WLAN to use Wekan at http://IP-ADDRESS:2000 like http://192.168.0.100:2000
+Then you can use any computer or mobile phone Javascript capable webbrowser at WLAN to use Wekan at http://IP-ADDRESS:2000 like http://192.168.0.100:2000 . [More info about ROOT_URL](https://github.com/wekan/wekan/wiki/Settings).
+
+## 4) Optional: Mobile Linux Desktop
+
+Requirements:
+- 1 WLAN, for example: mobile hotspot, Android device sharing WLAN, hotel WLAN, office WLAN
+- ChromeCast that is connected to HDMI Input of hotel/office/home TV and WLAN
+- Bluetooth keyboard
+- Bluetooth mouse
+- 1 Android device that has:
+  - Wekan installed according to steps 1-3 above
+  - Android VNC client to local AnLinux Ubuntu desktop
+  - Firefox installed with apt-get to that Ubuntu desktop, browsing Wekan at http://IP-ADDRESS:2020
+  - Using ChromeCast to show Android full screen at TV
+
+This way, you have:
+- Big TV display
+- Full size keyboard and mouse
+- Full featured Firefox at Ubuntu Desktop using Wekan
