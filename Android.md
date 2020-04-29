@@ -22,3 +22,16 @@ ROOT_URL=http://localhost:2000
 PORT=2000
 ```
 At Android webbrowser like Chrome and Firefox browse to http://localhost:2000
+
+## 3) WLAN
+
+If you connect to WLAN, you can get your IP address with command:
+```
+ip address
+```
+Edit start-wekan.sh so you can start Wekan for example:
+```
+ROOT_URL=http://IP-ADDRESS:2000
+PORT=2000
+```
+Then you can use any computer or mobile phone webbrowser at WLAN to use Wekan at http://IP-ADDRESS:2000 like http://192.168.0.100:2000
