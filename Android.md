@@ -1,7 +1,7 @@
 ### Running Wekan server at Android
 
 Requirements:
-- arm64 or x64 Android with at least 3 GB RAM. Tested with with OnePlus 3 that has 6 GB RAM.
+- arm64 or x64 Android with at least 3 GB RAM. Tested with with arm64 OnePlus 3 that has 6 GB RAM.
 - It is not necessary to root Android.
 
 ## 1) Install AnLinux and Termux from Play Store
