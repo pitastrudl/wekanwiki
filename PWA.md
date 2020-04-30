@@ -1,4 +1,4 @@
-## Install Wekan or Sandstorm to homescreen icon and use as a fullscreen PWA
+## Install Wekan or Sandstorm to homescreen icon and use fullscreen PWA
 
 ### Android Firefox
 
