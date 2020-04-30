@@ -30,6 +30,16 @@
 
 4. Follow the onscreen instructions to install.
 
+### Android Opera
+
+1. Open Opera
+
+2. Login to Wekan or Sandstorm
+
+3. Click top right menu (3 dots on top of each other) / Add to / Home screen
+
+4. Follow the onscreen instructions to install.
+
 ### Android Vivaldi
 
 1. Open Vivaldi
