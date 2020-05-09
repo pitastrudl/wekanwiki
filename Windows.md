@@ -4,8 +4,7 @@ This has **highest performance and lowest RAM usage**, because there is no virtu
 
 1. If you have important data in Wekan, do [backup](https://github.com/wekan/wekan/wiki/Backup).
 
-2. Install newest Node.js v12.x.x for Windows
-https://nodejs.org/dist/v12.16.1/
+2. Install newest Node.js v12.x for Windows from https://nodejs.org
 
 3. Install MongoDB 4.x for Windows
 https://www.mongodb.com/download-center/community
@@ -14,22 +13,15 @@ https://www.mongodb.com/download-center/community
 
 5. Unzip wekan-3.xx.zip, it has directory name `bundle`
 
-6. (This in not required) Like at [bundle wiki page](https://github.com/wekan/wekan/wiki/Platforms#not-exposed-to-internet-bundle-for-raspi-3-arm64-windows-and-any-nodemongo-cpu-architectures-no-automatic-updates-no-sandboxing), similarly do for bundle:
-```
-cd bundle/programs/server
-npm install
-npm install node-gyp node-pre-gyp fibers
-cd ..\..\..
-```
-7. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Edit it for your [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) etc settings.
+6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Edit it for your [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) to be for example http://localhost or http://YOUR-IP-ADDRESS and PORT=80
 
-8. Start Wekan:
+7. Start Wekan:
 ```
 cd bundle
 start-wekan.bat
 ```
 
-9. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
+8. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
 
 
 ***
