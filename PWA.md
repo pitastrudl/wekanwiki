@@ -1,6 +1,6 @@
 ## Install Wekan to homescreen icon and use fullscreen PWA
 
-Works in upcoming Wekan v4.02 and newer.
+Works in Wekan v4.02 and newer.
 
 ### iOS Safari
 
