@@ -42,6 +42,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Time Tracking Integration](https://github.com/wekan/wekan/wiki/Time-Tracking)
 * [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
 * [Templates](https://github.com/wekan/wekan/wiki/Templates)
 * [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
