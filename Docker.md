@@ -71,16 +71,44 @@ quay.io/wekan/wekan
 
 [Move Docker containers to other computer](https://github.com/wekan/wekan/wiki/Move-Docker-containers-to-other-computer), needs more details
 
-[Backup and Upgrade](https://github.com/wekan/wekan-mongodb#backup-before-upgrading)
+### Backup before upgrade
+```
+docker stop wekan-app
+docker exec -it wekan-db bash
+cd /data
+rm -rf dump
+mongodump
+exit
+docker start wekan-app
+docker cp wekan-db:/data/dump .
+```
+### Upgrade
+```
+docker stop wekan-app
+docker rm wekan-app
+```
+Then edit docker-compose.yml to have higher wekan-app image version tag. Then:
+```
+docker-compose up -d
+```
+### Images
+Quay: `image: quay.io/wekan/wekan:v4.07`
+Docker Hub: `image: wekanteam/wekan:v4.07`
 
-Quay: `image: quay.io/wekan/wekan:v3.37`
-Docker Hub: maybe is broken.
-
-Based on Debian 10, Docker image at Quay.io Docker reqistry
-
-
-[Wekan for Docker bug reports and feature requests](https://github.com/wekan/wekan-mongodb/issues)
-
+### Restore
+```
+docker stop wekan-app
+docker exec -it wekan-db bash
+cd /data
+rm -rf dump
+exit
+docker cp dump wekan-db:/data/
+docker exec -it wekan-db bash
+cd /data
+mongorestore --drop
+exit
+docker start wekan-app
+```
 ## Cleanup
 
 [Cleanup and delete all Docker data to get Docker Compose working](https://github.com/wekan/wekan/issues/985)
