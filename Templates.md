@@ -5,7 +5,7 @@ There is currently:
 - [Per-user templates](https://github.com/wekan/wekan/issues/2209), it works as described below.
 - Card hamburger menu / Copy Checklist Template to Many Cards
 
-At [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license) of xet7, Maintainer of Wekan, these already have [funding](https://wekan.team/commercial-support/):
+At [Roadmap](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license) of xet7, Maintainer of Wekan, these already have [some funding](https://wekan.team/commercial-support/):
 - [Collapsible Swimlanes with count](https://github.com/wekan/wekan/issues/2804)
 - [Single fixed list titles static at top of swimlanes view](https://github.com/wekan/wekan/issues/2805).
 - [Main Boards/Organizing Boards/Nested Tabs](https://github.com/wekan/wekan/issues/2796) + [Shared templates](https://github.com/wekan/wekan/issues/2209) + [Top Level Projects](https://github.com/wekan/wekan/issues/641).
