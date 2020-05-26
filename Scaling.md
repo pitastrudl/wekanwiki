@@ -1,6 +1,6 @@
 ## Story: MongoDB on bare metal
 
-From tampa:
+From Tampa:
 
 Hey,
 
