@@ -1,6 +1,6 @@
 If you know updates to this, please add new issue about it.
 
-Browser | PWA | Mobile | Desktop | OS
+Browser | [PWA](https://github.com/wekan/wekan/wiki/PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
 Safari | iOS Yes | iOS Newest | Newest | iOS, macOS
 Chrome | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
