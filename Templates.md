@@ -1,3 +1,5 @@
+[More about templates explained here](https://github.com/wekan/wekan/issues/3127#issuecomment-634348524)
+
 [Templates feature requests and bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+templates+label%3AFeature%3ATemplates)
 
 ***
@@ -22,8 +24,6 @@ At Roadmap of some other Wekan Contributors:
 - Prettify email notifications.
 
 ***
-
-[More about templates explained here](https://github.com/wekan/wekan/issues/3127#issuecomment-634348524)
 
 # Current Per-User Templates Feature
 
