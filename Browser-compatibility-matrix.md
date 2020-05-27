@@ -9,6 +9,6 @@ Firefox | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux,
 Vivaldi | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Opera | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Internet Explorer | No | No | No | No | No
-Legacy Edge | No | No | Win | [Not yet](https://github.com/wekan/wekan/issues/3125) Wekan v3.79 and older maybe could work.
+Legacy Edge | No | No | Win | [Not yet](https://github.com/wekan/wekan/issues/3125) Wekan v3.79 and older maybe could work. [Test WinXP ?](https://github.com/wekan/wekan/issues/3132)
 Credge | Android Yes | Android | Newest | Win 7 and newer, macOS?, Linux?
 PinePhone | Maybe? | Maybe? | ? | ?
