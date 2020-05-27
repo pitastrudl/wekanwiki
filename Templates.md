@@ -23,6 +23,8 @@ At Roadmap of some other Wekan Contributors:
 
 ***
 
+[More about templates explained here](https://github.com/wekan/wekan/issues/3127#issuecomment-634348524)
+
 # Current Per-User Templates Feature
 
 ## 1) All Boards page, top right: Templates
