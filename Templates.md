@@ -1,3 +1,5 @@
+[VIDEO ABOUT HOW TO USE BOARD TEMPLATES](https://www.youtube.com/watch?v=K0_cP85Bvas)
+
 [More about templates explained here](https://github.com/wekan/wekan/issues/3127#issuecomment-634348524)
 
 [Templates feature requests and bugs](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+templates+label%3AFeature%3ATemplates)
