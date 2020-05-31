@@ -13,17 +13,24 @@ Look at webbrowser files at https://releases.wekan.team/raspi3/
 Download and open README.md, there could be text similar to this:
 ```
 README
-Currently uses Node v12.16.1 and MongoDB v3.x or v4.x
-Built on Ubuntu 19.10 64bit arm64 on RasPi4.
-Should work on RasPi3 and RasPi4 on Ubuntu 19.10 64bit arm64.
+Currently uses Node v12.17.0 and MongoDB v3.x or v4.x
+Built on arm64 server.
+Should work on RasPi3 and RasPi4 on Ubuntu 20.04 64bit arm64 or Raspberry Pi OS 64bit.
 Install info here:
 https://github.com/wekan/wekan/wiki/Raspberry-Pi
 ```
 You should always check what distro, node etc version it has, before downloading and installing.
 
-As of 2020-02-13, newest Wekan:
-- Ubuntu 19.10 Server arm64 for RasPi3 and RasPi4
-- MongoDB 3.6.x
+## Raspberry Pi OS 64bit with MongoDB 4.2.x
+
+- At [RasPi4 8GB RAM announcement](https://www.raspberrypi.org/blog/8gb-raspberry-pi-4-on-sale-now-at-75/) xet7 found [forum post about Raspberry Pi OS 64bit image](https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=275370) for RasPi3 and RasPi4
+- There is [MongoDB Server Community Edition webpage](https://www.mongodb.com/download-center/community) that has Ubuntu 18.04 Linux arm64 server .deb package of MongoDB 4.2.x that works with Raspberry OS 64bit.
+- You see what is newest Node.js 12.x version from [Nodejs.org](https://nodejs.org/en/).
+
+## Ubuntu 20.04
+
+- Ubuntu 20.04 Server arm64 for RasPi3 and RasPi4
+- Try [MongoDB Server Community Edition webpage](https://www.mongodb.com/download-center/community) that has Ubuntu 18.04 Linux arm64 server .deb package of MongoDB 4.2.x, or MongoDB 3.6.x from repos
 - Newest Wekan with newest Meteor
 
 If you have RasPi3, 1 GB RAM can only run Wekan Node.js + MongoDB. There is not enough RAM to run also Ubuntu desktop at the same RasPi.
