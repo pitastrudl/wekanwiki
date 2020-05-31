@@ -2,7 +2,7 @@
 
 ## Please store MongoDB database etc Wekan files to external SSD hardrive (or HDD)
 
-It's very easy to corrupt microSD card with a lot of writes.
+It's very easy to corrupt microSD card with a lot of writes. Please make [at least daily backups](https://github.com/wekan/wekan/wiki/Backup).
 
 ## Bundle files
 
