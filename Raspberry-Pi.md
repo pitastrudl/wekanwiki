@@ -33,7 +33,7 @@ You should always check what distro, node etc version it has, before downloading
 
 ## Ubuntu 20.04
 
-- Ubuntu 20.04 Server arm64 for RasPi3 and RasPi4
+- [Ubuntu 20.04 Server arm64](http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/) for RasPi3 and RasPi4
 - Try [MongoDB Server Community Edition webpage](https://www.mongodb.com/download-center/community) that has Ubuntu 18.04 Linux arm64 server .deb package of MongoDB 4.2.x, or MongoDB 3.6.x from repos
 - Newest Wekan with newest Meteor
 
