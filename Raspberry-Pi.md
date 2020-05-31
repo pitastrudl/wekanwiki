@@ -120,7 +120,7 @@ Should work on RasPi3 and RasPi4 on Ubuntu 19.10 64bit.
 ```
 Install these:
 ```
-sudo apt-get install npm mongodb-server mongodb-clients mongodb-tools zip unzip
+sudo apt-get install npm mongodb-server mongodb-clients mongo-tools zip unzip
 sudo npm -g install npm
 sudo npm -g install n
 ```
