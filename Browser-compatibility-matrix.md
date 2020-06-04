@@ -10,7 +10,7 @@ Safari | iOS Yes | iOS Newest | Newest | iOS, macOS
 
 Browser | [PWA](https://github.com/wekan/wekan/wiki/PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
-[Mypal](https://feodor2.github.io/Mypal/) | No | No | Newest | [MyPal on WinXP works](https://feodor2.github.io/Mypal/), [issue](https://github.com/wekan/wekan/issues/3132), [Other XP browsers probably not](http://www.xpbrowsers.com/)
+[Mypal](https://feodor2.github.io/Mypal/) | No | No | Newest | [Mypal on WinXP works](https://feodor2.github.io/Mypal/), [issue](https://github.com/wekan/wekan/issues/3132), [Other XP browsers probably not](http://www.xpbrowsers.com/)
 Firefox | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux, RasPi
 PinePhone | Maybe? | Maybe? | ? | ?
 
