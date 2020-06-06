@@ -50,7 +50,7 @@
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
 * [Keycloak](https://github.com/wekan/wekan/wiki/Keycloak)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
-* [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2) and Auth0
+* [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2), Auth0, GitLab, RocketChat
 * [Nextcloud](https://github.com/wekan/wekan/pull/2897/files)
 * [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
 * [Custom Fields](https://github.com/wekan/wekan/wiki/Custom-Fields)
