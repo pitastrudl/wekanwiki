@@ -10,6 +10,32 @@ You can use some OAuth2 providers for logging into Wekan, for example:
 
 You can ask your identity provider (LDAP, SAML etc) do they support adding OAuth2 application like Wekan.
 
+## GitLab providing OAuth2 login to Wekan
+
+[Thanks to derhelge who figured out GitLab login](https://github.com/wekan/wekan/issues/3156).
+
+These are the settings (snap installation):
+```shell
+sudo snap set wekan oauth2-enabled='true'
+sudo snap set wekan oauth2-client-id='xxx'
+sudo snap set wekan oauth2-secret='xxx'
+sudo snap set wekan oauth2-server-url='https://gitlab.example.com/'
+sudo snap set wekan oauth2-auth-endpoint='oauth/authorize'
+sudo snap set wekan oauth2-userinfo-endpoint='oauth/userinfo'
+sudo snap set wekan oauth2-token-endpoint='oauth/token'
+sudo snap set wekan oauth2-id-map='sub'
+sudo snap set wekan oauth2-username-map='nickname'
+sudo snap set wekan oauth2-fullname-map='name'
+sudo snap set wekan oauth2-email-map='email'
+sudo snap set wekan oauth2-request-permissions='openid profile email'
+```
+And in GitLab you have to set the same scopes inside the created Application:
+* openid
+* profile
+* email
+
+The redirect URL is described in the wekan wiki: https://wekan.example.com/_oauth/oidc
+
 ## Rocket.Chat providing OAuth2 login to Wekan
 
 Also, if you have Rocket.Chat using LDAP/SAML/Google/etc for logging into Rocket.Chat, then same users can login to Wekan when Rocket.Chat is providing OAuth2 login to Wekan.
