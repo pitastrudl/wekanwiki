@@ -40,13 +40,11 @@ Then you can build Wekan with
 docker-compose up -d --build
 ```
 
-## Note: Currently these Docker command examples do not work, help welcome
-
 Example for latest Wekan, port 2000 to Docker Wekan internal port 8080:
 ```
 docker run -d --restart=always --name wekan-db mongo:4
 
-docker run -d --restart=always --name wekan --link "wekan-db:db" -e "WITH_API=true" -e "MONGO_URL=mongodb://wekandb:27017/wekan" -e "ROOT_URL=http://192.168.1.200:2000" -p 2000:8080 quay.io/wekan/wekan
+docker run -d --restart=always --name wekan --link "wekan-db:db" -e "WITH_API=true" -e "MONGO_URL=mongodb://wekan-db:27017/wekan" -e "ROOT_URL=http://192.168.1.200:2000" -p 2000:8080 quay.io/wekan/wekan
 ```
 Specific release in above URL, not latest:
 ```
