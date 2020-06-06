@@ -5,6 +5,7 @@
 You can use some OAuth2 providers for logging into Wekan, for example:
 - [Auth0](https://github.com/wekan/wekan/wiki/OAuth2#auth0) - works
 - [Rocket.Chat](https://github.com/wekan/wekan/wiki/OAuth2#rocketchat-providing-oauth2-login-to-wekan) - works
+- [GitLab](https://github.com/wekan/wekan/wiki/OAuth2#gitlab-providing-oauth2-login-to-wekan) - works
 - Google - not tested yet
 - [LemonLDAP::NG](https://github.com/wekan/wekan/wiki/OAuth2#lemonldapng) - works
 
