@@ -85,7 +85,7 @@ docker cp wekan-db:/data/dump .
 docker stop wekan-app
 docker rm wekan-app
 ```
-Then edit docker-compose.yml to have higher wekan-app image version tag. Then:
+Then edit docker-compose.yml to have higher wekan-app image version tag, like `image: wekanteam/wekan:v4.12`. Then:
 ```
 docker-compose up -d
 ```
