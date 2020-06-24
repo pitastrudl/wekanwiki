@@ -12,8 +12,8 @@ Once I deleted those files, nginx was working instantly. Propose a new step coul
 
 ## CentOS 7
 
-If you use Nginx in front of Wekan on CentOS 7, you should
-[disable selinux to prevent Nginx permission denied error](https://github.com/wekan/wekan/issues/2792).
+If you use Nginx in front of Wekan on CentOS 7, please try: `setsebool -P httpd_can_network_connect 1`. This should allow nginx or any other webserver to connect to a container. Please [**do not disable SELinux**](https://github.com/wekan/wekan/issues/2792#issuecomment-630222315) 
+
 
 ## [Attachment file size](https://github.com/wekan/wekan/issues/2103#issuecomment-455014303)
 
