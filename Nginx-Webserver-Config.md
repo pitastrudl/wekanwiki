@@ -1,3 +1,15 @@
+## If you get 'Welcome to Nginx' screen after setting up config
+
+From https://github.com/wekan/wekan/issues/3190
+
+I installed Nginx using the instructions on the [AWS wiki](https://github.com/wekan/wekan/wiki/AWS)
+
+I followed the [the Nginx wiki](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config) and reached a point where everything was installed correctly and 'sudo nginx -t' was passing (with warnings), but when I went to the root-url I was still getting the generic welcome screen from nginx saying 'Welcome to nginx! If you see this page, the nginx web server is successfully installed and working. Further configuration is required'
+
+I got stuck here for a very long time, fiddling with my config files, until I found [this answer](https://stackoverflow.com/questions/11426087/nginx-error-conflicting-server-name-ignored). In my install, 'default' files had been automatically created in /etc/nginx/conf.d/ and in /etc/nginx/sites-available/
+
+Once I deleted those files, nginx was working instantly. Propose a new step could be added to the wiki, before the 'sudo nginx -t' step, instructing users to check whether they have those 'default' files and delete them if they do.
+
 ## CentOS 7
 
 If you use Nginx in front of Wekan on CentOS 7, you should
