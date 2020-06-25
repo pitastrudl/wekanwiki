@@ -15,7 +15,7 @@ choco install -y mongodb
 
 5. Unzip wekan-x.xx.zip, it has directory name `bundle`
 
-6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Default settins are: [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) http://localhost and PORT=80, so it works only in local [compatible browser](https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix). You can edit ROOT_URL to be or http://YOUR-IP-ADDRESS so it works on local network with http://YOUR-IP-ADDRESS .
+6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Default settins are: `ROOT_URL=http://localhost` and `PORT=80`, so it works only in local [compatible browser](https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix). You can edit [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) to be or `http://YOUR-IP-ADDRESS` so it works on local network with `http://YOUR-IP-ADDRESS` .
 
 7. Start Wekan:
 ```
