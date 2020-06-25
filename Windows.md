@@ -4,7 +4,7 @@ This has **highest performance and lowest RAM usage**, because there is no virtu
 
 1. If you have important data in Wekan, do [backup](https://github.com/wekan/wekan/wiki/Backup).
 
-2. Install newest Node.js v12.x for Windows from https://nodejs.org . When installing, checkmark "Install additional tools" that will install also Chocolatey etc.
+2. Install newest Node.js LTS v12.x for Windows from https://nodejs.org . When installing, checkmark "Install additional tools" that will install also Chocolatey etc.
 
 3. Run cmd.exe as Administrator, and there type:
 ```
