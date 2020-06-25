@@ -4,16 +4,18 @@ This has **highest performance and lowest RAM usage**, because there is no virtu
 
 1. If you have important data in Wekan, do [backup](https://github.com/wekan/wekan/wiki/Backup).
 
-2. Install newest Node.js v12.x for Windows from https://nodejs.org
+2. Install newest Node.js v12.x for Windows from https://nodejs.org . When installing, checkmark "Install additional tools" that will install also Chocolatey etc.
 
-3. Install MongoDB 4.x for Windows
-https://www.mongodb.com/download-center/community
+3. Run cmd.exe as Administrator, and there type:
+```
+choco install -y mongodb
+```
 
-4. Download and newest Wekan bundle wekan-3.xx.zip from https://releases.wekan.team
+4. Download and newest Wekan bundle wekan-x.xx.zip from https://releases.wekan.team
 
-5. Unzip wekan-3.xx.zip, it has directory name `bundle`
+5. Unzip wekan-x.xx.zip, it has directory name `bundle`
 
-6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Edit it for your [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) to be for example http://localhost or http://YOUR-IP-ADDRESS and PORT=80
+6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Default settins are: [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) http://localhost and PORT=80, so it works only in local [compatible browser](https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix). You can edit ROOT_URL to be or http://YOUR-IP-ADDRESS so it works on local network with http://YOUR-IP-ADDRESS .
 
 7. Start Wekan:
 ```
