@@ -1,6 +1,6 @@
 ## Install
 
-On [Ubuntu Core KVM Download page](https://ubuntu.com/download/kvm) local VM:
+On [Ubuntu Core KVM Download page](https://ubuntu.com/download/kvm) local x64 VM:
 
 ```
 ssh -p 8022 username@localhost
