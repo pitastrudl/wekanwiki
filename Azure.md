@@ -6,10 +6,11 @@
 
 ### Snap install info, tested 2020-07-07
 
+When using sending email with Mailjet, set `mail-from` to some real email address so you get info if email bounces back.
 ```
 sudo snap set wekan debug='true'
 sudo snap set wekan caddy-enabled='true'
-sudo snap set wekan mail-from='Example Boards <joe@example.com>'
+sudo snap set wekan mail-from='Example Boards <BOARD-ADMIN@example.com>'
 sudo snap set wekan mail-url='smtps://username:password@in-v3.mailjet.com:465/'
 sudo snap set wekan oauth2-enabled='true'
 sudo snap set wekan oauth2-request-permissions='openid'
