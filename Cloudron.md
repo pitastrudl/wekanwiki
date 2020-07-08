@@ -1,7 +1,7 @@
 # Cloudron setup
 
 Status:
-- [Cloudron now uses upstream Wekan directly, etc info](https://github.com/wekan/wekan/issues/3035)
+- [Cloudron now uses upstream Wekan directly](https://github.com/wekan/wekan/issues/3035), so Cloudron users get all Wekan newest features and fixes
 
 Cloudron is a complete solution for running apps on your server and keeping them up-to-date and secure.
 
