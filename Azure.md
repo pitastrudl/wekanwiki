@@ -39,7 +39,7 @@ At Admin Panel / Settings / Email:
 If you use Caddy Let's Encrypt SSL for public server, that requires SSL cert validation from multiple not-listed IP addresses of Let's Encrypt, file `/var/snap/wekan/common/Caddyfile`
 
 ```
-boards.example.com.com {
+boards.example.com {
   tls {
       alpn http/1.1
   }
@@ -48,12 +48,20 @@ boards.example.com.com {
     transparent
   }
 }
+
+# If you have static main website in this directory, also add it:
+example.com {
+  root /var/snap/wekan/common/ertanalytics.com
+  tls {
+      alpn http/1.1
+  }
+}
 ```
 If you have private server that should be only accessible from private IP (limited by Azure firewall settings), and need SSL, you can not use Let's Encrypt free SSL that validates public availability from multiple non-disclosed IP addresses. For this purpose, you can get SSL certificate. Here is example of SSL cert from with SSL.com .
 
 Join certificates together to .pem file, in order of:
 1) privatekey of example.com
-2) wildcard or one subdomain cert of example.com
+2) wildcard (or one subdomain cert) of example.com
 3) sub ca
 4) root ca
 5) trusted network ca
@@ -64,6 +72,50 @@ cat SSL_COM_RSA_SSL_SUBCA.crt >> example.com.pem
 cat SSL_COM_ROOT_CERTIFICATION_AUTHORITY_RSA.crt >> example.com.pem 
 cat CERTUM_TRUSTED_NETWORK_CA.crt >> example.com.pem 
 ```
+Then transfer SSL cert to server:
+```
+scp example.com.pem ubuntu@example.com:/home/ubuntu
+ssh ubuntu@example.com
+sudo mkdir /var/snap/wekan/common/certs
+sudo mv example.com.pem /var/snap/wekan/common/certs/
+sudo chown root:root /var/snap/wekan/common/certs/example.com.pem
+sudo chmod og-rwx /var/snap/wekan/common/certs/example.com.pem
+sudo nano /var/snap/wekan/common/Caddyfile
+```
+At Caddyfile, add these settings for SSL cert:
+```
+# Static main website, if you have that, redirect to SSL
+http://example.com {
+  redir https://example.com
+}
+
+# Wekan redirect to SSL
+http://boards.example.com {
+  redir https://boards.example.com
+}
+
+# Static main website, if you have that in this directory
+https://example.com {
+  root /var/snap/wekan/common/example.com
+  tls {
+      load /var/snap/wekan/common/certs
+      alpn http/1.1
+  }
+}
+
+# Wekan
+https://boards.example.com {
+  tls {
+      load /var/snap/wekan/common/certs
+      alpn http/1.1
+  }
+  proxy / localhost:3001 {
+    websocket
+    transparent
+  }
+}
+```
+Optionally you can would like to [disable all Snap automatic updates](https://github.com/wekan/wekan-snap/wiki/Automatic-update-schedule#if-required-you-can-disable-all-snap-updates) (not recommended, only required by some clients).
 
 ### There are two major steps for configuring Wekan to authenticate to Azure AD via OpenID Connect (OIDC)
 
