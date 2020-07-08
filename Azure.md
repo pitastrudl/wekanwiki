@@ -4,6 +4,37 @@
 
 *Make sure you are running at least **v2.21***
 
+### Snap install info, tested 2020-07-07
+
+```
+sudo snap set wekan debug='true'
+sudo snap set wekan caddy-enabled='true'
+sudo snap set wekan mail-from='Example Boards <joe@example.com>'
+sudo snap set wekan mail-url='smtps://username:password@in-v3.mailjet.com:465/'
+sudo snap set wekan oauth2-enabled='true'
+sudo snap set wekan oauth2-request-permissions='openid'
+sudo snap set wekan oauth2-client-id='AZURE-NEW-APP-CLIENT-ID'
+sudo snap set wekan oauth2-secret='AZURE-NEW-APP-SECRET'
+sudo snap set wekan oauth2-auth-endpoint='/oauth2/v2.0/authorize'
+sudo snap set wekan oauth2-server-url='https://login.microsoftonline.com/TENANT-NAME-FOR-YOUR-ORGANIZATION'
+sudo snap set wekan oauth2-token-endpoint='/oauth2/v2.0/token'
+sudo snap set wekan oauth2-userinfo-endpoint='https://graph.microsoft.com/oidc/userinfo'
+sudo snap set wekan oauth2-email-map='email'
+sudo snap set wekan oauth2-username-map='email'
+sudo snap set wekan oauth2-fullname-map='name'
+sudo snap set wekan oauth2-id-map='email'
+sudo snap set wekan port='3001'
+sudo snap set wekan richer-card-comment-editor='false'
+sudo snap set wekan root-url='https://boards.example.com'
+sudo snap set wekan with-api='true'
+```
+At Admin Panel / Settings / Email:
+- SMTP Host: `in-v3.mailjet.com`
+- SMTP Port: `465`
+- Username: `MAILJET-USERNAME`
+- Password: `MAILJET-PASSWORD`
+- TLS Support: `[_]` (not checked)
+
 ### There are two major steps for configuring Wekan to authenticate to Azure AD via OpenID Connect (OIDC)
 
 1. Register the application with Azure. Make sure you capture the application ID as well as generate a secret key.
