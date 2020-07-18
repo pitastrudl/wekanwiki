@@ -24,6 +24,7 @@ Vivaldi | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Opera | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Credge | Android Yes | Android | Newest | Win 7 and newer, macOS?, Linux?
 Legacy Edge | Yes | Yes | Yes | Windows (maybe others also?) with Wekan v4.19 and newer
+[Android Play Store App](https://play.google.com/store/apps/details?id=team.wekan.boards.twa) | Yes | Yes | Yes | Based on [Wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), uses Android Chrome browser with Wekan demo & development server https://boards.wekan.team
 
 ## MSHTML
 
