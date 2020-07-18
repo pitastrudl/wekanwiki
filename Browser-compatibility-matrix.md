@@ -12,8 +12,8 @@ Browser | [PWA](https://github.com/wekan/wekan/wiki/PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
 [Mypal](https://feodor2.github.io/Mypal/) | No | No | Newest | [Mypal on WinXP works](https://feodor2.github.io/Mypal/), [issue](https://github.com/wekan/wekan/issues/3132), [Other XP browsers probably not](http://www.xpbrowsers.com/)
 Firefox | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux, RasPi
-Morph Browser | No | Yes | Yes | [Ubuntu Touch](https://ubports.com) (based on Ubuntu 16.04) on PinePhone, OnePlus 3, [RasPi3](https://ci.ubports.com/job/rootfs/job/rootfs-rpi/) (not RasPi4 yet). Works best with bluetooth or USB mouse and keyboard. [App progress](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT)
-[OpenStore app](https://open-store.io/app/wekan.wekanteam) | Yes | Yes | Yes | [Ubuntu Touch](https://ubports.com) app at [OpenStore](https://open-store.io), uses Morph browser with Wekan demo & development server https://boards.wekan.team
+Morph Browser | No | Yes | Yes | [Ubuntu Touch](https://ubports.com) (based on Ubuntu 16.04) on PinePhone, OnePlus 3, [RasPi3](https://ci.ubports.com/job/rootfs/job/rootfs-rpi/) (not RasPi4 yet). Works best with bluetooth or USB mouse and keyboard.
+[OpenStore app](https://open-store.io/app/wekan.wekanteam) | Yes | Yes | Yes | Based on [Wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), [Ubuntu Touch](https://ubports.com) app at [OpenStore](https://open-store.io) using Morph browser with Wekan demo & development server https://boards.wekan.team
 
 ## Chromium based
 
