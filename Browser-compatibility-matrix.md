@@ -23,10 +23,10 @@ Chromium | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Vivaldi | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Opera | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Credge | Android Yes | Android | Newest | Win 7 and newer, macOS?, Linux?
+Legacy Edge | Yes | Yes | Yes | Windows with Wekan v4.19 and newer works.
 
 ## MSHTML
 
 Browser | [PWA](https://github.com/wekan/wekan/wiki/PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
 Internet Explorer | No | No | No | No | No
-Legacy Edge | No | No | No | [No](https://github.com/wekan/wekan/issues/3125) Wekan v3.79 and older maybe could work.
