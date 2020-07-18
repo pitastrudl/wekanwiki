@@ -12,7 +12,7 @@ Browser | [PWA](https://github.com/wekan/wekan/wiki/PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
 [Mypal](https://feodor2.github.io/Mypal/) | No | No | Newest | [Mypal on WinXP works](https://feodor2.github.io/Mypal/), [issue](https://github.com/wekan/wekan/issues/3132), [Other XP browsers probably not](http://www.xpbrowsers.com/)
 Firefox | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux, RasPi
-PinePhone | Maybe? | Maybe? | ? | ?
+Morph Browser | Maybe? | Yes | Yes | [Ubuntu Touch](https://ubports.com) (based on Ubuntu 16.04) on PinePhone, OnePlus 3, [RasPi3](https://ci.ubports.com/job/rootfs/job/rootfs-rpi/) (not RasPi4 yet). Works best with bluetooth or USB mouse and keyboard.
 
 ## Chromium based
 
@@ -23,7 +23,7 @@ Chromium | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Vivaldi | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Opera | Android Yes | Android Newest | Newest | Win 7 and newer, macOS, Linux
 Credge | Android Yes | Android | Newest | Win 7 and newer, macOS?, Linux?
-Legacy Edge | Yes | Yes | Yes | Windows with Wekan v4.19 and newer works.
+Legacy Edge | Yes | Yes | Yes | Windows (maybe others also?) with Wekan v4.19 and newer
 
 ## MSHTML
 
