@@ -27,8 +27,7 @@ GitHub Username | Location | Position | Details
 [gvespignani70](https://github.com/gvespignani70) | Universe | Contributor | Added an API to get the cards for a specific custom field value. Etc.
 [hgustafsson](https://github.com/hgustafsson) | Universe | Contributor | Alignment and spacing of minicard labels
 [GitGramm](https://github.com/GitGramm) | Universe | Contributor | Added dates & assignees to REST API calls, etc
-[krupupakku](https://github.com/krupupakku) | Spain | Contributor | Fixed Swimlanes ID missing in new boards. Fixed avatar-image class.
-Etc.
+[krupupakku](https://github.com/krupupakku) | Spain | Contributor | Fixed Swimlanes ID missing in new boards. Fixed avatar-image class. Etc.
 [wackazong](https://github.com/wackazong) | Universe | Contributor | Fixed Create card does not allow an empty member list. Etc.
 [bentiss](https://github.com/bentiss) | Universe | Contributor | Added OpenAPI docs generation, swimlanes etc.
 [jimmyjones2](https://github.com/jimmyjones2) | Universe | Contributor | OpenShift template updates
