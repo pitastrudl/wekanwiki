@@ -45,7 +45,6 @@ This page lists some of the contributors that have donated their time, resources
 
 GitHub Username | Chat Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------ | ------------
-[xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Source/Docker/Ubuntu snap/VirtualBox releases, testing and merging pull requests, organizing issues, updating wiki and website, some features
 [brymut](https://github.com/brymut) | Kenya | Contributor | Added export CSV/TSV. Etc.
 [lkisme](https://github.com/lkisme) | - | China | Contributor | [Admin Panel](https://github.com/wekan/wekan/pull/871)
 [jymcheong](https://github.com/jymcheong) | Universe | Contributor | Added Card Open Webhook.
