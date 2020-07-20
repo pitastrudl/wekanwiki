@@ -24,6 +24,7 @@ GitHub Username | Location | Position | Details
 [brymut](https://github.com/brymut) | Universe | Contributor | Fix vote export & export/import currency custom field to CSV/TSV. Etc.
 [habenamare](https://github.com/habenamare) | Universe | Contributor | Added the 'Currency' Custom Field type, etc
 [helioguardabaxo](https://github.com/helioguardabaxo) | Universe | Contributor | Added Theme: Modern. Etc.
+[CidKramer](https://github.com/CidKramer) | Universe | Contributor | Added Clearblue theme. Etc.
 [gvespignani70](https://github.com/gvespignani70) | Universe | Contributor | Added an API to get the cards for a specific custom field value. Etc.
 [hgustafsson](https://github.com/hgustafsson) | Universe | Contributor | Alignment and spacing of minicard labels
 [GitGramm](https://github.com/GitGramm) | Universe | Contributor | Added dates & assignees to REST API calls, etc
