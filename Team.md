@@ -21,21 +21,21 @@ GitHub Username | Location | Position | Details
 ------------ | ------------ | ------------ | ------------
 [marc1006](https://github.com/marc1006) | Universe | Contributor | XSS fix, etc many features and fixes
 [NicoP-S](https://github.com/NicoP-S) | Germany | Contributor | Added Card voting, fixed Change slug on card rename, etc
-[habenamare](https://github.com/habenamare) | Universe | Contributor | Added the 'Currency' Custom Field type, etc
-[helioguardabaxo](https://github.com/helioguardabaxo) | Universe | Contributor | Added Theme: Modern. Etc.
+[habenamare](https://github.com/habenamare) | Ethiopia | Contributor | Added the 'Currency' Custom Field type, etc
+[helioguardabaxo](https://github.com/helioguardabaxo) | Brazilia | Contributor | Added Theme: Modern. Etc.
 [CidKramer](https://github.com/CidKramer) | Universe | Contributor | Added Clearblue theme. Etc.
 [gvespignani70](https://github.com/gvespignani70) | Universe | Contributor | Added an API to get the cards for a specific custom field value. Etc.
 [hgustafsson](https://github.com/hgustafsson) | Universe | Contributor | Alignment and spacing of minicard labels
 [GitGramm](https://github.com/GitGramm) | Universe | Contributor | Added dates & assignees to REST API calls, etc
-[krupupakku](https://github.com/road42) | Universe | Contributor | Fixed Swimlanes ID missing in new boards. Fixed avatar-image class.
+[krupupakku](https://github.com/krupupakku) | Spain | Contributor | Fixed Swimlanes ID missing in new boards. Fixed avatar-image class.
 Etc.
 [wackazong](https://github.com/wackazong) | Universe | Contributor | Fixed Create card does not allow an empty member list. Etc.
 [bentiss](https://github.com/bentiss) | Universe | Contributor | Added OpenAPI docs generation, swimlanes etc.
 [jimmyjones2](https://github.com/jimmyjones2) | Universe | Contributor | OpenShift template updates
-[salleman33](https://github.com/salleman33) | Universe | Contributor | Created Wekan LDAP code. Etc.
+[salleman33](https://github.com/salleman33) | France | Contributor | Created Wekan LDAP code. Etc.
 [Akuket](https://github.com/Akuket) | Universe | Contributor | Added salleman33's LDAP code to Wekan. Etc.
 [justinr1234](https://github.com/justinr1234) | Universe | Contributor | Added more MongoDB indexes for huge Wekan speedup. Added prettier that formats code style. Etc.
-[road42](https://github.com/road42) | Universe | Contributor | Devcontainer etc.
+[road42](https://github.com/road42) | Germany | Contributor | Devcontainer etc.
 [urakagi](https://github.com/urakagi) | Taiwan | Contributor | Fixed app hang. [In the filter menu, 1) Turning on "show archive" will request archived lists and show them on the ListView. 2) Turning on "hide empty lists" will hide empty lists on the ListView](https://github.com/wekan/wekan/pull/2632). Etc.
 
 ***
