@@ -6,21 +6,34 @@ GitHub Username | Location | Position | Details
 
 If anyone finds what issue can be closed, is already fixed, you find how to fix it, or can check with Docker version tags in what version something broke and in next was fixed, please add comment to issue about it. xet7 gets email from every new issue and comment to issue. Pull requests very welcome. Thanks!
 
+# Current most frequent Testers
+
+GitHub Username | Location | Position | Details
+------------ | ------------ | ------------ | ------------
+[jinthakur](https://github.com/jinthakur) | Universe | Contributor | Can help testing bundle on Windows and finding in which Wekan version Docker tag something worked and in next version broke, please tag @jinthakur when that is needed, he saves a lot of time of xet7
+[juliensl](https://github.com/juliensl) | Universe | Contributor | Can help finding in which Wekan version Docker tag something worked and in next version broke, please tag @juliensl when that is needed, he saves a lot of time of xet7
+
 # Current most frequent Contributors
 
 Also, see newest contributors at [ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md)
 
 GitHub Username | Location | Position | Details
 ------------ | ------------ | ------------ | ------------
-[whowillcare](https://github.com/whowillcare) | Universe | Contributor | Added WYSIWYG card comment editor that can be turned off with `sudo snap set wekan richer-card-comment-editor='false'`, Global webhook to Admin Panel, etc a lot of features.
-[juliensl](https://github.com/juliensl) | Universe | Contributor | Can help finding in which Wekan version Docker tag something worked and in next version broke, please tag @juliensl when that is needed, he saves a lot of time of xet7
-[justinr1234](https://github.com/xet7) | Universe | Contributor | Added more MongoDB indexes for huge Wekan speedup. Added prettier that formats code style. Etc.
-[road42](https://github.com/road42) | Universe | Contributor | Devcontainer etc.
-[Akuket](https://github.com/Akuket) | Universe | Contributor | Added LDAP to Wekan. Etc.
+[marc1006](https://github.com/marc1006) | Universe | Contributor | XSS fix, etc many features and fixes
+[NicoP-S](https://github.com/NicoP-S) | Universe | Contributor | Added Card voting, fixed Change slug on card rename, etc
+[brymut](https://github.com/brymut) | Universe | Contributor | Fix vote export & export/import currency custom field to CSV/TSV. Etc.
+[habenamare](https://github.com/habenamare) | Universe | Contributor | Added the 'Currency' Custom Field type, etc
+[helioguardabaxo](https://github.com/helioguardabaxo) | Universe | Contributor | Added Theme: Modern. Etc.
+[gvespignani70](https://github.com/gvespignani70) | Universe | Contributor | Added an API to get the cards for a specific custom field value. Etc.
+[hgustafsson](https://github.com/hgustafsson) | Universe | Contributor | Alignment and spacing of minicard labels
+[GitGramm](https://github.com/GitGramm) | Universe | Contributor | Added dates & assignees to REST API calls, etc
 [bentiss](https://github.com/bentiss) | Universe | Contributor | Added OpenAPI docs generation, swimlanes etc.
-[liske](https://github.com/liske) | Germany | Contributor | Added card REST API fix, card time fix etc.
+[jimmyjones2](https://github.com/jimmyjones2) | Universe | Contributor | OpenShift template updates
+[salleman33](https://github.com/salleman33) | Universe | Contributor | Created Wekan LDAP code. Etc.
+[Akuket](https://github.com/Akuket) | Universe | Contributor | Added salleman33's LDAP code to Wekan. Etc.
+[justinr1234](https://github.com/justinr1234) | Universe | Contributor | Added more MongoDB indexes for huge Wekan speedup. Added prettier that formats code style. Etc.
+[road42](https://github.com/road42) | Universe | Contributor | Devcontainer etc.
 [urakagi](https://github.com/urakagi) | Taiwan | Contributor | Fixed app hang. [In the filter menu, 1) Turning on "show archive" will request archived lists and show them on the ListView. 2) Turning on "hide empty lists" will hide empty lists on the ListView](https://github.com/wekan/wekan/pull/2632). Etc.
-[jymcheong](https://github.com/jymcheong) | Universe | Contributor | Added Card Open Webhook.
 
 ***
 
@@ -32,7 +45,9 @@ GitHub Username | Chat Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------ | ------------
 [xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Source/Docker/Ubuntu snap/VirtualBox releases, testing and merging pull requests, organizing issues, updating wiki and website, some features
 [lkisme](https://github.com/lkisme) | - | China | Contributor | [Admin Panel](https://github.com/wekan/wekan/pull/871)
+[jymcheong](https://github.com/jymcheong) | Universe | Contributor | Added Card Open Webhook.
 [Serubin](https://github.com/Serubin) | serubin | Universe | Contributor | [Fix Double slash problem](https://github.com/wekan/wekan/pull/932)
+[liske](https://github.com/liske) | Germany | Contributor | Added card REST API fix, card time fix etc.
 [rhelsing](https://github.com/rhelsing) | ryan.helsing | USA | Contributor | [Comment permissions](https://github.com/wekan/wekan/pull/1008)
 [BaobabCoder](https://github.com/BaobabCoder) | BaobabCoder | France | Contributor | [Delete List](https://github.com/wekan/wekan/pull/1050)
 [whodafly](https://github.com/whodafly) | superfly | USA | Contributor | [Troubleshooting Mail](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail), [Import Checklists from Trello](https://github.com/wekan/wekan/pull/894)
@@ -52,6 +67,7 @@ GitHub Username | Chat Username | Location | Position | Details
 [JamborJan](https://github.com/JamborJan) | - | Universe | [Sandstorm](https://sandstorm.io) Developer | [Add bigger screenshots](https://github.com/wekan/wekan/pull/940)
 [nebulade](https://github.com/nebulade) | - | Germany | [Cloudron](https://cloudron.io) Developer | [Re-enable export](https://github.com/wekan/wekan/pull/1059)
 [kubiko](https://github.com/kubiko) | - | UK | [Canonical](https://www.canonical.com) Developer | [snap package](https://github.com/wekan/wekan-snap), [Adding snapcraft build support from source](https://github.com/wekan/wekan/pull/1091), [Use version scriptlet in snap](https://github.com/wekan/wekan/pull/1164)
+[whowillcare](https://github.com/whowillcare) | Universe | Contributor | Added WYSIWYG card comment editor that can be turned off with `sudo snap set wekan richer-card-comment-editor='false'`, Global webhook to Admin Panel, etc a lot of features.
 
 # Previous Team members
 
