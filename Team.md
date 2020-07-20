@@ -10,7 +10,7 @@ If anyone finds what issue can be closed, is already fixed, you find how to fix 
 
 GitHub Username | Location | Position | Details
 ------------ | ------------ | ------------ | ------------
-[jinthakur](https://github.com/jinthakur) | Universe | Contributor | Can help testing bundle on Windows and finding in which Wekan version Docker tag something worked and in next version broke, please tag @jinthakur when that is needed, he saves a lot of time of xet7
+[jinthakur](https://github.com/jinthakur) | USA | Contributor | Can help testing bundle on Windows and finding in which Wekan version Docker tag something worked and in next version broke, please tag @jinthakur when that is needed, he saves a lot of time of xet7
 [juliensl](https://github.com/juliensl) | Universe | Contributor | Can help finding in which Wekan version Docker tag something worked and in next version broke, please tag @juliensl when that is needed, he saves a lot of time of xet7
 
 # Current most frequent Contributors
@@ -20,8 +20,7 @@ Also, see newest contributors at [ChangeLog](https://github.com/wekan/wekan/blob
 GitHub Username | Location | Position | Details
 ------------ | ------------ | ------------ | ------------
 [marc1006](https://github.com/marc1006) | Universe | Contributor | XSS fix, etc many features and fixes
-[NicoP-S](https://github.com/NicoP-S) | Universe | Contributor | Added Card voting, fixed Change slug on card rename, etc
-[brymut](https://github.com/brymut) | Universe | Contributor | Fix vote export & export/import currency custom field to CSV/TSV. Etc.
+[NicoP-S](https://github.com/NicoP-S) | Germany | Contributor | Added Card voting, fixed Change slug on card rename, etc
 [habenamare](https://github.com/habenamare) | Universe | Contributor | Added the 'Currency' Custom Field type, etc
 [helioguardabaxo](https://github.com/helioguardabaxo) | Universe | Contributor | Added Theme: Modern. Etc.
 [CidKramer](https://github.com/CidKramer) | Universe | Contributor | Added Clearblue theme. Etc.
@@ -48,6 +47,7 @@ This page lists some of the contributors that have donated their time, resources
 GitHub Username | Chat Username | Location | Position | Details
 ------------ | ------------- | ------------ | ------------ | ------------
 [xet7](https://github.com/xet7) | xet7 | Finland | Maintainer | Source/Docker/Ubuntu snap/VirtualBox releases, testing and merging pull requests, organizing issues, updating wiki and website, some features
+[brymut](https://github.com/brymut) | Kenya | Contributor | Added export CSV/TSV. Etc.
 [lkisme](https://github.com/lkisme) | - | China | Contributor | [Admin Panel](https://github.com/wekan/wekan/pull/871)
 [jymcheong](https://github.com/jymcheong) | Universe | Contributor | Added Card Open Webhook.
 [Serubin](https://github.com/Serubin) | serubin | Universe | Contributor | [Fix Double slash problem](https://github.com/wekan/wekan/pull/932)
