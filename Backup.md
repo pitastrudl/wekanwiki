@@ -46,8 +46,6 @@ With Wekan Snap, you can use [nosqlbooster GUI](https://nosqlbooster.com/downloa
 
 You could use [daff](https://github.com/paulfitz/daff) to compare tables.
 
-## [Cloud Backup with rclone](https://github.com/wekan/wekan/wiki/Backup#cloud-backup-with-rclone)
-
 ## Using Snap Mongo commands on your bash CLI
 
 Add to your `~/.bashrc`
