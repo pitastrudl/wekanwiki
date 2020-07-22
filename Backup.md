@@ -300,8 +300,11 @@ This does backup of [Wekan+RocketChat snap databases](https://github.com/wekan/w
 Please read [rclone docs](https://rclone.org/docs/) about how to configure saving to some remote server or cloud.
 
 ```
+# Change to root user
 sudo su
+# Use nano editor for editing cron. If you don't have it installed, type: sudo apt install nano
 export EDITOR=nano
+# Editor cron
 crontab -e
 ```
 Backup every 15 minutes. Also set Wekan mail url manually once a day because of [bug](https://github.com/wekan/wekan-snap/issues/78).
