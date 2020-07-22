@@ -297,6 +297,8 @@ Download Wekan grain with arrow down download button to .zip file. You can resto
 # Cloud Backup with [rclone](https://rclone.org)
 This does backup of [Wekan+RocketChat snap databases](https://github.com/wekan/wekan/wiki/OAuth2) and php website etc.
 
+Please read [rclone docs](https://rclone.org/docs/) about how to configure saving to some remote server or cloud.
+
 ```
 sudo su
 export EDITOR=nano
