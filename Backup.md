@@ -303,6 +303,8 @@ export EDITOR=nano
 crontab -e
 ```
 Backup every 15 minutes. Also set Wekan mail url manually once a day because of [bug](https://github.com/wekan/wekan-snap/issues/78).
+
+For more info how to make cron time, see https://crontab.guru
 ```
 # m h  dom mon dow   command
 15 * * * * /root/backup.sh >> /root/backup.log.txt 2>&1
@@ -335,28 +337,42 @@ makeDump()
     # Gets the version of the snap.
     version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
 
-    # Prepares.
+    # Gets current time to variable "now"
     now=$(date +'%Y-%m-%d_%H.%M.%S')
+
+    # Creates new backup directory like BACKUPDIR/BACKUPVERSIO-TIMENOW
     mkdir -p $backupdir/$version-$now
 
     # Targets the dump file.
     #dump=$"/snap/wekan/$version/bin/mongodump"
 
-    # Makes the backup.
+    # Changes to backup directory
     cd $backupdir/$version-$now
+
+    # Show text that database backup is in progress
     printf "\nThe database backup is in progress.\n\n"
+
+    # Backup to current directory, creates subdirectory called "dump"
+    # with database dump files
     mongodump --port 27019
 
-    # Makes the tar.gz file.
+    # Change diretory (=cd) to parent directory
     cd ..
-    printf "\nMakes the tar.gz file.\n"
+
+    # Show text "Makes the tar.gz archive file"
+    printf "\nMakes the tar.gz archive file.\n"
+
+    # Creates tar.gz archive file. This works similarly like creating .zip file.
     tar -zcvf $version-$now.tar.gz $version-$now
 
-    # Cleanups
+    # Delete temporary files that have already been
+    # compressed to above tar.gz file
     rm -rf $version-$now
 
-    # End.
+    # Shows text "Backup done."
     printf "\nBackup done.\n"
+
+    # Show where backup archive file is.
     echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
 }
 
