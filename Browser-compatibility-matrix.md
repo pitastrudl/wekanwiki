@@ -27,11 +27,13 @@ Credge | Android Yes | Android | Newest | Win 7 and newer, macOS?, Linux?
 [Android Play Store App](https://play.google.com/store/apps/details?id=team.wekan.boards.twa) | Yes | Yes | Yes | Based on [Wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), uses Android Chrome browser with Wekan demo & development server https://boards.wekan.team
 
 ## EdgeHTML based
+
+Browser | [PWA](https://github.com/wekan/wekan/wiki/PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
 Legacy Edge | Yes | Yes | Yes | Windows (maybe others also?) with Wekan v4.19 and newer
 [Microsoft Store App](https://www.microsoft.com/fi-fi/p/wekan/9p2mrxvd087r#activetab=pivot:overviewtab) | Yes | Yes | Yes | At Microsoft Store of Windows 10 desktop. Based on [Wekan PWA](https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license/s7SkzYviC2e963FkT), uses Legacy Edge browser with Wekan demo & development server https://boards.wekan.team
 
-## MSHTML
+## MSHTML based
 
 Browser | [PWA](https://github.com/wekan/wekan/wiki/PWA) | Mobile | Desktop | OS
 ------- | ----| ------ | ------- | -------
