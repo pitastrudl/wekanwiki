@@ -1,3 +1,276 @@
+# Scheduled backups to local or remote server
+
+For below scheduled backup scripts, no info from above of this wiki page is required. Backup scripts below have the required settings.
+
+This does backup of [Wekan+RocketChat snap databases](https://github.com/wekan/wekan/wiki/OAuth2) and php website etc.
+
+If you need to backup some remote server or cloud, you can use scp, or read [rclone docs](https://rclone.org/docs/) about how to configure saving to some other remote server or cloud.
+
+The following .sh bash scripts are added as root user to your `/root/` directory.
+
+Backups are created to subdirectories of `/root/backups/`.
+
+Cron is used to schedule backups, for example once a day.
+
+1. To add bash scripts, you change to root user with this command, and your sudo or root password.
+```
+sudo su
+```
+2. Use nano editor for editing cron. If you don't have it installed, type:
+```
+apt install nano
+```
+3. Then we set text editor to be nano. Otherwise it probably uses vi, that is harder to use.
+```
+export EDITOR=nano
+```
+4. Now we start editing cron scheduler. 
+```
+crontab -e
+```
+For more info how to make cron time, see https://crontab.guru
+
+In this example, we set backups every day at 04:00, then it runs backup.sh script, and saves output of the backup commands to the bottom of textfile backup.log.txt
+```
+# m h  dom mon dow   command
+0 4 * * * /root/backup.sh >> /root/backup.log.txt 2>&1
+```
+- For changing to `/root` directory, type: `cd /root`
+- for editing backup.sh file, type: `nano backup.sh`
+- For saving in nano, press Ctrl-o Enter
+- For exiting nano, press Ctrl-x Enter
+- Set every .sh file as executeable, for example: `chmod +x backup.sh`
+
+This is content of `backup.sh` script. It runs all the other backup scripts.
+If you do not need to backup rocketchat or website, or do not need to use rclone,
+you don't need to add those command lines at all.
+```
+cd /root
+./backup-wekan.sh
+./backup-rocketchat.sh
+./backup-website.sh
+rclone move backups cloudname:backup.example.com
+```
+More about rclone:
+
+/root/rclone-ls-all.sh , shows directory contests at cloud:
+```
+rclone lsd cloudname:
+```
+In this example, cron does run backup scripts as root.
+This is if you edit cron with command `crontab -e` as root user,
+so it edits the cron of root user.
+
+If mongodump command works as normal user for you, you could instead
+run backups as normal user, by exiting root user with `exit` and
+then as normal user editing cron with `crontab -e`.
+You can also list current cron with command `crontab -l`.
+
+If you like to backup Wekan snap settings with this command, then it
+only works with sudo at front, or as a root user without sudo at front.
+```
+sudo snap get wekan > snap-settings.txt
+```
+
+This below is backup script for backing up Wekan.
+
+/root/backup-wekan.sh
+```
+#!/bin/bash
+
+makeDump()
+{
+
+    # Backups will be created below this directory.
+    backupdir="/root/backups/wekan"
+
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Gets current time to variable "now"
+    now=$(date +'%Y-%m-%d_%H.%M.%S')
+
+    # Creates new backup directory like BACKUPDIR/BACKUPVERSIO-TIMENOW
+    mkdir -p $backupdir/$version-$now
+
+    # Targets the dump file.
+    #dump=$"/snap/wekan/$version/bin/mongodump"
+
+    # Changes to backup directory
+    cd $backupdir/$version-$now
+
+    # Backup Caddy settings
+    snap get wekan > snap-settings.txt
+
+    # Show text that database backup is in progress
+    printf "\nThe database backup is in progress.\n\n"
+
+    # Backup to current directory, creates subdirectory called "dump"
+    # with database dump files
+    mongodump --port 27019
+
+    # Change diretory (=cd) to parent directory
+    cd ..
+
+    # Show text "Makes the tar.gz archive file"
+    printf "\nMakes the tar.gz archive file.\n"
+
+    # Creates tar.gz archive file. This works similarly like creating .zip file.
+    tar -zcvf $version-$now.tar.gz $version-$now
+
+    # Delete temporary files that have already been
+    # compressed to above tar.gz file
+    rm -rf $version-$now
+
+    # Shows text "Backup done."
+    printf "\nBackup done.\n"
+
+    # Show where backup archive file is.
+    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
+}
+
+# Checks is the user is sudo/root
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+# Starts
+makeDump
+```
+/root/backup-rocketchat.sh
+```
+#!/bin/bash
+
+makeDump()
+{
+
+    backupdir="/root/backups/rocketchat"
+
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Prepares.
+    now=$(date +'%Y-%m-%d_%H.%M.%S')
+    mkdir -p $backupdir/$version-$now
+
+    # Targets the dump file.
+    dump=$"/snap/wekan/$version/bin/mongodump"
+
+    # Makes the backup.
+    cd $backupdir/$version-$now
+    printf "\nThe database backup is in progress.\n\n"
+    $dump --port 27017
+
+    # Makes the tar.gz file.
+    cd ..
+    printf "\nMakes the tar.gz file.\n"
+    tar -zcvf $version-$now.tar.gz $version-$now
+
+    # Cleanups
+    rm -rf $version-$now
+
+    # End.
+    printf "\nBackup done.\n"
+    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
+}
+
+# Checks is the user is sudo/root
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+# Starts
+makeDump
+```
+/root/backup-website.sh
+```
+#!/bin/bash
+
+makeDump()
+{
+
+    backupdir="/root/backups/example.com"
+
+    # Gets the version of the snap.
+    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
+
+    # Prepares.
+    now=$(date +'%Y-%m-%d_%H.%M.%S')
+    mkdir -p $backupdir/$version-$now
+
+    # Makes the backup.
+    cd $backupdir/$version-$now
+    printf "\nThe file backup is in progress.\n\n"
+
+    # Makes the tar.gz file.
+    cd ..
+    printf "\nMakes the tar.gz file.\n"
+    cp -pR /var/snap/wekan/common/example.com $version-$now
+    tar -zcvf $version-$now.tar.gz $version-$now
+
+    # Cleanups
+    rm -rf $version-$now
+
+    # End.
+    printf "\nBackup done.\n"
+    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
+}
+
+# Checks is the user is sudo/root
+if [ "$UID" -ne "0" ]
+then
+    echo "This program must be launched with sudo/root."
+    exit 1
+fi
+
+# Starts
+makeDump
+```
+/var/snap/wekan/common/Caddyfile
+```
+chat.example.com {
+	proxy / localhost:3000 {
+	  websocket
+	  transparent
+	}
+}
+
+https://boards.example.com {
+	proxy / localhost:3001 {
+	  websocket
+	  transparent
+	}
+}
+
+example.com {
+	root /var/snap/wekan/common/example.com
+	fastcgi / /var/run/php/php7.0-fpm.sock php
+}
+
+matomo.example.com {
+        root /var/snap/wekan/common/matomo.example.com
+        fastcgi / /var/run/php/php7.0-fpm.sock php
+}
+
+# Example CloudFlare free wildcard SSL Origin Certificate, there is example.com.pem at certificates directory with private key at to and cert at bottom.
+http://example.com https://example.com {
+        tls {
+            load /var/snap/wekan/common/certificates
+            alpn http/1.1
+        }
+        root /var/snap/wekan/common/example.com
+        browse
+}
+
+static.example.com {
+	root /var/snap/wekan/common/static.example.com
+}
+```
+
 ## Related talk about MongoDB backup
 
 Related talk, search for "mongodb" this page:
@@ -293,276 +566,3 @@ makesRestore $1
 Download Wekan grain with arrow down download button to .zip file. You can restore it later.
 
 [Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
-
-# Scheduled backups to local or remote server
-
-For below scheduled backup scripts, no info from above of this wiki page is required. Backup scripts below have the required settings.
-
-This does backup of [Wekan+RocketChat snap databases](https://github.com/wekan/wekan/wiki/OAuth2) and php website etc.
-
-If you need to backup some remote server or cloud, you can use scp, or read [rclone docs](https://rclone.org/docs/) about how to configure saving to some other remote server or cloud.
-
-The following .sh bash scripts are added as root user to your `/root/` directory.
-
-Backups are created to subdirectories of `/root/backups/`.
-
-Cron is used to schedule backups, for example once a day.
-
-1. To add bash scripts, you change to root user with this command, and your sudo or root password.
-```
-sudo su
-```
-2. Use nano editor for editing cron. If you don't have it installed, type:
-```
-apt install nano
-```
-3. Then we set text editor to be nano. Otherwise it probably uses vi, that is harder to use.
-```
-export EDITOR=nano
-```
-4. Now we start editing cron scheduler. 
-```
-crontab -e
-```
-For more info how to make cron time, see https://crontab.guru
-
-In this example, we set backups every day at 04:00, then it runs backup.sh script, and saves output of the backup commands to the bottom of textfile backup.log.txt
-```
-# m h  dom mon dow   command
-0 4 * * * /root/backup.sh >> /root/backup.log.txt 2>&1
-```
-- For changing to `/root` directory, type: `cd /root`
-- for editing backup.sh file, type: `nano backup.sh`
-- For saving in nano, press Ctrl-o Enter
-- For exiting nano, press Ctrl-x Enter
-- Set every .sh file as executeable, for example: `chmod +x backup.sh`
-
-This is content of `backup.sh` script. It runs all the other backup scripts.
-If you do not need to backup rocketchat or website, or do not need to use rclone,
-you don't need to add those command lines at all.
-```
-cd /root
-./backup-wekan.sh
-./backup-rocketchat.sh
-./backup-website.sh
-rclone move backups cloudname:backup.example.com
-```
-More about rclone:
-
-/root/rclone-ls-all.sh , shows directory contests at cloud:
-```
-rclone lsd cloudname:
-```
-In this example, cron does run backup scripts as root.
-This is if you edit cron with command `crontab -e` as root user,
-so it edits the cron of root user.
-
-If mongodump command works as normal user for you, you could instead
-run backups as normal user, by exiting root user with `exit` and
-then as normal user editing cron with `crontab -e`.
-You can also list current cron with command `crontab -l`.
-
-If you like to backup Wekan snap settings with this command, then it
-only works with sudo at front, or as a root user without sudo at front.
-```
-sudo snap get wekan > snap-settings.txt
-```
-
-This below is backup script for backing up Wekan.
-
-/root/backup-wekan.sh
-```
-#!/bin/bash
-
-makeDump()
-{
-
-    # Backups will be created below this directory.
-    backupdir="/root/backups/wekan"
-
-    # Gets the version of the snap.
-    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
-
-    # Gets current time to variable "now"
-    now=$(date +'%Y-%m-%d_%H.%M.%S')
-
-    # Creates new backup directory like BACKUPDIR/BACKUPVERSIO-TIMENOW
-    mkdir -p $backupdir/$version-$now
-
-    # Targets the dump file.
-    #dump=$"/snap/wekan/$version/bin/mongodump"
-
-    # Changes to backup directory
-    cd $backupdir/$version-$now
-
-    # Backup Caddy settings
-    snap get wekan > snap-settings.txt
-
-    # Show text that database backup is in progress
-    printf "\nThe database backup is in progress.\n\n"
-
-    # Backup to current directory, creates subdirectory called "dump"
-    # with database dump files
-    mongodump --port 27019
-
-    # Change diretory (=cd) to parent directory
-    cd ..
-
-    # Show text "Makes the tar.gz archive file"
-    printf "\nMakes the tar.gz archive file.\n"
-
-    # Creates tar.gz archive file. This works similarly like creating .zip file.
-    tar -zcvf $version-$now.tar.gz $version-$now
-
-    # Delete temporary files that have already been
-    # compressed to above tar.gz file
-    rm -rf $version-$now
-
-    # Shows text "Backup done."
-    printf "\nBackup done.\n"
-
-    # Show where backup archive file is.
-    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
-}
-
-# Checks is the user is sudo/root
-if [ "$UID" -ne "0" ]
-then
-    echo "This program must be launched with sudo/root."
-    exit 1
-fi
-
-# Starts
-makeDump
-```
-/root/backup-rocketchat.sh
-```
-#!/bin/bash
-
-makeDump()
-{
-
-    backupdir="/root/backups/rocketchat"
-
-    # Gets the version of the snap.
-    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
-
-    # Prepares.
-    now=$(date +'%Y-%m-%d_%H.%M.%S')
-    mkdir -p $backupdir/$version-$now
-
-    # Targets the dump file.
-    dump=$"/snap/wekan/$version/bin/mongodump"
-
-    # Makes the backup.
-    cd $backupdir/$version-$now
-    printf "\nThe database backup is in progress.\n\n"
-    $dump --port 27017
-
-    # Makes the tar.gz file.
-    cd ..
-    printf "\nMakes the tar.gz file.\n"
-    tar -zcvf $version-$now.tar.gz $version-$now
-
-    # Cleanups
-    rm -rf $version-$now
-
-    # End.
-    printf "\nBackup done.\n"
-    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
-}
-
-# Checks is the user is sudo/root
-if [ "$UID" -ne "0" ]
-then
-    echo "This program must be launched with sudo/root."
-    exit 1
-fi
-
-# Starts
-makeDump
-```
-/root/backup-website.sh
-```
-#!/bin/bash
-
-makeDump()
-{
-
-    backupdir="/root/backups/example.com"
-
-    # Gets the version of the snap.
-    version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
-
-    # Prepares.
-    now=$(date +'%Y-%m-%d_%H.%M.%S')
-    mkdir -p $backupdir/$version-$now
-
-    # Makes the backup.
-    cd $backupdir/$version-$now
-    printf "\nThe file backup is in progress.\n\n"
-
-    # Makes the tar.gz file.
-    cd ..
-    printf "\nMakes the tar.gz file.\n"
-    cp -pR /var/snap/wekan/common/example.com $version-$now
-    tar -zcvf $version-$now.tar.gz $version-$now
-
-    # Cleanups
-    rm -rf $version-$now
-
-    # End.
-    printf "\nBackup done.\n"
-    echo "Backup is archived to .tar.gz file at $backupdir/${version}-${now}.tar.gz"
-}
-
-# Checks is the user is sudo/root
-if [ "$UID" -ne "0" ]
-then
-    echo "This program must be launched with sudo/root."
-    exit 1
-fi
-
-# Starts
-makeDump
-```
-/var/snap/wekan/common/Caddyfile
-```
-chat.example.com {
-	proxy / localhost:3000 {
-	  websocket
-	  transparent
-	}
-}
-
-https://boards.example.com {
-	proxy / localhost:3001 {
-	  websocket
-	  transparent
-	}
-}
-
-example.com {
-	root /var/snap/wekan/common/example.com
-	fastcgi / /var/run/php/php7.0-fpm.sock php
-}
-
-matomo.example.com {
-        root /var/snap/wekan/common/matomo.example.com
-        fastcgi / /var/run/php/php7.0-fpm.sock php
-}
-
-# Example CloudFlare free wildcard SSL Origin Certificate, there is example.com.pem at certificates directory with private key at to and cert at bottom.
-http://example.com https://example.com {
-        tls {
-            load /var/snap/wekan/common/certificates
-            alpn http/1.1
-        }
-        root /var/snap/wekan/common/example.com
-        browse
-}
-
-static.example.com {
-	root /var/snap/wekan/common/static.example.com
-}
-```
