@@ -295,30 +295,49 @@ Download Wekan grain with arrow down download button to .zip file. You can resto
 [Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
 # Cloud Backup with [rclone](https://rclone.org)
+
 This does backup of [Wekan+RocketChat snap databases](https://github.com/wekan/wekan/wiki/OAuth2) and php website etc.
 
-Please read [rclone docs](https://rclone.org/docs/) about how to configure saving to some remote server or cloud.
+If you need to backup some remote server or cloud, you can use scp, or read [rclone docs](https://rclone.org/docs/) about how to configure saving to some other remote server or cloud.
 
+The following .sh bash scripts are added as root user to your `/root/` directory.
+
+Backups are created to subdirectories of `/root/backups/`.
+
+Cron is used to schedule backups, for example once a day.
+
+1. To add bash scripts, you change to root user with this command, and your sudo or root password.
 ```
-# Change to root user
 sudo su
-# Use nano editor for editing cron. If you don't have it installed, type: sudo apt install nano
+```
+2. Use nano editor for editing cron. If you don't have it installed, type:
+```
+apt install nano
+```
+3. Then we set text editor to be nano. Otherwise it probably uses vi, that is harder to use.
+```
 export EDITOR=nano
-# Editor cron
+```
+4. Now we start editing cron scheduler. 
+```
 crontab -e
 ```
-Backup every 15 minutes. Also set Wekan mail url manually once a day because of [bug](https://github.com/wekan/wekan-snap/issues/78).
-
 For more info how to make cron time, see https://crontab.guru
+
+In this example, we set backups every day at 04:00, then it runs backup.sh script, and saves output of the backup commands to the bottom of textfile backup.log.txt
 ```
 # m h  dom mon dow   command
-15 * * * * /root/backup.sh >> /root/backup.log.txt 2>&1
-15 17 * * * snap set wekan mail-url='smtps://boards%40example.com:user@mail.example.com.com:465/'
-15 17 * * * snap set wekan mail-from='Wekan Boards Support <boards@example.com>'
+0 4 * * * /root/backup.sh >> /root/backup.log.txt 2>&1
 ```
-/root/backup.sh, that is set executeable: chmod +x backup.sh
+- For changing to `/root` directory, type: `cd /root`
+- for editing backup.sh file, type: `nano backup.sh`
+- For saving in nano, press Ctrl-o Enter
+- For exiting nano, press Ctrl-x Enter
+- Set every .sh file as executeable, for example: `chmod +x backup.sh`
 
-Uses [rclone](https://rclone.org).
+This is content of `backup.sh` script. It runs all the other backup scripts.
+If you do not need to backup rocketchat or website, or do not need to use rclone,
+you don't need to add those command lines at all.
 ```
 cd /root
 ./backup-wekan.sh
@@ -326,10 +345,29 @@ cd /root
 ./backup-website.sh
 rclone move backups cloudname:backup.example.com
 ```
+More about rclone:
+
 /root/rclone-ls-all.sh , shows directory contests at cloud:
 ```
 rclone lsd cloudname:
 ```
+In this example, cron does run backup scripts as root.
+This is if you edit cron with command `crontab -e` as root user,
+so it edits the cron of root user.
+
+If mongodump command works as normal user for you, you could instead
+run backups as normal user, by exiting root user with `exit` and
+then as normal user editing cron with `crontab -e`.
+You can also list current cron with command `crontab -l`.
+
+If you like to backup Wekan snap settings with this command, then it
+only works with sudo at front, or as a root user without sudo at front.
+```
+sudo snap get wekan > snap-settings.txt
+```
+
+This below is backup script for backing up Wekan.
+
 /root/backup-wekan.sh
 ```
 #!/bin/bash
@@ -337,6 +375,7 @@ rclone lsd cloudname:
 makeDump()
 {
 
+    # Backups will be created below this directory.
     backupdir="/root/backups/wekan"
 
     # Gets the version of the snap.
@@ -353,6 +392,9 @@ makeDump()
 
     # Changes to backup directory
     cd $backupdir/$version-$now
+
+    # Backup Caddy settings
+    snap get wekan > snap-settings.txt
 
     # Show text that database backup is in progress
     printf "\nThe database backup is in progress.\n\n"
