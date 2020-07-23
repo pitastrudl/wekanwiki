@@ -294,7 +294,9 @@ Download Wekan grain with arrow down download button to .zip file. You can resto
 
 [Export data from Wekan Sandstorm grain .zip file](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
-# Cloud Backup with [rclone](https://rclone.org)
+# Scheduled backups to local or remote server
+
+For below scheduled backup scripts, no info from above of this wiki page is required. Backup scripts below have the required settings.
 
 This does backup of [Wekan+RocketChat snap databases](https://github.com/wekan/wekan/wiki/OAuth2) and php website etc.
 
