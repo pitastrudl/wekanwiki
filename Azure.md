@@ -51,7 +51,7 @@ boards.example.com {
 
 # If you have static main website in this directory, also add it:
 example.com {
-  root /var/snap/wekan/common/ertanalytics.com
+  root /var/snap/wekan/common/example.com
   tls {
       alpn http/1.1
   }
