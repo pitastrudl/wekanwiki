@@ -6,9 +6,7 @@
 
 ### Snap install info, tested 2020-07-07
 
-[About AZURE-NEW-APP-CLIENT-ID](https://community.microfocus.com/t5/Identity-Manager-Tips/Creating-the-application-Client-ID-and-Client-Secret-from/ta-p/1776619)
-
-The redirect URL is your root-url+_oauth/oidc like this: https://boards.example.com/_oauth/oidc
+[About AZURE-NEW-APP-CLIENT-ID and AZURE-NEW-APP-SECRET](https://community.microfocus.com/t5/Identity-Manager-Tips/Creating-the-application-Client-ID-and-Client-Secret-from/ta-p/1776619). The redirect URL is your root-url+_oauth/oidc like this: https://boards.example.com/_oauth/oidc
 
 When using sending email with Mailjet, set `mail-from` to some real email address so you get info if email bounces back.
 ```
