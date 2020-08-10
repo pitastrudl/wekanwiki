@@ -31,10 +31,44 @@ You can also stop MongoDB this way:
 ```
 net stop mongodb
 ```
-Windows MongoDB RAW database files are here, when you in File Explorer folder properties show hidden system files and file extensions:
+When you have MongoDB running, you can connect to database with nosqlbooster GUI, to localhost 27017.
+
+You can create backup of MongoDB database with this mongodump command, that is similar to mysqldump:
+```
+"C:\Program Files\MongoDB\Server\4.2\bin\mongodump"
+```
+It will create subdirectory `dump` that contains backup. You can restore with:
+```
+"C:\Program Files\MongoDB\Server\4.2\bin\mongorestore"
+```
+You can connect to MongoDB CLI with this command:
+```
+"C:\Program Files\MongoDB\Server\4.2\bin\mongo"
+```
+There you can show databases. One MongoDB server can have many databases, similarly like MySQL server can have many databases created with MySQL `CREATE DATABASE` command:
+```
+show dbs
+```
+Then use Wekan database:
+```
+use wekan
+```
+List wekan database collections/tables:
+```
+Show content of users collection/table:
+```
+db.users.find();
+```
+Exit MongoDB CLI:
+```
+exit
+```
+You should not backup Windows MongoDB RAW database files that are here, when you in File Explorer folder properties show hidden system files and file extensions:
 ```
 C:\ProgramData\MongoDB\data\db
 ```
+[More info about MongoDB](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
+
 9. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
 
 
