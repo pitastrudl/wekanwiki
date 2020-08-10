@@ -17,13 +17,25 @@ choco install -y mongodb
 
 6. Download [start-wekan.bat](https://raw.githubusercontent.com/wekan/wekan/master/start-wekan.bat) to your bundle directory. Default settins are: `ROOT_URL=http://localhost` and `PORT=80`, so it works only in local [compatible browser](https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix). You can edit [ROOT_URL](https://github.com/wekan/wekan/wiki/Settings) to be or `http://YOUR-IP-ADDRESS` so it works on local network with `http://YOUR-IP-ADDRESS` .
 
-7. Start Wekan:
+7. Start Wekan in cmd.exe as Administrator:
 ```
 cd bundle
 start-wekan.bat
 ```
 
-8. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
+8. Start MongoDB cmd.exe as Administrator:
+```
+net start mongodb
+```
+You can also stop MongoDB this way:
+```
+net stop mongodb
+```
+Windows MongoDB RAW database files are here, when you in File Explorer folder properties show hidden system files and file extensions:
+```
+C:\ProgramData\MongoDB\data\db
+```
+9. [Add users](https://github.com/wekan/wekan/wiki/Adding-users).
 
 
 ***
