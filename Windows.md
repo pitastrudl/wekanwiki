@@ -55,10 +55,26 @@ use wekan
 ```
 List wekan database collections/tables:
 ```
+show collections
+```
 Show content of users collection/table:
 ```
-db.users.find();
+db.users.find()
 ```
+Create new database:
+```
+use testing
+```
+Delete current database:
+```
+db.dropDatabase()
+```
+List databases again to show that database testing is not there anymore:
+```
+show dbs
+```
+Also see [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
+
 Exit MongoDB CLI:
 ```
 exit
