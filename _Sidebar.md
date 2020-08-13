@@ -49,6 +49,7 @@
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
 * [Keycloak](https://github.com/wekan/wekan/wiki/Keycloak)
+* [Google login](https://github.com/wekan/wekan/wiki/Google-login)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2), Auth0, GitLab, RocketChat
 * [Nextcloud](https://github.com/wekan/wekan/pull/2897/files)
