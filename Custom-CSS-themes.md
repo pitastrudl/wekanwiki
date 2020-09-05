@@ -1,6 +1,6 @@
 Also see: [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
 
-All Wekan themes are directly integrated to Wekan. You can add pull request to master branch to add custom theme, you can see from [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to these files. In that commit is also changes to other files, you don't need to change those files.
+All Wekan themes are directly integrated to Wekan. You can add pull request to master branch to add custom theme, you can see from [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to these files 3 files listed below. In that commit is also changes to other files, you don't need to change those files.
   - `wekan/client/components/boards/boardColors.styl`
   - `wekan/models/boards.js`
   - `wekan/server/migrations.js`
