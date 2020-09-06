@@ -4,6 +4,10 @@ To create Google OAuth 2 credentials, you can follow this tutorial: https://deve
 
 Then replace `CLIENT_ID` and `CLIENT_SECRET` below.
 
+The redirect URL is your Wekan root-url+_oauth/oidc like this: https://boards.example.com/_oauth/oidc
+
+If you have existing password account, and would like to switch to Google auth account, you need to rename that username and email address, so you can autoregister with your Google auth email address. Then share your boards from password account to Google auth account and set that to Google auth user as BoardAdmin.
+
 In your wekan config, you have to set the following information in snap:
 ```
 snap set wekan oauth2-enabled='true'
