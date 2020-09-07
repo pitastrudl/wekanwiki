@@ -18,7 +18,7 @@ snap set wekan oauth2-token-endpoint='https://oauth2.googleapis.com/token'
 snap set wekan oauth2-userinfo-endpoint='https://openidconnect.googleapis.com/v1/userinfo'
 snap set wekan oauth2-id-map='sub'
 snap set wekan oauth2-email-map='email'
-snap set wekan oauth2-username-map='nickname'
+snap set wekan oauth2-username-map='email'
 snap set wekan oauth2-fullname-map='name'
 snap set wekan oauth2-request-permissions='openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email'
 ```
