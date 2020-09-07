@@ -1,3 +1,8 @@
+# NOTE: BEFORE 2020-09-07 THERE WAS WRONG SETTING BELOW, YOU SHOULD FIX YOUR SETTINGS
+# CORRECT SETTINGS ARE:
+# snap set wekan oauth2-email-map='email'
+# snap set wekan oauth2-username-map='email'
+
 [Thanks to @mlazzje for this info below](https://github.com/wekan/wekan/issues/2527#issuecomment-654155289)
 
 To create Google OAuth 2 credentials, you can follow this tutorial: https://developers.google.com/identity/sign-in/web/sign-in
