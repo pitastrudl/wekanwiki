@@ -120,6 +120,7 @@
 
 * [Example: New card with Python3 and REST API](https://github.com/wekan/wekan/wiki/New-card-with-Python3-and-REST-API)
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
+* [Java](https://github.com/wekan/wekan/wiki/Java)
 * [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
 * [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
 
