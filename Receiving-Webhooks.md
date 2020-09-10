@@ -7,4 +7,6 @@ how to receive webhook.
 
 3) [Huginn or Flogo etc](https://github.com/wekan/wekan/issues/1160)
 
+4) [Java](https://github.com/wekan/wekan/issues/2961#issuecomment-601599745)
+
 At Internet you could use for example Zapier.
