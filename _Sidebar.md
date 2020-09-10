@@ -42,6 +42,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
 * [Time Tracking](https://github.com/wekan/wekan/wiki/Time-Tracking)
 * [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
 * [Templates](https://github.com/wekan/wekan/wiki/Templates)
