@@ -6,7 +6,7 @@ Wekan v4.29 changes markdown rendering from [marked](https://github.com/markedjs
 
 With markdown-it, also [markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji) plugin has been added, supporting [full list of GitHub emojis](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json).
 
-Example emoji code:
+Example emoji code, that you can add for example to card name, card description etc:
 ```
 :rainbow: :thumbsup: :100:
 ```
