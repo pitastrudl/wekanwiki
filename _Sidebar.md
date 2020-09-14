@@ -55,6 +55,8 @@
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2), Auth0, GitLab, RocketChat
 * [ADFS 4.0 using OAuth2 and OpenID](https://github.com/wekan/wekan/wiki/ADFS)
 * [Nextcloud](https://github.com/wekan/wekan/wiki/Nextcloud)
+* [CAS](https://github.com/wekan/wekan/wiki/CAS) Please test
+* [SAML](https://github.com/wekan/wekan/wiki/SAML) Please test
 * [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
 * [Custom Fields](https://github.com/wekan/wekan/wiki/Custom-Fields)
 * [Due Date](https://github.com/wekan/wekan/wiki/Due-Date)
