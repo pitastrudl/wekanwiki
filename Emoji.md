@@ -2,17 +2,6 @@
 
 Wekan v4.29 changes markdown rendering from [marked](https://github.com/markedjs/marked) to [markdown-it](https://github.com/markdown-it/markdown-it).
 
-## Numbered text
-
-If in List titles you like to create numbered text like this:
-```
-3. Something
-```
-Write it this way (to escape dot), so it shows correctly:
-```
-3\. Something
-```
-
 ## About emoji
 
 With markdown-it, also [markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji) plugin has been added, supporting [full list of GitHub emojis](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json).
