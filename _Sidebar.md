@@ -43,6 +43,7 @@
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
+* [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text) syntax
 * [Time Tracking](https://github.com/wekan/wekan/wiki/Time-Tracking)
 * [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
 * [Templates](https://github.com/wekan/wekan/wiki/Templates)
