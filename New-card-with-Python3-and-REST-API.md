@@ -24,7 +24,9 @@ chmod +x wekan.py
 ./wekan.py
 ```
 
-# wekan.py
+# wekan.py creating new card with Python3 and REST API
+
+Previously this code did work. In newest Debian/Ubuntu this script did not work, there was some errors. If someone has fixes to this, please add [a new issue](https://github.com/wekan/wekan/issues) with fixed code.
 
 Change these:
 - wekanurl: https://boards.example.com => Your Wekan URL
