@@ -1,4 +1,4 @@
-UPDATE: Wekan now uses markdown-it and markdown-it-emoji plugin, see [Emoji page](https://github.com/wekan/wekan/wiki/Emoji
+UPDATE: Wekan now uses markdown-it and markdown-it-emoji plugin, see [Emoji page](https://github.com/wekan/wekan/wiki/Emoji)
 
 ## Numbered text
 
