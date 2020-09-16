@@ -42,6 +42,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Admin Panel / People / (at username right side of Edit) ... User Settings / Impersonate user](https://github.com/wekan/wekan/pull/3280)
 * [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
 * [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text) syntax
 * [Time Tracking](https://github.com/wekan/wekan/wiki/Time-Tracking)
