@@ -1,3 +1,20 @@
+UPDATE: Wekan now uses markdown-it and markdown-it-emoji plugin, see [Emoji page](https://github.com/wekan/wekan/wiki/Emoji
+
+## Numbered text
+
+If in List titles you like to create numbered text like this:
+```
+3. Something
+```
+Write it this way (to escape dot), so it shows correctly:
+```
+3\. Something
+```
+
+
+***
+
+
 Wekan uses GFM (Github Flavored Markdown).
 We use the following project that ports GFM to meteor: https://github.com/wekan/markdown with updated newest markdown, that is fork of https://github.com/perak/markdown.
 
