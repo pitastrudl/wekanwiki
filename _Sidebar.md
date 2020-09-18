@@ -42,6 +42,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Custom Logo](https://github.com/wekan/wekan/wiki/Custom-Logo)
 * [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
 * [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
 * [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text) syntax
