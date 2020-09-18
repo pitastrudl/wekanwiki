@@ -43,6 +43,7 @@
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Custom Logo](https://github.com/wekan/wekan/wiki/Custom-Logo)
+* [Gantt Chart](https://github.com/wekan/wekan/issues/2870#issuecomment-695041746)
 * [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
 * [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
 * [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text) syntax
