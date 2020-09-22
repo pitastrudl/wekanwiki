@@ -1,7 +1,12 @@
-## NOTE: Is that preffered_username setting wrong? Correct settings should be for OIDC login:
+[Somebody got Keycloak working](https://github.com/wekan/wekan/issues/3277#issuecomment-696333794)
 
-## sudo snap set wekan oauth2-username-map='email'
-## sudo snap set wekan oauth2-email-map='email'
+NOTE: Is that preffered_username setting wrong? Correct settings should be for OIDC login:
+
+```
+sudo snap set wekan oauth2-username-map='email'
+
+sudo snap set wekan oauth2-email-map='email'
+```
 
 [Outstanding Bug](https://github.com/wekan/wekan/issues/1874#issuecomment-460802250): Create the first user (admin) with the regular process.  Then the remaining users can use the Register with OIDC process.
 
