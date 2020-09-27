@@ -8,6 +8,10 @@
 
 [About AZURE-NEW-APP-CLIENT-ID and AZURE-NEW-APP-SECRET](https://community.microfocus.com/t5/Identity-Manager-Tips/Creating-the-application-Client-ID-and-Client-Secret-from/ta-p/1776619). The redirect URL is your Wekan root-url+_oauth/oidc like this: https://boards.example.com/_oauth/oidc
 
+## getaddrinfo ENOTFOUND and Mailjet
+
+With Wekan Snap and Mailjet, if you get getaddrinfo ENOTFOUND error when you try to send a test email from within Wekan, it can be something with networking for the snap. Fix can be found in [Ubuntu DNS resolution issue affecting other snap packages](https://github.com/nextcloud/nextcloud-snap/issues/881).
+
 When using sending email with Mailjet, set `mail-from` to some real email address so you get info if email bounces back.
 ```
 sudo snap set wekan debug='true'
