@@ -10,7 +10,7 @@
 
 ### Mailjet: getaddrinfo ENOTFOUND
 
-With Wekan Snap and Mailjet, if you get getaddrinfo ENOTFOUND error when you try to send a test email from within Wekan, it can be something with networking for the snap. Fix can be found in [Ubuntu DNS resolution issue affecting other snap packages](https://github.com/nextcloud/nextcloud-snap/issues/881).
+With Wekan Snap and Mailjet, if you get getaddrinfo ENOTFOUND error when you try to send a test email from within Wekan, it can be something with networking for the snap. Fix can be found in [Ubuntu DNS resolution issue affecting other snap packages](https://github.com/nextcloud/nextcloud-snap/issues/881). Thanks to [peterk for info](https://github.com/wekan/wekan/issues/3184#issuecomment-699669350).
 
 ### Mailjet: mail-from
 
