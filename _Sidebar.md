@@ -57,6 +57,7 @@
 * [Google login](https://github.com/wekan/wekan/wiki/Google-login)
 * [Azure](https://github.com/wekan/wekan/wiki/Azure)
 * [OAuth2](https://github.com/wekan/wekan/wiki/OAuth2), Auth0, GitLab, RocketChat
+* [Oracle OIM on premise using OAuth2](https://github.com/wekan/wekan/wiki/Oracle-OIM)
 * [ADFS 4.0 using OAuth2 and OpenID](https://github.com/wekan/wekan/wiki/ADFS)
 * [Nextcloud](https://github.com/wekan/wekan/wiki/Nextcloud)
 * [CAS](https://github.com/wekan/wekan/wiki/CAS) Please test
