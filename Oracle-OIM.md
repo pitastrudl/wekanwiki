@@ -1,4 +1,4 @@
-## Login with OIDC OAuth2 Oracle on premise identity manager OIM
+## Login with OIDC OAuth2 Oracle OIM, on premise identity manager
 
 [Added with this commit](https://github.com/wekan/wekan/commit/ec8a78537f1dc40e967de36a02ea09cf7398318a).
 
