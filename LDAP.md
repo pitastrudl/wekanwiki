@@ -1,5 +1,6 @@
 ## LDAP info
 
+- [MS AD with Windows 2012 server](https://github.com/wekan/wekan/issues/3292#issuecomment-703246384)
 - [Additional info about LDAP docs here](https://github.com/wekan/wekan-ldap/issues/77)
 - [LDAP issues](https://github.com/wekan/wekan-ldap/issues)
 - [Univention LDAP related issues](https://github.com/wekan/univention/issues)
