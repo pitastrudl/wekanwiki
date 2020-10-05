@@ -7,8 +7,8 @@ and copy converted characters to your password.
 ## Example: AWS SES
 
 ```
-sudo snap set wekan mail-url="smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587"
-sudo snap set wekan mail-from="Wekan Team Boards <info@example.com>"
+sudo snap set wekan mail-url='smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587'
+sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
 ```
 ## Example: UCS
 
@@ -30,8 +30,8 @@ sudo snap set wekan mail-from="Wekan Team Boards <info@example.com>"
 Below `@` is urlencoded to `%40`
 
 ```
-sudo snap set wekan mail-url="smtps://user%40provider.com:xxxxxx@smtp.provider.com:587"
-sudo snap set wekan mail-from="Boards Support <user@provider.com>"
+sudo snap set wekan mail-url='smtps://user%40provider.com:xxxxxx@smtp.provider.com:587'
+sudo snap set wekan mail-from='Boards Support <user@provider.com>'
 ```
 
 If settings happends to disappear, it's possible set cron job to run those at morning, see: https://crontab.guru
@@ -42,8 +42,8 @@ crontab -e
 ```
 There at bottom add these. Optional is to add to end of snap command `2>&1` to disable output,if there is any.
 ```
-06 00 * * * sudo snap set wekan mail-url="smtps://user%40provider.com:xxxxxx@smtp.provider.com:587"
-06 01 * * * sudo snap set wekan mail-from="Boards Support <user@provider.com>"
+06 00 * * * sudo snap set wekan mail-url='smtps://user%40provider.com:xxxxxx@smtp.provider.com:587'
+06 01 * * * sudo snap set wekan mail-from='Boards Support <user@provider.com>'
 ```
 
 ## Check is username and password required
