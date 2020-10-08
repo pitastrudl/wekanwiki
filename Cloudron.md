@@ -12,4 +12,4 @@ Cloudron is a complete solution for running apps on your server and keeping them
 
 The source code for the package can be found [here](https://git.cloudron.io/cloudron/wekan-app/).
 
-You can also test the wekan installation on the demo Cloudron instance - https://my-demo.cloudron.me (username: cloudron password: cloudron).
+You can also test the wekan installation on the demo Cloudron instance - https://my.demo.cloudron.io (username: cloudron password: cloudron).
