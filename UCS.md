@@ -14,3 +14,4 @@
 - Has Wekan. From App Center you can install RocketChat, WordPress, OnlyOffice, NextCloud, OpenXChange, etc. Some apps are full free versions, some other apps require payment for more features. Wekan is full free version.
 - Wekan on Univention is based Wekan Docker version. Upgrading all apps on Univention upgrades also Wekan to newest available Wekan version.
 - Newer version of Wekan will be released when building and testing is done.
+- [RocketChat Webhook workaround](https://github.com/wekan/univention/issues/15)
