@@ -12,6 +12,7 @@ It has:
 - USB3
 - 2 x USB-C, both work for charging (I have not tried data transfer yet)
 - microSD
+- package included USB-C charger and USB mouse
 - keys for fullscreen, switch apps, brighness, volume, those do not need any modifier keys like other laptops
 - playing youtube videos fullscreen works very well
 - speakers sound can be set to very loud if needed
