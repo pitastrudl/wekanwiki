@@ -198,6 +198,6 @@ Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chr
 
 [Source](https://chromeunboxed.com/how-to-use-your-hp-printer-with-linux-on-chrome-os/)
 ```
-sudo apt install hplip cups system-config-printer
+sudo apt install hplip hplip-gui cups system-config-printer
 ```
 To be continued...
