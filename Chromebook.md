@@ -207,8 +207,7 @@ At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` w
 
 NOTE: Sometimes reboot stops port forwarding, then it needs to be enabled again at Chromebook settings.
 
-But problem is, using that LAN IP address does not work from Chromebook's own browser like Chrome or Linux Firefox.
-Something should be figured out so that both Chromebook webbrowser and LAN other computers webbrowsers can be used at the same time.
+But problem is, using that LAN IP address does not work from Chromebook's own browser like Chrome or Linux Firefox. So looking at that at the next option:
 
 #### c) Use hosts file
 
