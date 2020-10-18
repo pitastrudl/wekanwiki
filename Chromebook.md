@@ -197,7 +197,7 @@ sudo shutdown -h now
 ```
 Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chromebook has shutdown, short press laptop power button to start Chromebook.
 
-## 12) Optional: Install HP DeskJet 2600 printer
+## 12) Optional: Install HP DeskJet 2600 multifunction printer/scanner
 
 You should set your wireless network printer to have Static IP address.
 
