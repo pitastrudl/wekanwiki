@@ -196,8 +196,34 @@ Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chr
 
 ## 12) Optional: Install HP DeskJet 2600 printer
 
+You should set your wireless network printer to have Static IP address.
+
 [Source](https://chromeunboxed.com/how-to-use-your-hp-printer-with-linux-on-chrome-os/)
 ```
 sudo apt install hplip hplip-gui cups system-config-printer
+sudo xhost +
+sudo hp-setup
 ```
-To be continued...
+Check:
+```
+[X] Network/Ethernet/Wireless newtork (direct connection or JetDirect)
+```
+Click:
+```
+> Show Advanced Options:
+```
+Check:
+```
+[X] Manual Discovery
+IP Address or network name: [ YOUR-PRINTER-STATIC-IP-HERE, for example 192.168.0.200 ]
+JetDirect port: [1]
+```
+Next, Next, Add Printer.
+```
+sudo system-config-printer
+```
+Set printer as Default.
+
+You are also able to Scan images from your multifunction printer with XSane, that was installed with HP printer drivers.
+
+You can print from Ubuntu Linux apps, like for example Firefox, LibreOffice, Inkscape, etc what you can install with apt.
