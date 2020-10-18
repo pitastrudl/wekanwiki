@@ -181,16 +181,35 @@ The only glitch I do see is occasionally GUI applications don't receive keystrok
 At Ubuntu terminal:
 ```
 sudo snap install wekan
-
-sudo snap set wekan port='2000'
 ```
+
+#### a) Use Wekan locally
+
+At Ubuntu terminal, type:
+```
+ip address
+```
+It shows container internal IP address. You can set it to use Wekan locally, for example:
+```
+sudo snap set wekan root-url='http://100.115.92.200'
+sudo snap set wekan port='80'
+```
+Then Wekan works locally at http://100.115.92.200 , and you can open cards.
+
+#### b) Use Wekan from other computers at LAN
+
 Look at your Chromebook wifi settings `(i)`, what is your laptop IP address, and use it with below http address:
 ```
 sudo snap set wekan root-url='http://192.168.0.2:2000'
+sudo snap set wekan port='2000'
 ```
 At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` with nickname like for example `wekan`. This does forward Chromebook port to inside Ubuntu 20.04 64bit LXC container where Wekan is running.
 
-NOTE: SOMETIMES REBOOT STOPS PORT FORWARDING, THEN IT NEEDS TO BE ENABLED AGAIN AT CHROMEBOOK SETTINGS.
+But problem is, using that LAN IP address does not work from Chromebook's own browser like Chrome or Linux Firefox.
+Something should be figured out so that both Chromebook webbrowser and LAN other computers webbrowsers can be used at the same time.
+Maybe set that IP at /etc/hosts file of Ubuntu, or some other trick.
+
+NOTE: Sometimes reboot stops port forwarding, then it needs to be enabled again at Chromebook settings.
 
 Then at your local network, you can use any computer or mobile webbrowser to login at your Chromebook address like http://192.168.0.2:2000/sign-in
 
