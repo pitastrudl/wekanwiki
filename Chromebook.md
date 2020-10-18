@@ -199,6 +199,8 @@ Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chr
 
 ## 12) Optional: Install HP DeskJet 2600 multifunction printer/scanner
 
+This inkjet printer was cheapest available, and does print excellent quality similar to laser color printer.
+
 You should set your wireless network printer to have Static IP address.
 
 [Source](https://chromeunboxed.com/how-to-use-your-hp-printer-with-linux-on-chrome-os/)
