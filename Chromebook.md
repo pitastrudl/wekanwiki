@@ -1,6 +1,6 @@
 ## Installing Wekan Snap to Chromebook
 
-Installing to Asus Chromebook C223NA-GJ0007 11.6" laptop, that is cheapest available at local shop, did cost 199 euro.
+Installing to Asus Chromebook C223NA-GJ0007 11.6" laptop, that was cheapest available at local shop, did cost 199 euro.
 
 ### 1) Install Linux Beta
 
