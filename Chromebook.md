@@ -164,7 +164,7 @@ sudo snap set wekan port='2000'
 ```
 Look at your Chromebook wifi settings `(i)`, what is your laptop IP address, and use it with below http address:
 ```
-sudo snap set wekan root-url='http://192.168.0.2:2000`
+sudo snap set wekan root-url='http://192.168.0.2:2000'
 ```
 At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` with nickname like for example `wekan`. This does forward Chromebook port to inside Ubuntu 20.04 64bit LXC container where Wekan is running.
 
