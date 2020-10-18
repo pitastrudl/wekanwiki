@@ -205,11 +205,46 @@ sudo snap set wekan port='2000'
 ```
 At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` with nickname like for example `wekan`. This does forward Chromebook port to inside Ubuntu 20.04 64bit LXC container where Wekan is running.
 
+NOTE: Sometimes reboot stops port forwarding, then it needs to be enabled again at Chromebook settings.
+
 But problem is, using that LAN IP address does not work from Chromebook's own browser like Chrome or Linux Firefox.
 Something should be figured out so that both Chromebook webbrowser and LAN other computers webbrowsers can be used at the same time.
-Maybe set that IP at /etc/hosts file of Ubuntu, or some other trick.
 
-NOTE: Sometimes reboot stops port forwarding, then it needs to be enabled again at Chromebook settings.
+#### c) Use hosts file
+
+At your Chromebook Ubuntu, edit hosts:
+```
+sudo nano /etc/hosts
+```
+There add:
+```
+127.0.0.1 localhost wekan
+```
+Then with Ubuntu Firefox you can browse http://wekan:2000 .
+
+At other LAN computer, edit hosts:
+```
+sudo nano /etc/hosts
+```
+There add:
+```
+192.168.0.2 wekan
+```
+Then you can browse http://wekan:2000 from LAN computers. But mobile phones like Android and iOS can not usually change those settings, and if you don't have a way to setup local network computer names, let's look at next option:
+
+#### d) Use some subdomain
+
+If you have some domain, you can set new record `wekan.example.com A 192.168.0.2` . That is internet wide, but resolves to your local IP address on your local network. Then on your LAN mobile phones you can browse to http://wekan.example.com:2000 .
+
+At Chromebook Ubuntu:
+```
+sudo nano /etc/hosts
+```
+There add:
+```
+127.0.0.1 localhost wekan.example.com
+```
+So then you can browse to http://wekan.example.com:2000 from Chromebook Ubuntu Firefox.
 
 Then at your local network, you can use any computer or mobile webbrowser to login at your Chromebook address like http://192.168.0.2:2000/sign-in
 
