@@ -243,7 +243,7 @@ There add:
 ```
 127.0.0.1 localhost wekan.example.com
 ```
-So then you can browse to http://wekan.example.com:2000 from Chromebook Ubuntu Firefox.
+So then you can browse to http://wekan.example.com:2000 from Chromebook Ubuntu Firefox, Chromebook Chrome, other LAN computers and mobile phones.
 
 #### Mobile app icon
 
