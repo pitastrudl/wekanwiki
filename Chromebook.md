@@ -4,12 +4,12 @@ First, [download all your Google Account data as 4 GB .zip files](https://takeou
 
 Because this happened:
 - Someone else had their Google Drive full.
-- He did not backup local data from Chromebook.
+- That someone else did not backup local data from Chromebook.
 - Installing Linux etc did fill up Chromebook harddisk.
 - Chromebook got stuck and messed up, and needed to be reinstalled.
-- He lost some data.
+- That someone else lost some data.
 
-Below intructions only worked for xet7, because he did have free disk space on Chromebook.
+Below intructions only worked for xet7, because xet7 did have free disk space on Chromebook.
 
 ## Installing Wekan Snap to Chromebook
 
