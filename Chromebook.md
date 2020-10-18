@@ -247,7 +247,7 @@ So then you can browse to http://wekan.example.com:2000 from Chromebook Ubuntu F
 
 #### Mobile app icon
 
-For iOS and Android, you can [create app icon this way](https://github.com/wekan/wekan/wiki/PWA).
+For iOS and Android, you can [create app PWA icon this way](https://github.com/wekan/wekan/wiki/PWA).
 
 ## 11) Optional: Change Linux desktop apps language and install Firefox
 
