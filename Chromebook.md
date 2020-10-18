@@ -2,6 +2,24 @@
 
 Installing to Asus Chromebook C223NA-GJ0007 11.6" laptop, that was cheapest available at local shop, did cost 199 euro.
 
+It has:
+- 4 GB RAM
+- 32 GB eMMC disk
+- Intel® Celeron® N3350 CPU
+- Bluetooth
+- webcam
+- WLAN
+- USB3
+- 2 x USB-C, both work for charging
+- microSD
+- keys for fullscreen, switch apps, brighness, volume, those do not need any modifier keys like other laptops
+- playing youtube videos fullscreen works very well
+- speakers sound can be set to very loud if needed
+- big enough keys, good keyboard layout
+- small and lightweight laptop
+- has Play Store Android apps and Linux apps that can work fullscreen
+- I did not try yet replacing Chrome OS with full Linux https://galliumos.org that has drivers Chromebook needs
+
 ### 1) Install Linux Beta
 
 At Chromebook settings, install Linux Beta. It will have Debian 10, that will be changed to Ubuntu 20.04 64bit.
