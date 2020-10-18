@@ -9,7 +9,7 @@ Because this happened:
 - Chromebook got stuck and messed up, and needed to be reinstalled.
 - That someone else lost some data.
 
-Below intructions only worked for xet7, because xet7 did have free disk space on Chromebook. There is no warranty for any of below info.
+Below intructions only worked for xet7, because xet7 did have free disk space on Chromebook. There is **NO WARRANTY OF ANY KIND** for any of below info. If your Chomebook breaks, well, thank your backups, and have a nice day!
 
 ## Installing Wekan Snap to Chromebook
 
