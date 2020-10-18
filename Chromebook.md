@@ -194,7 +194,7 @@ It shows container internal IP address. You can set it to use Wekan locally, for
 sudo snap set wekan root-url='http://100.115.92.200'
 sudo snap set wekan port='80'
 ```
-Then Wekan works locally at http://100.115.92.200 , and you can open cards.
+Then Wekan works locally using Ubuntu webbrowser at http://100.115.92.200 , and you can open cards.
 
 #### b) Use Wekan from other computers at LAN
 
