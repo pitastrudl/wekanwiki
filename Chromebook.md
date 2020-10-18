@@ -8,7 +8,7 @@ At Chromebook settings, install Linux Beta. It will have Debian 10, that will be
 
 ### 2) Install Ubuntu Container
 
-[Source for these instructions](http://intertwingly.net/blog/2020/07/21/Ubuntu-20-04-on-Chromebook)
+[Source](http://intertwingly.net/blog/2020/07/21/Ubuntu-20-04-on-Chromebook)
 
 Start by entering the Chrome shell (crosh) by pressing CTRL+ALT+T, then enter the default termina VM:
 ```
@@ -116,7 +116,7 @@ loginctl enable-linger wekan
 
 ### 8) Change Ubuntu container hostname
 
-For example
+For example:
 ```
 hostnamectl set-hostname wekanserver
 ```
@@ -131,6 +131,9 @@ Then press control-d two more times.
 Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chromebook has shutdown, short press laptop power button to start Chromebook.
 
 ### 9) Optional, if you install some Snap GUI apps
+
+These at 9) are from same [Source](http://intertwingly.net/blog/2020/07/21/Ubuntu-20-04-on-Chromebook)
+but xet7 did not test them.
 
 The fix is to copy the desktop and pixmap files to your .local environment:
 ```
