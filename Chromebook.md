@@ -1,3 +1,16 @@
+## WARNING: PLEASE do not try on your Chromebook below info.
+
+First, [download all your Google Account data as 4 GB .zip files](https://takeout.google.com/) and burn them to DVD or Blueray disks, where they can not be easily accidentally deleted.
+
+Because this happened:
+- Someone else had their Google Drive full.
+- He did not backup local data from Chromebook.
+- Installing Linux etc did fill up Chromebook harddisk.
+- Chromebook got stuck and messed up, and needed to be reinstalled.
+- He lost some data.
+
+Below intructions only worked for xet7, because he did have free disk space on Chromebook.
+
 ## Installing Wekan Snap to Chromebook
 
 Installing to Asus Chromebook C223NA-GJ0007 11.6" laptop, that was cheapest available at local shop, did cost 199 euro.
