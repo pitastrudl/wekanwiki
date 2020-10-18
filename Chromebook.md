@@ -14,7 +14,7 @@ Start by entering the Chrome shell (crosh) by pressing CTRL+ALT+T, then enter th
 ```
 vmc start termina
 ```
-Delete the default penguin container:
+Delete the default penguin container that had Debian 10:
 ```
 lxc stop penguin --force
 lxc rm penguin
