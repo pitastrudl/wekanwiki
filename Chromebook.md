@@ -18,7 +18,7 @@ It has:
 - big enough keys, good keyboard layout
 - small and lightweight laptop
 - has Play Store Android apps and Linux apps that can work fullscreen
-- I did not try yet replacing Chrome OS with full Linux https://galliumos.org that has some drivers Chromebook needs, but according to their [hardware compatibility](https://wiki.galliumos.org/Hardware_Compatibility) this model has Known issues: internal audio, suspend/resume.
+- I did not try yet replacing Chrome OS with full Linux https://galliumos.org that has some drivers Chromebook needs, but according to their [hardware compatibility](https://wiki.galliumos.org/Hardware_Compatibility) this model has Known issues: internal audio, suspend/resume, when using galliumos.
 
 ### 1) Install Linux Beta
 
