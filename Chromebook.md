@@ -219,7 +219,7 @@ There add:
 ```
 127.0.0.1 localhost wekan
 ```
-Then with Ubuntu Firefox you can browse http://wekan:2000 .
+Then with Ubuntu webbrowser you can browse http://wekan:2000 .
 
 At other LAN computer, edit hosts:
 ```
@@ -245,9 +245,7 @@ There add:
 ```
 So then you can browse to http://wekan.example.com:2000 from Chromebook Ubuntu Firefox.
 
-Then at your local network, you can use any computer or mobile webbrowser to login at your Chromebook address like http://192.168.0.2:2000/sign-in
-
-At your Chromebook, you can use preinstalled Chrome to login to Wekan.
+#### Mobile app icon
 
 For iOS and Android, you can [create app icon this way](https://github.com/wekan/wekan/wiki/PWA).
 
