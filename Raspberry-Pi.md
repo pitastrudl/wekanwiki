@@ -306,7 +306,7 @@ You need to check that it changes to correct directory, so that it can start `no
 And then start Wekan with:
 ```
 ./start-wekan.sh
-``
+```
 
 ***
 
