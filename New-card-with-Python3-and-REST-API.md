@@ -2,7 +2,6 @@ Also see:
 - [API Login to get Bearer token](https://github.com/wekan/wekan/wiki/REST-API#example-call---as-form-data)
 - [API docs and examples for various programming languages](https://wekan.github.io/api/), there is Boards / Export for exporting board with API
 - In the right menu, scroll down REST API Docs etc links =====>
-- https://github.com/pycurl/pycurl/tree/master/examples/quickstart
 - Wekan-Gogs integration with Node.js https://github.com/wekan/wekan-gogs
 
 # Install
@@ -37,7 +36,6 @@ Change these:
 # -*- coding: utf-8 -*-
 # vi:ts=4:et
 
-import pycurl
 try:
     # python 3
     from urllib.parse import urlencode
