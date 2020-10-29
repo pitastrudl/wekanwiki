@@ -12,21 +12,20 @@ Windows
 choco install python3
 # REBOOT
 pip3 install pip --upgrade
-pip3 install pycurl certifi json
+pip3 install json
 python3 wekan.py
 ```
 Debian/Ubuntu
 ```
-sudo apt-get -y install python3 python3-pip python3-pycurl python3-simplejson
+sudo apt-get -y install python3 python3-pip python3-simplejson
 sudo pip3 install pip --upgrade
-sudo pip3 install certifi
 chmod +x wekan.py
 ./wekan.py
 ```
 
 # wekan.py creating new card with Python3 and REST API
 
-Previously this code did work. In newest Debian/Ubuntu this script did not work, there was some errors. If someone has fixes to this, please add [a new issue](https://github.com/wekan/wekan/issues) with fixed code.
+Below code works now, fixed at 2020-10-29.
 
 Change these:
 - wekanurl: https://boards.example.com => Your Wekan URL
@@ -46,9 +45,8 @@ except ImportError:
     # python 2
     from urllib import urlencode
 
-import certifi
 import json
-from io import BytesIO
+import requests
 import sys
 
 arguments = len(sys.argv) - 1
@@ -62,31 +60,78 @@ if arguments == 0:
     print("  python3 wekan.py board BOARDID      # Info of BOARDID")
     print("  python3 wekan.py swimlanes BOARDID  # Swimlanes of BOARDID")
     print("  python3 wekan.py lists BOARDID      # Lists of BOARDID")
+    print("  python3 wekan.py createlist BOARDID LISTTITLE # Create list")
     print("  python3 wekan.py addcard AUTHORID BOARDID SWIMLANEID LISTID CARDTITLE CARDDESCRIPTION")
     exit
 
 # ------- SETTINGS START -------------
 
-username = 'wekan-admin'
-password = 'wekan-admin-password'
-#wekanurl = 'https://boards.example.com/'
-wekanurl = 'http://localhost/'
+username = 'username@boards.example.com'
 
-# SYNTAX
-# python3 wekan.py addcard AUTHORID BOARDID SWIMLANEID LISTID CARDTITLE CARDDESCRIPTION
+password = 'topsecret'
 
-# EXAMPLE 2:
-# Write to Welcome board
-# python3 wekan.py addcard abcd efgh ijkl mnop "Welcome test" "Description test"
+wekanurl = 'https://boards.example.com/'
 
 # ------- SETTINGS END -------------
+
+"""
+EXAMPLE:
+
+python3 wekan.py
+
+=== Wekan API Python CLI: Shows IDs for addcard ===
+AUTHORID is USERID that writes card.
+Syntax:
+  python3 wekan.py users              # All users
+  python3 wekan.py boards USERID      # Boards of USERID
+  python3 wekan.py board BOARDID      # Info of BOARDID
+  python3 wekan.py swimlanes BOARDID  # Swimlanes of BOARDID
+  python3 wekan.py lists BOARDID      # Lists of BOARDID
+  python3 wekan.py createlist BOARDID LISTTITLE # Create list
+  python3 wekan.py addcard AUTHORID BOARDID SWIMLANEID LISTID CARDTITLE CARDDESCRIPTION
+
+
+python3 wekan.py boards ppg7R38ykWb28BWDp
+
+=== BOARDS ===
+
+[{"_id":"una","title":"Templates"}
+,{"_id":"dYZ","title":"Global Status"}
+]
+
+python3 wekan.py swimlanes dYZ
+
+=== SWIMLANES ===
+
+[{"_id":"Jiv","title":"Default"}
+]
+
+python3 wekan.py lists dYZ
+
+=== LISTS ===
+
+[]
+
+There is no lists, so create a list:
+
+python3 wekan.py createlist dYZ 'Test'
+
+=== CREATE LIST ===
+
+{"_id":"7Kp"}
+
+#  python3 wekan.py addcard AUTHORID BOARDID SWIMLANEID LISTID CARDTITLE CARDDESCRIPTION
+
+python3 wekan.py addcard ppg dYZ Jiv 7Kp 'Test card' 'Test description'
+
+"""
 
 # ------- API URL GERENARTION START -----------
 
 loginurl = 'users/login'
 wekanloginurl = wekanurl + loginurl
 apiboards = 'api/boards/'
-apiusers = 'api/users/'
+apiusers = 'api/users'
 s = '/'
 l = 'lists'
 sw = 'swimlane'
@@ -99,31 +144,9 @@ users = wekanurl + apiusers
 
 # ------- LOGIN TOKEN START -----------
 
-buffer = BytesIO()
-c = pycurl.Curl()
-c.setopt(c.URL, wekanloginurl)
-c.setopt(c.WRITEDATA, buffer)
-c.setopt(c.CAINFO, certifi.where())
-post_data = {"username": username, "password": password}
-# Form data must be provided already urlencoded.
-postfields = urlencode(post_data)
-# Sets request method to POST,
-# Content-Type header to application/x-www-form-urlencoded
-# and data to send in request body.
-c.setopt(c.POSTFIELDS, postfields)
-
-c.perform()
-c.close()
-
-body = buffer.getvalue()
-# Body is a byte string.
-# We have to know the encoding in order to print it to a text file
-# such as standard output.
-data = body.decode('iso-8859-1')
-#print(data)
-d = json.loads(data)
-#print(list(d.keys()))
-#print(d['token'])
+data = {"username": username, "password": password}
+body = requests.post(wekanloginurl, data=data)
+d = body.json()
 apikey = d['token']
 
 # ------- LOGIN TOKEN END -----------
@@ -131,7 +154,6 @@ apikey = d['token']
 if arguments == 7:
 
     if sys.argv[1] == 'addcard':
-        
         # ------- WRITE TO CARD START -----------
         authorid = sys.argv[2]
         boardid = sys.argv[3]
@@ -141,89 +163,61 @@ if arguments == 7:
         carddescription = sys.argv[7]
         cardtolist = wekanurl + apiboards + boardid + s + l + s + listid + s + cs
         # Write to card
-        c = pycurl.Curl()
-        c.setopt(c.URL, cardtolist)
-        c.setopt(c.WRITEDATA, buffer)
-        c.setopt(c.CAINFO, certifi.where())
-        c.setopt(c.HTTPHEADER, ['Accept: application/json', 'Authorization: Bearer {}'.format(apikey)])
-        post_data = {"authorId": authorid, "title": cardtitle, "description": carddescription, "swimlaneId": swimlaneid}
-        # Form data must be provided already urlencoded.
-        postfields = urlencode(post_data)
-        # Sets request method to POST,
-        # Content-Type header to application/x-www-form-urlencoded
-        # and data to send in request body.
-        c.setopt(c.POSTFIELDS, postfields)
-        c.perform()
-        c.close()
-        body = buffer.getvalue()
-        data = body.decode('iso-8859-1')
-        #print(data)
+        headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
+        post_data = {'authorId': '{}'.format(authorid), 'title': '{}'.format(cardtitle), 'description': '{}'.format(carddescription), 'swimlaneId': '{}'.format(swimlaneid)}
+        body = requests.post(cardtolist, data=post_data, headers=headers)
+        print(body.text)
+        # ------- WRITE TO CARD END -----------
 
-    # ------- WRITE TO CARD END -----------
+if arguments == 3:
+
+    if sys.argv[1] == 'createlist':
+
+      # ------- CREATE LIST START -----------
+      boardid = sys.argv[2]
+      listtitle = sys.argv[3]
+      list = wekanurl + apiboards + boardid + s + l
+      headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
+      post_data = {'title': '{}'.format(listtitle)}
+      body = requests.post(list, data=post_data, headers=headers)
+      print("=== CREATE LIST ===\n")
+      print(body.text)
+      # ------- CREATE LIST END -----------
 
 if arguments == 2:
 
     # ------- BOARDS LIST START -----------
     userid = sys.argv[2]
-    boards = wekanurl + apiusers + userid + s + bs
+    boards = users + s + userid + s + bs
     if sys.argv[1] == 'boards':
-        c = pycurl.Curl()
-        c.setopt(c.URL, boards)
-        c.setopt(c.WRITEDATA, buffer)
-        c.setopt(c.CAINFO, certifi.where())
-        c.setopt(c.HTTPHEADER, ['Accept: application/json', 'Authorization: Bearer {}'.format(apikey)])
-        c.perform()
-        c.close()
-        body = buffer.getvalue()
-        data = body.decode('iso-8859-1')
+        headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
+        #post_data = {'userId': '{}'.format(userid)}
+        body = requests.get(boards, headers=headers)
         print("=== BOARDS ===\n")
-        data2 = data.replace('}',"}\n")
+        data2 = body.text.replace('}',"}\n")
         print(data2)
-        print("\n")
-        data = ""
     # ------- BOARDS LIST END -----------
-
     if sys.argv[1] == 'board':
 
         # ------- BOARD INFO START -----------
         boardid = sys.argv[2]
         board = wekanurl + apiboards + boardid
-        c = pycurl.Curl()
-        c.setopt(c.URL, board)
-        c.setopt(c.WRITEDATA, buffer)
-        c.setopt(c.CAINFO, certifi.where())
-        c.setopt(c.HTTPHEADER, ['Accept: application/json', 'Authorization: Bearer {}'.format(apikey)])
-        c.perform()
-        c.close()
-        body = buffer.getvalue()
-        data = body.decode('iso-8859-1')
+        headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
+        body = requests.get(board, headers=headers)
         print("=== BOARD ===\n")
-        data2 = data.replace('}',"}\n")
+        data2 = body.text.replace('}',"}\n")
         print(data2)
-        print("\n")
-        data = ""
-
         # ------- BOARD INFO END -----------
 
     if sys.argv[1] == 'swimlanes':
-        
         boardid = sys.argv[2]
         swimlanes = wekanurl + apiboards + boardid + s + sws
         # ------- SWIMLANES OF BOARD START -----------
-        c = pycurl.Curl()
-        c.setopt(c.URL, swimlanes)
-        c.setopt(c.WRITEDATA, buffer)
-        c.setopt(c.CAINFO, certifi.where())
-        c.setopt(c.HTTPHEADER, ['Accept: application/json', 'Authorization: Bearer {}'.format(apikey)])
-        c.perform()
-        c.close()
-        body = buffer.getvalue()
-        data = body.decode('iso-8859-1')
+        headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
         print("=== SWIMLANES ===\n")
-        data2 = data.replace('}',"}\n")
+        body = requests.get(swimlanes, headers=headers)
+        data2 = body.text.replace('}',"}\n")
         print(data2)
-        print("\n")
-        data = ""
         # ------- SWIMLANES OF BOARD END -----------
 
     if sys.argv[1] == 'lists':
@@ -231,20 +225,11 @@ if arguments == 2:
         # ------- LISTS OF BOARD START -----------
         boardid = sys.argv[2]
         lists = wekanurl + apiboards + boardid + s + l
-        c = pycurl.Curl()
-        c.setopt(c.URL, lists)
-        c.setopt(c.WRITEDATA, buffer)
-        c.setopt(c.CAINFO, certifi.where())
-        c.setopt(c.HTTPHEADER, ['Accept: application/json', 'Authorization: Bearer {}'.format(apikey)])
-        c.perform()
-        c.close()
-        body = buffer.getvalue()
-        data = body.decode('iso-8859-1')
+        headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
         print("=== LISTS ===\n")
-        data2 = data.replace('}',"}\n")
+        body = requests.get(lists, headers=headers)
+        data2 = body.text.replace('}',"}\n")
         print(data2)
-        print("\n")
-        data = ""
         # ------- LISTS OF BOARD END -----------
 
 if arguments == 1:
@@ -252,29 +237,11 @@ if arguments == 1:
     if sys.argv[1] == 'users':
 
         # ------- LIST OF USERS START -----------
-        c = pycurl.Curl()
-        c.setopt(c.URL, users)
-        c.setopt(c.WRITEDATA, buffer)
-        c.setopt(c.CAINFO, certifi.where())
-        c.setopt(c.HTTPHEADER, ['Accept: application/json', 'Authorization: Bearer {}'.format(apikey)])
-        c.perform()
-        c.close()
-        body = buffer.getvalue()
-        data = body.decode('iso-8859-1')
+        headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
+        print(users)
         print("=== USERS ===\n")
-        data2 = data.replace('}',"}\n")
+        body = requests.get(users, headers=headers)
+        data2 = body.text.replace('}',"}\n")
         print(data2)
-        print("\n")
-        data = ""
         # ------- LIST OF USERS END -----------
-
-
-"""
-authorId: string
-members: string
-assignees: string
-title: string
-description: string
-swimlaneId: string
-"""
 ```
