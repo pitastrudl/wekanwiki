@@ -15,6 +15,8 @@ You can ask your identity provider (LDAP, SAML etc) do they support adding OAuth
 
 [Thanks to derhelge who figured out GitLab login](https://github.com/wekan/wekan/issues/3156).
 
+[GitLab login related debugging](https://github.com/wekan/wekan/issues/3321)
+
 These are the settings (snap installation):
 ```shell
 sudo snap set wekan oauth2-enabled='true'
