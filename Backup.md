@@ -1,3 +1,15 @@
+# Using nosqlbooster GUI with Wekan Snap to edit MongoDB database
+
+https://nosqlbooster.com/downloads
+
+### At server where Wekan Snap is installed, MongoDB is running at localhost port 27019
+
+<img src="https://wekan.github.io/nosqlbooster-basic-connection.png" width="60%" alt="Wekan logo" />
+
+### You can tunnel via SSH to server, using password auth or private key auth dropdown selection
+
+<img src="https://wekan.github.io/nosqlbooster-ssh-tunnel.png" width="60%" alt="Wekan logo" />
+
 # Scheduled backups to local or remote server
 
 For below scheduled backup scripts, no info from above of this wiki page is required. Backup scripts below have the required settings.
