@@ -105,6 +105,7 @@
 * [Caddy](https://github.com/wekan/wekan/wiki/Caddy-Webserver-Config)
 * [Nginx](https://github.com/wekan/wekan/wiki/Nginx-Webserver-Config)
 * [Apache](https://github.com/wekan/wekan/wiki/Apache)
+* [OpenLiteSpeed](https://github.com/wekan/wekan/issues/3334#issuecomment-723651328)
 * [Let's Encrypt and Google Auth](https://github.com/wekan/wekan/wiki/Let's-Encrypt-and-Google-Auth)
 * [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
 * [Traefik and self-signed SSL certs](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
