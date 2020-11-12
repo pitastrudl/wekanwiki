@@ -34,11 +34,11 @@ It has:
 - has Play Store Android apps and Linux apps that can work fullscreen
 - I did not try yet replacing Chrome OS with full Linux https://galliumos.org that has some drivers Chromebook needs, but according to their [hardware compatibility](https://wiki.galliumos.org/Hardware_Compatibility) this model has Known issues: internal audio, suspend/resume, when using galliumos.
 
-### 1) Install Linux Beta
+## 1) Install Linux Beta
 
 At Chromebook settings, install Linux Beta. It will have Debian 10, that will be changed to Ubuntu 20.04 64bit.
 
-### 2) Install Ubuntu Container
+## 2) Install Ubuntu Container
 
 [Source](http://intertwingly.net/blog/2020/07/21/Ubuntu-20-04-on-Chromebook)
 
@@ -59,7 +59,7 @@ Enter the new container (as root):
 ```
 lxc exec penguin -- bash
 ```
-### 3) Import public keys
+## 3) Import public keys
 
 While Ubuntu 20.04 will install, various apt commands will fail due to an inability to verify GPG keys. This problem is not unique to Crostini, it is seen in other environments, like Raspberry Pis.
 
@@ -68,7 +68,7 @@ The fix is to import two public keys:
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7638D0442B90D010
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 04EE7237B7D453EC
 ```
-### 4) Update groups
+## 4) Update groups
 ```
 groups ubuntu >update-groups
 sed -i 'y/ /,/; s/ubuntu,:,ubuntu,/sudo usermod -aG /; s/$/ \$USER/' update-groups
@@ -76,7 +76,7 @@ killall -u ubuntu
 userdel -r ubuntu # ignore warning about mail spool
 sed -i '/^ubuntu/d' /etc/sudoers.d/90-cloud-init-users
 ```
-### 5) Install Crostini packages
+## 5) Install Crostini packages
 
 Prepare for installing Google's Crostini specific packages. First bring Ubuntu up to date:
 ```
@@ -151,7 +151,7 @@ That being said, it is a full, no-compromise Ubuntu. I've developed and tested c
 
 The only glitch I do see is occasionally GUI applications don't receive keystrokes. This is generally fixed by switching focus to Chromebook application and then back again. Once the application is able to process keystrokes, it remains able to do so.
 
-### 9) Install Wekan
+## 9) Install Wekan
 
 At Ubuntu terminal:
 ```
