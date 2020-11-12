@@ -124,26 +124,6 @@ Reboot Chrome OS and start the Terminal application from the launcher. If it fai
 
 Rebooting is by clicking desktop right bottom clock / Power icon. After Chromebook has shutdown, short press laptop power button to start Chromebook.
 
-### 6) Edit the user and host names
-
-By default, Crostini will have created you a user with a name that matches your Google id. If you want something different, you can follow the instructions to Change Default Username, reproduced here:
-
-Exit the terminal, then launch the Chrome shell (crosh) once again by pressing CTRL+ALT+T, from there enter the default termina VM, and from there log in to the container as root:
-```
-vmc start termina
-lxc exec penguin -- bash
-```
-
-## 7) Exit
-
-Once you are complete, exit all three by pressing control-d, then entering
-```
-lxc stop penguin
-``` 
-Then press control-d two more times.
-
-Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chromebook has shutdown, short press laptop power button to start Chromebook.
-
 ### 8) Optional, if you install some Snap GUI apps
 
 These are from same [Source](http://intertwingly.net/blog/2020/07/21/Ubuntu-20-04-on-Chromebook)
