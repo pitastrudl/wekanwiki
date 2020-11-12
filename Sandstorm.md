@@ -17,6 +17,7 @@ Install to your own server. Automatic updates, tested before release. Sandstorm 
 - [Rescuing MongoDB data from Sandstorm Grain .zip file to Standalone Wekan](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
 **Does not work**
+- [Sandstorm open issues](https://github.com/wekan/wekan/issues?q=is%3Aissue+is%3Aopen+sandstorm+label%3ATargets%3ASandstorm)
 - Import from Trello does not import attachments, because Sandstorm-compatible HTTP-access from Wekan to outside of Wekan grain sandbox is not implemented yet 
 - [Copying/Moving card to another board](https://github.com/wekan/wekan/issues/1729).
 - [REST API](https://github.com/wekan/wekan/issues/1279) 
