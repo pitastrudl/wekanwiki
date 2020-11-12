@@ -151,7 +151,7 @@ That being said, it is a full, no-compromise Ubuntu. I've developed and tested c
 
 The only glitch I do see is occasionally GUI applications don't receive keystrokes. This is generally fixed by switching focus to Chromebook application and then back again. Once the application is able to process keystrokes, it remains able to do so.
 
-## 9) Install Wekan
+## 6) Install Wekan
 
 At Ubuntu terminal:
 ```
@@ -224,7 +224,7 @@ So then you can browse to http://wekan.example.com:2000 from Chromebook Ubuntu F
 
 For iOS and Android, you can [create app PWA icon this way](https://github.com/wekan/wekan/wiki/PWA).
 
-## 10) Optional: Change Linux desktop apps language and install Firefox
+## 7) Optional: Change Linux desktop apps language and install Firefox
 
 Here changing to Finnish:
 ```
@@ -244,7 +244,7 @@ sudo shutdown -h now
 ```
 Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chromebook has shutdown, short press laptop power button to start Chromebook.
 
-## 11) Optional: Install HP DeskJet 2600 multifunction printer/scanner
+## 8) Optional: Install HP DeskJet 2600 multifunction printer/scanner
 
 This inkjet printer was cheapest available, and does print excellent quality similar to laser color printer.
 
