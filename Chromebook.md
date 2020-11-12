@@ -36,7 +36,7 @@ It has:
 
 ## 1) Install Linux Beta
 
-At Chromebook settings, install Linux Beta. It will have Debian 10, that will be changed to Ubuntu 20.04 64bit.
+At Chromebook settings, install Linux Beta. It will have Debian 10, that will be changed to Ubuntu 20.10 64bit.
 
 ## 2) Install Ubuntu Container
 
@@ -53,7 +53,7 @@ lxc rm penguin
 ```
 Create a new Ubuntu container named penguin:
 ```
-lxc launch ubuntu:20.04 penguin
+lxc launch ubuntu:20.10 penguin
 ```
 Enter the new container (as root):
 ```
@@ -61,7 +61,7 @@ lxc exec penguin -- bash
 ```
 ## 3) Import public keys
 
-While Ubuntu 20.04 will install, various apt commands will fail due to an inability to verify GPG keys. This problem is not unique to Crostini, it is seen in other environments, like Raspberry Pis.
+While Ubuntu 20.10 will install, various apt commands will fail due to an inability to verify GPG keys. This problem is not unique to Crostini, it is seen in other environments, like Raspberry Pis.
 
 The fix is to import two public keys:
 ```
@@ -178,7 +178,7 @@ Look at your Chromebook wifi settings `(i)`, what is your laptop IP address, and
 sudo snap set wekan root-url='http://192.168.0.2:2000'
 sudo snap set wekan port='2000'
 ```
-At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` with nickname like for example `wekan`. This does forward Chromebook port to inside Ubuntu 20.04 64bit LXC container where Wekan is running.
+At Chromebook settings / Linux Beta / > / Port forwarding, forwart port `2000` with nickname like for example `wekan`. This does forward Chromebook port to inside Ubuntu 20.10 64bit LXC container where Wekan is running.
 
 NOTE: Sometimes reboot stops port forwarding, then it needs to be enabled again at Chromebook settings.
 
@@ -234,7 +234,7 @@ There add this language, and set is as default:
 ```
 fi_FI.UTF8
 ```
-And install Ubuntu 20.04 version Firefox and translation:
+And install Ubuntu 20.10 version Firefox and translation:
 ```
 sudo apt install firefox firefox-locale-fi
 ```
