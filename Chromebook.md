@@ -279,3 +279,7 @@ Set printer as Default.
 You are also able to Scan images from your multifunction printer with XSane, that was installed with HP printer drivers.
 
 You can print from Ubuntu Linux apps, like for example Firefox, LibreOffice, Inkscape, etc what you can install with apt.
+
+## 9) Optional: Gimp
+
+[Gimp PPA for Ubuntu 20.10 Groovy](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/gimp). Note: Other versions of Gimp do not have all  translations or do not create icons, like default Gimp from Ubuntu 20.10 repos and Snap.
