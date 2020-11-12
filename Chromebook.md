@@ -133,26 +133,8 @@ Exit the terminal, then launch the Chrome shell (crosh) once again by pressing C
 vmc start termina
 lxc exec penguin -- bash
 ```
-### 7) Change your Ubuntu username to Wekan
 
-Change below `markstoberg` to your Ubuntu username, that is usually your google username.
-If you get errors on below commands, like `process number 189 running on that username`
-then you can kill that process number, for example `kill -9 189` and try that command again.
-```
-killall --user markstosberg
-groupmod --new-name weka markstosberg
-usermod --move-home --home /home/wekan --login wekan markstosberg
-usermod --append --groups users wekan
-loginctl enable-linger wekan
-```
-
-### 8) Change Ubuntu container hostname
-
-For example:
-```
-hostnamectl set-hostname wekanserver
-```
-The container name (which you generally don't see) will remain penguin, but the host name (which is what you see in places like bash prompts) will be changed.
+## 7) Exit
 
 Once you are complete, exit all three by pressing control-d, then entering
 ```
@@ -162,9 +144,9 @@ Then press control-d two more times.
 
 Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chromebook has shutdown, short press laptop power button to start Chromebook.
 
-### 9) Optional, if you install some Snap GUI apps
+### 8) Optional, if you install some Snap GUI apps
 
-These at 9) are from same [Source](http://intertwingly.net/blog/2020/07/21/Ubuntu-20-04-on-Chromebook)
+These are from same [Source](http://intertwingly.net/blog/2020/07/21/Ubuntu-20-04-on-Chromebook)
 but xet7 did not test them.
 
 The fix is to copy the desktop and pixmap files to your .local environment:
@@ -189,7 +171,7 @@ That being said, it is a full, no-compromise Ubuntu. I've developed and tested c
 
 The only glitch I do see is occasionally GUI applications don't receive keystrokes. This is generally fixed by switching focus to Chromebook application and then back again. Once the application is able to process keystrokes, it remains able to do so.
 
-### 10) Install Wekan
+### 9) Install Wekan
 
 At Ubuntu terminal:
 ```
@@ -262,7 +244,7 @@ So then you can browse to http://wekan.example.com:2000 from Chromebook Ubuntu F
 
 For iOS and Android, you can [create app PWA icon this way](https://github.com/wekan/wekan/wiki/PWA).
 
-## 11) Optional: Change Linux desktop apps language and install Firefox
+## 10) Optional: Change Linux desktop apps language and install Firefox
 
 Here changing to Finnish:
 ```
@@ -282,7 +264,7 @@ sudo shutdown -h now
 ```
 Reboot Chromebook by clicking desktop right bottom clock / Power icon. After Chromebook has shutdown, short press laptop power button to start Chromebook.
 
-## 12) Optional: Install HP DeskJet 2600 multifunction printer/scanner
+## 11) Optional: Install HP DeskJet 2600 multifunction printer/scanner
 
 This inkjet printer was cheapest available, and does print excellent quality similar to laser color printer.
 
