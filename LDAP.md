@@ -52,6 +52,58 @@ sudo snap set wekan ldap-user-search-field='sAMAccountName'
 sudo snap set wekan ldap-username-field='sAMAccountName'
 sudo snap set wekan ldap-fullname-field='cn'
 ```
+
+### FreeIPA v4.6.6
+
+[Source](https://github.com/wekan/wekan/issues/3357)
+
+```bash
+snap set wekan ldap-enable='true'
+snap set wekan ldap-host='ldap.example.com'
+
+# Use 'tls' and port 389 for STARTTLS, which is more secure than standard LDAPS.
+snap set wekan ldap-port='389'
+snap set wekan ldap-encryption='tls'
+
+snap set wekan ldap-timeout='10000'
+snap set wekan ldap-idle-timeout='10000'
+snap set wekan ldap-connect-timeout='10000'
+snap set wekan ldap-authentication='true'
+snap set wekan ldap-authentication-userdn='uid=ldapuser,cn=users,cn=accounts,dc=example, dc=com'
+snap set wekan ldap-authentication-password='password'
+
+# This must be set to "false" for self-signed certificates to work - enable it
+# for better security if you are using a certificate verified by a commercial
+# Certificate Authority (like DigiCert, Let's Encrypt, etc.)
+snap set wekan ldap-reject-unauthorized='false'
+
+
+# This must be the plaintext certificate data, which you can get by running the
+# follwing command:
+#     cat ca.example.com.pem | tr -d '\n'
+# This removes the hidden newline characters, and allows you to copy it
+# straight from your terminal and past it into the snap set command.
+#
+# Pointing it to a file doesn't work - I tried.
+snap set wekan ldap-ca-cert='-----BEGIN CERTIFICATE-----[blahblahblah]-----END CERTIFICATE-----'
+
+snap set wekan ldap-log-enabled='true'
+snap set wekan ldap-basedn='dc=example,dc=com'
+snap set wekan ldap-background-sync='true'
+snap set wekan ldap-background-sync-keep-existant-users-updated='true'
+snap set wekan ldap-background-sync-import-new-users='true'
+snap set wekan ldap-background-sync-interval='Every 1 minute'
+snap set wekan ldap-merge-existing-users='true'
+snap set wekan ldap-user-search-field='uid'
+snap set wekan ldap-user-search-filter='(&(objectclass=person))'
+snap set wekan ldap-user-search-scope='sub'
+snap set wekan ldap-username-field='uid'
+snap set wekan ldap-fullname-field='displayName'
+snap set wekan ldap-email-field='mail'
+snap set wekan ldap-sync-user-data='true'
+snap set wekan ldap-sync-user-data-fieldmap='{"displayName":"name", "mail":"email", "initials":"initials"}'
+```
+
 ### OpenLDAP
 [Source](https://github.com/wekan/wekan/issues/2822#issuecomment-564451384)
 ```
