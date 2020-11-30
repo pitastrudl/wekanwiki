@@ -64,7 +64,7 @@ if arguments == 0:
 
 # ------- SETTINGS START -------------
 
-username = 'username@boards.example.com'
+username = 'username'
 
 password = 'topsecret'
 
