@@ -60,6 +60,11 @@ if arguments == 0:
     print("  python3 wekan.py lists BOARDID      # Lists of BOARDID")
     print("  python3 wekan.py createlist BOARDID LISTTITLE # Create list")
     print("  python3 wekan.py addcard AUTHORID BOARDID SWIMLANEID LISTID CARDTITLE CARDDESCRIPTION")
+    print("  python3 wekan.py listattachments BOARDID # List attachments")
+    print("  python3 wekan.py attachmentjson BOARDID ATTACHMENTID # One attachment as JSON")
+    print("  python3 wekan.py attachmentsjson BOARDID # All attachments as JSON")
+    print("  python3 wekan.py attachmentdownload BOARDID ATTACHMENTID # One attachment as file")
+    print("  python3 wekan.py attachmentsdownload BOARDID # All attachments as files")
     exit
 
 # ------- SETTINGS START -------------
@@ -87,7 +92,11 @@ Syntax:
   python3 wekan.py lists BOARDID      # Lists of BOARDID
   python3 wekan.py createlist BOARDID LISTTITLE # Create list
   python3 wekan.py addcard AUTHORID BOARDID SWIMLANEID LISTID CARDTITLE CARDDESCRIPTION
-
+  python3 wekan.py listattachments BOARDID # List attachments
+  python3 wekan.py attachmentjson BOARDID ATTACHMENTID # One attachment as JSON
+  python3 wekan.py attachmentsjson BOARDID # All attachments as JSON
+  python3 wekan.py attachmentdownload BOARDID ATTACHMENTID # One attachment as file
+  python3 wekan.py attachmentsdownload BOARDID # All attachments as files
 
 python3 wekan.py boards ppg7R38ykWb28BWDp
 
@@ -129,13 +138,18 @@ python3 wekan.py addcard ppg dYZ Jiv 7Kp 'Test card' 'Test description'
 loginurl = 'users/login'
 wekanloginurl = wekanurl + loginurl
 apiboards = 'api/boards/'
+apiattachments = 'api/attachments/'
 apiusers = 'api/users'
+e = 'export'
 s = '/'
 l = 'lists'
 sw = 'swimlane'
 sws = 'swimlanes'
 cs = 'cards'
 bs = 'boards'
+atl = 'attachmentslist'
+at = 'attachment'
+ats = 'attachments'
 users = wekanurl + apiusers
 
 # ------- API URL GERENARTION END -----------
@@ -222,13 +236,26 @@ if arguments == 2:
 
         # ------- LISTS OF BOARD START -----------
         boardid = sys.argv[2]
-        lists = wekanurl + apiboards + boardid + s + l
+        attachments = wekanurl + apiboards + boardid
         headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
         print("=== LISTS ===\n")
         body = requests.get(lists, headers=headers)
         data2 = body.text.replace('}',"}\n")
         print(data2)
         # ------- LISTS OF BOARD END -----------
+
+    if sys.argv[1] == 'listattachments':
+
+        # ------- LISTS OF ATTACHMENTS START -----------
+        boardid = sys.argv[2]
+        listattachments = wekanurl + apiboards + boardid + s + ats
+        print(listattachments)
+        headers = {'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(apikey)}
+        print("=== LIST OF ATTACHMENTS ===\n")
+        body = requests.get(listattachments, headers=headers)
+        data2 = body.text.replace('}',"}\n")
+        print(data2)
+        # ------- LISTS OF ATTACHMENTS END -----------
 
 if arguments == 1:
 
