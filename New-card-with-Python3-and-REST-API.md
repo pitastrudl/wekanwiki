@@ -28,7 +28,7 @@ Below code works now, fixed at 2020-10-29.
 
 Change these:
 - wekanurl: https://boards.example.com => Your Wekan URL
-- username
+- username (could be username or username@example.com if OIDC/OAuth2 etc login)
 - password
 
 ```
@@ -64,7 +64,7 @@ if arguments == 0:
 
 # ------- SETTINGS START -------------
 
-username = 'username'
+username = 'username' (or username@example.com if OIDC/OAuth2 etc login)
 
 password = 'topsecret'
 
