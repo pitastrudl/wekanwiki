@@ -15,15 +15,15 @@ If you have existing password account, and would like to switch to Google auth a
 
 In your wekan config, you have to set the following information in snap:
 ```
-snap set wekan oauth2-enabled='true'
-snap set wekan oauth2-client-id='CLIENT_ID'
-snap set wekan oauth2-secret='CLIENT_SECRET'
-snap set wekan oauth2-auth-endpoint='https://accounts.google.com/o/oauth2/v2/auth'
-snap set wekan oauth2-token-endpoint='https://oauth2.googleapis.com/token'
-snap set wekan oauth2-userinfo-endpoint='https://openidconnect.googleapis.com/v1/userinfo'
-snap set wekan oauth2-id-map='sub'
-snap set wekan oauth2-email-map='email'
-snap set wekan oauth2-username-map='email'
-snap set wekan oauth2-fullname-map='name'
-snap set wekan oauth2-request-permissions='openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email'
+sudo snap set wekan oauth2-enabled='true'
+sudo snap set wekan oauth2-client-id='CLIENT_ID'
+sudo snap set wekan oauth2-secret='CLIENT_SECRET'
+sudo snap set wekan oauth2-auth-endpoint='https://accounts.google.com/o/oauth2/v2/auth'
+sudo snap set wekan oauth2-token-endpoint='https://oauth2.googleapis.com/token'
+sudo snap set wekan oauth2-userinfo-endpoint='https://openidconnect.googleapis.com/v1/userinfo'
+sudo snap set wekan oauth2-id-map='sub'
+sudo snap set wekan oauth2-email-map='email'
+sudo snap set wekan oauth2-username-map='email'
+sudo snap set wekan oauth2-fullname-map='name'
+sudo snap set wekan oauth2-request-permissions='openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email'
 ```
