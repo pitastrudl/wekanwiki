@@ -92,6 +92,8 @@ C:\ProgramData\MongoDB\data\db
 
 ## b) [Docker](https://github.com/wekan/wekan/wiki/Docker)
 
+[Repair Docker](https://github.com/wekan/wekan/wiki/Repair-Docker)
+
 If you don't need to build Wekan, use prebuilt container with docker-compose.yml from https://github.com/wekan/wekan like this:
 ```
 docker-compose up -d
