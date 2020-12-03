@@ -34,6 +34,7 @@
 * [Using Meteor MongoDB to repair files](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 * [Repair MongoDB](https://github.com/wekan/wekan-mongodb/issues/6#issuecomment-424004116)
 * [If board does not open and keeps loading](https://github.com/wekan/wekan/wiki/If-board-does-not-open-and-keeps-loading)
+* [Repair Docker](https://github.com/wekan/wekan/wiki/Repair-Docker)
 
 # <a name="Themes"></a> Themes
 
