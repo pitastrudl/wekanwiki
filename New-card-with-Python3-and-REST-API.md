@@ -22,7 +22,7 @@ chmod +x wekan.py
 ./wekan.py
 ```
 
-# wekan.py creating new card with Python3 and REST API
+# api.py creating new card with Python3 and REST API
 
 Below code works now, fixed at 2020-10-29.
 
