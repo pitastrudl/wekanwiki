@@ -11,11 +11,11 @@ Docker data is usually at `/var/lib/docker` or `/var/snap/docker/common/` (in Sn
 - Or add path to somewhere where mongod service has write access, like `--logpath=/var/lib/docker/mongodb.log` or `--logpath=/var/snap/docker/common/mongodb.log`.
 - If you remove `--quiet`, you get even more verbose logs.
 
-## 2) Errors of Wekan connecting to MongoDB ?
+## 3) Errors of Wekan connecting to MongoDB ?
 
 Probably did upgrade your kernel. Please reboot.
 
-## 3) Errors about too new or old version of MongoDB ?
+## 4) Errors about too new or old version of MongoDB ?
 
 Check your docker-compose.yml . Did newer Wekan with newest docker-compose.yml from https://github.com/wekan/wekan have different version of MongoDB? If yes, you should change to that old version. For example:
 ```
@@ -29,13 +29,13 @@ Or alternatively:
 ```
 docker-compose up -d
 ```
-## 4) MongoDB corruption?
+## 5) MongoDB corruption?
 
 a) [Repair MongoDB](https://github.com/wekan/wekan-mongodb/issues/6#issuecomment-424004116)
 
 b) [Using Meteor MongoDB to repair files](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
-## 5) Trying to upgrade Wekan?
+## 6) Trying to upgrade Wekan?
 
 ### 1) [Backup](https://github.com/wekan/wekan/wiki/Backup)
 
