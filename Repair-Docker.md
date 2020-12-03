@@ -29,7 +29,13 @@ Or alternatively:
 ```
 docker-compose up -d
 ```
-## 4) Trying to upgrade Wekan?
+## 4) MongoDB corruption?
+
+a) [Repair MongoDB](https://github.com/wekan/wekan-mongodb/issues/6#issuecomment-424004116)
+
+b) [Using Meteor MongoDB to repair files](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
+
+## 5) Trying to upgrade Wekan?
 
 ### 1) [Backup](https://github.com/wekan/wekan/wiki/Backup)
 
