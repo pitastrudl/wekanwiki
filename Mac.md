@@ -23,6 +23,7 @@ export MONGO_URL='mongodb://127.0.0.1:27017/wekan'
 
 ## Docker
 
+- [Repair Docker](https://github.com/wekan/wekan/wiki/Repair-Docker)
 - [Docker](https://github.com/wekan/wekan/wiki/Docker)
 - [Docker Dev Environment](https://github.com/wekan/wekan-dev)
 
