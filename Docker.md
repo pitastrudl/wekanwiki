@@ -1,3 +1,7 @@
+## Repair Docker
+
+[Repair Docker](https://github.com/wekan/wekan/wiki/Repair-Docker)
+
 ## Using only Docker commands
 
 [![Docker Repository on Quay](https://quay.io/repository/wekan/wekan/status "Docker Repository on Quay")](https://quay.io/repository/wekan/wekan)
