@@ -20,7 +20,7 @@ For example, how to get some [mermaid plugin](https://www.npmjs.com/search?q=mar
 
 ## How you could add another plugin
 
-Using Ubuntu 20.04 64bit:
+Using Ubuntu 20.10 64bit:
 
 ### 1. Install git and configure it
 ```
