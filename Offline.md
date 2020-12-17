@@ -1,4 +1,4 @@
-## a) Windows version offline
+## a) Wekan Windows version offline
 
 1. Download wekan-VERSION.zip from https://releases.wekan.team
 
@@ -30,7 +30,7 @@ Then Wekan will be at http://192.168.0.100:2000/sign-in
 
 9. Double click `start-wekan.bat` to run it. (It may need right click, Run as Administrator).
 
-## b) How to install Wekan to VirtualBox and copy to offline computer
+## b) Wekan to VirtualBox Ubuntu offline
 
 1. Install [VirtualBox](https://www.virtualbox.org/)
 
