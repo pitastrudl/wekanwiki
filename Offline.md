@@ -1,8 +1,8 @@
 ## How to install Wekan to VirtualBox and copy to offline computer
 
-1. Install VirtualBox
+1. Install [VirtualBox](https://www.virtualbox.org/)
 
-2. Install Ubuntu 20.10 to VirtualBox
+2. Install [Ubuntu 20.10 64bit](https://ubuntu.com) to VirtualBox
 
 3. Install Wekan [Snap](https://github.com/wekan/wekan-snap/wiki/Install) version to Ubuntu with these commands:
 ```
