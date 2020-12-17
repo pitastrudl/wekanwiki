@@ -1,3 +1,5 @@
+[Offline](https://github.com/wekan/wekan/wiki/Offline)
+
 ## a) Bundle with Windows Node+MongoDB
 
 This has **highest performance and lowest RAM usage**, because there is no virtualization like Docker, Windows Subsystem for Linux, etc. Wekan is run with Windows native version of Node.js and MongoDB, directly at Windows filesystem.
