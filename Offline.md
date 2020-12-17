@@ -2,7 +2,7 @@
 
 1. Download wekan-VERSION.zip from https://releases.wekan.team
 
-2. Download node.exe for [Windows 64bit](https://nodejs.org/dist/v12.20.0/win-x64/) or [Windows 32bit](https://nodejs.org/dist/v12.20.0/win-x86/)
+2. Download node.exe for [Windows 64bit](https://nodejs.org/dist/v12.20.0/win-x64/) (I did not test [Windows 32bit](https://nodejs.org/dist/v12.20.0/win-x86/))
 
 3. Download Windows MongoDB .msi installer from https://www.mongodb.com/try/download/community
 
