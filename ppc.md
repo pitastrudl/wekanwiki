@@ -6,6 +6,13 @@
 [xet7](https://github.com/xet7), as maintainer of [Wekan](https://wekan.github.io), got access to ppc64le at
 at University of Campinas - Unicamp Minicloud. Unicamp is member of [OpenPOWER Foundation](https://openpowerfoundation.org). At Minicloud OpenStack, xet7 created Ubuntu 20.10 VM, and at 2020-12-22 ported Wekan to ppc64le very similarly like previously for [s390x](https://github.com/wekan/wekan/wiki/s390x).
 
+## About MongoDB for OpenPower
+
+- Official MongoDB binaries for OpenPower are available as MongoDB Enterprise subscription.
+- There is no Community version of MongoDB binaries for OpenPower available, like there is for other CPUs like x64/arm64/s390x.
+- xet7 did not yet get MongoDB successfully built from source for OpenPower.
+- There are some unofficial MongoDB Docker images by random people, but they could be old versions of MongoDB, and there is no guarantee they don't have any malicious code.
+
 ## Download
 
 - wekan-VERSION-ppc64le.zip at https://releases.wekan.team/ppc64le/
