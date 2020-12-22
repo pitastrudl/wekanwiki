@@ -15,7 +15,7 @@ Other options:
 - There is no Community version of MongoDB binaries for OpenPower available, like there is for other CPUs like x64/arm64/s390x.
 - xet7 did not yet get MongoDB successfully built from source for OpenPower.
 - There are some unofficial MongoDB Docker images by random people, but they could be old versions of MongoDB, and there is no guarantee they don't have any malicious code.
-- If sometime in the future some working database binaries become available, link to them will be added here.
+- If sometime in the future some working database binaries become available, link to them will be added here. Or alternatively, if sometime in future support for other databases is added to Wekan, although it could be a lot of work.
 
 ## Download
 
