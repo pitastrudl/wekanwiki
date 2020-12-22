@@ -8,10 +8,14 @@ at University of Campinas - Unicamp Minicloud. Unicamp is member of [OpenPOWER F
 
 ## About MongoDB for OpenPower
 
+Working:
 - Official MongoDB binaries for OpenPower are available as part of MongoDB Enterprise subscription.
+
+Other options:
 - There is no Community version of MongoDB binaries for OpenPower available, like there is for other CPUs like x64/arm64/s390x.
 - xet7 did not yet get MongoDB successfully built from source for OpenPower.
 - There are some unofficial MongoDB Docker images by random people, but they could be old versions of MongoDB, and there is no guarantee they don't have any malicious code.
+- If sometime in the future some working database binaries become available, link to them will be added here.
 
 ## Download
 
