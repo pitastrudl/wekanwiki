@@ -16,7 +16,7 @@ Other options:
 - xet7 did not yet get MongoDB successfully built from source for OpenPower.
 - There are some unofficial MongoDB Docker images by random people, but they could be old versions of MongoDB, and there is no guarantee they don't have any malicious code.
 - If sometime in the future some working database binaries become available, link to them will be added here.
-- If sometime in future support for other databases is added to Wekan, info about it could be added here, although adding support for other databases could be a lot of work.
+- If sometime in the future support for other databases is added to Wekan, info about it could be added here, although adding support for other databases could be a lot of work.
 
 ## Download
 
