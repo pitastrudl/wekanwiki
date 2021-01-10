@@ -3,7 +3,6 @@
 # <a name="General"></a>General
 
 * [About](https://github.com/wekan/wekan/wiki)
-* [No UI major redesign](https://github.com/wekan/wekan/issues/2939)
 * [Test Edge](https://github.com/wekan/wekan/wiki/Test-Edge)
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
 * [IRC FAQ](https://github.com/wekan/wekan/wiki/IRC-FAQ) - answers to questions asked at IRC
