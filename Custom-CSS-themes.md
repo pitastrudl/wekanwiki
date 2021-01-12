@@ -1,3 +1,23 @@
+Here is how to build wekan code and add your new theme with code changes and send as pull request:
+https://github.com/wekan/wekan/wiki/Emoji#how-you-could-add-another-plugin
+
+Here is how some have sent previous themes to Wekan, what code changes they made:
+https://github.com/wekan/wekan/pulls?q=is%3Apr+is%3Aclosed+theme
+
+After you have sent new theme as pull request, you see it as open pull request:
+https://github.com/wekan/wekan/pulls?q=is%3Apr+theme+is%3Aopen
+
+And when I have merged it to Wekan, that theme will be in next Wekan release, listed at ChangeLog:
+https://github.com/wekan/wekan/blob/master/CHANGELOG.md
+
+At Wekan Snap page you see with webpage reload, when new version has been released:
+https://snapcraft.io/wekan
+
+Wekan Snap version gets updates automatically soon after new Wekan version has been released, or you can update manually immediately:
+https://github.com/wekan/wekan-snap/wiki/Automatic-update-schedule
+
+***
+
 Also see: [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
 
 All Wekan themes are directly integrated to Wekan. You can add pull request to master branch to add custom theme, you can see from [from this commit](https://github.com/wekan/wekan/commit/34b2168d0dda253dedabbee47031873efa4ae446) required new color/theme name and changes to these files 3 files listed below. In that commit is also changes to other files, you don't need to change those files.
