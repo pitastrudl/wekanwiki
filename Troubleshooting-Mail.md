@@ -6,10 +6,24 @@ and copy converted characters to your password.
 
 ## Example: AWS SES
 
+NOTE: At AWS SES settings, you don't need to convert special characters.
+
+With these, also set same settings at click your right top username / Admin Panel / Email, with TLS support enabled:
 ```
 sudo snap set wekan mail-url='smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587'
 sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
 ```
+### If you get SSLv3 protocol error
+
+Do instead this `smtp://` and ignoreTLS etc, and at click your right top username / Admin Panel / Email, with TLS support NOT enabled:
+```
+sudo snap set wekan mail-url='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false'
+sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+```
+### If you use some other snap like wekan-gantt-gpl
+
+Change part `sudo snap set wekan` to `sudo snap set wekan-gantt-gpl`
+
 ## Example: UCS
 
 ### In admin panel (within admin account on Wekan app itself)
