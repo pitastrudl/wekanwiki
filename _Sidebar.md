@@ -13,6 +13,12 @@
 * [NOT related to Wekan](https://github.com/wekan/wekan/wiki/NOT-related-to-Wekan)
 * [Wekan vs Trello vs Restyaboard](Wekan-vs-Trello-vs-Restyaboard)
 
+# <a name="Migrating"></a>Migrating
+
+* [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
+* [From Jira](https://github.com/wekan/wekan/wiki/Jira)
+* [From old Wekan manually](https://github.com/wekan/wekan/wiki/Migrating-from-old-Wekan-manually)
+
 # <a name="Support"></a>Support priorities for new features and bugfixes
 
 1) [Commercial Support](https://wekan.team/commercial-support/)
@@ -86,11 +92,6 @@
 
 * [Logs](https://github.com/wekan/wekan/wiki/Logs)
 * [Stats](https://github.com/wekan/wekan/wiki/Features#stats)
-
-# <a name="Migrating"></a>Migrating
-
-* [From Trello](https://github.com/wekan/wekan/wiki/Migrating-from-Trello)
-* [From old Wekan manually](https://github.com/wekan/wekan/wiki/Migrating-from-old-Wekan-manually)
 
 # <a name="Settings"></a>Required Settings
 
