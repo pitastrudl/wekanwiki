@@ -160,7 +160,7 @@ docker ps -a | grep 'wekan-db' &> /dev/null
 if [ $? = 0 ]; then
   docker exec -t wekan-db bash -c "rm -fr /dump ; mkdir /dump ; mongodump -o /dump/"
   docker cp wekan-db:/dump $SCRIPTPATH/backups/$DATE
-  tar -zc -f backups/$DATE.tgz -C $SCRIPTPATH/backups/$DATE wekan
+  tar -zc -f backups/$DATE.tgz -C $SCRIPTPATH/backups/$DATE/dump wekan
   if [ -f backups/$DATE.tgz ]; then
     rm -fr backups/$DATE
     find $SCRIPTPATH/backups/ -name "*.tgz" -mtime +7 -delete
@@ -181,12 +181,13 @@ if [ $# -eq 0 ]
 fi
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
-DATE=$(date +%Y-%m-%d-%H-%M)
+DATE=$(basename $1 .tgz)
 
 docker ps -a | grep 'wekan-db' &> /dev/null
 if [ $? = 0 ]; then
 
   if [ -f $1 ]; then
+    docker stop wekan-app
     mkdir -p $SCRIPTPATH/backups/$DATE-restore
     tar -zx -f $1 -C $SCRIPTPATH/backups/$DATE-restore
     docker exec -t wekan-db bash -c "rm -fr /restore ; mkdir /restore"
@@ -194,6 +195,7 @@ if [ $? = 0 ]; then
     ## Only if you get errors about existing indexes, use this instead:
     ## docker exec -t wekan-db bash -c "mongorestore --drop --noIndexRestore --db wekan /restore/wekan/"
     docker exec -t wekan-db bash -c "mongorestore --drop --db wekan /restore/wekan/"
+    docker start wekan-app
   fi
 else
   echo "wekan-db container is not running"
