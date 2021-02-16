@@ -4,6 +4,14 @@ We follow the [meteor style guide](https://guide.meteor.com/code-style.html#java
 
 Please read the meteor style guide before making any significant contribution.
 
+# Stories about how Wekan works, and developing Wekan
+
+- [Mobile Web interface](https://github.com/wekan/wekan/issues/3566#issuecomment-778700604)
+- [How to add RTL support](https://github.com/wekan/wekan/issues/3376#issuecomment-766092425)
+- [How to code Part 1](https://blog.wekan.team/2019/04/howto-code-part-1-learning-to-learn/)
+- [First time Wekan contributor easily figures out Wekan and develops big features](https://blog.wekan.team/2018/05/wekan-v1-00-released/)
+- [Benefits of contributing your features to upstream Wekan](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/)
+
 # Tips for new developers
 
 ## Finding code
