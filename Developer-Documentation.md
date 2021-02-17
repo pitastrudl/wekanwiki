@@ -11,8 +11,19 @@ Please read the meteor style guide before making any significant contribution.
 - [How to code Part 1](https://blog.wekan.team/2019/04/howto-code-part-1-learning-to-learn/)
 - [First time Wekan contributor easily figures out Wekan and develops big features](https://blog.wekan.team/2018/05/wekan-v1-00-released/)
 - [Benefits of contributing your features to upstream Wekan](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/)
+- [Excellent example how pull requests are improved and integrated, and not needed commits removed](https://github.com/wekan/wekan/pull/1470)
 
-# Tips for new developers
+## Building code bundle
+
+- [Building code and submitting pull request](https://github.com/wekan/wekan/wiki/emoji#how-you-could-add-another-plugin)
+- When you start `meteor` command, it watches for changes to files in wekan directory and subdirectories, and if it detects changed code, it starts rebuilding bundle and then reloads webbrowser after that automatically
+- Also look at meteor changelog mentioned new feature `hot reload` how that could make reloading faster
+
+## VSCode / VSCodium
+
+- I use [VSCodium](https://vscodium.com) that has MS tracking code removed
+- Plugin Prettier for right click format javascript code with prettier
+- There could be other plugins for Meteor, Jade, Stylus, Dockerfile, etc
 
 ## Finding code
 
@@ -25,14 +36,7 @@ When you run this, you see .jade template files where is search input box, and .
 
 ## Getting Started
 
-- Currently Wekan development is done mainly at Ubuntu 16.04 64bit, but building Wekan does work on any Debian 9 64bit or Ubuntu 14.04 64bit or newer.
-- Install [Wekan from source](https://github.com/wekan/wekan) with rebuild-wekan.sh script, with options 1 to install dependencies and 2 to rebuild source, to your Linux computer (Debian 9 or Ubuntu 14.04 or newer), or try installing it via the [[virtual appliance|virtual-appliance]]
-- You can use for example [Visual Studio Code](https://code.visualstudio.com/) for editing code, it has Meteor.js etc plugins 
-- When changing database schema, [migrations can be used](https://github.com/wekan/wekan/blob/master/server/migrations.js).
-- [Excellent example how pull requests are improved and integrated, and not needed commits removed](https://github.com/wekan/wekan/pull/1470)
-- Ask questions at [![Wekan chat][vanila_badge]][vanila_chat]
-  -  We used to be at ~~[Rocket.Chat][rocket_chat]~~ but that's been discontinued.
-- You can ask anything, we are here to help. But also consult the sources that are already available.
+- Currently Wekan development is done mainly at Ubuntu 20.10 64bit, but building Wekan does work on any Debian, Ubuntu, WSL Ubuntu 20.04, [Mac](https://github.com/wekan/wekan/wiki/Mac). Sametime maybe on [Windows](https://github.com/wekan/wekan/wiki/Windows) with `choco install -y meteor` and installing packages it then asks for with `meteor add ...` or `meteor npm install --save ...` and then running meteor again.
   - Look through old [pull requests](https://github.com/wekan/wekan/pulls)
   - Read Wekan source code, you can use some git history viewer GUI like gitk
   - Read [Meteor documentation](https://docs.meteor.com/) for [Meteor version](https://github.com/wekan/wekan/blob/master/.meteor/release) in use, other versions mentioned at [Dockerfile](https://github.com/wekan/wekan/blob/master/Dockerfile)
