@@ -1,3 +1,35 @@
+## Enable more Wekan debug logs:
+
+a) Snap: `sudo snap set wekan debug='true'` - but also notice that [in Wekan v4.56 newer most mongo logs go to `/dev/null` on Snap](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v456-2020-11-30-wekan-release)
+
+b) docker-compose.yml: `DEBUG=true`
+
+c) start-wekan.sh: `DEBUG=true`
+
+d) [MongoDB logs docs](https://docs.mongodb.com/manual/reference/log-messages/)
+
+e) Logging all MongoDB queries, info [from StackOverflow](https://stackoverflow.com/questions/15204341/mongodb-logging-all-queries) below:
+```
+$ mongo
+MongoDB shell version: 2.4.9
+connecting to: test
+> use myDb
+switched to db myDb
+> db.getProfilingLevel()
+0
+> db.setProfilingLevel(2)
+{ "was" : 0, "slowms" : 1, "ok" : 1 }
+> db.getProfilingLevel()
+2
+> db.system.profile.find().pretty()
+```
+Source: http://docs.mongodb.org/manual/reference/method/db.setProfilingLevel/
+```
+db.setProfilingLevel(2) means "log all operations".
+```
+
+## Wekan logs could be at syslog
+
 Logs are at /var/log/syslog , like with:
 ```
 sudo tail -f 1000 /var/log/syslog | less
