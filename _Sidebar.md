@@ -51,7 +51,7 @@
 * [Features](https://github.com/wekan/wekan/wiki/Features)
 * [Accounts Lockout: Brute force login protection](https://github.com/wekan/wekan/wiki/Accounts-Lockout)
 * [Custom Logo](https://github.com/wekan/wekan/wiki/Custom-Logo)
-* [Gantt Chart](https://github.com/wekan/wekan/issues/2870#issuecomment-695041746)
+* [Gantt Chart](https://github.com/wekan/wekan/wiki/Gantt)
 * [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
 * [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
 * [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text) syntax
