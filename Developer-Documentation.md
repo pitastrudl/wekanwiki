@@ -13,7 +13,7 @@ Please read the meteor style guide before making any significant contribution.
 - [Benefits of contributing your features to upstream Wekan](https://blog.wekan.team/2018/02/benefits-of-contributing-your-features-to-upstream-wekan/)
 - [Excellent example how pull requests are improved and integrated, and not needed commits removed](https://github.com/wekan/wekan/pull/1470)
 
-## Building code bundle
+## Building code and submitting pull request
 
 - [Building code and submitting pull request](https://github.com/wekan/wekan/wiki/emoji#how-you-could-add-another-plugin)
 - When you start `meteor` command, it watches for changes to files in wekan directory and subdirectories, and if it detects changed code, it starts rebuilding bundle and then reloads webbrowser after that automatically
