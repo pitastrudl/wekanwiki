@@ -50,17 +50,7 @@ When you run this, you see .jade template files where is search input box, and .
 - If you have fix to some existing pull request, add your fix as comment. Do not post new pull request.
 - For new features add new pull request, if there is none already.
 - remove all console.log statements
-- [Fix all lint errors and warnings](https://github.com/wekan/wekan/wiki/Developer-Documentation#preventing-travis-ci-lint-errors-before-submitting-pull-requests)
-- [Add Snap settings to code](https://github.com/wekan/wekan/wiki/Adding-new-Snap-settings-to-code) so that feature is default disabled, and can be enabled with Snap commands
-- [Add Snap settings to wiki](https://github.com/wekan/wekan-snap/wiki/Supported-settings-keys)
-- Add settings also to [Dockerfile](https://github.com/wekan/wekan/blob/edge/Dockerfile)
-- [Make your pull request to edge branch](https://github.com/wekan/wekan/wiki/Developer-Documentation#pull-request-workflow-please-read-before-submitting-prs).
-- Use the [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) workflow.
-  - create a PR from your feature-branch to `wekan/edge` directly so that you can continue your work without interruption.
-- Keep your local forks updated with this repo by setting your `git upstream` value as described [here](https://robots.thoughtbot.com/keeping-a-github-fork-updated).
-  - before submitting a PR make sure you `rebase` your local branch as described [here](http://push.cwcon.org/learn/stay-updated#on_your_computer_routine_tasks)
-  - If you accidentally mess around on your `edge` branch, follow these steps [here](http://push.cwcon.org/learn/stay-updated#oops_i_was_messing_around_on_) to clean it up. Note: currently there is only master branch, not devel or edge branches.
-  - [Here is how to remove commits from pull request](https://stackoverflow.com/questions/36168839/how-to-remove-commits-from-pull-request)
+- [Here is how to remove commits from pull request](https://stackoverflow.com/questions/36168839/how-to-remove-commits-from-pull-request)
 
 ## Preventing Travis CI lint errors before submitting pull requests
 
