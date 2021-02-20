@@ -581,7 +581,7 @@ Download Wekan grain with arrow down download button to .zip file. You can resto
 
 ## <a name="cloudron">Cloudron
 
-If those [Backup](https://github.com/wekan/wekan/wiki/Backup) ways are not easily found at Cloudron, one way is to install [Redash](https://redash.io/) and then backup this way:
+If those [Backup](https://github.com/wekan/wekan/wiki/Backup) ways are not easily found at [Cloudron](https://github.com/wekan/wekan/wiki/Cloudron), one way is to install [Redash](https://redash.io/) and then backup this way:
 
 Redash works with this kind of queries:
 ```
