@@ -4,6 +4,8 @@ In [Wekan v5.02](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v502-20
 - There is no email settings at Admin Panel anymore.
 - Email settings are made only with snap commands like `sudo snap set wekan mail-url....` or similar in Docker/Source etc `MAIL_URL=...`, more details below.
 - Also see [if you get SSLv3 error](#if-you-get-sslv3-protocol-error)
+- Also search this page for STARTTLS, for solutions related to STARTTLS
+
 
 ## Special Characters
 
