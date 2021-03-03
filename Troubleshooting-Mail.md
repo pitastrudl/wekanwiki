@@ -15,13 +15,17 @@ and copy converted characters to your password.
 
 ## Example: Microsoft Office 365
 
-NOTE: With these settings, you probably don't need to convert special characters.
-
 ```
 sudo snap set wekan mail-url='smtp://user:password@smtp.office365.com:587?ignoreTLS=false&tls={rejectUnauthorized:false}&secure=true'
 sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
 ```
 
+Converting special characters:
+```
+sudo snap set wekan mail-url='smtp://support%40example.com:password@mail.example.com:587/?ignoreTLS=true&tls={rejectUnauthorized:false}&secure=false'
+
+sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+```
 ## Example: AWS SES
 
 NOTE: At AWS SES settings, you don't need to convert special characters.
