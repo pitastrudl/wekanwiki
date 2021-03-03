@@ -13,6 +13,15 @@ In [Wekan v5.02](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v502-20
 You can convert special characters of your password at https://www.url-encode-decode.com
 and copy converted characters to your password.
 
+## Example: Microsoft Office 365
+
+NOTE: With these settings, you probably don't need to convert special characters.
+
+```
+sudo snap set wekan mail-url='smtp://user:password@smtp.office365.com:587?ignoreTLS=false&tls={rejectUnauthorized:false}&secure=true'
+sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+```
+
 ## Example: AWS SES
 
 NOTE: At AWS SES settings, you don't need to convert special characters.
@@ -22,6 +31,7 @@ With these, also set same settings at click your right top username / Admin Pane
 sudo snap set wekan mail-url='smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587'
 sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
 ```
+
 ### If you get SSLv3 protocol error
 
 Do instead this `smtp://` and ignoreTLS etc, and at click your right top username / Admin Panel / Email, with TLS support NOT enabled:
