@@ -30,6 +30,8 @@ Then Wekan will be at http://192.168.0.100:2000/sign-in
 
 9. Double click `start-wekan.bat` to run it. (It may need right click, Run as Administrator).
 
+10. For mobile devices, you can [create PWA app icon](https://github.com/wekan/wekan/wiki/PWA) using that http://192.168.0.100:2000/sign-in
+
 ## b) Wekan to VirtualBox Ubuntu offline
 
 1. Install [VirtualBox](https://www.virtualbox.org/)
