@@ -1,6 +1,8 @@
 ## Newest Wekan
 
-In [Wekan v5.02](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v502-2021-03-02-wekan-release) is fix for STMP settings [that works with very happy feedback](https://github.com/wekan/wekan/issues/3529#issuecomment-789085999). It requires that settings are made only with snap commands like `sudo snap set wekan mail-url....` or similar in Docker/Source etc `MAIL_URL=...`, more details below.
+In [Wekan v5.02](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v502-2021-03-02-wekan-release) is fix for STMP settings [that works with very happy feedback](https://github.com/wekan/wekan/issues/3529#issuecomment-789085999). It requires:
+- There is no email settings at Admin Panel anymore.
+- Email settings are made only with snap commands like `sudo snap set wekan mail-url....` or similar in Docker/Source etc `MAIL_URL=...`, more details below.
 
 Email settings are only with
 
