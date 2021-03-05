@@ -27,7 +27,7 @@ You should always check what distro, node etc version it has, before downloading
 
 ## Raspberry Pi OS arm64 with MongoDB 4.2.x
 
-- At [RasPi4 8GB RAM announcement](https://www.raspberrypi.org/blog/8gb-raspberry-pi-4-on-sale-now-at-75/) xet7 found [forum post about test version of Raspberry Pi OS 64bit image](https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=275370) for RasPi3 and RasPi4. Maybe later it will be added to official download page. xet7 did not notice any problems yet with Raspberry Pi OS arm64. [Info why it's not called Raspbian arm64](https://www.tomshardware.com/news/raspberry-pi-os-no-longer-raspbian).
+- At [RasPi4 8GB RAM announcement](https://www.raspberrypi.org/blog/8gb-raspberry-pi-4-on-sale-now-at-75/) xet7 found [Raspberry Pi OS 64bit image](https://downloads.raspberrypi.org/raspios_arm64/images/) for RasPi3 and RasPi4.. xet7 did not notice any problems yet with Raspberry Pi OS arm64. [Info why it's not called Raspbian arm64](https://www.tomshardware.com/news/raspberry-pi-os-no-longer-raspbian).
 - There is [MongoDB Server Community Edition webpage](https://www.mongodb.com/download-center/community) that has Ubuntu 18.04 Linux arm64 server .deb package of MongoDB 4.2.x that works with Raspberry OS 64bit.
 - You see what is newest Node.js 12.x version from [Nodejs.org](https://nodejs.org/en/).
 
