@@ -36,6 +36,13 @@ sudo snap set wekan mail-url='smtps://username:password@email-smtp.eu-west-1.ama
 sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
 ```
 
+### Gmail
+```
+sudo snap set wekan mail-url='smtps://username@domain.com:password@smtp.gmail.com:465'
+sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+```
+Convert password via this service https://www.url-encode-decode.com and everything will work.
+
 ### If you get SSLv3 protocol error
 
 Do instead this `smtp://` and ignoreTLS etc, and at click your right top username / Admin Panel / Email, with TLS support NOT enabled:
