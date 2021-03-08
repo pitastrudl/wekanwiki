@@ -36,7 +36,8 @@ sudo snap set wekan mail-url='smtps://username:password@email-smtp.eu-west-1.ama
 sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
 ```
 
-### Gmail
+## Example: Gmail
+[Source](https://github.com/wekan/wekan/issues/3529#issuecomment-792724239)
 ```
 sudo snap set wekan mail-url='smtps://username@domain.com:password@smtp.gmail.com:465'
 sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
