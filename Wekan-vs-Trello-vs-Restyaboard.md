@@ -1,4 +1,8 @@
-Anyone, please feel free correct if there is anything wrong or outdated info below. Comparison below is based on info found at Restya website, and xet7's current info about Wekan, but because all these are actively developed then this comparison most likely goes outdated soon.
+## Please search ChangeLog instead
+
+Please [search ChangeLog page](https://github.com/wekan/wekan/blob/master/CHANGELOG.md) instead about does Wekan have some feature.
+
+This comparison below is over one year old and very outdated. All of Wekan/Trello/Restyaboard have changed very much and have many new features and fixes.
 
 ## Basic features
 
