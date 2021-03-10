@@ -15,7 +15,7 @@ Hosting | [Self-host or SaaS provider](https://github.com/wekan/wekan/wiki/Platf
 Features | Wekan | Trello | Restyaboard
 ------------ | ------------- | ------------- | -------------
 Activities fetch | WebSocket | WebSocket | Polling (Better, for easy scaling)
-Multiple language | Yes 52 | Yes 23 | Yes 38
+Multiple language | Yes 61 | Yes 29 | Yes 38
 Keyboard shortcuts | Yes | Yes | Yes
 Boards | Yes | Yes | Yes
 Closed boards listing | Yes, at Archive | Yes | Yes
