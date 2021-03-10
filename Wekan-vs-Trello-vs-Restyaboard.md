@@ -1,6 +1,6 @@
-## Please search ChangeLog instead
+## Please [search ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md) instead
 
-Please [search ChangeLog page](https://github.com/wekan/wekan/blob/master/CHANGELOG.md) instead about does Wekan have some feature.
+Please [search ChangeLog](https://github.com/wekan/wekan/blob/master/CHANGELOG.md) instead about does Wekan have some feature.
 
 This comparison below is over one year old and very outdated. All of Wekan/Trello/Restyaboard have changed very much and have many new features and fixes.
 
