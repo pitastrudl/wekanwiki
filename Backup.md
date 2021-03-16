@@ -352,6 +352,8 @@ mongorestore --drop --port 27019
 mongoshell.sh
 ```bash
 #/bin/bash
+export LC_ALL=C
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
 version=$(snap list | grep wekan | awk -F ' ' '{print $3}')
 mongo=$"/snap/wekan/$version/bin/mongo"
 $mongo --port 27019
