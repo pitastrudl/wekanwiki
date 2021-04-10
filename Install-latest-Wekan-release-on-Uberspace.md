@@ -1,3 +1,11 @@
+# NEWEST:
+
+[UberLab/Uberspace 7 Manual: Wekan](https://lab.uberspace.de/guide_wekan.html) - ([Source](https://github.com/wekan/wekan/issues/2009#issuecomment-817010524))
+
+***
+
+# OLD:
+
 **NOTE**:
 - [Newest Node/Mongo/Meteor versions](https://github.com/wekan/wekan/blob/master/Dockerfile).
 - For x64 wekan-VERSION.zip is at https://releases.wekan.team and some related install info https://github.com/wekan/wekan/wiki/Raspberry-Pi
