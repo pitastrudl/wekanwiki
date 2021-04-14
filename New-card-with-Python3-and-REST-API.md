@@ -31,4 +31,4 @@ Change these:
 - username (could be username or username@example.com)
 - Only works with password login admin user. Does not work with LDAP, OAuth2 etc.
 
-[Newest Wekan Python CLI api.py here](https://github.com/wekan/wekan/blob/master/api.py)
+[Newest Wekan Python CLI api.py here](https://raw.githubusercontent.com/wekan/wekan/master/api.py)
