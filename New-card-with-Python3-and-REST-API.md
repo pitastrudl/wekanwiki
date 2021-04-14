@@ -28,7 +28,7 @@ Below code works now, fixed at 2020-10-29.
 
 Change these:
 - wekanurl: https://boards.example.com => Your Wekan URL
-- username (could be username or username@example.com if OIDC/OAuth2 etc login)
-- password
+- username (could be username or username@example.com)
+- Only works with password login admin user. Does not work with LDAP, OAuth2 etc.
 
 [Newest Wekan Python CLI api.py here](https://github.com/wekan/wekan/blob/master/api.py)
