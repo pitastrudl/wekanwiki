@@ -3,13 +3,11 @@
 In [Wekan v5.02](https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v502-2021-03-02-wekan-release) is fix for STMP settings [that works with very happy feedback](https://github.com/wekan/wekan/issues/3529#issuecomment-789085999). It requires:
 - There is no email settings at Admin Panel anymore.
 - Email settings are made only with snap commands like `sudo snap set wekan mail-url....` or similar in Docker/Source etc `MAIL_URL=...`, more details below.
-- Also see [if you get SSLv3 error](#if-you-get-sslv3-protocol-error)
-- Also search this page for STARTTLS, for solutions related to STARTTLS
-
+- For any errors like SSLv3 and STARTTLS, check [newest AWS SES info](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail/_edit#example-aws-ses) and use similar settings:
 
 ## Special Characters
 
-**If you have special characters in username or password**, you need to urlencode them.
+**If you have special characters in username or password**, sometimes you need to urlencode them. Not for AWS SES.
 You can convert special characters of your password at https://www.url-encode-decode.com
 and copy converted characters to your password.
 
@@ -30,10 +28,48 @@ sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
 
 NOTE: At AWS SES settings, you don't need to convert special characters.
 
-With these, also set same settings at click your right top username / Admin Panel / Email, with TLS support enabled:
+1) At AWS SES, add verified sender email address, verified domain, verified DKIM etc.
+
+2) For your example.com domain for SPF purposes, add TXT record like this, where ip4:123.123.123.123 is your Wekan server IP address:
+
 ```
-sudo snap set wekan mail-url='smtps://username:password@email-smtp.eu-west-1.amazonaws.com:587'
-sudo snap set wekan mail-from='Wekan Team Boards <info@example.com>'
+@ TXT
+
+v=spf1 ip4:123.123.123.123 include:amazonses.com ~all
+```
+
+If you have other email services like Protonmail, Google Workplace, Outlook, SendGrid, and some other servers, it could look like this, please check your email provider to enable all settings:
+
+```
+v=spf1 include:_spf.protonmail.ch ip4:123.123.123.123 ip4:123.100.123.100 include:_spf.google.com include:spf.protection.outlook.com include:sendgrid.net include:amazonses.com ~all
+```
+
+3) At AWS SES, create new SMTP credentials for username like "AKIA..." and password, that you add directly to below. Do not modify or escape special characters.
+
+With AWS SMTP credentials:
+
+a) Wekan Snap
+```
+sudo snap set wekan mail-from='Wekan Boards <boards@example.com>'
+sudo snap set wekan mail-url='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
+```
+You see settings with:
+```
+sudo snap get wekan
+```
+b) Wekan Gantt GPLv2 Snap:
+```
+sudo snap set wekan-gantt-gpl mail-from='Wekan Boards <boards@example.com>'
+sudo snap set wekan-gantt-gpl mail-url='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
+```
+You see settings with:
+```
+sudo snap get wekan-gantt-gpl
+```
+c) Docker, Source, etc
+```
+MAIL_FROM='Wekan Boards <boards@example.com>'
+MAIL_URL='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
 ```
 
 ## Example: Gmail
