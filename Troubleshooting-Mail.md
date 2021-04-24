@@ -78,10 +78,10 @@ MAIL_URL='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={c
 
 This can be used for debugging on bash shell, does AWS SES work at all. Other shells work too, on Windows it requires installing openssl command.
 
-1) `password-to-base64.sh`
+1) `password-to-base64.sh` - converts AWS SES STMP credentials to base64 to be used at input.txt email content:
 ```
 echo -n "AKIA...." | openssl enc -base64
-echo -n "AKIA...." | openssl enc -base64
+echo -n "password-here...." | openssl enc -base64
 ```
 
 2) `input.txt` - change all to your domains, password, etc where is text `-here` below:
