@@ -72,6 +72,52 @@ MAIL_FROM='Wekan Boards <boards@example.com>'
 MAIL_URL='smtp://username:password@email-smtp.eu-west-1.amazonaws.com:587?tls={ciphers:"SSLv3"}&secureConnection=false'
 ```
 
+## Example: AWS SES sending email with command line
+
+[Source](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-smtp-client-command-line.html)
+
+This can be used for debugging on bash shell, does AWS SES work at all. Other shells work too, on Windows it requires installing openssl command.
+
+1) `password-to-base64.sh`
+```
+echo -n "AKIA...." | openssl enc -base64
+echo -n "AKIA...." | openssl enc -base64
+```
+
+2) `input.txt` - change all to your domains, password, etc where is text `-here` below:
+```
+EHLO example.com-here
+AUTH LOGIN
+base64-username-here
+base64-password-here
+MAIL FROM: boards@example.com-here
+RCPT TO: you@example.com-here
+DATA
+From: Wekan Boards-here <boards@example.com-here>
+To: you@example.com-here
+Subject: Amazon SES SMTP Test
+
+This message was sent using the Amazon SES SMTP interface.
+.
+QUIT
+```
+3a) `ses-send-email.sh` , with StartTLS:
+```
+openssl s_client -crlf -quiet -starttls smtp -connect email-smtp.eu-west-1.amazonaws.com:587 < input.txt
+```
+3b) `ses-send-email.sh`, with SSL:
+```
+openssl s_client -crlf -quiet -connect email-smtp.eu-west-1.amazonaws.com:465 < input.txt
+```
+4) Changing above `.sh` scripts to executeable:
+```
+chmod +x *.sh
+```
+Then you can run them like this:
+```
+./password-to-base64.sh
+```
+
 ## Example: Gmail
 [Source](https://github.com/wekan/wekan/issues/3529#issuecomment-792724239)
 ```
