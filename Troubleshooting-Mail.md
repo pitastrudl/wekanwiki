@@ -84,7 +84,8 @@ echo -n "AKIA...." | openssl enc -base64
 echo -n "password-here...." | openssl enc -base64
 ```
 
-2) `input.txt` - change all to your domains, password, etc where is text `-here` below:
+2) `input.txt` - change all to your domains, password, etc where is text `-here` below. NOTE: only at `From:` there is more detailed sender name, not elsewhere like `MAIL FROM:` etc.
+
 ```
 EHLO example.com-here
 AUTH LOGIN
