@@ -102,7 +102,7 @@ This message was sent using the Amazon SES SMTP interface.
 .
 QUIT
 ```
-3a) `ses-send-email.sh` , with StartTLS:
+3a) `ses-send-email.sh` , with STARTTLS:
 ```
 openssl s_client -crlf -quiet -starttls smtp -connect email-smtp.eu-west-1.amazonaws.com:587 < input.txt
 ```
