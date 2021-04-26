@@ -32,6 +32,7 @@ docker-compose stop
 docker rm wekan-app
 ```
 a) For example, if you in docker-compose.yml use `image: wekanteam/wekan` or `image: quay.io/wekan/wekan` for latest development version
+
 b) Or in docker-compose.yml change version tag, or use version tag like `image: wekanteam/wekan:v5.50` or `image: quay.io/wekan/wekan:v5.50`
 ```
 docker-compose up -d
