@@ -53,7 +53,7 @@ sudo snap start wekan.wekan
 ```
 Modify snap-settings.sh so that it has commands like:
 ```
-sudo snap set wekan root-url='http://localhost`
+sudo snap set wekan root-url='http://localhost'
 ```
 Set snap-settings.sh executeable:
 ```
@@ -88,7 +88,7 @@ sudo snap start wekan-gantt-gpl.wekan
 ```
 Modify snap-settings.sh so that it has command like:
 ```
-sudo snap set wekan-gantt-gpl root-url='http://localhost`
+sudo snap set wekan-gantt-gpl root-url='http://localhost'
 ```
 Set snap-settings.sh executeable:
 ```
