@@ -82,7 +82,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan-gantt-gpl/current/lib/x86_64
 export PATH="$PATH:/snap/wekan-gantt-gpl/current/bin"
 mongodump --port 27019
 sudo snap get wekan-gantt-gpl > snap-settings.sh
-# username is your /home/username
+```
+username is your /home/username
+```
 sudo chown username:username snap-settings.sh
 sudo snap start wekan-gantt-gpl.wekan
 ```
