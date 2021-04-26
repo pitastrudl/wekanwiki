@@ -1,5 +1,3 @@
-# Archive all Docker containers
-
 ```
 ssh ubuntu@oldserver.com
 cd repos/wekan
