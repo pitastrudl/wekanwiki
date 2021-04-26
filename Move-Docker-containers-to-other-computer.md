@@ -1,3 +1,35 @@
+# Archive all Docker containers
+
+```
+ssh ubuntu@oldserver.com
+cd repos/wekan
+sudo su
+docker-compose stop
+systemctl stop docker
+cd /var/lib
+tar cvpzf docker.tar.gz docker
+systemctl start docker
+scp docker.tar.gz root@newserver.com:/var/lib/
+exit
+exit
+```
+Then on new server restore:
+```
+ssh ubuntu@newserver.com
+sudo su
+systemctl stop docker
+cd /var/lib
+mv docker old-docker
+tar xpvzf docker.tar.gz
+systemctl start docker
+exit
+exit
+```
+
+***
+
+OLD INFO:
+
 This page is work in progress, and needs more details.
 
 1) If you have installed Wekan with Docker like at this page:
