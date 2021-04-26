@@ -11,11 +11,8 @@ docker-compose up -d
 Backup to directory dump:
 ```
 docker stop wekan-app
-docker exec -it wekan-db bash
-cd /data
-rm -rf dump
-mongodump
-exit
+docker exec wekan-db rm -rf /data/dump
+docker exec wekan-db mongodump -o /data/dump
 docker cp wekan-db:/data/dump .
 docker start wekan-app
 ```
@@ -24,11 +21,9 @@ Copy dump directory to other server or to your backup.
 # Restore Docker
 ```
 docker stop wekan-app
+docker exec wekan-db rm -rf /data/dump
 docker cp dump wekan-db:/data/
-docker exec -it wekan-db bash
-cd /data
-mongorestore --drop
-exit
+docker exec wekan-db mongorestore --drop --dir=/data/dump
 docker start wekan-app
 ```
 # Backup Wekan Snap to directory dump
@@ -38,7 +33,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
 export PATH="$PATH:/snap/wekan/current/bin"
 mongodump --port 27019
 sudo snap get wekan > snap-settings.sh
-# username is your /home/username
+```
+username is your /home/username
+```
 sudo chown username:username snap-settings.sh
 sudo snap start wekan.wekan
 ```
