@@ -39,7 +39,7 @@ username is your /home/username
 sudo chown username:username snap-settings.sh
 sudo snap start wekan.wekan
 ```
-Modify snap-settings.sh so that it has command like:
+Modify snap-settings.sh so that it has commands like:
 ```
 sudo snap set wekan root-url='http://localhost`
 ```
