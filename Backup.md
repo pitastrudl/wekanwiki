@@ -26,6 +26,17 @@ docker cp dump wekan-db:/data/
 docker exec wekan-db mongorestore --drop --dir=/data/dump
 docker start wekan-app
 ```
+# Upgrade Docker Wekan version
+```
+docker-compose stop
+docker rm wekan-app
+```
+a) For example, if you in docker-compose.yml use `image: wekanteam/wekan` or `image: quay.io/wekan/wekan` for latest development version
+b) Or in docker-compose.yml change version tag, or use version tag like `image: wekanteam/wekan:v5.50` or `image: quay.io/wekan/wekan:v5.50`
+```
+docker-compose up -d
+```
+
 # Backup Wekan Snap to directory dump
 ```
 sudo snap stop wekan.wekan
@@ -56,6 +67,11 @@ export PATH="$PATH:/snap/wekan/current/bin"
 mongorestore --drop --port 27019
 sudo snap start wekan.wekan
 ./snap-settings.sh
+```
+# Upgrade Snap manually immediately (usually it updates automatically)
+
+```
+sudo snap refresh
 ```
 
 # Backup Wekan Gantt GPLv2 Snap to directory dump
