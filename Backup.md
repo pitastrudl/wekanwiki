@@ -1,3 +1,96 @@
+# Backup Docker
+
+Note: Do not run `docker-compose down`, it does delete wekan-app and wekan-db containers with all data.
+
+[docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml)
+
+This presumes your Wekan Docker is currently running with:
+```
+docker-compose up -d
+```
+Backup to directory dump:
+```
+docker stop wekan-app
+docker exec -it wekan-db bash
+cd /data
+rm -rf dump
+mongodump
+exit
+docker cp wekan-db:/data/dump .
+docker start wekan-app
+```
+Copy dump directory to other server or to your backup.
+
+# Restore Docker
+```
+docker stop wekan-app
+docker cp dump wekan-db:/data/
+docker exec -it wekan-db bash
+cd /data
+mongorestore --drop
+exit
+docker start wekan-app
+```
+# Backup Wekan Snap to directory dump
+```
+sudo snap stop wekan.wekan
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
+export PATH="$PATH:/snap/wekan/current/bin"
+mongodump --port 27019
+sudo snap get wekan > snap-settings.sh
+# username is your /home/username
+sudo chown username:username snap-settings.sh
+sudo snap start wekan.wekan
+```
+Modify snap-settings.sh so that it has command like:
+```
+sudo snap set wekan root-url='http://localhost`
+```
+Set snap-settings.sh executeable:
+```
+chmod +x snap-settings.sh
+```
+
+# Restore Wekan Snap
+```
+sudo snap stop wekan.wekan
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
+export PATH="$PATH:/snap/wekan/current/bin"
+mongorestore --drop --port 27019
+sudo snap start wekan.wekan
+./snap-settings.sh
+```
+
+# Backup Wekan Gantt GPLv2 Snap to directory dump
+```
+sudo snap stop wekan-gantt-gpl.wekan
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan-gantt-gpl/current/lib/x86_64-linux-gnu
+export PATH="$PATH:/snap/wekan-gantt-gpl/current/bin"
+mongodump --port 27019
+sudo snap get wekan-gantt-gpl > snap-settings.sh
+# username is your /home/username
+sudo chown username:username snap-settings.sh
+sudo snap start wekan-gantt-gpl.wekan
+```
+Modify snap-settings.sh so that it has command like:
+```
+sudo snap set wekan-gantt-gpl root-url='http://localhost`
+```
+Set snap-settings.sh executeable:
+```
+chmod +x snap-settings.sh
+```
+
+# Restore Wekan Gantt GPLv2 Snap
+```
+sudo snap stop wekan-gantt-gpl.wekan
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan-gantt-gpl/current/lib/x86_64-linux-gnu
+export PATH="$PATH:/snap/wekan-gantt-gpl/current/bin"
+mongorestore --drop --port 27019
+sudo snap start wekan-gantt-gpl.wekan
+./snap-settings.sh
+```
+
 # Using nosqlbooster GUI with Wekan Snap to edit MongoDB database
 
 https://nosqlbooster.com/downloads
