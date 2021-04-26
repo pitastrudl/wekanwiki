@@ -1,3 +1,4 @@
+Copy all docker containers and data to new server, replacing all of docker on new server:
 ```
 ssh ubuntu@oldserver.com
 cd repos/wekan
