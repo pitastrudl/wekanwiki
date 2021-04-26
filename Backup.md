@@ -1,4 +1,4 @@
-[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm)- [Sandstorm Backup](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
+[Sandstorm](https://github.com/wekan/wekan/wiki/Sandstorm) - [Sandstorm Backup](https://github.com/wekan/wekan/wiki/Export-from-Wekan-Sandstorm-grain-.zip-file)
 
 # Backup Docker
 
