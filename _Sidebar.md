@@ -49,6 +49,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Active users Presence](https://github.com/wekan/wekan/issues/3734)
 * [Accounts Lockout: Brute force login protection](https://github.com/wekan/wekan/wiki/Accounts-Lockout)
 * [Custom Logo](https://github.com/wekan/wekan/wiki/Custom-Logo)
 * [Gantt Chart](https://github.com/wekan/wekan/wiki/Gantt)
@@ -60,7 +61,6 @@
 * [Templates](https://github.com/wekan/wekan/wiki/Templates)
 * [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
-* [Active users Presence](https://github.com/wekan/wekan/issues/3734)
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
 * [Keycloak](https://github.com/wekan/wekan/wiki/Keycloak)
 * [Google login](https://github.com/wekan/wekan/wiki/Google-login)
