@@ -49,7 +49,7 @@
 # <a name="Features"></a>Features
 
 * [Features](https://github.com/wekan/wekan/wiki/Features)
-* [n8n](https://docs.n8n.io/nodes/n8n-nodes-base.wekan/#example-usage)
+* [n8n](https://docs.n8n.io/nodes/n8n-nodes-base.wekan/#example-usage) - [n8n GitHub](https://github.com/n8n-io/n8n)
 * [Active users Presence](https://github.com/wekan/wekan/issues/3734)
 * [Accounts Lockout: Brute force login protection](https://github.com/wekan/wekan/wiki/Accounts-Lockout)
 * [Custom Logo](https://github.com/wekan/wekan/wiki/Custom-Logo)
