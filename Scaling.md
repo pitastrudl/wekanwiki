@@ -19,6 +19,11 @@ Minimum specs:
 - While it works, it's only for minimal usage.
 - Newer RasPi recommended for minimum use.
 
+
+***
+
+OLDER INFO:
+
 ## Story: MongoDB on bare metal
 
 From Tampa:
