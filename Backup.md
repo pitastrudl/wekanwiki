@@ -110,7 +110,11 @@ sudo snap start wekan-gantt-gpl.wekan
 ./snap-settings.sh
 ```
 
-# Using nosqlbooster GUI with Wekan Snap to edit MongoDB database
+# DBGate, Open Source MongoDB GUI
+
+https://dbgate.org - https://github.com/dbgate/dbgate
+
+# Using nosqlbooster closed source MongoDB GUI with Wekan Snap to edit MongoDB database
 
 https://nosqlbooster.com/downloads
 
