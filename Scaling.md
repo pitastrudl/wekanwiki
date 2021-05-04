@@ -1,4 +1,4 @@
-## Scaling [Wekan Snap](https://github.com/wekan/wekan-snap/wiki/Install)
+## Scaling [Wekan Snap with Automatic Updates](https://github.com/wekan/wekan-snap/wiki/Install)
 
 Recommended specs:
 
