@@ -6,7 +6,7 @@ Recommended specs:
 - NVME or SSD disk. Speed difference when opening Wekan board: SSD 2 seconds, HDD 5 minutes.
 - Minimum 60 GB total disk space, 40 GB free disk space, [Daily Backups](https://github.com/wekan/wekan/wiki/Backup) to elsewhere, monitoring and alerting if server has low disk space, because disk full causes database corruption.
 - Newest Ubuntu 64bit
-- 4GB RAM minimum. See with `free -h` is server is using any swap. If it is, have more RAM.
+- 4GB RAM minimum. See with `free -h` is server is using any swap. If it is, add more RAM.
 - some performance optimized CPUs/cores. 2 minimum, 4 is better. See with `nproc` how many CPUs you have. Look with `top` is server using max 100% CPUs, if it is, add higher performance optimized CPUs (or more CPUs). But if it looks like Wekan not using some of those added CPUs, then adding more CPUs is not useful.
 - Do not store attachments at database, like uploading file to card. Have markdown links to files, like `[Document](https://example.com/files/document.doc)`. Click `Wekan board` => `☰` => `⚙` => `Board Settings` => `Card Settings`. There uncheck `[_] Attachments` to hide attachments at card.
 - Click Wekan `Admin Panel / Settings / Accounts / Hide System Messages of All Users`. If someone needs to show system messages, they can click slider at opened card to show them. Sometime later, if many have manually enabled showing system messages, click that same button at Admin Panel again.
