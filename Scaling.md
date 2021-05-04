@@ -1,9 +1,9 @@
 ## Scaling Wekan Snap
 
-Recommeded specs:
+Recommeded specs (you could change them if you feel so):
 - Bare metal server (or VM on server that does not have oversubscription), for example [Fastest: UpCloud](https://upcloud.com), [Hetzner](https://www.hetzner.com/?country=en), [Packet](https://packet.com).
 - NVME or SSD disk. Speed difference when opening Wekan board: SSD 2 seconds, HDD 5 minutes.
-- Recommended (YMMV): Minimum 60 GB total disk space, 40 GB free disk space, [Daily Backups](https://github.com/wekan/wekan/wiki/Backup) to elsewhere, monitoring and alerting if server has low disk space, because disk full causes database corruption.
+- Minimum 60 GB total disk space, 40 GB free disk space, [Daily Backups](https://github.com/wekan/wekan/wiki/Backup) to elsewhere, monitoring and alerting if server has low disk space, because disk full causes database corruption.
 - Newest Ubuntu 64bit
 - 4GB RAM minimum. See with `free -h` is server is using any swap. If it is, have more RAM.
 - some performance optimized CPUs/cores. 2 minimum, 4 is better. See with `nproc` how many CPUs you have. Look with `top` is server using max 100% CPUs, if it is, add higher performance optimized CPUs (or more CPUs). But if it looks like Wekan not using some of those added CPUs, then adding more CPUs is not useful.
