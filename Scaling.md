@@ -23,7 +23,7 @@ Minimum specs:
 
 ## Alternatives
 
-At https://wekan.github.io / Download / Kubernetes or OpenShift
+At https://wekan.github.io / Download / Kubernetes or OpenShift, etc
 
 
 ***
