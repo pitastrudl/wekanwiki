@@ -22,7 +22,7 @@ Minimum specs:
 
 ***
 
-OLDER INFO:
+# OLD INFO:
 
 ## Story: MongoDB on bare metal
 
