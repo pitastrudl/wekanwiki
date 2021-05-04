@@ -21,6 +21,11 @@ Minimum specs:
 - Newer RasPi recommended for minimum use.
 
 
+## Alternatives
+
+At https://wekan.github.io / Download / Kubernetes or OpenShift
+
+
 ***
 
 # OLD INFO BELOW:
