@@ -1,6 +1,7 @@
 ## Scaling Wekan Snap
 
-Recommeded specs (you could change them if you feel so):
+Recommended specs:
+
 - Bare metal server (or VM on server that does not have oversubscription), for example [Fastest: UpCloud](https://upcloud.com), [Hetzner](https://www.hetzner.com/?country=en), [Packet](https://packet.com).
 - NVME or SSD disk. Speed difference when opening Wekan board: SSD 2 seconds, HDD 5 minutes.
 - Minimum 60 GB total disk space, 40 GB free disk space, [Daily Backups](https://github.com/wekan/wekan/wiki/Backup) to elsewhere, monitoring and alerting if server has low disk space, because disk full causes database corruption.
