@@ -13,7 +13,6 @@ Recommended specs:
 - Check Webhooks: Do you have `Admin Panel / Settings / Global Webhooks` (that sends most board actions to webhook) or at each board, per-board webhooks (that sends most one board actions to webhook, more info at [wiki right menu Webhooks](https://github.com/wekan/wekan/wiki)) at `Wekan board` => `☰` => `⚙` => `Outgoing Webhooks`. You also see this with [DBGate](https://github.com/wekan/wekan/wiki/Backup#dbgate-open-source-mongodb-gui) at port localhost:27019 / database: wekan / table: integrations. Each webhook should [immediately return 200 response before processing any data](https://github.com/wekan/wekan/issues/3575), because otherwise it will slow down Wekan a lot.
 - In future Wekan version will be added as default:
   - [Setting `NODE_OPTIONS: --max_old_space_size=4096`](https://github.com/wekan/wekan/issues/3585#issuecomment-782431177)
-  - [mongo `internalQueryExecMaxBlockingSortBytes` limit to 320 Mb](https://github.com/wekan/wekan/issues/3788#issuecomment-831743742)
 
 Minimum specs:
 - [RasPi3](https://github.com/wekan/wekan/wiki/Raspberry-Pi), 1 GB RAM, external SSD disk for Wekan and MongoDB.
