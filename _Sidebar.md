@@ -55,6 +55,8 @@
 
 # <a name="LoginAuth"></a>Login Auth
 
+* [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
+* [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
 * [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [Active users Presence](https://github.com/wekan/wekan/issues/3734)
 * [Accounts Lockout: Brute force login protection](https://github.com/wekan/wekan/wiki/Accounts-Lockout)
@@ -68,8 +70,6 @@
 * [Nextcloud](https://github.com/wekan/wekan/wiki/Nextcloud)
 * [CAS](https://github.com/wekan/wekan/wiki/CAS) Please test
 * [SAML](https://github.com/wekan/wekan/wiki/SAML) Please test
-* [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
-* [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
 
 # <a name="Integrations"></a>Integrations
 
