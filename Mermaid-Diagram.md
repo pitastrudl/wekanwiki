@@ -1,3 +1,5 @@
+[Original issue, please commment there if Mermaid is useful](https://github.com/wekan/wekan/issues/3794)
+
 ## Npm package
 
 - NPM package at https://www.npmjs.com/package/@liradb2000/markdown-it-mermaid
