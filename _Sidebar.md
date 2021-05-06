@@ -76,6 +76,7 @@
 * [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
 * [n8n Wekan docs](https://docs.n8n.io/nodes/n8n-nodes-base.wekan/#example-usage) - [n8n GitHub](https://github.com/n8n-io/n8n)
 * [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
+* [Gogs](https://github.com/wekan/wekan-gogs)
 
 # <a name="Time"></a>Time
 
