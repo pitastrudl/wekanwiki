@@ -8,7 +8,7 @@
 
 ## Howto
 
-- Add mermaid code to Wekan card or any other input field. After some time, if chart is not visible, reload Wekan webpage.
+- Add mermaid code to Wekan card or any other input field. After some time, if chart is not visible, reload browser webpage.
 - Mermaid code starts with `~~~mermaid`
 - Mermaid code ends with `~~~`
 
