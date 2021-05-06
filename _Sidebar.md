@@ -46,24 +46,18 @@
 * [Themes](https://github.com/wekan/wekan/wiki/Custom-CSS-themes)
 * [Dark Mode](https://github.com/wekan/wekan/wiki/Dark-Mode)
 
-# <a name="Features"></a>Features
+# <a name="MarkdownSyntax"></a>Markdown Syntax
 
-* [Features](https://github.com/wekan/wekan/wiki/Features)
-* [Scaling](https://github.com/wekan/wekan/wiki/Scaling)
-* [n8n Wekan docs](https://docs.n8n.io/nodes/n8n-nodes-base.wekan/#example-usage) - [n8n GitHub](https://github.com/n8n-io/n8n)
+* [Wekan Markdown](https://github.com/wekan/wekan/wiki/Wekan-Markdown)
+* [Emoji](https://github.com/wekan/wekan/wiki/Emoji)
+* [Mermaid Diagram](https://github.com/wekan/wekan/wiki/Mermaid-Diagram)
+* [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text)
+
+# <a name="LoginAuth"></a>Login Auth
+
+* [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [Active users Presence](https://github.com/wekan/wekan/issues/3734)
 * [Accounts Lockout: Brute force login protection](https://github.com/wekan/wekan/wiki/Accounts-Lockout)
-* [Custom Logo](https://github.com/wekan/wekan/wiki/Custom-Logo)
-* [Gantt Chart](https://github.com/wekan/wekan/wiki/Gantt)
-* [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
-* [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
-* [Mermaid Diagram](https://github.com/wekan/wekan/wiki/Mermaid-Diagram) etc syntax
-* [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text) syntax
-* [Time Tracking](https://github.com/wekan/wekan/wiki/Time-Tracking)
-* [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
-* [Templates](https://github.com/wekan/wekan/wiki/Templates)
-* [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
-* [Adding Users](https://github.com/wekan/wekan/wiki/Adding-users)
 * [LDAP](https://github.com/wekan/wekan/wiki/LDAP)
 * [Keycloak](https://github.com/wekan/wekan/wiki/Keycloak)
 * [Google login](https://github.com/wekan/wekan/wiki/Google-login)
@@ -74,31 +68,50 @@
 * [Nextcloud](https://github.com/wekan/wekan/wiki/Nextcloud)
 * [CAS](https://github.com/wekan/wekan/wiki/CAS) Please test
 * [SAML](https://github.com/wekan/wekan/wiki/SAML) Please test
-* [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
-* [Custom Fields](https://github.com/wekan/wekan/wiki/Custom-Fields)
-* [Due Date](https://github.com/wekan/wekan/wiki/Due-Date)
 * [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
-* [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
+* [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
+
+# <a name="Integrations"></a>Integrations
+
+* [IFTTT](https://github.com/wekan/wekan/wiki/IFTTT)
+* [n8n Wekan docs](https://docs.n8n.io/nodes/n8n-nodes-base.wekan/#example-usage) - [n8n GitHub](https://github.com/n8n-io/n8n)
+* [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
+
+# <a name="Time"></a>Time
+
+* [Time Tracking](https://github.com/wekan/wekan/wiki/Time-Tracking)
+* [Gantt Chart](https://github.com/wekan/wekan/wiki/Gantt)
+* [Due Date](https://github.com/wekan/wekan/wiki/Due-Date)
+
+
+# <a name="Features"></a>Features
+
 * [Translations](https://github.com/wekan/wekan/wiki/Translations)
 * [Roadmap](https://github.com/wekan/wekan/wiki/Roadmap)
+* [Features](https://github.com/wekan/wekan/wiki/Features)
+* [Scaling](https://github.com/wekan/wekan/wiki/Scaling)
+* [Custom Logo](https://github.com/wekan/wekan/wiki/Custom-Logo)
+* [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
+* [Templates](https://github.com/wekan/wekan/wiki/Templates)
+* [Archive and Delete](https://github.com/wekan/wekan/wiki/Archive-and-Delete)
+* [Custom Fields](https://github.com/wekan/wekan/wiki/Custom-Fields)
 * [Fix Export board menu not visible on some boards](https://github.com/wekan/wekan/issues/1060)
-* [Integrations](https://github.com/wekan/wekan/wiki/Integrations)
 * [RAM usage](https://github.com/wekan/wekan/issues/1088#issuecomment-311843230)
 * [Demo](https://wekan.indie.host/b/t2YaGmyXgNkppcFBq/wekan-fork-roadmap)
 * [Swimlane Documentation](https://github.com/wekan/wekan/wiki/Swimlanes)
-* [Wekan Markdown](https://github.com/wekan/wekan/wiki/Wekan-Markdown)
 
-# Email
+# <a name="Email"></a>Email
 
 * [Email](https://github.com/wekan/wekan/wiki/Troubleshooting-Mail)
 
-# Logs and Stats
+# <a name="Logs"></a>Logs and Stats
 
 * [Logs](https://github.com/wekan/wekan/wiki/Logs)
 * [Stats](https://github.com/wekan/wekan/wiki/Features#stats)
 
 # <a name="Settings"></a>Required Settings
 
+* [Requirements](https://github.com/wekan/wekan/wiki/Requirements)
 * [Ports, hostsfile, how Internet works](https://github.com/wekan/wekan/issues/2896)
 * [ROOT_URL Settings](https://github.com/wekan/wekan/wiki/Settings)
 
@@ -116,7 +129,7 @@
 * [TLS with Node.js](https://github.com/wekan/wekan/issues/916)
 * [Traefik and self-signed SSL certs](https://github.com/wekan/wekan/wiki/Traefik-and-self-signed-SSL-certs)
 
-# REST API Docs
+# <a name="API"></a>REST API Docs
 
 * [Login](https://github.com/wekan/wekan/wiki/REST-API)
 * [User](https://github.com/wekan/wekan/wiki/REST-API-User)
@@ -129,11 +142,11 @@
 * [Custom Fields](https://github.com/wekan/wekan/wiki/REST-API-Custom-Fields)
 * [Integrations](https://github.com/wekan/wekan/wiki/REST-API-Integrations)
 
-# REST API issue
+# <a name="api-issue"></a>REST API issue
 
 * [REST API Issue](https://github.com/wekan/wekan/issues/1037)
 
-# REST API client code
+# <a name="api-client-code"></a>REST API client code
 
 * [Example: New card with Python3 and REST API](https://github.com/wekan/wekan/wiki/New-card-with-Python3-and-REST-API)
 * [Python client to REST API](https://github.com/wekan/wekan-python-api-client)
@@ -141,7 +154,7 @@
 * [Wekan Sandstorm cards to CSV using Python](https://github.com/wekan/wekan/wiki/Wekan-Sandstorm-cards-to-CSV-using-Python)
 * [Excel and VBA](https://github.com/wekan/wekan/wiki/Excel-and-VBA)
 
-# Webhooks
+# <a name="Webhooks"></a>Webhooks
 
 * [Global Webhook](https://github.com/wekan/wekan/pull/2665)
 * [Limiting Webhook data](https://github.com/wekan/wekan/issues/2830)
