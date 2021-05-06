@@ -1,4 +1,7 @@
-[Original issue, please comment there if Mermaid is useful](https://github.com/wekan/wekan/issues/3794).
+## Source
+
+- [Original issue, please comment there if Mermaid is useful](https://github.com/wekan/wekan/issues/3794).
+- [Original commit](https://github.com/wekan/wekan/commit/5ab20a925763a3af941c42d1943da9c8bb8852bd)
 
 ## Npm package
 
