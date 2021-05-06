@@ -57,6 +57,7 @@
 * [Gantt Chart](https://github.com/wekan/wekan/wiki/Gantt)
 * [Admin: Impersonate user](https://github.com/wekan/wekan/wiki/Impersonate-user)
 * [Emoji](https://github.com/wekan/wekan/wiki/Emoji) etc syntax
+* [Mermaid Diagram](https://github.com/wekan/wekan/wiki/Mermaid-Diagram) etc syntax
 * [Numbered text](https://github.com/wekan/wekan/wiki/Numbered-text) syntax
 * [Time Tracking](https://github.com/wekan/wekan/wiki/Time-Tracking)
 * [Subtasks](https://github.com/wekan/wekan/wiki/Subtasks) <== Has fix
