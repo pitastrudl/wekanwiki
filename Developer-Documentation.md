@@ -6,6 +6,7 @@ Please read the meteor style guide before making any significant contribution.
 
 # Stories about how Wekan works, and developing Wekan
 
+- [How realtime board updates work](https://github.com/wekan/wekan/issues/3788#issuecomment-834649553)
 - [Mobile Web interface](https://github.com/wekan/wekan/issues/3566#issuecomment-778700604)
 - [How to add RTL support](https://github.com/wekan/wekan/issues/3376#issuecomment-766092425)
 - [How to code Part 1](https://blog.wekan.team/2019/04/howto-code-part-1-learning-to-learn/)
