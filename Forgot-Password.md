@@ -22,6 +22,7 @@ Then exit:
 ```
 exit
 ```
+Then login to Wekan and change any users passwords at `Admin Panel / People / People`.
 
 **b) Wekan Gantt GPL Snap**
 ```
@@ -45,6 +46,8 @@ Then exit:
 ```
 exit
 ```
+
+Then login to Wekan and change any users passwords at `Admin Panel / People / People`.
 
 **c) Use DBGate or Nosqlbooster** to edit wekan database users table to have admin true:
 - https://github.com/wekan/wekan/wiki/Backup#dbgate-open-source-mongodb-gui
@@ -73,6 +76,8 @@ Then exit:
 ```
 exit
 ```
+Then login to Wekan and change any users passwords at `Admin Panel / People / People`.
+
 More info:
 - https://github.com/wekan/wekan/wiki/Backup
 - https://github.com/wekan/wekan/wiki/Docker
