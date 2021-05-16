@@ -1,5 +1,7 @@
 ## Mac M1 arm64 Wekan development
 
+Instructions added 2021-05-15.
+
 1) Install rosetta:
 ```
 softwareupdate --install-rosetta --agree-to-license
