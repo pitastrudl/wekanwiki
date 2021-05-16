@@ -25,6 +25,8 @@ NameVirtualHost *:443
 ```
 ## 4) Set Apache proxy
 
+Remember to set ```- ROOT_URL=``` to the full URL used for your reverse proxy or as "ServerName". 
+
 ### a) Main URL
 
 SSL with [Certbot](https://certbot.eff.org).
@@ -54,6 +56,7 @@ Config at `/etc/apache2/sites-available/example.com.conf`:
 ```
 
 ### b) Sub URL
+Currently, favicon loading does not work with sub-url [wekan/issues/1692](https://github.com/wekan/wekan/issues/1692) 
 
 Config at `/etc/apache2/sites-available/example.com.conf`:
 
@@ -92,7 +95,7 @@ cd /etc/apache2/sites-enabled
 
 ln -s ../sites-available/example.com.conf example.com.conf
 ```
-On some distros Apache config is at different path:
+On some distributions, Apache config is at different path:
 ```
 cd /etc/httpd/conf.d
 ```
