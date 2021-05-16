@@ -2,6 +2,7 @@
 
 # <a name="General"></a>General
 
+* [Forgot Password](https://github.com/wekan/wekan/wiki/Forgot-Password)
 * [About](https://github.com/wekan/wekan/wiki)
 * [Test Edge](https://github.com/wekan/wekan/wiki/Test-Edge)
 * [FAQ](https://github.com/wekan/wekan/wiki/FAQ)
