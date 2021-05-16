@@ -1,4 +1,35 @@
-## Forgot Password
+## Snap
+
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
+export PATH="$PATH:/snap/wekan/current/bin"
+mongo --port 27019
+db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
+exit
+```
+Or you could use DBGate or Nosqlbooster to edit wekan database users table to have admin true:
+- https://github.com/wekan/wekan/wiki/Backup#dbgate-open-source-mongodb-gui
+- https://github.com/wekan/wekan/wiki/Forgot-Password
+
+## Docker 
+
+```
+docker exec -it wekan-db bash
+mongo
+use wekan
+db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
+exit
+exit
+```
+More info:
+- https://github.com/wekan/wekan/wiki/Backup
+- https://github.com/wekan/wekan/wiki/Docker
+
+
+***
+
+
+## OLD INFO BELOW:
 
 1) Download [Robo 3T](https://robomongo.org) on your Linux or Mac computer. Or, using ssh shell to server, [login to MongoDB database using mongo cli](https://github.com/wekan/wekan/wiki/Backup#mongodb-shell-on-wekan-snap)
 
