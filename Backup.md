@@ -2,7 +2,7 @@
 
 # Backup Docker
 
-Note: Do not run `docker-compose down`, it does delete wekan-app and wekan-db containers with all data.
+Note: Do not run `docker-compose down` without verifying your docker-compose file, it does not delete the data by default but caution is advised. Refer to https://docs.docker.com/compose/reference/down/.
 
 [docker-compose.yml](https://raw.githubusercontent.com/wekan/wekan/master/docker-compose.yml)
 
@@ -29,7 +29,7 @@ docker exec wekan-db mongorestore --drop --dir=/data/dump
 docker start wekan-app
 ```
 # Upgrade Docker Wekan version
-Note: Do not run `docker-compose down`, it does delete wekan-app and wekan-db containers with all data.
+Note: Do not run `docker-compose down` without verifying your docker-compose file, it does not delete the data by default but caution is advised. Refer to https://docs.docker.com/compose/reference/down/.
 ```
 docker-compose stop
 docker rm wekan-app
