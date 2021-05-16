@@ -18,6 +18,14 @@ Set some user as admin:
 ```
 db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
 ```
+Check are there any failed logins with wrong password, that brute force login prevention has denied login:
+```
+db.AccountsLockout.Connections.find()
+```
+If there are, delete all those login preventions:
+```
+db.AccountsLockout.Connections.deleteMany({})
+```
 Then exit:
 ```
 exit
@@ -41,6 +49,14 @@ db.users.find()
 Set some user as admin:
 ```
 db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
+```
+Check are there any failed logins with wrong password, that brute force login prevention has denied login:
+```
+db.AccountsLockout.Connections.find()
+```
+If there are, delete all those login preventions:
+```
+db.AccountsLockout.Connections.deleteMany({})
 ```
 Then exit:
 ```
@@ -71,6 +87,14 @@ db.users.find()
 Set some user as admin:
 ```
 db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
+```
+Check are there any failed logins with wrong password, that brute force login prevention has denied login:
+```
+db.AccountsLockout.Connections.find()
+```
+If there are, delete all those login preventions:
+```
+db.AccountsLockout.Connections.deleteMany({})
 ```
 Then exit:
 ```
