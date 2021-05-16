@@ -1,13 +1,52 @@
 ## Snap
 
+**a) Wekan Snap**
 ```
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan/current/lib/x86_64-linux-gnu
 export PATH="$PATH:/snap/wekan/current/bin"
 mongo --port 27019
+```
+If you have disabled new user registration at Admin Panel, you can enable it, and create new user your https://wekan.example.com/sign-up :
+```
+db.settings.update({},{$set: {"disableRegistration":false}})
+```
+Find what users there are:
+```
+db.users.find()
+```
+Set some user as admin:
+```
 db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
+```
+Then exit:
+```
 exit
 ```
-Or you could use DBGate or Nosqlbooster to edit wekan database users table to have admin true:
+
+**b) Wekan Gantt GPL Snap**
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/snap/wekan-gantt-gpl/current/lib/x86_64-linux-gnu
+export PATH="$PATH:/snap/wekan-gantt-gpl/current/bin"
+mongo --port 27019
+```
+If you have disabled new user registration at Admin Panel, you can enable it, and create new user your https://wekan.example.com/sign-up :
+```
+db.settings.update({},{$set: {"disableRegistration":false}})
+```
+Find what users there are:
+```
+db.users.find()
+```
+Set some user as admin:
+```
+db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
+```
+Then exit:
+```
+exit
+```
+
+**c) Use DBGate or Nosqlbooster** to edit wekan database users table to have admin true:
 - https://github.com/wekan/wekan/wiki/Backup#dbgate-open-source-mongodb-gui
 - https://github.com/wekan/wekan/wiki/Forgot-Password
 
@@ -17,14 +56,26 @@ Or you could use DBGate or Nosqlbooster to edit wekan database users table to ha
 docker exec -it wekan-db bash
 mongo
 use wekan
+```
+If you have disabled new user registration at Admin Panel, you can enable it, and create new user your https://wekan.example.com/sign-up :
+```
+db.settings.update({},{$set: {"disableRegistration":false}})
+```
+Find what users there are:
+```
+db.users.find()
+```
+Set some user as admin:
+```
 db.users.update({username:'admin-username-here'},{$set:{isAdmin:true}})
-exit
+```
+Then exit:
+```
 exit
 ```
 More info:
 - https://github.com/wekan/wekan/wiki/Backup
 - https://github.com/wekan/wekan/wiki/Docker
-
 
 ***
 
@@ -58,7 +109,7 @@ d) Backup, New install, Create User, Copy Password, Restore:
 
 1. [Backup Snap](https://github.com/wekan/wekan-snap/wiki/Backup-and-restore)
 2. stop wekan `sudo snap stop wekan.wekan`
-3a. Empty database by droppping wekan database in Mongo 3T
+3a. Empty database by dropping wekan database in Mongo 3T
 3b. Empty database in [mongo cli](mongo cli](https://github.com/wekan/wekan/wiki/Backup#mongodb-shell-on-wekan-snap):
 ```
 mongo --port 27019
