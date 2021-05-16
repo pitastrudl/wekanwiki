@@ -1,6 +1,21 @@
-## Mac M1 arm64 Wekan development
+<img src="https://wekan.github.io/wekan-logo.svg" width="20%" alt="Wekan logo" />
 
-Instructions added 2021-05-15.
+<img src="https://wekan.github.io/MacStadium-developerlogo.png" width="20%" alt="Powered by MacStadium" />
+
+## ChangeLog
+- Previously:
+  - Below info about Wekan on Mac x64
+  - [Wekan PWA on iOS Safari](https://github.com/wekan/wekan/wiki/PWA)
+  - Many mobile web fixes
+- 2021-05-14 Wekan maintainer [xet7](https://github.com/xet7) got donated hardware [OpenSource MacStadium](https://www.macstadium.com/opensource) access to Mac Mini M1 that has 16 GB RAM and 1 TB SSD.
+- 2021-05-15 xet7 bought Apple Developer access for 99 euro/year. Trying to figure out how to sign some test app for iPhone, did not get it working yet.
+- 2021-05-16 Instructions added below by xet7 about how to run Wekan Server Node.js/MongoDB for development on M1.
+- TODO:
+  - Trying to find out some way how to make macOS App Store and iOS iPhone/iPad App Store versions of Wekan.
+  - [Enable drag handles on iPad landscape mode automatically](https://github.com/wekan/wekan/issues/3755).
+
+
+## Mac M1 Wekan development
 
 1) Install rosetta:
 ```
